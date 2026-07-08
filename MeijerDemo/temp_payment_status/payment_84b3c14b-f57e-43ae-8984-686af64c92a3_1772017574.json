@@ -1,0 +1,1662 @@
+{
+  "session_id": "84b3c14b-f57e-43ae-8984-686af64c92a3",
+  "status": "success",
+  "created_at": "2026-02-25T16:36:14.182938",
+  "payment_data": {
+    "customer_id": "sanjeev5585@gmail.com",
+    "cart_items": [
+      {
+        "image_url": "images/200053.png",
+        "price": 1099.99,
+        "product_id": "200053",
+        "product_name": "Apple iPhone 16 Pro Max",
+        "quantity": 1,
+        "addedAt": "2026-02-25T11:05:01.741Z"
+      },
+      {
+        "image_url": "images/ADA200001.png",
+        "price": 9.99,
+        "product_id": "ADA200001",
+        "product_name": "Data Cable for Apple iPhone 16",
+        "quantity": 1,
+        "addedAt": "2026-02-25T11:05:52.989Z"
+      }
+    ],
+    "total_amount": 1109.98,
+    "chat_history": [
+      {
+        "id": "msg_0",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n                <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background: linear-gradient(135deg, #0070AD 0%, #00C9FF 100%); box-shadow: 0 0 15px rgba(0, 201, 255, 0.5);\">\n                  <i class=\"fas fa-robot text-white text-sm\"></i>\n                </div>\n                <div>\n                  <p class=\"font-medium text-gray-800\">Hello! I'm your AI shopping assistant powered by Capgemini.</p>\n                  <p class=\"text-gray-600 text-sm mt-1\">How can I help you find the perfect products today?</p>\n                  <p class=\"text-gray-500 text-xs mt-2 italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>\n                    Note: Your cart will be cleared when you refresh the page.\n                  </p>\n                  <p class=\"text-cyan-600 text-xs mt-1 font-medium\">\n                    <i class=\"fas fa-credit-card mr-1\"></i>\n                    Secure PayPal checkout available - your session will be maintained during payment!\n                  </p>\n                </div>\n              </div>",
+        "timestamp": "2026-02-25T11:06:14.172Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_1",
+        "sender": "user",
+        "message": "show me smartphone",
+        "timestamp": "2026-02-25T11:06:14.172Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_2",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"bg-gradient-to-br from-purple-50 via-white to-pink-50 rounded-3xl p-6 border border-purple-100\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs px-3 py-1 rounded-full\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white/70 backdrop-blur-sm rounded-full px-4 py-2 border border-purple-200 flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-purple-500 text-sm\"></i>\n                <span class=\"text-sm font-semibold text-purple-600\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1772017488364\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/200022.png\" alt=\"Apple iPhone 15\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Apple iPhone 15</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$1044.50</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/200053.png\" alt=\"Apple iPhone 16 Pro Max\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Apple iPhone 16 Pro Max</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$1099.99</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/200057.png\" alt=\"Apple iPhone 16 Plus\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Apple iPhone 16 Plus</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$949.99</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/200046.png\" alt=\"Nokia Nokia G42\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Nokia Nokia G42</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Nokia Nokia G42 \u2014 All\u2011day battery. Fast charging. Ideal for students.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$631.90</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/ACA200001.png\" alt=\"Case for Apple iPhone 16\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Case for Apple iPhone 16</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Protective case designed for Apple iPhone 16.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$19.99</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2026-02-25T11:06:14.173Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_3",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n    <div class=\"accessories-section bg-gradient-to-br from-purple-50 via-white to-pink-50 rounded-3xl p-6 mb-4 border-2 border-purple-200/50 shadow-xl\">\n      <!-- Header -->\n      <div class=\"flex items-center justify-between mb-6\">\n        <div class=\"flex items-center space-x-3\">\n          <div class=\"w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center shadow-lg\">\n            <i class=\"fas fa-puzzle-piece text-white text-lg\"></i>\n          </div>\n          <div>\n            <h3 class=\"text-xl font-bold text-gray-900\">Perfect Accessories for Apple iPhone 16 Pro Max</h3>\n            <p class=\"text-sm text-gray-600\">4 accessories available</p>\n          </div>\n        </div>\n      </div>\n  \n      <div class=\"category-group mb-6\">\n        <h4 class=\"text-lg font-bold text-gray-800 mb-4 flex items-center\">\n          <i class=\"fas fa-plug text-purple-600 mr-2\"></i>\n          Cables\n          <span class=\"ml-2 bg-purple-100 text-purple-600 text-xs px-2 py-1 rounded-full\">1</span>\n        </h4>\n        \n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4\">\n    \n        <div class=\"accessory-card bg-white rounded-2xl p-4 border-2 border-gray-200 hover:border-purple-400 transition-all duration-300 hover:shadow-lg group\">\n          <div class=\"flex items-start space-x-4\">\n            \n              <div class=\"flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-gray-100\">\n                <img src=\"images/ADA200001.png\" alt=\"Data Cable for Apple iPhone 16\" class=\"w-full h-full object-cover group-hover:scale-110 transition-transform duration-300\" onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\">\n                <div style=\"display:none;\" class=\"w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center\">\n                  <i class=\"fas fa-plug text-gray-400 text-2xl\"></i>\n                </div>\n              </div>\n            \n            <div class=\"flex-1 min-w-0\">\n              <h5 class=\"font-semibold text-gray-900 text-sm mb-1 group-hover:text-purple-600 transition-colors\">Data Cable for Apple iPhone 16</h5>\n              <p class=\"text-xs text-gray-500 mb-2\">Cables for Apple iPhone 16 Pro Max</p>\n              <div class=\"flex items-center justify-between mt-3\">\n                <span class=\"text-lg font-bold text-purple-600\">\u00a39.99</span>\n                <button  class=\"from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white text-xs px-4 py-2 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md\" title=\"Add to Cart\">\n                  <i class=\"fas fa-cart-plus mr-1\"></i> Add\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n        </div>\n      </div>\n    \n      <div class=\"category-group mb-6\">\n        <h4 class=\"text-lg font-bold text-gray-800 mb-4 flex items-center\">\n          <i class=\"fas fa-mobile-alt text-purple-600 mr-2\"></i>\n          Cases\n          <span class=\"ml-2 bg-purple-100 text-purple-600 text-xs px-2 py-1 rounded-full\">1</span>\n        </h4>\n        \n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4\">\n    \n        <div class=\"accessory-card bg-white rounded-2xl p-4 border-2 border-gray-200 hover:border-purple-400 transition-all duration-300 hover:shadow-lg group\">\n          <div class=\"flex items-start space-x-4\">\n            \n              <div class=\"flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-gray-100\">\n                <img src=\"images/ACA200009.png\" alt=\"Case for iPhone 16\" class=\"w-full h-full object-cover group-hover:scale-110 transition-transform duration-300\" onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\">\n                <div style=\"display:none;\" class=\"w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center\">\n                  <i class=\"fas fa-mobile-alt text-gray-400 text-2xl\"></i>\n                </div>\n              </div>\n            \n            <div class=\"flex-1 min-w-0\">\n              <h5 class=\"font-semibold text-gray-900 text-sm mb-1 group-hover:text-purple-600 transition-colors\">Case for iPhone 16</h5>\n              <p class=\"text-xs text-gray-500 mb-2\">Cases for Apple iPhone 16 Pro Max</p>\n              <div class=\"flex items-center justify-between mt-3\">\n                <span class=\"text-lg font-bold text-purple-600\">\u00a339.99</span>\n                <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white text-xs px-4 py-2 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md\" title=\"Add to Cart\">\n                  <i class=\"fas fa-cart-plus mr-1\"></i> Add\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n        </div>\n      </div>\n    \n      <div class=\"category-group mb-6\">\n        <h4 class=\"text-lg font-bold text-gray-800 mb-4 flex items-center\">\n          <i class=\"fas fa-charging-station text-purple-600 mr-2\"></i>\n          Chargers\n          <span class=\"ml-2 bg-purple-100 text-purple-600 text-xs px-2 py-1 rounded-full\">1</span>\n        </h4>\n        \n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4\">\n    \n        <div class=\"accessory-card bg-white rounded-2xl p-4 border-2 border-gray-200 hover:border-purple-400 transition-all duration-300 hover:shadow-lg group\">\n          <div class=\"flex items-start space-x-4\">\n            \n              <div class=\"flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-gray-100\">\n                <img src=\"images/ACH200001.png\" alt=\"Charger for Apple iPhone 16\" class=\"w-full h-full object-cover group-hover:scale-110 transition-transform duration-300\" onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\">\n                <div style=\"display:none;\" class=\"w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center\">\n                  <i class=\"fas fa-charging-station text-gray-400 text-2xl\"></i>\n                </div>\n              </div>\n            \n            <div class=\"flex-1 min-w-0\">\n              <h5 class=\"font-semibold text-gray-900 text-sm mb-1 group-hover:text-purple-600 transition-colors\">Charger for Apple iPhone 16</h5>\n              <p class=\"text-xs text-gray-500 mb-2\">Chargers for Apple iPhone 16 Pro Max</p>\n              <div class=\"flex items-center justify-between mt-3\">\n                <span class=\"text-lg font-bold text-purple-600\">\u00a329.99</span>\n                <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white text-xs px-4 py-2 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md\" title=\"Add to Cart\">\n                  <i class=\"fas fa-cart-plus mr-1\"></i> Add\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n        </div>\n      </div>\n    \n      <div class=\"category-group mb-6\">\n        <h4 class=\"text-lg font-bold text-gray-800 mb-4 flex items-center\">\n          <i class=\"fas fa-headphones text-purple-600 mr-2\"></i>\n          Earphones\n          <span class=\"ml-2 bg-purple-100 text-purple-600 text-xs px-2 py-1 rounded-full\">1</span>\n        </h4>\n        \n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4\">\n    \n        <div class=\"accessory-card bg-white rounded-2xl p-4 border-2 border-gray-200 hover:border-purple-400 transition-all duration-300 hover:shadow-lg group\">\n          <div class=\"flex items-start space-x-4\">\n            \n              <div class=\"flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-gray-100\">\n                <img src=\"images/AEA200009.png\" alt=\"Earphones for iPhone 16\" class=\"w-full h-full object-cover group-hover:scale-110 transition-transform duration-300\" onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\">\n                <div style=\"display:none;\" class=\"w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center\">\n                  <i class=\"fas fa-headphones text-gray-400 text-2xl\"></i>\n                </div>\n              </div>\n            \n            <div class=\"flex-1 min-w-0\">\n              <h5 class=\"font-semibold text-gray-900 text-sm mb-1 group-hover:text-purple-600 transition-colors\">Earphones for iPhone 16</h5>\n              <p class=\"text-xs text-gray-500 mb-2\">Earphones for Apple iPhone 16 Pro Max</p>\n              <div class=\"flex items-center justify-between mt-3\">\n                <span class=\"text-lg font-bold text-purple-600\">\u00a3129.99</span>\n                <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white text-xs px-4 py-2 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md\" title=\"Add to Cart\">\n                  <i class=\"fas fa-cart-plus mr-1\"></i> Add\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n        </div>\n      </div>\n    </div>\n        </div>\n      </div>",
+        "timestamp": "2026-02-25T11:06:14.173Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_4",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2026-02-25T11:06:14.173Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_5",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n        <div class=\"bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4\" id=\"chat-cart-container\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart text-purple-500 mr-2\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold\" id=\"chat-cart-count\"><i class=\"fas fa-shopping-cart mr-1\"></i>2 items</div>\n            </div>\n            \n            <div id=\"chat-cart-items\" class=\"space-y-3 mb-4\">\n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3 flex-1\">\n          <img src=\"images/200053.png\" alt=\"Apple iPhone 16 Pro Max\" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1 min-w-0\">\n            <h4 class=\"font-semibold text-gray-800 text-sm truncate\">Apple iPhone 16 Pro Max</h4>\n            <p class=\"text-xs text-gray-500 mt-1\">1099.99 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 bg-purple-100 text-purple-800 rounded-full min-w-[2rem] text-center\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right ml-4\">\n          <p class=\"text-lg font-bold text-purple-600\">1099.99</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3 flex-1\">\n          <img src=\"images/ADA200001.png\" alt=\"Data Cable for Apple iPhone 16\" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1 min-w-0\">\n            <h4 class=\"font-semibold text-gray-800 text-sm truncate\">Data Cable for Apple iPhone 16</h4>\n            <p class=\"text-xs text-gray-500 mt-1\">9.99 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 bg-purple-100 text-purple-800 rounded-full min-w-[2rem] text-center\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right ml-4\">\n          <p class=\"text-lg font-bold text-purple-600\">9.99</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    </div>\n            \n            <div id=\"chat-cart-footer\" class=\"border-t border-purple-200 pt-4\">\n                <div class=\"flex items-center justify-between mb-4\">\n                    <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                    <span class=\"text-2xl font-bold text-purple-600\" id=\"chat-cart-total\">1109.98</span>\n                </div>\n                \n                <div class=\"text-center space-x-2\">\n                    <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-sync-alt mr-2\"></i>Refresh Cart\n                    </button>\n                    <button  class=\"bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-credit-card mr-2\"></i>Checkout\n                    </button>\n                </div>\n                \n                <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" onload=\"(function(){setTimeout(function(){if(typeof renderChatCart === &quot;function&quot;){console.log(&quot;\ud83d\uded2 Auto-triggering renderChatCart via image onload&quot;);renderChatCart();}},100);})()\" style=\"display:none;\">\n        \n        </div>\n      </div>",
+        "timestamp": "2026-02-25T11:06:14.173Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_6",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u00f0\u0178\u203a\u2019 <strong>Ready for Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Order Summary</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">2 items \u00e2\u20ac\u00a2 Total: 1109.98</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9; margin-bottom: 15px;\">\n          \u00f0\u0178\u201c\u00a6 2 items in your cart<br>\n          \u00f0\u0178\u2019\u00b0 Total amount: 1109.98<br>\n          \u00f0\u0178\u201d\u2019 Secure PayPal payment\n        </div>\n        <div style=\"background: rgba(255,255,255,0.15); padding: 12px; border-radius: 8px; font-size: 14px; margin-top: 10px;\">\n          <strong>\u00e2\u0161\u00a1 Are you sure you want to proceed with the payment?</strong><br>\n          <span style=\"opacity: 0.9;\">Please reply with \"yes\" to confirm, or \"no\" to cancel.</span>\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-02-25T11:06:14.173Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_7",
+        "sender": "user",
+        "message": "yes",
+        "timestamp": "2026-02-25T11:06:14.173Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_8",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u00e2\u0153\u2026 <strong>Payment Confirmed!</strong><br><br>\n          <div style=\"background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 15px; border-radius: 12px; margin: 10px 0;\">\n            <div style=\"display: flex; align-items-center;\">\n              <i class=\"fas fa-check-circle\" style=\"font-size: 20px; margin-right: 10px;\"></i>\n              <div style=\"font-size: 14px;\">\n                Great! Processing your payment now. Opening PayPal gateway...\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>",
+        "timestamp": "2026-02-25T11:06:14.173Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_9",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u00f0\u0178\u203a\u2019 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Processing Payment</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">2 items \u00e2\u20ac\u00a2 Total: 1109.98</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u00e2\u0153\u00a8 Opening PayPal payment gateway...<br>\n          \u00f0\u0178\u201d\u2019 Secure payment processing<br>\n          \u00e2\u0161\u00a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-02-25T11:06:14.174Z",
+        "messageType": "html"
+      }
+    ],
+    "conversation_context": {
+      "session_id": "session_1771831168563_rltshqk00",
+      "conversation_history": [
+        {
+          "id": 1772015332228,
+          "timestamp": "2026-02-25T10:28:52.228Z",
+          "user": "show me iphone",
+          "ai": {
+            "ai_response": "Here are some iPhones:\n\n* **Apple iPhone 15**: Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students.\n* **Apple iPhone 13**: Apple iPhone 13 \u2014 Sleek design. 120Hz display. Ideal for creators.\n* **Apple iPhone 16 Plus**: Apple iPhone 16 Plus \u2014 Built for Apple Intelligence. Large display. Ideal for media consumption.\n* **Apple iPhone 16 Pro Max**: Apple iPhone 16 Pro Max \u2014 Built for Apple Intelligence. Pro performance. Ideal for professionals.\n* **Apple iPhone 14**: Apple iPhone 14 \u2014 All\u2011day battery. 5G ready. Ideal for creators.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200022.png",
+                "payment_plans": [],
+                "price": 1044.5,
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200001.png",
+                "payment_plans": [],
+                "price": 705.91,
+                "product_id": "200001",
+                "product_name": "Apple iPhone 13",
+                "summary": "Apple iPhone 13 \u2014 Sleek design. 120Hz display. Ideal for creators."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200057.png",
+                "payment_plans": [],
+                "price": 949.99,
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200053.png",
+                "payment_plans": [],
+                "price": 1099.99,
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200008.png",
+                "payment_plans": [],
+                "price": 1164.81,
+                "product_id": "200008",
+                "product_name": "Apple iPhone 14",
+                "summary": "Apple iPhone 14 \u2014 All\u2011day battery. 5G ready. Ideal for creators."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [
+              {
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "price": 1044.5,
+                "image_url": "images/200022.png",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "product_id": "200001",
+                "product_name": "Apple iPhone 13",
+                "price": 705.91,
+                "image_url": "images/200001.png",
+                "summary": "Apple iPhone 13 \u2014 Sleek design. 120Hz display. Ideal for creators."
+              },
+              {
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "price": 949.99,
+                "image_url": "images/200057.png",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "product_id": "200008",
+                "product_name": "Apple iPhone 14",
+                "price": 1164.81,
+                "image_url": "images/200008.png",
+                "summary": "Apple iPhone 14 \u2014 All\u2011day battery. 5G ready. Ideal for creators."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "price": 1044.5,
+                "image_url": "images/200022.png",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "product_id": "200001",
+                "product_name": "Apple iPhone 13",
+                "price": 705.91,
+                "image_url": "images/200001.png",
+                "summary": "Apple iPhone 13 \u2014 Sleek design. 120Hz display. Ideal for creators."
+              },
+              {
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "price": 949.99,
+                "image_url": "images/200057.png",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "product_id": "200008",
+                "product_name": "Apple iPhone 14",
+                "price": 1164.81,
+                "image_url": "images/200008.png",
+                "summary": "Apple iPhone 14 \u2014 All\u2011day battery. 5G ready. Ideal for creators."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-25T10:28:52.230Z"
+          }
+        },
+        {
+          "id": 1772015369879,
+          "timestamp": "2026-02-25T10:29:29.879Z",
+          "user": "any accessories of these",
+          "ai": {
+            "ai_response": "I found 8 accessories that perfectly complement , ,  and 2 more! These are curated matches from our database.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ADA200001.png",
+                "payment_plans": [],
+                "price": 9.99,
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "summary": "Cables for Apple iPhone 15"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ADA200001.png",
+                "payment_plans": [],
+                "price": 9.99,
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "summary": "Cables for Apple iPhone 13"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ADA200001.png",
+                "payment_plans": [],
+                "price": 9.99,
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "summary": "Cables for Apple iPhone 16 Pro Max"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ADA200001.png",
+                "payment_plans": [],
+                "price": 9.99,
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "summary": "Cables for Apple iPhone 14"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ACA200001.png",
+                "payment_plans": [],
+                "price": 19.99,
+                "product_id": "ACA200001",
+                "product_name": "Case for Apple iPhone 16",
+                "summary": "Cases for Apple iPhone 13"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/AEA200001.png",
+                "payment_plans": [],
+                "price": 24.99,
+                "product_id": "AEA200001",
+                "product_name": "Earphones for Apple iPhone 16",
+                "summary": "Earphones for Apple iPhone 13"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/AEA200001.png",
+                "payment_plans": [],
+                "price": 24.99,
+                "product_id": "AEA200001",
+                "product_name": "Earphones for Apple iPhone 16",
+                "summary": "Earphones for Apple iPhone 14"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ACH200001.png",
+                "payment_plans": [],
+                "price": 29.99,
+                "product_id": "ACH200001",
+                "product_name": "Charger for Apple iPhone 16",
+                "summary": "Chargers for Apple iPhone 15"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [
+              {
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "price": 9.99,
+                "image_url": "images/ADA200001.png",
+                "summary": "Cables for Apple iPhone 15"
+              },
+              {
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "price": 9.99,
+                "image_url": "images/ADA200001.png",
+                "summary": "Cables for Apple iPhone 13"
+              },
+              {
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "price": 9.99,
+                "image_url": "images/ADA200001.png",
+                "summary": "Cables for Apple iPhone 16 Pro Max"
+              },
+              {
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "price": 9.99,
+                "image_url": "images/ADA200001.png",
+                "summary": "Cables for Apple iPhone 14"
+              },
+              {
+                "product_id": "ACA200001",
+                "product_name": "Case for Apple iPhone 16",
+                "price": 19.99,
+                "image_url": "images/ACA200001.png",
+                "summary": "Cases for Apple iPhone 13"
+              },
+              {
+                "product_id": "AEA200001",
+                "product_name": "Earphones for Apple iPhone 16",
+                "price": 24.99,
+                "image_url": "images/AEA200001.png",
+                "summary": "Earphones for Apple iPhone 13"
+              },
+              {
+                "product_id": "AEA200001",
+                "product_name": "Earphones for Apple iPhone 16",
+                "price": 24.99,
+                "image_url": "images/AEA200001.png",
+                "summary": "Earphones for Apple iPhone 14"
+              },
+              {
+                "product_id": "ACH200001",
+                "product_name": "Charger for Apple iPhone 16",
+                "price": 29.99,
+                "image_url": "images/ACH200001.png",
+                "summary": "Chargers for Apple iPhone 15"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 8,
+            "enhanced_query": "Find accessories for these specific products: Apple iPhone 15, Apple iPhone 13, Apple iPhone 16 Plus, Apple iPhone 16 Pro Max, Apple iPhone 14. Product IDs: 200022, 200001, 200057, 200053, 200008. Original query: any accessories of these",
+            "displayed_products": [
+              {
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "price": 9.99,
+                "image_url": "images/ADA200001.png",
+                "summary": "Cables for Apple iPhone 15"
+              },
+              {
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "price": 9.99,
+                "image_url": "images/ADA200001.png",
+                "summary": "Cables for Apple iPhone 13"
+              },
+              {
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "price": 9.99,
+                "image_url": "images/ADA200001.png",
+                "summary": "Cables for Apple iPhone 16 Pro Max"
+              },
+              {
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "price": 9.99,
+                "image_url": "images/ADA200001.png",
+                "summary": "Cables for Apple iPhone 14"
+              },
+              {
+                "product_id": "ACA200001",
+                "product_name": "Case for Apple iPhone 16",
+                "price": 19.99,
+                "image_url": "images/ACA200001.png",
+                "summary": "Cases for Apple iPhone 13"
+              },
+              {
+                "product_id": "AEA200001",
+                "product_name": "Earphones for Apple iPhone 16",
+                "price": 24.99,
+                "image_url": "images/AEA200001.png",
+                "summary": "Earphones for Apple iPhone 13"
+              },
+              {
+                "product_id": "AEA200001",
+                "product_name": "Earphones for Apple iPhone 16",
+                "price": 24.99,
+                "image_url": "images/AEA200001.png",
+                "summary": "Earphones for Apple iPhone 14"
+              },
+              {
+                "product_id": "ACH200001",
+                "product_name": "Charger for Apple iPhone 16",
+                "price": 29.99,
+                "image_url": "images/ACH200001.png",
+                "summary": "Chargers for Apple iPhone 15"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-25T10:29:29.882Z"
+          }
+        },
+        {
+          "id": 1772015549191,
+          "timestamp": "2026-02-25T10:32:29.191Z",
+          "user": "show me latest iPhone",
+          "ai": {
+            "ai_response": "",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200022.png",
+                "payment_plans": [],
+                "price": 1044.5,
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200057.png",
+                "payment_plans": [],
+                "price": 949.99,
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200043.png",
+                "payment_plans": [],
+                "price": 1237.37,
+                "product_id": "200043",
+                "product_name": "Apple iPhone 17 pro",
+                "summary": "Apple iPhone 17 pro \u2014 Balanced for everyday use. 5G ready. Ideal for field workers."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200053.png",
+                "payment_plans": [],
+                "price": 1099.99,
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200008.png",
+                "payment_plans": [],
+                "price": 1164.81,
+                "product_id": "200008",
+                "product_name": "Apple iPhone 14",
+                "summary": "Apple iPhone 14 \u2014 All\u2011day battery. 5G ready. Ideal for creators."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [
+              {
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "price": 1044.5,
+                "image_url": "images/200022.png",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "price": 949.99,
+                "image_url": "images/200057.png",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "product_id": "200043",
+                "product_name": "Apple iPhone 17 pro",
+                "price": 1237.37,
+                "image_url": "images/200043.png",
+                "summary": "Apple iPhone 17 pro \u2014 Balanced for everyday use. 5G ready. Ideal for field workers."
+              },
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "product_id": "200008",
+                "product_name": "Apple iPhone 14",
+                "price": 1164.81,
+                "image_url": "images/200008.png",
+                "summary": "Apple iPhone 14 \u2014 All\u2011day battery. 5G ready. Ideal for creators."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "price": 1044.5,
+                "image_url": "images/200022.png",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "price": 949.99,
+                "image_url": "images/200057.png",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "product_id": "200043",
+                "product_name": "Apple iPhone 17 pro",
+                "price": 1237.37,
+                "image_url": "images/200043.png",
+                "summary": "Apple iPhone 17 pro \u2014 Balanced for everyday use. 5G ready. Ideal for field workers."
+              },
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "product_id": "200008",
+                "product_name": "Apple iPhone 14",
+                "price": 1164.81,
+                "image_url": "images/200008.png",
+                "summary": "Apple iPhone 14 \u2014 All\u2011day battery. 5G ready. Ideal for creators."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-25T10:32:29.196Z"
+          }
+        },
+        {
+          "id": 1772015570072,
+          "timestamp": "2026-02-25T10:32:50.072Z",
+          "user": "do you have any accessories for this",
+          "ai": {
+            "ai_response": "I found 8 accessories that perfectly complement , ,  and 2 more! These are curated matches from our database.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ADA200001.png",
+                "payment_plans": [],
+                "price": 9.99,
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "summary": "Cables for Apple iPhone 15"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ADA200001.png",
+                "payment_plans": [],
+                "price": 9.99,
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "summary": "Cables for Apple iPhone 16 Pro Max"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ADA200001.png",
+                "payment_plans": [],
+                "price": 9.99,
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "summary": "Cables for Apple iPhone 14"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/AEA200001.png",
+                "payment_plans": [],
+                "price": 24.99,
+                "product_id": "AEA200001",
+                "product_name": "Earphones for Apple iPhone 16",
+                "summary": "Earphones for Apple iPhone 14"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ACH200001.png",
+                "payment_plans": [],
+                "price": 29.99,
+                "product_id": "ACH200001",
+                "product_name": "Charger for Apple iPhone 16",
+                "summary": "Chargers for Apple iPhone 15"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ACH200001.png",
+                "payment_plans": [],
+                "price": 29.99,
+                "product_id": "ACH200001",
+                "product_name": "Charger for Apple iPhone 16",
+                "summary": "Chargers for Apple iPhone 16 Pro Max"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ACH200001.png",
+                "payment_plans": [],
+                "price": 29.99,
+                "product_id": "ACH200001",
+                "product_name": "Charger for Apple iPhone 16",
+                "summary": "Chargers for Apple iPhone 14"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ACA200009.png",
+                "payment_plans": [],
+                "price": 39.99,
+                "product_id": "ACA200009",
+                "product_name": "Case for iPhone 16",
+                "summary": "Cases for Apple iPhone 15"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [
+              {
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "price": 9.99,
+                "image_url": "images/ADA200001.png",
+                "summary": "Cables for Apple iPhone 15"
+              },
+              {
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "price": 9.99,
+                "image_url": "images/ADA200001.png",
+                "summary": "Cables for Apple iPhone 16 Pro Max"
+              },
+              {
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "price": 9.99,
+                "image_url": "images/ADA200001.png",
+                "summary": "Cables for Apple iPhone 14"
+              },
+              {
+                "product_id": "AEA200001",
+                "product_name": "Earphones for Apple iPhone 16",
+                "price": 24.99,
+                "image_url": "images/AEA200001.png",
+                "summary": "Earphones for Apple iPhone 14"
+              },
+              {
+                "product_id": "ACH200001",
+                "product_name": "Charger for Apple iPhone 16",
+                "price": 29.99,
+                "image_url": "images/ACH200001.png",
+                "summary": "Chargers for Apple iPhone 15"
+              },
+              {
+                "product_id": "ACH200001",
+                "product_name": "Charger for Apple iPhone 16",
+                "price": 29.99,
+                "image_url": "images/ACH200001.png",
+                "summary": "Chargers for Apple iPhone 16 Pro Max"
+              },
+              {
+                "product_id": "ACH200001",
+                "product_name": "Charger for Apple iPhone 16",
+                "price": 29.99,
+                "image_url": "images/ACH200001.png",
+                "summary": "Chargers for Apple iPhone 14"
+              },
+              {
+                "product_id": "ACA200009",
+                "product_name": "Case for iPhone 16",
+                "price": 39.99,
+                "image_url": "images/ACA200009.png",
+                "summary": "Cases for Apple iPhone 15"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 8,
+            "enhanced_query": "Find accessories for these specific products: Apple iPhone 15, Apple iPhone 16 Plus, Apple iPhone 17 pro, Apple iPhone 16 Pro Max, Apple iPhone 14. Product IDs: 200022, 200057, 200043, 200053, 200008. Original query: do you have any accessories for this",
+            "displayed_products": [
+              {
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "price": 9.99,
+                "image_url": "images/ADA200001.png",
+                "summary": "Cables for Apple iPhone 15"
+              },
+              {
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "price": 9.99,
+                "image_url": "images/ADA200001.png",
+                "summary": "Cables for Apple iPhone 16 Pro Max"
+              },
+              {
+                "product_id": "ADA200001",
+                "product_name": "Data Cable for Apple iPhone 16",
+                "price": 9.99,
+                "image_url": "images/ADA200001.png",
+                "summary": "Cables for Apple iPhone 14"
+              },
+              {
+                "product_id": "AEA200001",
+                "product_name": "Earphones for Apple iPhone 16",
+                "price": 24.99,
+                "image_url": "images/AEA200001.png",
+                "summary": "Earphones for Apple iPhone 14"
+              },
+              {
+                "product_id": "ACH200001",
+                "product_name": "Charger for Apple iPhone 16",
+                "price": 29.99,
+                "image_url": "images/ACH200001.png",
+                "summary": "Chargers for Apple iPhone 15"
+              },
+              {
+                "product_id": "ACH200001",
+                "product_name": "Charger for Apple iPhone 16",
+                "price": 29.99,
+                "image_url": "images/ACH200001.png",
+                "summary": "Chargers for Apple iPhone 16 Pro Max"
+              },
+              {
+                "product_id": "ACH200001",
+                "product_name": "Charger for Apple iPhone 16",
+                "price": 29.99,
+                "image_url": "images/ACH200001.png",
+                "summary": "Chargers for Apple iPhone 14"
+              },
+              {
+                "product_id": "ACA200009",
+                "product_name": "Case for iPhone 16",
+                "price": 39.99,
+                "image_url": "images/ACA200009.png",
+                "summary": "Cases for Apple iPhone 15"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-25T10:32:50.074Z"
+          }
+        },
+        {
+          "id": 1772016205333,
+          "timestamp": "2026-02-25T10:43:25.333Z",
+          "user": "show me iphone",
+          "ai": {
+            "ai_response": "I found these iPhones for you:\n\n*   **Apple iPhone 15**\n    *   Summary: Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students.\n    *   Price: $1044.5\n*   **Apple iPhone 16 Pro Max**\n    *   Summary: Apple iPhone 16 Pro Max Built for Apple Intelligence. Pro performance. Ideal for professionals.\n    *   Price: $1099.99\n*   **Apple iPhone 16 Plus**\n    *   Summary: Apple iPhone 16 Plus Built for Apple Intelligence. Large display. Ideal for media consumption.\n    *   Price: $949.99\n*   **Apple iPhone 17 pro**\n    *   Summary: Apple iPhone 17 pro \u2014 Balanced for everyday use. 5G ready. Ideal for field workers.\n    *   Price: $1237.37\n*   **Apple iPhone 13**\n    *   Summary: Apple iPhone 13 \u2014 Sleek design. 120Hz display. Ideal for creators.\n    *   Price: $705.91\n\nWould you like to see accessories for any of these iPhones, or perhaps refine your search?",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200022.png",
+                "payment_plans": [],
+                "price": 1044.5,
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200053.png",
+                "payment_plans": [],
+                "price": 1099.99,
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200057.png",
+                "payment_plans": [],
+                "price": 949.99,
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200043.png",
+                "payment_plans": [],
+                "price": 1237.37,
+                "product_id": "200043",
+                "product_name": "Apple iPhone 17 pro",
+                "summary": "Apple iPhone 17 pro \u2014 Balanced for everyday use. 5G ready. Ideal for field workers."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200001.png",
+                "payment_plans": [],
+                "price": 705.91,
+                "product_id": "200001",
+                "product_name": "Apple iPhone 13",
+                "summary": "Apple iPhone 13 \u2014 Sleek design. 120Hz display. Ideal for creators."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [
+              {
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "price": 1044.5,
+                "image_url": "images/200022.png",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "price": 949.99,
+                "image_url": "images/200057.png",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "product_id": "200043",
+                "product_name": "Apple iPhone 17 pro",
+                "price": 1237.37,
+                "image_url": "images/200043.png",
+                "summary": "Apple iPhone 17 pro \u2014 Balanced for everyday use. 5G ready. Ideal for field workers."
+              },
+              {
+                "product_id": "200001",
+                "product_name": "Apple iPhone 13",
+                "price": 705.91,
+                "image_url": "images/200001.png",
+                "summary": "Apple iPhone 13 \u2014 Sleek design. 120Hz display. Ideal for creators."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "price": 1044.5,
+                "image_url": "images/200022.png",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "price": 949.99,
+                "image_url": "images/200057.png",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "product_id": "200043",
+                "product_name": "Apple iPhone 17 pro",
+                "price": 1237.37,
+                "image_url": "images/200043.png",
+                "summary": "Apple iPhone 17 pro \u2014 Balanced for everyday use. 5G ready. Ideal for field workers."
+              },
+              {
+                "product_id": "200001",
+                "product_name": "Apple iPhone 13",
+                "price": 705.91,
+                "image_url": "images/200001.png",
+                "summary": "Apple iPhone 13 \u2014 Sleek design. 120Hz display. Ideal for creators."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-25T10:43:25.336Z"
+          }
+        },
+        {
+          "id": 1772016221385,
+          "timestamp": "2026-02-25T10:43:41.385Z",
+          "user": "Show me detailed information about product 200053",
+          "ai": {
+            "ai_response": "The Apple iPhone 16 Pro Max is built for Apple Intelligence, offering pro performance and is ideal for professionals. It comes in 256GB, 512GB, and 1TB storage options. The 256GB model is available for $54.17/month for 24 months, the 512GB for $58.33/month for 24 months, and the 1TB for $62.50/month for 24 months. All variants are currently in stock.\n\nWould you like to know anything else about this phone, or perhaps see some accessories for it?",
+            "product_data": {
+              "PROMO_DESCRIPTION": "",
+              "PROMO_DISCOUNT_PERCENT": "",
+              "PROMO_TITLE": "",
+              "categories": [],
+              "image_url": "images/200053.png",
+              "payment_plans": [
+                {
+                  "due_today": 0,
+                  "duration_months": 24,
+                  "full_price": 1299.99,
+                  "monthly_payment": 54.17,
+                  "plan_id": "PLAN_200053_256",
+                  "product_id": "200053",
+                  "stock_status": "In stock",
+                  "variant_name": "256GB",
+                  "variant_order": 1
+                },
+                {
+                  "due_today": 0,
+                  "duration_months": 24,
+                  "full_price": 1399.99,
+                  "monthly_payment": 58.33,
+                  "plan_id": "PLAN_200053_512",
+                  "product_id": "200053",
+                  "stock_status": "In stock",
+                  "variant_name": "512GB",
+                  "variant_order": 2
+                },
+                {
+                  "due_today": 0,
+                  "duration_months": 24,
+                  "full_price": 1499.99,
+                  "monthly_payment": 62.5,
+                  "plan_id": "PLAN_200053_1TB",
+                  "product_id": "200053",
+                  "stock_status": "In stock",
+                  "variant_name": "1TB",
+                  "variant_order": 3
+                }
+              ],
+              "price": 1099.99,
+              "product_id": "200053",
+              "product_name": "Apple iPhone 16 Pro Max",
+              "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+            },
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200053.png",
+                "payment_plans": [
+                  {
+                    "due_today": 0,
+                    "duration_months": 24,
+                    "full_price": 1299.99,
+                    "monthly_payment": 54.17,
+                    "plan_id": "PLAN_200053_256",
+                    "product_id": "200053",
+                    "stock_status": "In stock",
+                    "variant_name": "256GB",
+                    "variant_order": 1
+                  },
+                  {
+                    "due_today": 0,
+                    "duration_months": 24,
+                    "full_price": 1399.99,
+                    "monthly_payment": 58.33,
+                    "plan_id": "PLAN_200053_512",
+                    "product_id": "200053",
+                    "stock_status": "In stock",
+                    "variant_name": "512GB",
+                    "variant_order": 2
+                  },
+                  {
+                    "due_today": 0,
+                    "duration_months": 24,
+                    "full_price": 1499.99,
+                    "monthly_payment": 62.5,
+                    "plan_id": "PLAN_200053_1TB",
+                    "product_id": "200053",
+                    "stock_status": "In stock",
+                    "variant_name": "1TB",
+                    "variant_order": 3
+                  }
+                ],
+                "price": 1099.99,
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              }
+            ],
+            "response_type": "product"
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              }
+            ],
+            "response_type": "product",
+            "products_count": 1,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1772016257987,
+          "timestamp": "2026-02-25T10:44:17.987Z",
+          "user": "show iphone",
+          "ai": {
+            "response": "I found these iPhones for you:\n\n*   **Apple iPhone 15**\n    *   Summary: Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students.\n    *   Price: $1044.5\n*   **Apple iPhone 16 Pro Max**\n    *   Summary: Apple iPhone 16 Pro Max Built for Apple Intelligence. Pro performance. Ideal for professionals.\n    *   Price: $1099.99\n*   **Apple iPhone 16 Plus**\n    *   Summary: Apple iPhone 16 Plus Built for Apple Intelligence. Large display. Ideal for media consumption.\n    *   Price: $949.99\n*   **Apple iPhone 17 pro**\n    *   Summary: Apple iPhone 17 pro \u2014 Balanced for everyday use. 5G ready. Ideal for field workers.\n    *   Price: $1237.37\n*   **Apple iPhone 13**\n    *   Summary: Apple iPhone 13 \u2014 Sleek design. 120Hz display. Ideal for creators.\n    *   Price: $705.91\n\nWould you like to see accessories for any of these iPhones, or perhaps refine your search?\n        PRODUCT_CONTEXT_DATA: [{'product_id': '200022', 'product_name': 'Apple iPhone 15', 'summary': 'Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students.', 'price': 1044.5, 'image_url': 'images/200022.png', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': [], 'payment_plans': []}, {'product_id': '200053', 'product_name': 'Apple iPhone 16 Pro Max', 'summary': 'Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals.', 'price': 1099.99, 'image_url': 'images/200053.png', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': [], 'payment_plans': []}, {'product_id': '200057', 'product_name': 'Apple iPhone 16 Plus', 'summary': 'Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption.', 'price': 949.99, 'image_url': 'images/200057.png', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': [], 'payment_plans': []}, {'product_id': '200043', 'product_name': 'Apple iPhone 17 pro', 'summary': 'Apple iPhone 17 pro \u2014 Balanced for everyday use. 5G ready. Ideal for field workers.', 'price': 1237.37, 'image_url': 'images/200043.png', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': [], 'payment_plans': []}, {'product_id': '200001', 'product_name': 'Apple iPhone 13', 'summary': 'Apple iPhone 13 \u2014 Sleek design. 120Hz display. Ideal for creators.', 'price': 705.91, 'image_url': 'images/200001.png', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': [], 'payment_plans': []}]\n        \n        [STRUCTURED_PRODUCTS: [{\"product_id\": \"200022\", \"product_name\": \"Apple iPhone 15\", \"summary\": \"Apple iPhone 15 \\u2014 Great camera. 5G ready. Ideal for students.\", \"price\": 1044.5, \"image_url\": \"images/200022.png\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": [], \"payment_plans\": []}, {\"product_id\": \"200053\", \"product_name\": \"Apple iPhone 16 Pro Max\", \"summary\": \"Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals.\", \"price\": 1099.99, \"image_url\": \"images/200053.png\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": [], \"payment_plans\": []}, {\"product_id\": \"200057\", \"product_name\": \"Apple iPhone 16 Plus\", \"summary\": \"Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption.\", \"price\": 949.99, \"image_url\": \"images/200057.png\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": [], \"payment_plans\": []}, {\"product_id\": \"200043\", \"product_name\": \"Apple iPhone 17 pro\", \"summary\": \"Apple iPhone 17 pro \\u2014 Balanced for everyday use. 5G ready. Ideal for field workers.\", \"price\": 1237.37, \"image_url\": \"images/200043.png\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": [], \"payment_plans\": []}, {\"product_id\": \"200001\", \"product_name\": \"Apple iPhone 13\", \"summary\": \"Apple iPhone 13 \\u2014 Sleek design. 120Hz display. Ideal for creators.\", \"price\": 705.91, \"image_url\": \"images/200001.png\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": [], \"payment_plans\": []}]]\n        "
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1772016350076,
+          "timestamp": "2026-02-25T10:45:50.076Z",
+          "user": "show iphone",
+          "ai": {
+            "ai_response": "Here are some iPhones I found:\n\n*   **Apple iPhone 15**\n    Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students.\n*   **Apple iPhone 16 Pro Max**\n    Apple iPhone 16 Pro Max Built for Apple Intelligence. Pro performance. Ideal for professionals.\n*   **Apple iPhone 13**\n    Apple iPhone 13 \u2014 Sleek design. 120Hz display. Ideal for creators.\n*   **Apple iPhone 16 Plus**\n    Apple iPhone 16 Plus Built for Apple Intelligence. Large display. Ideal for media consumption.\n*   **Apple iPhone 17 Pro Max**\n    Apple iPhone 17 Pro Max Built for Apple Intelligence. Advanced camera. Ideal for everyone.\n\nWould you like to refine this search, or are you interested in accessories for these iPhones?",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200022.png",
+                "payment_plans": [],
+                "price": 1044.5,
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200053.png",
+                "payment_plans": [],
+                "price": 1099.99,
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200001.png",
+                "payment_plans": [],
+                "price": 705.91,
+                "product_id": "200001",
+                "product_name": "Apple iPhone 13",
+                "summary": "Apple iPhone 13 \u2014 Sleek design. 120Hz display. Ideal for creators."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200057.png",
+                "payment_plans": [],
+                "price": 949.99,
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200052.png",
+                "payment_plans": [],
+                "price": 1029.99,
+                "product_id": "200052",
+                "product_name": "Apple iPhone 17 Pro Max",
+                "summary": "Apple iPhone 17 Pro Max  Built for Apple Intelligence. Advanced camera. Ideal for everyone."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [
+              {
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "price": 1044.5,
+                "image_url": "images/200022.png",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "product_id": "200001",
+                "product_name": "Apple iPhone 13",
+                "price": 705.91,
+                "image_url": "images/200001.png",
+                "summary": "Apple iPhone 13 \u2014 Sleek design. 120Hz display. Ideal for creators."
+              },
+              {
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "price": 949.99,
+                "image_url": "images/200057.png",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "product_id": "200052",
+                "product_name": "Apple iPhone 17 Pro Max",
+                "price": 1029.99,
+                "image_url": "images/200052.png",
+                "summary": "Apple iPhone 17 Pro Max  Built for Apple Intelligence. Advanced camera. Ideal for everyone."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "price": 1044.5,
+                "image_url": "images/200022.png",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "product_id": "200001",
+                "product_name": "Apple iPhone 13",
+                "price": 705.91,
+                "image_url": "images/200001.png",
+                "summary": "Apple iPhone 13 \u2014 Sleek design. 120Hz display. Ideal for creators."
+              },
+              {
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "price": 949.99,
+                "image_url": "images/200057.png",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "product_id": "200052",
+                "product_name": "Apple iPhone 17 Pro Max",
+                "price": 1029.99,
+                "image_url": "images/200052.png",
+                "summary": "Apple iPhone 17 Pro Max  Built for Apple Intelligence. Advanced camera. Ideal for everyone."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-25T10:45:50.080Z"
+          }
+        },
+        {
+          "id": 1772017488362,
+          "timestamp": "2026-02-25T11:04:48.362Z",
+          "user": "show me smartphone",
+          "ai": {
+            "ai_response": "I found these smartphones for you:\n\n*   **Apple iPhone 15**\n    Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students.\n*   **Apple iPhone 16 Pro Max**\n    Apple iPhone 16 Pro Max Built for Apple Intelligence. Pro performance. Ideal for professionals.\n*   **Apple iPhone 16 Plus**\n    Apple iPhone 16 Plus Built for Apple Intelligence. Large display. Ideal for media consumption.\n*   **Nokia Nokia G42**\n    Nokia Nokia G42 \u2014 All\u2011day battery. Fast charging. Ideal for students.\n*   **Case for Apple iPhone 16**\n    Protective case designed for Apple iPhone 16.\n\nWould you like to refine your search or look for accessories?",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200022.png",
+                "payment_plans": [],
+                "price": 1044.5,
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200053.png",
+                "payment_plans": [],
+                "price": 1099.99,
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200057.png",
+                "payment_plans": [],
+                "price": 949.99,
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200046.png",
+                "payment_plans": [],
+                "price": 631.9,
+                "product_id": "200046",
+                "product_name": "Nokia Nokia G42",
+                "summary": "Nokia Nokia G42 \u2014 All\u2011day battery. Fast charging. Ideal for students."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ACA200001.png",
+                "payment_plans": [],
+                "price": 19.99,
+                "product_id": "ACA200001",
+                "product_name": "Case for Apple iPhone 16",
+                "summary": "Protective case designed for Apple iPhone 16."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [
+              {
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "price": 1044.5,
+                "image_url": "images/200022.png",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "price": 949.99,
+                "image_url": "images/200057.png",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "product_id": "200046",
+                "product_name": "Nokia Nokia G42",
+                "price": 631.9,
+                "image_url": "images/200046.png",
+                "summary": "Nokia Nokia G42 \u2014 All\u2011day battery. Fast charging. Ideal for students."
+              },
+              {
+                "product_id": "ACA200001",
+                "product_name": "Case for Apple iPhone 16",
+                "price": 19.99,
+                "image_url": "images/ACA200001.png",
+                "summary": "Protective case designed for Apple iPhone 16."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "price": 1044.5,
+                "image_url": "images/200022.png",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "price": 949.99,
+                "image_url": "images/200057.png",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "product_id": "200046",
+                "product_name": "Nokia Nokia G42",
+                "price": 631.9,
+                "image_url": "images/200046.png",
+                "summary": "Nokia Nokia G42 \u2014 All\u2011day battery. Fast charging. Ideal for students."
+              },
+              {
+                "product_id": "ACA200001",
+                "product_name": "Case for Apple iPhone 16",
+                "price": 19.99,
+                "image_url": "images/ACA200001.png",
+                "summary": "Protective case designed for Apple iPhone 16."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-25T11:04:48.364Z"
+          }
+        },
+        {
+          "id": 1772017562309,
+          "timestamp": "2026-02-25T11:06:02.309Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        }
+      ],
+      "last_products": [
+        {
+          "product_id": "200022",
+          "product_name": "Apple iPhone 15",
+          "price": 1044.5,
+          "image_url": "images/200022.png",
+          "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+        },
+        {
+          "product_id": "200053",
+          "product_name": "Apple iPhone 16 Pro Max",
+          "price": 1099.99,
+          "image_url": "images/200053.png",
+          "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+        },
+        {
+          "product_id": "200057",
+          "product_name": "Apple iPhone 16 Plus",
+          "price": 949.99,
+          "image_url": "images/200057.png",
+          "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+        },
+        {
+          "product_id": "200046",
+          "product_name": "Nokia Nokia G42",
+          "price": 631.9,
+          "image_url": "images/200046.png",
+          "summary": "Nokia Nokia G42 \u2014 All\u2011day battery. Fast charging. Ideal for students."
+        },
+        {
+          "product_id": "ACA200001",
+          "product_name": "Case for Apple iPhone 16",
+          "price": 19.99,
+          "image_url": "images/ACA200001.png",
+          "summary": "Protective case designed for Apple iPhone 16."
+        }
+      ],
+      "recent_displayed": [
+        {
+          "product_id": "200022",
+          "product_name": "Apple iPhone 15",
+          "price": 1044.5,
+          "image_url": "images/200022.png",
+          "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+        },
+        {
+          "product_id": "200053",
+          "product_name": "Apple iPhone 16 Pro Max",
+          "price": 1099.99,
+          "image_url": "images/200053.png",
+          "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+        },
+        {
+          "product_id": "200057",
+          "product_name": "Apple iPhone 16 Plus",
+          "price": 949.99,
+          "image_url": "images/200057.png",
+          "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+        },
+        {
+          "product_id": "200046",
+          "product_name": "Nokia Nokia G42",
+          "price": 631.9,
+          "image_url": "images/200046.png",
+          "summary": "Nokia Nokia G42 \u2014 All\u2011day battery. Fast charging. Ideal for students."
+        },
+        {
+          "product_id": "ACA200001",
+          "product_name": "Case for Apple iPhone 16",
+          "price": 19.99,
+          "image_url": "images/ACA200001.png",
+          "summary": "Protective case designed for Apple iPhone 16."
+        }
+      ],
+      "context": [
+        {
+          "user": "show iphone",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "200022",
+              "product_name": "Apple iPhone 15",
+              "price": 1044.5,
+              "image_url": "images/200022.png",
+              "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+            },
+            {
+              "product_id": "200053",
+              "product_name": "Apple iPhone 16 Pro Max",
+              "price": 1099.99,
+              "image_url": "images/200053.png",
+              "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+            },
+            {
+              "product_id": "200001",
+              "product_name": "Apple iPhone 13",
+              "price": 705.91,
+              "image_url": "images/200001.png",
+              "summary": "Apple iPhone 13 \u2014 Sleek design. 120Hz display. Ideal for creators."
+            },
+            {
+              "product_id": "200057",
+              "product_name": "Apple iPhone 16 Plus",
+              "price": 949.99,
+              "image_url": "images/200057.png",
+              "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+            },
+            {
+              "product_id": "200052",
+              "product_name": "Apple iPhone 17 Pro Max",
+              "price": 1029.99,
+              "image_url": "images/200052.png",
+              "summary": "Apple iPhone 17 Pro Max  Built for Apple Intelligence. Advanced camera. Ideal for everyone."
+            }
+          ],
+          "type": "products_list"
+        },
+        {
+          "user": "show me smartphone",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "200022",
+              "product_name": "Apple iPhone 15",
+              "price": 1044.5,
+              "image_url": "images/200022.png",
+              "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+            },
+            {
+              "product_id": "200053",
+              "product_name": "Apple iPhone 16 Pro Max",
+              "price": 1099.99,
+              "image_url": "images/200053.png",
+              "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+            },
+            {
+              "product_id": "200057",
+              "product_name": "Apple iPhone 16 Plus",
+              "price": 949.99,
+              "image_url": "images/200057.png",
+              "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+            },
+            {
+              "product_id": "200046",
+              "product_name": "Nokia Nokia G42",
+              "price": 631.9,
+              "image_url": "images/200046.png",
+              "summary": "Nokia Nokia G42 \u2014 All\u2011day battery. Fast charging. Ideal for students."
+            },
+            {
+              "product_id": "ACA200001",
+              "product_name": "Case for Apple iPhone 16",
+              "price": 19.99,
+              "image_url": "images/ACA200001.png",
+              "summary": "Protective case designed for Apple iPhone 16."
+            }
+          ],
+          "type": "products_list"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": "2026-02-25T16:36:14.182650",
+    "session_id": "84b3c14b-f57e-43ae-8984-686af64c92a3"
+  },
+  "result": {
+    "payment_id": "PAYID-NGPNPKQ39W1044414569370W",
+    "payer_id": "YR6334H86TGYG",
+    "token": "EC-0Y925737JR2675906",
+    "order_result": {
+      "error": "Failed to create order: (301, 'unique constraint violated: Table(SAP_ORDERS_COMMERCE_2211_V2), Index(_SYS_TREE_CS_#220230_#0_#P0) with error: unique constraint violation for table H00::00F588CD78904954BA0FA8C9585A169F_8C04J77WXE7NPHALBEVGEC4AA_DT:SAP_ORDERS_COMMERCE_2211_V2$delta_1$en, key: ORDER_ID=3070 already exists as udiv=5; indexname=_SYS_TREE_CS_#220230_#0_#P0')"
+    },
+    "message": "Payment completed successfully!"
+  },
+  "updated_at": "2026-02-25T16:36:39.223983"
+}

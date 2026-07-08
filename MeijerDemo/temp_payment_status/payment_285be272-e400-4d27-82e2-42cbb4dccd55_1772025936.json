@@ -1,0 +1,1242 @@
+{
+  "session_id": "285be272-e400-4d27-82e2-42cbb4dccd55",
+  "status": "success",
+  "created_at": "2026-02-25T18:55:36.624926",
+  "payment_data": {
+    "customer_id": "sanjeev5585@gmail.com",
+    "cart_items": [
+      {
+        "image_url": "images/200053.png",
+        "price": 1099.99,
+        "product_id": "200053",
+        "product_name": "Apple iPhone 16 Pro Max",
+        "quantity": 1,
+        "addedAt": "2026-02-25T13:18:55.877Z"
+      }
+    ],
+    "total_amount": 1099.99,
+    "chat_history": [
+      {
+        "id": "msg_0",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n                <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background: linear-gradient(135deg, #0070AD 0%, #00C9FF 100%); box-shadow: 0 0 15px rgba(0, 201, 255, 0.5);\">\n                  <i class=\"fas fa-robot text-white text-sm\"></i>\n                </div>\n                <div>\n                  <p class=\"font-medium text-gray-800\">Hello! I'm your AI shopping assistant powered by Capgemini.</p>\n                  <p class=\"text-gray-600 text-sm mt-1\">How can I help you find the perfect products today?</p>\n                  <p class=\"text-gray-500 text-xs mt-2 italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>\n                    Note: Your cart will be cleared when you refresh the page.\n                  </p>\n                  <p class=\"text-cyan-600 text-xs mt-1 font-medium\">\n                    <i class=\"fas fa-credit-card mr-1\"></i>\n                    Secure PayPal checkout available - your session will be maintained during payment!\n                  </p>\n                </div>\n              </div>",
+        "timestamp": "2026-02-25T13:25:36.610Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_1",
+        "sender": "user",
+        "message": "I am planning to buy gift for my wife can you suggest some products",
+        "timestamp": "2026-02-25T13:25:36.610Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_2",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          Oh, how exciting! I'd absolutely love to help you find the perfect gift for your wife!\n\nWe have a fantastic selection of items that might be just the thing:\n\n*   **Smartphones:** Think the latest models with incredible cameras and lightning-fast performance!\n*   **Smartwatches:** Perfect for keeping track of fitness goals and staying connected in style.\n*   **Tablets:** Whether for work, reading, or streaming her favorite shows, a tablet is always a hit.\n*   **Accessories:** We've got everything from sleek phone cases and protective screen protectors to top-notch earbuds and reliable chargers to complement any tech.\n\nTo help me narrow it down, what kind of gift are you leaning towards for her?\n        </div>\n      </div>",
+        "timestamp": "2026-02-25T13:25:36.610Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_3",
+        "sender": "user",
+        "message": "greate show me smartphone",
+        "timestamp": "2026-02-25T13:25:36.610Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_4",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"bg-gradient-to-br from-purple-50 via-white to-pink-50 rounded-3xl p-6 border border-purple-100\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs px-3 py-1 rounded-full\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white/70 backdrop-blur-sm rounded-full px-4 py-2 border border-purple-200 flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-purple-500 text-sm\"></i>\n                <span class=\"text-sm font-semibold text-purple-600\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1772025475895\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/200022.png\" alt=\"Apple iPhone 15\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Apple iPhone 15</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$1044.50</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/200053.png\" alt=\"Apple iPhone 16 Pro Max\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Apple iPhone 16 Pro Max</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$1099.99</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/200057.png\" alt=\"Apple iPhone 16 Plus\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Apple iPhone 16 Plus</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$949.99</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/200046.png\" alt=\"Nokia Nokia G42\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Nokia Nokia G42</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Nokia Nokia G42 \u2014 All\u2011day battery. Fast charging. Ideal for students.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$631.90</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/ACA200001.png\" alt=\"Case for Apple iPhone 16\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Case for Apple iPhone 16</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Protective case designed for Apple iPhone 16.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$19.99</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2026-02-25T13:25:36.610Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_5",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n          <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n            <i class=\"fas fa-robot text-white text-sm\"></i>\n          </div>\n          <div class=\"flex-1\">\n            <p class=\"text-gray-800\">Login required to access this feature</p>\n          </div>\n        </div>",
+        "timestamp": "2026-02-25T13:25:36.610Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_6",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n    <div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; border-radius: 15px; margin: 10px 0; box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);\">\n      <div style=\"display: flex; align-items: center; margin-bottom: 20px;\">\n        <div style=\"background: rgba(255,255,255,0.2); border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-size: 24px;\">\n          \u00f0\u0178\u2018\u2039\n        </div>\n        <div>\n          <h3 style=\"margin: 0; font-size: 22px; font-weight: 700;\">Welcome back, Sanjeev Srivastava!</h3>\n          <p style=\"margin: 5px 0 0 0; font-size: 14px; opacity: 0.9;\">Your personalized shopping experience is ready</p>\n        </div>\n      </div>\n  \n      <div style=\"background: rgba(255,255,255,0.15); padding: 18px; border-radius: 12px; margin-top: 15px;\">\n        <h4 style=\"margin: 0 0 15px 0; font-size: 16px; font-weight: 600; display: flex; align-items: center;\">\n          <i class=\"fas fa-history\" style=\"margin-right: 8px;\"></i>\n          Your Recent Orders\n        </h4>\n    \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"images/200053.png\" alt=\"Apple iPhone 16 Pro Max\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Apple iPhone 16 Pro Max</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\u00f0\u0178\u201c\u2026 25 Feb 2026</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">1099.99</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#3070</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"images/AEA200002.png\" alt=\"Earphones for Samsung Galaxy S22\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Earphones for Samsung Galaxy S22</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\u00f0\u0178\u201c\u2026 23 Feb 2026</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">24.99</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#4857</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 0; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"images/200001.png\" alt=\"Apple iPhone 16\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Apple iPhone 16</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\u00f0\u0178\u201c\u2026 23 Feb 2026</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">1505.91</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#5523</div>\n          </div>\n        </div>\n      \n      </div>\n      <div style=\"margin-top: 15px; text-align: center; font-size: 13px; opacity: 0.9;\">\n        <i class=\"fas fa-info-circle\" style=\"margin-right: 5px;\"></i>\n        I've personalized your Trending Now section based on your purchase history!\n      </div>\n    \n    </div>\n  \n        </div>\n      </div>",
+        "timestamp": "2026-02-25T13:25:36.610Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_7",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n    <div class=\"accessories-section bg-gradient-to-br from-purple-50 via-white to-pink-50 rounded-3xl p-6 mb-4 border-2 border-purple-200/50 shadow-xl\">\n      <!-- Header -->\n      <div class=\"flex items-center justify-between mb-6\">\n        <div class=\"flex items-center space-x-3\">\n          <div class=\"w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center shadow-lg\">\n            <i class=\"fas fa-puzzle-piece text-white text-lg\"></i>\n          </div>\n          <div>\n            <h3 class=\"text-xl font-bold text-gray-900\">Perfect Accessories for Apple iPhone 16 Pro Max</h3>\n            <p class=\"text-sm text-gray-600\">4 accessories available</p>\n          </div>\n        </div>\n      </div>\n  \n      <div class=\"category-group mb-6\">\n        <h4 class=\"text-lg font-bold text-gray-800 mb-4 flex items-center\">\n          <i class=\"fas fa-plug text-purple-600 mr-2\"></i>\n          Cables\n          <span class=\"ml-2 bg-purple-100 text-purple-600 text-xs px-2 py-1 rounded-full\">1</span>\n        </h4>\n        \n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4\">\n    \n        <div class=\"accessory-card bg-white rounded-2xl p-4 border-2 border-gray-200 hover:border-purple-400 transition-all duration-300 hover:shadow-lg group\">\n          <div class=\"flex items-start space-x-4\">\n            \n              <div class=\"flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-gray-100\">\n                <img src=\"images/ADA200001.png\" alt=\"Data Cable for Apple iPhone 16\" class=\"w-full h-full object-cover group-hover:scale-110 transition-transform duration-300\" onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\">\n                <div style=\"display:none;\" class=\"w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center\">\n                  <i class=\"fas fa-plug text-gray-400 text-2xl\"></i>\n                </div>\n              </div>\n            \n            <div class=\"flex-1 min-w-0\">\n              <h5 class=\"font-semibold text-gray-900 text-sm mb-1 group-hover:text-purple-600 transition-colors\">Data Cable for Apple iPhone 16</h5>\n              <p class=\"text-xs text-gray-500 mb-2\">Cables for Apple iPhone 16 Pro Max</p>\n              <div class=\"flex items-center justify-between mt-3\">\n                <span class=\"text-lg font-bold text-purple-600\">\u00a39.99</span>\n                <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white text-xs px-4 py-2 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md\" title=\"Add to Cart\">\n                  <i class=\"fas fa-cart-plus mr-1\"></i> Add\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n        </div>\n      </div>\n    \n      <div class=\"category-group mb-6\">\n        <h4 class=\"text-lg font-bold text-gray-800 mb-4 flex items-center\">\n          <i class=\"fas fa-mobile-alt text-purple-600 mr-2\"></i>\n          Cases\n          <span class=\"ml-2 bg-purple-100 text-purple-600 text-xs px-2 py-1 rounded-full\">1</span>\n        </h4>\n        \n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4\">\n    \n        <div class=\"accessory-card bg-white rounded-2xl p-4 border-2 border-gray-200 hover:border-purple-400 transition-all duration-300 hover:shadow-lg group\">\n          <div class=\"flex items-start space-x-4\">\n            \n              <div class=\"flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-gray-100\">\n                <img src=\"images/ACA200009.png\" alt=\"Case for iPhone 16\" class=\"w-full h-full object-cover group-hover:scale-110 transition-transform duration-300\" onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\">\n                <div style=\"display:none;\" class=\"w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center\">\n                  <i class=\"fas fa-mobile-alt text-gray-400 text-2xl\"></i>\n                </div>\n              </div>\n            \n            <div class=\"flex-1 min-w-0\">\n              <h5 class=\"font-semibold text-gray-900 text-sm mb-1 group-hover:text-purple-600 transition-colors\">Case for iPhone 16</h5>\n              <p class=\"text-xs text-gray-500 mb-2\">Cases for Apple iPhone 16 Pro Max</p>\n              <div class=\"flex items-center justify-between mt-3\">\n                <span class=\"text-lg font-bold text-purple-600\">\u00a339.99</span>\n                <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white text-xs px-4 py-2 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md\" title=\"Add to Cart\">\n                  <i class=\"fas fa-cart-plus mr-1\"></i> Add\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n        </div>\n      </div>\n    \n      <div class=\"category-group mb-6\">\n        <h4 class=\"text-lg font-bold text-gray-800 mb-4 flex items-center\">\n          <i class=\"fas fa-charging-station text-purple-600 mr-2\"></i>\n          Chargers\n          <span class=\"ml-2 bg-purple-100 text-purple-600 text-xs px-2 py-1 rounded-full\">1</span>\n        </h4>\n        \n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4\">\n    \n        <div class=\"accessory-card bg-white rounded-2xl p-4 border-2 border-gray-200 hover:border-purple-400 transition-all duration-300 hover:shadow-lg group\">\n          <div class=\"flex items-start space-x-4\">\n            \n              <div class=\"flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-gray-100\">\n                <img src=\"images/ACH200001.png\" alt=\"Charger for Apple iPhone 16\" class=\"w-full h-full object-cover group-hover:scale-110 transition-transform duration-300\" onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\">\n                <div style=\"display:none;\" class=\"w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center\">\n                  <i class=\"fas fa-charging-station text-gray-400 text-2xl\"></i>\n                </div>\n              </div>\n            \n            <div class=\"flex-1 min-w-0\">\n              <h5 class=\"font-semibold text-gray-900 text-sm mb-1 group-hover:text-purple-600 transition-colors\">Charger for Apple iPhone 16</h5>\n              <p class=\"text-xs text-gray-500 mb-2\">Chargers for Apple iPhone 16 Pro Max</p>\n              <div class=\"flex items-center justify-between mt-3\">\n                <span class=\"text-lg font-bold text-purple-600\">\u00a329.99</span>\n                <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white text-xs px-4 py-2 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md\" title=\"Add to Cart\">\n                  <i class=\"fas fa-cart-plus mr-1\"></i> Add\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n        </div>\n      </div>\n    \n      <div class=\"category-group mb-6\">\n        <h4 class=\"text-lg font-bold text-gray-800 mb-4 flex items-center\">\n          <i class=\"fas fa-headphones text-purple-600 mr-2\"></i>\n          Earphones\n          <span class=\"ml-2 bg-purple-100 text-purple-600 text-xs px-2 py-1 rounded-full\">1</span>\n        </h4>\n        \n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4\">\n    \n        <div class=\"accessory-card bg-white rounded-2xl p-4 border-2 border-gray-200 hover:border-purple-400 transition-all duration-300 hover:shadow-lg group\">\n          <div class=\"flex items-start space-x-4\">\n            \n              <div class=\"flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-gray-100\">\n                <img src=\"images/AEA200009.png\" alt=\"Earphones for iPhone 16\" class=\"w-full h-full object-cover group-hover:scale-110 transition-transform duration-300\" onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\">\n                <div style=\"display:none;\" class=\"w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center\">\n                  <i class=\"fas fa-headphones text-gray-400 text-2xl\"></i>\n                </div>\n              </div>\n            \n            <div class=\"flex-1 min-w-0\">\n              <h5 class=\"font-semibold text-gray-900 text-sm mb-1 group-hover:text-purple-600 transition-colors\">Earphones for iPhone 16</h5>\n              <p class=\"text-xs text-gray-500 mb-2\">Earphones for Apple iPhone 16 Pro Max</p>\n              <div class=\"flex items-center justify-between mt-3\">\n                <span class=\"text-lg font-bold text-purple-600\">\u00a3129.99</span>\n                <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white text-xs px-4 py-2 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md\" title=\"Add to Cart\">\n                  <i class=\"fas fa-cart-plus mr-1\"></i> Add\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n        </div>\n      </div>\n    </div>\n        </div>\n      </div>",
+        "timestamp": "2026-02-25T13:25:36.610Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_8",
+        "sender": "user",
+        "message": "show iPhone with 256gb plan",
+        "timestamp": "2026-02-25T13:25:36.610Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_9",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"bg-gradient-to-br from-purple-50 via-white to-pink-50 rounded-3xl p-6 border border-purple-100\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs px-3 py-1 rounded-full\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white/70 backdrop-blur-sm rounded-full px-4 py-2 border border-purple-200 flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-purple-500 text-sm\"></i>\n                <span class=\"text-sm font-semibold text-purple-600\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1772025622189\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\"  style=\"\">\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/200057.png\" alt=\"Apple iPhone 16 Plus\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Apple iPhone 16 Plus</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$949.99</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\"  style=\"\">\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/200053.png\" alt=\"Apple iPhone 16 Pro Max\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Apple iPhone 16 Pro Max</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$1099.99</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/200001.png\" alt=\"Apple iPhone 13\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Apple iPhone 13</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Apple iPhone 13 \u2014 Sleek design. 120Hz display. Ideal for creators.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$705.91</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/200022.png\" alt=\"Apple iPhone 15\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Apple iPhone 15</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$1044.50</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/200008.png\" alt=\"Apple iPhone 14\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Apple iPhone 14</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Apple iPhone 14 \u2014 All\u2011day battery. 5G ready. Ideal for creators.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$1164.81</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2026-02-25T13:25:36.611Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_10",
+        "sender": "user",
+        "message": "\u00f0\u0178\u201c\u00b1 Loading product details for 200057...",
+        "timestamp": "2026-02-25T13:25:36.611Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_11",
+        "sender": "user",
+        "message": "Show me detailed information about product 200057",
+        "timestamp": "2026-02-25T13:25:36.611Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_12",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n    <div class=\"detailed-product-view bg-gradient-to-br from-white via-purple-50 to-pink-50 rounded-3xl shadow-2xl overflow-hidden border border-purple-200/50 max-w-5xl mx-auto my-6\">\n      <!-- Product Header -->\n      <div class=\"bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 px-8 py-6 text-white\">\n        <div class=\"flex items-center justify-between\">\n          <div class=\"flex items-center space-x-4\">\n            <div class=\"w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center\">\n              <i class=\"fas fa-box-open text-white text-lg\"></i>\n            </div>\n            <div>\n              <h3 class=\"text-xl font-bold\">Product Details</h3>\n              <p class=\"text-sm opacity-90\">Complete product information</p>\n            </div>\n          </div>\n          <div class=\"flex items-center space-x-3\">\n            <div class=\"flex text-yellow-300\">\n              <i class=\"fas fa-star text-sm\"></i>\n              <i class=\"fas fa-star text-sm\"></i>\n              <i class=\"fas fa-star text-sm\"></i>\n              <i class=\"fas fa-star text-sm\"></i>\n              <i class=\"fas fa-star-half-alt text-sm\"></i>\n            </div>\n            <span class=\"text-sm font-medium opacity-90\">(4.5/5)</span>\n          </div>\n        </div>\n      </div>\n\n      <!-- Product Content -->\n      <div class=\"p-8\">\n        <div class=\"grid grid-cols-1 lg:grid-cols-2 gap-10 items-start\">\n          \n          <!-- Product Image Section -->\n          <div class=\"relative\">\n            <div class=\"relative overflow-hidden rounded-3xl shadow-2xl bg-gradient-to-br from-gray-50 to-gray-100 p-6\">\n              <img src=\"images/200057.png\" alt=\"Apple iPhone 16 Plus\" class=\"w-full h-96 object-cover rounded-2xl transition-all duration-500 hover:scale-105 shadow-lg\" onerror=\"this.src='https://via.placeholder.com/400x400/667eea/ffffff?text=No+Image'\">\n              <!-- Image Overlay Effects -->\n              <div class=\"absolute inset-6 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 rounded-2xl pointer-events-none\"></div>\n              \n              <!-- Product Badge -->\n              <div class=\"absolute top-8 left-8 bg-gradient-to-r from-green-500 to-emerald-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-xl backdrop-blur-sm\">\n                <i class=\"fas fa-check-circle mr-2\"></i>\n                Available\n              </div>\n              \n              <!-- Product ID Badge -->\n              <div class=\"absolute top-8 right-8 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1.5 shadow-lg\">\n                <span class=\"text-xs font-bold text-gray-600\">ID: 200057</span>\n              </div>\n              \n              <!-- Favorite Button -->\n              <div class=\"absolute bottom-8 right-8 bg-white/90 backdrop-blur-sm rounded-full p-3 shadow-xl hover:bg-white transition-all duration-300 cursor-pointer group hover:scale-110\">\n                <i class=\"fas fa-heart text-gray-400 group-hover:text-red-500 transition-colors duration-300 text-lg\"></i>\n              </div>\n            </div>\n            \n            <!-- Product Gallery Thumbnails -->\n            <div class=\"flex space-x-4 mt-6 justify-center\">\n              <div class=\"w-20 h-20 bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl cursor-pointer border-3 border-purple-500 shadow-lg flex items-center justify-center\">\n                <i class=\"fas fa-image text-purple-500 text-lg\"></i>\n              </div>\n              <div class=\"w-20 h-20 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl cursor-pointer hover:border-3 hover:border-purple-300 transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center opacity-60\">\n                <i class=\"fas fa-camera text-gray-400\"></i>\n              </div>\n              <div class=\"w-20 h-20 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl cursor-pointer hover:border-3 hover:border-purple-300 transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center opacity-60\">\n                <i class=\"fas fa-video text-gray-400\"></i>\n              </div>\n            </div>\n          </div>\n\n          <!-- Product Info Section -->\n          <div class=\"space-y-8\">\n            <!-- Product Title & Price -->\n            <div>\n              <div class=\"flex items-start justify-between mb-4\">\n                <div class=\"flex-1\">\n                  <h1 class=\"text-3xl lg:text-4xl font-bold text-gray-900 mb-2 leading-tight\">Apple iPhone 16 Plus</h1>\n                  <div class=\"flex items-center space-x-2 text-sm text-gray-500\">\n                    <span>Product ID: 200057</span>\n                    <span>\u00e2\u20ac\u00a2</span>\n                    <span class=\"text-green-600 font-medium\">In Stock</span>\n                  </div>\n                </div>\n              </div>\n              \n              <div class=\"bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200/50\">\n                <div class=\"flex items-center justify-between flex-wrap gap-4\">\n                  <div class=\"flex items-baseline space-x-4\">\n                    <span class=\"text-4xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600\">$949.99</span>\n                    <div class=\"flex flex-col\">\n                      <span class=\"text-lg text-gray-500 line-through\">$1139.99</span>\n                      <span class=\"bg-gradient-to-r from-red-500 to-pink-500 text-white text-sm px-3 py-1 rounded-full font-bold shadow-lg\">Save 17%</span>\n                    </div>\n                  </div>\n                  <div class=\"text-right\">\n                    <div class=\"text-sm text-gray-600\">Free shipping</div>\n                    <div class=\"text-sm text-green-600 font-medium\">\u00e2\u0153\u201c 30-day returns</div>\n                  </div>\n                </div>\n              </div>\n            </div>\n\n            <!-- Product Categories -->\n            <div>\n              <h4 class=\"text-lg font-semibold text-gray-900 mb-3 flex items-center\">\n                <i class=\"fas fa-tags text-purple-500 mr-2\"></i>\n                Categories\n              </h4>\n              <div class=\"flex flex-wrap gap-2\">\n                <span class=\"inline-block bg-gray-100 text-gray-600 text-xs px-3 py-1 rounded-full\">No categories</span>\n              </div>\n            </div>\n\n            <!-- Product Description -->\n            <div>\n              <h4 class=\"text-lg font-semibold text-gray-900 mb-3 flex items-center\">\n                <i class=\"fas fa-info-circle text-blue-500 mr-2\"></i>\n                Description\n              </h4>\n              <div class=\"bg-gray-50 rounded-2xl p-6 border border-gray-200\">\n                <p class=\"text-gray-700 leading-relaxed text-lg\">Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption.</p>\n              </div>\n            </div>\n\n            <!-- Product Features -->\n            <div>\n              <h4 class=\"text-lg font-semibold text-gray-900 mb-4 flex items-center\">\n                <i class=\"fas fa-star text-yellow-500 mr-2\"></i>\n                Key Features\n              </h4>\n              <div class=\"grid grid-cols-1 sm:grid-cols-2 gap-4\">\n                <div class=\"flex items-center space-x-3 p-3 bg-green-50 rounded-xl border border-green-200\">\n                  <i class=\"fas fa-check-circle text-green-500 text-lg\"></i>\n                  <span class=\"text-gray-700 font-medium\">Premium Quality</span>\n                </div>\n                <div class=\"flex items-center space-x-3 p-3 bg-blue-50 rounded-xl border border-blue-200\">\n                  <i class=\"fas fa-shipping-fast text-blue-500 text-lg\"></i>\n                  <span class=\"text-gray-700 font-medium\">Fast Delivery</span>\n                </div>\n                <div class=\"flex items-center space-x-3 p-3 bg-purple-50 rounded-xl border border-purple-200\">\n                  <i class=\"fas fa-undo text-purple-500 text-lg\"></i>\n                  <span class=\"text-gray-700 font-medium\">30-Day Returns</span>\n                </div>\n                <div class=\"flex items-center space-x-3 p-3 bg-orange-50 rounded-xl border border-orange-200\">\n                  <i class=\"fas fa-headset text-orange-500 text-lg\"></i>\n                  <span class=\"text-gray-700 font-medium\">24/7 Support</span>\n                </div>\n              </div>\n            </div>\n\n            <!-- Payment Plans Section (for mobile and watch products) -->\n            \n\n            <!-- Quantity Selector & Add to Cart -->\n            <div class=\"bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200/50\">\n              <div class=\"flex items-center space-x-4 mb-4\">\n                <div class=\"flex items-center space-x-3\">\n                  <label class=\"text-sm font-medium text-gray-700\">Quantity:</label>\n                  <div class=\"flex items-center bg-white rounded-xl border border-gray-300 shadow-sm\">\n                    <button class=\"px-3 py-2 text-gray-500 hover:text-purple-600 transition-colors duration-300\" >\n                      <i class=\"fas fa-minus text-sm\"></i>\n                    </button>\n                    <input type=\"number\" id=\"quantity-200057\" value=\"1\" min=\"1\" max=\"10\" class=\"w-16 text-center border-0 focus:outline-none focus:ring-0 py-2 text-sm font-medium text-gray-900\">\n                    <button class=\"px-3 py-2 text-gray-500 hover:text-purple-600 transition-colors duration-300\" >\n                      <i class=\"fas fa-plus text-sm\"></i>\n                    </button>\n                  </div>\n                </div>\n              </div>\n\n              <!-- Action Buttons -->\n              <div class=\"flex space-x-4\">\n                <button  class=\"flex-1 bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-4 px-6 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl flex items-center justify-center space-x-3 group\">\n                  <i class=\"fas fa-cart-plus text-xl group-hover:animate-pulse\"></i>\n                  <span>Add to Cart</span>\n                </button>\n                \n                <button class=\"bg-white hover:bg-gray-50 border-2 border-purple-300 text-purple-600 hover:text-purple-700 py-4 px-6 rounded-2xl font-bold transition-all duration-300 hover:shadow-lg flex items-center justify-center min-w-fit\" title=\"Add to Wishlist\">\n                  <i class=\"fas fa-heart text-xl\"></i>\n                </button>\n              </div>\n            </div>\n\n            <!-- Delivery Information -->\n            <div class=\"grid grid-cols-2 gap-4 text-sm\">\n              <div class=\"flex items-center space-x-3 p-3 bg-green-50 rounded-xl border border-green-200\">\n                <i class=\"fas fa-shipping-fast text-green-600 text-lg\"></i>\n                <div>\n                  <p class=\"font-medium text-green-800\">Free Delivery</p>\n                  <p class=\"text-green-600\">2-3 business days</p>\n                </div>\n              </div>\n              <div class=\"flex items-center space-x-3 p-3 bg-blue-50 rounded-xl border border-blue-200\">\n                <i class=\"fas fa-shield-alt text-blue-600 text-lg\"></i>\n                <div>\n                  <p class=\"font-medium text-blue-800\">Secure Payment</p>\n                  <p class=\"text-blue-600\">SSL Encrypted</p>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  \n        </div>\n      </div>",
+        "timestamp": "2026-02-25T13:25:36.611Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_13",
+        "sender": "user",
+        "message": "\u00f0\u0178\u201c\u00b1 Loading product details for 200053...",
+        "timestamp": "2026-02-25T13:25:36.611Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_14",
+        "sender": "user",
+        "message": "Show me detailed information about product 200053",
+        "timestamp": "2026-02-25T13:25:36.611Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_15",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n    <div class=\"detailed-product-view bg-gradient-to-br from-white via-purple-50 to-pink-50 rounded-3xl shadow-2xl overflow-hidden border border-purple-200/50 max-w-5xl mx-auto my-6\">\n      <!-- Product Header -->\n      <div class=\"bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 px-8 py-6 text-white\">\n        <div class=\"flex items-center justify-between\">\n          <div class=\"flex items-center space-x-4\">\n            <div class=\"w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center\">\n              <i class=\"fas fa-box-open text-white text-lg\"></i>\n            </div>\n            <div>\n              <h3 class=\"text-xl font-bold\">Product Details</h3>\n              <p class=\"text-sm opacity-90\">Complete product information</p>\n            </div>\n          </div>\n          <div class=\"flex items-center space-x-3\">\n            <div class=\"flex text-yellow-300\">\n              <i class=\"fas fa-star text-sm\"></i>\n              <i class=\"fas fa-star text-sm\"></i>\n              <i class=\"fas fa-star text-sm\"></i>\n              <i class=\"fas fa-star text-sm\"></i>\n              <i class=\"fas fa-star-half-alt text-sm\"></i>\n            </div>\n            <span class=\"text-sm font-medium opacity-90\">(4.5/5)</span>\n          </div>\n        </div>\n      </div>\n\n      <!-- Product Content -->\n      <div class=\"p-8\">\n        <div class=\"grid grid-cols-1 lg:grid-cols-2 gap-10 items-start\">\n          \n          <!-- Product Image Section -->\n          <div class=\"relative\">\n            <div class=\"relative overflow-hidden rounded-3xl shadow-2xl bg-gradient-to-br from-gray-50 to-gray-100 p-6\">\n              <img src=\"images/200053.png\" alt=\"Apple iPhone 16 Pro Max\" class=\"w-full h-96 object-cover rounded-2xl transition-all duration-500 hover:scale-105 shadow-lg\" onerror=\"this.src='https://via.placeholder.com/400x400/667eea/ffffff?text=No+Image'\">\n              <!-- Image Overlay Effects -->\n              <div class=\"absolute inset-6 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 rounded-2xl pointer-events-none\"></div>\n              \n              <!-- Product Badge -->\n              <div class=\"absolute top-8 left-8 bg-gradient-to-r from-green-500 to-emerald-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-xl backdrop-blur-sm\">\n                <i class=\"fas fa-check-circle mr-2\"></i>\n                Available\n              </div>\n              \n              <!-- Product ID Badge -->\n              <div class=\"absolute top-8 right-8 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1.5 shadow-lg\">\n                <span class=\"text-xs font-bold text-gray-600\">ID: 200053</span>\n              </div>\n              \n              <!-- Favorite Button -->\n              <div class=\"absolute bottom-8 right-8 bg-white/90 backdrop-blur-sm rounded-full p-3 shadow-xl hover:bg-white transition-all duration-300 cursor-pointer group hover:scale-110\">\n                <i class=\"fas fa-heart text-gray-400 group-hover:text-red-500 transition-colors duration-300 text-lg\"></i>\n              </div>\n            </div>\n            \n            <!-- Product Gallery Thumbnails -->\n            <div class=\"flex space-x-4 mt-6 justify-center\">\n              <div class=\"w-20 h-20 bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl cursor-pointer border-3 border-purple-500 shadow-lg flex items-center justify-center\">\n                <i class=\"fas fa-image text-purple-500 text-lg\"></i>\n              </div>\n              <div class=\"w-20 h-20 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl cursor-pointer hover:border-3 hover:border-purple-300 transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center opacity-60\">\n                <i class=\"fas fa-camera text-gray-400\"></i>\n              </div>\n              <div class=\"w-20 h-20 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl cursor-pointer hover:border-3 hover:border-purple-300 transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center opacity-60\">\n                <i class=\"fas fa-video text-gray-400\"></i>\n              </div>\n            </div>\n          </div>\n\n          <!-- Product Info Section -->\n          <div class=\"space-y-8\">\n            <!-- Product Title & Price -->\n            <div>\n              <div class=\"flex items-start justify-between mb-4\">\n                <div class=\"flex-1\">\n                  <h1 class=\"text-3xl lg:text-4xl font-bold text-gray-900 mb-2 leading-tight\">Apple iPhone 16 Pro Max</h1>\n                  <div class=\"flex items-center space-x-2 text-sm text-gray-500\">\n                    <span>Product ID: 200053</span>\n                    <span>\u00e2\u20ac\u00a2</span>\n                    <span class=\"text-green-600 font-medium\">In Stock</span>\n                  </div>\n                </div>\n              </div>\n              \n              <div class=\"bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200/50\">\n                <div class=\"flex items-center justify-between flex-wrap gap-4\">\n                  <div class=\"flex items-baseline space-x-4\">\n                    <span class=\"text-4xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600\">$1099.99</span>\n                    <div class=\"flex flex-col\">\n                      <span class=\"text-lg text-gray-500 line-through\">$1319.99</span>\n                      <span class=\"bg-gradient-to-r from-red-500 to-pink-500 text-white text-sm px-3 py-1 rounded-full font-bold shadow-lg\">Save 17%</span>\n                    </div>\n                  </div>\n                  <div class=\"text-right\">\n                    <div class=\"text-sm text-gray-600\">Free shipping</div>\n                    <div class=\"text-sm text-green-600 font-medium\">\u00e2\u0153\u201c 30-day returns</div>\n                  </div>\n                </div>\n              </div>\n            </div>\n\n            <!-- Product Categories -->\n            <div>\n              <h4 class=\"text-lg font-semibold text-gray-900 mb-3 flex items-center\">\n                <i class=\"fas fa-tags text-purple-500 mr-2\"></i>\n                Categories\n              </h4>\n              <div class=\"flex flex-wrap gap-2\">\n                <span class=\"inline-block bg-gray-100 text-gray-600 text-xs px-3 py-1 rounded-full\">No categories</span>\n              </div>\n            </div>\n\n            <!-- Product Description -->\n            <div>\n              <h4 class=\"text-lg font-semibold text-gray-900 mb-3 flex items-center\">\n                <i class=\"fas fa-info-circle text-blue-500 mr-2\"></i>\n                Description\n              </h4>\n              <div class=\"bg-gray-50 rounded-2xl p-6 border border-gray-200\">\n                <p class=\"text-gray-700 leading-relaxed text-lg\">Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals.</p>\n              </div>\n            </div>\n\n            <!-- Product Features -->\n            <div>\n              <h4 class=\"text-lg font-semibold text-gray-900 mb-4 flex items-center\">\n                <i class=\"fas fa-star text-yellow-500 mr-2\"></i>\n                Key Features\n              </h4>\n              <div class=\"grid grid-cols-1 sm:grid-cols-2 gap-4\">\n                <div class=\"flex items-center space-x-3 p-3 bg-green-50 rounded-xl border border-green-200\">\n                  <i class=\"fas fa-check-circle text-green-500 text-lg\"></i>\n                  <span class=\"text-gray-700 font-medium\">Premium Quality</span>\n                </div>\n                <div class=\"flex items-center space-x-3 p-3 bg-blue-50 rounded-xl border border-blue-200\">\n                  <i class=\"fas fa-shipping-fast text-blue-500 text-lg\"></i>\n                  <span class=\"text-gray-700 font-medium\">Fast Delivery</span>\n                </div>\n                <div class=\"flex items-center space-x-3 p-3 bg-purple-50 rounded-xl border border-purple-200\">\n                  <i class=\"fas fa-undo text-purple-500 text-lg\"></i>\n                  <span class=\"text-gray-700 font-medium\">30-Day Returns</span>\n                </div>\n                <div class=\"flex items-center space-x-3 p-3 bg-orange-50 rounded-xl border border-orange-200\">\n                  <i class=\"fas fa-headset text-orange-500 text-lg\"></i>\n                  <span class=\"text-gray-700 font-medium\">24/7 Support</span>\n                </div>\n              </div>\n            </div>\n\n            <!-- Payment Plans Section (for mobile and watch products) -->\n            \n      <div class=\"payment-plans mt-8 p-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl border border-purple-200\">\n        <h4 class=\"text-2xl font-bold text-gray-900 mb-4 flex items-center\">\n          <i class=\"fas fa-credit-card text-purple-600 mr-3\"></i>\n          Storage and Payment\n        </h4>\n        \n        \n        \n        <div class=\"payment-toggle flex gap-3 mb-6\">\n          <button class=\"toggle-btn flex-1 py-3 px-6 rounded-xl font-semibold transition-all duration-300 bg-black text-white border-2 border-black\" id=\"monthly-btn-plans-200053\" >\n            Pay monthly\n          </button>\n          <button class=\"toggle-btn flex-1 py-3 px-6 rounded-xl font-semibold transition-all duration-300 bg-gray-100 text-gray-700 border-2 border-gray-300 hover:bg-gray-200\" id=\"full-btn-plans-200053\" >\n            Pay in full\n          </button>\n        </div>\n        \n        <div class=\"plan-variants space-y-3\" id=\"variants-plans-200053\">\n          \n      <div class=\"plan-variant p-4 border border-gray-300 rounded-xl  hover:border-purple-400 transition-all duration-300 bg-white\">\n        <div class=\"flex justify-between items-center\">\n          <div class=\"variant-name text-lg font-semibold text-gray-900\">256GB</div>\n          <div class=\"text-right\">\n            <div class=\"monthly-payment text-xl font-bold text-purple-600\" id=\"price-plans-200053-0\">\n              $54.17/month\n            </div>\n            <div class=\"text-sm text-gray-600 mt-1\">for 24 months</div>\n            <div class=\"text-sm text-gray-600 mt-1\">Due today: <span class=\"font-medium\">$0.00</span></div>\n            <div class=\"text-xs text-gray-500 mt-1\">Full price: $1299.99 + tax</div>\n            <div class=\"stock-status text-sm font-medium mt-2 text-green-600\">\n              In stock\n            </div>\n          </div>\n        </div>\n      </div>\n    \n      <div class=\"plan-variant p-4 border border-gray-300 rounded-xl  hover:border-purple-400 transition-all duration-300 bg-white\">\n        <div class=\"flex justify-between items-center\">\n          <div class=\"variant-name text-lg font-semibold text-gray-900\">512GB</div>\n          <div class=\"text-right\">\n            <div class=\"monthly-payment text-xl font-bold text-purple-600\" id=\"price-plans-200053-1\">\n              $58.33/month\n            </div>\n            <div class=\"text-sm text-gray-600 mt-1\">for 24 months</div>\n            <div class=\"text-sm text-gray-600 mt-1\">Due today: <span class=\"font-medium\">$0.00</span></div>\n            <div class=\"text-xs text-gray-500 mt-1\">Full price: $1399.99 + tax</div>\n            <div class=\"stock-status text-sm font-medium mt-2 text-green-600\">\n              In stock\n            </div>\n          </div>\n        </div>\n      </div>\n    \n      <div class=\"plan-variant p-4 border border-gray-300 rounded-xl  hover:border-purple-400 transition-all duration-300 bg-white\">\n        <div class=\"flex justify-between items-center\">\n          <div class=\"variant-name text-lg font-semibold text-gray-900\">1TB</div>\n          <div class=\"text-right\">\n            <div class=\"monthly-payment text-xl font-bold text-purple-600\" id=\"price-plans-200053-2\">\n              $62.50/month\n            </div>\n            <div class=\"text-sm text-gray-600 mt-1\">for 24 months</div>\n            <div class=\"text-sm text-gray-600 mt-1\">Due today: <span class=\"font-medium\">$0.00</span></div>\n            <div class=\"text-xs text-gray-500 mt-1\">Full price: $1499.99 + tax</div>\n            <div class=\"stock-status text-sm font-medium mt-2 text-green-600\">\n              In stock\n            </div>\n          </div>\n        </div>\n      </div>\n    \n        </div>\n        \n        \n      </div>\n    \n\n            <!-- Quantity Selector & Add to Cart -->\n            <div class=\"bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200/50\">\n              <div class=\"flex items-center space-x-4 mb-4\">\n                <div class=\"flex items-center space-x-3\">\n                  <label class=\"text-sm font-medium text-gray-700\">Quantity:</label>\n                  <div class=\"flex items-center bg-white rounded-xl border border-gray-300 shadow-sm\">\n                    <button class=\"px-3 py-2 text-gray-500 hover:text-purple-600 transition-colors duration-300\" >\n                      <i class=\"fas fa-minus text-sm\"></i>\n                    </button>\n                    <input type=\"number\" id=\"quantity-200053\" value=\"1\" min=\"1\" max=\"10\" class=\"w-16 text-center border-0 focus:outline-none focus:ring-0 py-2 text-sm font-medium text-gray-900\">\n                    <button class=\"px-3 py-2 text-gray-500 hover:text-purple-600 transition-colors duration-300\" >\n                      <i class=\"fas fa-plus text-sm\"></i>\n                    </button>\n                  </div>\n                </div>\n              </div>\n\n              <!-- Action Buttons -->\n              <div class=\"flex space-x-4\">\n                <button  class=\"flex-1 bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-4 px-6 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl flex items-center justify-center space-x-3 group\">\n                  <i class=\"fas fa-cart-plus text-xl group-hover:animate-pulse\"></i>\n                  <span>Add to Cart</span>\n                </button>\n                \n                <button class=\"bg-white hover:bg-gray-50 border-2 border-purple-300 text-purple-600 hover:text-purple-700 py-4 px-6 rounded-2xl font-bold transition-all duration-300 hover:shadow-lg flex items-center justify-center min-w-fit\" title=\"Add to Wishlist\">\n                  <i class=\"fas fa-heart text-xl\"></i>\n                </button>\n              </div>\n            </div>\n\n            <!-- Delivery Information -->\n            <div class=\"grid grid-cols-2 gap-4 text-sm\">\n              <div class=\"flex items-center space-x-3 p-3 bg-green-50 rounded-xl border border-green-200\">\n                <i class=\"fas fa-shipping-fast text-green-600 text-lg\"></i>\n                <div>\n                  <p class=\"font-medium text-green-800\">Free Delivery</p>\n                  <p class=\"text-green-600\">2-3 business days</p>\n                </div>\n              </div>\n              <div class=\"flex items-center space-x-3 p-3 bg-blue-50 rounded-xl border border-blue-200\">\n                <i class=\"fas fa-shield-alt text-blue-600 text-lg\"></i>\n                <div>\n                  <p class=\"font-medium text-blue-800\">Secure Payment</p>\n                  <p class=\"text-blue-600\">SSL Encrypted</p>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  \n        </div>\n      </div>",
+        "timestamp": "2026-02-25T13:25:36.611Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_16",
+        "sender": "user",
+        "message": "mujhe kuchh smart watches dikhao",
+        "timestamp": "2026-02-25T13:25:36.611Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_17",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"bg-gradient-to-br from-purple-50 via-white to-pink-50 rounded-3xl p-6 border border-purple-100\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs px-3 py-1 rounded-full\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white/70 backdrop-blur-sm rounded-full px-4 py-2 border border-purple-200 flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-purple-500 text-sm\"></i>\n                <span class=\"text-sm font-semibold text-purple-600\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1772025776840\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/400012.png\" alt=\"Samsung Galaxy Watch8 44mm\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Samsung Galaxy Watch8 44mm</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Samsung Galaxy Watch8 44mm  Galaxy AI powered. Larger display. Ideal for fitness enthusiasts.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$429.99</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/400011.png\" alt=\"Samsung Galaxy Watch8 40mm\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Samsung Galaxy Watch8 40mm</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Samsung Galaxy Watch8 40mm  Galaxy AI powered. Premium health tracking. Ideal for fitness enthusiasts.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$399.99</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/400015.png\" alt=\"Apple Watch Series 10 42mm\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Apple Watch Series 10 42mm</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Apple Watch Series 10 42mm  Premium performance. Health monitoring. Ideal for professionals.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$449.99</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/400013.png\" alt=\"Samsung Galaxy Watch8 Classic 46mm\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Samsung Galaxy Watch8 Classic 46mm</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Samsung Galaxy Watch8 Classic 46mm  Galaxy AI powered. Classic rotating bezel. Ideal for professionals.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$549.99</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/400008.png\" alt=\"Apple Watch Series 10 46mm\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Apple Watch Series 10 46mm</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Apple Watch Series 10 46mm  Premium performance. Health monitoring. Ideal for professionals.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$449.99</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2026-02-25T13:25:36.611Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_18",
+        "sender": "user",
+        "message": "any accessories of these",
+        "timestamp": "2026-02-25T13:25:36.611Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_19",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"bg-gradient-to-br from-purple-50 via-white to-pink-50 rounded-3xl p-6 border border-purple-100\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center\">\n                <i class=\"fas fa-shopping-bag text-white\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-lg font-bold text-gray-800\">Product Results</h3>\n                <p class=\"text-sm text-gray-500\">2 items found</p>\n              </div>\n            </div>\n            <div class=\"bg-white/70 backdrop-blur-sm rounded-full px-4 py-2 border border-purple-200\">\n              <span class=\"text-sm font-semibold text-purple-600\">2 Products</span>\n            </div>\n          </div>\n          <div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center\">\n            \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/ACH400002.png\" alt=\"Charger for Samsung Galaxy Watch8\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Charger for Samsung Galaxy Watch8</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Chargers for Samsung Galaxy Watch8 44mm</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$24.99</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/ACH400002.png\" alt=\"Charger for Samsung Galaxy Watch8\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Charger for Samsung Galaxy Watch8</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Chargers for Samsung Galaxy Watch8 40mm</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$24.99</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2026-02-25T13:25:36.611Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_20",
+        "sender": "user",
+        "message": "to yah apni",
+        "timestamp": "2026-02-25T13:25:36.611Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_21",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          I'm sorry, I can't fulfill that request. It seems incomplete. Could you please provide more details or rephrase your query?\n        </div>\n      </div>",
+        "timestamp": "2026-02-25T13:25:36.611Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_22",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2026-02-25T13:25:36.611Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_23",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n        <div class=\"bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4\" id=\"chat-cart-container\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart text-purple-500 mr-2\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold\" id=\"chat-cart-count\"><i class=\"fas fa-shopping-cart mr-1\"></i>1 item</div>\n            </div>\n            \n            <div id=\"chat-cart-items\" class=\"space-y-3 mb-4\">\n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3 flex-1\">\n          <img src=\"images/200053.png\" alt=\"Apple iPhone 16 Pro Max\" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1 min-w-0\">\n            <h4 class=\"font-semibold text-gray-800 text-sm truncate\">Apple iPhone 16 Pro Max</h4>\n            <p class=\"text-xs text-gray-500 mt-1\">1099.99 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 bg-purple-100 text-purple-800 rounded-full min-w-[2rem] text-center\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right ml-4\">\n          <p class=\"text-lg font-bold text-purple-600\">1099.99</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    </div>\n            \n            <div id=\"chat-cart-footer\" class=\"border-t border-purple-200 pt-4\">\n                <div class=\"flex items-center justify-between mb-4\">\n                    <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                    <span class=\"text-2xl font-bold text-purple-600\" id=\"chat-cart-total\">1099.99</span>\n                </div>\n                \n                <div class=\"text-center space-x-2\">\n                    <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-sync-alt mr-2\"></i>Refresh Cart\n                    </button>\n                    <button  class=\"bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-credit-card mr-2\"></i>Checkout\n                    </button>\n                </div>\n                \n                <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" onload=\"(function(){setTimeout(function(){if(typeof renderChatCart === &quot;function&quot;){console.log(&quot;\ud83d\uded2 Auto-triggering renderChatCart via image onload&quot;);renderChatCart();}},100);})()\" style=\"display:none;\">\n        \n        </div>\n      </div>",
+        "timestamp": "2026-02-25T13:25:36.611Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_24",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u00f0\u0178\u203a\u2019 <strong>Ready for Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Order Summary</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u00e2\u20ac\u00a2 Total: 1099.99</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9; margin-bottom: 15px;\">\n          \u00f0\u0178\u201c\u00a6 1 item in your cart<br>\n          \u00f0\u0178\u2019\u00b0 Total amount: 1099.99<br>\n          \u00f0\u0178\u201d\u2019 Secure PayPal payment\n        </div>\n        <div style=\"background: rgba(255,255,255,0.15); padding: 12px; border-radius: 8px; font-size: 14px; margin-top: 10px;\">\n          <strong>\u00e2\u0161\u00a1 Are you sure you want to proceed with the payment?</strong><br>\n          <span style=\"opacity: 0.9;\">Please reply with \"yes\" to confirm, or \"no\" to cancel.</span>\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-02-25T13:25:36.611Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_25",
+        "sender": "user",
+        "message": "yes",
+        "timestamp": "2026-02-25T13:25:36.611Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_26",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u00e2\u0153\u2026 <strong>Payment Confirmed!</strong><br><br>\n          <div style=\"background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 15px; border-radius: 12px; margin: 10px 0;\">\n            <div style=\"display: flex; align-items-center;\">\n              <i class=\"fas fa-check-circle\" style=\"font-size: 20px; margin-right: 10px;\"></i>\n              <div style=\"font-size: 14px;\">\n                Great! Processing your payment now. Opening PayPal gateway...\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>",
+        "timestamp": "2026-02-25T13:25:36.611Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_27",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u00f0\u0178\u203a\u2019 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Processing Payment</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u00e2\u20ac\u00a2 Total: 1099.99</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u00e2\u0153\u00a8 Opening PayPal payment gateway...<br>\n          \u00f0\u0178\u201d\u2019 Secure payment processing<br>\n          \u00e2\u0161\u00a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-02-25T13:25:36.611Z",
+        "messageType": "html"
+      }
+    ],
+    "conversation_context": {
+      "session_id": "session_1771831168563_rltshqk00",
+      "conversation_history": [
+        {
+          "id": 1772024862113,
+          "timestamp": "2026-02-25T13:07:42.113Z",
+          "user": "Google smartphone",
+          "ai": {
+            "ai_response": "I found these Google smartphones:\n\n*   **Google Pixel 7**: All\u2011day battery. Fast charging. Ideal for students.\n*   **Google Pixel 7 Pro**: Sleek design. IP rating. Ideal for travelers.\n*   **Google Pixel 8**: All\u2011day battery. IP rating. Ideal for students.\n*   **Google Pixel 8a**: Rugged build. IP rating. Ideal for creators.\n*   **Google Pixel 8 Pro**: Powerful performance. IP rating. Ideal for students.\n\nWould you like to know more about any of these models?",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200005.png",
+                "payment_plans": [],
+                "price": 816.07,
+                "product_id": "200005",
+                "product_name": "Google Pixel 7",
+                "summary": "Google Pixel 7 \u2014 All\u2011day battery. Fast charging. Ideal for students."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200019.png",
+                "payment_plans": [],
+                "price": 750.91,
+                "product_id": "200019",
+                "product_name": "Google Pixel 7 Pro",
+                "summary": "Google Pixel 7 Pro \u2014 Sleek design. IP rating. Ideal for travelers."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200026.png",
+                "payment_plans": [],
+                "price": 356.35,
+                "product_id": "200026",
+                "product_name": "Google Pixel 8",
+                "summary": "Google Pixel 8 \u2014 All\u2011day battery. IP rating. Ideal for students."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200040.png",
+                "payment_plans": [],
+                "price": 614.59,
+                "product_id": "200040",
+                "product_name": "Google Pixel 8a",
+                "summary": "Google Pixel 8a \u2014 Rugged build. IP rating. Ideal for creators."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200033.png",
+                "payment_plans": [],
+                "price": 634.9,
+                "product_id": "200033",
+                "product_name": "Google Pixel 8 Pro",
+                "summary": "Google Pixel 8 Pro \u2014 Powerful performance. IP rating. Ideal for students."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [
+              {
+                "product_id": "200005",
+                "product_name": "Google Pixel 7",
+                "price": 816.07,
+                "image_url": "images/200005.png",
+                "summary": "Google Pixel 7 \u2014 All\u2011day battery. Fast charging. Ideal for students."
+              },
+              {
+                "product_id": "200019",
+                "product_name": "Google Pixel 7 Pro",
+                "price": 750.91,
+                "image_url": "images/200019.png",
+                "summary": "Google Pixel 7 Pro \u2014 Sleek design. IP rating. Ideal for travelers."
+              },
+              {
+                "product_id": "200026",
+                "product_name": "Google Pixel 8",
+                "price": 356.35,
+                "image_url": "images/200026.png",
+                "summary": "Google Pixel 8 \u2014 All\u2011day battery. IP rating. Ideal for students."
+              },
+              {
+                "product_id": "200040",
+                "product_name": "Google Pixel 8a",
+                "price": 614.59,
+                "image_url": "images/200040.png",
+                "summary": "Google Pixel 8a \u2014 Rugged build. IP rating. Ideal for creators."
+              },
+              {
+                "product_id": "200033",
+                "product_name": "Google Pixel 8 Pro",
+                "price": 634.9,
+                "image_url": "images/200033.png",
+                "summary": "Google Pixel 8 Pro \u2014 Powerful performance. IP rating. Ideal for students."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "200005",
+                "product_name": "Google Pixel 7",
+                "price": 816.07,
+                "image_url": "images/200005.png",
+                "summary": "Google Pixel 7 \u2014 All\u2011day battery. Fast charging. Ideal for students."
+              },
+              {
+                "product_id": "200019",
+                "product_name": "Google Pixel 7 Pro",
+                "price": 750.91,
+                "image_url": "images/200019.png",
+                "summary": "Google Pixel 7 Pro \u2014 Sleek design. IP rating. Ideal for travelers."
+              },
+              {
+                "product_id": "200026",
+                "product_name": "Google Pixel 8",
+                "price": 356.35,
+                "image_url": "images/200026.png",
+                "summary": "Google Pixel 8 \u2014 All\u2011day battery. IP rating. Ideal for students."
+              },
+              {
+                "product_id": "200040",
+                "product_name": "Google Pixel 8a",
+                "price": 614.59,
+                "image_url": "images/200040.png",
+                "summary": "Google Pixel 8a \u2014 Rugged build. IP rating. Ideal for creators."
+              },
+              {
+                "product_id": "200033",
+                "product_name": "Google Pixel 8 Pro",
+                "price": 634.9,
+                "image_url": "images/200033.png",
+                "summary": "Google Pixel 8 Pro \u2014 Powerful performance. IP rating. Ideal for students."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-25T13:07:42.115Z"
+          }
+        },
+        {
+          "id": 1772025436201,
+          "timestamp": "2026-02-25T13:17:16.201Z",
+          "user": "I am planning to buy gift for my wife can you suggest some products",
+          "ai": {
+            "response": "Oh, how exciting! I'd absolutely love to help you find the perfect gift for your wife!\n\nWe have a fantastic selection of items that might be just the thing:\n\n*   **Smartphones:** Think the latest models with incredible cameras and lightning-fast performance!\n*   **Smartwatches:** Perfect for keeping track of fitness goals and staying connected in style.\n*   **Tablets:** Whether for work, reading, or streaming her favorite shows, a tablet is always a hit.\n*   **Accessories:** We've got everything from sleek phone cases and protective screen protectors to top-notch earbuds and reliable chargers to complement any tech.\n\nTo help me narrow it down, what kind of gift are you leaning towards for her?"
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1772025475892,
+          "timestamp": "2026-02-25T13:17:55.892Z",
+          "user": "greate show me smartphone",
+          "ai": {
+            "ai_response": "Here are some smartphones that would make a great gift:\n\n*   **Apple iPhone 15**: Great camera and 5G ready, ideal for students.\n*   **Apple iPhone 16 Pro Max**: Built for Apple Intelligence with pro performance, ideal for professionals.\n*   **Apple iPhone 16 Plus**: Features a large display and built for Apple Intelligence, ideal for media consumption.\n*   **Nokia Nokia G42**: Offers all-day battery and fast charging, ideal for students.\n*   **Case for Apple iPhone 16**: A protective case designed for the Apple iPhone 16.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200022.png",
+                "payment_plans": [],
+                "price": 1044.5,
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200053.png",
+                "payment_plans": [],
+                "price": 1099.99,
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200057.png",
+                "payment_plans": [],
+                "price": 949.99,
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200046.png",
+                "payment_plans": [],
+                "price": 631.9,
+                "product_id": "200046",
+                "product_name": "Nokia Nokia G42",
+                "summary": "Nokia Nokia G42 \u2014 All\u2011day battery. Fast charging. Ideal for students."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ACA200001.png",
+                "payment_plans": [],
+                "price": 19.99,
+                "product_id": "ACA200001",
+                "product_name": "Case for Apple iPhone 16",
+                "summary": "Protective case designed for Apple iPhone 16."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [
+              {
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "price": 1044.5,
+                "image_url": "images/200022.png",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "price": 949.99,
+                "image_url": "images/200057.png",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "product_id": "200046",
+                "product_name": "Nokia Nokia G42",
+                "price": 631.9,
+                "image_url": "images/200046.png",
+                "summary": "Nokia Nokia G42 \u2014 All\u2011day battery. Fast charging. Ideal for students."
+              },
+              {
+                "product_id": "ACA200001",
+                "product_name": "Case for Apple iPhone 16",
+                "price": 19.99,
+                "image_url": "images/ACA200001.png",
+                "summary": "Protective case designed for Apple iPhone 16."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "price": 1044.5,
+                "image_url": "images/200022.png",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "price": 949.99,
+                "image_url": "images/200057.png",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "product_id": "200046",
+                "product_name": "Nokia Nokia G42",
+                "price": 631.9,
+                "image_url": "images/200046.png",
+                "summary": "Nokia Nokia G42 \u2014 All\u2011day battery. Fast charging. Ideal for students."
+              },
+              {
+                "product_id": "ACA200001",
+                "product_name": "Case for Apple iPhone 16",
+                "price": 19.99,
+                "image_url": "images/ACA200001.png",
+                "summary": "Protective case designed for Apple iPhone 16."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-25T13:17:55.895Z"
+          }
+        },
+        {
+          "id": 1772025622186,
+          "timestamp": "2026-02-25T13:20:22.186Z",
+          "user": "show iPhone with 256gb plan",
+          "ai": {
+            "ai_response": "",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200057.png",
+                "payment_plans": [],
+                "price": 949.99,
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200053.png",
+                "payment_plans": [],
+                "price": 1099.99,
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200001.png",
+                "payment_plans": [],
+                "price": 705.91,
+                "product_id": "200001",
+                "product_name": "Apple iPhone 13",
+                "summary": "Apple iPhone 13 \u2014 Sleek design. 120Hz display. Ideal for creators."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200022.png",
+                "payment_plans": [],
+                "price": 1044.5,
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200008.png",
+                "payment_plans": [],
+                "price": 1164.81,
+                "product_id": "200008",
+                "product_name": "Apple iPhone 14",
+                "summary": "Apple iPhone 14 \u2014 All\u2011day battery. 5G ready. Ideal for creators."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [
+              {
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "price": 949.99,
+                "image_url": "images/200057.png",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "product_id": "200001",
+                "product_name": "Apple iPhone 13",
+                "price": 705.91,
+                "image_url": "images/200001.png",
+                "summary": "Apple iPhone 13 \u2014 Sleek design. 120Hz display. Ideal for creators."
+              },
+              {
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "price": 1044.5,
+                "image_url": "images/200022.png",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "product_id": "200008",
+                "product_name": "Apple iPhone 14",
+                "price": 1164.81,
+                "image_url": "images/200008.png",
+                "summary": "Apple iPhone 14 \u2014 All\u2011day battery. 5G ready. Ideal for creators."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "price": 949.99,
+                "image_url": "images/200057.png",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "product_id": "200001",
+                "product_name": "Apple iPhone 13",
+                "price": 705.91,
+                "image_url": "images/200001.png",
+                "summary": "Apple iPhone 13 \u2014 Sleek design. 120Hz display. Ideal for creators."
+              },
+              {
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "price": 1044.5,
+                "image_url": "images/200022.png",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "product_id": "200008",
+                "product_name": "Apple iPhone 14",
+                "price": 1164.81,
+                "image_url": "images/200008.png",
+                "summary": "Apple iPhone 14 \u2014 All\u2011day battery. 5G ready. Ideal for creators."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-25T13:20:22.189Z"
+          }
+        },
+        {
+          "id": 1772025647544,
+          "timestamp": "2026-02-25T13:20:47.544Z",
+          "user": "Show me detailed information about product 200057",
+          "ai": {
+            "ai_response": "",
+            "product_data": {
+              "PROMO_DESCRIPTION": "",
+              "PROMO_DISCOUNT_PERCENT": "",
+              "PROMO_TITLE": "",
+              "categories": [],
+              "image_url": "images/200057.png",
+              "payment_plans": [],
+              "price": 949.99,
+              "product_id": "200057",
+              "product_name": "Apple iPhone 16 Plus",
+              "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+            },
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200057.png",
+                "payment_plans": [],
+                "price": 949.99,
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              }
+            ],
+            "response_type": "product"
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [
+              {
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "price": 949.99,
+                "image_url": "images/200057.png",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              }
+            ],
+            "response_type": "product",
+            "products_count": 1,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1772025678313,
+          "timestamp": "2026-02-25T13:21:18.313Z",
+          "user": "Show me detailed information about product 200053",
+          "ai": {
+            "ai_response": "",
+            "product_data": {
+              "PROMO_DESCRIPTION": "",
+              "PROMO_DISCOUNT_PERCENT": "",
+              "PROMO_TITLE": "",
+              "categories": [],
+              "image_url": "images/200053.png",
+              "payment_plans": [
+                {
+                  "due_today": 0,
+                  "duration_months": 24,
+                  "full_price": 1299.99,
+                  "monthly_payment": 54.17,
+                  "plan_id": "PLAN_200053_256",
+                  "product_id": "200053",
+                  "stock_status": "In stock",
+                  "variant_name": "256GB",
+                  "variant_order": 1
+                },
+                {
+                  "due_today": 0,
+                  "duration_months": 24,
+                  "full_price": 1399.99,
+                  "monthly_payment": 58.33,
+                  "plan_id": "PLAN_200053_512",
+                  "product_id": "200053",
+                  "stock_status": "In stock",
+                  "variant_name": "512GB",
+                  "variant_order": 2
+                },
+                {
+                  "due_today": 0,
+                  "duration_months": 24,
+                  "full_price": 1499.99,
+                  "monthly_payment": 62.5,
+                  "plan_id": "PLAN_200053_1TB",
+                  "product_id": "200053",
+                  "stock_status": "In stock",
+                  "variant_name": "1TB",
+                  "variant_order": 3
+                }
+              ],
+              "price": 1099.99,
+              "product_id": "200053",
+              "product_name": "Apple iPhone 16 Pro Max",
+              "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+            },
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200053.png",
+                "payment_plans": [
+                  {
+                    "due_today": 0,
+                    "duration_months": 24,
+                    "full_price": 1299.99,
+                    "monthly_payment": 54.17,
+                    "plan_id": "PLAN_200053_256",
+                    "product_id": "200053",
+                    "stock_status": "In stock",
+                    "variant_name": "256GB",
+                    "variant_order": 1
+                  },
+                  {
+                    "due_today": 0,
+                    "duration_months": 24,
+                    "full_price": 1399.99,
+                    "monthly_payment": 58.33,
+                    "plan_id": "PLAN_200053_512",
+                    "product_id": "200053",
+                    "stock_status": "In stock",
+                    "variant_name": "512GB",
+                    "variant_order": 2
+                  },
+                  {
+                    "due_today": 0,
+                    "duration_months": 24,
+                    "full_price": 1499.99,
+                    "monthly_payment": 62.5,
+                    "plan_id": "PLAN_200053_1TB",
+                    "product_id": "200053",
+                    "stock_status": "In stock",
+                    "variant_name": "1TB",
+                    "variant_order": 3
+                  }
+                ],
+                "price": 1099.99,
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              }
+            ],
+            "response_type": "product"
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              }
+            ],
+            "response_type": "product",
+            "products_count": 1,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1772025776838,
+          "timestamp": "2026-02-25T13:22:56.838Z",
+          "user": "mujhe kuchh smart watches dikhao",
+          "ai": {
+            "ai_response": "[STRUCTURED_PRODUCTS: [{\"product_id\": \"400012\", \"product_name\": \"Samsung Galaxy Watch8 44mm\", \"summary\": \"Samsung Galaxy Watch8 44mm  Galaxy AI powered. Larger display. Ideal for fitness enthusiasts.\", \"price\": 429.99, \"image_url\": \"images/400012.png\", \"categories\": [\"android\", \"smartwatch\", \"wearable\", \"health\", \"ai\"]}, {\"product_id\": \"400011\", \"product_name\": \"Samsung Galaxy Watch8 40mm\", \"summary\": \"Samsung Galaxy Watch8 40mm  Galaxy AI powered. Premium health tracking. Ideal for fitness enthusiasts.\", \"price\": 399.99, \"image_url\": \"images/400011.png\", \"categories\": [\"android\", \"smartwatch\", \"wearable\", \"health\", \"ai\"]}, {\"product_id\": \"400015\", \"product_name\": \"Apple Watch Series 10 42mm\", \"summary\": \"Apple Watch Series 10 42mm  Premium performance. Health monitoring. Ideal for professionals.\", \"price\": 449.99, \"image_url\": \"images/400015.png\", \"categories\": [\"ios\", \"smartwatch\", \"wearable\", \"health\"]}, {\"product_id\": \"400013\", \"product_name\": \"Samsung Galaxy Watch8 Classic 46mm\", \"summary\": \"Samsung Galaxy Watch8 Classic 46mm  Galaxy AI powered. Classic rotating bezel. Ideal for professionals.\", \"price\": 549.99, \"image_url\": \"images/400013.png\", \"categories\": [\"android\", \"smartwatch\", \"wearable\", \"health\", \"ai\", \"premium\"]}, {\"product_id\": \"400008\", \"product_name\": \"Apple Watch Series 10 46mm\", \"summary\": \"Apple Watch Series 10 46mm  Premium performance. Health monitoring. Ideal for professionals.\", \"price\": 449.99, \"image_url\": \"images/400008.png\", \"categories\": [\"ios\", \"smartwatch\", \"wearable\", \"health\"]}]]",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/400012.png",
+                "payment_plans": [],
+                "price": 429.99,
+                "product_id": "400012",
+                "product_name": "Samsung Galaxy Watch8 44mm",
+                "summary": "Samsung Galaxy Watch8 44mm  Galaxy AI powered. Larger display. Ideal for fitness enthusiasts."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/400011.png",
+                "payment_plans": [],
+                "price": 399.99,
+                "product_id": "400011",
+                "product_name": "Samsung Galaxy Watch8 40mm",
+                "summary": "Samsung Galaxy Watch8 40mm  Galaxy AI powered. Premium health tracking. Ideal for fitness enthusiasts."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/400015.png",
+                "payment_plans": [],
+                "price": 449.99,
+                "product_id": "400015",
+                "product_name": "Apple Watch Series 10 42mm",
+                "summary": "Apple Watch Series 10 42mm  Premium performance. Health monitoring. Ideal for professionals."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/400013.png",
+                "payment_plans": [],
+                "price": 549.99,
+                "product_id": "400013",
+                "product_name": "Samsung Galaxy Watch8 Classic 46mm",
+                "summary": "Samsung Galaxy Watch8 Classic 46mm  Galaxy AI powered. Classic rotating bezel. Ideal for professionals."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/400008.png",
+                "payment_plans": [],
+                "price": 449.99,
+                "product_id": "400008",
+                "product_name": "Apple Watch Series 10 46mm",
+                "summary": "Apple Watch Series 10 46mm  Premium performance. Health monitoring. Ideal for professionals."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [
+              {
+                "product_id": "400012",
+                "product_name": "Samsung Galaxy Watch8 44mm",
+                "price": 429.99,
+                "image_url": "images/400012.png",
+                "summary": "Samsung Galaxy Watch8 44mm  Galaxy AI powered. Larger display. Ideal for fitness enthusiasts."
+              },
+              {
+                "product_id": "400011",
+                "product_name": "Samsung Galaxy Watch8 40mm",
+                "price": 399.99,
+                "image_url": "images/400011.png",
+                "summary": "Samsung Galaxy Watch8 40mm  Galaxy AI powered. Premium health tracking. Ideal for fitness enthusiasts."
+              },
+              {
+                "product_id": "400015",
+                "product_name": "Apple Watch Series 10 42mm",
+                "price": 449.99,
+                "image_url": "images/400015.png",
+                "summary": "Apple Watch Series 10 42mm  Premium performance. Health monitoring. Ideal for professionals."
+              },
+              {
+                "product_id": "400013",
+                "product_name": "Samsung Galaxy Watch8 Classic 46mm",
+                "price": 549.99,
+                "image_url": "images/400013.png",
+                "summary": "Samsung Galaxy Watch8 Classic 46mm  Galaxy AI powered. Classic rotating bezel. Ideal for professionals."
+              },
+              {
+                "product_id": "400008",
+                "product_name": "Apple Watch Series 10 46mm",
+                "price": 449.99,
+                "image_url": "images/400008.png",
+                "summary": "Apple Watch Series 10 46mm  Premium performance. Health monitoring. Ideal for professionals."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "400012",
+                "product_name": "Samsung Galaxy Watch8 44mm",
+                "price": 429.99,
+                "image_url": "images/400012.png",
+                "summary": "Samsung Galaxy Watch8 44mm  Galaxy AI powered. Larger display. Ideal for fitness enthusiasts."
+              },
+              {
+                "product_id": "400011",
+                "product_name": "Samsung Galaxy Watch8 40mm",
+                "price": 399.99,
+                "image_url": "images/400011.png",
+                "summary": "Samsung Galaxy Watch8 40mm  Galaxy AI powered. Premium health tracking. Ideal for fitness enthusiasts."
+              },
+              {
+                "product_id": "400015",
+                "product_name": "Apple Watch Series 10 42mm",
+                "price": 449.99,
+                "image_url": "images/400015.png",
+                "summary": "Apple Watch Series 10 42mm  Premium performance. Health monitoring. Ideal for professionals."
+              },
+              {
+                "product_id": "400013",
+                "product_name": "Samsung Galaxy Watch8 Classic 46mm",
+                "price": 549.99,
+                "image_url": "images/400013.png",
+                "summary": "Samsung Galaxy Watch8 Classic 46mm  Galaxy AI powered. Classic rotating bezel. Ideal for professionals."
+              },
+              {
+                "product_id": "400008",
+                "product_name": "Apple Watch Series 10 46mm",
+                "price": 449.99,
+                "image_url": "images/400008.png",
+                "summary": "Apple Watch Series 10 46mm  Premium performance. Health monitoring. Ideal for professionals."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-25T13:22:56.840Z"
+          }
+        },
+        {
+          "id": 1772025799751,
+          "timestamp": "2026-02-25T13:23:19.751Z",
+          "user": "any accessories of these",
+          "ai": {
+            "ai_response": "I found 2 accessories that perfectly complement Samsung Galaxy Watch8 44mm, Samsung Galaxy Watch8 40mm, Apple Watch Series 10 42mm and 2 more! These are curated matches from our database.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ACH400002.png",
+                "payment_plans": [],
+                "price": 24.99,
+                "product_id": "ACH400002",
+                "product_name": "Charger for Samsung Galaxy Watch8",
+                "summary": "Chargers for Samsung Galaxy Watch8 44mm"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ACH400002.png",
+                "payment_plans": [],
+                "price": 24.99,
+                "product_id": "ACH400002",
+                "product_name": "Charger for Samsung Galaxy Watch8",
+                "summary": "Chargers for Samsung Galaxy Watch8 40mm"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [
+              {
+                "product_id": "ACH400002",
+                "product_name": "Charger for Samsung Galaxy Watch8",
+                "price": 24.99,
+                "image_url": "images/ACH400002.png",
+                "summary": "Chargers for Samsung Galaxy Watch8 44mm"
+              },
+              {
+                "product_id": "ACH400002",
+                "product_name": "Charger for Samsung Galaxy Watch8",
+                "price": 24.99,
+                "image_url": "images/ACH400002.png",
+                "summary": "Chargers for Samsung Galaxy Watch8 40mm"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 2,
+            "enhanced_query": "Find accessories for these specific products: Samsung Galaxy Watch8 44mm, Samsung Galaxy Watch8 40mm, Apple Watch Series 10 42mm, Samsung Galaxy Watch8 Classic 46mm, Apple Watch Series 10 46mm. Product IDs: 400012, 400011, 400015, 400013, 400008. Original query: any accessories of these",
+            "displayed_products": [
+              {
+                "product_id": "ACH400002",
+                "product_name": "Charger for Samsung Galaxy Watch8",
+                "price": 24.99,
+                "image_url": "images/ACH400002.png",
+                "summary": "Chargers for Samsung Galaxy Watch8 44mm"
+              },
+              {
+                "product_id": "ACH400002",
+                "product_name": "Charger for Samsung Galaxy Watch8",
+                "price": 24.99,
+                "image_url": "images/ACH400002.png",
+                "summary": "Chargers for Samsung Galaxy Watch8 40mm"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-25T13:23:19.755Z"
+          }
+        },
+        {
+          "id": 1772025828667,
+          "timestamp": "2026-02-25T13:23:48.667Z",
+          "user": "to yah apni",
+          "ai": {
+            "response": "I'm sorry, I can't fulfill that request. It seems incomplete. Could you please provide more details or rephrase your query?"
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1772025929593,
+          "timestamp": "2026-02-25T13:25:29.593Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1771831168563_rltshqk00",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        }
+      ],
+      "last_products": [
+        {
+          "product_id": "ACH400002",
+          "product_name": "Charger for Samsung Galaxy Watch8",
+          "price": 24.99,
+          "image_url": "images/ACH400002.png",
+          "summary": "Chargers for Samsung Galaxy Watch8 44mm"
+        },
+        {
+          "product_id": "ACH400002",
+          "product_name": "Charger for Samsung Galaxy Watch8",
+          "price": 24.99,
+          "image_url": "images/ACH400002.png",
+          "summary": "Chargers for Samsung Galaxy Watch8 40mm"
+        },
+        {
+          "product_id": "400012",
+          "product_name": "Samsung Galaxy Watch8 44mm",
+          "price": 429.99,
+          "image_url": "images/400012.png",
+          "summary": "Samsung Galaxy Watch8 44mm  Galaxy AI powered. Larger display. Ideal for fitness enthusiasts."
+        },
+        {
+          "product_id": "400011",
+          "product_name": "Samsung Galaxy Watch8 40mm",
+          "price": 399.99,
+          "image_url": "images/400011.png",
+          "summary": "Samsung Galaxy Watch8 40mm  Galaxy AI powered. Premium health tracking. Ideal for fitness enthusiasts."
+        },
+        {
+          "product_id": "400015",
+          "product_name": "Apple Watch Series 10 42mm",
+          "price": 449.99,
+          "image_url": "images/400015.png",
+          "summary": "Apple Watch Series 10 42mm  Premium performance. Health monitoring. Ideal for professionals."
+        }
+      ],
+      "recent_displayed": [
+        {
+          "product_id": "ACH400002",
+          "product_name": "Charger for Samsung Galaxy Watch8",
+          "price": 24.99,
+          "image_url": "images/ACH400002.png",
+          "summary": "Chargers for Samsung Galaxy Watch8 44mm"
+        },
+        {
+          "product_id": "ACH400002",
+          "product_name": "Charger for Samsung Galaxy Watch8",
+          "price": 24.99,
+          "image_url": "images/ACH400002.png",
+          "summary": "Chargers for Samsung Galaxy Watch8 40mm"
+        }
+      ],
+      "context": [
+        {
+          "user": "any accessories of these",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "ACH400002",
+              "product_name": "Charger for Samsung Galaxy Watch8",
+              "price": 24.99,
+              "image_url": "images/ACH400002.png",
+              "summary": "Chargers for Samsung Galaxy Watch8 44mm"
+            },
+            {
+              "product_id": "ACH400002",
+              "product_name": "Charger for Samsung Galaxy Watch8",
+              "price": 24.99,
+              "image_url": "images/ACH400002.png",
+              "summary": "Chargers for Samsung Galaxy Watch8 40mm"
+            }
+          ],
+          "type": "products_list"
+        },
+        {
+          "user": "to yah apni",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": "2026-02-25T18:55:36.624664",
+    "session_id": "285be272-e400-4d27-82e2-42cbb4dccd55"
+  },
+  "result": {
+    "payment_id": "PAYID-NGPPQUY7GT61223YL0304311",
+    "payer_id": "YR6334H86TGYG",
+    "token": "EC-8RF635487R3147649",
+    "order_result": {
+      "success": true,
+      "message": "Order #2813 created successfully!",
+      "order_details": {
+        "order_id": "2813",
+        "customer_id": "sanjeev5585@gmail.com",
+        "order_date": "2026-02-25 18:56:00",
+        "total_price": 1099.99,
+        "status": "Open",
+        "items_count": 1,
+        "items": [
+          {
+            "order_id": "2813",
+            "product_id": "200053",
+            "product_name": "Apple iPhone 16 Pro Max",
+            "price": 1099.99,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "message": "Payment completed successfully!"
+  },
+  "updated_at": "2026-02-25T18:56:01.788683"
+}

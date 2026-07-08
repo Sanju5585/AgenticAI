@@ -1,0 +1,6 @@
+Python version 3.12.x
+Fill your LLM keys in .env file and your hana keys in .env, load_csv.py, agent.py files.
+fill commerce base url in config.ini
+in VS_Code hit ctrl+shift+p and type create environment,
+select virtual environment and next step select requirements.txt.
+app is ready to use, you can start server by executing app.py

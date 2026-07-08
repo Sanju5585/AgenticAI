@@ -1,0 +1,67 @@
+
+############ Category Frozen Data Begins #########################################################
+
+
+CATEGORY_ID,CATEGORY_NAME,PARENT_CATEGORY_ID
+300000,Grocery,
+300100,Frozen,300000
+300101,Ice cream,300100
+300200,Frozen Meals,300100
+333300,Frozen Pizzas,300100
+
+300201,Multi-Serve Meals,300200
+300202,Single-Serve Meals,300200
+300203,Skillet Meals,300200
+300204,International Meals,300200
+300205,Pot Pies,300200
+300206,Healthy Living,300200
+300207,Burritos & Taquitos,300200
+300208,Pocket & Sandwiches,300200
+300209,Kids Meals,300200
+
+############################ Ice Cream #############################################################
+
+PRODUCT_ID,PRODUCT_NAME,BRAND,SUMMARY,PRICE,CATEGORY_IDS,IMAGE_URL
+200001,Premium Vanilla Ice Cream,Häagen-Dazs,"Rich and creamy vanilla ice cream made with real Madagascar vanilla beans.",4.99,300101,https://images.unsplash.com/photo-1627751139393-47d779924a8b?auto=format&fit=crop&w=800&q=80
+200002,Chocolate Ice Cream Pints,Ben & Jerry's,"Decadent chocolate ice cream in a convenient pint-sized container.",5.49,300101,https://images.unsplash.com/photo-1607382123583-fe450a1334ce?auto=format&fit=crop&w=800&q=80
+200003,Dairy-Free Almond Milk Ice Cream,So Delicious,"Smooth and creamy dairy-free ice cream made with almond milk. Ideal for lactose-intolerant.",6.99,300101,https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80
+200004,Strawberry IcePops,Popsicle,"Refreshing strawberry-flavored ice pops made with real fruit puree.",3.99,300101,https://images.unsplash.com/photo-1579752131295-0c65d3a51593?auto=format&fit=crop&w=800&q=80
+200005,Ice Cream Sandwiches,Nestlé,"Classic vanilla ice cream sandwiched between two chocolate wafers.",4.49,300101,https://images.unsplash.com/photo-1560008581-09826d1de69e?auto=format&fit=crop&w=800&q=80
+200006,Mango Sorbet,Talenti,"Tangy and sweet mango sorbet with no artificial flavors or colors.",5.99,300101,https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80
+200007,Frozen Yogurt (Vanilla),Yoplait,"Low-fat vanilla frozen yogurt with live and active cultures.",4.79,300101,https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=800&q=80
+200008,Party Size Cookie Dough Ice Cream,Ben & Jerry's,"A family-sized tub of cookie dough ice cream with chunks of real cookie dough.",8.99,300101,https://images.unsplash.com/photo-1587668178277-295251f900ce?auto=format&fit=crop&w=800&q=80
+200009,Waffle Cones & Toppings Kit,Joy,"Pack of 6 waffle cones with chocolate syrup, sprinkles, and crushed nuts.",6.49,300101,https://images.unsplash.com/photo-1589996448606-27d38c70f356?auto=format&fit=crop&w=800&q=80
+
+################################# Frozen Meals  ###############################################################
+
+
+PRODUCT_ID,PRODUCT_NAME,BRAND,SUMMARY,PRICE,CATEGORY_IDS,IMAGE_URL
+400001,Family-Size Lasagna,Stouffer's,"A hearty multi-serve lasagna with layers of pasta, cheese, and meat sauce.",9.99,300201,https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80
+400002,Chicken Alfredo Single-Serve,Lean Cuisine,"Creamy chicken alfredo in a single-serve microwaveable tray.",4.99,300202,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80
+400003,Beef & Vegetable Skillet Meal,Banquet,"Pre-cooked beef and vegetables for a quick skillet meal.",7.99,300203,https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80
+400004,Chicken Tikka Masala,Deep Indian Kitchen,"Authentic Indian-style chicken tikka masala, ready to heat and serve.",8.49,300204,https://images.unsplash.com/photo-1594212699903-e110a21176b3?auto=format&fit=crop&w=800&q=80
+400005,Chicken Pot Pie,Marie Callender's,"Flaky crust filled with creamy chicken and vegetable filling.",5.99,300205,https://images.unsplash.com/photo-1605559424843-9e4c228bf1c6?auto=format&fit=crop&w=800&q=80
+400006,Grilled Chicken Healthy Living Meal,Amy's,"Low-calorie meal with grilled chicken, quinoa, and steamed vegetables.",6.99,300206,https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80
+400007,Chicken & Cheese Taquitos,El Monterey,"Crispy taquitos filled with seasoned chicken and cheese.",3.99,300207,https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=800&q=80
+400008,Chicken & Cheese Pocket Sandwich,Hot Pockets,"Toastable pocket sandwich with chicken and cheese filling.",4.49,300208,https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80
+400009,Chicken Nuggets Kids Meal,Tyson,"Kid-friendly meal with breaded chicken nuggets and fries.",2.99,300209,https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?auto=format&fit=crop&w=800&q=80
+
+
+
+######################################### Frozen Pizza  #####################################
+
+PRODUCT_ID,PRODUCT_NAME,BRAND,SUMMARY,PRICE,CATEGORY_IDS,IMAGE_URL
+500001,Single Serve Pizza,Red Baron,"A single-serve pizza with pepperoni and cheese, perfect for one person.",2.99,333300,https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?auto=format&fit=crop&w=800&q=80
+500002,Pizza Snacks,Totino's,"Bite-sized pizza snacks with pepperoni and cheese filling.",4.49,333300,https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80
+500003,Pepperoni Pizza,DiGiorno,"Classic pepperoni pizza with a crispy crust and melted mozzarella cheese.",7.99,333300,https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80
+
+500004,Meat Pizza,Tombstone,"Loaded with sausage, pepperoni, bacon, and ham on a thick crust.",8.99,333300,https://images.unsplash.com/photo-1593560708920-61dd98c47a4c?auto=format&fit=crop&w=800&q=80
+
+500005,Supreme Pizza,Jack's,"Topped with pepperoni, sausage, mushrooms, onions, and green peppers.",9.99,333300,https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=800&q=80
+
+500006,Cheese Pizza,Screamin' Sicilian,"A four-cheese blend pizza with a crispy, foldable crust.",6.99,333300,https://images.unsplash.com/photo-1574126154517-d1e0d89b734f?auto=format&fit=crop&w=800&q=80
+
+500007,Veggie Pizza,Amy's,"Made with organic vegetables, including bell peppers, onions, and olives.",8.49,333300,https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80
+
+
+############ Frozen Data ends here #########################################################

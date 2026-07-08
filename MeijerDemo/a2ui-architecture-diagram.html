@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2UI Protocol - Architecture Diagram</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            padding: 40px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #1f2937;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #6b7280;
+            margin-bottom: 40px;
+            font-size: 1.2em;
+        }
+        
+        .diagram {
+            margin: 40px 0;
+        }
+        
+        .layer {
+            margin: 30px 0;
+        }
+        
+        .layer-title {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #374151;
+            padding: 10px;
+            background: #f3f4f6;
+            border-radius: 6px;
+        }
+        
+        .boxes {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: stretch;
+            flex-wrap: wrap;
+        }
+        
+        .box {
+            flex: 1;
+            min-width: 250px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        
+        .box:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        .box h3 {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        .box ul {
+            margin-left: 20px;
+        }
+        
+        .box li {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+        
+        .frontend { background: #dbeafe; border-left: 4px solid #3b82f6; }
+        .middleware { background: #fef3c7; border-left: 4px solid #f59e0b; }
+        .backend { background: #d1fae5; border-left: 4px solid #10b981; }
+        .database { background: #e0e7ff; border-left: 4px solid #6366f1; }
+        
+        .arrow {
+            text-align: center;
+            font-size: 2em;
+            color: #9ca3af;
+            margin: 10px 0;
+        }
+        
+        .connection {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+            font-size: 0.9em;
+            color: #6b7280;
+        }
+        
+        .connection-line {
+            flex: 1;
+            height: 2px;
+            background: linear-gradient(to right, #e5e7eb, #9ca3af, #e5e7eb);
+        }
+        
+        .protocol {
+            background: #667eea;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+        
+        .flow {
+            background: #f9fafb;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .flow h3 {
+            margin-bottom: 15px;
+            color: #1f2937;
+        }
+        
+        .flow-step {
+            padding: 10px 15px;
+            margin: 10px 0;
+            background: white;
+            border-left: 3px solid #667eea;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .flow-step strong {
+            color: #667eea;
+            margin-right: 10px;
+        }
+        
+        .code-block {
+            background: #1f2937;
+            color: #f3f4f6;
+            padding: 15px;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85em;
+            overflow-x: auto;
+            margin: 10px 0;
+        }
+        
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏗️ A2UI Protocol Architecture</h1>
+        <p class="subtitle">Application-to-UI Communication System</p>
+        
+        <!-- Architecture Layers -->
+        <div class="diagram">
+            <div class="layer">
+                <div class="layer-title">🌐 Frontend Layer (Browser)</div>
+                <div class="boxes">
+                    <div class="box frontend">
+                        <h3>📱 User Interface</h3>
+                        <ul>
+                            <li>HTML Templates</li>
+                            <li>Product Cards</li>
+                            <li>Search Interface</li>
+                            <li>Loading States</li>
+                            <li>Toast Notifications</li>
+                        </ul>
+                    </div>
+                    <div class="box frontend">
+                        <h3>⚡ A2UI Client (JS)</h3>
+                        <ul>
+                            <li>WebSocket Connection</li>
+                            <li>Auto-Reconnect</li>
+                            <li>Event Handlers</li>
+                            <li>State Management</li>
+                            <li>Message Routing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="connection">
+                <div class="connection-line"></div>
+                <span class="protocol">WebSocket</span>
+                <div class="connection-line"></div>
+            </div>
+            
+            <div class="layer">
+                <div class="layer-title">🔌 A2UI Protocol Server (Port 8020)</div>
+                <div class="boxes">
+                    <div class="box middleware">
+                        <h3>🌐 WebSocket Server</h3>
+                        <ul>
+                            <li>Connection Manager</li>
+                            <li>Session Tracking</li>
+                            <li>Heartbeat Monitor</li>
+                            <li>Reconnection Handler</li>
+                        </ul>
+                    </div>
+                    <div class="box middleware">
+                        <h3>📡 Message Router</h3>
+                        <ul>
+                            <li>Module Subscriptions</li>
+                            <li>Broadcast System</li>
+                            <li>Session Targeting</li>
+                            <li>Event Distribution</li>
+                        </ul>
+                    </div>
+                    <div class="box middleware">
+                        <h3>🔧 HTTP API</h3>
+                        <ul>
+                            <li>POST /api/ui/update</li>
+                            <li>POST /api/ui/command</li>
+                            <li>GET /stats</li>
+                            <li>Health Check</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="connection">
+                <div class="connection-line"></div>
+                <span class="protocol">HTTP/REST</span>
+                <div class="connection-line"></div>
+            </div>
+            
+            <div class="layer">
+                <div class="layer-title">🚀 Application Layer (Port 5000)</div>
+                <div class="boxes">
+                    <div class="box backend">
+                        <h3>🌶️ Flask Application</h3>
+                        <ul>
+                            <li>API Endpoints</li>
+                            <li>Request Handling</li>
+                            <li>Session Management</li>
+                            <li>Content Moderation</li>
+                        </ul>
+                    </div>
+                    <div class="box backend">
+                        <h3>📦 A2UI Modules</h3>
+                        <ul>
+                            <li>Product Search A2UI</li>
+                            <li>Shopping Cart (Future)</li>
+                            <li>Checkout (Future)</li>
+                            <li>Notifications (Future)</li>
+                        </ul>
+                    </div>
+                    <div class="box backend">
+                        <h3>🤖 AI Agent</h3>
+                        <ul>
+                            <li>Query Processing</li>
+                            <li>LLM Integration</li>
+                            <li>Tool Execution</li>
+                            <li>Response Generation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="arrow">↕️</div>
+            
+            <div class="layer">
+                <div class="layer-title">💾 Data Layer</div>
+                <div class="boxes">
+                    <div class="box database">
+                        <h3>🗄️ SAP HANA</h3>
+                        <ul>
+                            <li>Product Data</li>
+                            <li>Customer Data</li>
+                            <li>Order History</li>
+                            <li>Vector Search</li>
+                        </ul>
+                    </div>
+                    <div class="box database">
+                        <h3>🛒 SAP Commerce (Hybris)</h3>
+                        <ul>
+                            <li>Product Catalog</li>
+                            <li>Cart Management</li>
+                            <li>Order Processing</li>
+                            <li>OCC API</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Message Flow -->
+        <div class="flow">
+            <h3>📨 Message Flow: Product Search</h3>
+            
+            <div class="flow-step">
+                <strong>1.</strong> User types search query in browser
+            </div>
+            
+            <div class="flow-step">
+                <strong>2.</strong> Frontend sends AJAX request to Flask API (/api/query)
+            </div>
+            
+            <div class="flow-step">
+                <strong>3.</strong> Flask calls ProductSearchA2UI module
+            </div>
+            
+            <div class="flow-step">
+                <strong>4.</strong> Module sends "loading" update to A2UI Server
+            </div>
+            
+            <div class="flow-step">
+                <strong>5.</strong> A2UI Server broadcasts to subscribed WebSocket clients
+            </div>
+            
+            <div class="flow-step">
+                <strong>6.</strong> Frontend receives update, shows loading spinner
+            </div>
+            
+            <div class="flow-step">
+                <strong>7.</strong> Module queries database/Hybris for products
+            </div>
+            
+            <div class="flow-step">
+                <strong>8.</strong> Module sends "product_list" update to A2UI Server
+            </div>
+            
+            <div class="flow-step">
+                <strong>9.</strong> A2UI Server broadcasts results to WebSocket clients
+            </div>
+            
+            <div class="flow-step">
+                <strong>10.</strong> Frontend receives products, renders cards
+            </div>
+            
+            <div class="flow-step">
+                <strong>11.</strong> Module sends "toast" notification (success)
+            </div>
+            
+            <div class="flow-step">
+                <strong>12.</strong> Frontend displays toast message
+            </div>
+        </div>
+        
+        <!-- Code Examples -->
+        <div class="grid-2">
+            <div>
+                <h3>Backend Example</h3>
+                <div class="code-block">
+# Python - Send Update<br>
+<span style="color: #60a5fa">from modules.product_search_a2ui import ProductSearchA2UI</span><br>
+<br>
+search = ProductSearchA2UI(<br>
+&nbsp;&nbsp;&nbsp;&nbsp;session_id=<span style="color: #fbbf24">"user_123"</span><br>
+)<br>
+<br>
+<span style="color: #34d399">await</span> search.send_search_results(<br>
+&nbsp;&nbsp;&nbsp;&nbsp;products=products,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;query=<span style="color: #fbbf24">"laptop"</span>,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;total_count=<span style="color: #f87171">25</span><br>
+)
+                </div>
+            </div>
+            
+            <div>
+                <h3>Frontend Example</h3>
+                <div class="code-block">
+// JavaScript - Handle Update<br>
+a2uiClient.<span style="color: #34d399">on</span>(<span style="color: #fbbf24">'product_list'</span>, ({ data }) => {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #60a5fa">const</span> products = data.products;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;displayProducts(products);<br>
+});<br>
+<br>
+a2uiClient.<span style="color: #34d399">on</span>(<span style="color: #fbbf24">'loading_state'</span>, ({ data }) => {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #f87171">if</span> (data.is_loading) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;showLoader();<br>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+});
+                </div>
+            </div>
+        </div>
+        
+        <!-- Benefits -->
+        <div class="flow">
+            <h3>✨ Key Benefits</h3>
+            <div class="grid-2">
+                <div class="flow-step">
+                    <strong>⚡</strong> Real-time updates without polling
+                </div>
+                <div class="flow-step">
+                    <strong>🔄</strong> Automatic reconnection
+                </div>
+                <div class="flow-step">
+                    <strong>📦</strong> Modular architecture
+                </div>
+                <div class="flow-step">
+                    <strong>🎨</strong> Better user experience
+                </div>
+                <div class="flow-step">
+                    <strong>🛡️</strong> Progressive enhancement
+                </div>
+                <div class="flow-step">
+                    <strong>📊</strong> Scalable design
+                </div>
+            </div>
+        </div>
+        
+        <!-- Technology Stack -->
+        <div class="flow">
+            <h3>🛠️ Technology Stack</h3>
+            <div class="grid-2">
+                <div>
+                    <h4>Backend</h4>
+                    <ul>
+                        <li>FastAPI - WebSocket server</li>
+                        <li>Flask - Web application</li>
+                        <li>Python asyncio - Async operations</li>
+                        <li>httpx - HTTP client</li>
+                        <li>Pydantic - Data validation</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Frontend</h4>
+                    <ul>
+                        <li>WebSocket API - Real-time communication</li>
+                        <li>Vanilla JavaScript - No dependencies</li>
+                        <li>Event-driven architecture</li>
+                        <li>Custom event system</li>
+                        <li>Responsive design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

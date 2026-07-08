@@ -1,0 +1,987 @@
+{
+  "session_id": "24605575-ae90-49ce-ba9f-78a942357f09",
+  "status": "success",
+  "created_at": "2026-07-07T11:01:26.340438",
+  "payment_data": {
+    "customer_id": "emily.carter@gmail.com",
+    "cart_items": [
+      {
+        "image_url": "/static/images/700007.jpg",
+        "price": 3.99,
+        "product_id": "700007",
+        "product_name": "Kids Yogurt Strawberry",
+        "quantity": 1,
+        "addedAt": "2026-07-07T05:31:03.675Z"
+      }
+    ],
+    "total_amount": 3.99,
+    "chat_history": [
+      {
+        "id": "msg_0",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n                <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background: #00529B;\">\n                  <i class=\"fas fa-robot text-white text-sm\"></i>\n                </div>\n                <div>\n                  <p class=\"font-medium text-gray-800\">Hello! I'm your Meijer AI shopping assistant powered by Capgemini.</p>\n                  <p class=\"text-gray-600 text-sm mt-1\">How can I help you find the perfect grocery product today?</p>\n                  <p class=\"text-gray-500 text-xs mt-2 italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>\n                    Note: Your cart will be cleared when you refresh the page.\n                  </p>\n                  <p class=\"text-yellow-600 text-xs mt-1 font-medium\">\n                    <i class=\"fas fa-credit-card mr-1\"></i>\n                    Secure PayPal checkout available - your session will be maintained during payment!\n                  </p>\n                </div>\n              </div>",
+        "timestamp": "2026-07-07T05:31:26.020Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_1",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#00529B;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1 min-w-0\">\n          \n    <div style=\"background: linear-gradient(135deg, #00529B 0%, #2d7a7a 100%); color: white; padding: 25px; border-radius: 15px; margin: 10px 0; box-shadow: 0 8px 20px rgba(139,101,32,0.3);\">\n      <div style=\"display: flex; align-items: center; margin-bottom: 20px;\">\n        <div style=\"background: rgba(255,255,255,0.2); border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-size: 24px;\">\n          \ud83d\udc4b\n        </div>\n        <div>\n          <h3 style=\"margin: 0; font-size: 22px; font-weight: 700;\">Welcome back, Emily Carter!</h3>\n          <p style=\"margin: 5px 0 0 0; font-size: 14px; opacity: 0.9;\">Your personalized shopping experience is ready</p>\n        </div>\n      </div>\n  \n      <div style=\"background: rgba(255,255,255,0.15); padding: 18px; border-radius: 12px; margin-top: 15px;\">\n        <h4 style=\"margin: 0 0 15px 0; font-size: 16px; font-weight: 600; display: flex; align-items: center;\">\n          <i class=\"fas fa-history\" style=\"margin-right: 8px;\"></i>\n          Your Recent Orders\n        </h4>\n    \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"/static/images/700004.jpg\" alt=\"Greek Yogurt Vanilla\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Greek Yogurt Vanilla</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 01 Jul 2026</span>\n                <span style=\"background: #10b981; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">APPROVED</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">$6.98</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#ORD-M-1003</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"/static/images/500022.jpg\" alt=\"Sandwich Cookies\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Sandwich Cookies</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 01 Jul 2026</span>\n                <span style=\"background: #10b981; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">APPROVED</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">$3.99</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#ORD-M-1003</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"/static/images/600012.jpg\" alt=\"Cheddar Shredded Cheese\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Cheddar Shredded Cheese</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 18 Jun 2026</span>\n                <span style=\"background: #6b7280; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">COMPLETED</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">$5.49</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#ORD-M-1002</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"/static/images/730008.jpg\" alt=\"Granola Breakfast Blend\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Granola Breakfast Blend</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 18 Jun 2026</span>\n                <span style=\"background: #6b7280; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">COMPLETED</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">$5.49</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#ORD-M-1002</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 0; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"/static/images/730001.jpg\" alt=\"Honey Crunch Cereal\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Honey Crunch Cereal</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 10 Jun 2026</span>\n                <span style=\"background: #6b7280; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">COMPLETED</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">$9.98</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#ORD-M-1001</div>\n          </div>\n        </div>\n      \n      </div>\n      <div style=\"margin-top: 15px; text-align: center; font-size: 13px; opacity: 0.9;\">\n        <i class=\"fas fa-info-circle\" style=\"margin-right: 5px;\"></i>\n        I've personalized your Trending Now section based on your purchase history!\n      </div>\n    \n    </div>\n  \n        </div>\n      </div>",
+        "timestamp": "2026-07-07T05:31:26.021Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_2",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2026-07-07T05:31:26.021Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_3",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#00529B;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1 min-w-0\">\n          \n        <div class=\"bg-gradient-to-br from-teal-50 to-green-50 rounded-2xl p-6 border mb-4\" style=\"border-color:rgba(27,82,82,0.25);\" id=\"chat-cart-container\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart mr-2\" style=\"color:#1B5252;\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"px-3 py-1 rounded-full text-sm font-semibold text-white\" style=\"background:#1B5252;\" id=\"chat-cart-count\"><i class=\"fas fa-shopping-cart mr-1\"></i>1 item</div>\n            </div>\n            \n            <div id=\"chat-cart-items\" class=\"space-y-3 mb-4\">\n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3 flex-1\">\n          <img src=\"/static/images/700007.jpg\" alt=\"Kids Yogurt Strawberry\" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1 min-w-0\">\n            <h4 class=\"font-semibold text-gray-800 text-sm truncate\">Kids Yogurt Strawberry</h4>\n            <p class=\"text-xs text-gray-500 mt-1\">3.99 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 rounded-full min-w-[2rem] text-center&quot; style=&quot;background:rgba(139,101,32,0.1); color:#00529B;\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right ml-4\">\n          <p class=\"text-lg font-bold&quot; style=&quot;color:#00529B;\">3.99</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    </div>\n            \n            <div id=\"chat-cart-footer\" class=\"pt-4\" style=\"border-top:1px solid rgba(27,82,82,0.2);\">\n                <div class=\"flex items-center justify-between mb-4\">\n                    <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                    <span class=\"text-2xl font-bold\" style=\"color:#1B5252;\" id=\"chat-cart-total\">3.99</span>\n                </div>\n                \n                <div class=\"text-center space-x-2\">\n                    <button  class=\"text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\" style=\"background:#F47920;\" onmouseover=\"this.style.background='#d4691a'\" onmouseout=\"this.style.background='#F47920'\">\n                        <i class=\"fas fa-sync-alt mr-2\"></i>Refresh Cart\n                    </button>\n                    <button  class=\"text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\" style=\"background: rgb(27, 82, 82);\" onmouseover=\"this.style.background='#133d3d'\" onmouseout=\"this.style.background='#1B5252'\">\n                        <i class=\"fas fa-credit-card mr-2\"></i>Checkout\n                    </button>\n                </div>\n                \n                <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" onload=\"(function(){setTimeout(function(){if(typeof renderChatCart === &quot;function&quot;){console.log(&quot;\ud83d\uded2 Auto-triggering renderChatCart via image onload&quot;);renderChatCart();}},100);})()\" style=\"display:none;\">\n        \n        </div>\n      </div>",
+        "timestamp": "2026-07-07T05:31:26.021Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_4",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#00529B;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1 min-w-0\">\n          \ud83d\uded2 <strong>Ready for Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #00529B, #2d7a7a); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Order Summary</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: 3.99</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9; margin-bottom: 15px;\">\n          \ud83d\udce6 1 item in your cart<br>\n          \ud83d\udcb0 Total amount: 3.99<br>\n          \ud83d\udd12 Secure PayPal payment\n        </div>\n        <div style=\"background: rgba(255,255,255,0.15); padding: 12px; border-radius: 8px; font-size: 14px; margin-top: 10px;\">\n          <strong>\u26a1 Are you sure you want to proceed with the payment?</strong><br>\n          <span style=\"opacity: 0.9;\">Please reply with \"yes\" to confirm, or \"no\" to cancel.</span>\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-07-07T05:31:26.021Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_5",
+        "sender": "user",
+        "message": "yes",
+        "timestamp": "2026-07-07T05:31:26.021Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_6",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#00529B;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1 min-w-0\">\n          \u2705 <strong>Payment Confirmed!</strong><br><br>\n          <div style=\"background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 15px; border-radius: 12px; margin: 10px 0;\">\n            <div style=\"display: flex; align-items-center;\">\n              <i class=\"fas fa-check-circle\" style=\"font-size: 20px; margin-right: 10px;\"></i>\n              <div style=\"font-size: 14px;\">\n                Great! Processing your payment now. Opening PayPal gateway...\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>",
+        "timestamp": "2026-07-07T05:31:26.021Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_7",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#00529B;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1 min-w-0\">\n          \ud83d\uded2 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #00529B, #2d7a7a); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Processing Payment</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: 3.99</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u2728 Opening PayPal payment gateway...<br>\n          \ud83d\udd12 Secure payment processing<br>\n          \u26a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-07-07T05:31:26.021Z",
+        "messageType": "html"
+      }
+    ],
+    "conversation_context": {
+      "session_id": "session_1783393006239_uff7ldsp0",
+      "conversation_history": [
+        {
+          "id": 1783393043049,
+          "timestamp": "2026-07-07T02:57:23.049Z",
+          "user": "show me cacke",
+          "ai": {
+            "ai_response": "I couldn't find any products matching your search. Try: different keywords, broader search terms, or browse categories like jackets, tshirts, shoes, watches.",
+            "ai_suggestions": {
+              "has_suggestions": true,
+              "query_context": "show me cacke",
+              "result_count": 5,
+              "suggestions": [
+                {
+                  "text": "Did you mean 'cake' related apparel? We have some fun graphic tees!",
+                  "type": "category"
+                },
+                {
+                  "text": "Looking for matching accessories to go with your new look? Check out our hats and socks!",
+                  "type": "accessories"
+                }
+              ]
+            },
+            "product_data": null,
+            "products_data": [
+              {
+                "PRICE": 0,
+                "PROMO_DESCRIPTION": "Express yourself - 22% discount",
+                "PROMO_DISCOUNT_PERCENT": "22",
+                "PROMO_TITLE": "Lifestyle Collection",
+                "categories": [],
+                "discount_percent": 22,
+                "discounted_price": 0,
+                "has_promotion": true,
+                "image_url": "Sleep Dream T-shirt by Element!",
+                "original_price": 0,
+                "price": 0,
+                "product_id": "122059",
+                "product_name": "Eat",
+                "promo_title": "Lifestyle Collection",
+                "savings": 0,
+                "summary": "Sleep Dream SS F"
+              },
+              {
+                "PRICE": 17.78,
+                "PROMO_DESCRIPTION": null,
+                "PROMO_DISCOUNT_PERCENT": null,
+                "PROMO_TITLE": null,
+                "categories": [],
+                "discount_percent": 0,
+                "discounted_price": 17.78,
+                "has_promotion": false,
+                "image_url": "/static/product_images/96990.jpg",
+                "original_price": 17.78,
+                "price": 17.78,
+                "product_id": "96990",
+                "product_name": "Custom 11/12",
+                "promo_title": null,
+                "savings": 0,
+                "summary": "Champagne taste on a beer budget."
+              },
+              {
+                "PRICE": 24.26,
+                "PROMO_DESCRIPTION": null,
+                "PROMO_DISCOUNT_PERCENT": null,
+                "PROMO_TITLE": null,
+                "categories": [],
+                "discount_percent": 0,
+                "discounted_price": 24.26,
+                "has_promotion": false,
+                "image_url": "/static/product_images/96977.jpg",
+                "original_price": 24.26,
+                "price": 24.26,
+                "product_id": "96977",
+                "product_name": "Custom Est 11/12",
+                "promo_title": null,
+                "savings": 0,
+                "summary": "The feel is real."
+              },
+              {
+                "PRICE": 20.21,
+                "PROMO_DESCRIPTION": null,
+                "PROMO_DISCOUNT_PERCENT": null,
+                "PROMO_TITLE": null,
+                "categories": [],
+                "discount_percent": 0,
+                "discounted_price": 20.21,
+                "has_promotion": false,
+                "image_url": "/static/product_images/95290.jpg",
+                "original_price": 20.21,
+                "price": 20.21,
+                "product_id": "95290",
+                "product_name": "Party Sock",
+                "promo_title": null,
+                "savings": 0,
+                "summary": "A breathable blend of woolly warmth"
+              },
+              {
+                "PRICE": 999,
+                "PROMO_DESCRIPTION": "Genuine leather jacket - Save 30% now",
+                "PROMO_DISCOUNT_PERCENT": "30",
+                "PROMO_TITLE": "Premium Leather Special",
+                "categories": [],
+                "discount_percent": 30,
+                "discounted_price": 699.3,
+                "has_promotion": true,
+                "image_url": "/static/product_images/97602.jpg",
+                "original_price": 999,
+                "price": 699.3,
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "promo_title": "Premium Leather Special",
+                "savings": 299.7,
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1783393006239_uff7ldsp0",
+            "products": [
+              {
+                "product_id": "122059",
+                "product_name": "Eat",
+                "price": 0,
+                "image_url": "Sleep Dream T-shirt by Element!",
+                "summary": "Sleep Dream SS F"
+              },
+              {
+                "product_id": "96990",
+                "product_name": "Custom 11/12",
+                "price": 17.78,
+                "image_url": "/static/product_images/96990.jpg",
+                "summary": "Champagne taste on a beer budget."
+              },
+              {
+                "product_id": "96977",
+                "product_name": "Custom Est 11/12",
+                "price": 24.26,
+                "image_url": "/static/product_images/96977.jpg",
+                "summary": "The feel is real."
+              },
+              {
+                "product_id": "95290",
+                "product_name": "Party Sock",
+                "price": 20.21,
+                "image_url": "/static/product_images/95290.jpg",
+                "summary": "A breathable blend of woolly warmth"
+              },
+              {
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "price": 699.3,
+                "image_url": "/static/product_images/97602.jpg",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "122059",
+                "product_name": "Eat",
+                "price": 0,
+                "image_url": "Sleep Dream T-shirt by Element!",
+                "summary": "Sleep Dream SS F"
+              },
+              {
+                "product_id": "96990",
+                "product_name": "Custom 11/12",
+                "price": 17.78,
+                "image_url": "/static/product_images/96990.jpg",
+                "summary": "Champagne taste on a beer budget."
+              },
+              {
+                "product_id": "96977",
+                "product_name": "Custom Est 11/12",
+                "price": 24.26,
+                "image_url": "/static/product_images/96977.jpg",
+                "summary": "The feel is real."
+              },
+              {
+                "product_id": "95290",
+                "product_name": "Party Sock",
+                "price": 20.21,
+                "image_url": "/static/product_images/95290.jpg",
+                "summary": "A breathable blend of woolly warmth"
+              },
+              {
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "price": 699.3,
+                "image_url": "/static/product_images/97602.jpg",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-07-07T02:57:23.056Z"
+          }
+        },
+        {
+          "id": 1783393088459,
+          "timestamp": "2026-07-07T02:58:08.459Z",
+          "user": "show me cake",
+          "ai": {
+            "error": "Error calling model 'gemini-2.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}"
+          },
+          "metadata": {
+            "session_id": "session_1783393006239_uff7ldsp0",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1783393231906,
+          "timestamp": "2026-07-07T03:00:31.906Z",
+          "user": "show cake",
+          "ai": {
+            "response": "I apologize, but I couldn't find any products matching your search criteria. Could you please try:\n\n\u2022 Using different keywords\n\u2022 Checking the spelling\n\u2022 Broadening your search terms\n\u2022 Asking about a specific category like 'English Breakfast', 'herbal tea', 'gift sets', or 'teapots'\n\nHow else can I help you today?"
+          },
+          "metadata": {
+            "session_id": "session_1783393006239_uff7ldsp0",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1783393268728,
+          "timestamp": "2026-07-07T03:01:08.728Z",
+          "user": "Breakfast",
+          "ai": {
+            "response": "I apologize, but I couldn't find any products matching your search criteria. Could you please try:\n\n\u2022 Using different keywords\n\u2022 Checking the spelling\n\u2022 Broadening your search terms\n\u2022 Asking about a specific category like 'English Breakfast', 'herbal tea', 'gift sets', or 'teapots'\n\nHow else can I help you today?"
+          },
+          "metadata": {
+            "session_id": "session_1783393006239_uff7ldsp0",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1783394974929,
+          "timestamp": "2026-07-07T03:29:34.929Z",
+          "user": "looking for good cake",
+          "ai": {
+            "ai_response": "",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/images/720001.jpg",
+                "payment_plans": [],
+                "price": 24.99,
+                "product_id": "720001",
+                "product_name": "Vanilla Celebration Cake",
+                "summary": "Custom vanilla-flavored cake with smooth buttercream frosting and decorative finish."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/images/720007.jpg",
+                "payment_plans": [],
+                "price": 42.99,
+                "product_id": "720007",
+                "product_name": "Premium Vanilla Party Cake",
+                "summary": "Premium vanilla-flavored cake crafted for celebrations and events."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/images/720004.jpg",
+                "payment_plans": [],
+                "price": 34.99,
+                "product_id": "720004",
+                "product_name": "Vanilla Sheet Cake",
+                "summary": "Large vanilla sheet cake ideal for office parties and family gatherings."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/images/720002.jpg",
+                "payment_plans": [],
+                "price": 27.99,
+                "product_id": "720002",
+                "product_name": "Classic Vanilla Birthday Cake",
+                "summary": "Moist vanilla sponge cake customized for birthdays and special occasions."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/images/720009.jpg",
+                "payment_plans": [],
+                "price": 36.99,
+                "product_id": "720009",
+                "product_name": "Vanilla Anniversary Cake",
+                "summary": "Elegant vanilla cake personalized for anniversaries and milestones."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1783393006239_uff7ldsp0",
+            "products": [
+              {
+                "product_id": "720001",
+                "product_name": "Vanilla Celebration Cake",
+                "price": 24.99,
+                "image_url": "/static/images/720001.jpg",
+                "summary": "Custom vanilla-flavored cake with smooth buttercream frosting and decorative finish."
+              },
+              {
+                "product_id": "720007",
+                "product_name": "Premium Vanilla Party Cake",
+                "price": 42.99,
+                "image_url": "/static/images/720007.jpg",
+                "summary": "Premium vanilla-flavored cake crafted for celebrations and events."
+              },
+              {
+                "product_id": "720004",
+                "product_name": "Vanilla Sheet Cake",
+                "price": 34.99,
+                "image_url": "/static/images/720004.jpg",
+                "summary": "Large vanilla sheet cake ideal for office parties and family gatherings."
+              },
+              {
+                "product_id": "720002",
+                "product_name": "Classic Vanilla Birthday Cake",
+                "price": 27.99,
+                "image_url": "/static/images/720002.jpg",
+                "summary": "Moist vanilla sponge cake customized for birthdays and special occasions."
+              },
+              {
+                "product_id": "720009",
+                "product_name": "Vanilla Anniversary Cake",
+                "price": 36.99,
+                "image_url": "/static/images/720009.jpg",
+                "summary": "Elegant vanilla cake personalized for anniversaries and milestones."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "720001",
+                "product_name": "Vanilla Celebration Cake",
+                "price": 24.99,
+                "image_url": "/static/images/720001.jpg",
+                "summary": "Custom vanilla-flavored cake with smooth buttercream frosting and decorative finish."
+              },
+              {
+                "product_id": "720007",
+                "product_name": "Premium Vanilla Party Cake",
+                "price": 42.99,
+                "image_url": "/static/images/720007.jpg",
+                "summary": "Premium vanilla-flavored cake crafted for celebrations and events."
+              },
+              {
+                "product_id": "720004",
+                "product_name": "Vanilla Sheet Cake",
+                "price": 34.99,
+                "image_url": "/static/images/720004.jpg",
+                "summary": "Large vanilla sheet cake ideal for office parties and family gatherings."
+              },
+              {
+                "product_id": "720002",
+                "product_name": "Classic Vanilla Birthday Cake",
+                "price": 27.99,
+                "image_url": "/static/images/720002.jpg",
+                "summary": "Moist vanilla sponge cake customized for birthdays and special occasions."
+              },
+              {
+                "product_id": "720009",
+                "product_name": "Vanilla Anniversary Cake",
+                "price": 36.99,
+                "image_url": "/static/images/720009.jpg",
+                "summary": "Elegant vanilla cake personalized for anniversaries and milestones."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-07-07T03:29:34.930Z"
+          }
+        },
+        {
+          "id": 1783395379195,
+          "timestamp": "2026-07-07T03:36:19.195Z",
+          "user": "looking for good cake",
+          "ai": {
+            "ai_response": "",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/images/720007.jpg",
+                "payment_plans": [],
+                "price": 42.99,
+                "product_id": "720007",
+                "product_name": "Premium Vanilla Party Cake",
+                "summary": "Premium vanilla-flavored cake crafted for celebrations and events."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/images/720005.jpg",
+                "payment_plans": [],
+                "price": 39.99,
+                "product_id": "720005",
+                "product_name": "Vanilla Floral Designer Cake",
+                "summary": "Custom vanilla cake decorated with elegant floral piping and accents."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/images/720008.jpg",
+                "payment_plans": [],
+                "price": 44.99,
+                "product_id": "720008",
+                "product_name": "Vanilla Kids Theme Cake",
+                "summary": "Custom vanilla cake designed with colorful decorations for children's parties."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/images/720009.jpg",
+                "payment_plans": [],
+                "price": 36.99,
+                "product_id": "720009",
+                "product_name": "Vanilla Anniversary Cake",
+                "summary": "Elegant vanilla cake personalized for anniversaries and milestones."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/images/720004.jpg",
+                "payment_plans": [],
+                "price": 34.99,
+                "product_id": "720004",
+                "product_name": "Vanilla Sheet Cake",
+                "summary": "Large vanilla sheet cake ideal for office parties and family gatherings."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1783393006239_uff7ldsp0",
+            "products": [
+              {
+                "product_id": "720007",
+                "product_name": "Premium Vanilla Party Cake",
+                "price": 42.99,
+                "image_url": "/static/images/720007.jpg",
+                "summary": "Premium vanilla-flavored cake crafted for celebrations and events."
+              },
+              {
+                "product_id": "720005",
+                "product_name": "Vanilla Floral Designer Cake",
+                "price": 39.99,
+                "image_url": "/static/images/720005.jpg",
+                "summary": "Custom vanilla cake decorated with elegant floral piping and accents."
+              },
+              {
+                "product_id": "720008",
+                "product_name": "Vanilla Kids Theme Cake",
+                "price": 44.99,
+                "image_url": "/static/images/720008.jpg",
+                "summary": "Custom vanilla cake designed with colorful decorations for children's parties."
+              },
+              {
+                "product_id": "720009",
+                "product_name": "Vanilla Anniversary Cake",
+                "price": 36.99,
+                "image_url": "/static/images/720009.jpg",
+                "summary": "Elegant vanilla cake personalized for anniversaries and milestones."
+              },
+              {
+                "product_id": "720004",
+                "product_name": "Vanilla Sheet Cake",
+                "price": 34.99,
+                "image_url": "/static/images/720004.jpg",
+                "summary": "Large vanilla sheet cake ideal for office parties and family gatherings."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "720007",
+                "product_name": "Premium Vanilla Party Cake",
+                "price": 42.99,
+                "image_url": "/static/images/720007.jpg",
+                "summary": "Premium vanilla-flavored cake crafted for celebrations and events."
+              },
+              {
+                "product_id": "720005",
+                "product_name": "Vanilla Floral Designer Cake",
+                "price": 39.99,
+                "image_url": "/static/images/720005.jpg",
+                "summary": "Custom vanilla cake decorated with elegant floral piping and accents."
+              },
+              {
+                "product_id": "720008",
+                "product_name": "Vanilla Kids Theme Cake",
+                "price": 44.99,
+                "image_url": "/static/images/720008.jpg",
+                "summary": "Custom vanilla cake designed with colorful decorations for children's parties."
+              },
+              {
+                "product_id": "720009",
+                "product_name": "Vanilla Anniversary Cake",
+                "price": 36.99,
+                "image_url": "/static/images/720009.jpg",
+                "summary": "Elegant vanilla cake personalized for anniversaries and milestones."
+              },
+              {
+                "product_id": "720004",
+                "product_name": "Vanilla Sheet Cake",
+                "price": 34.99,
+                "image_url": "/static/images/720004.jpg",
+                "summary": "Large vanilla sheet cake ideal for office parties and family gatherings."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-07-07T03:36:19.196Z"
+          }
+        },
+        {
+          "id": 1783395422512,
+          "timestamp": "2026-07-07T03:37:02.512Z",
+          "user": "can you help me to finde good cookies",
+          "ai": {
+            "ai_response": "",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/images/500027.jpg",
+                "payment_plans": [],
+                "price": 3.99,
+                "product_id": "500027",
+                "product_name": "Sugar Cookies",
+                "summary": "Soft, buttery sugar cookies with a hint of vanilla."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/images/500023.jpg",
+                "payment_plans": [],
+                "price": 4.29,
+                "product_id": "500023",
+                "product_name": "Bakery Cookies",
+                "summary": "Fresh-baked style chocolate chip cookies with a rich, buttery flavor."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/images/500028.jpg",
+                "payment_plans": [],
+                "price": 3.49,
+                "product_id": "500028",
+                "product_name": "Peanut Butter Cookies",
+                "summary": "Rich peanut butter cookies with a crisscross pattern."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/images/500021.jpg",
+                "payment_plans": [],
+                "price": 3.49,
+                "product_id": "500021",
+                "product_name": "Chocolate Chip Cookies",
+                "summary": "Classic semi-sweet chocolate chip cookies with a soft, chewy texture."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/images/500030.jpg",
+                "payment_plans": [],
+                "price": 4.49,
+                "product_id": "500030",
+                "product_name": "Gluten-Free Cookies",
+                "summary": "Crispy, gluten-free cookies made with rice flour and natural ingredients."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1783393006239_uff7ldsp0",
+            "products": [
+              {
+                "product_id": "500027",
+                "product_name": "Sugar Cookies",
+                "price": 3.99,
+                "image_url": "/static/images/500027.jpg",
+                "summary": "Soft, buttery sugar cookies with a hint of vanilla."
+              },
+              {
+                "product_id": "500023",
+                "product_name": "Bakery Cookies",
+                "price": 4.29,
+                "image_url": "/static/images/500023.jpg",
+                "summary": "Fresh-baked style chocolate chip cookies with a rich, buttery flavor."
+              },
+              {
+                "product_id": "500028",
+                "product_name": "Peanut Butter Cookies",
+                "price": 3.49,
+                "image_url": "/static/images/500028.jpg",
+                "summary": "Rich peanut butter cookies with a crisscross pattern."
+              },
+              {
+                "product_id": "500021",
+                "product_name": "Chocolate Chip Cookies",
+                "price": 3.49,
+                "image_url": "/static/images/500021.jpg",
+                "summary": "Classic semi-sweet chocolate chip cookies with a soft, chewy texture."
+              },
+              {
+                "product_id": "500030",
+                "product_name": "Gluten-Free Cookies",
+                "price": 4.49,
+                "image_url": "/static/images/500030.jpg",
+                "summary": "Crispy, gluten-free cookies made with rice flour and natural ingredients."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "500027",
+                "product_name": "Sugar Cookies",
+                "price": 3.99,
+                "image_url": "/static/images/500027.jpg",
+                "summary": "Soft, buttery sugar cookies with a hint of vanilla."
+              },
+              {
+                "product_id": "500023",
+                "product_name": "Bakery Cookies",
+                "price": 4.29,
+                "image_url": "/static/images/500023.jpg",
+                "summary": "Fresh-baked style chocolate chip cookies with a rich, buttery flavor."
+              },
+              {
+                "product_id": "500028",
+                "product_name": "Peanut Butter Cookies",
+                "price": 3.49,
+                "image_url": "/static/images/500028.jpg",
+                "summary": "Rich peanut butter cookies with a crisscross pattern."
+              },
+              {
+                "product_id": "500021",
+                "product_name": "Chocolate Chip Cookies",
+                "price": 3.49,
+                "image_url": "/static/images/500021.jpg",
+                "summary": "Classic semi-sweet chocolate chip cookies with a soft, chewy texture."
+              },
+              {
+                "product_id": "500030",
+                "product_name": "Gluten-Free Cookies",
+                "price": 4.49,
+                "image_url": "/static/images/500030.jpg",
+                "summary": "Crispy, gluten-free cookies made with rice flour and natural ingredients."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-07-07T03:37:02.513Z"
+          }
+        },
+        {
+          "id": 1783395450897,
+          "timestamp": "2026-07-07T03:37:30.897Z",
+          "user": "Show me detailed information about product 500027",
+          "ai": {
+            "ai_response": "",
+            "product_data": {
+              "PROMO_DESCRIPTION": "",
+              "PROMO_DISCOUNT_PERCENT": "",
+              "PROMO_TITLE": "",
+              "categories": [
+                "Cookies"
+              ],
+              "image_url": "/static/images/500027.jpg",
+              "payment_plans": [],
+              "price": 3.99,
+              "product_id": "500027",
+              "product_name": "Sugar Cookies",
+              "summary": "Soft, buttery sugar cookies with a hint of vanilla."
+            },
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [
+                  "Cookies"
+                ],
+                "image_url": "/static/images/500027.jpg",
+                "payment_plans": [],
+                "price": 3.99,
+                "product_id": "500027",
+                "product_name": "Sugar Cookies",
+                "summary": "Soft, buttery sugar cookies with a hint of vanilla."
+              }
+            ],
+            "response_type": "product"
+          },
+          "metadata": {
+            "session_id": "session_1783393006239_uff7ldsp0",
+            "products": [
+              {
+                "product_id": "500027",
+                "product_name": "Sugar Cookies",
+                "price": 3.99,
+                "image_url": "/static/images/500027.jpg",
+                "summary": "Soft, buttery sugar cookies with a hint of vanilla."
+              }
+            ],
+            "response_type": "product",
+            "products_count": 1,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1783402271675,
+          "timestamp": "2026-07-07T05:31:11.675Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-teal-50 to-green-50 rounded-2xl p-6 border mb-4' style='border-color:rgba(27,82,82,0.25);' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart mr-2' style='color:#1B5252;'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='px-3 py-1 rounded-full text-sm font-semibold text-white' style='background:#1B5252;' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='pt-4' style='border-top:1px solid rgba(27,82,82,0.2);'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold' style='color:#1B5252;' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl' style='background:#F47920;' onmouseover=\"this.style.background='#d4691a'\" onmouseout=\"this.style.background='#F47920'\">\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl' style='background:#1B5252;' onmouseover=\"this.style.background='#133d3d'\" onmouseout=\"this.style.background='#1B5252'\">\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1783393006239_uff7ldsp0",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        }
+      ],
+      "last_products": [
+        {
+          "product_id": "500027",
+          "product_name": "Sugar Cookies",
+          "price": 3.99,
+          "image_url": "/static/images/500027.jpg",
+          "summary": "Soft, buttery sugar cookies with a hint of vanilla."
+        },
+        {
+          "product_id": "500023",
+          "product_name": "Bakery Cookies",
+          "price": 4.29,
+          "image_url": "/static/images/500023.jpg",
+          "summary": "Fresh-baked style chocolate chip cookies with a rich, buttery flavor."
+        },
+        {
+          "product_id": "500028",
+          "product_name": "Peanut Butter Cookies",
+          "price": 3.49,
+          "image_url": "/static/images/500028.jpg",
+          "summary": "Rich peanut butter cookies with a crisscross pattern."
+        },
+        {
+          "product_id": "500021",
+          "product_name": "Chocolate Chip Cookies",
+          "price": 3.49,
+          "image_url": "/static/images/500021.jpg",
+          "summary": "Classic semi-sweet chocolate chip cookies with a soft, chewy texture."
+        },
+        {
+          "product_id": "500030",
+          "product_name": "Gluten-Free Cookies",
+          "price": 4.49,
+          "image_url": "/static/images/500030.jpg",
+          "summary": "Crispy, gluten-free cookies made with rice flour and natural ingredients."
+        }
+      ],
+      "recent_displayed": [],
+      "context": [
+        {
+          "user": "can you help me to finde good cookies",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "500027",
+              "product_name": "Sugar Cookies",
+              "price": 3.99,
+              "image_url": "/static/images/500027.jpg",
+              "summary": "Soft, buttery sugar cookies with a hint of vanilla."
+            },
+            {
+              "product_id": "500023",
+              "product_name": "Bakery Cookies",
+              "price": 4.29,
+              "image_url": "/static/images/500023.jpg",
+              "summary": "Fresh-baked style chocolate chip cookies with a rich, buttery flavor."
+            },
+            {
+              "product_id": "500028",
+              "product_name": "Peanut Butter Cookies",
+              "price": 3.49,
+              "image_url": "/static/images/500028.jpg",
+              "summary": "Rich peanut butter cookies with a crisscross pattern."
+            },
+            {
+              "product_id": "500021",
+              "product_name": "Chocolate Chip Cookies",
+              "price": 3.49,
+              "image_url": "/static/images/500021.jpg",
+              "summary": "Classic semi-sweet chocolate chip cookies with a soft, chewy texture."
+            },
+            {
+              "product_id": "500030",
+              "product_name": "Gluten-Free Cookies",
+              "price": 4.49,
+              "image_url": "/static/images/500030.jpg",
+              "summary": "Crispy, gluten-free cookies made with rice flour and natural ingredients."
+            }
+          ],
+          "type": "products_list"
+        },
+        {
+          "user": "Show me detailed information about product 500027",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "500027",
+              "product_name": "Sugar Cookies",
+              "price": 3.99,
+              "image_url": "/static/images/500027.jpg",
+              "summary": "Soft, buttery sugar cookies with a hint of vanilla."
+            }
+          ],
+          "type": "product"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": "2026-07-07T11:01:26.340228",
+    "session_id": "24605575-ae90-49ce-ba9f-78a942357f09"
+  },
+  "result": {
+    "payment_id": "PAYID-NJGI6MQ6V193414VP633330H",
+    "payer_id": "YR6334H86TGYG",
+    "token": "EC-7V927490MY591971C",
+    "order_result": {
+      "success": true,
+      "message": "Order TWN-974154 created successfully!",
+      "order_details": {
+        "order_id": "TWN-974154",
+        "customer_id": "emily.carter@gmail.com",
+        "order_date": "2026-07-07 11:01:53",
+        "total_price": 3.99,
+        "status": "Open",
+        "items_count": 1,
+        "items": [
+          {
+            "line_item_id": 1,
+            "product_id": "700007",
+            "product_name": "Kids Yogurt Strawberry",
+            "quantity": 1,
+            "unit_price": 3.99,
+            "line_total": 3.99,
+            "image_url": "/static/images/700007.jpg"
+          }
+        ]
+      }
+    },
+    "message": "Payment completed successfully!"
+  },
+  "updated_at": "2026-07-07T11:01:54.072886"
+}

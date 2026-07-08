@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Shopping Assistant - Application Flow</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+        
+        .header p {
+            margin: 10px 0 0 0;
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .flow-container {
+            padding: 40px;
+        }
+        
+        .layer {
+            margin-bottom: 40px;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        
+        .layer h2 {
+            margin: 0 0 20px 0;
+            font-size: 1.8em;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .layer-icon {
+            font-size: 2em;
+        }
+        
+        .components {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .component {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-left: 5px solid;
+            transition: all 0.3s ease;
+        }
+        
+        .component:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        .component h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.3em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .component p {
+            margin: 0;
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .component ul {
+            margin: 10px 0 0 0;
+            padding-left: 20px;
+            color: #666;
+        }
+        
+        .component li {
+            margin: 5px 0;
+        }
+        
+        /* Layer specific styling */
+        .user-layer {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .user-layer .component {
+            border-left-color: #ffffff;
+            background: rgba(255,255,255,0.95);
+        }
+        
+        .client-layer {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+        }
+        
+        .client-layer .component {
+            border-left-color: #f5576c;
+        }
+        
+        .flask-layer {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+        }
+        
+        .flask-layer .component {
+            border-left-color: #00f2fe;
+        }
+        
+        .agent-layer {
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+            color: white;
+        }
+        
+        .agent-layer .component {
+            border-left-color: #43e97b;
+        }
+        
+        .tools-layer {
+            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+            color: white;
+        }
+        
+        .tools-layer .component {
+            border-left-color: #fa709a;
+        }
+        
+        .ai-layer {
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            color: #333;
+        }
+        
+        .ai-layer .component {
+            border-left-color: #a8edea;
+        }
+        
+        .db-layer {
+            background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
+            color: #333;
+        }
+        
+        .db-layer .component {
+            border-left-color: #d299c2;
+        }
+        
+        .flow-arrows {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        
+        .arrow {
+            font-size: 3em;
+            color: #667eea;
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+        
+        .key-features {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 40px;
+        }
+        
+        .key-features h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2em;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .feature {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        
+        .feature-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+            display: block;
+        }
+        
+        .feature h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.4em;
+        }
+        
+        .feature p {
+            margin: 0;
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+        
+        @media (max-width: 768px) {
+            .components {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .flow-container {
+                padding: 20px;
+            }
+            
+            .layer {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 AI Shopping Assistant</h1>
+            <p>Complete Application Architecture & Data Flow</p>
+        </div>
+        
+        <div class="flow-container">
+            <!-- User Interface Layer -->
+            <div class="layer user-layer">
+                <h2>
+                    <span class="layer-icon">🌐</span>
+                    User Interface Layer
+                </h2>
+                <div class="components">
+                    <div class="component">
+                        <h3>🎤 Voice Search</h3>
+                        <p>Real-time speech recognition with multilingual support</p>
+                        <ul>
+                            <li>Web Speech API integration</li>
+                            <li>7+ language support</li>
+                            <li>Visual feedback & animations</li>
+                            <li>Keyboard shortcuts</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>💬 Chat Interface</h3>
+                        <p>Interactive conversational UI for natural communication</p>
+                        <ul>
+                            <li>Real-time messaging</li>
+                            <li>Rich product displays</li>
+                            <li>Conversation memory</li>
+                            <li>Contextual responses</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>🛒 Shopping Cart</h3>
+                        <p>Session-based cart management with visual feedback</p>
+                        <ul>
+                            <li>Add/remove products</li>
+                            <li>Real-time updates</li>
+                            <li>Session persistence</li>
+                            <li>Mini-cart dropdown</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>📱 Responsive Design</h3>
+                        <p>Modern, mobile-first interface with smooth animations</p>
+                        <ul>
+                            <li>Tailwind CSS styling</li>
+                            <li>Cross-device compatibility</li>
+                            <li>Smooth transitions</li>
+                            <li>Glass morphism effects</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flow-arrows">
+                <span class="arrow">⬇️</span>
+            </div>
+            
+            <!-- Client-Side Layer -->
+            <div class="layer client-layer">
+                <h2>
+                    <span class="layer-icon">📱</span>
+                    Client-Side Processing
+                </h2>
+                <div class="components">
+                    <div class="component">
+                        <h3>🎙️ voice-search.js</h3>
+                        <p>Advanced speech recognition and processing</p>
+                        <ul>
+                            <li>Speech-to-text conversion</li>
+                            <li>Language detection</li>
+                            <li>Error handling</li>
+                            <li>Visual status updates</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>⚙️ app.js</h3>
+                        <p>Main application logic and API communication</p>
+                        <ul>
+                            <li>AJAX request handling</li>
+                            <li>UI state management</li>
+                            <li>Response processing</li>
+                            <li>Event coordination</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>🛍️ Cart Management</h3>
+                        <p>Browser session storage for shopping cart</p>
+                        <ul>
+                            <li>Session storage API</li>
+                            <li>Cart state persistence</li>
+                            <li>Real-time updates</li>
+                            <li>Cross-tab sync</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flow-arrows">
+                <span class="arrow">⬇️</span>
+            </div>
+            
+            <!-- Flask Application Layer -->
+            <div class="layer flask-layer">
+                <h2>
+                    <span class="layer-icon">🌍</span>
+                    Flask Web Server (Port 8081)
+                </h2>
+                <div class="components">
+                    <div class="component">
+                        <h3>🔌 /api/query</h3>
+                        <p>Main query processing endpoint</p>
+                        <ul>
+                            <li>POST request handling</li>
+                            <li>Query validation</li>
+                            <li>Agent orchestration</li>
+                            <li>Response formatting</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>🔐 /api/login</h3>
+                        <p>User authentication endpoint</p>
+                        <ul>
+                            <li>Email validation</li>
+                            <li>Database lookup</li>
+                            <li>Session management</li>
+                            <li>Security handling</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>🛒 /api/add-to-cart</h3>
+                        <p>Cart operation endpoint</p>
+                        <ul>
+                            <li>Product validation</li>
+                            <li>Quantity management</li>
+                            <li>Tool integration</li>
+                            <li>Response confirmation</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>📦 /api/best-selling-products</h3>
+                        <p>Homepage product carousel endpoint</p>
+                        <ul>
+                            <li>Product recommendations</li>
+                            <li>Performance optimization</li>
+                            <li>Image URL handling</li>
+                            <li>Category filtering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flow-arrows">
+                <span class="arrow">⬇️</span>
+            </div>
+            
+            <!-- AI Agent Layer -->
+            <div class="layer agent-layer">
+                <h2>
+                    <span class="layer-icon">🤖</span>
+                    LangGraph AI Agent Orchestra
+                </h2>
+                <div class="components">
+                    <div class="component">
+                        <h3>📊 process_query()</h3>
+                        <p>Main orchestration function</p>
+                        <ul>
+                            <li>Query analysis</li>
+                            <li>Context management</li>
+                            <li>Response structuring</li>
+                            <li>Memory integration</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>🧠 LLM Node</h3>
+                        <p>Google Generative AI processing</p>
+                        <ul>
+                            <li>Natural language understanding</li>
+                            <li>Intent recognition</li>
+                            <li>Tool selection</li>
+                            <li>Response generation</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>🛠️ Tool Node</h3>
+                        <p>Function execution coordinator</p>
+                        <ul>
+                            <li>Tool invocation</li>
+                            <li>Error handling</li>
+                            <li>Result processing</li>
+                            <li>Response formatting</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>🧠 Memory Store</h3>
+                        <p>Conversation history management</p>
+                        <ul>
+                            <li>Session-based memory</li>
+                            <li>Context preservation</li>
+                            <li>History retrieval</li>
+                            <li>State management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flow-arrows">
+                <span class="arrow">⬇️</span>
+            </div>
+            
+            <!-- Tools Layer -->
+            <div class="layer tools-layer">
+                <h2>
+                    <span class="layer-icon">🛠️</span>
+                    AI-Powered Tools Arsenal
+                </h2>
+                <div class="components">
+                    <div class="component">
+                        <h3>🔍 semantic_product_search</h3>
+                        <p>Vector-based product discovery</p>
+                        <ul>
+                            <li>Multilingual search</li>
+                            <li>Price filtering</li>
+                            <li>Category awareness</li>
+                            <li>Similarity ranking</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>🗣️ conversational_assistant</h3>
+                        <p>Natural dialogue management</p>
+                        <ul>
+                            <li>Context understanding</li>
+                            <li>Follow-up questions</li>
+                            <li>Intent clarification</li>
+                            <li>Engaging responses</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>👶 search_kids_products</h3>
+                        <p>Specialized children's product search</p>
+                        <ul>
+                            <li>Age-appropriate filtering</li>
+                            <li>Safety considerations</li>
+                            <li>Category specialization</li>
+                            <li>Multilingual support</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>🔗 find_accessories</h3>
+                        <p>Related product recommendations</p>
+                        <ul>
+                            <li>Product relationships</li>
+                            <li>Compatibility matching</li>
+                            <li>Cross-selling logic</li>
+                            <li>Smart suggestions</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>📋 Order Management Tools</h3>
+                        <p>Customer order processing</p>
+                        <ul>
+                            <li>Order history retrieval</li>
+                            <li>Order detail lookup</li>
+                            <li>Status tracking</li>
+                            <li>Customer linking</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>❓ faq_answers</h3>
+                        <p>Knowledge base search</p>
+                        <ul>
+                            <li>Semantic FAQ matching</li>
+                            <li>Vector similarity</li>
+                            <li>Contextual responses</li>
+                            <li>Relevance ranking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flow-arrows">
+                <span class="arrow">⬇️</span>
+            </div>
+            
+            <!-- AI Services Layer -->
+            <div class="layer ai-layer">
+                <h2>
+                    <span class="layer-icon">🧠</span>
+                    External AI Services
+                </h2>
+                <div class="components">
+                    <div class="component">
+                        <h3>🚀 Google Generative AI</h3>
+                        <p>Primary language model processing</p>
+                        <ul>
+                            <li>Natural language understanding</li>
+                            <li>Response generation</li>
+                            <li>Context awareness</li>
+                            <li>Tool selection logic</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>🔢 Google Embeddings</h3>
+                        <p>Vector representation generation</p>
+                        <ul>
+                            <li>768-dimensional vectors</li>
+                            <li>Semantic understanding</li>
+                            <li>Multilingual support</li>
+                            <li>Similarity calculations</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>🌍 Multilingual Processing</h3>
+                        <p>Language detection and translation</p>
+                        <ul>
+                            <li>Automatic language detection</li>
+                            <li>Real-time translation</li>
+                            <li>Context preservation</li>
+                            <li>Cultural adaptation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flow-arrows">
+                <span class="arrow">⬇️</span>
+            </div>
+            
+            <!-- Database Layer -->
+            <div class="layer db-layer">
+                <h2>
+                    <span class="layer-icon">🗄️</span>
+                    SAP HANA Cloud Vector Database
+                </h2>
+                <div class="components">
+                    <div class="component">
+                        <h3>📦 Products Table</h3>
+                        <p>SAP_PRODUCTS_COMMERCE_2211</p>
+                        <ul>
+                            <li>Product catalog with vectors</li>
+                            <li>Price and category data</li>
+                            <li>Image URLs and descriptions</li>
+                            <li>Semantic search capabilities</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>📋 Orders Table</h3>
+                        <p>SAP_ORDERS_COMMERCE_2211_V2</p>
+                        <ul>
+                            <li>Customer order history</li>
+                            <li>Order status tracking</li>
+                            <li>Product relationships</li>
+                            <li>Transaction details</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>👤 Customers Table</h3>
+                        <p>SAP_CUSTOMER_COMMERCE_2211</p>
+                        <ul>
+                            <li>Customer profiles</li>
+                            <li>Authentication data</li>
+                            <li>Demographic information</li>
+                            <li>Preference tracking</li>
+                        </ul>
+                    </div>
+                    <div class="component">
+                        <h3>❓ FAQ Table</h3>
+                        <p>SAP_FAQ_COMMERCE_2211</p>
+                        <ul>
+                            <li>Knowledge base with vectors</li>
+                            <li>Semantic Q&A matching</li>
+                            <li>Support information</li>
+                            <li>Context-aware responses</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="key-features">
+            <h2>🌟 Key System Features</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <span class="feature-icon">🎤</span>
+                    <h3>Voice Search</h3>
+                    <p>Hands-free shopping with real-time speech recognition in multiple languages</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🧠</span>
+                    <h3>Smart AI</h3>
+                    <p>Context-aware conversational AI that understands intent and provides relevant responses</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🔍</span>
+                    <h3>Semantic Search</h3>
+                    <p>Vector-based product discovery that understands meaning beyond keywords</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🌍</span>
+                    <h3>Multilingual</h3>
+                    <p>Support for Hindi, Spanish, French, German and more with automatic translation</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🛒</span>
+                    <h3>Smart Cart</h3>
+                    <p>Intelligent shopping cart with session persistence and voice-controlled operations</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">⚡</span>
+                    <h3>Real-time</h3>
+                    <p>Instant responses with smooth animations and live updates across all features</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

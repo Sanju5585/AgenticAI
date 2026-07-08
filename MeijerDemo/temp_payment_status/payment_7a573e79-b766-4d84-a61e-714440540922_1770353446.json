@@ -1,0 +1,1549 @@
+{
+  "session_id": "7a573e79-b766-4d84-a61e-714440540922",
+  "status": "pending",
+  "created_at": "2026-02-06T10:20:46.148542",
+  "payment_data": {
+    "customer_id": "william.hunter@pronto-hw.com",
+    "cart_items": [
+      {
+        "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0NjU0MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9PR1l2T0RjNU5qa3dNVFl3TlRRd05pNXFjR2N8MGEzMjZjYTc1MzYyM2QxMDY1ZDE4NDgyNzYyYmFiODgwMmZiNTViMWEwNTg3YjJmOTNkZDUzZWMzMTdkNTMyMg",
+        "price": 32.36,
+        "product_id": "83223",
+        "product_name": "Selva Dress Women                                          ",
+        "quantity": 1,
+        "addedAt": "2026-02-06T04:50:36.475Z"
+      }
+    ],
+    "total_amount": 32.36,
+    "chat_history": [
+      {
+        "id": "msg_0",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n                <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n                  <i class=\"fas fa-robot text-white text-sm\"></i>\n                </div>\n                <div>\n                  <p class=\"font-medium text-gray-800\">Hello! I'm your AI shopping assistant.</p>\n                  <p class=\"text-gray-600 text-sm mt-1\">How can I help you find the perfect products today?</p>\n                  <p class=\"text-gray-500 text-xs mt-2 italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>\n                    Note: Your cart will be cleared when you refresh the page.\n                  </p>\n                  <p class=\"text-purple-600 text-xs mt-1 font-medium\">\n                    <i class=\"fas fa-credit-card mr-1\"></i>\n                    Secure PayPal checkout available - your session will be maintained during payment!\n                  </p>\n                </div>\n              </div>",
+        "timestamp": "2026-02-06T04:50:45.820Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_1",
+        "sender": "user",
+        "message": "show me tshirt",
+        "timestamp": "2026-02-06T04:50:45.820Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_2",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"bg-gradient-to-br from-purple-50 via-white to-pink-50 rounded-3xl p-6 border border-purple-100\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs px-3 py-1 rounded-full\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white/70 backdrop-blur-sm rounded-full px-4 py-2 border border-purple-200 flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-purple-500 text-sm\"></i>\n                <span class=\"text-sm font-semibold text-purple-600\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1770353231889\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ\" alt=\"T-Shirt Men Playboard Logo Tee black S\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">T-Shirt Men Playboard Logo Tee black S</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">T-Shirt from Playboard with logo front print.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a326.68</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ\" alt=\"T-Shirt Men Playboard Logo Tee black L\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">T-Shirt Men Playboard Logo Tee black L</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">T-Shirt from Playboard with logo front print.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a326.68</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wzNzk4OXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNFppOW9ZMlV2T0RjNU5qWTBPVE01TURFeE1DNXFjR2N8NDJlNzA3MGU5YTY1NzY4NzY4MDhiYzM1YzFjMDYyOGUxY2VjNTYzMzNhM2VjOTRmODUwMzE0ZDU1N2IyZTM3OQ\" alt=\"T-Shirt Men Playboard Logo Tee red L\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">T-Shirt Men Playboard Logo Tee red L</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">T-Shirt from Playboard with logo front print.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a326.68</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ\" alt=\"T-Shirt Men Playboard Logo Tee black XL\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">T-Shirt Men Playboard Logo Tee black XL</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">T-Shirt from Playboard with logo front print.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a326.68</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ\" alt=\"T-Shirt Men Playboard Logo Tee black M\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">T-Shirt Men Playboard Logo Tee black M</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">T-Shirt from Playboard with logo front print.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a326.68</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2026-02-06T04:50:45.820Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_3",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n    <div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; border-radius: 15px; margin: 10px 0; box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);\">\n      <div style=\"display: flex; align-items: center; margin-bottom: 20px;\">\n        <div style=\"background: rgba(255,255,255,0.2); border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-size: 24px;\">\n          \ud83d\udc4b\n        </div>\n        <div>\n          <h3 style=\"margin: 0; font-size: 22px; font-weight: 700;\">Welcome back, William Hunter!</h3>\n          <p style=\"margin: 5px 0 0 0; font-size: 14px; opacity: 0.9;\">Your personalized shopping experience is ready</p>\n        </div>\n      </div>\n  \n      <div style=\"background: rgba(255,255,255,0.15); padding: 18px; border-radius: 12px; margin-top: 15px;\">\n        <h4 style=\"margin: 0 0 15px 0; font-size: 16px; font-weight: 600; display: flex; align-items: center;\">\n          <i class=\"fas fa-history\" style=\"margin-right: 8px;\"></i>\n          Your Recent Orders\n        </h4>\n    \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0OTc0MHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobU5TOW9OREV2T0RjNU5qWTRNalUxTVRNeU5pNXFjR2N8ZGYzYTZkYmYxNTg4ODgyZDM3N2MyMzliM2ViMDljNGMwODU1ODBlNWU0MzcyMjU5NmI5NWM0NGFiN2UzOWEzZQ\" alt=\"Beacon Jacket                                              \" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Beacon Jacket                                              </div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 28 Nov 2025</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a3101.21</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#9097</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzQwMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobE5pOW9NR1l2T0RjNU5qWTBPVEV5TnprMk5pNXFjR2N8ODhkODYyNWIyODQxNDYzZjZjY2JiMzg1NDFjYzlmZWY0ZjYyMjIyNTRlNWZjNjhkNmVmOTBjOTQwZjllNDAxOQ\" alt=\"T-Shirt Men Playboard Raster SS white M                    \" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">T-Shirt Men Playboard Raster SS white M                    </div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 27 Nov 2025</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a326.68</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#4581</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMzc2N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE1pOW9NVEV2T0RjNU5qWTBNamsyTnpVNE1pNXFjR2N8YTJiNTEwMDY0NmRlOTY2YWZlNjQ5ZTQxMGY1MDUzOWFlMTc2MmRlYmIwNjZiNGExZTc2Nzk4Yzc2NzRlYWZiZg\" alt=\"Shades Fox The Median polished black warm grey             \" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Shades Fox The Median polished black warm grey             </div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 21 Nov 2025</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a319.51</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#5201</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0MjA4MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE9DOW9OamN2T0RjNU5qazBORFV6TVRRNE5pNXFjR2N8ODZkOTU0YjMyZjcyNjNhMzgyY2JkODM4NDZmNmI3Y2I5NWNmNTliNTgzZWZiZmI2NThlYjgzNzA1YjdiZTJmMw\" alt=\"Quad Tee SS                                                \" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Quad Tee SS                                                </div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 20 Nov 2025</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a316.16</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#4696</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 0; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0OTc0MHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobU5TOW9OREV2T0RjNU5qWTRNalUxTVRNeU5pNXFjR2N8ZGYzYTZkYmYxNTg4ODgyZDM3N2MyMzliM2ViMDljNGMwODU1ODBlNWU0MzcyMjU5NmI5NWM0NGFiN2UzOWEzZQ\" alt=\"Beacon Jacket                                              \" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Beacon Jacket                                              </div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 20 Nov 2025</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a3101.21</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#5962</div>\n          </div>\n        </div>\n      \n      </div>\n      <div style=\"margin-top: 15px; text-align: center; font-size: 13px; opacity: 0.9;\">\n        <i class=\"fas fa-info-circle\" style=\"margin-right: 5px;\"></i>\n        I've personalized your Trending Now section based on your purchase history!\n      </div>\n    \n    </div>\n  \n        </div>\n      </div>",
+        "timestamp": "2026-02-06T04:50:45.820Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_4",
+        "sender": "user",
+        "message": "show me dress",
+        "timestamp": "2026-02-06T04:50:45.820Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_5",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"bg-gradient-to-br from-purple-50 via-white to-pink-50 rounded-3xl p-6 border border-purple-100\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs px-3 py-1 rounded-full\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white/70 backdrop-blur-sm rounded-full px-4 py-2 border border-purple-200 flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-purple-500 text-sm\"></i>\n                <span class=\"text-sm font-semibold text-purple-600\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1770353426084\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1ODYzN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1DOW9aRGN2T0RjNU5qZzVPREF3TURreU5pNXFjR2N8OWU0ZmIzM2RiZjk0NWFlMWMyZTNkOTRjODE0MTBhNmJhNTRjYWIxNmM5NjY4MmNhNmM5NjdlZDA1MTk2ZDU1OQ\" alt=\"Up Country Floral Dress Women\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Up Country Floral Dress Women</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">A summer's dream! Super cute dress with a flowery print and puffy sleeves</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a320.21</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MzQ0NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak9DOW9aRGt2T0RjNU5qZzVOakF6TkRnME5pNXFjR2N8YzZkM2ZhNWIyNDQ3NmYyZmI3MjA5OGRkM2ViN2RlMmVlMTQxZDhjMjhmM2Q3MWVjNmRkZjAyMzRmMWEzMzY4YQ\" alt=\"Strybal Dress Women\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Strybal Dress Women</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">The Strybal Drss by Volcom is a super nice Dress with an awesome all over print. 100% Cotton</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a324.26</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0NjU0MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9PR1l2T0RjNU5qa3dNVFl3TlRRd05pNXFjR2N8MGEzMjZjYTc1MzYyM2QxMDY1ZDE4NDgyNzYyYmFiODgwMmZiNTViMWEwNTg3YjJmOTNkZDUzZWMzMTdkNTMyMg\" alt=\"Selva Dress Women\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Selva Dress Women</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">With the femipleasure Selva dress in a colourful stripe pattern with chest pocket on the left side and draw cord belt you'll be even more scrumptious in the eyes of the boys. 100 % cotton</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a332.36</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wzOTQ1OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMlppOW9NMlV2T0RjNU5qZzVPVFl6T1RNeU5pNXFjR2N8OTFmNDgxZTE2MWI3MDU2ZWJhMmNkZDllN2Y1NzEzMzc0MGI3OWE0MzVhYjdmMmI5MzE4MGI2MGNmMWY2Njc5NA\" alt=\"Stratus Dress Women\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Stratus Dress Women</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">The Stratus Dress is the perfect companion whether you're at the beach or sipping a cocktail in the city. You're sure to catch everyone's attention! 51% cotton</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a336.41</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MjIyOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnelppOW9NalF2T0RjNU5qZzVPRFkxTmpJNE5pNXFjR2N8OGQ4NTE3Y2U4MmU3YmUxYzk1YTMxYjY1Y2ZmYTA4NWQyNjI1NTdiNDhiMGZjNWI4MmU1NjA2YzFlMDBiMTIzOQ\" alt=\"Stella Dress Women\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Stella Dress Women</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Checked is in</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a344.51</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2026-02-06T04:50:45.820Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_6",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2026-02-06T04:50:45.820Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_7",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n        <div class=\"bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4\" id=\"chat-cart-container\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart text-purple-500 mr-2\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold\" id=\"chat-cart-count\"><i class=\"fas fa-shopping-cart mr-1\"></i>1 item</div>\n            </div>\n            \n            <div id=\"chat-cart-items\" class=\"space-y-3 mb-4\">\n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3 flex-1\">\n          <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0NjU0MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9PR1l2T0RjNU5qa3dNVFl3TlRRd05pNXFjR2N8MGEzMjZjYTc1MzYyM2QxMDY1ZDE4NDgyNzYyYmFiODgwMmZiNTViMWEwNTg3YjJmOTNkZDUzZWMzMTdkNTMyMg\" alt=\"Selva Dress Women                                          \" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1 min-w-0\">\n            <h4 class=\"font-semibold text-gray-800 text-sm truncate\">Selva Dress Women                                          </h4>\n            <p class=\"text-xs text-gray-500 mt-1\">\u00a332.36 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 bg-purple-100 text-purple-800 rounded-full min-w-[2rem] text-center\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right ml-4\">\n          <p class=\"text-lg font-bold text-purple-600\">\u00a332.36</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    </div>\n            \n            <div id=\"chat-cart-footer\" class=\"border-t border-purple-200 pt-4\">\n                <div class=\"flex items-center justify-between mb-4\">\n                    <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                    <span class=\"text-2xl font-bold text-purple-600\" id=\"chat-cart-total\">\u00a332.36</span>\n                </div>\n                \n                <div class=\"text-center space-x-2\">\n                    <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-sync-alt mr-2\"></i>Refresh Cart\n                    </button>\n                    <button  class=\"bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-credit-card mr-2\"></i>Checkout\n                    </button>\n                </div>\n                \n                <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" onload=\"(function(){setTimeout(function(){if(typeof renderChatCart === &quot;function&quot;){console.log(&quot;\ud83d\uded2 Auto-triggering renderChatCart via image onload&quot;);renderChatCart();}},100);})()\" style=\"display:none;\">\n        \n        </div>\n      </div>",
+        "timestamp": "2026-02-06T04:50:45.820Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_8",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Ready for Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Order Summary</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: \u00a332.36</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9; margin-bottom: 15px;\">\n          \ud83d\udce6 1 item in your cart<br>\n          \ud83d\udcb0 Total amount: \u00a332.36<br>\n          \ud83d\udd12 Secure PayPal payment\n        </div>\n        <div style=\"background: rgba(255,255,255,0.15); padding: 12px; border-radius: 8px; font-size: 14px; margin-top: 10px;\">\n          <strong>\u26a1 Are you sure you want to proceed with the payment?</strong><br>\n          <span style=\"opacity: 0.9;\">Please reply with \"yes\" to confirm, or \"no\" to cancel.</span>\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-02-06T04:50:45.820Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_9",
+        "sender": "user",
+        "message": "yes",
+        "timestamp": "2026-02-06T04:50:45.820Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_10",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u2705 <strong>Payment Confirmed!</strong><br><br>\n          <div style=\"background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 15px; border-radius: 12px; margin: 10px 0;\">\n            <div style=\"display: flex; align-items-center;\">\n              <i class=\"fas fa-check-circle\" style=\"font-size: 20px; margin-right: 10px;\"></i>\n              <div style=\"font-size: 14px;\">\n                Great! Processing your payment now. Opening PayPal gateway...\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>",
+        "timestamp": "2026-02-06T04:50:45.820Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_11",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Processing Payment</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: \u00a332.36</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u2728 Opening PayPal payment gateway...<br>\n          \ud83d\udd12 Secure payment processing<br>\n          \u26a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-02-06T04:50:45.820Z",
+        "messageType": "html"
+      }
+    ],
+    "conversation_context": {
+      "session_id": "session_1770181882563_97o589xw9",
+      "conversation_history": [
+        {
+          "id": 1770265618927,
+          "timestamp": "2026-02-05T04:26:58.927Z",
+          "user": "show me the jackets",
+          "ai": {
+            "ai_response": "Here are some jackets I found:\n\n*   **Leather Jacket**: A classic leather jacket that offers a stylish and edgy look.\n*   **Limited Jacket**: The perfect set up to reach your next freeriding level. Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way.\n*   **Kelly Jacket Women**: The Kelly Jacket by WLD is a top cut jacket for all the girls out there.\n*   **Beacon Jacket**: Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only have style but also super features.\n*   **Bender Jacket**: Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece.\n\nWould you like to refine your search or look for something else?",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNjUxNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVpTOW9PR1F2T0RjNU5qWTRPVGd5TlRneU1pNXFjR2N8ZDI1NDI0MTRiZmYxMjc2OTQ3OWM3MjMxMDVjNjQ4N2I5YTgyZDA2Yjk2MTA3Y2U3N2NjNzQwMzcwMzQ0Mzk5Yg",
+                "price": 999,
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0OTU3MHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVlpOW9PRFF2T0RjNU5qWTVNakExTkRBME5pNXFjR2N8MjY2NTY5OTRhODkwMjNhYmRjOGVlMTdiNTQ0NTMxNTk5M2VmZjg5MmU2YWJhYWFiOTE4YzFlMjg1M2ZmODlkNQ",
+                "price": 137.66,
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2ODIxMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobE1DOW9NREV2T0RjNU5qZ3lNekV5TmpBME5pNXFjR2N8ZjkxN2Y3YzQ0NTVlODQyNWRmMjMwOGY0ZTg0NDllZmEzMWY4YzBlN2JlMWQyMWIyYWU5ZDE4NGQ3ODZkZDYxNw",
+                "price": 80.95,
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0OTc0MHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobU5TOW9OREV2T0RjNU5qWTRNalUxTVRNeU5pNXFjR2N8ZGYzYTZkYmYxNTg4ODgyZDM3N2MyMzliM2ViMDljNGMwODU1ODBlNWU0MzcyMjU5NmI5NWM0NGFiN2UzOWEzZQ",
+                "price": 101.21,
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1NDYzM3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa01pOW9OelF2T0RjNU5qWTVNVE01T0RZNE5pNXFjR2N8M2FjMWExMmUyZmQ2NTEyNTZjM2UyNzNhYThhMjE3MGI4YmM5ZjY1ZmJhMzAwOTQyYzg4YzAyMzNkZjEyOWY4NQ",
+                "price": 89.06,
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1770181882563_97o589xw9",
+            "products": [
+              {
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "price": 999,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNjUxNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVpTOW9PR1F2T0RjNU5qWTRPVGd5TlRneU1pNXFjR2N8ZDI1NDI0MTRiZmYxMjc2OTQ3OWM3MjMxMDVjNjQ4N2I5YTgyZDA2Yjk2MTA3Y2U3N2NjNzQwMzcwMzQ0Mzk5Yg",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "price": 137.66,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0OTU3MHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVlpOW9PRFF2T0RjNU5qWTVNakExTkRBME5pNXFjR2N8MjY2NTY5OTRhODkwMjNhYmRjOGVlMTdiNTQ0NTMxNTk5M2VmZjg5MmU2YWJhYWFiOTE4YzFlMjg1M2ZmODlkNQ",
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "price": 80.95,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2ODIxMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobE1DOW9NREV2T0RjNU5qZ3lNekV5TmpBME5pNXFjR2N8ZjkxN2Y3YzQ0NTVlODQyNWRmMjMwOGY0ZTg0NDllZmEzMWY4YzBlN2JlMWQyMWIyYWU5ZDE4NGQ3ODZkZDYxNw",
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 101.21,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0OTc0MHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobU5TOW9OREV2T0RjNU5qWTRNalUxTVRNeU5pNXFjR2N8ZGYzYTZkYmYxNTg4ODgyZDM3N2MyMzliM2ViMDljNGMwODU1ODBlNWU0MzcyMjU5NmI5NWM0NGFiN2UzOWEzZQ",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1NDYzM3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa01pOW9OelF2T0RjNU5qWTVNVE01T0RZNE5pNXFjR2N8M2FjMWExMmUyZmQ2NTEyNTZjM2UyNzNhYThhMjE3MGI4YmM5ZjY1ZmJhMzAwOTQyYzg4YzAyMzNkZjEyOWY4NQ",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "price": 999,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNjUxNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVpTOW9PR1F2T0RjNU5qWTRPVGd5TlRneU1pNXFjR2N8ZDI1NDI0MTRiZmYxMjc2OTQ3OWM3MjMxMDVjNjQ4N2I5YTgyZDA2Yjk2MTA3Y2U3N2NjNzQwMzcwMzQ0Mzk5Yg",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "price": 137.66,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0OTU3MHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVlpOW9PRFF2T0RjNU5qWTVNakExTkRBME5pNXFjR2N8MjY2NTY5OTRhODkwMjNhYmRjOGVlMTdiNTQ0NTMxNTk5M2VmZjg5MmU2YWJhYWFiOTE4YzFlMjg1M2ZmODlkNQ",
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "price": 80.95,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2ODIxMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobE1DOW9NREV2T0RjNU5qZ3lNekV5TmpBME5pNXFjR2N8ZjkxN2Y3YzQ0NTVlODQyNWRmMjMwOGY0ZTg0NDllZmEzMWY4YzBlN2JlMWQyMWIyYWU5ZDE4NGQ3ODZkZDYxNw",
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 101.21,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0OTc0MHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobU5TOW9OREV2T0RjNU5qWTRNalUxTVRNeU5pNXFjR2N8ZGYzYTZkYmYxNTg4ODgyZDM3N2MyMzliM2ViMDljNGMwODU1ODBlNWU0MzcyMjU5NmI5NWM0NGFiN2UzOWEzZQ",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1NDYzM3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa01pOW9OelF2T0RjNU5qWTVNVE01T0RZNE5pNXFjR2N8M2FjMWExMmUyZmQ2NTEyNTZjM2UyNzNhYThhMjE3MGI4YmM5ZjY1ZmJhMzAwOTQyYzg4YzAyMzNkZjEyOWY4NQ",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-05T04:26:58.930Z"
+          }
+        },
+        {
+          "id": 1770265647768,
+          "timestamp": "2026-02-05T04:27:27.768Z",
+          "user": "show me the accessories of these",
+          "ai": {
+            "response": "I apologize, but I couldn't find any products matching your search criteria. Could you please try:\n\n\u2022 Using different keywords\n\u2022 Checking the spelling\n\u2022 Broadening your search terms\n\u2022 Asking about a specific category like 'jackets', 'shoes', or 'tshirts'\n\nHow else can I help you today?"
+          },
+          "metadata": {
+            "session_id": "session_1770181882563_97o589xw9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": "Find accessories for these specific products: Leather Jacket, Limited Jacket, Kelly Jacket Women, Beacon Jacket, Bender Jacket. Product IDs: 97602, 132871, 103335, 100191, 94462. Original query: show me the accessories of these"
+          }
+        },
+        {
+          "id": 1770266094751,
+          "timestamp": "2026-02-05T04:34:54.751Z",
+          "user": "show me accessories of these",
+          "ai": {
+            "ai_response": "I found 6 accessories that perfectly complement , ,  and 2 more! These are curated matches from our database.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1MTE3OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMllTOW9PV1l2T0RjNU5qazJOekUwTVRRd05pNXFjR2N8OGIwNmFmZWY3YjU2ODE5MjFlN2ZkMjgxYWJkZDdkZTA4MjUyN2FiZGUzM2E1MWI1YzY2MThjM2NjYmNmZDkzZQ",
+                "price": 12.92,
+                "product_id": "117210",
+                "product_name": "Faded Droid Cap",
+                "summary": "The droid. Faded Cap let you never fade away. 97% Cotton 3% spandex"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0NTU3MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd1lpOW9ZMlV2T0RjNU5qa3lOVEU1T0RNMk5pNXFjR2N8ODZmYmM1NWY5NGIxMWU3YmFkNzBmNWJmMmRiMDU5ZDMxNzQxMjlmNjdkMDExYzA4MmVlYmE5NTA5N2RmNjRjYw",
+                "price": 24.26,
+                "product_id": "100402",
+                "product_name": "Seizure Bag",
+                "summary": "No chance that Billabong forgets about the classic among their bags. Therefore the Seizure bag is again part of the collection"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2NzkyNHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNVl5OW9Oak12T0RjNU5qazJOelEyT1RBNE5pNXFjR2N8MmMwNjQ4ZDEzZTQzMWQwZjM4YzUwZTE2Y2M4OTg0MzVjOGI4YTA3ZDRmNjIzYThjMzQxZjZjNWQ2NGY3ZWQ2Ng",
+                "price": 24.26,
+                "product_id": "103151",
+                "product_name": "Transplant Flexfit Cap",
+                "summary": "A trendy Volcom Stone logo on the Transplant Flexfit cap. 98% Cotton 2% Spandex"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1OTgxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFl2T0RjNU5qa3pNVFF5TkRJNE5pNXFjR2N8MjgwZGNlMjY5MTM5N2JmMTYwNWY0ZThkNTE0ZWU5NTZmNjJlMjIyN2Y5NGJhNDFiZTQxODNmOTJhNjBiM2I0YQ",
+                "price": 36.41,
+                "product_id": "98851",
+                "product_name": "Lenus Belt",
+                "summary": "Your pants are always sliding down? Well"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w3NDc1OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE1TOW9PRE12T0RjNU5qa3pNamN6TlRBd05pNXFjR2N8NjA1ZWNmZjU2YjE4NzhmOWI0OWYzNDIxYWQ0OTY1YjhhMmJkNTVjYmQ3ZDNiZWVkMzI1MGIxY2EyYTAzZjAxMg",
+                "price": 44.51,
+                "product_id": "74010",
+                "product_name": "Torbacula Belt",
+                "summary": "Nice leather belt with cool lettering by Von Zipper. 100% Leather"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNjQ4NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneFlTOW9Namt2T0RjNU5qWTBPRGt6TVRNMU9DNXFjR2N8YTg0MjVlMWJhM2M4YTY0MWFmYzMzMDI5NzRhZjUyMmM0ODI2ZWQ1YTRkNTA0Y2QwYzZmYzQ1ODc4OGNmOTQwNw",
+                "price": 46.71,
+                "product_id": "300062456",
+                "product_name": "Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL",
+                "summary": "The Lotus from TSG! One for the Ladies:"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1770181882563_97o589xw9",
+            "products": [
+              {
+                "product_id": "117210",
+                "product_name": "Faded Droid Cap",
+                "price": 12.92,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1MTE3OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMllTOW9PV1l2T0RjNU5qazJOekUwTVRRd05pNXFjR2N8OGIwNmFmZWY3YjU2ODE5MjFlN2ZkMjgxYWJkZDdkZTA4MjUyN2FiZGUzM2E1MWI1YzY2MThjM2NjYmNmZDkzZQ",
+                "summary": "The droid. Faded Cap let you never fade away. 97% Cotton 3% spandex"
+              },
+              {
+                "product_id": "100402",
+                "product_name": "Seizure Bag",
+                "price": 24.26,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0NTU3MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd1lpOW9ZMlV2T0RjNU5qa3lOVEU1T0RNMk5pNXFjR2N8ODZmYmM1NWY5NGIxMWU3YmFkNzBmNWJmMmRiMDU5ZDMxNzQxMjlmNjdkMDExYzA4MmVlYmE5NTA5N2RmNjRjYw",
+                "summary": "No chance that Billabong forgets about the classic among their bags. Therefore the Seizure bag is again part of the collection"
+              },
+              {
+                "product_id": "103151",
+                "product_name": "Transplant Flexfit Cap",
+                "price": 24.26,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2NzkyNHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNVl5OW9Oak12T0RjNU5qazJOelEyT1RBNE5pNXFjR2N8MmMwNjQ4ZDEzZTQzMWQwZjM4YzUwZTE2Y2M4OTg0MzVjOGI4YTA3ZDRmNjIzYThjMzQxZjZjNWQ2NGY3ZWQ2Ng",
+                "summary": "A trendy Volcom Stone logo on the Transplant Flexfit cap. 98% Cotton 2% Spandex"
+              },
+              {
+                "product_id": "98851",
+                "product_name": "Lenus Belt",
+                "price": 36.41,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1OTgxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFl2T0RjNU5qa3pNVFF5TkRJNE5pNXFjR2N8MjgwZGNlMjY5MTM5N2JmMTYwNWY0ZThkNTE0ZWU5NTZmNjJlMjIyN2Y5NGJhNDFiZTQxODNmOTJhNjBiM2I0YQ",
+                "summary": "Your pants are always sliding down? Well"
+              },
+              {
+                "product_id": "74010",
+                "product_name": "Torbacula Belt",
+                "price": 44.51,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w3NDc1OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE1TOW9PRE12T0RjNU5qa3pNamN6TlRBd05pNXFjR2N8NjA1ZWNmZjU2YjE4NzhmOWI0OWYzNDIxYWQ0OTY1YjhhMmJkNTVjYmQ3ZDNiZWVkMzI1MGIxY2EyYTAzZjAxMg",
+                "summary": "Nice leather belt with cool lettering by Von Zipper. 100% Leather"
+              },
+              {
+                "product_id": "300062456",
+                "product_name": "Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL",
+                "price": 46.71,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNjQ4NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneFlTOW9Namt2T0RjNU5qWTBPRGt6TVRNMU9DNXFjR2N8YTg0MjVlMWJhM2M4YTY0MWFmYzMzMDI5NzRhZjUyMmM0ODI2ZWQ1YTRkNTA0Y2QwYzZmYzQ1ODc4OGNmOTQwNw",
+                "summary": "The Lotus from TSG! One for the Ladies:"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 6,
+            "enhanced_query": "Find accessories for these specific products: Leather Jacket, Limited Jacket, Kelly Jacket Women, Beacon Jacket, Bender Jacket. Product IDs: 97602, 132871, 103335, 100191, 94462. Original query: show me accessories of these",
+            "displayed_products": [
+              {
+                "product_id": "117210",
+                "product_name": "Faded Droid Cap",
+                "price": 12.92,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1MTE3OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMllTOW9PV1l2T0RjNU5qazJOekUwTVRRd05pNXFjR2N8OGIwNmFmZWY3YjU2ODE5MjFlN2ZkMjgxYWJkZDdkZTA4MjUyN2FiZGUzM2E1MWI1YzY2MThjM2NjYmNmZDkzZQ",
+                "summary": "The droid. Faded Cap let you never fade away. 97% Cotton 3% spandex"
+              },
+              {
+                "product_id": "100402",
+                "product_name": "Seizure Bag",
+                "price": 24.26,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0NTU3MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd1lpOW9ZMlV2T0RjNU5qa3lOVEU1T0RNMk5pNXFjR2N8ODZmYmM1NWY5NGIxMWU3YmFkNzBmNWJmMmRiMDU5ZDMxNzQxMjlmNjdkMDExYzA4MmVlYmE5NTA5N2RmNjRjYw",
+                "summary": "No chance that Billabong forgets about the classic among their bags. Therefore the Seizure bag is again part of the collection"
+              },
+              {
+                "product_id": "103151",
+                "product_name": "Transplant Flexfit Cap",
+                "price": 24.26,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2NzkyNHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNVl5OW9Oak12T0RjNU5qazJOelEyT1RBNE5pNXFjR2N8MmMwNjQ4ZDEzZTQzMWQwZjM4YzUwZTE2Y2M4OTg0MzVjOGI4YTA3ZDRmNjIzYThjMzQxZjZjNWQ2NGY3ZWQ2Ng",
+                "summary": "A trendy Volcom Stone logo on the Transplant Flexfit cap. 98% Cotton 2% Spandex"
+              },
+              {
+                "product_id": "98851",
+                "product_name": "Lenus Belt",
+                "price": 36.41,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1OTgxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFl2T0RjNU5qa3pNVFF5TkRJNE5pNXFjR2N8MjgwZGNlMjY5MTM5N2JmMTYwNWY0ZThkNTE0ZWU5NTZmNjJlMjIyN2Y5NGJhNDFiZTQxODNmOTJhNjBiM2I0YQ",
+                "summary": "Your pants are always sliding down? Well"
+              },
+              {
+                "product_id": "74010",
+                "product_name": "Torbacula Belt",
+                "price": 44.51,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w3NDc1OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE1TOW9PRE12T0RjNU5qa3pNamN6TlRBd05pNXFjR2N8NjA1ZWNmZjU2YjE4NzhmOWI0OWYzNDIxYWQ0OTY1YjhhMmJkNTVjYmQ3ZDNiZWVkMzI1MGIxY2EyYTAzZjAxMg",
+                "summary": "Nice leather belt with cool lettering by Von Zipper. 100% Leather"
+              },
+              {
+                "product_id": "300062456",
+                "product_name": "Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL",
+                "price": 46.71,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNjQ4NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneFlTOW9Namt2T0RjNU5qWTBPRGt6TVRNMU9DNXFjR2N8YTg0MjVlMWJhM2M4YTY0MWFmYzMzMDI5NzRhZjUyMmM0ODI2ZWQ1YTRkNTA0Y2QwYzZmYzQ1ODc4OGNmOTQwNw",
+                "summary": "The Lotus from TSG! One for the Ladies:"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-05T04:34:54.753Z"
+          }
+        },
+        {
+          "id": 1770266133167,
+          "timestamp": "2026-02-05T04:35:33.167Z",
+          "user": "show me jackets",
+          "ai": {
+            "ai_response": "Here are some jackets I found:\n\n*   **Leather Jacket**: A classic leather jacket that offers a stylish and edgy look.\n*   **Limited Jacket**: The perfect set up to reach your next freeriding level. Further improvements in performance and functionality ensure a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacket supports your own way.\n*   **Kelly Jacket Women**: The Kelly Jacket by WLD is a top cut jacket for all the girls out there.\n*   **Beacon Jacket**: Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only have style but also super features.\n*   **Bender Jacket**: Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNjUxNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVpTOW9PR1F2T0RjNU5qWTRPVGd5TlRneU1pNXFjR2N8ZDI1NDI0MTRiZmYxMjc2OTQ3OWM3MjMxMDVjNjQ4N2I5YTgyZDA2Yjk2MTA3Y2U3N2NjNzQwMzcwMzQ0Mzk5Yg",
+                "price": 999,
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0OTU3MHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVlpOW9PRFF2T0RjNU5qWTVNakExTkRBME5pNXFjR2N8MjY2NTY5OTRhODkwMjNhYmRjOGVlMTdiNTQ0NTMxNTk5M2VmZjg5MmU2YWJhYWFiOTE4YzFlMjg1M2ZmODlkNQ",
+                "price": 137.66,
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2ODIxMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobE1DOW9NREV2T0RjNU5qZ3lNekV5TmpBME5pNXFjR2N8ZjkxN2Y3YzQ0NTVlODQyNWRmMjMwOGY0ZTg0NDllZmEzMWY4YzBlN2JlMWQyMWIyYWU5ZDE4NGQ3ODZkZDYxNw",
+                "price": 80.95,
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0OTc0MHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobU5TOW9OREV2T0RjNU5qWTRNalUxTVRNeU5pNXFjR2N8ZGYzYTZkYmYxNTg4ODgyZDM3N2MyMzliM2ViMDljNGMwODU1ODBlNWU0MzcyMjU5NmI5NWM0NGFiN2UzOWEzZQ",
+                "price": 101.21,
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1NDYzM3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa01pOW9OelF2T0RjNU5qWTVNVE01T0RZNE5pNXFjR2N8M2FjMWExMmUyZmQ2NTEyNTZjM2UyNzNhYThhMjE3MGI4YmM5ZjY1ZmJhMzAwOTQyYzg4YzAyMzNkZjEyOWY4NQ",
+                "price": 89.06,
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1770181882563_97o589xw9",
+            "products": [
+              {
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "price": 999,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNjUxNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVpTOW9PR1F2T0RjNU5qWTRPVGd5TlRneU1pNXFjR2N8ZDI1NDI0MTRiZmYxMjc2OTQ3OWM3MjMxMDVjNjQ4N2I5YTgyZDA2Yjk2MTA3Y2U3N2NjNzQwMzcwMzQ0Mzk5Yg",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "price": 137.66,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0OTU3MHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVlpOW9PRFF2T0RjNU5qWTVNakExTkRBME5pNXFjR2N8MjY2NTY5OTRhODkwMjNhYmRjOGVlMTdiNTQ0NTMxNTk5M2VmZjg5MmU2YWJhYWFiOTE4YzFlMjg1M2ZmODlkNQ",
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "price": 80.95,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2ODIxMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobE1DOW9NREV2T0RjNU5qZ3lNekV5TmpBME5pNXFjR2N8ZjkxN2Y3YzQ0NTVlODQyNWRmMjMwOGY0ZTg0NDllZmEzMWY4YzBlN2JlMWQyMWIyYWU5ZDE4NGQ3ODZkZDYxNw",
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 101.21,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0OTc0MHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobU5TOW9OREV2T0RjNU5qWTRNalUxTVRNeU5pNXFjR2N8ZGYzYTZkYmYxNTg4ODgyZDM3N2MyMzliM2ViMDljNGMwODU1ODBlNWU0MzcyMjU5NmI5NWM0NGFiN2UzOWEzZQ",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1NDYzM3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa01pOW9OelF2T0RjNU5qWTVNVE01T0RZNE5pNXFjR2N8M2FjMWExMmUyZmQ2NTEyNTZjM2UyNzNhYThhMjE3MGI4YmM5ZjY1ZmJhMzAwOTQyYzg4YzAyMzNkZjEyOWY4NQ",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "price": 999,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNjUxNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVpTOW9PR1F2T0RjNU5qWTRPVGd5TlRneU1pNXFjR2N8ZDI1NDI0MTRiZmYxMjc2OTQ3OWM3MjMxMDVjNjQ4N2I5YTgyZDA2Yjk2MTA3Y2U3N2NjNzQwMzcwMzQ0Mzk5Yg",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "price": 137.66,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0OTU3MHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVlpOW9PRFF2T0RjNU5qWTVNakExTkRBME5pNXFjR2N8MjY2NTY5OTRhODkwMjNhYmRjOGVlMTdiNTQ0NTMxNTk5M2VmZjg5MmU2YWJhYWFiOTE4YzFlMjg1M2ZmODlkNQ",
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "price": 80.95,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2ODIxMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobE1DOW9NREV2T0RjNU5qZ3lNekV5TmpBME5pNXFjR2N8ZjkxN2Y3YzQ0NTVlODQyNWRmMjMwOGY0ZTg0NDllZmEzMWY4YzBlN2JlMWQyMWIyYWU5ZDE4NGQ3ODZkZDYxNw",
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 101.21,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0OTc0MHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobU5TOW9OREV2T0RjNU5qWTRNalUxTVRNeU5pNXFjR2N8ZGYzYTZkYmYxNTg4ODgyZDM3N2MyMzliM2ViMDljNGMwODU1ODBlNWU0MzcyMjU5NmI5NWM0NGFiN2UzOWEzZQ",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1NDYzM3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa01pOW9OelF2T0RjNU5qWTVNVE01T0RZNE5pNXFjR2N8M2FjMWExMmUyZmQ2NTEyNTZjM2UyNzNhYThhMjE3MGI4YmM5ZjY1ZmJhMzAwOTQyYzg4YzAyMzNkZjEyOWY4NQ",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-05T04:35:33.170Z"
+          }
+        },
+        {
+          "id": 1770266149892,
+          "timestamp": "2026-02-05T04:35:49.892Z",
+          "user": "show me accessories of theses",
+          "ai": {
+            "ai_response": "I found 6 accessories that perfectly complement , ,  and 2 more! These are curated matches from our database.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1MTE3OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMllTOW9PV1l2T0RjNU5qazJOekUwTVRRd05pNXFjR2N8OGIwNmFmZWY3YjU2ODE5MjFlN2ZkMjgxYWJkZDdkZTA4MjUyN2FiZGUzM2E1MWI1YzY2MThjM2NjYmNmZDkzZQ",
+                "price": 12.92,
+                "product_id": "117210",
+                "product_name": "Faded Droid Cap",
+                "summary": "The droid. Faded Cap let you never fade away. 97% Cotton 3% spandex"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0NTU3MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd1lpOW9ZMlV2T0RjNU5qa3lOVEU1T0RNMk5pNXFjR2N8ODZmYmM1NWY5NGIxMWU3YmFkNzBmNWJmMmRiMDU5ZDMxNzQxMjlmNjdkMDExYzA4MmVlYmE5NTA5N2RmNjRjYw",
+                "price": 24.26,
+                "product_id": "100402",
+                "product_name": "Seizure Bag",
+                "summary": "No chance that Billabong forgets about the classic among their bags. Therefore the Seizure bag is again part of the collection"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2NzkyNHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNVl5OW9Oak12T0RjNU5qazJOelEyT1RBNE5pNXFjR2N8MmMwNjQ4ZDEzZTQzMWQwZjM4YzUwZTE2Y2M4OTg0MzVjOGI4YTA3ZDRmNjIzYThjMzQxZjZjNWQ2NGY3ZWQ2Ng",
+                "price": 24.26,
+                "product_id": "103151",
+                "product_name": "Transplant Flexfit Cap",
+                "summary": "A trendy Volcom Stone logo on the Transplant Flexfit cap. 98% Cotton 2% Spandex"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1OTgxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFl2T0RjNU5qa3pNVFF5TkRJNE5pNXFjR2N8MjgwZGNlMjY5MTM5N2JmMTYwNWY0ZThkNTE0ZWU5NTZmNjJlMjIyN2Y5NGJhNDFiZTQxODNmOTJhNjBiM2I0YQ",
+                "price": 36.41,
+                "product_id": "98851",
+                "product_name": "Lenus Belt",
+                "summary": "Your pants are always sliding down? Well"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w3NDc1OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE1TOW9PRE12T0RjNU5qa3pNamN6TlRBd05pNXFjR2N8NjA1ZWNmZjU2YjE4NzhmOWI0OWYzNDIxYWQ0OTY1YjhhMmJkNTVjYmQ3ZDNiZWVkMzI1MGIxY2EyYTAzZjAxMg",
+                "price": 44.51,
+                "product_id": "74010",
+                "product_name": "Torbacula Belt",
+                "summary": "Nice leather belt with cool lettering by Von Zipper. 100% Leather"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNjQ4NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneFlTOW9Namt2T0RjNU5qWTBPRGt6TVRNMU9DNXFjR2N8YTg0MjVlMWJhM2M4YTY0MWFmYzMzMDI5NzRhZjUyMmM0ODI2ZWQ1YTRkNTA0Y2QwYzZmYzQ1ODc4OGNmOTQwNw",
+                "price": 46.71,
+                "product_id": "300062456",
+                "product_name": "Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL",
+                "summary": "The Lotus from TSG! One for the Ladies:"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1770181882563_97o589xw9",
+            "products": [
+              {
+                "product_id": "117210",
+                "product_name": "Faded Droid Cap",
+                "price": 12.92,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1MTE3OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMllTOW9PV1l2T0RjNU5qazJOekUwTVRRd05pNXFjR2N8OGIwNmFmZWY3YjU2ODE5MjFlN2ZkMjgxYWJkZDdkZTA4MjUyN2FiZGUzM2E1MWI1YzY2MThjM2NjYmNmZDkzZQ",
+                "summary": "The droid. Faded Cap let you never fade away. 97% Cotton 3% spandex"
+              },
+              {
+                "product_id": "100402",
+                "product_name": "Seizure Bag",
+                "price": 24.26,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0NTU3MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd1lpOW9ZMlV2T0RjNU5qa3lOVEU1T0RNMk5pNXFjR2N8ODZmYmM1NWY5NGIxMWU3YmFkNzBmNWJmMmRiMDU5ZDMxNzQxMjlmNjdkMDExYzA4MmVlYmE5NTA5N2RmNjRjYw",
+                "summary": "No chance that Billabong forgets about the classic among their bags. Therefore the Seizure bag is again part of the collection"
+              },
+              {
+                "product_id": "103151",
+                "product_name": "Transplant Flexfit Cap",
+                "price": 24.26,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2NzkyNHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNVl5OW9Oak12T0RjNU5qazJOelEyT1RBNE5pNXFjR2N8MmMwNjQ4ZDEzZTQzMWQwZjM4YzUwZTE2Y2M4OTg0MzVjOGI4YTA3ZDRmNjIzYThjMzQxZjZjNWQ2NGY3ZWQ2Ng",
+                "summary": "A trendy Volcom Stone logo on the Transplant Flexfit cap. 98% Cotton 2% Spandex"
+              },
+              {
+                "product_id": "98851",
+                "product_name": "Lenus Belt",
+                "price": 36.41,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1OTgxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFl2T0RjNU5qa3pNVFF5TkRJNE5pNXFjR2N8MjgwZGNlMjY5MTM5N2JmMTYwNWY0ZThkNTE0ZWU5NTZmNjJlMjIyN2Y5NGJhNDFiZTQxODNmOTJhNjBiM2I0YQ",
+                "summary": "Your pants are always sliding down? Well"
+              },
+              {
+                "product_id": "74010",
+                "product_name": "Torbacula Belt",
+                "price": 44.51,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w3NDc1OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE1TOW9PRE12T0RjNU5qa3pNamN6TlRBd05pNXFjR2N8NjA1ZWNmZjU2YjE4NzhmOWI0OWYzNDIxYWQ0OTY1YjhhMmJkNTVjYmQ3ZDNiZWVkMzI1MGIxY2EyYTAzZjAxMg",
+                "summary": "Nice leather belt with cool lettering by Von Zipper. 100% Leather"
+              },
+              {
+                "product_id": "300062456",
+                "product_name": "Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL",
+                "price": 46.71,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNjQ4NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneFlTOW9Namt2T0RjNU5qWTBPRGt6TVRNMU9DNXFjR2N8YTg0MjVlMWJhM2M4YTY0MWFmYzMzMDI5NzRhZjUyMmM0ODI2ZWQ1YTRkNTA0Y2QwYzZmYzQ1ODc4OGNmOTQwNw",
+                "summary": "The Lotus from TSG! One for the Ladies:"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 6,
+            "enhanced_query": "Find accessories for these specific products: Leather Jacket, Limited Jacket, Kelly Jacket Women, Beacon Jacket, Bender Jacket. Product IDs: 97602, 132871, 103335, 100191, 94462. Original query: show me accessories of theses",
+            "displayed_products": [
+              {
+                "product_id": "117210",
+                "product_name": "Faded Droid Cap",
+                "price": 12.92,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1MTE3OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMllTOW9PV1l2T0RjNU5qazJOekUwTVRRd05pNXFjR2N8OGIwNmFmZWY3YjU2ODE5MjFlN2ZkMjgxYWJkZDdkZTA4MjUyN2FiZGUzM2E1MWI1YzY2MThjM2NjYmNmZDkzZQ",
+                "summary": "The droid. Faded Cap let you never fade away. 97% Cotton 3% spandex"
+              },
+              {
+                "product_id": "100402",
+                "product_name": "Seizure Bag",
+                "price": 24.26,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0NTU3MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd1lpOW9ZMlV2T0RjNU5qa3lOVEU1T0RNMk5pNXFjR2N8ODZmYmM1NWY5NGIxMWU3YmFkNzBmNWJmMmRiMDU5ZDMxNzQxMjlmNjdkMDExYzA4MmVlYmE5NTA5N2RmNjRjYw",
+                "summary": "No chance that Billabong forgets about the classic among their bags. Therefore the Seizure bag is again part of the collection"
+              },
+              {
+                "product_id": "103151",
+                "product_name": "Transplant Flexfit Cap",
+                "price": 24.26,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2NzkyNHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNVl5OW9Oak12T0RjNU5qazJOelEyT1RBNE5pNXFjR2N8MmMwNjQ4ZDEzZTQzMWQwZjM4YzUwZTE2Y2M4OTg0MzVjOGI4YTA3ZDRmNjIzYThjMzQxZjZjNWQ2NGY3ZWQ2Ng",
+                "summary": "A trendy Volcom Stone logo on the Transplant Flexfit cap. 98% Cotton 2% Spandex"
+              },
+              {
+                "product_id": "98851",
+                "product_name": "Lenus Belt",
+                "price": 36.41,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1OTgxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFl2T0RjNU5qa3pNVFF5TkRJNE5pNXFjR2N8MjgwZGNlMjY5MTM5N2JmMTYwNWY0ZThkNTE0ZWU5NTZmNjJlMjIyN2Y5NGJhNDFiZTQxODNmOTJhNjBiM2I0YQ",
+                "summary": "Your pants are always sliding down? Well"
+              },
+              {
+                "product_id": "74010",
+                "product_name": "Torbacula Belt",
+                "price": 44.51,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w3NDc1OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE1TOW9PRE12T0RjNU5qa3pNamN6TlRBd05pNXFjR2N8NjA1ZWNmZjU2YjE4NzhmOWI0OWYzNDIxYWQ0OTY1YjhhMmJkNTVjYmQ3ZDNiZWVkMzI1MGIxY2EyYTAzZjAxMg",
+                "summary": "Nice leather belt with cool lettering by Von Zipper. 100% Leather"
+              },
+              {
+                "product_id": "300062456",
+                "product_name": "Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL",
+                "price": 46.71,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNjQ4NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneFlTOW9Namt2T0RjNU5qWTBPRGt6TVRNMU9DNXFjR2N8YTg0MjVlMWJhM2M4YTY0MWFmYzMzMDI5NzRhZjUyMmM0ODI2ZWQ1YTRkNTA0Y2QwYzZmYzQ1ODc4OGNmOTQwNw",
+                "summary": "The Lotus from TSG! One for the Ladies:"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-05T04:35:49.894Z"
+          }
+        },
+        {
+          "id": 1770351659368,
+          "timestamp": "2026-02-06T04:20:59.368Z",
+          "user": "show me tshirts",
+          "ai": {
+            "ai_response": "Here are some t-shirts I found:\n\n*   **T-Shirt Men Playboard Raster SS black XL**\n    Classic Playboard print tshirt. 100% cotton.\n    Price: $26.68\n\n*   **T-Shirt Men Playboard Raster SS white M**\n    Classic Playboard print tshirt. 100% cotton.\n    Price: $26.68\n\n*   **T-Shirt Men Playboard Raster SS purple M**\n    Classic Playboard print tshirt. 100% cotton.\n    Price: $26.68\n\n*   **T-Shirt Men Playboard Raster SS white XL**\n    Classic Playboard print tshirt. 100% cotton.\n    Price: $26.68\n\n*   **T-Shirt Men Playboard Raster SS white L**\n    Classic Playboard print tshirt. 100% cotton.\n    Price: $26.68\n\nWould you like to refine your search or look for something else?",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTQ5OXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMFppOW9aV1l2T0RjNU5qWTBPVEU1TXpVd01pNXFjR2N8ZTc3ZjlkMmJjMWEwZWI3NDU5NjYwNGRkOTc2OTUyNGI2Nzg0OTBhYWYwNWY2MjBiYjgzNWNkODk3ZDI1Mzc0NQ",
+                "price": 26.68,
+                "product_id": "300067369",
+                "product_name": "T-Shirt Men Playboard Raster SS black XL",
+                "summary": "Classic Playboard print tshirt. 100% cotton."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzQwMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobE5pOW9NR1l2T0RjNU5qWTBPVEV5TnprMk5pNXFjR2N8ODhkODYyNWIyODQxNDYzZjZjY2JiMzg1NDFjYzlmZWY0ZjYyMjIyNTRlNWZjNjhkNmVmOTBjOTQwZjllNDAxOQ",
+                "price": 26.68,
+                "product_id": "300046033",
+                "product_name": "T-Shirt Men Playboard Raster SS white M",
+                "summary": "Classic Playboard print tshirt. 100% cotton."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMjc4NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk9TOW9aREF2T0RjNU5qWTBPVEkxT1RBek9DNXFjR2N8Njk4N2RhMDZlYzlmYjY4MjZiNGYzOWEyNjkxNTM5YzM2YTJkOTY2NTQxNzJiMzFkOTdiNGE5N2Q2ZDQ3YzE2MA",
+                "price": 26.68,
+                "product_id": "300067371",
+                "product_name": "T-Shirt Men Playboard Raster SS purple M",
+                "summary": "Classic Playboard print tshirt. 100% cotton."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzQwMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobE5pOW9NR1l2T0RjNU5qWTBPVEV5TnprMk5pNXFjR2N8ODhkODYyNWIyODQxNDYzZjZjY2JiMzg1NDFjYzlmZWY0ZjYyMjIyNTRlNWZjNjhkNmVmOTBjOTQwZjllNDAxOQ",
+                "price": 26.68,
+                "product_id": "300046035",
+                "product_name": "T-Shirt Men Playboard Raster SS white XL",
+                "summary": "Classic Playboard print tshirt. 100% cotton."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzQwMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobE5pOW9NR1l2T0RjNU5qWTBPVEV5TnprMk5pNXFjR2N8ODhkODYyNWIyODQxNDYzZjZjY2JiMzg1NDFjYzlmZWY0ZjYyMjIyNTRlNWZjNjhkNmVmOTBjOTQwZjllNDAxOQ",
+                "price": 26.68,
+                "product_id": "300046032",
+                "product_name": "T-Shirt Men Playboard Raster SS white L",
+                "summary": "Classic Playboard print tshirt. 100% cotton."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1770181882563_97o589xw9",
+            "products": [
+              {
+                "product_id": "300067369",
+                "product_name": "T-Shirt Men Playboard Raster SS black XL",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTQ5OXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMFppOW9aV1l2T0RjNU5qWTBPVEU1TXpVd01pNXFjR2N8ZTc3ZjlkMmJjMWEwZWI3NDU5NjYwNGRkOTc2OTUyNGI2Nzg0OTBhYWYwNWY2MjBiYjgzNWNkODk3ZDI1Mzc0NQ",
+                "summary": "Classic Playboard print tshirt. 100% cotton."
+              },
+              {
+                "product_id": "300046033",
+                "product_name": "T-Shirt Men Playboard Raster SS white M",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzQwMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobE5pOW9NR1l2T0RjNU5qWTBPVEV5TnprMk5pNXFjR2N8ODhkODYyNWIyODQxNDYzZjZjY2JiMzg1NDFjYzlmZWY0ZjYyMjIyNTRlNWZjNjhkNmVmOTBjOTQwZjllNDAxOQ",
+                "summary": "Classic Playboard print tshirt. 100% cotton."
+              },
+              {
+                "product_id": "300067371",
+                "product_name": "T-Shirt Men Playboard Raster SS purple M",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMjc4NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk9TOW9aREF2T0RjNU5qWTBPVEkxT1RBek9DNXFjR2N8Njk4N2RhMDZlYzlmYjY4MjZiNGYzOWEyNjkxNTM5YzM2YTJkOTY2NTQxNzJiMzFkOTdiNGE5N2Q2ZDQ3YzE2MA",
+                "summary": "Classic Playboard print tshirt. 100% cotton."
+              },
+              {
+                "product_id": "300046035",
+                "product_name": "T-Shirt Men Playboard Raster SS white XL",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzQwMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobE5pOW9NR1l2T0RjNU5qWTBPVEV5TnprMk5pNXFjR2N8ODhkODYyNWIyODQxNDYzZjZjY2JiMzg1NDFjYzlmZWY0ZjYyMjIyNTRlNWZjNjhkNmVmOTBjOTQwZjllNDAxOQ",
+                "summary": "Classic Playboard print tshirt. 100% cotton."
+              },
+              {
+                "product_id": "300046032",
+                "product_name": "T-Shirt Men Playboard Raster SS white L",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzQwMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobE5pOW9NR1l2T0RjNU5qWTBPVEV5TnprMk5pNXFjR2N8ODhkODYyNWIyODQxNDYzZjZjY2JiMzg1NDFjYzlmZWY0ZjYyMjIyNTRlNWZjNjhkNmVmOTBjOTQwZjllNDAxOQ",
+                "summary": "Classic Playboard print tshirt. 100% cotton."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300067369",
+                "product_name": "T-Shirt Men Playboard Raster SS black XL",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTQ5OXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMFppOW9aV1l2T0RjNU5qWTBPVEU1TXpVd01pNXFjR2N8ZTc3ZjlkMmJjMWEwZWI3NDU5NjYwNGRkOTc2OTUyNGI2Nzg0OTBhYWYwNWY2MjBiYjgzNWNkODk3ZDI1Mzc0NQ",
+                "summary": "Classic Playboard print tshirt. 100% cotton."
+              },
+              {
+                "product_id": "300046033",
+                "product_name": "T-Shirt Men Playboard Raster SS white M",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzQwMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobE5pOW9NR1l2T0RjNU5qWTBPVEV5TnprMk5pNXFjR2N8ODhkODYyNWIyODQxNDYzZjZjY2JiMzg1NDFjYzlmZWY0ZjYyMjIyNTRlNWZjNjhkNmVmOTBjOTQwZjllNDAxOQ",
+                "summary": "Classic Playboard print tshirt. 100% cotton."
+              },
+              {
+                "product_id": "300067371",
+                "product_name": "T-Shirt Men Playboard Raster SS purple M",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMjc4NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk9TOW9aREF2T0RjNU5qWTBPVEkxT1RBek9DNXFjR2N8Njk4N2RhMDZlYzlmYjY4MjZiNGYzOWEyNjkxNTM5YzM2YTJkOTY2NTQxNzJiMzFkOTdiNGE5N2Q2ZDQ3YzE2MA",
+                "summary": "Classic Playboard print tshirt. 100% cotton."
+              },
+              {
+                "product_id": "300046035",
+                "product_name": "T-Shirt Men Playboard Raster SS white XL",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzQwMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobE5pOW9NR1l2T0RjNU5qWTBPVEV5TnprMk5pNXFjR2N8ODhkODYyNWIyODQxNDYzZjZjY2JiMzg1NDFjYzlmZWY0ZjYyMjIyNTRlNWZjNjhkNmVmOTBjOTQwZjllNDAxOQ",
+                "summary": "Classic Playboard print tshirt. 100% cotton."
+              },
+              {
+                "product_id": "300046032",
+                "product_name": "T-Shirt Men Playboard Raster SS white L",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzQwMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobE5pOW9NR1l2T0RjNU5qWTBPVEV5TnprMk5pNXFjR2N8ODhkODYyNWIyODQxNDYzZjZjY2JiMzg1NDFjYzlmZWY0ZjYyMjIyNTRlNWZjNjhkNmVmOTBjOTQwZjllNDAxOQ",
+                "summary": "Classic Playboard print tshirt. 100% cotton."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-06T04:20:59.371Z"
+          }
+        },
+        {
+          "id": 1770351679036,
+          "timestamp": "2026-02-06T04:21:19.036Z",
+          "user": "show me accessories of these",
+          "ai": {
+            "ai_response": "I found 5 accessories that perfectly complement T-Shirt Men Playboard Raster SS black XL, T-Shirt Men Playboard Raster SS white M, T-Shirt Men Playboard Raster SS purple M and 2 more! These are curated matches from our database.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1MDA5M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNU9TOW9aVFl2T0RjNU5qYzFNVEF6TmpRME5pNXFjR2N8OTZlNjViMDE0NzNmYzk3MWE3YjY3NDJjMTY1NTgxOGQzMDQ2ZThlNTU5ZDQ0ZmZkMDVmNGEwN2M0MjU0MWMxNQ",
+                "price": 20.21,
+                "product_id": "95290",
+                "product_name": "Party Sock",
+                "summary": "A breathable blend of woolly warmth"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2NzkyNHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNVl5OW9Oak12T0RjNU5qazJOelEyT1RBNE5pNXFjR2N8MmMwNjQ4ZDEzZTQzMWQwZjM4YzUwZTE2Y2M4OTg0MzVjOGI4YTA3ZDRmNjIzYThjMzQxZjZjNWQ2NGY3ZWQ2Ng",
+                "price": 24.26,
+                "product_id": "103151",
+                "product_name": "Transplant Flexfit Cap",
+                "summary": "A trendy Volcom Stone logo on the Transplant Flexfit cap. 98% Cotton 2% Spandex"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1OTgxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFl2T0RjNU5qa3pNVFF5TkRJNE5pNXFjR2N8MjgwZGNlMjY5MTM5N2JmMTYwNWY0ZThkNTE0ZWU5NTZmNjJlMjIyN2Y5NGJhNDFiZTQxODNmOTJhNjBiM2I0YQ",
+                "price": 36.41,
+                "product_id": "98851",
+                "product_name": "Lenus Belt",
+                "summary": "Your pants are always sliding down? Well"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w3NDc1OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE1TOW9PRE12T0RjNU5qa3pNamN6TlRBd05pNXFjR2N8NjA1ZWNmZjU2YjE4NzhmOWI0OWYzNDIxYWQ0OTY1YjhhMmJkNTVjYmQ3ZDNiZWVkMzI1MGIxY2EyYTAzZjAxMg",
+                "price": 44.51,
+                "product_id": "74010",
+                "product_name": "Torbacula Belt",
+                "summary": "Nice leather belt with cool lettering by Von Zipper. 100% Leather"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNjQ4NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneFlTOW9Namt2T0RjNU5qWTBPRGt6TVRNMU9DNXFjR2N8YTg0MjVlMWJhM2M4YTY0MWFmYzMzMDI5NzRhZjUyMmM0ODI2ZWQ1YTRkNTA0Y2QwYzZmYzQ1ODc4OGNmOTQwNw",
+                "price": 46.71,
+                "product_id": "300062456",
+                "product_name": "Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL",
+                "summary": "The Lotus from TSG! One for the Ladies:"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1770181882563_97o589xw9",
+            "products": [
+              {
+                "product_id": "95290",
+                "product_name": "Party Sock",
+                "price": 20.21,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1MDA5M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNU9TOW9aVFl2T0RjNU5qYzFNVEF6TmpRME5pNXFjR2N8OTZlNjViMDE0NzNmYzk3MWE3YjY3NDJjMTY1NTgxOGQzMDQ2ZThlNTU5ZDQ0ZmZkMDVmNGEwN2M0MjU0MWMxNQ",
+                "summary": "A breathable blend of woolly warmth"
+              },
+              {
+                "product_id": "103151",
+                "product_name": "Transplant Flexfit Cap",
+                "price": 24.26,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2NzkyNHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNVl5OW9Oak12T0RjNU5qazJOelEyT1RBNE5pNXFjR2N8MmMwNjQ4ZDEzZTQzMWQwZjM4YzUwZTE2Y2M4OTg0MzVjOGI4YTA3ZDRmNjIzYThjMzQxZjZjNWQ2NGY3ZWQ2Ng",
+                "summary": "A trendy Volcom Stone logo on the Transplant Flexfit cap. 98% Cotton 2% Spandex"
+              },
+              {
+                "product_id": "98851",
+                "product_name": "Lenus Belt",
+                "price": 36.41,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1OTgxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFl2T0RjNU5qa3pNVFF5TkRJNE5pNXFjR2N8MjgwZGNlMjY5MTM5N2JmMTYwNWY0ZThkNTE0ZWU5NTZmNjJlMjIyN2Y5NGJhNDFiZTQxODNmOTJhNjBiM2I0YQ",
+                "summary": "Your pants are always sliding down? Well"
+              },
+              {
+                "product_id": "74010",
+                "product_name": "Torbacula Belt",
+                "price": 44.51,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w3NDc1OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE1TOW9PRE12T0RjNU5qa3pNamN6TlRBd05pNXFjR2N8NjA1ZWNmZjU2YjE4NzhmOWI0OWYzNDIxYWQ0OTY1YjhhMmJkNTVjYmQ3ZDNiZWVkMzI1MGIxY2EyYTAzZjAxMg",
+                "summary": "Nice leather belt with cool lettering by Von Zipper. 100% Leather"
+              },
+              {
+                "product_id": "300062456",
+                "product_name": "Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL",
+                "price": 46.71,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNjQ4NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneFlTOW9Namt2T0RjNU5qWTBPRGt6TVRNMU9DNXFjR2N8YTg0MjVlMWJhM2M4YTY0MWFmYzMzMDI5NzRhZjUyMmM0ODI2ZWQ1YTRkNTA0Y2QwYzZmYzQ1ODc4OGNmOTQwNw",
+                "summary": "The Lotus from TSG! One for the Ladies:"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": "Find accessories for these specific products: T-Shirt Men Playboard Raster SS black XL, T-Shirt Men Playboard Raster SS white M, T-Shirt Men Playboard Raster SS purple M, T-Shirt Men Playboard Raster SS white XL, T-Shirt Men Playboard Raster SS white L. Product IDs: 300067369, 300046033, 300067371, 300046035, 300046032. Original query: show me accessories of these",
+            "displayed_products": [
+              {
+                "product_id": "95290",
+                "product_name": "Party Sock",
+                "price": 20.21,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1MDA5M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNU9TOW9aVFl2T0RjNU5qYzFNVEF6TmpRME5pNXFjR2N8OTZlNjViMDE0NzNmYzk3MWE3YjY3NDJjMTY1NTgxOGQzMDQ2ZThlNTU5ZDQ0ZmZkMDVmNGEwN2M0MjU0MWMxNQ",
+                "summary": "A breathable blend of woolly warmth"
+              },
+              {
+                "product_id": "103151",
+                "product_name": "Transplant Flexfit Cap",
+                "price": 24.26,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2NzkyNHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNVl5OW9Oak12T0RjNU5qazJOelEyT1RBNE5pNXFjR2N8MmMwNjQ4ZDEzZTQzMWQwZjM4YzUwZTE2Y2M4OTg0MzVjOGI4YTA3ZDRmNjIzYThjMzQxZjZjNWQ2NGY3ZWQ2Ng",
+                "summary": "A trendy Volcom Stone logo on the Transplant Flexfit cap. 98% Cotton 2% Spandex"
+              },
+              {
+                "product_id": "98851",
+                "product_name": "Lenus Belt",
+                "price": 36.41,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1OTgxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFl2T0RjNU5qa3pNVFF5TkRJNE5pNXFjR2N8MjgwZGNlMjY5MTM5N2JmMTYwNWY0ZThkNTE0ZWU5NTZmNjJlMjIyN2Y5NGJhNDFiZTQxODNmOTJhNjBiM2I0YQ",
+                "summary": "Your pants are always sliding down? Well"
+              },
+              {
+                "product_id": "74010",
+                "product_name": "Torbacula Belt",
+                "price": 44.51,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w3NDc1OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE1TOW9PRE12T0RjNU5qa3pNamN6TlRBd05pNXFjR2N8NjA1ZWNmZjU2YjE4NzhmOWI0OWYzNDIxYWQ0OTY1YjhhMmJkNTVjYmQ3ZDNiZWVkMzI1MGIxY2EyYTAzZjAxMg",
+                "summary": "Nice leather belt with cool lettering by Von Zipper. 100% Leather"
+              },
+              {
+                "product_id": "300062456",
+                "product_name": "Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL",
+                "price": 46.71,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNjQ4NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneFlTOW9Namt2T0RjNU5qWTBPRGt6TVRNMU9DNXFjR2N8YTg0MjVlMWJhM2M4YTY0MWFmYzMzMDI5NzRhZjUyMmM0ODI2ZWQ1YTRkNTA0Y2QwYzZmYzQ1ODc4OGNmOTQwNw",
+                "summary": "The Lotus from TSG! One for the Ladies:"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-06T04:21:19.039Z"
+          }
+        },
+        {
+          "id": 1770353231887,
+          "timestamp": "2026-02-06T04:47:11.887Z",
+          "user": "show me tshirt",
+          "ai": {
+            "ai_response": "Here are some t-shirts I found:\n\n*   **T-Shirt Men Playboard Logo Tee black S**\n    T-Shirt from Playboard with logo front print.\n    Price: 26.68\n\n*   **T-Shirt Men Playboard Logo Tee black L**\n    T-Shirt from Playboard with logo front print.\n    Price: 26.68\n\n*   **T-Shirt Men Playboard Logo Tee red L**\n    T-Shirt from Playboard with logo front print.\n    Price: 26.68\n\n*   **T-Shirt Men Playboard Logo Tee black XL**\n    T-Shirt from Playboard with logo front print.\n    Price: 26.68\n\n*   **T-Shirt Men Playboard Logo Tee black M**\n    T-Shirt from Playboard with logo front print.\n    Price: 26.68\n\nWould you like to refine your search with any specific criteria, or perhaps look for a different product?",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ",
+                "price": 26.68,
+                "product_id": "300067376",
+                "product_name": "T-Shirt Men Playboard Logo Tee black S",
+                "summary": "T-Shirt from Playboard with logo front print."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ",
+                "price": 26.68,
+                "product_id": "300067374",
+                "product_name": "T-Shirt Men Playboard Logo Tee black L",
+                "summary": "T-Shirt from Playboard with logo front print."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wzNzk4OXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNFppOW9ZMlV2T0RjNU5qWTBPVE01TURFeE1DNXFjR2N8NDJlNzA3MGU5YTY1NzY4NzY4MDhiYzM1YzFjMDYyOGUxY2VjNTYzMzNhM2VjOTRmODUwMzE0ZDU1N2IyZTM3OQ",
+                "price": 26.68,
+                "product_id": "300076093",
+                "product_name": "T-Shirt Men Playboard Logo Tee red L",
+                "summary": "T-Shirt from Playboard with logo front print."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ",
+                "price": 26.68,
+                "product_id": "300067377",
+                "product_name": "T-Shirt Men Playboard Logo Tee black XL",
+                "summary": "T-Shirt from Playboard with logo front print."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ",
+                "price": 26.68,
+                "product_id": "300067375",
+                "product_name": "T-Shirt Men Playboard Logo Tee black M",
+                "summary": "T-Shirt from Playboard with logo front print."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1770181882563_97o589xw9",
+            "products": [
+              {
+                "product_id": "300067376",
+                "product_name": "T-Shirt Men Playboard Logo Tee black S",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ",
+                "summary": "T-Shirt from Playboard with logo front print."
+              },
+              {
+                "product_id": "300067374",
+                "product_name": "T-Shirt Men Playboard Logo Tee black L",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ",
+                "summary": "T-Shirt from Playboard with logo front print."
+              },
+              {
+                "product_id": "300076093",
+                "product_name": "T-Shirt Men Playboard Logo Tee red L",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wzNzk4OXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNFppOW9ZMlV2T0RjNU5qWTBPVE01TURFeE1DNXFjR2N8NDJlNzA3MGU5YTY1NzY4NzY4MDhiYzM1YzFjMDYyOGUxY2VjNTYzMzNhM2VjOTRmODUwMzE0ZDU1N2IyZTM3OQ",
+                "summary": "T-Shirt from Playboard with logo front print."
+              },
+              {
+                "product_id": "300067377",
+                "product_name": "T-Shirt Men Playboard Logo Tee black XL",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ",
+                "summary": "T-Shirt from Playboard with logo front print."
+              },
+              {
+                "product_id": "300067375",
+                "product_name": "T-Shirt Men Playboard Logo Tee black M",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ",
+                "summary": "T-Shirt from Playboard with logo front print."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300067376",
+                "product_name": "T-Shirt Men Playboard Logo Tee black S",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ",
+                "summary": "T-Shirt from Playboard with logo front print."
+              },
+              {
+                "product_id": "300067374",
+                "product_name": "T-Shirt Men Playboard Logo Tee black L",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ",
+                "summary": "T-Shirt from Playboard with logo front print."
+              },
+              {
+                "product_id": "300076093",
+                "product_name": "T-Shirt Men Playboard Logo Tee red L",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wzNzk4OXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNFppOW9ZMlV2T0RjNU5qWTBPVE01TURFeE1DNXFjR2N8NDJlNzA3MGU5YTY1NzY4NzY4MDhiYzM1YzFjMDYyOGUxY2VjNTYzMzNhM2VjOTRmODUwMzE0ZDU1N2IyZTM3OQ",
+                "summary": "T-Shirt from Playboard with logo front print."
+              },
+              {
+                "product_id": "300067377",
+                "product_name": "T-Shirt Men Playboard Logo Tee black XL",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ",
+                "summary": "T-Shirt from Playboard with logo front print."
+              },
+              {
+                "product_id": "300067375",
+                "product_name": "T-Shirt Men Playboard Logo Tee black M",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ",
+                "summary": "T-Shirt from Playboard with logo front print."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-06T04:47:11.889Z"
+          }
+        },
+        {
+          "id": 1770353426081,
+          "timestamp": "2026-02-06T04:50:26.081Z",
+          "user": "show me dress",
+          "ai": {
+            "ai_response": "Here are some dresses I found:\n\n*   **Up Country Floral Dress Women**\n    A summer's dream! Super cute dress with a flowery print and puffy sleeves\n    $20.21\n*   **Strybal Dress Women**\n    The Strybal Drss by Volcom is a super nice Dress with an awesome all over print. 100% Cotton\n    $24.26\n*   **Selva Dress Women**\n    With the femipleasure Selva dress in a colourful stripe pattern with chest pocket on the left side and draw cord belt you'll be even more scrumptious in the eyes of the boys. 100 % cotton\n    $32.36\n*   **Stratus Dress Women**\n    The Stratus Dress is the perfect companion whether you're at the beach or sipping a cocktail in the city. You're sure to catch everyone's attention! 51% cotton\n    $36.41\n*   **Stella Dress Women**\n    Checked is in\n    $44.51",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1ODYzN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1DOW9aRGN2T0RjNU5qZzVPREF3TURreU5pNXFjR2N8OWU0ZmIzM2RiZjk0NWFlMWMyZTNkOTRjODE0MTBhNmJhNTRjYWIxNmM5NjY4MmNhNmM5NjdlZDA1MTk2ZDU1OQ",
+                "price": 20.21,
+                "product_id": "122447",
+                "product_name": "Up Country Floral Dress Women",
+                "summary": "A summer's dream! Super cute dress with a flowery print and puffy sleeves"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MzQ0NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak9DOW9aRGt2T0RjNU5qZzVOakF6TkRnME5pNXFjR2N8YzZkM2ZhNWIyNDQ3NmYyZmI3MjA5OGRkM2ViN2RlMmVlMTQxZDhjMjhmM2Q3MWVjNmRkZjAyMzRmMWEzMzY4YQ",
+                "price": 24.26,
+                "product_id": "121868",
+                "product_name": "Strybal Dress Women",
+                "summary": "The Strybal Drss by Volcom is a super nice Dress with an awesome all over print. 100% Cotton"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0NjU0MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9PR1l2T0RjNU5qa3dNVFl3TlRRd05pNXFjR2N8MGEzMjZjYTc1MzYyM2QxMDY1ZDE4NDgyNzYyYmFiODgwMmZiNTViMWEwNTg3YjJmOTNkZDUzZWMzMTdkNTMyMg",
+                "price": 32.36,
+                "product_id": "83223",
+                "product_name": "Selva Dress Women",
+                "summary": "With the femipleasure Selva dress in a colourful stripe pattern with chest pocket on the left side and draw cord belt you'll be even more scrumptious in the eyes of the boys. 100 % cotton"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wzOTQ1OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMlppOW9NMlV2T0RjNU5qZzVPVFl6T1RNeU5pNXFjR2N8OTFmNDgxZTE2MWI3MDU2ZWJhMmNkZDllN2Y1NzEzMzc0MGI3OWE0MzVhYjdmMmI5MzE4MGI2MGNmMWY2Njc5NA",
+                "price": 36.41,
+                "product_id": "84574",
+                "product_name": "Stratus Dress Women",
+                "summary": "The Stratus Dress is the perfect companion whether you're at the beach or sipping a cocktail in the city. You're sure to catch everyone's attention! 51% cotton"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MjIyOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnelppOW9NalF2T0RjNU5qZzVPRFkxTmpJNE5pNXFjR2N8OGQ4NTE3Y2U4MmU3YmUxYzk1YTMxYjY1Y2ZmYTA4NWQyNjI1NTdiNDhiMGZjNWI4MmU1NjA2YzFlMDBiMTIzOQ",
+                "price": 44.51,
+                "product_id": "83174",
+                "product_name": "Stella Dress Women",
+                "summary": "Checked is in"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1770181882563_97o589xw9",
+            "products": [
+              {
+                "product_id": "122447",
+                "product_name": "Up Country Floral Dress Women",
+                "price": 20.21,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1ODYzN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1DOW9aRGN2T0RjNU5qZzVPREF3TURreU5pNXFjR2N8OWU0ZmIzM2RiZjk0NWFlMWMyZTNkOTRjODE0MTBhNmJhNTRjYWIxNmM5NjY4MmNhNmM5NjdlZDA1MTk2ZDU1OQ",
+                "summary": "A summer's dream! Super cute dress with a flowery print and puffy sleeves"
+              },
+              {
+                "product_id": "121868",
+                "product_name": "Strybal Dress Women",
+                "price": 24.26,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MzQ0NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak9DOW9aRGt2T0RjNU5qZzVOakF6TkRnME5pNXFjR2N8YzZkM2ZhNWIyNDQ3NmYyZmI3MjA5OGRkM2ViN2RlMmVlMTQxZDhjMjhmM2Q3MWVjNmRkZjAyMzRmMWEzMzY4YQ",
+                "summary": "The Strybal Drss by Volcom is a super nice Dress with an awesome all over print. 100% Cotton"
+              },
+              {
+                "product_id": "83223",
+                "product_name": "Selva Dress Women",
+                "price": 32.36,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0NjU0MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9PR1l2T0RjNU5qa3dNVFl3TlRRd05pNXFjR2N8MGEzMjZjYTc1MzYyM2QxMDY1ZDE4NDgyNzYyYmFiODgwMmZiNTViMWEwNTg3YjJmOTNkZDUzZWMzMTdkNTMyMg",
+                "summary": "With the femipleasure Selva dress in a colourful stripe pattern with chest pocket on the left side and draw cord belt you'll be even more scrumptious in the eyes of the boys. 100 % cotton"
+              },
+              {
+                "product_id": "84574",
+                "product_name": "Stratus Dress Women",
+                "price": 36.41,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wzOTQ1OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMlppOW9NMlV2T0RjNU5qZzVPVFl6T1RNeU5pNXFjR2N8OTFmNDgxZTE2MWI3MDU2ZWJhMmNkZDllN2Y1NzEzMzc0MGI3OWE0MzVhYjdmMmI5MzE4MGI2MGNmMWY2Njc5NA",
+                "summary": "The Stratus Dress is the perfect companion whether you're at the beach or sipping a cocktail in the city. You're sure to catch everyone's attention! 51% cotton"
+              },
+              {
+                "product_id": "83174",
+                "product_name": "Stella Dress Women",
+                "price": 44.51,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MjIyOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnelppOW9NalF2T0RjNU5qZzVPRFkxTmpJNE5pNXFjR2N8OGQ4NTE3Y2U4MmU3YmUxYzk1YTMxYjY1Y2ZmYTA4NWQyNjI1NTdiNDhiMGZjNWI4MmU1NjA2YzFlMDBiMTIzOQ",
+                "summary": "Checked is in"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "122447",
+                "product_name": "Up Country Floral Dress Women",
+                "price": 20.21,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1ODYzN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1DOW9aRGN2T0RjNU5qZzVPREF3TURreU5pNXFjR2N8OWU0ZmIzM2RiZjk0NWFlMWMyZTNkOTRjODE0MTBhNmJhNTRjYWIxNmM5NjY4MmNhNmM5NjdlZDA1MTk2ZDU1OQ",
+                "summary": "A summer's dream! Super cute dress with a flowery print and puffy sleeves"
+              },
+              {
+                "product_id": "121868",
+                "product_name": "Strybal Dress Women",
+                "price": 24.26,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MzQ0NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak9DOW9aRGt2T0RjNU5qZzVOakF6TkRnME5pNXFjR2N8YzZkM2ZhNWIyNDQ3NmYyZmI3MjA5OGRkM2ViN2RlMmVlMTQxZDhjMjhmM2Q3MWVjNmRkZjAyMzRmMWEzMzY4YQ",
+                "summary": "The Strybal Drss by Volcom is a super nice Dress with an awesome all over print. 100% Cotton"
+              },
+              {
+                "product_id": "83223",
+                "product_name": "Selva Dress Women",
+                "price": 32.36,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0NjU0MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9PR1l2T0RjNU5qa3dNVFl3TlRRd05pNXFjR2N8MGEzMjZjYTc1MzYyM2QxMDY1ZDE4NDgyNzYyYmFiODgwMmZiNTViMWEwNTg3YjJmOTNkZDUzZWMzMTdkNTMyMg",
+                "summary": "With the femipleasure Selva dress in a colourful stripe pattern with chest pocket on the left side and draw cord belt you'll be even more scrumptious in the eyes of the boys. 100 % cotton"
+              },
+              {
+                "product_id": "84574",
+                "product_name": "Stratus Dress Women",
+                "price": 36.41,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wzOTQ1OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMlppOW9NMlV2T0RjNU5qZzVPVFl6T1RNeU5pNXFjR2N8OTFmNDgxZTE2MWI3MDU2ZWJhMmNkZDllN2Y1NzEzMzc0MGI3OWE0MzVhYjdmMmI5MzE4MGI2MGNmMWY2Njc5NA",
+                "summary": "The Stratus Dress is the perfect companion whether you're at the beach or sipping a cocktail in the city. You're sure to catch everyone's attention! 51% cotton"
+              },
+              {
+                "product_id": "83174",
+                "product_name": "Stella Dress Women",
+                "price": 44.51,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MjIyOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnelppOW9NalF2T0RjNU5qZzVPRFkxTmpJNE5pNXFjR2N8OGQ4NTE3Y2U4MmU3YmUxYzk1YTMxYjY1Y2ZmYTA4NWQyNjI1NTdiNDhiMGZjNWI4MmU1NjA2YzFlMDBiMTIzOQ",
+                "summary": "Checked is in"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-06T04:50:26.084Z"
+          }
+        },
+        {
+          "id": 1770353439328,
+          "timestamp": "2026-02-06T04:50:39.328Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1770181882563_97o589xw9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        }
+      ],
+      "last_products": [
+        {
+          "product_id": "122447",
+          "product_name": "Up Country Floral Dress Women",
+          "price": 20.21,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1ODYzN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1DOW9aRGN2T0RjNU5qZzVPREF3TURreU5pNXFjR2N8OWU0ZmIzM2RiZjk0NWFlMWMyZTNkOTRjODE0MTBhNmJhNTRjYWIxNmM5NjY4MmNhNmM5NjdlZDA1MTk2ZDU1OQ",
+          "summary": "A summer's dream! Super cute dress with a flowery print and puffy sleeves"
+        },
+        {
+          "product_id": "121868",
+          "product_name": "Strybal Dress Women",
+          "price": 24.26,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MzQ0NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak9DOW9aRGt2T0RjNU5qZzVOakF6TkRnME5pNXFjR2N8YzZkM2ZhNWIyNDQ3NmYyZmI3MjA5OGRkM2ViN2RlMmVlMTQxZDhjMjhmM2Q3MWVjNmRkZjAyMzRmMWEzMzY4YQ",
+          "summary": "The Strybal Drss by Volcom is a super nice Dress with an awesome all over print. 100% Cotton"
+        },
+        {
+          "product_id": "83223",
+          "product_name": "Selva Dress Women",
+          "price": 32.36,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0NjU0MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9PR1l2T0RjNU5qa3dNVFl3TlRRd05pNXFjR2N8MGEzMjZjYTc1MzYyM2QxMDY1ZDE4NDgyNzYyYmFiODgwMmZiNTViMWEwNTg3YjJmOTNkZDUzZWMzMTdkNTMyMg",
+          "summary": "With the femipleasure Selva dress in a colourful stripe pattern with chest pocket on the left side and draw cord belt you'll be even more scrumptious in the eyes of the boys. 100 % cotton"
+        },
+        {
+          "product_id": "84574",
+          "product_name": "Stratus Dress Women",
+          "price": 36.41,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wzOTQ1OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMlppOW9NMlV2T0RjNU5qZzVPVFl6T1RNeU5pNXFjR2N8OTFmNDgxZTE2MWI3MDU2ZWJhMmNkZDllN2Y1NzEzMzc0MGI3OWE0MzVhYjdmMmI5MzE4MGI2MGNmMWY2Njc5NA",
+          "summary": "The Stratus Dress is the perfect companion whether you're at the beach or sipping a cocktail in the city. You're sure to catch everyone's attention! 51% cotton"
+        },
+        {
+          "product_id": "83174",
+          "product_name": "Stella Dress Women",
+          "price": 44.51,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MjIyOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnelppOW9NalF2T0RjNU5qZzVPRFkxTmpJNE5pNXFjR2N8OGQ4NTE3Y2U4MmU3YmUxYzk1YTMxYjY1Y2ZmYTA4NWQyNjI1NTdiNDhiMGZjNWI4MmU1NjA2YzFlMDBiMTIzOQ",
+          "summary": "Checked is in"
+        }
+      ],
+      "recent_displayed": [
+        {
+          "product_id": "122447",
+          "product_name": "Up Country Floral Dress Women",
+          "price": 20.21,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1ODYzN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1DOW9aRGN2T0RjNU5qZzVPREF3TURreU5pNXFjR2N8OWU0ZmIzM2RiZjk0NWFlMWMyZTNkOTRjODE0MTBhNmJhNTRjYWIxNmM5NjY4MmNhNmM5NjdlZDA1MTk2ZDU1OQ",
+          "summary": "A summer's dream! Super cute dress with a flowery print and puffy sleeves"
+        },
+        {
+          "product_id": "121868",
+          "product_name": "Strybal Dress Women",
+          "price": 24.26,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MzQ0NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak9DOW9aRGt2T0RjNU5qZzVOakF6TkRnME5pNXFjR2N8YzZkM2ZhNWIyNDQ3NmYyZmI3MjA5OGRkM2ViN2RlMmVlMTQxZDhjMjhmM2Q3MWVjNmRkZjAyMzRmMWEzMzY4YQ",
+          "summary": "The Strybal Drss by Volcom is a super nice Dress with an awesome all over print. 100% Cotton"
+        },
+        {
+          "product_id": "83223",
+          "product_name": "Selva Dress Women",
+          "price": 32.36,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0NjU0MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9PR1l2T0RjNU5qa3dNVFl3TlRRd05pNXFjR2N8MGEzMjZjYTc1MzYyM2QxMDY1ZDE4NDgyNzYyYmFiODgwMmZiNTViMWEwNTg3YjJmOTNkZDUzZWMzMTdkNTMyMg",
+          "summary": "With the femipleasure Selva dress in a colourful stripe pattern with chest pocket on the left side and draw cord belt you'll be even more scrumptious in the eyes of the boys. 100 % cotton"
+        },
+        {
+          "product_id": "84574",
+          "product_name": "Stratus Dress Women",
+          "price": 36.41,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wzOTQ1OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMlppOW9NMlV2T0RjNU5qZzVPVFl6T1RNeU5pNXFjR2N8OTFmNDgxZTE2MWI3MDU2ZWJhMmNkZDllN2Y1NzEzMzc0MGI3OWE0MzVhYjdmMmI5MzE4MGI2MGNmMWY2Njc5NA",
+          "summary": "The Stratus Dress is the perfect companion whether you're at the beach or sipping a cocktail in the city. You're sure to catch everyone's attention! 51% cotton"
+        },
+        {
+          "product_id": "83174",
+          "product_name": "Stella Dress Women",
+          "price": 44.51,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MjIyOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnelppOW9NalF2T0RjNU5qZzVPRFkxTmpJNE5pNXFjR2N8OGQ4NTE3Y2U4MmU3YmUxYzk1YTMxYjY1Y2ZmYTA4NWQyNjI1NTdiNDhiMGZjNWI4MmU1NjA2YzFlMDBiMTIzOQ",
+          "summary": "Checked is in"
+        }
+      ],
+      "context": [
+        {
+          "user": "show me tshirt",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "300067376",
+              "product_name": "T-Shirt Men Playboard Logo Tee black S",
+              "price": 26.68,
+              "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ",
+              "summary": "T-Shirt from Playboard with logo front print."
+            },
+            {
+              "product_id": "300067374",
+              "product_name": "T-Shirt Men Playboard Logo Tee black L",
+              "price": 26.68,
+              "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ",
+              "summary": "T-Shirt from Playboard with logo front print."
+            },
+            {
+              "product_id": "300076093",
+              "product_name": "T-Shirt Men Playboard Logo Tee red L",
+              "price": 26.68,
+              "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wzNzk4OXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNFppOW9ZMlV2T0RjNU5qWTBPVE01TURFeE1DNXFjR2N8NDJlNzA3MGU5YTY1NzY4NzY4MDhiYzM1YzFjMDYyOGUxY2VjNTYzMzNhM2VjOTRmODUwMzE0ZDU1N2IyZTM3OQ",
+              "summary": "T-Shirt from Playboard with logo front print."
+            },
+            {
+              "product_id": "300067377",
+              "product_name": "T-Shirt Men Playboard Logo Tee black XL",
+              "price": 26.68,
+              "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ",
+              "summary": "T-Shirt from Playboard with logo front print."
+            },
+            {
+              "product_id": "300067375",
+              "product_name": "T-Shirt Men Playboard Logo Tee black M",
+              "price": 26.68,
+              "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ",
+              "summary": "T-Shirt from Playboard with logo front print."
+            }
+          ],
+          "type": "products_list"
+        },
+        {
+          "user": "show me dress",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "122447",
+              "product_name": "Up Country Floral Dress Women",
+              "price": 20.21,
+              "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w1ODYzN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1DOW9aRGN2T0RjNU5qZzVPREF3TURreU5pNXFjR2N8OWU0ZmIzM2RiZjk0NWFlMWMyZTNkOTRjODE0MTBhNmJhNTRjYWIxNmM5NjY4MmNhNmM5NjdlZDA1MTk2ZDU1OQ",
+              "summary": "A summer's dream! Super cute dress with a flowery print and puffy sleeves"
+            },
+            {
+              "product_id": "121868",
+              "product_name": "Strybal Dress Women",
+              "price": 24.26,
+              "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MzQ0NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak9DOW9aRGt2T0RjNU5qZzVOakF6TkRnME5pNXFjR2N8YzZkM2ZhNWIyNDQ3NmYyZmI3MjA5OGRkM2ViN2RlMmVlMTQxZDhjMjhmM2Q3MWVjNmRkZjAyMzRmMWEzMzY4YQ",
+              "summary": "The Strybal Drss by Volcom is a super nice Dress with an awesome all over print. 100% Cotton"
+            },
+            {
+              "product_id": "83223",
+              "product_name": "Selva Dress Women",
+              "price": 32.36,
+              "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0NjU0MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9PR1l2T0RjNU5qa3dNVFl3TlRRd05pNXFjR2N8MGEzMjZjYTc1MzYyM2QxMDY1ZDE4NDgyNzYyYmFiODgwMmZiNTViMWEwNTg3YjJmOTNkZDUzZWMzMTdkNTMyMg",
+              "summary": "With the femipleasure Selva dress in a colourful stripe pattern with chest pocket on the left side and draw cord belt you'll be even more scrumptious in the eyes of the boys. 100 % cotton"
+            },
+            {
+              "product_id": "84574",
+              "product_name": "Stratus Dress Women",
+              "price": 36.41,
+              "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wzOTQ1OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMlppOW9NMlV2T0RjNU5qZzVPVFl6T1RNeU5pNXFjR2N8OTFmNDgxZTE2MWI3MDU2ZWJhMmNkZDllN2Y1NzEzMzc0MGI3OWE0MzVhYjdmMmI5MzE4MGI2MGNmMWY2Njc5NA",
+              "summary": "The Stratus Dress is the perfect companion whether you're at the beach or sipping a cocktail in the city. You're sure to catch everyone's attention! 51% cotton"
+            },
+            {
+              "product_id": "83174",
+              "product_name": "Stella Dress Women",
+              "price": 44.51,
+              "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MjIyOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnelppOW9NalF2T0RjNU5qZzVPRFkxTmpJNE5pNXFjR2N8OGQ4NTE3Y2U4MmU3YmUxYzk1YTMxYjY1Y2ZmYTA4NWQyNjI1NTdiNDhiMGZjNWI4MmU1NjA2YzFlMDBiMTIzOQ",
+              "summary": "Checked is in"
+            }
+          ],
+          "type": "products_list"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": "2026-02-06T10:20:46.148352",
+    "session_id": "7a573e79-b766-4d84-a61e-714440540922"
+  },
+  "result": null
+}

@@ -1,0 +1,1014 @@
+{
+  "session_id": "615a20d5-6ff6-4179-bb03-f507924777b7",
+  "status": "success",
+  "created_at": "2026-05-11T11:15:32.899516",
+  "payment_data": {
+    "customer_id": "sanjeev_kumar.srivastava@capgemini.com",
+    "cart_items": [
+      {
+        "image_url": "/static/product_images/300172.jpg",
+        "price": 109,
+        "product_id": "300172",
+        "product_name": "Karrera 39in Electric Guitar - Black",
+        "quantity": 1,
+        "addedAt": "2026-05-11T05:45:12.031Z"
+      }
+    ],
+    "total_amount": 109,
+    "chat_history": [
+      {
+        "id": "msg_0",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n                <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background: #1B5252;\">\n                  <i class=\"fas fa-robot text-white text-sm\"></i>\n                </div>\n                <div>\n                  <p class=\"font-medium text-gray-800\">Hello! I'm your AI shopping assistant powered by Capgemini.</p>\n                  <p class=\"text-gray-600 text-sm mt-1\">How can I help you find the perfect products today?</p>\n                  <p class=\"text-gray-500 text-xs mt-2 italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>\n                    Note: Your cart will be cleared when you refresh the page.\n                  </p>\n                  <p class=\"text-cyan-600 text-xs mt-1 font-medium\">\n                    <i class=\"fas fa-credit-card mr-1\"></i>\n                    Secure PayPal checkout available - your session will be maintained during payment!\n                  </p>\n                </div>\n              </div>",
+        "timestamp": "2026-05-11T05:45:32.586Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_1",
+        "sender": "user",
+        "message": "show me musical instruments",
+        "timestamp": "2026-05-11T05:45:32.586Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_2",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"rounded-xl p-6 border\" style=\"background:rgba(27,82,82,0.03); border-color:#DDDDDD;\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg\" style=\"background:#1B5252;\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 text-white text-xs px-3 py-1 rounded-full\" style=\"background:#D71920;\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white rounded-full px-4 py-2 border\" style=\"border-color:rgba(27,82,82,0.2); flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-sm\" style=\"color:#1B5252;\"></i>\n                <span class=\"text-sm font-semibold\" style=\"color:#1B5252;\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-gray-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110 border group\" style=\"border-color:#DDDDDD;\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-[#1B5252] transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-gray-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110 border group\" style=\"border-color:#DDDDDD;\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-[#1B5252] transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1778478304161\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300176.jpg\" alt=\"Alpha Acoustic Guitar 41in with Stand - Nature\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Alpha Acoustic Guitar 41in with Stand - Nature</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Natural finish Alpha 41\" acoustic guitar with a matching guitar stand for home display and play</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$119.95</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background:#D71920;\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300172.jpg\" alt=\"Karrera 39in Electric Guitar - Black\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Karrera 39in Electric Guitar - Black</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Sleek Karrera 39\" electric guitar in black with steel strings and smooth fretboard for rock and pop styles</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$109.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background: rgb(215, 25, 32);\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300187.jpg\" alt=\"Alpha 61 Keys Electronic Piano Keyboard\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Alpha 61 Keys Electronic Piano Keyboard</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Versatile Alpha 61-key electronic piano keyboard with multiple tones and rhythms for home practice</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$121.95</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background:#D71920;\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300171.jpg\" alt=\"Alpha 38\" inch=\"\" full-size=\"\" acoustic=\"\" guitar=\"\" wooden=\"\" folk=\"\" classical\"=\"\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Alpha 38\" Inch Full-size Acoustic Guitar Wooden Folk Classical</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Full-size Alpha 38\" acoustic guitar with wooden folk classical construction ideal for beginners and learners</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$65.95</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  inch=\"\" full-size=\"\" acoustic=\"\" guitar=\"\" wooden=\"\" folk=\"\" classical',=\"\" event)\"=\"\" class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background:#D71920;\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300186.jpg\" alt=\"Mazam 88 Keys Electronic Piano Keyboard Portable Lighted\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Mazam 88 Keys Electronic Piano Keyboard Portable Lighted</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Mazam 88-key portable electronic piano keyboard with lighted keys to guide beginners through songs</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$131.91</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background:#D71920;\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2026-05-11T05:45:32.586Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_3",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2026-05-11T05:45:32.586Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_4",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n        <div class=\"bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4\" id=\"chat-cart-container\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart text-purple-500 mr-2\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold\" id=\"chat-cart-count\"><i class=\"fas fa-shopping-cart mr-1\"></i>1 item</div>\n            </div>\n            \n            <div id=\"chat-cart-items\" class=\"space-y-3 mb-4\">\n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3 flex-1\">\n          <img src=\"/static/product_images/300172.jpg\" alt=\"Karrera 39in Electric Guitar - Black\" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1 min-w-0\">\n            <h4 class=\"font-semibold text-gray-800 text-sm truncate\">Karrera 39in Electric Guitar - Black</h4>\n            <p class=\"text-xs text-gray-500 mt-1\">109.00 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 rounded-full min-w-[2rem] text-center&quot; style=&quot;background:rgba(27,82,82,0.1); color:#1B5252;\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right ml-4\">\n          <p class=\"text-lg font-bold&quot; style=&quot;color:#1B5252;\">109.00</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    </div>\n            \n            <div id=\"chat-cart-footer\" class=\"border-t border-purple-200 pt-4\">\n                <div class=\"flex items-center justify-between mb-4\">\n                    <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                    <span class=\"text-2xl font-bold text-purple-600\" id=\"chat-cart-total\">109.00</span>\n                </div>\n                \n                <div class=\"text-center space-x-2\">\n                    <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-sync-alt mr-2\"></i>Refresh Cart\n                    </button>\n                    <button  class=\"bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-credit-card mr-2\"></i>Checkout\n                    </button>\n                </div>\n                \n                <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" onload=\"(function(){setTimeout(function(){if(typeof renderChatCart === &quot;function&quot;){console.log(&quot;\ud83d\uded2 Auto-triggering renderChatCart via image onload&quot;);renderChatCart();}},100);})()\" style=\"display:none;\">\n        \n        </div>\n      </div>",
+        "timestamp": "2026-05-11T05:45:32.586Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_5",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Ready for Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Order Summary</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: 109.00</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9; margin-bottom: 15px;\">\n          \ud83d\udce6 1 item in your cart<br>\n          \ud83d\udcb0 Total amount: 109.00<br>\n          \ud83d\udd12 Secure PayPal payment\n        </div>\n        <div style=\"background: rgba(255,255,255,0.15); padding: 12px; border-radius: 8px; font-size: 14px; margin-top: 10px;\">\n          <strong>\u26a1 Are you sure you want to proceed with the payment?</strong><br>\n          <span style=\"opacity: 0.9;\">Please reply with \"yes\" to confirm, or \"no\" to cancel.</span>\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-05-11T05:45:32.586Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_6",
+        "sender": "user",
+        "message": "yes",
+        "timestamp": "2026-05-11T05:45:32.586Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_7",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u2705 <strong>Payment Confirmed!</strong><br><br>\n          <div style=\"background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 15px; border-radius: 12px; margin: 10px 0;\">\n            <div style=\"display: flex; align-items-center;\">\n              <i class=\"fas fa-check-circle\" style=\"font-size: 20px; margin-right: 10px;\"></i>\n              <div style=\"font-size: 14px;\">\n                Great! Processing your payment now. Opening PayPal gateway...\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>",
+        "timestamp": "2026-05-11T05:45:32.586Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_8",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Processing Payment</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: 109.00</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u2728 Opening PayPal payment gateway...<br>\n          \ud83d\udd12 Secure payment processing<br>\n          \u26a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-05-11T05:45:32.586Z",
+        "messageType": "html"
+      }
+    ],
+    "conversation_context": {
+      "session_id": "session_1778215907472_hwj4wubtk",
+      "conversation_history": [
+        {
+          "id": 1778470745055,
+          "timestamp": "2026-05-11T03:39:05.055Z",
+          "user": "Show me detailed information about product 300187",
+          "ai": {
+            "ai_response": "The Alpha 61 Keys Electronic Piano Keyboard is a versatile instrument with multiple tones and rhythms, perfect for home practice. It costs $121.95.",
+            "product_data": {
+              "PROMO_DESCRIPTION": "",
+              "PROMO_DISCOUNT_PERCENT": "",
+              "PROMO_TITLE": "",
+              "categories": [
+                "Men"
+              ],
+              "image_url": "/static/product_images/300187.jpg",
+              "payment_plans": [],
+              "price": 121.95,
+              "product_id": "300187",
+              "product_name": "Alpha 61 Keys Electronic Piano Keyboard",
+              "summary": "Versatile Alpha 61-key electronic piano keyboard with multiple tones and rhythms for home practice"
+            },
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [
+                  "Men"
+                ],
+                "image_url": "/static/product_images/300187.jpg",
+                "payment_plans": [],
+                "price": 121.95,
+                "product_id": "300187",
+                "product_name": "Alpha 61 Keys Electronic Piano Keyboard",
+                "summary": "Versatile Alpha 61-key electronic piano keyboard with multiple tones and rhythms for home practice"
+              }
+            ],
+            "response_type": "product"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300187",
+                "product_name": "Alpha 61 Keys Electronic Piano Keyboard",
+                "price": 121.95,
+                "image_url": "/static/product_images/300187.jpg",
+                "summary": "Versatile Alpha 61-key electronic piano keyboard with multiple tones and rhythms for home practice"
+              }
+            ],
+            "response_type": "product",
+            "products_count": 1,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1778470776935,
+          "timestamp": "2026-05-11T03:39:36.935Z",
+          "user": "Show me detailed information about product 300121",
+          "ai": {
+            "response": "The Laser Wireless Open Ear Earphones are lightweight and black, designed for comfortable all-day wear. They are priced at $24.95.\n        PRODUCT_CONTEXT_DATA: [{'product_id': '300121', 'product_name': 'Laser Wireless Open Ear Earphones - Black', 'summary': 'Lightweight Laser wireless open-ear earphones in black for comfortable all-day wear', 'price': 24.95, 'image_url': '/static/product_images/300121.jpg', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': [], 'payment_plans': []}]\n        \n        [STRUCTURED_PRODUCTS: [{\"product_id\": \"300121\", \"product_name\": \"Laser Wireless Open Ear Earphones - Black\", \"summary\": \"Lightweight Laser wireless open-ear earphones in black for comfortable all-day wear\", \"price\": 24.95, \"image_url\": \"/static/product_images/300121.jpg\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": [], \"payment_plans\": []}]]\n        "
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1778470804001,
+          "timestamp": "2026-05-11T03:40:04.001Z",
+          "user": "show drill machine",
+          "ai": {
+            "ai_response": "Here are some drill machines:\n\n*   Ryobi 18V ONE+ Drill Driver Starter Kit R18DD22 - $99.98\n*   Ozito Home 12V Cordless Drill Driver Kit - $49.98\n*   Ozito PXC 18V Cordless Drill Driver Kit PXDDK-250C - $89.98\n*   Ryobi 40 Piece Specialty Metric Drill And Drive Set - $19.98\n*   Ryobi 50 Piece Impact Drill And Drive Set - $32.99",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300053.jpg",
+                "payment_plans": [],
+                "price": 99.98,
+                "product_id": "300053",
+                "product_name": "Ryobi 18V ONE+ Drill Driver Starter Kit R18DD22",
+                "summary": "Compact 18V ONE+ drill driver starter kit with battery and charger for everyday drilling tasks"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300055.jpg",
+                "payment_plans": [],
+                "price": 49.98,
+                "product_id": "300055",
+                "product_name": "Ozito Home 12V Cordless Drill Driver Kit",
+                "summary": "Lightweight 12V cordless drill driver kit ideal for light-duty home DIY projects"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300059.jpg",
+                "payment_plans": [],
+                "price": 89.98,
+                "product_id": "300059",
+                "product_name": "Ozito PXC 18V Cordless Drill Driver Kit PXDDK-250C",
+                "summary": "Powerful PXC 18V cordless drill driver kit with battery and charger for versatile performance"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300216.jpg",
+                "payment_plans": [],
+                "price": 19.98,
+                "product_id": "300216",
+                "product_name": "Ryobi 40 Piece Specialty Metric Drill And Drive Set",
+                "summary": "Versatile Ryobi 40-piece specialty metric drill and drive set covering a wide range of drilling and fastening needs"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300220.jpg",
+                "payment_plans": [],
+                "price": 32.99,
+                "product_id": "300220",
+                "product_name": "Ryobi 50 Piece Impact Drill And Drive Set",
+                "summary": "High-performance Ryobi 50-piece impact drill and drive set with impact-rated bits for tough fastening applications"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300053",
+                "product_name": "Ryobi 18V ONE+ Drill Driver Starter Kit R18DD22",
+                "price": 99.98,
+                "image_url": "/static/product_images/300053.jpg",
+                "summary": "Compact 18V ONE+ drill driver starter kit with battery and charger for everyday drilling tasks"
+              },
+              {
+                "product_id": "300055",
+                "product_name": "Ozito Home 12V Cordless Drill Driver Kit",
+                "price": 49.98,
+                "image_url": "/static/product_images/300055.jpg",
+                "summary": "Lightweight 12V cordless drill driver kit ideal for light-duty home DIY projects"
+              },
+              {
+                "product_id": "300059",
+                "product_name": "Ozito PXC 18V Cordless Drill Driver Kit PXDDK-250C",
+                "price": 89.98,
+                "image_url": "/static/product_images/300059.jpg",
+                "summary": "Powerful PXC 18V cordless drill driver kit with battery and charger for versatile performance"
+              },
+              {
+                "product_id": "300216",
+                "product_name": "Ryobi 40 Piece Specialty Metric Drill And Drive Set",
+                "price": 19.98,
+                "image_url": "/static/product_images/300216.jpg",
+                "summary": "Versatile Ryobi 40-piece specialty metric drill and drive set covering a wide range of drilling and fastening needs"
+              },
+              {
+                "product_id": "300220",
+                "product_name": "Ryobi 50 Piece Impact Drill And Drive Set",
+                "price": 32.99,
+                "image_url": "/static/product_images/300220.jpg",
+                "summary": "High-performance Ryobi 50-piece impact drill and drive set with impact-rated bits for tough fastening applications"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300053",
+                "product_name": "Ryobi 18V ONE+ Drill Driver Starter Kit R18DD22",
+                "price": 99.98,
+                "image_url": "/static/product_images/300053.jpg",
+                "summary": "Compact 18V ONE+ drill driver starter kit with battery and charger for everyday drilling tasks"
+              },
+              {
+                "product_id": "300055",
+                "product_name": "Ozito Home 12V Cordless Drill Driver Kit",
+                "price": 49.98,
+                "image_url": "/static/product_images/300055.jpg",
+                "summary": "Lightweight 12V cordless drill driver kit ideal for light-duty home DIY projects"
+              },
+              {
+                "product_id": "300059",
+                "product_name": "Ozito PXC 18V Cordless Drill Driver Kit PXDDK-250C",
+                "price": 89.98,
+                "image_url": "/static/product_images/300059.jpg",
+                "summary": "Powerful PXC 18V cordless drill driver kit with battery and charger for versatile performance"
+              },
+              {
+                "product_id": "300216",
+                "product_name": "Ryobi 40 Piece Specialty Metric Drill And Drive Set",
+                "price": 19.98,
+                "image_url": "/static/product_images/300216.jpg",
+                "summary": "Versatile Ryobi 40-piece specialty metric drill and drive set covering a wide range of drilling and fastening needs"
+              },
+              {
+                "product_id": "300220",
+                "product_name": "Ryobi 50 Piece Impact Drill And Drive Set",
+                "price": 32.99,
+                "image_url": "/static/product_images/300220.jpg",
+                "summary": "High-performance Ryobi 50-piece impact drill and drive set with impact-rated bits for tough fastening applications"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-05-11T03:40:04.003Z"
+          }
+        },
+        {
+          "id": 1778470814912,
+          "timestamp": "2026-05-11T03:40:14.912Z",
+          "user": "Show me detailed information about product 300055",
+          "ai": {
+            "ai_response": "The Ozito Home 12V Cordless Drill Driver Kit is a lightweight and ideal tool for light-duty home DIY projects. It is priced at $49.98.",
+            "product_data": {
+              "PROMO_DESCRIPTION": "",
+              "PROMO_DISCOUNT_PERCENT": "",
+              "PROMO_TITLE": "",
+              "categories": [],
+              "image_url": "/static/product_images/300055.jpg",
+              "payment_plans": [],
+              "price": 49.98,
+              "product_id": "300055",
+              "product_name": "Ozito Home 12V Cordless Drill Driver Kit",
+              "summary": "Lightweight 12V cordless drill driver kit ideal for light-duty home DIY projects"
+            },
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300055.jpg",
+                "payment_plans": [],
+                "price": 49.98,
+                "product_id": "300055",
+                "product_name": "Ozito Home 12V Cordless Drill Driver Kit",
+                "summary": "Lightweight 12V cordless drill driver kit ideal for light-duty home DIY projects"
+              }
+            ],
+            "response_type": "product"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300055",
+                "product_name": "Ozito Home 12V Cordless Drill Driver Kit",
+                "price": 49.98,
+                "image_url": "/static/product_images/300055.jpg",
+                "summary": "Lightweight 12V cordless drill driver kit ideal for light-duty home DIY projects"
+              }
+            ],
+            "response_type": "product",
+            "products_count": 1,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1778472222751,
+          "timestamp": "2026-05-11T04:03:42.751Z",
+          "user": "show some kitchen items",
+          "ai": {
+            "ai_response": "Here are some kitchen items I found:\n\n*   **Russell Hobbs Brooklyn 4 Slice Toaster Kettle Set Black/Copper**: Stylish Russell Hobbs Brooklyn 4-slice toaster and kettle set in black and copper for a coordinated kitchen look. Price: 199.95\n*   **Bear Double Slots Bread Toaster With Glass Window DSL-C02X1**: Modern Bear DSL-C02X1 double-slot bread toaster with glass window to monitor toasting progress. Price: 79.99\n*   **Maxim 2 Slice Glass Toaster**: Contemporary Maxim 2-slice glass toaster with a see-through design to watch your toast as it browns. Price: 118.15\n*   **Laura Ashley 4 Slice Bread Toaster Stainless Steel China Rose**: Elegant Laura Ashley 4-slice stainless steel bread toaster in a beautiful China Rose floral pattern. Price: 187.0\n*   **Total Chef Retro Microwave 25L Blue**: Retro-styled Total Chef 25L microwave in blue with classic knob controls and modern cooking performance. Price: 199.99",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300207.jpg",
+                "payment_plans": [],
+                "price": 199.95,
+                "product_id": "300207",
+                "product_name": "Russell Hobbs Brooklyn 4 Slice Toaster Kettle Set Black/Copper",
+                "summary": "Stylish Russell Hobbs Brooklyn 4-slice toaster and kettle set in black and copper for a coordinated kitchen look"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300210.jpg",
+                "payment_plans": [],
+                "price": 79.99,
+                "product_id": "300210",
+                "product_name": "Bear Double Slots Bread Toaster With Glass Window DSL-C02X1",
+                "summary": "Modern Bear DSL-C02X1 double-slot bread toaster with glass window to monitor toasting progress"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300212.jpg",
+                "payment_plans": [],
+                "price": 118.15,
+                "product_id": "300212",
+                "product_name": "Maxim 2 Slice Glass Toaster",
+                "summary": "Contemporary Maxim 2-slice glass toaster with a see-through design to watch your toast as it browns"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300211.jpg",
+                "payment_plans": [],
+                "price": 187,
+                "product_id": "300211",
+                "product_name": "Laura Ashley 4 Slice Bread Toaster Stainless Steel China Rose",
+                "summary": "Elegant Laura Ashley 4-slice stainless steel bread toaster in a beautiful China Rose floral pattern"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300195.jpg",
+                "payment_plans": [],
+                "price": 199.99,
+                "product_id": "300195",
+                "product_name": "Total Chef Retro Microwave 25L Blue",
+                "summary": "Retro-styled Total Chef 25L microwave in blue with classic knob controls and modern cooking performance"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300207",
+                "product_name": "Russell Hobbs Brooklyn 4 Slice Toaster Kettle Set Black/Copper",
+                "price": 199.95,
+                "image_url": "/static/product_images/300207.jpg",
+                "summary": "Stylish Russell Hobbs Brooklyn 4-slice toaster and kettle set in black and copper for a coordinated kitchen look"
+              },
+              {
+                "product_id": "300210",
+                "product_name": "Bear Double Slots Bread Toaster With Glass Window DSL-C02X1",
+                "price": 79.99,
+                "image_url": "/static/product_images/300210.jpg",
+                "summary": "Modern Bear DSL-C02X1 double-slot bread toaster with glass window to monitor toasting progress"
+              },
+              {
+                "product_id": "300212",
+                "product_name": "Maxim 2 Slice Glass Toaster",
+                "price": 118.15,
+                "image_url": "/static/product_images/300212.jpg",
+                "summary": "Contemporary Maxim 2-slice glass toaster with a see-through design to watch your toast as it browns"
+              },
+              {
+                "product_id": "300211",
+                "product_name": "Laura Ashley 4 Slice Bread Toaster Stainless Steel China Rose",
+                "price": 187,
+                "image_url": "/static/product_images/300211.jpg",
+                "summary": "Elegant Laura Ashley 4-slice stainless steel bread toaster in a beautiful China Rose floral pattern"
+              },
+              {
+                "product_id": "300195",
+                "product_name": "Total Chef Retro Microwave 25L Blue",
+                "price": 199.99,
+                "image_url": "/static/product_images/300195.jpg",
+                "summary": "Retro-styled Total Chef 25L microwave in blue with classic knob controls and modern cooking performance"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300187",
+                "product_name": "Alpha 61 Keys Electronic Piano Keyboard",
+                "price": 121.95,
+                "image_url": "/static/product_images/300187.jpg",
+                "summary": "Versatile Alpha 61-key electronic piano keyboard with multiple tones and rhythms for home practice"
+              },
+              {
+                "product_id": "300190",
+                "product_name": "Alpha 25-Key MIDI Keyboard Controller Portable Piano USB",
+                "price": 69.95,
+                "image_url": "/static/product_images/300190.jpg",
+                "summary": "Compact Alpha 25-key MIDI keyboard controller with USB connectivity for music production and laptop use"
+              },
+              {
+                "product_id": "300188",
+                "product_name": "Alpha 37-Key Digital Piano Keyboard with Touch Function for Beginners",
+                "price": 59.95,
+                "image_url": "/static/product_images/300188.jpg",
+                "summary": "Compact Alpha 37-key digital piano keyboard with touch-sensitive keys ideal for beginner musicians"
+              },
+              {
+                "product_id": "300186",
+                "product_name": "Mazam 88 Keys Electronic Piano Keyboard Portable Lighted",
+                "price": 131.91,
+                "image_url": "/static/product_images/300186.jpg",
+                "summary": "Mazam 88-key portable electronic piano keyboard with lighted keys to guide beginners through songs"
+              },
+              {
+                "product_id": "300185",
+                "product_name": "Alpha 61 Keys Electronic Piano Keyboard Digital Foldable with Bag",
+                "price": 79.95,
+                "image_url": "/static/product_images/300185.jpg",
+                "summary": "Portable Alpha 61-key foldable digital piano keyboard with carry bag for practice anywhere"
+              },
+              {
+                "product_id": "300183",
+                "product_name": "Alpha 88 Keys Electronic Piano Keyboard with Sustain Pedal",
+                "price": 249.95,
+                "image_url": "/static/product_images/300183.jpg",
+                "summary": "Full-size Alpha 88-key electronic piano keyboard with sustain pedal for expressive home and studio play"
+              }
+            ],
+            "search_type": "visual_search",
+            "display_timestamp": "2026-05-11T04:06:34.957Z"
+          }
+        },
+        {
+          "id": 1778472460263,
+          "timestamp": "2026-05-11T04:07:40.263Z",
+          "user": "\u092e\u0941\u091d\u0947 \u0915\u0941\u091b \u092e\u094b\u092c\u093e\u0907\u0932 \u0926\u093f\u0916\u093e\u0913",
+          "ai": {
+            "ai_response": "Here are some mobile phones I found:\n\n*   **Iqu Smarteasy Q50 Smartphone 5.5\" 16GB/2GB - Black**: Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black. Price: 179.0\n*   **Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone**: Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use. Price: 109.95\n*   **Phone Holder for Car Universal Windscreen Adjustable Black**: Universal adjustable black windscreen phone holder for secure hands-free in-car navigation. Price: 34.95\n*   **Blackview FORT 100 6.56\" HD+ Rugged Smartphone**: Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments. Price: 379.0\n*   **Oppo A6x 128GB (Ice Blue)**: Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity. Price: 227.0",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300104.jpg",
+                "payment_plans": [],
+                "price": 179,
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300100.jpg",
+                "payment_plans": [],
+                "price": 109.95,
+                "product_id": "300100",
+                "product_name": "Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone",
+                "summary": "Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300161.jpg",
+                "payment_plans": [],
+                "price": 34.95,
+                "product_id": "300161",
+                "product_name": "Phone Holder for Car Universal Windscreen Adjustable Black",
+                "summary": "Universal adjustable black windscreen phone holder for secure hands-free in-car navigation"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300107.jpg",
+                "payment_plans": [],
+                "price": 379,
+                "product_id": "300107",
+                "product_name": "Blackview FORT 100 6.56\" HD+ Rugged Smartphone",
+                "summary": "Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300109.jpg",
+                "payment_plans": [],
+                "price": 227,
+                "product_id": "300109",
+                "product_name": "Oppo A6x 128gb (ice Blue)",
+                "summary": "Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "price": 179,
+                "image_url": "/static/product_images/300104.jpg",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              },
+              {
+                "product_id": "300100",
+                "product_name": "Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone",
+                "price": 109.95,
+                "image_url": "/static/product_images/300100.jpg",
+                "summary": "Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use"
+              },
+              {
+                "product_id": "300161",
+                "product_name": "Phone Holder for Car Universal Windscreen Adjustable Black",
+                "price": 34.95,
+                "image_url": "/static/product_images/300161.jpg",
+                "summary": "Universal adjustable black windscreen phone holder for secure hands-free in-car navigation"
+              },
+              {
+                "product_id": "300107",
+                "product_name": "Blackview FORT 100 6.56\" HD+ Rugged Smartphone",
+                "price": 379,
+                "image_url": "/static/product_images/300107.jpg",
+                "summary": "Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments"
+              },
+              {
+                "product_id": "300109",
+                "product_name": "Oppo A6x 128gb (ice Blue)",
+                "price": 227,
+                "image_url": "/static/product_images/300109.jpg",
+                "summary": "Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "price": 179,
+                "image_url": "/static/product_images/300104.jpg",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              },
+              {
+                "product_id": "300100",
+                "product_name": "Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone",
+                "price": 109.95,
+                "image_url": "/static/product_images/300100.jpg",
+                "summary": "Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use"
+              },
+              {
+                "product_id": "300161",
+                "product_name": "Phone Holder for Car Universal Windscreen Adjustable Black",
+                "price": 34.95,
+                "image_url": "/static/product_images/300161.jpg",
+                "summary": "Universal adjustable black windscreen phone holder for secure hands-free in-car navigation"
+              },
+              {
+                "product_id": "300107",
+                "product_name": "Blackview FORT 100 6.56\" HD+ Rugged Smartphone",
+                "price": 379,
+                "image_url": "/static/product_images/300107.jpg",
+                "summary": "Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments"
+              },
+              {
+                "product_id": "300109",
+                "product_name": "Oppo A6x 128gb (ice Blue)",
+                "price": 227,
+                "image_url": "/static/product_images/300109.jpg",
+                "summary": "Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-05-11T04:07:40.264Z"
+          }
+        },
+        {
+          "id": 1778476989321,
+          "timestamp": "2026-05-11T05:23:09.321Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1778477048767,
+          "timestamp": "2026-05-11T05:24:08.767Z",
+          "user": "show my orders",
+          "ai": {
+            "ai_response": "\n                <div style='text-align: center; padding: 40px; background-color: #f8f9fa; border-radius: 8px; border: 2px dashed #dee2e6; font-family: Arial, sans-serif;'>\n                    <h3 style='color: #6c757d; margin: 0 0 10px 0;'>\ud83d\udce6 No Orders Found</h3>\n                    <p style='color: #6c757d; margin: 0; font-size: 16px;'>You haven't placed any orders yet. Start shopping to see your order history here!</p>\n                </div>\n                "
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1778478304158,
+          "timestamp": "2026-05-11T05:45:04.158Z",
+          "user": "show me musical instruments",
+          "ai": {
+            "ai_response": "",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300176.jpg",
+                "payment_plans": [],
+                "price": 119.95,
+                "product_id": "300176",
+                "product_name": "Alpha Acoustic Guitar 41in with Stand - Nature",
+                "summary": "Natural finish Alpha 41\" acoustic guitar with a matching guitar stand for home display and play"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300172.jpg",
+                "payment_plans": [],
+                "price": 109,
+                "product_id": "300172",
+                "product_name": "Karrera 39in Electric Guitar - Black",
+                "summary": "Sleek Karrera 39\" electric guitar in black with steel strings and smooth fretboard for rock and pop styles"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300187.jpg",
+                "payment_plans": [],
+                "price": 121.95,
+                "product_id": "300187",
+                "product_name": "Alpha 61 Keys Electronic Piano Keyboard",
+                "summary": "Versatile Alpha 61-key electronic piano keyboard with multiple tones and rhythms for home practice"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300171.jpg",
+                "payment_plans": [],
+                "price": 65.95,
+                "product_id": "300171",
+                "product_name": "Alpha 38\" Inch Full-size Acoustic Guitar Wooden Folk Classical",
+                "summary": "Full-size Alpha 38\" acoustic guitar with wooden folk classical construction ideal for beginners and learners"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300186.jpg",
+                "payment_plans": [],
+                "price": 131.91,
+                "product_id": "300186",
+                "product_name": "Mazam 88 Keys Electronic Piano Keyboard Portable Lighted",
+                "summary": "Mazam 88-key portable electronic piano keyboard with lighted keys to guide beginners through songs"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300176",
+                "product_name": "Alpha Acoustic Guitar 41in with Stand - Nature",
+                "price": 119.95,
+                "image_url": "/static/product_images/300176.jpg",
+                "summary": "Natural finish Alpha 41\" acoustic guitar with a matching guitar stand for home display and play"
+              },
+              {
+                "product_id": "300172",
+                "product_name": "Karrera 39in Electric Guitar - Black",
+                "price": 109,
+                "image_url": "/static/product_images/300172.jpg",
+                "summary": "Sleek Karrera 39\" electric guitar in black with steel strings and smooth fretboard for rock and pop styles"
+              },
+              {
+                "product_id": "300187",
+                "product_name": "Alpha 61 Keys Electronic Piano Keyboard",
+                "price": 121.95,
+                "image_url": "/static/product_images/300187.jpg",
+                "summary": "Versatile Alpha 61-key electronic piano keyboard with multiple tones and rhythms for home practice"
+              },
+              {
+                "product_id": "300171",
+                "product_name": "Alpha 38\" Inch Full-size Acoustic Guitar Wooden Folk Classical",
+                "price": 65.95,
+                "image_url": "/static/product_images/300171.jpg",
+                "summary": "Full-size Alpha 38\" acoustic guitar with wooden folk classical construction ideal for beginners and learners"
+              },
+              {
+                "product_id": "300186",
+                "product_name": "Mazam 88 Keys Electronic Piano Keyboard Portable Lighted",
+                "price": 131.91,
+                "image_url": "/static/product_images/300186.jpg",
+                "summary": "Mazam 88-key portable electronic piano keyboard with lighted keys to guide beginners through songs"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300176",
+                "product_name": "Alpha Acoustic Guitar 41in with Stand - Nature",
+                "price": 119.95,
+                "image_url": "/static/product_images/300176.jpg",
+                "summary": "Natural finish Alpha 41\" acoustic guitar with a matching guitar stand for home display and play"
+              },
+              {
+                "product_id": "300172",
+                "product_name": "Karrera 39in Electric Guitar - Black",
+                "price": 109,
+                "image_url": "/static/product_images/300172.jpg",
+                "summary": "Sleek Karrera 39\" electric guitar in black with steel strings and smooth fretboard for rock and pop styles"
+              },
+              {
+                "product_id": "300187",
+                "product_name": "Alpha 61 Keys Electronic Piano Keyboard",
+                "price": 121.95,
+                "image_url": "/static/product_images/300187.jpg",
+                "summary": "Versatile Alpha 61-key electronic piano keyboard with multiple tones and rhythms for home practice"
+              },
+              {
+                "product_id": "300171",
+                "product_name": "Alpha 38\" Inch Full-size Acoustic Guitar Wooden Folk Classical",
+                "price": 65.95,
+                "image_url": "/static/product_images/300171.jpg",
+                "summary": "Full-size Alpha 38\" acoustic guitar with wooden folk classical construction ideal for beginners and learners"
+              },
+              {
+                "product_id": "300186",
+                "product_name": "Mazam 88 Keys Electronic Piano Keyboard Portable Lighted",
+                "price": 131.91,
+                "image_url": "/static/product_images/300186.jpg",
+                "summary": "Mazam 88-key portable electronic piano keyboard with lighted keys to guide beginners through songs"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-05-11T05:45:04.161Z"
+          }
+        },
+        {
+          "id": 1778478323262,
+          "timestamp": "2026-05-11T05:45:23.262Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        }
+      ],
+      "last_products": [
+        {
+          "product_id": "300176",
+          "product_name": "Alpha Acoustic Guitar 41in with Stand - Nature",
+          "price": 119.95,
+          "image_url": "/static/product_images/300176.jpg",
+          "summary": "Natural finish Alpha 41\" acoustic guitar with a matching guitar stand for home display and play"
+        },
+        {
+          "product_id": "300172",
+          "product_name": "Karrera 39in Electric Guitar - Black",
+          "price": 109,
+          "image_url": "/static/product_images/300172.jpg",
+          "summary": "Sleek Karrera 39\" electric guitar in black with steel strings and smooth fretboard for rock and pop styles"
+        },
+        {
+          "product_id": "300187",
+          "product_name": "Alpha 61 Keys Electronic Piano Keyboard",
+          "price": 121.95,
+          "image_url": "/static/product_images/300187.jpg",
+          "summary": "Versatile Alpha 61-key electronic piano keyboard with multiple tones and rhythms for home practice"
+        },
+        {
+          "product_id": "300171",
+          "product_name": "Alpha 38\" Inch Full-size Acoustic Guitar Wooden Folk Classical",
+          "price": 65.95,
+          "image_url": "/static/product_images/300171.jpg",
+          "summary": "Full-size Alpha 38\" acoustic guitar with wooden folk classical construction ideal for beginners and learners"
+        },
+        {
+          "product_id": "300186",
+          "product_name": "Mazam 88 Keys Electronic Piano Keyboard Portable Lighted",
+          "price": 131.91,
+          "image_url": "/static/product_images/300186.jpg",
+          "summary": "Mazam 88-key portable electronic piano keyboard with lighted keys to guide beginners through songs"
+        }
+      ],
+      "recent_displayed": [
+        {
+          "product_id": "300176",
+          "product_name": "Alpha Acoustic Guitar 41in with Stand - Nature",
+          "price": 119.95,
+          "image_url": "/static/product_images/300176.jpg",
+          "summary": "Natural finish Alpha 41\" acoustic guitar with a matching guitar stand for home display and play"
+        },
+        {
+          "product_id": "300172",
+          "product_name": "Karrera 39in Electric Guitar - Black",
+          "price": 109,
+          "image_url": "/static/product_images/300172.jpg",
+          "summary": "Sleek Karrera 39\" electric guitar in black with steel strings and smooth fretboard for rock and pop styles"
+        },
+        {
+          "product_id": "300187",
+          "product_name": "Alpha 61 Keys Electronic Piano Keyboard",
+          "price": 121.95,
+          "image_url": "/static/product_images/300187.jpg",
+          "summary": "Versatile Alpha 61-key electronic piano keyboard with multiple tones and rhythms for home practice"
+        },
+        {
+          "product_id": "300171",
+          "product_name": "Alpha 38\" Inch Full-size Acoustic Guitar Wooden Folk Classical",
+          "price": 65.95,
+          "image_url": "/static/product_images/300171.jpg",
+          "summary": "Full-size Alpha 38\" acoustic guitar with wooden folk classical construction ideal for beginners and learners"
+        },
+        {
+          "product_id": "300186",
+          "product_name": "Mazam 88 Keys Electronic Piano Keyboard Portable Lighted",
+          "price": 131.91,
+          "image_url": "/static/product_images/300186.jpg",
+          "summary": "Mazam 88-key portable electronic piano keyboard with lighted keys to guide beginners through songs"
+        }
+      ],
+      "context": [
+        {
+          "user": "show my orders",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        },
+        {
+          "user": "show me musical instruments",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "300176",
+              "product_name": "Alpha Acoustic Guitar 41in with Stand - Nature",
+              "price": 119.95,
+              "image_url": "/static/product_images/300176.jpg",
+              "summary": "Natural finish Alpha 41\" acoustic guitar with a matching guitar stand for home display and play"
+            },
+            {
+              "product_id": "300172",
+              "product_name": "Karrera 39in Electric Guitar - Black",
+              "price": 109,
+              "image_url": "/static/product_images/300172.jpg",
+              "summary": "Sleek Karrera 39\" electric guitar in black with steel strings and smooth fretboard for rock and pop styles"
+            },
+            {
+              "product_id": "300187",
+              "product_name": "Alpha 61 Keys Electronic Piano Keyboard",
+              "price": 121.95,
+              "image_url": "/static/product_images/300187.jpg",
+              "summary": "Versatile Alpha 61-key electronic piano keyboard with multiple tones and rhythms for home practice"
+            },
+            {
+              "product_id": "300171",
+              "product_name": "Alpha 38\" Inch Full-size Acoustic Guitar Wooden Folk Classical",
+              "price": 65.95,
+              "image_url": "/static/product_images/300171.jpg",
+              "summary": "Full-size Alpha 38\" acoustic guitar with wooden folk classical construction ideal for beginners and learners"
+            },
+            {
+              "product_id": "300186",
+              "product_name": "Mazam 88 Keys Electronic Piano Keyboard Portable Lighted",
+              "price": 131.91,
+              "image_url": "/static/product_images/300186.jpg",
+              "summary": "Mazam 88-key portable electronic piano keyboard with lighted keys to guide beginners through songs"
+            }
+          ],
+          "type": "products_list"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": "2026-05-11T11:15:32.899378",
+    "session_id": "615a20d5-6ff6-4179-bb03-f507924777b7"
+  },
+  "result": {
+    "payment_id": "PAYID-NIAW2AA9T0719266C4030634",
+    "payer_id": "YR6334H86TGYG",
+    "token": "EC-43L98005WK4335225",
+    "order_result": {
+      "error": "Failed to create order: (274, 'inserted value too large for column: Failed in \"CUSTOMER_ID\" column with the value \\'sanjeev_kumar.srivastava@capgemini.com\\'')"
+    },
+    "message": "Payment completed successfully!"
+  },
+  "updated_at": "2026-05-11T11:16:19.233079"
+}

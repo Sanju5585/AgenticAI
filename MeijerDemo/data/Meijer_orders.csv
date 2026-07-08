@@ -1,0 +1,57 @@
+ORDER_ID,LINE_ITEM_ID,CUSTOMER_ID,PRODUCT_ID,PRODUCT_NAME,QUANTITY,UNIT_PRICE,LINE_TOTAL,ORDER_STATUS,ORDER_DATE,IMAGE_URL
+ORD-M-1001,1,sanjeev5585@gmail.com,730001,Honey Crunch Cereal,2,4.99,9.98,COMPLETED,2026-06-10,/static/images/730001.jpg
+ORD-M-1001,2,sanjeev5585@gmail.com,600001,Whole Milk,1,3.99,3.99,COMPLETED,2026-06-10,/static/images/600001.jpg
+ORD-M-1001,3,sanjeev5585@gmail.com,700003,Greek Yogurt Plain,2,2.99,5.98,COMPLETED,2026-06-10,/static/images/700003.jpg
+ORD-M-1002,1,sanjeev5585@gmail.com,600012,Cheddar Shredded Cheese,1,5.49,5.49,COMPLETED,2026-06-18,/static/images/600012.jpg
+ORD-M-1002,2,sanjeev5585@gmail.com,730008,Granola Breakfast Blend,1,5.49,5.49,COMPLETED,2026-06-18,/static/images/730008.jpg
+ORD-M-1003,1,sanjeev5585@gmail.com,700004,Greek Yogurt Vanilla,2,3.49,6.98,APPROVED,2026-07-01,/static/images/700004.jpg
+ORD-M-1003,2,sanjeev5585@gmail.com,500022,Sandwich Cookies,1,3.99,3.99,APPROVED,2026-07-01,/static/images/500022.jpg
+ORD-M-2001,1,ram2024@gmail.com,500003,Pepperoni Pizza,2,7.99,15.98,COMPLETED,2026-06-05,/static/images/500003.jpg
+ORD-M-2001,2,ram2024@gmail.com,610001,Cola Classic 12-Pack,1,8.99,8.99,COMPLETED,2026-06-05,/static/images/610001.jpg
+ORD-M-2002,1,ram2024@gmail.com,500101,Potato Chips Classic,3,2.99,8.97,COMPLETED,2026-06-14,/static/images/500101.jpg
+ORD-M-2002,2,ram2024@gmail.com,500005,Supreme Pizza,1,9.99,9.99,COMPLETED,2026-06-14,/static/images/500005.jpg
+ORD-M-2002,3,ram2024@gmail.com,610008,MultiServe Cola 2L,2,2.99,5.98,COMPLETED,2026-06-14,/static/images/610008.jpg
+ORD-M-2003,1,ram2024@gmail.com,400001,Family-Size Lasagna,1,9.99,9.99,OPEN,2026-07-03,/static/images/400001.jpg
+ORD-M-2003,2,ram2024@gmail.com,500109,Pringles Original,2,3.49,6.98,OPEN,2026-07-03,/static/images/500109.jpg
+ORD-M-3001,1,sarah.thompson@yahoo.com,710003,Whole Wheat Bread,2,3.29,6.58,COMPLETED,2026-06-08,/static/images/710003.jpg
+ORD-M-3001,2,sarah.thompson@yahoo.com,600018,Cream Cheese Spread,1,3.99,3.99,COMPLETED,2026-06-08,/static/images/600018.jpg
+ORD-M-3001,3,sarah.thompson@yahoo.com,630001,Classic Ground Coffee,1,6.99,6.99,COMPLETED,2026-06-08,/static/images/630001.jpg
+ORD-M-3002,1,sarah.thompson@yahoo.com,720002,Classic Vanilla Birthday Cake,1,27.99,27.99,COMPLETED,2026-06-22,/static/images/720002.jpg
+ORD-M-3002,2,sarah.thompson@yahoo.com,610003,Lemon Lime Soda,4,1.79,7.16,COMPLETED,2026-06-22,/static/images/610003.jpg
+ORD-M-3003,1,sarah.thompson@yahoo.com,600002,2% Milk,2,3.49,6.98,APPROVED,2026-07-05,/static/images/600002.jpg
+ORD-M-3003,2,sarah.thompson@yahoo.com,730006,Raisin Bran Cereal,1,4.79,4.79,APPROVED,2026-07-05,/static/images/730006.jpg
+ORD-M-4001,1,michael.brown@gmail.com,400002,Chicken Alfredo Single-Serve,3,4.99,14.97,COMPLETED,2026-06-03,/static/images/400002.jpg
+ORD-M-4001,2,michael.brown@gmail.com,630003,Coffee Pods Breakfast Blend,1,8.99,8.99,COMPLETED,2026-06-03,/static/images/630003.jpg
+ORD-M-4002,1,michael.brown@gmail.com,500012,Classic Crackers,2,2.49,4.98,COMPLETED,2026-06-20,/static/images/500012.jpg
+ORD-M-4002,2,michael.brown@gmail.com,400005,Chicken Pot Pie,2,5.99,11.98,COMPLETED,2026-06-20,/static/images/400005.jpg
+ORD-M-4002,3,michael.brown@gmail.com,630009,Hazelnut Coffee Creamer,1,4.99,4.99,COMPLETED,2026-06-20,/static/images/630009.jpg
+ORD-M-4003,1,michael.brown@gmail.com,630004,Coffee Pods Dark Roast,2,9.99,19.98,READY,2026-07-04,/static/images/630004.jpg
+ORD-M-4003,2,michael.brown@gmail.com,500013,Wheat & Grain Crackers,2,3.49,6.98,READY,2026-07-04,/static/images/500013.jpg
+ORD-M-5001,1,jessica.wilson@gmail.com,200001,Premium Vanilla Ice Cream,2,4.99,9.98,COMPLETED,2026-06-07,/static/images/200001.jpg
+ORD-M-5001,2,jessica.wilson@gmail.com,500022,Sandwich Cookies,2,3.99,7.98,COMPLETED,2026-06-07,/static/images/500022.jpg
+ORD-M-5001,3,jessica.wilson@gmail.com,610004,Orange Spark Soda,3,1.89,5.67,COMPLETED,2026-06-07,/static/images/610004.jpg
+ORD-M-5002,1,jessica.wilson@gmail.com,200002,Chocolate Ice Cream Pints,1,5.49,5.49,COMPLETED,2026-06-25,/static/images/200002.jpg
+ORD-M-5002,2,jessica.wilson@gmail.com,500021,Chocolate Chip Cookies,2,3.49,6.98,COMPLETED,2026-06-25,/static/images/500021.jpg
+ORD-M-5003,1,jessica.wilson@gmail.com,200008,Party Size Cookie Dough Ice Cream,1,8.99,8.99,OPEN,2026-07-06,/static/images/200008.jpg
+ORD-M-5003,2,jessica.wilson@gmail.com,610007,Sparkling Berry Soda,2,2.49,4.98,OPEN,2026-07-06,/static/images/610007.jpg
+ORD-M-6001,1,david.martinez@outlook.com,630002,Premium Colombian Ground Coffee,2,9.49,18.98,COMPLETED,2026-06-12,/static/images/630002.jpg
+ORD-M-6001,2,david.martinez@outlook.com,500029,Shortbread Cookies,1,3.79,3.79,COMPLETED,2026-06-12,/static/images/500029.jpg
+ORD-M-6002,1,david.martinez@outlook.com,710001,Classic White Bread,2,2.49,4.98,COMPLETED,2026-06-28,/static/images/710001.jpg
+ORD-M-6002,2,david.martinez@outlook.com,600016,American Sliced Cheese,1,5.49,5.49,COMPLETED,2026-06-28,/static/images/600016.jpg
+ORD-M-6002,3,david.martinez@outlook.com,630006,Organic Whole Bean Coffee,1,12.49,12.49,COMPLETED,2026-06-28,/static/images/630006.jpg
+ORD-M-6003,1,david.martinez@outlook.com,730010,Multigrain Breakfast Cereal,1,5.29,5.29,APPROVED,2026-07-05,/static/images/730010.jpg
+ORD-M-6003,2,david.martinez@outlook.com,630005,Whole Bean Espresso Roast,1,11.99,11.99,APPROVED,2026-07-05,/static/images/630005.jpg
+ORD-M-7001,1,ashley.johnson@gmail.com,700003,Greek Yogurt Plain,3,2.99,8.97,COMPLETED,2026-06-09,/static/images/700003.jpg
+ORD-M-7001,2,ashley.johnson@gmail.com,400006,Grilled Chicken Healthy Living Meal,2,6.99,13.98,COMPLETED,2026-06-09,/static/images/400006.jpg
+ORD-M-7002,1,ashley.johnson@gmail.com,600004,Lactose-Free Whole Milk,2,4.49,8.98,COMPLETED,2026-06-24,/static/images/600004.jpg
+ORD-M-7002,2,ashley.johnson@gmail.com,700001,Traditional Yogurt Plain,3,1.99,5.97,COMPLETED,2026-06-24,/static/images/700001.jpg
+ORD-M-7002,3,ashley.johnson@gmail.com,500106,Baked Veggie Straws,2,3.29,6.58,COMPLETED,2026-06-24,/static/images/500106.jpg
+ORD-M-7003,1,ashley.johnson@gmail.com,400004,Chicken Tikka Masala,2,8.49,16.98,OPEN,2026-07-06,/static/images/400004.jpg
+ORD-M-7003,2,ashley.johnson@gmail.com,620007,Coconut Water Original,3,2.79,8.37,OPEN,2026-07-06,/static/images/620007.jpg
+ORD-M-8001,1,ryan.davis@gmail.com,500004,Meat Pizza,2,8.99,17.98,COMPLETED,2026-06-06,/static/images/500004.jpg
+ORD-M-8001,2,ryan.davis@gmail.com,610001,Cola Classic 12-Pack,2,8.99,17.98,COMPLETED,2026-06-06,/static/images/610001.jpg
+ORD-M-8002,1,ryan.davis@gmail.com,500102,Flavored Tortilla Chips Nacho Cheese,3,3.49,10.47,COMPLETED,2026-06-19,/static/images/500102.jpg
+ORD-M-8002,2,ryan.davis@gmail.com,500107,Mild Salsa Dip,2,2.99,5.98,COMPLETED,2026-06-19,/static/images/500107.jpg
+ORD-M-8002,3,ryan.davis@gmail.com,500006,Cheese Pizza,1,6.99,6.99,COMPLETED,2026-06-19,/static/images/500006.jpg
+ORD-M-8003,1,ryan.davis@gmail.com,500011,Cheese Crackers,2,3.29,6.58,APPROVED,2026-07-04,/static/images/500011.jpg
+ORD-M-8003,2,ryan.davis@gmail.com,610006,Root Beer Original,4,2.29,9.16,APPROVED,2026-07-04,/static/images/610006.jpg

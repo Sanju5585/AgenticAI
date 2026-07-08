@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Search Flow Diagram</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            text-align: center;
+            color: #2d3748;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #718096;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+
+        .flow-diagram {
+            position: relative;
+            padding: 20px;
+        }
+
+        .flow-section {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            font-size: 1.3em;
+            color: #4a5568;
+            margin-bottom: 20px;
+            padding-left: 15px;
+            border-left: 4px solid #667eea;
+            font-weight: bold;
+        }
+
+        .flow-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .flow-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+            min-width: 200px;
+            text-align: center;
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .flow-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+        }
+
+        .flow-box.start {
+            background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+        }
+
+        .flow-box.process {
+            background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);
+        }
+
+        .flow-box.ai {
+            background: linear-gradient(135deg, #ed8936 0%, #dd6b20 100%);
+        }
+
+        .flow-box.database {
+            background: linear-gradient(135deg, #9f7aea 0%, #805ad5 100%);
+        }
+
+        .flow-box.result {
+            background: linear-gradient(135deg, #f56565 0%, #e53e3e 100%);
+        }
+
+        .flow-box-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+        }
+
+        .flow-box-desc {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .arrow {
+            font-size: 2em;
+            color: #cbd5e0;
+            margin: 0 10px;
+        }
+
+        .arrow-down {
+            text-align: center;
+            font-size: 2.5em;
+            color: #cbd5e0;
+            margin: 15px 0;
+        }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .detail-card {
+            background: #f7fafc;
+            border-radius: 10px;
+            padding: 20px;
+            border-left: 4px solid #667eea;
+        }
+
+        .detail-card h3 {
+            color: #2d3748;
+            margin-bottom: 12px;
+            font-size: 1.1em;
+        }
+
+        .detail-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .detail-card li {
+            padding: 8px 0;
+            color: #4a5568;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .detail-card li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #48bb78;
+            font-weight: bold;
+        }
+
+        .code-block {
+            background: #2d3748;
+            color: #68d391;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            overflow-x: auto;
+        }
+
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 40px;
+            padding: 20px;
+            background: #f7fafc;
+            border-radius: 10px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .legend-box {
+            width: 30px;
+            height: 30px;
+            border-radius: 5px;
+        }
+
+        .tech-stack {
+            background: #edf2f7;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 30px;
+        }
+
+        .tech-stack h3 {
+            color: #2d3748;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .tech-tag {
+            background: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            color: #4a5568;
+            font-size: 0.9em;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .flow-box {
+                min-width: 150px;
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🖼️ Visual Search Flow Diagram</h1>
+        <p class="subtitle">AI-Powered Image-to-Product Search System</p>
+
+        <!-- Main Flow -->
+        <div class="flow-diagram">
+            <!-- Step 1: Upload -->
+            <div class="flow-section">
+                <div class="section-title">📤 Step 1: Image Upload</div>
+                <div class="flow-row">
+                    <div class="flow-box start">
+                        <div class="flow-box-title">User Uploads Image</div>
+                        <div class="flow-box-desc">JPG, PNG, WebP, GIF (Max 4MB)</div>
+                    </div>
+                    <span class="arrow">→</span>
+                    <div class="flow-box process">
+                        <div class="flow-box-title">Image Validation</div>
+                        <div class="flow-box-desc">Format, size, integrity check</div>
+                    </div>
+                    <span class="arrow">→</span>
+                    <div class="flow-box process">
+                        <div class="flow-box-title">Save to Cache</div>
+                        <div class="flow-box-desc">MD5 hash-based storage</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="arrow-down">↓</div>
+
+            <!-- Step 2: Image Processing -->
+            <div class="flow-section">
+                <div class="section-title">🔧 Step 2: Image Processing</div>
+                <div class="flow-row">
+                    <div class="flow-box process">
+                        <div class="flow-box-title">Resize & Optimize</div>
+                        <div class="flow-box-desc">Max 1024px, Convert to RGB</div>
+                    </div>
+                    <span class="arrow">→</span>
+                    <div class="flow-box process">
+                        <div class="flow-box-title">Extract Features</div>
+                        <div class="flow-box-desc">Colors, Hashes, Metadata</div>
+                    </div>
+                </div>
+                <div class="code-block">
+                    Features Extracted:<br>
+                    • Perceptual Hash (phash)<br>
+                    • Average Hash (ahash)<br>
+                    • Dominant Colors (K-means clustering)<br>
+                    • Image Size & Format
+                </div>
+            </div>
+
+            <div class="arrow-down">↓</div>
+
+            <!-- Step 3: AI Analysis -->
+            <div class="flow-section">
+                <div class="section-title">🤖 Step 3: AI Vision Analysis</div>
+                <div class="flow-row">
+                    <div class="flow-box ai">
+                        <div class="flow-box-title">Google Gemini Vision</div>
+                        <div class="flow-box-desc">gemini-2.5-flash-lite</div>
+                    </div>
+                    <span class="arrow">→</span>
+                    <div class="flow-box ai">
+                        <div class="flow-box-title">Extract Metadata</div>
+                        <div class="flow-box-desc">Category, Type, Colors, Attributes</div>
+                    </div>
+                </div>
+                <div class="code-block">
+                    AI Analysis Output (JSON):<br>
+                    {<br>
+                    &nbsp;&nbsp;"category": "Accessories",<br>
+                    &nbsp;&nbsp;"product_type": "Sunglasses",<br>
+                    &nbsp;&nbsp;"colors": ["black", "gold", "gray"],<br>
+                    &nbsp;&nbsp;"attributes": ["aviator", "metal frame", "UV protection"],<br>
+                    &nbsp;&nbsp;"keywords": ["sunglasses", "eyewear", "fashion", "aviator", "accessories"]<br>
+                    }
+                </div>
+            </div>
+
+            <div class="arrow-down">↓</div>
+
+            <!-- Step 4: Database Search -->
+            <div class="flow-section">
+                <div class="section-title">🔍 Step 4: Product Search</div>
+                <div class="flow-row">
+                    <div class="flow-box database">
+                        <div class="flow-box-title">Build Search Query</div>
+                        <div class="flow-box-desc">Use product_type (primary)</div>
+                    </div>
+                    <span class="arrow">→</span>
+                    <div class="flow-box database">
+                        <div class="flow-box-title">HANA DB Query</div>
+                        <div class="flow-box-desc">LIKE search on name & summary</div>
+                    </div>
+                    <span class="arrow">→</span>
+                    <div class="flow-box database">
+                        <div class="flow-box-title">Rank Results</div>
+                        <div class="flow-box-desc">Exact match priority</div>
+                    </div>
+                </div>
+                <div class="code-block">
+                    SQL Query:<br>
+                    SELECT PRODUCT_ID, PRODUCT_NAME, SUMMARY, PRICE, IMAGE_URL, CATEGORY_IDs<br>
+                    FROM SAP_PRODUCTS_COMMERCE_2211_V2<br>
+                    WHERE LOWER(PRODUCT_NAME) LIKE LOWER('%sunglasses%')<br>
+                    &nbsp;&nbsp;&nbsp;OR LOWER(SUMMARY) LIKE LOWER('%sunglasses%')<br>
+                    ORDER BY relevance<br>
+                    LIMIT 5
+                </div>
+            </div>
+
+            <div class="arrow-down">↓</div>
+
+            <!-- Step 5: Return Results -->
+            <div class="flow-section">
+                <div class="section-title">📦 Step 5: Return Results</div>
+                <div class="flow-row">
+                    <div class="flow-box result">
+                        <div class="flow-box-title">Format Response</div>
+                        <div class="flow-box-desc">Product details + metadata</div>
+                    </div>
+                    <span class="arrow">→</span>
+                    <div class="flow-box result">
+                        <div class="flow-box-title">Normalize URLs</div>
+                        <div class="flow-box-desc">Rewrite media host if needed</div>
+                    </div>
+                    <span class="arrow">→</span>
+                    <div class="flow-box result">
+                        <div class="flow-box-title">Send to Frontend</div>
+                        <div class="flow-box-desc">JSON response with products</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Detailed Components -->
+        <div class="details-grid">
+            <div class="detail-card">
+                <h3>🎯 Search Strategy</h3>
+                <ul>
+                    <li>Uses PRODUCT TYPE (not category)</li>
+                    <li>Example: "Sunglasses" not "Accessories"</li>
+                    <li>Prevents wrong results (watches vs sunglasses)</li>
+                    <li>Falls back to keywords if type fails</li>
+                    <li>LIKE-based text matching</li>
+                </ul>
+            </div>
+
+            <div class="detail-card">
+                <h3>🔒 Validation & Safety</h3>
+                <ul>
+                    <li>Max file size: 4MB</li>
+                    <li>Supported formats: JPG, PNG, WebP, GIF</li>
+                    <li>Image integrity verification</li>
+                    <li>Secure hash-based storage</li>
+                    <li>Error handling at each step</li>
+                </ul>
+            </div>
+
+            <div class="detail-card">
+                <h3>🎨 Image Processing</h3>
+                <ul>
+                    <li>Auto-resize to max 1024px</li>
+                    <li>RGB conversion for consistency</li>
+                    <li>K-means color clustering (5 colors)</li>
+                    <li>Perceptual & Average hashing</li>
+                    <li>Metadata extraction</li>
+                </ul>
+            </div>
+
+            <div class="detail-card">
+                <h3>🤖 AI Vision Capabilities</h3>
+                <ul>
+                    <li>Google Gemini 2.5 Flash-Lite</li>
+                    <li>Product category detection</li>
+                    <li>Attribute extraction</li>
+                    <li>Color identification</li>
+                    <li>Keyword generation</li>
+                </ul>
+            </div>
+
+            <div class="detail-card">
+                <h3>💾 Database Integration</h3>
+                <ul>
+                    <li>SAP HANA Cloud connection</li>
+                    <li>Encrypted SSL connection</li>
+                    <li>LIKE-based text search</li>
+                    <li>Relevance-based ranking</li>
+                    <li>Configurable result limit</li>
+                </ul>
+            </div>
+
+            <div class="detail-card">
+                <h3>📊 Response Format</h3>
+                <ul>
+                    <li>Product ID, Name, Summary</li>
+                    <li>Price & Category information</li>
+                    <li>Normalized image URLs</li>
+                    <li>Similarity score (0.8 default)</li>
+                    <li>Image analysis metadata</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Technology Stack -->
+        <div class="tech-stack">
+            <h3>🛠️ Technology Stack</h3>
+            <div class="tech-tags">
+                <span class="tech-tag">Python 3.x</span>
+                <span class="tech-tag">Flask API</span>
+                <span class="tech-tag">Google Gemini Vision</span>
+                <span class="tech-tag">SAP HANA Cloud</span>
+                <span class="tech-tag">PIL (Pillow)</span>
+                <span class="tech-tag">NumPy</span>
+                <span class="tech-tag">scikit-learn</span>
+                <span class="tech-tag">imagehash</span>
+                <span class="tech-tag">hdbcli</span>
+            </div>
+        </div>
+
+        <!-- Legend -->
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-box" style="background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);"></div>
+                <span>Input/Start</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-box" style="background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);"></div>
+                <span>Processing</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-box" style="background: linear-gradient(135deg, #ed8936 0%, #dd6b20 100%);"></div>
+                <span>AI Analysis</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-box" style="background: linear-gradient(135deg, #9f7aea 0%, #805ad5 100%);"></div>
+                <span>Database</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-box" style="background: linear-gradient(135deg, #f56565 0%, #e53e3e 100%);"></div>
+                <span>Output/Result</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

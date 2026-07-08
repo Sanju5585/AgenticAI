@@ -1,0 +1,1425 @@
+{
+  "session_id": "057993b2-6167-4fb6-84fd-dbd0da3ded87",
+  "status": "success",
+  "created_at": "2026-05-11T12:20:30.054862",
+  "payment_data": {
+    "customer_id": "sanjeev_kumar.srivastava@capgemini.com",
+    "cart_items": [
+      {
+        "image_url": "/static/product_images/300003.jpg",
+        "price": 59,
+        "product_id": "300003",
+        "product_name": "Home Design Bussi Concrete Pendant",
+        "quantity": 1,
+        "addedAt": "2026-05-11T06:50:17.296Z"
+      }
+    ],
+    "total_amount": 59,
+    "chat_history": [
+      {
+        "id": "msg_0",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n                <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background: #1B5252;\">\n                  <i class=\"fas fa-robot text-white text-sm\"></i>\n                </div>\n                <div>\n                  <p class=\"font-medium text-gray-800\">Hello! I'm your AI shopping assistant powered by Capgemini.</p>\n                  <p class=\"text-gray-600 text-sm mt-1\">How can I help you find the perfect products today?</p>\n                  <p class=\"text-gray-500 text-xs mt-2 italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>\n                    Note: Your cart will be cleared when you refresh the page.\n                  </p>\n                  <p class=\"text-cyan-600 text-xs mt-1 font-medium\">\n                    <i class=\"fas fa-credit-card mr-1\"></i>\n                    Secure PayPal checkout available - your session will be maintained during payment!\n                  </p>\n                </div>\n              </div>",
+        "timestamp": "2026-05-11T06:50:29.735Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_1",
+        "sender": "user",
+        "message": "i bought a new house and looking for decorative light for living room",
+        "timestamp": "2026-05-11T06:50:29.735Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_2",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"rounded-xl p-6 border\" style=\"background:rgba(27,82,82,0.03); border-color:#DDDDDD;\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg\" style=\"background:#1B5252;\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 text-white text-xs px-3 py-1 rounded-full\" style=\"background:#D71920;\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white rounded-full px-4 py-2 border\" style=\"border-color:rgba(27,82,82,0.2); flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-sm\" style=\"color:#1B5252;\"></i>\n                <span class=\"text-sm font-semibold\" style=\"color:#1B5252;\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-gray-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110 border group\" style=\"border-color:#DDDDDD;\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-[#1B5252] transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-gray-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110 border group\" style=\"border-color:#DDDDDD;\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-[#1B5252] transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1778481578881\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300017.jpg\" alt=\"Home Design Mesen Pendant Light\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Home Design Mesen Pendant Light</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Elegant copper-tone pendant light with a warm teardrop silhouette</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$99.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background:#D71920;\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300022.jpg\" alt=\"Home Design Bianco Pendant Light\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Home Design Bianco Pendant Light</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Classic clean white dome pendant light with a simple modern aesthetic</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$65.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background:#D71920;\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300003.jpg\" alt=\"Home Design Bussi Concrete Pendant\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Home Design Bussi Concrete Pendant</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Modern industrial concrete pendant light with a sleek minimal finish</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$59.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background: rgb(215, 25, 32);\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300002.jpg\" alt=\"Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">DIY vintage-style clear glass pendant light with a classic silhouette</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$69.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background: rgb(215, 25, 32);\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300089.jpg\" alt=\"LVD Glass Crackled Nougat Votive Candle Holder Gold Large\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">LVD Glass Crackled Nougat Votive Candle Holder Gold Large</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Elegant large gold crackled glass votive candle holder with a warm ambient glow</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$37.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background:#D71920;\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2026-05-11T06:50:29.735Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_3",
+        "sender": "user",
+        "message": "show me lights with warm white color",
+        "timestamp": "2026-05-11T06:50:29.735Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_4",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"rounded-xl p-6 border\" style=\"background:rgba(27,82,82,0.03); border-color:#DDDDDD;\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg\" style=\"background:#1B5252;\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 text-white text-xs px-3 py-1 rounded-full\" style=\"background:#D71920;\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white rounded-full px-4 py-2 border\" style=\"border-color:rgba(27,82,82,0.2); flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-sm\" style=\"color:#1B5252;\"></i>\n                <span class=\"text-sm font-semibold\" style=\"color:#1B5252;\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-gray-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110 border group\" style=\"border-color:#DDDDDD;\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-[#1B5252] transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-gray-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110 border group\" style=\"border-color:#DDDDDD;\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-[#1B5252] transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1778481653759\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300017.jpg\" alt=\"Home Design Mesen Pendant Light\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Home Design Mesen Pendant Light</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Elegant copper-tone pendant light with a warm teardrop silhouette</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$99.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background:#D71920;\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300022.jpg\" alt=\"Home Design Bianco Pendant Light\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Home Design Bianco Pendant Light</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Classic clean white dome pendant light with a simple modern aesthetic</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$65.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background:#D71920;\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300012.jpg\" alt=\"Verve Design White Paco Pendant Lamp\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Verve Design White Paco Pendant Lamp</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Smooth minimalist white teardrop pendant lamp with a clean modern finish</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$25.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background: rgb(215, 25, 32);\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300007.jpg\" alt=\"Mercator Madrid Glass Pendant Light\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Mercator Madrid Glass Pendant Light</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Contemporary clear glass globe pendant with a brushed brass stem</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$90.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background: rgb(215, 25, 32);\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300010.jpg\" alt=\"Brilliant 20cm Satin Brass Edie DIY Plug-In Lux Industrial Metal Pendant\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Brilliant 20cm Satin Brass Edie DIY Plug-In Lux Industrial Metal Pendant</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Industrial 20cm satin brass metal pendant with convenient plug-in DIY setup</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$53.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background:#D71920;\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2026-05-11T06:50:29.735Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_5",
+        "sender": "user",
+        "message": "i am not looking for pendent light",
+        "timestamp": "2026-05-11T06:50:29.735Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_6",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"rounded-xl p-6 border\" style=\"background:rgba(27,82,82,0.03); border-color:#DDDDDD;\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg\" style=\"background:#1B5252;\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 text-white text-xs px-3 py-1 rounded-full\" style=\"background:#D71920;\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white rounded-full px-4 py-2 border\" style=\"border-color:rgba(27,82,82,0.2); flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-sm\" style=\"color:#1B5252;\"></i>\n                <span class=\"text-sm font-semibold\" style=\"color:#1B5252;\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-gray-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110 border group\" style=\"border-color:#DDDDDD;\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-[#1B5252] transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-gray-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110 border group\" style=\"border-color:#DDDDDD;\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-[#1B5252] transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1778481722971\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300017.jpg\" alt=\"Home Design Mesen Pendant Light\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Home Design Mesen Pendant Light</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Elegant copper-tone pendant light with a warm teardrop silhouette</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$99.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background:#D71920;\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300022.jpg\" alt=\"Home Design Bianco Pendant Light\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Home Design Bianco Pendant Light</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Classic clean white dome pendant light with a simple modern aesthetic</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$65.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background: rgb(215, 25, 32);\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color: rgb(221, 221, 221);\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300003.jpg\" alt=\"Home Design Bussi Concrete Pendant\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Home Design Bussi Concrete Pendant</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Modern industrial concrete pendant light with a sleek minimal finish</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$59.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background: rgb(215, 25, 32);\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300002.jpg\" alt=\"Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">DIY vintage-style clear glass pendant light with a classic silhouette</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$69.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background: rgb(215, 25, 32);\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300089.jpg\" alt=\"LVD Glass Crackled Nougat Votive Candle Holder Gold Large\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">LVD Glass Crackled Nougat Votive Candle Holder Gold Large</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Elegant large gold crackled glass votive candle holder with a warm ambient glow</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$37.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background:#D71920;\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2026-05-11T06:50:29.735Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_7",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n    <div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; border-radius: 15px; margin: 10px 0; box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);\">\n      <div style=\"display: flex; align-items: center; margin-bottom: 20px;\">\n        <div style=\"background: rgba(255,255,255,0.2); border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-size: 24px;\">\n          \ud83d\udc4b\n        </div>\n        <div>\n          <h3 style=\"margin: 0; font-size: 22px; font-weight: 700;\">Welcome back, Sanjeev Srivastava!</h3>\n          <p style=\"margin: 5px 0 0 0; font-size: 14px; opacity: 0.9;\">Your personalized shopping experience is ready</p>\n        </div>\n      </div>\n  \n      <div style=\"background: rgba(255,255,255,0.15); padding: 15px; border-radius: 12px; margin-top: 15px; text-align: center;\">\n        <i class=\"fas fa-shopping-bag\" style=\"font-size: 32px; opacity: 0.5; margin-bottom: 10px;\"></i>\n        <p style=\"margin: 0; font-size: 14px; opacity: 0.9;\">No order history yet. Start shopping to get personalized recommendations!</p>\n      </div>\n    \n    </div>\n  \n        </div>\n      </div>",
+        "timestamp": "2026-05-11T06:50:29.735Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_8",
+        "sender": "user",
+        "message": "\ud83d\udcf1 Loading product details for 300003...",
+        "timestamp": "2026-05-11T06:50:29.735Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_9",
+        "sender": "user",
+        "message": "Show me detailed information about product 300003",
+        "timestamp": "2026-05-11T06:50:29.735Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_10",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n    <div class=\"detailed-product-view bg-white rounded-2xl shadow-lg overflow-hidden border max-w-5xl mx-auto my-6\" style=\"border-color:#DDDDDD;\">\n      <!-- Product Header -->\n      <div class=\"px-8 py-6 text-white\" style=\"background:#1B5252;\">\n        <div class=\"flex items-center justify-between\">\n          <div class=\"flex items-center space-x-4\">\n            <div class=\"w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center\">\n              <i class=\"fas fa-box-open text-white text-lg\"></i>\n            </div>\n            <div>\n              <h3 class=\"text-xl font-bold\">Product Details</h3>\n              <p class=\"text-sm opacity-90\">Complete product information</p>\n            </div>\n          </div>\n          <div class=\"flex items-center space-x-3\">\n            <div class=\"flex text-yellow-300\">\n              <i class=\"fas fa-star text-sm\"></i>\n              <i class=\"fas fa-star text-sm\"></i>\n              <i class=\"fas fa-star text-sm\"></i>\n              <i class=\"fas fa-star text-sm\"></i>\n              <i class=\"fas fa-star-half-alt text-sm\"></i>\n            </div>\n            <span class=\"text-sm font-medium opacity-90\">(4.5/5)</span>\n          </div>\n        </div>\n      </div>\n\n      <!-- Product Content -->\n      <div class=\"p-8\">\n        <div class=\"grid grid-cols-1 lg:grid-cols-2 gap-10 items-start\">\n          \n          <!-- Product Image Section -->\n          <div class=\"relative\">\n            <div class=\"relative overflow-hidden rounded-3xl shadow-2xl bg-gradient-to-br from-gray-50 to-gray-100 p-6\">\n              <img src=\"/static/product_images/300003.jpg\" alt=\"Home Design Bussi Concrete Pendant\" class=\"w-full h-96 object-cover rounded-2xl transition-all duration-500 hover:scale-105 shadow-lg\" onerror=\"this.src='https://via.placeholder.com/400x400/667eea/ffffff?text=No+Image'\">\n              <!-- Image Overlay Effects -->\n              <div class=\"absolute inset-6 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 rounded-2xl pointer-events-none\"></div>\n              \n              <!-- Product Badge -->\n              <div class=\"absolute top-8 left-8 bg-gradient-to-r from-green-500 to-emerald-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-xl backdrop-blur-sm\">\n                <i class=\"fas fa-check-circle mr-2\"></i>\n                Available\n              </div>\n              \n              <!-- Product ID Badge -->\n              <div class=\"absolute top-8 right-8 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1.5 shadow-lg\">\n                <span class=\"text-xs font-bold text-gray-600\">ID: 300003</span>\n              </div>\n              \n              <!-- Favorite Button -->\n              <div class=\"absolute bottom-8 right-8 bg-white/90 backdrop-blur-sm rounded-full p-3 shadow-xl hover:bg-white transition-all duration-300 cursor-pointer group hover:scale-110\">\n                <i class=\"fas fa-heart text-gray-400 group-hover:text-red-500 transition-colors duration-300 text-lg\"></i>\n              </div>\n            </div>\n            \n            <!-- Product Gallery Thumbnails -->\n            <div class=\"flex space-x-4 mt-6 justify-center\">\n              <div class=\"w-20 h-20 rounded-xl cursor-pointer border-3 shadow-lg\" style=\"background:rgba(27,82,82,0.08); border-color:#1B5252; flex items-center justify-center\">\n                <i class=\"fas fa-image text-lg\" style=\"color:#1B5252;\"></i>\n              </div>\n              <div class=\"w-20 h-20 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl cursor-pointer hover:border-3 transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center opacity-60\">\n                <i class=\"fas fa-camera text-gray-400\"></i>\n              </div>\n              <div class=\"w-20 h-20 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl cursor-pointer hover:border-3 transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center opacity-60\">\n                <i class=\"fas fa-video text-gray-400\"></i>\n              </div>\n            </div>\n          </div>\n\n          <!-- Product Info Section -->\n          <div class=\"space-y-8\">\n            <!-- Product Title & Price -->\n            <div>\n              <div class=\"flex items-start justify-between mb-4\">\n                <div class=\"flex-1\">\n                  <h1 class=\"text-3xl lg:text-4xl font-bold text-gray-900 mb-2 leading-tight\">Home Design Bussi Concrete Pendant</h1>\n                  <div class=\"flex items-center space-x-2 text-sm text-gray-500\">\n                    <span>Product ID: 300003</span>\n                    <span>\u2022</span>\n                    <span class=\"text-green-600 font-medium\">In Stock</span>\n                  </div>\n                </div>\n              </div>\n              \n              <div class=\"rounded-2xl p-6 border\" style=\"background:rgba(27,82,82,0.04); border-color:rgba(27,82,82,0.15);\">\n                <div class=\"flex items-center justify-between flex-wrap gap-4\">\n                  <div class=\"flex items-baseline space-x-4\">\n                    <span class=\"text-4xl lg:text-5xl font-bold\" style=\"color:#1B5252;\">$59.00</span>\n                    <div class=\"flex flex-col\">\n                      <span class=\"text-lg text-gray-500 line-through\">$70.80</span>\n                      <span class=\"bg-gradient-to-r from-red-500 to-pink-500 text-white text-sm px-3 py-1 rounded-full font-bold shadow-lg\">Save 17%</span>\n                    </div>\n                  </div>\n                  <div class=\"text-right\">\n                    <div class=\"text-sm text-gray-600\">Free shipping</div>\n                    <div class=\"text-sm text-green-600 font-medium\">\u2713 30-day returns</div>\n                  </div>\n                </div>\n              </div>\n            </div>\n\n            <!-- Product Categories -->\n            <div>\n              <h4 class=\"text-lg font-semibold text-gray-900 mb-3 flex items-center\">\n                <i class=\"fas fa-tags\" style=\"color:#1B5252; mr-2\"></i>\n                Categories\n              </h4>\n              <div class=\"flex flex-wrap gap-2\">\n                <span class=\"inline-block bg-gray-100 text-gray-600 text-xs px-3 py-1 rounded-full\">No categories</span>\n              </div>\n            </div>\n\n            <!-- Product Description -->\n            <div>\n              <h4 class=\"text-lg font-semibold text-gray-900 mb-3 flex items-center\">\n                <i class=\"fas fa-info-circle text-blue-500 mr-2\"></i>\n                Description\n              </h4>\n              <div class=\"bg-gray-50 rounded-2xl p-6 border border-gray-200\">\n                <p class=\"text-gray-700 leading-relaxed text-lg\">Modern industrial concrete pendant light with a sleek minimal finish</p>\n              </div>\n            </div>\n\n            <!-- Product Features -->\n            <div>\n              <h4 class=\"text-lg font-semibold text-gray-900 mb-4 flex items-center\">\n                <i class=\"fas fa-star text-yellow-500 mr-2\"></i>\n                Key Features\n              </h4>\n              <div class=\"grid grid-cols-1 sm:grid-cols-2 gap-4\">\n                <div class=\"flex items-center space-x-3 p-3 bg-green-50 rounded-xl border border-green-200\">\n                  <i class=\"fas fa-check-circle text-green-500 text-lg\"></i>\n                  <span class=\"text-gray-700 font-medium\">Premium Quality</span>\n                </div>\n                <div class=\"flex items-center space-x-3 p-3 bg-blue-50 rounded-xl border border-blue-200\">\n                  <i class=\"fas fa-shipping-fast text-blue-500 text-lg\"></i>\n                  <span class=\"text-gray-700 font-medium\">Fast Delivery</span>\n                </div>\n                <div class=\"flex items-center space-x-3 p-3 rounded-xl border\" style=\"background:rgba(27,82,82,0.05); border-color:rgba(27,82,82,0.2);\">\n                  <i class=\"fas fa-undo text-lg\" style=\"color:#1B5252;\"></i>\n                  <span class=\"text-gray-700 font-medium\">30-Day Returns</span>\n                </div>\n                <div class=\"flex items-center space-x-3 p-3 bg-orange-50 rounded-xl border border-orange-200\">\n                  <i class=\"fas fa-headset text-orange-500 text-lg\"></i>\n                  <span class=\"text-gray-700 font-medium\">24/7 Support</span>\n                </div>\n              </div>\n            </div>\n\n            <!-- Payment Plans Section (for mobile and watch products) -->\n            \n\n            <!-- Quantity Selector & Add to Cart -->\n            <div class=\"rounded-2xl p-6 border\" style=\"background:rgba(27,82,82,0.04); border-color:rgba(27,82,82,0.15);\">\n              <div class=\"flex items-center space-x-4 mb-4\">\n                <div class=\"flex items-center space-x-3\">\n                  <label class=\"text-sm font-medium text-gray-700\">Quantity:</label>\n                  <div class=\"flex items-center bg-white rounded-xl border border-gray-300 shadow-sm\">\n                    <button class=\"px-3 py-2 text-gray-500 hover:text-[#1B5252] transition-colors duration-300\" >\n                      <i class=\"fas fa-minus text-sm\"></i>\n                    </button>\n                    <input type=\"number\" id=\"quantity-300003\" value=\"1\" min=\"1\" max=\"10\" class=\"w-16 text-center border-0 focus:outline-none focus:ring-0 py-2 text-sm font-medium text-gray-900\">\n                    <button class=\"px-3 py-2 text-gray-500 hover:text-[#1B5252] transition-colors duration-300\" >\n                      <i class=\"fas fa-plus text-sm\"></i>\n                    </button>\n                  </div>\n                </div>\n              </div>\n\n              <!-- Action Buttons -->\n              <div class=\"flex space-x-4\">\n                <button  class=\"flex-1 text-white py-4 px-6 rounded-2xl font-bold text-lg transition-all duration-200 transform hover:scale-105 shadow-xl flex items-center justify-center space-x-3 group dummy-class\" style=\"background: rgb(215, 25, 32);\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\">\n                  <i class=\"fas fa-cart-plus text-xl group-hover:animate-pulse\"></i>\n                  <span>Add to Cart</span>\n                </button>\n                \n                <button class=\"bg-white hover:bg-gray-50 border-2 py-4 px-6 rounded-2xl font-bold transition-all duration-200 hover:shadow-lg flex items-center justify-center min-w-fit\" style=\"border-color:#1B5252; color:#1B5252;\" title=\"Add to Wishlist\">\n                  <i class=\"fas fa-heart text-xl\"></i>\n                </button>\n              </div>\n            </div>\n\n            <!-- Delivery Information -->\n            <div class=\"grid grid-cols-2 gap-4 text-sm\">\n              <div class=\"flex items-center space-x-3 p-3 bg-green-50 rounded-xl border border-green-200\">\n                <i class=\"fas fa-shipping-fast text-green-600 text-lg\"></i>\n                <div>\n                  <p class=\"font-medium text-green-800\">Free Delivery</p>\n                  <p class=\"text-green-600\">2-3 business days</p>\n                </div>\n              </div>\n              <div class=\"flex items-center space-x-3 p-3 bg-blue-50 rounded-xl border border-blue-200\">\n                <i class=\"fas fa-shield-alt text-blue-600 text-lg\"></i>\n                <div>\n                  <p class=\"font-medium text-blue-800\">Secure Payment</p>\n                  <p class=\"text-blue-600\">SSL Encrypted</p>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  \n        </div>\n      </div>",
+        "timestamp": "2026-05-11T06:50:29.735Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_11",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2026-05-11T06:50:29.735Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_12",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n        <div class=\"bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4\" id=\"chat-cart-container\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart text-purple-500 mr-2\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold\" id=\"chat-cart-count\"><i class=\"fas fa-shopping-cart mr-1\"></i>1 item</div>\n            </div>\n            \n            <div id=\"chat-cart-items\" class=\"space-y-3 mb-4\">\n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3 flex-1\">\n          <img src=\"/static/product_images/300003.jpg\" alt=\"Home Design Bussi Concrete Pendant\" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1 min-w-0\">\n            <h4 class=\"font-semibold text-gray-800 text-sm truncate\">Home Design Bussi Concrete Pendant</h4>\n            <p class=\"text-xs text-gray-500 mt-1\">59.00 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 rounded-full min-w-[2rem] text-center&quot; style=&quot;background:rgba(27,82,82,0.1); color:#1B5252;\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right ml-4\">\n          <p class=\"text-lg font-bold&quot; style=&quot;color:#1B5252;\">59.00</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    </div>\n            \n            <div id=\"chat-cart-footer\" class=\"border-t border-purple-200 pt-4\">\n                <div class=\"flex items-center justify-between mb-4\">\n                    <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                    <span class=\"text-2xl font-bold text-purple-600\" id=\"chat-cart-total\">59.00</span>\n                </div>\n                \n                <div class=\"text-center space-x-2\">\n                    <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-sync-alt mr-2\"></i>Refresh Cart\n                    </button>\n                    <button  class=\"bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-credit-card mr-2\"></i>Checkout\n                    </button>\n                </div>\n                \n                <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" onload=\"(function(){setTimeout(function(){if(typeof renderChatCart === &quot;function&quot;){console.log(&quot;\ud83d\uded2 Auto-triggering renderChatCart via image onload&quot;);renderChatCart();}},100);})()\" style=\"display:none;\">\n        \n        </div>\n      </div>",
+        "timestamp": "2026-05-11T06:50:29.735Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_13",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Ready for Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Order Summary</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: 59.00</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9; margin-bottom: 15px;\">\n          \ud83d\udce6 1 item in your cart<br>\n          \ud83d\udcb0 Total amount: 59.00<br>\n          \ud83d\udd12 Secure PayPal payment\n        </div>\n        <div style=\"background: rgba(255,255,255,0.15); padding: 12px; border-radius: 8px; font-size: 14px; margin-top: 10px;\">\n          <strong>\u26a1 Are you sure you want to proceed with the payment?</strong><br>\n          <span style=\"opacity: 0.9;\">Please reply with \"yes\" to confirm, or \"no\" to cancel.</span>\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-05-11T06:50:29.736Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_14",
+        "sender": "user",
+        "message": "yes",
+        "timestamp": "2026-05-11T06:50:29.736Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_15",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u2705 <strong>Payment Confirmed!</strong><br><br>\n          <div style=\"background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 15px; border-radius: 12px; margin: 10px 0;\">\n            <div style=\"display: flex; align-items-center;\">\n              <i class=\"fas fa-check-circle\" style=\"font-size: 20px; margin-right: 10px;\"></i>\n              <div style=\"font-size: 14px;\">\n                Great! Processing your payment now. Opening PayPal gateway...\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>",
+        "timestamp": "2026-05-11T06:50:29.736Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_16",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Processing Payment</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: 59.00</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u2728 Opening PayPal payment gateway...<br>\n          \ud83d\udd12 Secure payment processing<br>\n          \u26a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-05-11T06:50:29.736Z",
+        "messageType": "html"
+      }
+    ],
+    "conversation_context": {
+      "session_id": "session_1778215907472_hwj4wubtk",
+      "conversation_history": [
+        {
+          "id": 1778479391321,
+          "timestamp": "2026-05-11T06:03:11.321Z",
+          "user": "Great idea! I think I\u2019ll gift her a keyboard. Can you recommend some options",
+          "ai": {
+            "response": "I found these keyboards that would make a great gift:\n\n*   **Alpha 25-Key MIDI Keyboard Controller Portable Piano USB:** This compact keyboard is perfect for music production and laptop use.\n*   **Alpha 61 Keys Electronic Piano Keyboard:** A versatile option with multiple tones and rhythms, great for home practice.\n*   **Alpha 37-Key Digital Piano Keyboard with Touch Function for Beginners:** Ideal for beginners, this keyboard has touch-sensitive keys for a more expressive playing experience.\n*   **Mazam 88 Keys Electronic Piano Keyboard Portable Lighted:** This portable 88-key keyboard features lighted keys to help guide beginners.\n*   **Alpha 88 Keys Electronic Piano Keyboard with Sustain Pedal:** A full-size keyboard with a sustain pedal, offering a more authentic piano feel.\n        PRODUCT_CONTEXT_DATA: [{'product_id': '300190', 'product_name': 'Alpha 25-Key MIDI Keyboard Controller Portable Piano USB', 'summary': 'Compact Alpha 25-key MIDI keyboard controller with USB connectivity for music production and laptop use', 'price': 69.95, 'image_url': '/static/product_images/300190.jpg', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': [], 'payment_plans': []}, {'product_id': '300187', 'product_name': 'Alpha 61 Keys Electronic Piano Keyboard', 'summary': 'Versatile Alpha 61-key electronic piano keyboard with multiple tones and rhythms for home practice', 'price': 121.95, 'image_url': '/static/product_images/300187.jpg', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': [], 'payment_plans': []}, {'product_id': '300188', 'product_name': 'Alpha 37-Key Digital Piano Keyboard with Touch Function for Beginners', 'summary': 'Compact Alpha 37-key digital piano keyboard with touch-sensitive keys ideal for beginner musicians', 'price': 59.95, 'image_url': '/static/product_images/300188.jpg', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': [], 'payment_plans': []}, {'product_id': '300186', 'product_name': 'Mazam 88 Keys Electronic Piano Keyboard Portable Lighted', 'summary': 'Mazam 88-key portable electronic piano keyboard with lighted keys to guide beginners through songs', 'price': 131.91, 'image_url': '/static/product_images/300186.jpg', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': [], 'payment_plans': []}, {'product_id': '300183', 'product_name': 'Alpha 88 Keys Electronic Piano Keyboard with Sustain Pedal', 'summary': 'Full-size Alpha 88-key electronic piano keyboard with sustain pedal for expressive home and studio play', 'price': 249.95, 'image_url': '/static/product_images/300183.jpg', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': [], 'payment_plans': []}]\n        \n        [STRUCTURED_PRODUCTS: [{\"product_id\": \"300190\", \"product_name\": \"Alpha 25-Key MIDI Keyboard Controller Portable Piano USB\", \"summary\": \"Compact Alpha 25-key MIDI keyboard controller with USB connectivity for music production and laptop use\", \"price\": 69.95, \"image_url\": \"/static/product_images/300190.jpg\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": [], \"payment_plans\": []}, {\"product_id\": \"300187\", \"product_name\": \"Alpha 61 Keys Electronic Piano Keyboard\", \"summary\": \"Versatile Alpha 61-key electronic piano keyboard with multiple tones and rhythms for home practice\", \"price\": 121.95, \"image_url\": \"/static/product_images/300187.jpg\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": [], \"payment_plans\": []}, {\"product_id\": \"300188\", \"product_name\": \"Alpha 37-Key Digital Piano Keyboard with Touch Function for Beginners\", \"summary\": \"Compact Alpha 37-key digital piano keyboard with touch-sensitive keys ideal for beginner musicians\", \"price\": 59.95, \"image_url\": \"/static/product_images/300188.jpg\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": [], \"payment_plans\": []}, {\"product_id\": \"300186\", \"product_name\": \"Mazam 88 Keys Electronic Piano Keyboard Portable Lighted\", \"summary\": \"Mazam 88-key portable electronic piano keyboard with lighted keys to guide beginners through songs\", \"price\": 131.91, \"image_url\": \"/static/product_images/300186.jpg\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": [], \"payment_plans\": []}, {\"product_id\": \"300183\", \"product_name\": \"Alpha 88 Keys Electronic Piano Keyboard with Sustain Pedal\", \"summary\": \"Full-size Alpha 88-key electronic piano keyboard with sustain pedal for expressive home and studio play\", \"price\": 249.95, \"image_url\": \"/static/product_images/300183.jpg\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": [], \"payment_plans\": []}]]\n        "
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1778479736485,
+          "timestamp": "2026-05-11T06:08:56.485Z",
+          "user": "show some good smart phones",
+          "ai": {
+            "ai_response": "I found these smartphones for you:\n\n*   **Iqu Smarteasy Q50 Smartphone 5.5\" 16GB/2GB - Black**: Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black. Price: $179.0\n*   **Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone**: Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use. Price: $109.95\n*   **Blackview FORT 100 6.56\" HD+ Rugged Smartphone**: Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments. Price: $379.0\n*   **Phone Holder for Car Universal Windscreen Adjustable Black**: Universal adjustable black windscreen phone holder for secure hands-free in-car navigation. Price: $34.95\n*   **Oppo A6x 128GB (Ice Blue)**: Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity. Price: $227.0\n\nWould you like to refine your search or look for accessories for any of these phones?",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300104.jpg",
+                "payment_plans": [],
+                "price": 179,
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300100.jpg",
+                "payment_plans": [],
+                "price": 109.95,
+                "product_id": "300100",
+                "product_name": "Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone",
+                "summary": "Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300107.jpg",
+                "payment_plans": [],
+                "price": 379,
+                "product_id": "300107",
+                "product_name": "Blackview FORT 100 6.56\" HD+ Rugged Smartphone",
+                "summary": "Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300161.jpg",
+                "payment_plans": [],
+                "price": 34.95,
+                "product_id": "300161",
+                "product_name": "Phone Holder for Car Universal Windscreen Adjustable Black",
+                "summary": "Universal adjustable black windscreen phone holder for secure hands-free in-car navigation"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300109.jpg",
+                "payment_plans": [],
+                "price": 227,
+                "product_id": "300109",
+                "product_name": "Oppo A6x 128gb (ice Blue)",
+                "summary": "Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "price": 179,
+                "image_url": "/static/product_images/300104.jpg",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              },
+              {
+                "product_id": "300100",
+                "product_name": "Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone",
+                "price": 109.95,
+                "image_url": "/static/product_images/300100.jpg",
+                "summary": "Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use"
+              },
+              {
+                "product_id": "300107",
+                "product_name": "Blackview FORT 100 6.56\" HD+ Rugged Smartphone",
+                "price": 379,
+                "image_url": "/static/product_images/300107.jpg",
+                "summary": "Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments"
+              },
+              {
+                "product_id": "300161",
+                "product_name": "Phone Holder for Car Universal Windscreen Adjustable Black",
+                "price": 34.95,
+                "image_url": "/static/product_images/300161.jpg",
+                "summary": "Universal adjustable black windscreen phone holder for secure hands-free in-car navigation"
+              },
+              {
+                "product_id": "300109",
+                "product_name": "Oppo A6x 128gb (ice Blue)",
+                "price": 227,
+                "image_url": "/static/product_images/300109.jpg",
+                "summary": "Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "price": 179,
+                "image_url": "/static/product_images/300104.jpg",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              },
+              {
+                "product_id": "300100",
+                "product_name": "Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone",
+                "price": 109.95,
+                "image_url": "/static/product_images/300100.jpg",
+                "summary": "Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use"
+              },
+              {
+                "product_id": "300107",
+                "product_name": "Blackview FORT 100 6.56\" HD+ Rugged Smartphone",
+                "price": 379,
+                "image_url": "/static/product_images/300107.jpg",
+                "summary": "Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments"
+              },
+              {
+                "product_id": "300161",
+                "product_name": "Phone Holder for Car Universal Windscreen Adjustable Black",
+                "price": 34.95,
+                "image_url": "/static/product_images/300161.jpg",
+                "summary": "Universal adjustable black windscreen phone holder for secure hands-free in-car navigation"
+              },
+              {
+                "product_id": "300109",
+                "product_name": "Oppo A6x 128gb (ice Blue)",
+                "price": 227,
+                "image_url": "/static/product_images/300109.jpg",
+                "summary": "Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-05-11T06:08:56.486Z"
+          }
+        },
+        {
+          "id": 1778479779722,
+          "timestamp": "2026-05-11T06:09:39.722Z",
+          "user": "any accessories of thses",
+          "ai": {
+            "ai_response": "I found 8 accessories that perfectly complement Iqu Smarteasy Q50 Smartphone 5.5\\, Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone, Blackview FORT 100 6.56\\ and 2 more! These are curated matches from our database.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300156.jpg",
+                "payment_plans": [],
+                "price": 16.99,
+                "product_id": "300156",
+                "product_name": "DeWALT 1.8m Micro-USB to USB Charging Cable Reinforced",
+                "summary": "Mobile Phone Accessories for Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300162.jpg",
+                "payment_plans": [],
+                "price": 17.95,
+                "product_id": "300162",
+                "product_name": "Car Phone Holder Joyroom 360 Rotation Spider Holder Stable Air Outlet",
+                "summary": "Mobile Phone Accessories for Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300162.jpg",
+                "payment_plans": [],
+                "price": 17.95,
+                "product_id": "300162",
+                "product_name": "Car Phone Holder Joyroom 360 Rotation Spider Holder Stable Air Outlet",
+                "summary": "Mobile Phone Accessories for Blackview FORT 100 6.56\" HD+ Rugged Smartphone"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300162.jpg",
+                "payment_plans": [],
+                "price": 17.95,
+                "product_id": "300162",
+                "product_name": "Car Phone Holder Joyroom 360 Rotation Spider Holder Stable Air Outlet",
+                "summary": "Mobile Phone Accessories for Oppo A6x 128gb (ice Blue)"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300159.jpg",
+                "payment_plans": [],
+                "price": 19.95,
+                "product_id": "300159",
+                "product_name": "UGREEN 240W USB C to USB C Fast Charging Cable PD31 Braided High Speed",
+                "summary": "Mobile Phone Accessories for Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300159.jpg",
+                "payment_plans": [],
+                "price": 19.95,
+                "product_id": "300159",
+                "product_name": "UGREEN 240W USB C to USB C Fast Charging Cable PD31 Braided High Speed",
+                "summary": "Mobile Phone Accessories for Blackview FORT 100 6.56\" HD+ Rugged Smartphone"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300159.jpg",
+                "payment_plans": [],
+                "price": 19.95,
+                "product_id": "300159",
+                "product_name": "UGREEN 240W USB C to USB C Fast Charging Cable PD31 Braided High Speed",
+                "summary": "Mobile Phone Accessories for Oppo A6x 128gb (ice Blue)"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300157.jpg",
+                "payment_plans": [],
+                "price": 21.99,
+                "product_id": "300157",
+                "product_name": "DeWALT 1.8m USB-C to USB Charging Cable Reinforced",
+                "summary": "Mobile Phone Accessories for Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300156",
+                "product_name": "DeWALT 1.8m Micro-USB to USB Charging Cable Reinforced",
+                "price": 16.99,
+                "image_url": "/static/product_images/300156.jpg",
+                "summary": "Mobile Phone Accessories for Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone"
+              },
+              {
+                "product_id": "300162",
+                "product_name": "Car Phone Holder Joyroom 360 Rotation Spider Holder Stable Air Outlet",
+                "price": 17.95,
+                "image_url": "/static/product_images/300162.jpg",
+                "summary": "Mobile Phone Accessories for Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black"
+              },
+              {
+                "product_id": "300162",
+                "product_name": "Car Phone Holder Joyroom 360 Rotation Spider Holder Stable Air Outlet",
+                "price": 17.95,
+                "image_url": "/static/product_images/300162.jpg",
+                "summary": "Mobile Phone Accessories for Blackview FORT 100 6.56\" HD+ Rugged Smartphone"
+              },
+              {
+                "product_id": "300162",
+                "product_name": "Car Phone Holder Joyroom 360 Rotation Spider Holder Stable Air Outlet",
+                "price": 17.95,
+                "image_url": "/static/product_images/300162.jpg",
+                "summary": "Mobile Phone Accessories for Oppo A6x 128gb (ice Blue)"
+              },
+              {
+                "product_id": "300159",
+                "product_name": "UGREEN 240W USB C to USB C Fast Charging Cable PD31 Braided High Speed",
+                "price": 19.95,
+                "image_url": "/static/product_images/300159.jpg",
+                "summary": "Mobile Phone Accessories for Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black"
+              },
+              {
+                "product_id": "300159",
+                "product_name": "UGREEN 240W USB C to USB C Fast Charging Cable PD31 Braided High Speed",
+                "price": 19.95,
+                "image_url": "/static/product_images/300159.jpg",
+                "summary": "Mobile Phone Accessories for Blackview FORT 100 6.56\" HD+ Rugged Smartphone"
+              },
+              {
+                "product_id": "300159",
+                "product_name": "UGREEN 240W USB C to USB C Fast Charging Cable PD31 Braided High Speed",
+                "price": 19.95,
+                "image_url": "/static/product_images/300159.jpg",
+                "summary": "Mobile Phone Accessories for Oppo A6x 128gb (ice Blue)"
+              },
+              {
+                "product_id": "300157",
+                "product_name": "DeWALT 1.8m USB-C to USB Charging Cable Reinforced",
+                "price": 21.99,
+                "image_url": "/static/product_images/300157.jpg",
+                "summary": "Mobile Phone Accessories for Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 8,
+            "enhanced_query": "Find accessories for these specific products: Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black, Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone, Blackview FORT 100 6.56\" HD+ Rugged Smartphone, Phone Holder for Car Universal Windscreen Adjustable Black, Oppo A6x 128gb (ice Blue). Product IDs: 300104, 300100, 300107, 300161, 300109. Original query: any accessories of thses",
+            "displayed_products": [
+              {
+                "product_id": "300156",
+                "product_name": "DeWALT 1.8m Micro-USB to USB Charging Cable Reinforced",
+                "price": 16.99,
+                "image_url": "/static/product_images/300156.jpg",
+                "summary": "Mobile Phone Accessories for Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone"
+              },
+              {
+                "product_id": "300162",
+                "product_name": "Car Phone Holder Joyroom 360 Rotation Spider Holder Stable Air Outlet",
+                "price": 17.95,
+                "image_url": "/static/product_images/300162.jpg",
+                "summary": "Mobile Phone Accessories for Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black"
+              },
+              {
+                "product_id": "300162",
+                "product_name": "Car Phone Holder Joyroom 360 Rotation Spider Holder Stable Air Outlet",
+                "price": 17.95,
+                "image_url": "/static/product_images/300162.jpg",
+                "summary": "Mobile Phone Accessories for Blackview FORT 100 6.56\" HD+ Rugged Smartphone"
+              },
+              {
+                "product_id": "300162",
+                "product_name": "Car Phone Holder Joyroom 360 Rotation Spider Holder Stable Air Outlet",
+                "price": 17.95,
+                "image_url": "/static/product_images/300162.jpg",
+                "summary": "Mobile Phone Accessories for Oppo A6x 128gb (ice Blue)"
+              },
+              {
+                "product_id": "300159",
+                "product_name": "UGREEN 240W USB C to USB C Fast Charging Cable PD31 Braided High Speed",
+                "price": 19.95,
+                "image_url": "/static/product_images/300159.jpg",
+                "summary": "Mobile Phone Accessories for Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black"
+              },
+              {
+                "product_id": "300159",
+                "product_name": "UGREEN 240W USB C to USB C Fast Charging Cable PD31 Braided High Speed",
+                "price": 19.95,
+                "image_url": "/static/product_images/300159.jpg",
+                "summary": "Mobile Phone Accessories for Blackview FORT 100 6.56\" HD+ Rugged Smartphone"
+              },
+              {
+                "product_id": "300159",
+                "product_name": "UGREEN 240W USB C to USB C Fast Charging Cable PD31 Braided High Speed",
+                "price": 19.95,
+                "image_url": "/static/product_images/300159.jpg",
+                "summary": "Mobile Phone Accessories for Oppo A6x 128gb (ice Blue)"
+              },
+              {
+                "product_id": "300157",
+                "product_name": "DeWALT 1.8m USB-C to USB Charging Cable Reinforced",
+                "price": 21.99,
+                "image_url": "/static/product_images/300157.jpg",
+                "summary": "Mobile Phone Accessories for Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-05-11T06:09:39.724Z"
+          }
+        },
+        {
+          "id": 1778479835033,
+          "timestamp": "2026-05-11T06:10:35.033Z",
+          "user": "Show me detailed information about product 300156",
+          "ai": {
+            "ai_response": "The DeWALT 1.8m Micro-USB to USB Charging Cable is a durable and reinforced cable designed for tough worksite use.",
+            "product_data": {
+              "PROMO_DESCRIPTION": "",
+              "PROMO_DISCOUNT_PERCENT": "",
+              "PROMO_TITLE": "",
+              "categories": [],
+              "image_url": "/static/product_images/300156.jpg",
+              "payment_plans": [],
+              "price": 16.99,
+              "product_id": "300156",
+              "product_name": "DeWALT 1.8m Micro-USB to USB Charging Cable Reinforced",
+              "summary": "Durable DeWALT 1.8m reinforced Micro-USB to USB charging cable built for tough worksite use"
+            },
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300156.jpg",
+                "payment_plans": [],
+                "price": 16.99,
+                "product_id": "300156",
+                "product_name": "DeWALT 1.8m Micro-USB to USB Charging Cable Reinforced",
+                "summary": "Durable DeWALT 1.8m reinforced Micro-USB to USB charging cable built for tough worksite use"
+              }
+            ],
+            "response_type": "product"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300156",
+                "product_name": "DeWALT 1.8m Micro-USB to USB Charging Cable Reinforced",
+                "price": 16.99,
+                "image_url": "/static/product_images/300156.jpg",
+                "summary": "Durable DeWALT 1.8m reinforced Micro-USB to USB charging cable built for tough worksite use"
+              }
+            ],
+            "response_type": "product",
+            "products_count": 1,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1778480033512,
+          "timestamp": "2026-05-11T06:13:53.512Z",
+          "user": "Montrez-moi quelques plantes pour le salon.",
+          "ai": {
+            "ai_response": "Here are some plants that would be lovely for your living room:\n\n*   **Size E Indoor Foliage**: Assorted size E indoor foliage plant for lush green interior displays. Price: $22.98\n*   **150mm Bonsai in Ceramic Pot**: Elegant 150mm bonsai tree in a decorative ceramic pot bringing a touch of nature and zen to any room. Price: $35.53\n*   **120mm Bonsai in Ceramic Pot**: Charming 120mm bonsai tree potted in a beautiful ceramic pot perfect for desktops and small spaces. Price: $24.52\n*   **90mm Bonsai In Ceramic Pot**: Petite 90mm bonsai tree in a ceramic pot offering a miniature natural centrepiece for home or office. Price: $19.94\n*   **250mm Fiddle Leaf Fig - Ficus lyrata**: Popular 250mm Fiddle Leaf Fig with large glossy leaves for a dramatic indoor statement. Price: $59.98\n\nWould you like to see more options or perhaps accessories for these plants?",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300029.jpg",
+                "payment_plans": [],
+                "price": 22.98,
+                "product_id": "300029",
+                "product_name": "Size E Indoor Foliage",
+                "summary": "Assorted size E indoor foliage plant for lush green interior displays"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300225.jpg",
+                "payment_plans": [],
+                "price": 35.53,
+                "product_id": "300225",
+                "product_name": "150mm Bonsai in Ceramic Pot",
+                "summary": "Elegant 150mm bonsai tree in a decorative ceramic pot bringing a touch of nature and zen to any room"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300224.jpg",
+                "payment_plans": [],
+                "price": 24.52,
+                "product_id": "300224",
+                "product_name": "120mm Bonsai in Ceramic Pot",
+                "summary": "Charming 120mm bonsai tree potted in a beautiful ceramic pot perfect for desktops and small spaces"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300229.jpg",
+                "payment_plans": [],
+                "price": 19.94,
+                "product_id": "300229",
+                "product_name": "90mm Bonsai In Ceramic Pot",
+                "summary": "Petite 90mm bonsai tree in a ceramic pot offering a miniature natural centrepiece for home or office"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300032.jpg",
+                "payment_plans": [],
+                "price": 59.98,
+                "product_id": "300032",
+                "product_name": "250mm Fiddle Leaf Fig - Ficus lyrata",
+                "summary": "Popular 250mm Fiddle Leaf Fig with large glossy leaves for a dramatic indoor statement"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300029",
+                "product_name": "Size E Indoor Foliage",
+                "price": 22.98,
+                "image_url": "/static/product_images/300029.jpg",
+                "summary": "Assorted size E indoor foliage plant for lush green interior displays"
+              },
+              {
+                "product_id": "300225",
+                "product_name": "150mm Bonsai in Ceramic Pot",
+                "price": 35.53,
+                "image_url": "/static/product_images/300225.jpg",
+                "summary": "Elegant 150mm bonsai tree in a decorative ceramic pot bringing a touch of nature and zen to any room"
+              },
+              {
+                "product_id": "300224",
+                "product_name": "120mm Bonsai in Ceramic Pot",
+                "price": 24.52,
+                "image_url": "/static/product_images/300224.jpg",
+                "summary": "Charming 120mm bonsai tree potted in a beautiful ceramic pot perfect for desktops and small spaces"
+              },
+              {
+                "product_id": "300229",
+                "product_name": "90mm Bonsai In Ceramic Pot",
+                "price": 19.94,
+                "image_url": "/static/product_images/300229.jpg",
+                "summary": "Petite 90mm bonsai tree in a ceramic pot offering a miniature natural centrepiece for home or office"
+              },
+              {
+                "product_id": "300032",
+                "product_name": "250mm Fiddle Leaf Fig - Ficus lyrata",
+                "price": 59.98,
+                "image_url": "/static/product_images/300032.jpg",
+                "summary": "Popular 250mm Fiddle Leaf Fig with large glossy leaves for a dramatic indoor statement"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300029",
+                "product_name": "Size E Indoor Foliage",
+                "price": 22.98,
+                "image_url": "/static/product_images/300029.jpg",
+                "summary": "Assorted size E indoor foliage plant for lush green interior displays"
+              },
+              {
+                "product_id": "300225",
+                "product_name": "150mm Bonsai in Ceramic Pot",
+                "price": 35.53,
+                "image_url": "/static/product_images/300225.jpg",
+                "summary": "Elegant 150mm bonsai tree in a decorative ceramic pot bringing a touch of nature and zen to any room"
+              },
+              {
+                "product_id": "300224",
+                "product_name": "120mm Bonsai in Ceramic Pot",
+                "price": 24.52,
+                "image_url": "/static/product_images/300224.jpg",
+                "summary": "Charming 120mm bonsai tree potted in a beautiful ceramic pot perfect for desktops and small spaces"
+              },
+              {
+                "product_id": "300229",
+                "product_name": "90mm Bonsai In Ceramic Pot",
+                "price": 19.94,
+                "image_url": "/static/product_images/300229.jpg",
+                "summary": "Petite 90mm bonsai tree in a ceramic pot offering a miniature natural centrepiece for home or office"
+              },
+              {
+                "product_id": "300032",
+                "product_name": "250mm Fiddle Leaf Fig - Ficus lyrata",
+                "price": 59.98,
+                "image_url": "/static/product_images/300032.jpg",
+                "summary": "Popular 250mm Fiddle Leaf Fig with large glossy leaves for a dramatic indoor statement"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-05-11T06:13:53.514Z"
+          }
+        },
+        {
+          "id": 1778481578879,
+          "timestamp": "2026-05-11T06:39:38.879Z",
+          "user": "i bought a new house and looking for decorative light for living room",
+          "ai": {
+            "ai_response": "",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300017.jpg",
+                "payment_plans": [],
+                "price": 99,
+                "product_id": "300017",
+                "product_name": "Home Design Mesen Pendant Light",
+                "summary": "Elegant copper-tone pendant light with a warm teardrop silhouette"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300022.jpg",
+                "payment_plans": [],
+                "price": 65,
+                "product_id": "300022",
+                "product_name": "Home Design Bianco Pendant Light",
+                "summary": "Classic clean white dome pendant light with a simple modern aesthetic"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300003.jpg",
+                "payment_plans": [],
+                "price": 59,
+                "product_id": "300003",
+                "product_name": "Home Design Bussi Concrete Pendant",
+                "summary": "Modern industrial concrete pendant light with a sleek minimal finish"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300002.jpg",
+                "payment_plans": [],
+                "price": 69,
+                "product_id": "300002",
+                "product_name": "Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light",
+                "summary": "DIY vintage-style clear glass pendant light with a classic silhouette"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300089.jpg",
+                "payment_plans": [],
+                "price": 37,
+                "product_id": "300089",
+                "product_name": "LVD Glass Crackled Nougat Votive Candle Holder Gold Large",
+                "summary": "Elegant large gold crackled glass votive candle holder with a warm ambient glow"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300017",
+                "product_name": "Home Design Mesen Pendant Light",
+                "price": 99,
+                "image_url": "/static/product_images/300017.jpg",
+                "summary": "Elegant copper-tone pendant light with a warm teardrop silhouette"
+              },
+              {
+                "product_id": "300022",
+                "product_name": "Home Design Bianco Pendant Light",
+                "price": 65,
+                "image_url": "/static/product_images/300022.jpg",
+                "summary": "Classic clean white dome pendant light with a simple modern aesthetic"
+              },
+              {
+                "product_id": "300003",
+                "product_name": "Home Design Bussi Concrete Pendant",
+                "price": 59,
+                "image_url": "/static/product_images/300003.jpg",
+                "summary": "Modern industrial concrete pendant light with a sleek minimal finish"
+              },
+              {
+                "product_id": "300002",
+                "product_name": "Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light",
+                "price": 69,
+                "image_url": "/static/product_images/300002.jpg",
+                "summary": "DIY vintage-style clear glass pendant light with a classic silhouette"
+              },
+              {
+                "product_id": "300089",
+                "product_name": "LVD Glass Crackled Nougat Votive Candle Holder Gold Large",
+                "price": 37,
+                "image_url": "/static/product_images/300089.jpg",
+                "summary": "Elegant large gold crackled glass votive candle holder with a warm ambient glow"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300017",
+                "product_name": "Home Design Mesen Pendant Light",
+                "price": 99,
+                "image_url": "/static/product_images/300017.jpg",
+                "summary": "Elegant copper-tone pendant light with a warm teardrop silhouette"
+              },
+              {
+                "product_id": "300022",
+                "product_name": "Home Design Bianco Pendant Light",
+                "price": 65,
+                "image_url": "/static/product_images/300022.jpg",
+                "summary": "Classic clean white dome pendant light with a simple modern aesthetic"
+              },
+              {
+                "product_id": "300003",
+                "product_name": "Home Design Bussi Concrete Pendant",
+                "price": 59,
+                "image_url": "/static/product_images/300003.jpg",
+                "summary": "Modern industrial concrete pendant light with a sleek minimal finish"
+              },
+              {
+                "product_id": "300002",
+                "product_name": "Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light",
+                "price": 69,
+                "image_url": "/static/product_images/300002.jpg",
+                "summary": "DIY vintage-style clear glass pendant light with a classic silhouette"
+              },
+              {
+                "product_id": "300089",
+                "product_name": "LVD Glass Crackled Nougat Votive Candle Holder Gold Large",
+                "price": 37,
+                "image_url": "/static/product_images/300089.jpg",
+                "summary": "Elegant large gold crackled glass votive candle holder with a warm ambient glow"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-05-11T06:39:38.881Z"
+          }
+        },
+        {
+          "id": 1778481653758,
+          "timestamp": "2026-05-11T06:40:53.758Z",
+          "user": "show me lights with warm white color",
+          "ai": {
+            "ai_response": "",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300017.jpg",
+                "payment_plans": [],
+                "price": 99,
+                "product_id": "300017",
+                "product_name": "Home Design Mesen Pendant Light",
+                "summary": "Elegant copper-tone pendant light with a warm teardrop silhouette"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300022.jpg",
+                "payment_plans": [],
+                "price": 65,
+                "product_id": "300022",
+                "product_name": "Home Design Bianco Pendant Light",
+                "summary": "Classic clean white dome pendant light with a simple modern aesthetic"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300012.jpg",
+                "payment_plans": [],
+                "price": 25,
+                "product_id": "300012",
+                "product_name": "Verve Design White Paco Pendant Lamp",
+                "summary": "Smooth minimalist white teardrop pendant lamp with a clean modern finish"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300007.jpg",
+                "payment_plans": [],
+                "price": 90,
+                "product_id": "300007",
+                "product_name": "Mercator Madrid Glass Pendant Light",
+                "summary": "Contemporary clear glass globe pendant with a brushed brass stem"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300010.jpg",
+                "payment_plans": [],
+                "price": 53,
+                "product_id": "300010",
+                "product_name": "Brilliant 20cm Satin Brass Edie DIY Plug-In Lux Industrial Metal Pendant",
+                "summary": "Industrial 20cm satin brass metal pendant with convenient plug-in DIY setup"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300017",
+                "product_name": "Home Design Mesen Pendant Light",
+                "price": 99,
+                "image_url": "/static/product_images/300017.jpg",
+                "summary": "Elegant copper-tone pendant light with a warm teardrop silhouette"
+              },
+              {
+                "product_id": "300022",
+                "product_name": "Home Design Bianco Pendant Light",
+                "price": 65,
+                "image_url": "/static/product_images/300022.jpg",
+                "summary": "Classic clean white dome pendant light with a simple modern aesthetic"
+              },
+              {
+                "product_id": "300012",
+                "product_name": "Verve Design White Paco Pendant Lamp",
+                "price": 25,
+                "image_url": "/static/product_images/300012.jpg",
+                "summary": "Smooth minimalist white teardrop pendant lamp with a clean modern finish"
+              },
+              {
+                "product_id": "300007",
+                "product_name": "Mercator Madrid Glass Pendant Light",
+                "price": 90,
+                "image_url": "/static/product_images/300007.jpg",
+                "summary": "Contemporary clear glass globe pendant with a brushed brass stem"
+              },
+              {
+                "product_id": "300010",
+                "product_name": "Brilliant 20cm Satin Brass Edie DIY Plug-In Lux Industrial Metal Pendant",
+                "price": 53,
+                "image_url": "/static/product_images/300010.jpg",
+                "summary": "Industrial 20cm satin brass metal pendant with convenient plug-in DIY setup"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300017",
+                "product_name": "Home Design Mesen Pendant Light",
+                "price": 99,
+                "image_url": "/static/product_images/300017.jpg",
+                "summary": "Elegant copper-tone pendant light with a warm teardrop silhouette"
+              },
+              {
+                "product_id": "300022",
+                "product_name": "Home Design Bianco Pendant Light",
+                "price": 65,
+                "image_url": "/static/product_images/300022.jpg",
+                "summary": "Classic clean white dome pendant light with a simple modern aesthetic"
+              },
+              {
+                "product_id": "300012",
+                "product_name": "Verve Design White Paco Pendant Lamp",
+                "price": 25,
+                "image_url": "/static/product_images/300012.jpg",
+                "summary": "Smooth minimalist white teardrop pendant lamp with a clean modern finish"
+              },
+              {
+                "product_id": "300007",
+                "product_name": "Mercator Madrid Glass Pendant Light",
+                "price": 90,
+                "image_url": "/static/product_images/300007.jpg",
+                "summary": "Contemporary clear glass globe pendant with a brushed brass stem"
+              },
+              {
+                "product_id": "300010",
+                "product_name": "Brilliant 20cm Satin Brass Edie DIY Plug-In Lux Industrial Metal Pendant",
+                "price": 53,
+                "image_url": "/static/product_images/300010.jpg",
+                "summary": "Industrial 20cm satin brass metal pendant with convenient plug-in DIY setup"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-05-11T06:40:53.759Z"
+          }
+        },
+        {
+          "id": 1778481722970,
+          "timestamp": "2026-05-11T06:42:02.970Z",
+          "user": "i am not looking for pendent light",
+          "ai": {
+            "ai_response": "I'm sorry, I cannot fulfill this request. The available tools lack the ability to filter by color.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300017.jpg",
+                "payment_plans": [],
+                "price": 99,
+                "product_id": "300017",
+                "product_name": "Home Design Mesen Pendant Light",
+                "summary": "Elegant copper-tone pendant light with a warm teardrop silhouette"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300022.jpg",
+                "payment_plans": [],
+                "price": 65,
+                "product_id": "300022",
+                "product_name": "Home Design Bianco Pendant Light",
+                "summary": "Classic clean white dome pendant light with a simple modern aesthetic"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300003.jpg",
+                "payment_plans": [],
+                "price": 59,
+                "product_id": "300003",
+                "product_name": "Home Design Bussi Concrete Pendant",
+                "summary": "Modern industrial concrete pendant light with a sleek minimal finish"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300002.jpg",
+                "payment_plans": [],
+                "price": 69,
+                "product_id": "300002",
+                "product_name": "Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light",
+                "summary": "DIY vintage-style clear glass pendant light with a classic silhouette"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300089.jpg",
+                "payment_plans": [],
+                "price": 37,
+                "product_id": "300089",
+                "product_name": "LVD Glass Crackled Nougat Votive Candle Holder Gold Large",
+                "summary": "Elegant large gold crackled glass votive candle holder with a warm ambient glow"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300017",
+                "product_name": "Home Design Mesen Pendant Light",
+                "price": 99,
+                "image_url": "/static/product_images/300017.jpg",
+                "summary": "Elegant copper-tone pendant light with a warm teardrop silhouette"
+              },
+              {
+                "product_id": "300022",
+                "product_name": "Home Design Bianco Pendant Light",
+                "price": 65,
+                "image_url": "/static/product_images/300022.jpg",
+                "summary": "Classic clean white dome pendant light with a simple modern aesthetic"
+              },
+              {
+                "product_id": "300003",
+                "product_name": "Home Design Bussi Concrete Pendant",
+                "price": 59,
+                "image_url": "/static/product_images/300003.jpg",
+                "summary": "Modern industrial concrete pendant light with a sleek minimal finish"
+              },
+              {
+                "product_id": "300002",
+                "product_name": "Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light",
+                "price": 69,
+                "image_url": "/static/product_images/300002.jpg",
+                "summary": "DIY vintage-style clear glass pendant light with a classic silhouette"
+              },
+              {
+                "product_id": "300089",
+                "product_name": "LVD Glass Crackled Nougat Votive Candle Holder Gold Large",
+                "price": 37,
+                "image_url": "/static/product_images/300089.jpg",
+                "summary": "Elegant large gold crackled glass votive candle holder with a warm ambient glow"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300017",
+                "product_name": "Home Design Mesen Pendant Light",
+                "price": 99,
+                "image_url": "/static/product_images/300017.jpg",
+                "summary": "Elegant copper-tone pendant light with a warm teardrop silhouette"
+              },
+              {
+                "product_id": "300022",
+                "product_name": "Home Design Bianco Pendant Light",
+                "price": 65,
+                "image_url": "/static/product_images/300022.jpg",
+                "summary": "Classic clean white dome pendant light with a simple modern aesthetic"
+              },
+              {
+                "product_id": "300003",
+                "product_name": "Home Design Bussi Concrete Pendant",
+                "price": 59,
+                "image_url": "/static/product_images/300003.jpg",
+                "summary": "Modern industrial concrete pendant light with a sleek minimal finish"
+              },
+              {
+                "product_id": "300002",
+                "product_name": "Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light",
+                "price": 69,
+                "image_url": "/static/product_images/300002.jpg",
+                "summary": "DIY vintage-style clear glass pendant light with a classic silhouette"
+              },
+              {
+                "product_id": "300089",
+                "product_name": "LVD Glass Crackled Nougat Votive Candle Holder Gold Large",
+                "price": 37,
+                "image_url": "/static/product_images/300089.jpg",
+                "summary": "Elegant large gold crackled glass votive candle holder with a warm ambient glow"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-05-11T06:42:02.971Z"
+          }
+        },
+        {
+          "id": 1778482009599,
+          "timestamp": "2026-05-11T06:46:49.599Z",
+          "user": "Show me detailed information about product 300003",
+          "ai": {
+            "ai_response": "",
+            "product_data": {
+              "PROMO_DESCRIPTION": "",
+              "PROMO_DISCOUNT_PERCENT": "",
+              "PROMO_TITLE": "",
+              "categories": [],
+              "image_url": "/static/product_images/300003.jpg",
+              "payment_plans": [],
+              "price": 59,
+              "product_id": "300003",
+              "product_name": "Home Design Bussi Concrete Pendant",
+              "summary": "Modern industrial concrete pendant light with a sleek minimal finish"
+            },
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300003.jpg",
+                "payment_plans": [],
+                "price": 59,
+                "product_id": "300003",
+                "product_name": "Home Design Bussi Concrete Pendant",
+                "summary": "Modern industrial concrete pendant light with a sleek minimal finish"
+              }
+            ],
+            "response_type": "product"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300003",
+                "product_name": "Home Design Bussi Concrete Pendant",
+                "price": 59,
+                "image_url": "/static/product_images/300003.jpg",
+                "summary": "Modern industrial concrete pendant light with a sleek minimal finish"
+              }
+            ],
+            "response_type": "product",
+            "products_count": 1,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1778482221171,
+          "timestamp": "2026-05-11T06:50:21.171Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        }
+      ],
+      "last_products": [
+        {
+          "product_id": "300017",
+          "product_name": "Home Design Mesen Pendant Light",
+          "price": 99,
+          "image_url": "/static/product_images/300017.jpg",
+          "summary": "Elegant copper-tone pendant light with a warm teardrop silhouette"
+        },
+        {
+          "product_id": "300022",
+          "product_name": "Home Design Bianco Pendant Light",
+          "price": 65,
+          "image_url": "/static/product_images/300022.jpg",
+          "summary": "Classic clean white dome pendant light with a simple modern aesthetic"
+        },
+        {
+          "product_id": "300003",
+          "product_name": "Home Design Bussi Concrete Pendant",
+          "price": 59,
+          "image_url": "/static/product_images/300003.jpg",
+          "summary": "Modern industrial concrete pendant light with a sleek minimal finish"
+        },
+        {
+          "product_id": "300002",
+          "product_name": "Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light",
+          "price": 69,
+          "image_url": "/static/product_images/300002.jpg",
+          "summary": "DIY vintage-style clear glass pendant light with a classic silhouette"
+        },
+        {
+          "product_id": "300089",
+          "product_name": "LVD Glass Crackled Nougat Votive Candle Holder Gold Large",
+          "price": 37,
+          "image_url": "/static/product_images/300089.jpg",
+          "summary": "Elegant large gold crackled glass votive candle holder with a warm ambient glow"
+        }
+      ],
+      "recent_displayed": [
+        {
+          "product_id": "300017",
+          "product_name": "Home Design Mesen Pendant Light",
+          "price": 99,
+          "image_url": "/static/product_images/300017.jpg",
+          "summary": "Elegant copper-tone pendant light with a warm teardrop silhouette"
+        },
+        {
+          "product_id": "300022",
+          "product_name": "Home Design Bianco Pendant Light",
+          "price": 65,
+          "image_url": "/static/product_images/300022.jpg",
+          "summary": "Classic clean white dome pendant light with a simple modern aesthetic"
+        },
+        {
+          "product_id": "300003",
+          "product_name": "Home Design Bussi Concrete Pendant",
+          "price": 59,
+          "image_url": "/static/product_images/300003.jpg",
+          "summary": "Modern industrial concrete pendant light with a sleek minimal finish"
+        },
+        {
+          "product_id": "300002",
+          "product_name": "Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light",
+          "price": 69,
+          "image_url": "/static/product_images/300002.jpg",
+          "summary": "DIY vintage-style clear glass pendant light with a classic silhouette"
+        },
+        {
+          "product_id": "300089",
+          "product_name": "LVD Glass Crackled Nougat Votive Candle Holder Gold Large",
+          "price": 37,
+          "image_url": "/static/product_images/300089.jpg",
+          "summary": "Elegant large gold crackled glass votive candle holder with a warm ambient glow"
+        }
+      ],
+      "context": [
+        {
+          "user": "i am not looking for pendent light",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "300017",
+              "product_name": "Home Design Mesen Pendant Light",
+              "price": 99,
+              "image_url": "/static/product_images/300017.jpg",
+              "summary": "Elegant copper-tone pendant light with a warm teardrop silhouette"
+            },
+            {
+              "product_id": "300022",
+              "product_name": "Home Design Bianco Pendant Light",
+              "price": 65,
+              "image_url": "/static/product_images/300022.jpg",
+              "summary": "Classic clean white dome pendant light with a simple modern aesthetic"
+            },
+            {
+              "product_id": "300003",
+              "product_name": "Home Design Bussi Concrete Pendant",
+              "price": 59,
+              "image_url": "/static/product_images/300003.jpg",
+              "summary": "Modern industrial concrete pendant light with a sleek minimal finish"
+            },
+            {
+              "product_id": "300002",
+              "product_name": "Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light",
+              "price": 69,
+              "image_url": "/static/product_images/300002.jpg",
+              "summary": "DIY vintage-style clear glass pendant light with a classic silhouette"
+            },
+            {
+              "product_id": "300089",
+              "product_name": "LVD Glass Crackled Nougat Votive Candle Holder Gold Large",
+              "price": 37,
+              "image_url": "/static/product_images/300089.jpg",
+              "summary": "Elegant large gold crackled glass votive candle holder with a warm ambient glow"
+            }
+          ],
+          "type": "products_list"
+        },
+        {
+          "user": "Show me detailed information about product 300003",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "300003",
+              "product_name": "Home Design Bussi Concrete Pendant",
+              "price": 59,
+              "image_url": "/static/product_images/300003.jpg",
+              "summary": "Modern industrial concrete pendant light with a sleek minimal finish"
+            }
+          ],
+          "type": "product"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": "2026-05-11T12:20:30.054751",
+    "session_id": "057993b2-6167-4fb6-84fd-dbd0da3ded87"
+  },
+  "result": {
+    "payment_id": "PAYID-NIAXYOI86V568687N3525828",
+    "payer_id": "YR6334H86TGYG",
+    "token": "EC-2JS802900B7893209",
+    "order_result": {
+      "error": "Failed to create order: (274, 'inserted value too large for column: Failed in \"CUSTOMER_ID\" column with the value \\'sanjeev_kumar.srivastava@capgemini.com\\'')"
+    },
+    "message": "Payment completed successfully!"
+  },
+  "updated_at": "2026-05-11T12:21:00.636754"
+}

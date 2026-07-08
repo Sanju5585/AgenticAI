@@ -1,0 +1,496 @@
+{
+  "session_id": "471e2e96-3390-456f-870e-289ffe1d76e7",
+  "status": "success",
+  "created_at": "2026-05-11T15:49:06.608240",
+  "payment_data": {
+    "customer_id": "abhijeet.maiskar@capgemini.com",
+    "cart_items": [
+      {
+        "image_url": "/static/product_images/300137.jpg",
+        "price": 4048.85,
+        "product_id": "300137",
+        "product_name": "Om System Om-3 Camera W 12-40mm F2.8 Pro Ii Lens",
+        "quantity": 1,
+        "addedAt": "2026-05-11T10:18:18.458Z"
+      }
+    ],
+    "total_amount": 4048.85,
+    "chat_history": [
+      {
+        "id": "msg_0",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n                <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background: #1B5252;\">\n                  <i class=\"fas fa-robot text-white text-sm\"></i>\n                </div>\n                <div>\n                  <p class=\"font-medium text-gray-800\">Hello! I'm your AI shopping assistant powered by Capgemini.</p>\n                  <p class=\"text-gray-600 text-sm mt-1\">How can I help you find the perfect products today?</p>\n                  <p class=\"text-gray-500 text-xs mt-2 italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>\n                    Note: Your cart will be cleared when you refresh the page.\n                  </p>\n                  <p class=\"text-cyan-600 text-xs mt-1 font-medium\">\n                    <i class=\"fas fa-credit-card mr-1\"></i>\n                    Secure PayPal checkout available - your session will be maintained during payment!\n                  </p>\n                </div>\n              </div>",
+        "timestamp": "2026-05-11T10:19:06.290Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_1",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n    <div style=\"background: linear-gradient(135deg, #1B5252 0%, #2d7a7a 100%); color: white; padding: 25px; border-radius: 15px; margin: 10px 0; box-shadow: 0 8px 20px rgba(27,82,82,0.3);\">\n      <div style=\"display: flex; align-items: center; margin-bottom: 20px;\">\n        <div style=\"background: rgba(255,255,255,0.2); border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-size: 24px;\">\n          \ud83d\udc4b\n        </div>\n        <div>\n          <h3 style=\"margin: 0; font-size: 22px; font-weight: 700;\">Welcome back, Abhijeet Maisker!</h3>\n          <p style=\"margin: 5px 0 0 0; font-size: 14px; opacity: 0.9;\">Your personalized shopping experience is ready</p>\n        </div>\n      </div>\n  \n      <div style=\"background: rgba(255,255,255,0.15); padding: 18px; border-radius: 12px; margin-top: 15px;\">\n        <h4 style=\"margin: 0 0 15px 0; font-size: 16px; font-weight: 600; display: flex; align-items: center;\">\n          <i class=\"fas fa-history\" style=\"margin-right: 8px;\"></i>\n          Your Recent Orders\n        </h4>\n    \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 0; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            \n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Apple iPhone 14</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 23 Feb 2026</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">$1164.81</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#9656</div>\n          </div>\n        </div>\n      \n      </div>\n      <div style=\"margin-top: 15px; text-align: center; font-size: 13px; opacity: 0.9;\">\n        <i class=\"fas fa-info-circle\" style=\"margin-right: 5px;\"></i>\n        I've personalized your Trending Now section based on your purchase history!\n      </div>\n    \n    </div>\n  \n        </div>\n      </div>",
+        "timestamp": "2026-05-11T10:19:06.290Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_2",
+        "sender": "user",
+        "message": "show light",
+        "timestamp": "2026-05-11T10:19:06.290Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_3",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"rounded-xl p-6 border\" style=\"background:rgba(27,82,82,0.03); border-color:#DDDDDD;\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg\" style=\"background:#1B5252;\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 text-white text-xs px-3 py-1 rounded-full\" style=\"background:#D71920;\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white rounded-full px-4 py-2 border\" style=\"border-color:rgba(27,82,82,0.2); flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-sm\" style=\"color:#1B5252;\"></i>\n                <span class=\"text-sm font-semibold\" style=\"color:#1B5252;\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-gray-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110 border group\" style=\"border-color:#DDDDDD;\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-[#1B5252] transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-gray-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110 border group\" style=\"border-color:#DDDDDD;\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-[#1B5252] transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1778494691177\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300017.jpg\" alt=\"Home Design Mesen Pendant Light\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Home Design Mesen Pendant Light</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Elegant copper-tone pendant light with a warm teardrop silhouette</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$99.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background:#D71920;\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300022.jpg\" alt=\"Home Design Bianco Pendant Light\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Home Design Bianco Pendant Light</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Classic clean white dome pendant light with a simple modern aesthetic</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$65.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background:#D71920;\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300002.jpg\" alt=\"Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">DIY vintage-style clear glass pendant light with a classic silhouette</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$69.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background: rgb(215, 25, 32);\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300003.jpg\" alt=\"Home Design Bussi Concrete Pendant\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Home Design Bussi Concrete Pendant</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Modern industrial concrete pendant light with a sleek minimal finish</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$59.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background:#D71920;\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/300007.jpg\" alt=\"Mercator Madrid Glass Pendant Light\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#D71920;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#1B5252] transition-colors duration-300\">Mercator Madrid Glass Pendant Light</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Contemporary clear glass globe pendant with a brushed brass stem</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#1B5252;\">$90.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background:#D71920;\" onmouseover=\"this.style.background='#b5151b'\" onmouseout=\"this.style.background='#D71920'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2026-05-11T10:19:06.291Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_4",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n    <div class=\"accessories-section bg-white rounded-2xl p-6 mb-4 border shadow-md\" style=\"border-color:#DDDDDD;\">\n      <!-- Header -->\n      <div class=\"flex items-center justify-between mb-6\">\n        <div class=\"flex items-center space-x-3\">\n          <div class=\"w-12 h-12 rounded-full flex items-center justify-center shadow-md\" style=\"background:#1B5252;\">\n            <i class=\"fas fa-puzzle-piece text-white text-lg\"></i>\n          </div>\n          <div>\n            <h3 class=\"text-xl font-bold text-gray-900\">Perfect Accessories for Om System Om-3 Camera W 12-40mm F2.8 Pro Ii Lens</h3>\n            <p class=\"text-sm text-gray-600\">8 accessories available</p>\n          </div>\n        </div>\n      </div>\n  \n      <div class=\"category-group mb-6\">\n        <h4 class=\"text-lg font-bold text-gray-800 mb-4 flex items-center\">\n          <i class=\"fas fa-box mr-2\" style=\"color:#1B5252;\"></i>\n          Accessories\n          <span class=\"ml-2 text-xs px-2 py-1 rounded-full\" style=\"background:rgba(27,82,82,0.1); color:#1B5252;\">8</span>\n        </h4>\n        \n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4\">\n    \n        <div class=\"accessory-card bg-white rounded-2xl p-4 border-2 border-gray-200 hover:border-[#1B5252] transition-all duration-300 hover:shadow-lg group\">\n          <div class=\"flex items-start space-x-4\">\n            \n              <div class=\"flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-gray-100\">\n                <img src=\"/static/product_images/300147.jpg\" alt=\"2cr5 Lithium Photo Battery 1500mah Lithium 6v DI245 RI2cr5 EI2cr5\" class=\"w-full h-full object-cover group-hover:scale-110 transition-transform duration-300\" onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\">\n                <div style=\"display:none;\" class=\"w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center\">\n                  <i class=\"fas fa-box text-gray-400 text-2xl\"></i>\n                </div>\n              </div>\n            \n            <div class=\"flex-1 min-w-0\">\n              <h5 class=\"font-semibold text-gray-900 text-sm mb-1 group-hover:text-[#1B5252] transition-colors\">2cr5 Lithium Photo Battery 1500mah Lithium 6v DI245 RI2cr5 EI2cr5</h5>\n              <p class=\"text-xs text-gray-500 mb-2\">Camera Accessories for Om System Om-3 Camera W 12-40mm F2.8 Pro Ii Lens</p>\n              <div class=\"flex items-center justify-between mt-3\">\n                <span class=\"text-lg font-bold\" style=\"color:#1B5252;\">\ufffd12.95</span>\n                <button  class=\"text-white text-xs px-4 py-2 rounded-full transition-all duration-200 transform hover:scale-105 shadow-md\" style=\"background:#D71920;\" title=\"Add to Cart\">\n                  <i class=\"fas fa-cart-plus mr-1\"></i> Add\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n        <div class=\"accessory-card bg-white rounded-2xl p-4 border-2 border-gray-200 hover:border-[#1B5252] transition-all duration-300 hover:shadow-lg group\">\n          <div class=\"flex items-start space-x-4\">\n            \n              <div class=\"flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-gray-100\">\n                <img src=\"/static/product_images/300148.jpg\" alt=\"Ugreen 2-in-1 Usb 3.0 A Card Reader Black\" class=\"w-full h-full object-cover group-hover:scale-110 transition-transform duration-300\" onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\">\n                <div style=\"display:none;\" class=\"w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center\">\n                  <i class=\"fas fa-box text-gray-400 text-2xl\"></i>\n                </div>\n              </div>\n            \n            <div class=\"flex-1 min-w-0\">\n              <h5 class=\"font-semibold text-gray-900 text-sm mb-1 group-hover:text-[#1B5252] transition-colors\">Ugreen 2-in-1 Usb 3.0 A Card Reader Black</h5>\n              <p class=\"text-xs text-gray-500 mb-2\">Camera Accessories for Om System Om-3 Camera W 12-40mm F2.8 Pro Ii Lens</p>\n              <div class=\"flex items-center justify-between mt-3\">\n                <span class=\"text-lg font-bold\" style=\"color:#1B5252;\">\ufffd14.95</span>\n                <button  class=\"text-white text-xs px-4 py-2 rounded-full transition-all duration-200 transform hover:scale-105 shadow-md\" style=\"background:#D71920;\" title=\"Add to Cart\">\n                  <i class=\"fas fa-cart-plus mr-1\"></i> Add\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n        <div class=\"accessory-card bg-white rounded-2xl p-4 border-2 border-gray-200 hover:border-[#1B5252] transition-all duration-300 hover:shadow-lg group\">\n          <div class=\"flex items-start space-x-4\">\n            \n              <div class=\"flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-gray-100\">\n                <img src=\"/static/product_images/300152.jpg\" alt=\"Verbatim 64GB U1 Micro SDXC Memory Card File Storage with USB Reader\" class=\"w-full h-full object-cover group-hover:scale-110 transition-transform duration-300\" onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\">\n                <div style=\"display:none;\" class=\"w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center\">\n                  <i class=\"fas fa-box text-gray-400 text-2xl\"></i>\n                </div>\n              </div>\n            \n            <div class=\"flex-1 min-w-0\">\n              <h5 class=\"font-semibold text-gray-900 text-sm mb-1 group-hover:text-[#1B5252] transition-colors\">Verbatim 64GB U1 Micro SDXC Memory Card File Storage with USB Reader</h5>\n              <p class=\"text-xs text-gray-500 mb-2\">Camera Accessories for Om System Om-3 Camera W 12-40mm F2.8 Pro Ii Lens</p>\n              <div class=\"flex items-center justify-between mt-3\">\n                <span class=\"text-lg font-bold\" style=\"color:#1B5252;\">\ufffd29.00</span>\n                <button  class=\"text-white text-xs px-4 py-2 rounded-full transition-all duration-200 transform hover:scale-105 shadow-md\" style=\"background:#D71920;\" title=\"Add to Cart\">\n                  <i class=\"fas fa-cart-plus mr-1\"></i> Add\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n        <div class=\"accessory-card bg-white rounded-2xl p-4 border-2 border-gray-200 hover:border-[#1B5252] transition-all duration-300 hover:shadow-lg group\">\n          <div class=\"flex items-start space-x-4\">\n            \n              <div class=\"flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-gray-100\">\n                <img src=\"/static/product_images/300151.jpg\" alt=\"High Capacity Compatible Battery For Arlo Pro /pro 2 Security Camera\" class=\"w-full h-full object-cover group-hover:scale-110 transition-transform duration-300\" onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\">\n                <div style=\"display:none;\" class=\"w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center\">\n                  <i class=\"fas fa-box text-gray-400 text-2xl\"></i>\n                </div>\n              </div>\n            \n            <div class=\"flex-1 min-w-0\">\n              <h5 class=\"font-semibold text-gray-900 text-sm mb-1 group-hover:text-[#1B5252] transition-colors\">High Capacity Compatible Battery For Arlo Pro /pro 2 Security Camera</h5>\n              <p class=\"text-xs text-gray-500 mb-2\">Camera Accessories for Om System Om-3 Camera W 12-40mm F2.8 Pro Ii Lens</p>\n              <div class=\"flex items-center justify-between mt-3\">\n                <span class=\"text-lg font-bold\" style=\"color:#1B5252;\">\ufffd39.88</span>\n                <button  class=\"text-white text-xs px-4 py-2 rounded-full transition-all duration-200 transform hover:scale-105 shadow-md\" style=\"background:#D71920;\" title=\"Add to Cart\">\n                  <i class=\"fas fa-cart-plus mr-1\"></i> Add\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n        <div class=\"accessory-card bg-white rounded-2xl p-4 border-2 border-gray-200 hover:border-[#1B5252] transition-all duration-300 hover:shadow-lg group\">\n          <div class=\"flex items-start space-x-4\">\n            \n              <div class=\"flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-gray-100\">\n                <img src=\"/static/product_images/300153.jpg\" alt=\"Godox Ad-60s 65cm Silver Octa Umbrella Softbox\" class=\"w-full h-full object-cover group-hover:scale-110 transition-transform duration-300\" onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\">\n                <div style=\"display:none;\" class=\"w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center\">\n                  <i class=\"fas fa-box text-gray-400 text-2xl\"></i>\n                </div>\n              </div>\n            \n            <div class=\"flex-1 min-w-0\">\n              <h5 class=\"font-semibold text-gray-900 text-sm mb-1 group-hover:text-[#1B5252] transition-colors\">Godox Ad-60s 65cm Silver Octa Umbrella Softbox</h5>\n              <p class=\"text-xs text-gray-500 mb-2\">Camera Accessories for Om System Om-3 Camera W 12-40mm F2.8 Pro Ii Lens</p>\n              <div class=\"flex items-center justify-between mt-3\">\n                <span class=\"text-lg font-bold\" style=\"color:#1B5252;\">\ufffd70.00</span>\n                <button  class=\"text-white text-xs px-4 py-2 rounded-full transition-all duration-200 transform hover:scale-105 shadow-md\" style=\"background:#D71920;\" title=\"Add to Cart\">\n                  <i class=\"fas fa-cart-plus mr-1\"></i> Add\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n        <div class=\"accessory-card bg-white rounded-2xl p-4 border-2 border-gray-200 hover:border-[#1B5252] transition-all duration-300 hover:shadow-lg group\">\n          <div class=\"flex items-start space-x-4\">\n            \n              <div class=\"flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-gray-100\">\n                <img src=\"/static/product_images/300150.jpg\" alt=\"Camera Tripod Stand Aluminum Professional Orange 190 cm\" class=\"w-full h-full object-cover group-hover:scale-110 transition-transform duration-300\" onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\">\n                <div style=\"display:none;\" class=\"w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center\">\n                  <i class=\"fas fa-box text-gray-400 text-2xl\"></i>\n                </div>\n              </div>\n            \n            <div class=\"flex-1 min-w-0\">\n              <h5 class=\"font-semibold text-gray-900 text-sm mb-1 group-hover:text-[#1B5252] transition-colors\">Camera Tripod Stand Aluminum Professional Orange 190 cm</h5>\n              <p class=\"text-xs text-gray-500 mb-2\">Camera Accessories for Om System Om-3 Camera W 12-40mm F2.8 Pro Ii Lens</p>\n              <div class=\"flex items-center justify-between mt-3\">\n                <span class=\"text-lg font-bold\" style=\"color:#1B5252;\">\ufffd111.95</span>\n                <button  class=\"text-white text-xs px-4 py-2 rounded-full transition-all duration-200 transform hover:scale-105 shadow-md\" style=\"background:#D71920;\" title=\"Add to Cart\">\n                  <i class=\"fas fa-cart-plus mr-1\"></i> Add\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n        <div class=\"accessory-card bg-white rounded-2xl p-4 border-2 border-gray-200 hover:border-[#1B5252] transition-all duration-300 hover:shadow-lg group\">\n          <div class=\"flex items-start space-x-4\">\n            \n              <div class=\"flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-gray-100\">\n                <img src=\"/static/product_images/300154.jpg\" alt=\"12\" digital=\"\" photo=\"\" frame=\"\" with=\"\" remote=\"\" -=\"\" black\"=\"\" class=\"w-full h-full object-cover group-hover:scale-110 transition-transform duration-300\" onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\">\n                <div style=\"display:none;\" class=\"w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center\">\n                  <i class=\"fas fa-box text-gray-400 text-2xl\"></i>\n                </div>\n              </div>\n            \n            <div class=\"flex-1 min-w-0\">\n              <h5 class=\"font-semibold text-gray-900 text-sm mb-1 group-hover:text-[#1B5252] transition-colors\">12\" Digital Photo Frame with Remote - Black</h5>\n              <p class=\"text-xs text-gray-500 mb-2\">Camera Accessories for Om System Om-3 Camera W 12-40mm F2.8 Pro Ii Lens</p>\n              <div class=\"flex items-center justify-between mt-3\">\n                <span class=\"text-lg font-bold\" style=\"color:#1B5252;\">\ufffd119.00</span>\n                <button  digital=\"\" photo=\"\" frame=\"\" with=\"\" remote=\"\" -=\"\" black',=\"\" event)\"=\"\" class=\"text-white text-xs px-4 py-2 rounded-full transition-all duration-200 transform hover:scale-105 shadow-md\" style=\"background:#D71920;\" title=\"Add to Cart\">\n                  <i class=\"fas fa-cart-plus mr-1\"></i> Add\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n        <div class=\"accessory-card bg-white rounded-2xl p-4 border-2 border-gray-200 hover:border-[#1B5252] transition-all duration-300 hover:shadow-lg group\">\n          <div class=\"flex items-start space-x-4\">\n            \n              <div class=\"flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-gray-100\">\n                <img src=\"/static/product_images/300149.jpg\" alt=\"Godox It32 Iflash Ttl Camera Flash\" class=\"w-full h-full object-cover group-hover:scale-110 transition-transform duration-300\" onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\">\n                <div style=\"display:none;\" class=\"w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center\">\n                  <i class=\"fas fa-box text-gray-400 text-2xl\"></i>\n                </div>\n              </div>\n            \n            <div class=\"flex-1 min-w-0\">\n              <h5 class=\"font-semibold text-gray-900 text-sm mb-1 group-hover:text-[#1B5252] transition-colors\">Godox It32 Iflash Ttl Camera Flash</h5>\n              <p class=\"text-xs text-gray-500 mb-2\">Camera Accessories for Om System Om-3 Camera W 12-40mm F2.8 Pro Ii Lens</p>\n              <div class=\"flex items-center justify-between mt-3\">\n                <span class=\"text-lg font-bold\" style=\"color:#1B5252;\">\ufffd139.00</span>\n                <button  class=\"text-white text-xs px-4 py-2 rounded-full transition-all duration-200 transform hover:scale-105 shadow-md\" style=\"background:#D71920;\" title=\"Add to Cart\">\n                  <i class=\"fas fa-cart-plus mr-1\"></i> Add\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n        </div>\n      </div>\n    </div>\n        </div>\n      </div>",
+        "timestamp": "2026-05-11T10:19:06.291Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_5",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2026-05-11T10:19:06.291Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_6",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n        <div class=\"bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4\" id=\"chat-cart-container\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart text-purple-500 mr-2\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold\" id=\"chat-cart-count\"><i class=\"fas fa-shopping-cart mr-1\"></i>1 item</div>\n            </div>\n            \n            <div id=\"chat-cart-items\" class=\"space-y-3 mb-4\">\n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3 flex-1\">\n          <img src=\"/static/product_images/300137.jpg\" alt=\"Om System Om-3 Camera W 12-40mm F2.8 Pro Ii Lens\" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1 min-w-0\">\n            <h4 class=\"font-semibold text-gray-800 text-sm truncate\">Om System Om-3 Camera W 12-40mm F2.8 Pro Ii Lens</h4>\n            <p class=\"text-xs text-gray-500 mt-1\">4048.85 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 rounded-full min-w-[2rem] text-center&quot; style=&quot;background:rgba(27,82,82,0.1); color:#1B5252;\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right ml-4\">\n          <p class=\"text-lg font-bold&quot; style=&quot;color:#1B5252;\">4048.85</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    </div>\n            \n            <div id=\"chat-cart-footer\" class=\"border-t border-purple-200 pt-4\">\n                <div class=\"flex items-center justify-between mb-4\">\n                    <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                    <span class=\"text-2xl font-bold text-purple-600\" id=\"chat-cart-total\">4048.85</span>\n                </div>\n                \n                <div class=\"text-center space-x-2\">\n                    <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-sync-alt mr-2\"></i>Refresh Cart\n                    </button>\n                    <button  class=\"bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-credit-card mr-2\"></i>Checkout\n                    </button>\n                </div>\n                \n                <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" onload=\"(function(){setTimeout(function(){if(typeof renderChatCart === &quot;function&quot;){console.log(&quot;\ud83d\uded2 Auto-triggering renderChatCart via image onload&quot;);renderChatCart();}},100);})()\" style=\"display:none;\">\n        \n        </div>\n      </div>",
+        "timestamp": "2026-05-11T10:19:06.291Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_7",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Ready for Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Order Summary</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: 4048.85</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9; margin-bottom: 15px;\">\n          \ud83d\udce6 1 item in your cart<br>\n          \ud83d\udcb0 Total amount: 4048.85<br>\n          \ud83d\udd12 Secure PayPal payment\n        </div>\n        <div style=\"background: rgba(255,255,255,0.15); padding: 12px; border-radius: 8px; font-size: 14px; margin-top: 10px;\">\n          <strong>\u26a1 Are you sure you want to proceed with the payment?</strong><br>\n          <span style=\"opacity: 0.9;\">Please reply with \"yes\" to confirm, or \"no\" to cancel.</span>\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-05-11T10:19:06.291Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_8",
+        "sender": "user",
+        "message": "yes",
+        "timestamp": "2026-05-11T10:19:06.291Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_9",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u2705 <strong>Payment Confirmed!</strong><br><br>\n          <div style=\"background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 15px; border-radius: 12px; margin: 10px 0;\">\n            <div style=\"display: flex; align-items-center;\">\n              <i class=\"fas fa-check-circle\" style=\"font-size: 20px; margin-right: 10px;\"></i>\n              <div style=\"font-size: 14px;\">\n                Great! Processing your payment now. Opening PayPal gateway...\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>",
+        "timestamp": "2026-05-11T10:19:06.291Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_10",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Processing Payment</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: 4048.85</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u2728 Opening PayPal payment gateway...<br>\n          \ud83d\udd12 Secure payment processing<br>\n          \u26a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-05-11T10:19:06.291Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_11",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\udcb3 <strong>PayPal Payment</strong><br><br>\n          <div style=\"background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n            <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n              <i class=\"fas fa-credit-card\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n              <div>\n                <div style=\"font-size: 18px; font-weight: bold;\">Secure Payment Processing</div>\n                <div style=\"font-size: 14px; opacity: 0.9;\">Total: 4048.85</div>\n              </div>\n            </div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">\n              \u2728 PayPal has opened in a new tab<br>\n              \ud83d\udd04 Waiting for payment confirmation...<br>\n              \u23f3 Please complete your payment and I'll update you here automatically!\n            </div>\n          </div>\n        </div>\n      </div>",
+        "timestamp": "2026-05-11T10:19:06.291Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_12",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2026-05-11T10:19:06.291Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_13",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n        <div class=\"bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4\" id=\"chat-cart-container\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart text-purple-500 mr-2\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold\" id=\"chat-cart-count\">\n                    <i class=\"fas fa-shopping-cart mr-1\"></i>0 items\n                </div>\n            </div>\n            \n            <div id=\"chat-cart-items\" class=\"space-y-3 mb-4\">\n                <div class=\"text-center py-8 text-gray-500\">\n                    <i class=\"fas fa-shopping-cart text-4xl mb-3 opacity-30\"></i>\n                    <p class=\"text-lg font-medium\">Your cart is empty</p>\n                    <p class=\"text-sm text-gray-400 mt-1\">Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id=\"chat-cart-footer\" class=\"border-t border-purple-200 pt-4\">\n                <div class=\"flex items-center justify-between mb-4\">\n                    <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                    <span class=\"text-2xl font-bold text-purple-600\" id=\"chat-cart-total\">\u00a30.00</span>\n                </div>\n                \n                <div class=\"text-center space-x-2\">\n                    <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-sync-alt mr-2\"></i>Refresh Cart\n                    </button>\n                    <button  class=\"bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-credit-card mr-2\"></i>Checkout\n                    </button>\n                </div>\n                \n                <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" onload=\"(function(){setTimeout(function(){if(typeof renderChatCart === &quot;function&quot;){console.log(&quot;\ud83d\uded2 Auto-triggering renderChatCart via image onload&quot;);renderChatCart();}},100);})()\" style=\"display:none;\">\n        \n        </div>\n      </div>",
+        "timestamp": "2026-05-11T10:19:06.291Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_14",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Ready for Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Order Summary</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: 4048.85</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9; margin-bottom: 15px;\">\n          \ud83d\udce6 1 item in your cart<br>\n          \ud83d\udcb0 Total amount: 4048.85<br>\n          \ud83d\udd12 Secure PayPal payment\n        </div>\n        <div style=\"background: rgba(255,255,255,0.15); padding: 12px; border-radius: 8px; font-size: 14px; margin-top: 10px;\">\n          <strong>\u26a1 Are you sure you want to proceed with the payment?</strong><br>\n          <span style=\"opacity: 0.9;\">Please reply with \"yes\" to confirm, or \"no\" to cancel.</span>\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-05-11T10:19:06.291Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_15",
+        "sender": "user",
+        "message": "yes",
+        "timestamp": "2026-05-11T10:19:06.291Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_16",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u2705 <strong>Payment Confirmed!</strong><br><br>\n          <div style=\"background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 15px; border-radius: 12px; margin: 10px 0;\">\n            <div style=\"display: flex; align-items-center;\">\n              <i class=\"fas fa-check-circle\" style=\"font-size: 20px; margin-right: 10px;\"></i>\n              <div style=\"font-size: 14px;\">\n                Great! Processing your payment now. Opening PayPal gateway...\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>",
+        "timestamp": "2026-05-11T10:19:06.291Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_17",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#1B5252;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Processing Payment</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: 4048.85</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u2728 Opening PayPal payment gateway...<br>\n          \ud83d\udd12 Secure payment processing<br>\n          \u26a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-05-11T10:19:06.291Z",
+        "messageType": "html"
+      }
+    ],
+    "conversation_context": {
+      "session_id": "session_1778494611829_wcuvojafi",
+      "conversation_history": [
+        {
+          "id": 1778494691176,
+          "timestamp": "2026-05-11T10:18:11.176Z",
+          "user": "show light",
+          "ai": {
+            "ai_response": "Here are some lighting options:\n\n*   **Home Design Mesen Pendant Light**: Elegant copper-tone pendant light with a warm teardrop silhouette. Price: $99.0\n*   **Home Design Bianco Pendant Light**: Classic clean white dome pendant light with a simple modern aesthetic. Price: $65.0\n*   **Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light**: DIY vintage-style clear glass pendant light with a classic silhouette. Price: $69.0\n*   **Home Design Bussi Concrete Pendant**: Modern industrial concrete pendant light with a sleek minimal finish. Price: $59.0\n*   **Mercator Madrid Glass Pendant Light**: Contemporary clear glass globe pendant with a brushed brass stem. Price: $90.0",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300017.jpg",
+                "payment_plans": [],
+                "price": 99,
+                "product_id": "300017",
+                "product_name": "Home Design Mesen Pendant Light",
+                "summary": "Elegant copper-tone pendant light with a warm teardrop silhouette"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300022.jpg",
+                "payment_plans": [],
+                "price": 65,
+                "product_id": "300022",
+                "product_name": "Home Design Bianco Pendant Light",
+                "summary": "Classic clean white dome pendant light with a simple modern aesthetic"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300002.jpg",
+                "payment_plans": [],
+                "price": 69,
+                "product_id": "300002",
+                "product_name": "Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light",
+                "summary": "DIY vintage-style clear glass pendant light with a classic silhouette"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300003.jpg",
+                "payment_plans": [],
+                "price": 59,
+                "product_id": "300003",
+                "product_name": "Home Design Bussi Concrete Pendant",
+                "summary": "Modern industrial concrete pendant light with a sleek minimal finish"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300007.jpg",
+                "payment_plans": [],
+                "price": 90,
+                "product_id": "300007",
+                "product_name": "Mercator Madrid Glass Pendant Light",
+                "summary": "Contemporary clear glass globe pendant with a brushed brass stem"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1778494611829_wcuvojafi",
+            "products": [
+              {
+                "product_id": "300017",
+                "product_name": "Home Design Mesen Pendant Light",
+                "price": 99,
+                "image_url": "/static/product_images/300017.jpg",
+                "summary": "Elegant copper-tone pendant light with a warm teardrop silhouette"
+              },
+              {
+                "product_id": "300022",
+                "product_name": "Home Design Bianco Pendant Light",
+                "price": 65,
+                "image_url": "/static/product_images/300022.jpg",
+                "summary": "Classic clean white dome pendant light with a simple modern aesthetic"
+              },
+              {
+                "product_id": "300002",
+                "product_name": "Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light",
+                "price": 69,
+                "image_url": "/static/product_images/300002.jpg",
+                "summary": "DIY vintage-style clear glass pendant light with a classic silhouette"
+              },
+              {
+                "product_id": "300003",
+                "product_name": "Home Design Bussi Concrete Pendant",
+                "price": 59,
+                "image_url": "/static/product_images/300003.jpg",
+                "summary": "Modern industrial concrete pendant light with a sleek minimal finish"
+              },
+              {
+                "product_id": "300007",
+                "product_name": "Mercator Madrid Glass Pendant Light",
+                "price": 90,
+                "image_url": "/static/product_images/300007.jpg",
+                "summary": "Contemporary clear glass globe pendant with a brushed brass stem"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300017",
+                "product_name": "Home Design Mesen Pendant Light",
+                "price": 99,
+                "image_url": "/static/product_images/300017.jpg",
+                "summary": "Elegant copper-tone pendant light with a warm teardrop silhouette"
+              },
+              {
+                "product_id": "300022",
+                "product_name": "Home Design Bianco Pendant Light",
+                "price": 65,
+                "image_url": "/static/product_images/300022.jpg",
+                "summary": "Classic clean white dome pendant light with a simple modern aesthetic"
+              },
+              {
+                "product_id": "300002",
+                "product_name": "Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light",
+                "price": 69,
+                "image_url": "/static/product_images/300002.jpg",
+                "summary": "DIY vintage-style clear glass pendant light with a classic silhouette"
+              },
+              {
+                "product_id": "300003",
+                "product_name": "Home Design Bussi Concrete Pendant",
+                "price": 59,
+                "image_url": "/static/product_images/300003.jpg",
+                "summary": "Modern industrial concrete pendant light with a sleek minimal finish"
+              },
+              {
+                "product_id": "300007",
+                "product_name": "Mercator Madrid Glass Pendant Light",
+                "price": 90,
+                "image_url": "/static/product_images/300007.jpg",
+                "summary": "Contemporary clear glass globe pendant with a brushed brass stem"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-05-11T10:18:11.177Z"
+          }
+        },
+        {
+          "id": 1778494703896,
+          "timestamp": "2026-05-11T10:18:23.896Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1778494611829_wcuvojafi",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1778494740482,
+          "timestamp": "2026-05-11T10:19:00.482Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1778494611829_wcuvojafi",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        }
+      ],
+      "last_products": [
+        {
+          "product_id": "300017",
+          "product_name": "Home Design Mesen Pendant Light",
+          "price": 99,
+          "image_url": "/static/product_images/300017.jpg",
+          "summary": "Elegant copper-tone pendant light with a warm teardrop silhouette"
+        },
+        {
+          "product_id": "300022",
+          "product_name": "Home Design Bianco Pendant Light",
+          "price": 65,
+          "image_url": "/static/product_images/300022.jpg",
+          "summary": "Classic clean white dome pendant light with a simple modern aesthetic"
+        },
+        {
+          "product_id": "300002",
+          "product_name": "Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light",
+          "price": 69,
+          "image_url": "/static/product_images/300002.jpg",
+          "summary": "DIY vintage-style clear glass pendant light with a classic silhouette"
+        },
+        {
+          "product_id": "300003",
+          "product_name": "Home Design Bussi Concrete Pendant",
+          "price": 59,
+          "image_url": "/static/product_images/300003.jpg",
+          "summary": "Modern industrial concrete pendant light with a sleek minimal finish"
+        },
+        {
+          "product_id": "300007",
+          "product_name": "Mercator Madrid Glass Pendant Light",
+          "price": 90,
+          "image_url": "/static/product_images/300007.jpg",
+          "summary": "Contemporary clear glass globe pendant with a brushed brass stem"
+        }
+      ],
+      "recent_displayed": [
+        {
+          "product_id": "300017",
+          "product_name": "Home Design Mesen Pendant Light",
+          "price": 99,
+          "image_url": "/static/product_images/300017.jpg",
+          "summary": "Elegant copper-tone pendant light with a warm teardrop silhouette"
+        },
+        {
+          "product_id": "300022",
+          "product_name": "Home Design Bianco Pendant Light",
+          "price": 65,
+          "image_url": "/static/product_images/300022.jpg",
+          "summary": "Classic clean white dome pendant light with a simple modern aesthetic"
+        },
+        {
+          "product_id": "300002",
+          "product_name": "Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light",
+          "price": 69,
+          "image_url": "/static/product_images/300002.jpg",
+          "summary": "DIY vintage-style clear glass pendant light with a classic silhouette"
+        },
+        {
+          "product_id": "300003",
+          "product_name": "Home Design Bussi Concrete Pendant",
+          "price": 59,
+          "image_url": "/static/product_images/300003.jpg",
+          "summary": "Modern industrial concrete pendant light with a sleek minimal finish"
+        },
+        {
+          "product_id": "300007",
+          "product_name": "Mercator Madrid Glass Pendant Light",
+          "price": 90,
+          "image_url": "/static/product_images/300007.jpg",
+          "summary": "Contemporary clear glass globe pendant with a brushed brass stem"
+        }
+      ],
+      "context": [
+        {
+          "user": "show light",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "300017",
+              "product_name": "Home Design Mesen Pendant Light",
+              "price": 99,
+              "image_url": "/static/product_images/300017.jpg",
+              "summary": "Elegant copper-tone pendant light with a warm teardrop silhouette"
+            },
+            {
+              "product_id": "300022",
+              "product_name": "Home Design Bianco Pendant Light",
+              "price": 65,
+              "image_url": "/static/product_images/300022.jpg",
+              "summary": "Classic clean white dome pendant light with a simple modern aesthetic"
+            },
+            {
+              "product_id": "300002",
+              "product_name": "Brilliant Bloomsbury 11.5cm DIY Vintage Style Glass Pendant Light",
+              "price": 69,
+              "image_url": "/static/product_images/300002.jpg",
+              "summary": "DIY vintage-style clear glass pendant light with a classic silhouette"
+            },
+            {
+              "product_id": "300003",
+              "product_name": "Home Design Bussi Concrete Pendant",
+              "price": 59,
+              "image_url": "/static/product_images/300003.jpg",
+              "summary": "Modern industrial concrete pendant light with a sleek minimal finish"
+            },
+            {
+              "product_id": "300007",
+              "product_name": "Mercator Madrid Glass Pendant Light",
+              "price": 90,
+              "image_url": "/static/product_images/300007.jpg",
+              "summary": "Contemporary clear glass globe pendant with a brushed brass stem"
+            }
+          ],
+          "type": "products_list"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": "2026-05-11T15:49:06.608049",
+    "session_id": "471e2e96-3390-456f-870e-289ffe1d76e7"
+  },
+  "result": {
+    "payment_id": "PAYID-NIA22HA3G391964RM988614H",
+    "payer_id": "YR6334H86TGYG",
+    "token": "EC-7WM75386VP847294R",
+    "order_result": {
+      "success": true,
+      "message": "Order BUN-285874 created successfully!",
+      "order_details": {
+        "order_id": "BUN-285874",
+        "customer_id": "abhijeet.maiskar@capgemini.com",
+        "order_date": "2026-05-11 15:49:26",
+        "total_price": 4048.85,
+        "status": "Open",
+        "items_count": 1,
+        "items": [
+          {
+            "line_item_id": 1,
+            "product_id": "300137",
+            "product_name": "Om System Om-3 Camera W 12-40mm F2.8 Pro Ii Lens",
+            "quantity": 1,
+            "unit_price": 4048.85,
+            "line_total": 4048.85,
+            "image_url": "/static/product_images/300137.jpg"
+          }
+        ]
+      }
+    },
+    "message": "Payment completed successfully!"
+  },
+  "updated_at": "2026-05-11T15:49:28.128570"
+}

@@ -1,0 +1,57 @@
+
+
+################################# Grocery/Beverages/SoftDrinks  Begins here ###################################################
+
+CATEGORY_ID,CATEGORY_NAME,PARENT_CATEGORY_ID
+400000,Grocery,
+600100,Beverages,400000
+600101,SoftDrinks,600100
+600102,Water,600100
+600103,Coffee,600100
+
+PRODUCT_ID,PRODUCT_NAME,BRAND,SUMMARY,PRICE,CATEGORY_IDS,IMAGE_URL
+610001,Cola Classic 12-Pack,RefreshCo,"Multipack cola beverage with a bold caramel flavor and smooth finish.",8.99,600101,https://images.unsplash.com/photo-1629203851122-3726ecdf080e?auto=format&fit=crop&w=800&q=80
+610002,Zero Sugar Cola,RefreshCo,"Diet cola with zero sugar and the classic cola taste.",1.99,600101,https://images.unsplash.com/photo-1581636625402-29b2a704ef13?auto=format&fit=crop&w=800&q=80
+610003,Lemon Lime Soda,SunnyFizz,"Crisp lemon-lime soft drink with refreshing citrus notes.",1.79,600101,https://images.unsplash.com/photo-1554866585-cd94860890b7?auto=format&fit=crop&w=800&q=80
+610004,Orange Spark Soda,CitrusRush,"Bright and bubbly orange-flavored soda made for everyday refreshment.",1.89,600101,https://images.unsplash.com/photo-1624517452488-04869289c4ca?auto=format&fit=crop&w=800&q=80
+610005,Ginger Ale Premium,GingerGold,"Smooth ginger ale with balanced sweetness and subtle spice.",2.19,600101,https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80
+610006,Root Beer Original,HeritageBrew,"Rich root beer featuring creamy vanilla and herbal flavors.",2.29,600101,https://images.unsplash.com/photo-1551024709-8f23befc6cf7?auto=format&fit=crop&w=800&q=80
+610007,Sparkling Berry Soda,NaturePop,"Soda alternative with berry flavors and light carbonation.",2.49,600101,https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=800&q=80
+610008,MultiServe Cola 2L,RefreshCo,"Large family-size cola bottle ideal for gatherings and parties.",2.99,600101,https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=800&q=80
+610009,Mandarin Orange Soda,CitrusRush,"Sweet mandarin orange soft drink with lively carbonation.",1.99,600101,https://images.unsplash.com/photo-1561758033-7e924f619b47?auto=format&fit=crop&w=800&q=80
+610010,Lemon Ginger Sparkler,NaturePop,"Soda alternative combining lemon brightness with ginger zest.",2.69,600101,https://images.unsplash.com/photo-1499638673689-79a0b5115d87?auto=format&fit=crop&w=800&q=80
+
+################################# Grocery/Beverages/SoftDrinks ends here ###################################################
+
+################################# Grocery/Beverages/Water Begins here ###################################################
+
+
+PRODUCT_ID,PRODUCT_NAME,BRAND,SUMMARY,PRICE,CATEGORY_IDS,IMAGE_URL
+620001,Spring Water 24-Pack,Crystal Springs,"Multipack natural spring water with a clean and refreshing taste.",7.99,600102,https://images.unsplash.com/photo-1560847468-5eef330f4559?auto=format&fit=crop&w=800&q=80
+620002,Purified Drinking Water 1L,AquaPure,"Purified water processed for consistent quality and freshness.",1.29,600102,https://images.unsplash.com/photo-1548839140-29a749e1cf4d?auto=format&fit=crop&w=800&q=80
+620003,Sparkling Mineral Water,Mountain Mist,"Naturally sparkling water with fine bubbles and crisp flavor.",1.89,600102,https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80
+620004,Soda Water Classic,BubbleFresh,"Carbonated soda water ideal for mixing or enjoying on its own.",1.59,600102,https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=800&q=80
+620005,Distilled Water 1 Gallon,PureDrop,"Steam-distilled water suitable for appliances and specialty uses.",2.49,600102,https://images.unsplash.com/photo-1564419320408-38e24e0383f4?auto=format&fit=crop&w=800&q=80
+620006,Lemon Enhanced Water,VitaBoost,"Purified water enhanced with natural lemon flavor and vitamins.",1.99,600102,https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80
+620007,Coconut Water Original,Tropical Harvest,"Refreshing coconut water with naturally occurring electrolytes.",2.79,600102,https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=800&q=80
+620008,Tonic Water Premium,Quinine Select,"Premium tonic water with balanced bitterness and carbonation.",1.79,600102,https://images.unsplash.com/photo-1551024709-8f23befc6cf7?auto=format&fit=crop&w=800&q=80
+620009,Seltzer Water Lime,SparkWave,"Calorie-free seltzer water infused with a hint of lime flavor.",1.69,600102,https://images.unsplash.com/photo-1499638673689-79a0b5115d87?auto=format&fit=crop&w=800&q=80
+620010,Family Size Purified Water 2L,AquaPure,"Multi-serve purified water bottle designed for family hydration.",1.99,600102,https://images.unsplash.com/photo-1560847468-5eef330f4559?auto=format&fit=crop&w=800&q=80
+
+################################# Grocery/Beverages/Water ends here ###################################################
+
+################################# Grocery/Beverages/Coffee Begins here ###################################################
+
+PRODUCT_ID,PRODUCT_NAME,BRAND,SUMMARY,PRICE,CATEGORY_IDS,IMAGE_URL
+630001,Classic Ground Coffee,RoastMaster,"Medium-roast ground coffee with a smooth and balanced flavor profile.",6.99,600103,https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80
+630002,Premium Colombian Ground Coffee,Highland Reserve,"Premium ground coffee made from carefully selected Colombian beans.",9.49,600103,https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=800&q=80
+630003,Coffee Pods Breakfast Blend,QuickBrew,"Single-serve coffee pods featuring a bright and smooth breakfast blend.",8.99,600103,https://images.unsplash.com/photo-1512568400610-62da28bc8a13?auto=format&fit=crop&w=800&q=80
+630004,Coffee Pods Dark Roast,QuickBrew,"Rich dark-roast coffee pods with bold flavor and aroma.",9.99,600103,https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80
+630005,Whole Bean Espresso Roast,BeanCraft,"Whole bean coffee roasted for espresso lovers seeking intense flavor.",11.99,600103,https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80
+630006,Organic Whole Bean Coffee,BeanCraft,"Organic whole bean coffee with notes of chocolate and nuts.",12.49,600103,https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=800&q=80
+630007,Vanilla Cold Coffee,ChillBrew,"Ready-to-drink cold coffee infused with creamy vanilla flavor.",3.29,600103,https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80
+630008,Mocha Cold Coffee,ChillBrew,"Refreshing cold coffee blended with rich chocolate mocha notes.",3.49,600103,https://images.unsplash.com/photo-1461988320302-91bde64fc8e4?auto=format&fit=crop&w=800&q=80
+630009,Hazelnut Coffee Creamer,Cream Delight,"Smooth coffee creamer with sweet hazelnut flavor for everyday use.",4.99,600103,https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80
+630010,Bulk Coffee Beans 2kg,RoastMaster,"Value-sized bulk pack of whole coffee beans for offices and cafes.",24.99,600103,https://images.unsplash.com/photo-1459755486867-b55449bb39ff?auto=format&fit=crop&w=800&q=80
+``
+################################# Grocery/Beverages/Coffee ends here ###################################################

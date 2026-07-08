@@ -1,0 +1,652 @@
+{
+  "session_id": "df248f3e-a601-4b1a-943e-10d597c652d9",
+  "status": "success",
+  "created_at": "2025-10-27T18:58:38.761528",
+  "payment_data": {
+    "customer_id": "william.hunter@pronto-hw.com",
+    "cart_items": [
+      {
+        "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTM1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE15OW9OMlF2T0RjNU5qWTRPVFkyTVRrNE1pNXFjR2N8MWI0MzAxM2MyMzU0MWM4MTg5ZGU1NzdmOTgwNDk5MjBjNjIwNTNhMDBkN2NlOGUwNDE0ZjhkNTkyMWVkYjZjNA",
+        "price": 89.06,
+        "product_id": "94462",
+        "product_name": "Bender Jacket                                              ",
+        "quantity": 1,
+        "addedAt": "2025-10-27T13:28:33.162Z"
+      }
+    ],
+    "total_amount": 89.06,
+    "chat_history": [
+      {
+        "id": "msg_0",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n                <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n                  <i class=\"fas fa-robot text-white text-sm\"></i>\n                </div>\n                <div>\n                  <p class=\"font-medium text-gray-800\">Hello! I'm your AI shopping assistant.</p>\n                  <p class=\"text-gray-600 text-sm mt-1\">How can I help you find the perfect products today?</p>\n                  <p class=\"text-gray-500 text-xs mt-2 italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>\n                    Note: Your cart will be cleared when you refresh the page.\n                  </p>\n                  <p class=\"text-purple-600 text-xs mt-1 font-medium\">\n                    <i class=\"fas fa-credit-card mr-1\"></i>\n                    Secure PayPal checkout available - your session will be maintained during payment!\n                  </p>\n                </div>\n              </div>",
+        "timestamp": "2025-10-27T13:28:38.750Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_1",
+        "sender": "user",
+        "message": "Show my orders",
+        "timestamp": "2025-10-27T13:28:38.750Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_2",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n    <div style=\"font-family: Arial, sans-serif; margin: 10px 0;\">\n        <h3 style=\"color: #667eea; margin-bottom: 15px;\">\n            <i class=\"fas fa-shopping-bag\"></i> Your Order History (3 orders)\n        </h3>\n        <table style=\"width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);\">\n            <thead>\n                <tr style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;\">\n                    <th style=\"padding: 12px; text-align: left; font-weight: 600;\">Order ID</th>\n                    <th style=\"padding: 12px; text-align: left; font-weight: 600;\">Product</th>\n                    <th style=\"padding: 12px; text-align: center; font-weight: 600;\">Image</th>\n                    <th style=\"padding: 12px; text-align: left; font-weight: 600;\">Date</th>\n                    <th style=\"padding: 12px; text-align: left; font-weight: 600;\">Status</th>\n                    <th style=\"padding: 12px; text-align: right; font-weight: 600;\">Price</th>\n                </tr>\n            </thead>\n            <tbody>\n    \n                <tr style=\"background: #ffffff; border-bottom: 1px solid #e5e7eb;\">\n                    <td style=\"padding: 12px; font-weight: 600; color: #667eea;\">#2024</td>\n                    <td style=\"padding: 12px; color: #374151;\">Del Chaos Tee SS Youth white L</td>\n                    <td style=\"padding: 12px; text-align: center;\">\n                        <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA\" alt=\"Del Chaos Tee SS Youth white L\" style=\"width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;\" onerror=\"this.src=&quot;https://via.placeholder.com/80&quot;\">\n                    </td>\n                    <td style=\"padding: 12px; color: #6b7280;\">2023-07-15</td>\n                    <td style=\"padding: 12px;\">\n                        <span style=\"background: #10b981; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;\">APPROVED</span>\n                    </td>\n                    <td style=\"padding: 12px; text-align: right; font-weight: 600; color: #10b981;\">\u00a326.20</td>\n                </tr>\n        \n                <tr style=\"background: #f9fafb; border-bottom: 1px solid #e5e7eb;\">\n                    <td style=\"padding: 12px; font-weight: 600; color: #667eea;\">#2028</td>\n                    <td style=\"padding: 12px; color: #374151;\">Del Chaos Tee SS Youth white L</td>\n                    <td style=\"padding: 12px; text-align: center;\">\n                        <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA\" alt=\"Del Chaos Tee SS Youth white L\" style=\"width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;\" onerror=\"this.src=&quot;https://via.placeholder.com/80&quot;\">\n                    </td>\n                    <td style=\"padding: 12px; color: #6b7280;\">2022-06-18</td>\n                    <td style=\"padding: 12px;\">\n                        <span style=\"background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;\">OPEN</span>\n                    </td>\n                    <td style=\"padding: 12px; text-align: right; font-weight: 600; color: #10b981;\">\u00a326.20</td>\n                </tr>\n        \n                <tr style=\"background: #ffffff; border-bottom: 1px solid #e5e7eb;\">\n                    <td style=\"padding: 12px; font-weight: 600; color: #667eea;\">#2026</td>\n                    <td style=\"padding: 12px; color: #374151;\">Del Chaos Tee SS Youth white L</td>\n                    <td style=\"padding: 12px; text-align: center;\">\n                        <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA\" alt=\"Del Chaos Tee SS Youth white L\" style=\"width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;\" onerror=\"this.src=&quot;https://via.placeholder.com/80&quot;\">\n                    </td>\n                    <td style=\"padding: 12px; color: #6b7280;\">2020-07-22</td>\n                    <td style=\"padding: 12px;\">\n                        <span style=\"background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;\">READY</span>\n                    </td>\n                    <td style=\"padding: 12px; text-align: right; font-weight: 600; color: #10b981;\">\u00a354.51</td>\n                </tr>\n        \n            </tbody>\n        </table>\n    </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2025-10-27T13:28:38.750Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_3",
+        "sender": "user",
+        "message": "show me jackets",
+        "timestamp": "2025-10-27T13:28:38.750Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_4",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"bg-gradient-to-br from-purple-50 via-white to-pink-50 rounded-3xl p-6 border border-purple-100\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs px-3 py-1 rounded-full\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white/70 backdrop-blur-sm rounded-full px-4 py-2 border border-purple-200 flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-purple-500 text-sm\"></i>\n                <span class=\"text-sm font-semibold text-purple-600\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1761571690554\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/trench-coat.jpg?context=bWFzdGVyfHJvb3R8MjIxMDB8aW1hZ2UvanBlZ3xhRFptTDJnMVlTODROemszTnpjNU9UVXhOalEyTG1wd1p3fGIyNTc5ODEyNmU1ZGYzOTEyNjA1YTE0NGM3ZDFkMzExNDE0MjMxOWE0OTBkNTk4OGFjOTM0MTI3ZWJkNzRjYzc\" alt=\"Trench Coat\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Trench Coat</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">A timeless and elegant trench coat</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a3650.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY\" alt=\"Leather Jacket\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Leather Jacket</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">A classic leather jacket that offers a stylish and edgy look</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a3999.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDU1N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnME9TOW9NbVV2T0RjNU5qWTRNRGd4TkRZeU1pNXFjR2N8YWJjZTY5NmZmOGMwODA0NjI4OWRjZjRmNDQ0MDU2ZWNmODE2YzlmNTlhYjc2ZjY0MTY0NjIxZGNmZWVlYjMwYg\" alt=\"Beacon Jacket\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Beacon Jacket</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a3101.21</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTUxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek15OW9Oek12T0RjNU5qWTRNelF6TmpBMk1pNXFjR2N8ZjRmOGIxMzEzZjBiOGRlZGRhZDg4YmNkZTA5MGFmNWM5NmQwNjEyNzExNjQxNGJjNWJjMTIyNzcxNzhjNDJlYQ\" alt=\"Trenchtown Jacket\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Trenchtown Jacket</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">So stylish and so cool - the Trenchtown jacket by Special Blend.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a380.96</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTM1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE15OW9OMlF2T0RjNU5qWTRPVFkyTVRrNE1pNXFjR2N8MWI0MzAxM2MyMzU0MWM4MTg5ZGU1NzdmOTgwNDk5MjBjNjIwNTNhMDBkN2NlOGUwNDE0ZjhkNTkyMWVkYjZjNA\" alt=\"Bender Jacket\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Bender Jacket</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a389.06</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2025-10-27T13:28:38.750Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_5",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2025-10-27T13:28:38.750Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_6",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n        <div class=\"bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4\" id=\"chat-cart-container\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart text-purple-500 mr-2\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold\" id=\"chat-cart-count\"><i class=\"fas fa-shopping-cart mr-1\"></i>1 item</div>\n            </div>\n            \n            <div id=\"chat-cart-items\" class=\"space-y-3 mb-4\">\n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3 flex-1\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTM1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE15OW9OMlF2T0RjNU5qWTRPVFkyTVRrNE1pNXFjR2N8MWI0MzAxM2MyMzU0MWM4MTg5ZGU1NzdmOTgwNDk5MjBjNjIwNTNhMDBkN2NlOGUwNDE0ZjhkNTkyMWVkYjZjNA\" alt=\"Bender Jacket                                              \" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1 min-w-0\">\n            <h4 class=\"font-semibold text-gray-800 text-sm truncate\">Bender Jacket                                              </h4>\n            <p class=\"text-xs text-gray-500 mt-1\">\u00a389.06 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 bg-purple-100 text-purple-800 rounded-full min-w-[2rem] text-center\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right ml-4\">\n          <p class=\"text-lg font-bold text-purple-600\">\u00a389.06</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    </div>\n            \n            <div id=\"chat-cart-footer\" class=\"border-t border-purple-200 pt-4\">\n                <div class=\"flex items-center justify-between mb-4\">\n                    <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                    <span class=\"text-2xl font-bold text-purple-600\" id=\"chat-cart-total\">\u00a389.06</span>\n                </div>\n                \n                <div class=\"text-center space-x-2\">\n                    <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-sync-alt mr-2\"></i>Refresh Cart\n                    </button>\n                    <button  class=\"bg-gradient-to-r hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl from-orange-500 to-yellow-500\" disabled=\"\"><i class=\"fas fa-spinner fa-spin mr-2\"></i>Preparing PayPal...</button>\n                </div>\n                \n                <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" onload=\"(function(){setTimeout(function(){if(typeof renderChatCart === &quot;function&quot;){console.log(&quot;\ud83d\uded2 Auto-triggering renderChatCart via image onload&quot;);renderChatCart();}},100);})()\" style=\"display:none;\">\n        \n        </div>\n      </div>",
+        "timestamp": "2025-10-27T13:28:38.750Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_7",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Ready for Checkout</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: \u00a389.06</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u2728 Opening PayPal payment gateway...<br>\n          \ud83d\udd12 Secure payment processing<br>\n          \u26a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2025-10-27T13:28:38.750Z",
+        "messageType": "html"
+      }
+    ],
+    "conversation_context": {
+      "session_id": "session_1761542676596_n93alvpl9",
+      "conversation_history": [
+        {
+          "id": 1761561467768,
+          "timestamp": "2025-10-27T10:37:47.768Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761561497864,
+          "timestamp": "2025-10-27T10:38:17.864Z",
+          "user": "show me sungleasses",
+          "ai": {
+            "response": "I'm sorry, I couldn't find any products matching \"sungleasses\". Please try using different keywords or check your spelling.\n        "
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761561512316,
+          "timestamp": "2025-10-27T10:38:32.316Z",
+          "user": "show me sunglasess",
+          "ai": {
+            "response": "I'm sorry, I couldn't find any products matching \"sunglasess\". Please try using different keywords or check your spelling.\n        "
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761561537147,
+          "timestamp": "2025-10-27T10:38:57.147Z",
+          "user": "show me sunglasses",
+          "ai": {
+            "response": "Here are some sunglasses I found:\n\n*   **Shades Anon Legion crystal & black grey**: A stylish pair of Anon Legion sunglasses in a plaid style.\n*   **Shades Anon Crusher polar black grey polarized**: These Anon sunglasses offer excellent eye protection in sunny conditions.\n*   **Shades Anon Allie brown tortoise brown**: Built to last, these Anon sunglasses feature stainless steel hinges, durable acetate frames, and scratch-resistant lenses.\n*   **Shades Quiksilver Dinero black white red grey**: Quiksilver Dinero sunglasses with 100% UV protection, an acetate frame, and polycarbonate lenses.\n*   **Shades Women Roxy Minx black sig grey GR**: Roxy sunglasses with 100% UV protection, a propionate frame, and de-centered polycarbonate lenses.\n\nWould you like to refine your search or see more options?\n        PRODUCT_CONTEXT_DATA: [{'product_id': '300044623', 'product_name': 'Shades Anon Legion crystal & black grey', 'summary': 'Anon Legion Sunglasses in a plaid style.', 'price': 39.06, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Njg2fGltYWdlL2pwZWd8YVcxaFoyVnpMMmd4WkM5b016Y3ZPRGM1TmpZME9UVTFNemsxTUM1cWNHY3wyYTYzZjE3ODk2ZDM4MWY1MGY3MDU4OTAwNzE3YTUwZWYwZjdiMWIwNDJmN2NlMzdiNjQ5MmM2OGU2NTA4ZmFk', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}, {'product_id': '300047436', 'product_name': 'Shades Anon Crusher polar black grey polarized', 'summary': 'Everbody nows tha ANON designs super nice goggles But since a while they also have extremly good looking sunglasses. To prodect your eyes everywhere in the sunshine.', 'price': 84.96, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w1OTE3fGltYWdlL2pwZWd8YVcxaFoyVnpMMmhqTUM5b05XRXZPRGM1TmpZMU1ESTNORGcwTmk1cWNHY3w3Mzg1NWVkMTdjYzQ0MTI3ZGU0MmFmZDQzZjQwMmYxMjNiOGYzZGNmY2VjZmUzMDAxZThiMDIyZmNhYjZkZTMy', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}, {'product_id': '300044624', 'product_name': 'Shades Anon Allie brown tortoise brown', 'summary': 'Anon built the Allie Sunglasses to last. They combined stainless steel hinges durable acetate frames and scratch-resistant lenses to ensure they can take hard use.', 'price': 15.26, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MTIxfGltYWdlL2pwZWd8YVcxaFoyVnpMMmd6Tnk5b01UZ3ZPRGM1TmpZME9UWXhPVFE0Tmk1cWNHY3xkMTY4NWIxOTg1MjdjNjgwNzRmMmM3YTEzMmY2YTYwMjdhYmIzZDIzMThiNjVkMGEyY2M4ZWQyZTM1MWZhNGYx', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}, {'product_id': '300045375', 'product_name': 'Shades Quiksilver Dinero black white red grey', 'summary': \"The Quiksilver Dinero sunglasses are from Quik's fashion range.These great Quiksilver sunnies provide 100% u.v. protection and an acetate frame.The Dinero shades from Quiksilver have polycarbonate lenses and high quality Italian hinges.\", 'price': 67.96, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3MDk5fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1Wmk5b1pqY3ZPRGM1TmpZME9UWTROVEF5TWk1cWNHY3wwZThkZjAyZDEwNGMxNjU2NzU4MWY4N2QwOTAwMjE5OGQyYjZmNzdhYzAwMjY3YzM4MDRhYzlhMDA5ZGExNGVj', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}, {'product_id': '300047196', 'product_name': 'Shades Women Roxy Minx black sig grey GR', 'summary': 'Roxy Sunglasses with 100% UV protection propionate frame and polycarbonate de-centered lenses.', 'price': 84.96, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3NTI2fGltYWdlL2pwZWd8YVcxaFoyVnpMMmhtTnk5b016WXZPRGM1TmpZMU1ERTBNemMzTkM1cWNHY3wxODliYmE4M2U0NmQ2MjJiOWM2YmI2NDMyNjFhZmEwZmUxZDc4NGUzMGI5MWM3MDJjOWFkOGFiN2YzODc5Mzcz', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}]\n        \n        [STRUCTURED_PRODUCTS: [{\"product_id\": \"300044623\", \"product_name\": \"Shades Anon Legion crystal & black grey\", \"summary\": \"Anon Legion Sunglasses in a plaid style.\", \"price\": 39.06, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Njg2fGltYWdlL2pwZWd8YVcxaFoyVnpMMmd4WkM5b016Y3ZPRGM1TmpZME9UVTFNemsxTUM1cWNHY3wyYTYzZjE3ODk2ZDM4MWY1MGY3MDU4OTAwNzE3YTUwZWYwZjdiMWIwNDJmN2NlMzdiNjQ5MmM2OGU2NTA4ZmFk\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}, {\"product_id\": \"300047436\", \"product_name\": \"Shades Anon Crusher polar black grey polarized\", \"summary\": \"Everbody nows tha ANON designs super nice goggles But since a while they also have extremly good looking sunglasses. To prodect your eyes everywhere in the sunshine.\", \"price\": 84.96, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w1OTE3fGltYWdlL2pwZWd8YVcxaFoyVnpMMmhqTUM5b05XRXZPRGM1TmpZMU1ESTNORGcwTmk1cWNHY3w3Mzg1NWVkMTdjYzQ0MTI3ZGU0MmFmZDQzZjQwMmYxMjNiOGYzZGNmY2VjZmUzMDAxZThiMDIyZmNhYjZkZTMy\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}, {\"product_id\": \"300044624\", \"product_name\": \"Shades Anon Allie brown tortoise brown\", \"summary\": \"Anon built the Allie Sunglasses to last. They combined stainless steel hinges durable acetate frames and scratch-resistant lenses to ensure they can take hard use.\", \"price\": 15.26, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MTIxfGltYWdlL2pwZWd8YVcxaFoyVnpMMmd6Tnk5b01UZ3ZPRGM1TmpZME9UWXhPVFE0Tmk1cWNHY3xkMTY4NWIxOTg1MjdjNjgwNzRmMmM3YTEzMmY2YTYwMjdhYmIzZDIzMThiNjVkMGEyY2M4ZWQyZTM1MWZhNGYx\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}, {\"product_id\": \"300045375\", \"product_name\": \"Shades Quiksilver Dinero black white red grey\", \"summary\": \"The Quiksilver Dinero sunglasses are from Quik's fashion range.These great Quiksilver sunnies provide 100% u.v. protection and an acetate frame.The Dinero shades from Quiksilver have polycarbonate lenses and high quality Italian hinges.\", \"price\": 67.96, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3MDk5fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1Wmk5b1pqY3ZPRGM1TmpZME9UWTROVEF5TWk1cWNHY3wwZThkZjAyZDEwNGMxNjU2NzU4MWY4N2QwOTAwMjE5OGQyYjZmNzdhYzAwMjY3YzM4MDRhYzlhMDA5ZGExNGVj\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}, {\"product_id\": \"300047196\", \"product_name\": \"Shades Women Roxy Minx black sig grey GR\", \"summary\": \"Roxy Sunglasses with 100% UV protection propionate frame and polycarbonate de-centered lenses.\", \"price\": 84.96, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3NTI2fGltYWdlL2pwZWd8YVcxaFoyVnpMMmhtTnk5b016WXZPRGM1TmpZMU1ERTBNemMzTkM1cWNHY3wxODliYmE4M2U0NmQ2MjJiOWM2YmI2NDMyNjFhZmEwZmUxZDc4NGUzMGI5MWM3MDJjOWFkOGFiN2YzODc5Mzcz\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}]]\n        "
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761561581435,
+          "timestamp": "2025-10-27T10:39:41.435Z",
+          "user": "looking for sunglasses",
+          "ai": {
+            "ai_response": "<tool_code\nprint(default_api.ai_semantic_product_search(query='sunglasses'))",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Njg2fGltYWdlL2pwZWd8YVcxaFoyVnpMMmd4WkM5b016Y3ZPRGM1TmpZME9UVTFNemsxTUM1cWNHY3wyYTYzZjE3ODk2ZDM4MWY1MGY3MDU4OTAwNzE3YTUwZWYwZjdiMWIwNDJmN2NlMzdiNjQ5MmM2OGU2NTA4ZmFk",
+                "price": 39.06,
+                "product_id": "300044623",
+                "product_name": "Shades Anon Legion crystal & black grey",
+                "summary": "Anon Legion Sunglasses in a plaid style."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w1OTE3fGltYWdlL2pwZWd8YVcxaFoyVnpMMmhqTUM5b05XRXZPRGM1TmpZMU1ESTNORGcwTmk1cWNHY3w3Mzg1NWVkMTdjYzQ0MTI3ZGU0MmFmZDQzZjQwMmYxMjNiOGYzZGNmY2VjZmUzMDAxZThiMDIyZmNhYjZkZTMy",
+                "price": 84.96,
+                "product_id": "300047436",
+                "product_name": "Shades Anon Crusher polar black grey polarized",
+                "summary": "Everbody nows tha ANON designs super nice goggles But since a while they also have extremly good looking sunglasses. To prodect your eyes everywhere in the sunshine."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MTIxfGltYWdlL2pwZWd8YVcxaFoyVnpMMmd6Tnk5b01UZ3ZPRGM1TmpZME9UWXhPVFE0Tmk1cWNHY3xkMTY4NWIxOTg1MjdjNjgwNzRmMmM3YTEzMmY2YTYwMjdhYmIzZDIzMThiNjVkMGEyY2M4ZWQyZTM1MWZhNGYx",
+                "price": 15.26,
+                "product_id": "300044624",
+                "product_name": "Shades Anon Allie brown tortoise brown",
+                "summary": "Anon built the Allie Sunglasses to last. They combined stainless steel hinges durable acetate frames and scratch-resistant lenses to ensure they can take hard use."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3MDk5fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1Wmk5b1pqY3ZPRGM1TmpZME9UWTROVEF5TWk1cWNHY3wwZThkZjAyZDEwNGMxNjU2NzU4MWY4N2QwOTAwMjE5OGQyYjZmNzdhYzAwMjY3YzM4MDRhYzlhMDA5ZGExNGVj",
+                "price": 67.96,
+                "product_id": "300045375",
+                "product_name": "Shades Quiksilver Dinero black white red grey",
+                "summary": "The Quiksilver Dinero sunglasses are from Quik's fashion range.These great Quiksilver sunnies provide 100% u.v. protection and an acetate frame.The Dinero shades from Quiksilver have polycarbonate lenses and high quality Italian hinges."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3NTI2fGltYWdlL2pwZWd8YVcxaFoyVnpMMmhtTnk5b016WXZPRGM1TmpZMU1ERTBNemMzTkM1cWNHY3wxODliYmE4M2U0NmQ2MjJiOWM2YmI2NDMyNjFhZmEwZmUxZDc4NGUzMGI5MWM3MDJjOWFkOGFiN2YzODc5Mzcz",
+                "price": 84.96,
+                "product_id": "300047196",
+                "product_name": "Shades Women Roxy Minx black sig grey GR",
+                "summary": "Roxy Sunglasses with 100% UV protection propionate frame and polycarbonate de-centered lenses."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [
+              {
+                "product_id": "300044623",
+                "product_name": "Shades Anon Legion crystal & black grey",
+                "price": 39.06,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Njg2fGltYWdlL2pwZWd8YVcxaFoyVnpMMmd4WkM5b016Y3ZPRGM1TmpZME9UVTFNemsxTUM1cWNHY3wyYTYzZjE3ODk2ZDM4MWY1MGY3MDU4OTAwNzE3YTUwZWYwZjdiMWIwNDJmN2NlMzdiNjQ5MmM2OGU2NTA4ZmFk",
+                "summary": "Anon Legion Sunglasses in a plaid style."
+              },
+              {
+                "product_id": "300047436",
+                "product_name": "Shades Anon Crusher polar black grey polarized",
+                "price": 84.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w1OTE3fGltYWdlL2pwZWd8YVcxaFoyVnpMMmhqTUM5b05XRXZPRGM1TmpZMU1ESTNORGcwTmk1cWNHY3w3Mzg1NWVkMTdjYzQ0MTI3ZGU0MmFmZDQzZjQwMmYxMjNiOGYzZGNmY2VjZmUzMDAxZThiMDIyZmNhYjZkZTMy",
+                "summary": "Everbody nows tha ANON designs super nice goggles But since a while they also have extremly good looking sunglasses. To prodect your eyes everywhere in the sunshine."
+              },
+              {
+                "product_id": "300044624",
+                "product_name": "Shades Anon Allie brown tortoise brown",
+                "price": 15.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MTIxfGltYWdlL2pwZWd8YVcxaFoyVnpMMmd6Tnk5b01UZ3ZPRGM1TmpZME9UWXhPVFE0Tmk1cWNHY3xkMTY4NWIxOTg1MjdjNjgwNzRmMmM3YTEzMmY2YTYwMjdhYmIzZDIzMThiNjVkMGEyY2M4ZWQyZTM1MWZhNGYx",
+                "summary": "Anon built the Allie Sunglasses to last. They combined stainless steel hinges durable acetate frames and scratch-resistant lenses to ensure they can take hard use."
+              },
+              {
+                "product_id": "300045375",
+                "product_name": "Shades Quiksilver Dinero black white red grey",
+                "price": 67.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3MDk5fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1Wmk5b1pqY3ZPRGM1TmpZME9UWTROVEF5TWk1cWNHY3wwZThkZjAyZDEwNGMxNjU2NzU4MWY4N2QwOTAwMjE5OGQyYjZmNzdhYzAwMjY3YzM4MDRhYzlhMDA5ZGExNGVj",
+                "summary": "The Quiksilver Dinero sunglasses are from Quik's fashion range.These great Quiksilver sunnies provide 100% u.v. protection and an acetate frame.The Dinero shades from Quiksilver have polycarbonate lenses and high quality Italian hinges."
+              },
+              {
+                "product_id": "300047196",
+                "product_name": "Shades Women Roxy Minx black sig grey GR",
+                "price": 84.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3NTI2fGltYWdlL2pwZWd8YVcxaFoyVnpMMmhtTnk5b016WXZPRGM1TmpZMU1ERTBNemMzTkM1cWNHY3wxODliYmE4M2U0NmQ2MjJiOWM2YmI2NDMyNjFhZmEwZmUxZDc4NGUzMGI5MWM3MDJjOWFkOGFiN2YzODc5Mzcz",
+                "summary": "Roxy Sunglasses with 100% UV protection propionate frame and polycarbonate de-centered lenses."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300044623",
+                "product_name": "Shades Anon Legion crystal & black grey",
+                "price": 39.06,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Njg2fGltYWdlL2pwZWd8YVcxaFoyVnpMMmd4WkM5b016Y3ZPRGM1TmpZME9UVTFNemsxTUM1cWNHY3wyYTYzZjE3ODk2ZDM4MWY1MGY3MDU4OTAwNzE3YTUwZWYwZjdiMWIwNDJmN2NlMzdiNjQ5MmM2OGU2NTA4ZmFk",
+                "summary": "Anon Legion Sunglasses in a plaid style."
+              },
+              {
+                "product_id": "300047436",
+                "product_name": "Shades Anon Crusher polar black grey polarized",
+                "price": 84.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w1OTE3fGltYWdlL2pwZWd8YVcxaFoyVnpMMmhqTUM5b05XRXZPRGM1TmpZMU1ESTNORGcwTmk1cWNHY3w3Mzg1NWVkMTdjYzQ0MTI3ZGU0MmFmZDQzZjQwMmYxMjNiOGYzZGNmY2VjZmUzMDAxZThiMDIyZmNhYjZkZTMy",
+                "summary": "Everbody nows tha ANON designs super nice goggles But since a while they also have extremly good looking sunglasses. To prodect your eyes everywhere in the sunshine."
+              },
+              {
+                "product_id": "300044624",
+                "product_name": "Shades Anon Allie brown tortoise brown",
+                "price": 15.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MTIxfGltYWdlL2pwZWd8YVcxaFoyVnpMMmd6Tnk5b01UZ3ZPRGM1TmpZME9UWXhPVFE0Tmk1cWNHY3xkMTY4NWIxOTg1MjdjNjgwNzRmMmM3YTEzMmY2YTYwMjdhYmIzZDIzMThiNjVkMGEyY2M4ZWQyZTM1MWZhNGYx",
+                "summary": "Anon built the Allie Sunglasses to last. They combined stainless steel hinges durable acetate frames and scratch-resistant lenses to ensure they can take hard use."
+              },
+              {
+                "product_id": "300045375",
+                "product_name": "Shades Quiksilver Dinero black white red grey",
+                "price": 67.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3MDk5fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1Wmk5b1pqY3ZPRGM1TmpZME9UWTROVEF5TWk1cWNHY3wwZThkZjAyZDEwNGMxNjU2NzU4MWY4N2QwOTAwMjE5OGQyYjZmNzdhYzAwMjY3YzM4MDRhYzlhMDA5ZGExNGVj",
+                "summary": "The Quiksilver Dinero sunglasses are from Quik's fashion range.These great Quiksilver sunnies provide 100% u.v. protection and an acetate frame.The Dinero shades from Quiksilver have polycarbonate lenses and high quality Italian hinges."
+              },
+              {
+                "product_id": "300047196",
+                "product_name": "Shades Women Roxy Minx black sig grey GR",
+                "price": 84.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3NTI2fGltYWdlL2pwZWd8YVcxaFoyVnpMMmhtTnk5b016WXZPRGM1TmpZMU1ERTBNemMzTkM1cWNHY3wxODliYmE4M2U0NmQ2MjJiOWM2YmI2NDMyNjFhZmEwZmUxZDc4NGUzMGI5MWM3MDJjOWFkOGFiN2YzODc5Mzcz",
+                "summary": "Roxy Sunglasses with 100% UV protection propionate frame and polycarbonate de-centered lenses."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2025-10-27T10:39:41.438Z"
+          }
+        },
+        {
+          "id": 1761561592605,
+          "timestamp": "2025-10-27T10:39:52.605Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761571530852,
+          "timestamp": "2025-10-27T13:25:30.852Z",
+          "user": "show my orders",
+          "ai": {
+            "response": "\n    <div style='font-family: Arial, sans-serif; margin: 10px 0;'>\n        <h3 style='color: #667eea; margin-bottom: 15px;'>\n            <i class='fas fa-shopping-bag'></i> Your Order History (7 orders)\n        </h3>\n        <table style='width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);'>\n            <thead>\n                <tr style='background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;'>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Order ID</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Product</th>\n                    <th style='padding: 12px; text-align: center; font-weight: 600;'>Image</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Date</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Status</th>\n                    <th style='padding: 12px; text-align: right; font-weight: 600;'>Price</th>\n                </tr>\n            </thead>\n            <tbody>\n    \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#1021</td>\n                    <td style='padding: 12px; color: #374151;'>The Vega Women                                             </td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMjY1MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnellTOW9aR0l2T0RjNU5qZzFORGd4TWpjd01pNXFjR2N8MGVkOTQzOWE3YTA0MzJhNGQ4NGJmMWJlM2M2NWQyYWJhNzM4NTAxNmY4MDI3NmMyNjk1NTAzMDc3MTA0Y2FhZA' alt='The Vega Women                                             ' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2025-10-26 18:08:45</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>Open</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a3202.46</td>\n                </tr>\n        \n                <tr style='background: #f9fafb; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#9847</td>\n                    <td style='padding: 12px; color: #374151;'>Panorama Pants Women                                       </td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNjY3NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1pOW9aRGt2T0RjNU5qZzFNamcwTmpZeU1pNXFjR2N8MTk3NTAxNDExMmRkM2MzZTMzNjBkNDQ1YjgxMjI5ODA3MzE0YTc0ZTgyM2RlZGQ2MWUzNzc5ODQxYTE1YzJhMg' alt='Panorama Pants Women                                       ' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2025-10-24 16:57:29</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>Open</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a3153.86</td>\n                </tr>\n        \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2458</td>\n                    <td style='padding: 12px; color: #374151;'>Tabloid Jacket Women                                       </td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODUxM3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1lpOW9NREF2T0RjNU5qZ3dOamszTVRReU1pNXFjR2N8ZjNjNjc2MTA5NjZmZGE0Y2U0N2QzZTZiZTcxNzliYmRkZjMwNjMzOWU2ZTEwZjM0ZjY0NzZhMDBmMjQ0YjI2Nw' alt='Tabloid Jacket Women                                       ' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2025-10-17 17:12:17</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>Open</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a352.61</td>\n                </tr>\n        \n                <tr style='background: #f9fafb; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2030</td>\n                    <td style='padding: 12px; color: #374151;'>5 Pocket Freedom Pant burnt greens M</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNjIxMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNU1pOW9abVV2T0RjNU5qYzJOalkyTmpjNE1pNXFjR2N8ODRmMjYyZWVkN2QxMzE5MzllODE2YWE3OThiOTk1NTVkMWViNTY0ZDFlNTk0OTAyYWVhYjM2Njg1YTE1M2E0OQ' alt='5 Pocket Freedom Pant burnt greens M' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2024-01-29</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>OPEN</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a3103.15</td>\n                </tr>\n        \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2024</td>\n                    <td style='padding: 12px; color: #374151;'>Del Chaos Tee SS Youth white L</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA' alt='Del Chaos Tee SS Youth white L' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2023-07-15</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #10b981; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>APPROVED</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a326.20</td>\n                </tr>\n        \n                <tr style='background: #f9fafb; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2028</td>\n                    <td style='padding: 12px; color: #374151;'>Del Chaos Tee SS Youth white L</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA' alt='Del Chaos Tee SS Youth white L' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2022-06-18</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>OPEN</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a326.20</td>\n                </tr>\n        \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2026</td>\n                    <td style='padding: 12px; color: #374151;'>Del Chaos Tee SS Youth white L</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA' alt='Del Chaos Tee SS Youth white L' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2020-07-22</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>READY</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a354.51</td>\n                </tr>\n        \n            </tbody>\n        </table>\n    </div>\n    "
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761571663106,
+          "timestamp": "2025-10-27T13:27:43.106Z",
+          "user": "Show my orders",
+          "ai": {
+            "response": "\n    <div style='font-family: Arial, sans-serif; margin: 10px 0;'>\n        <h3 style='color: #667eea; margin-bottom: 15px;'>\n            <i class='fas fa-shopping-bag'></i> Your Order History (3 orders)\n        </h3>\n        <table style='width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);'>\n            <thead>\n                <tr style='background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;'>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Order ID</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Product</th>\n                    <th style='padding: 12px; text-align: center; font-weight: 600;'>Image</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Date</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Status</th>\n                    <th style='padding: 12px; text-align: right; font-weight: 600;'>Price</th>\n                </tr>\n            </thead>\n            <tbody>\n    \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2024</td>\n                    <td style='padding: 12px; color: #374151;'>Del Chaos Tee SS Youth white L</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA' alt='Del Chaos Tee SS Youth white L' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2023-07-15</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #10b981; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>APPROVED</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a326.20</td>\n                </tr>\n        \n                <tr style='background: #f9fafb; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2028</td>\n                    <td style='padding: 12px; color: #374151;'>Del Chaos Tee SS Youth white L</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA' alt='Del Chaos Tee SS Youth white L' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2022-06-18</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>OPEN</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a326.20</td>\n                </tr>\n        \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2026</td>\n                    <td style='padding: 12px; color: #374151;'>Del Chaos Tee SS Youth white L</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA' alt='Del Chaos Tee SS Youth white L' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2020-07-22</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>READY</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a354.51</td>\n                </tr>\n        \n            </tbody>\n        </table>\n    </div>\n    "
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761571690553,
+          "timestamp": "2025-10-27T13:28:10.553Z",
+          "user": "show me jackets",
+          "ai": {
+            "ai_response": "I don't see any recent product searches in our conversation. Please search for products first (like 'show me tshirts' or 'find jackets'), then I can show you any available offers or promotions for those products.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/trench-coat.jpg?context=bWFzdGVyfHJvb3R8MjIxMDB8aW1hZ2UvanBlZ3xhRFptTDJnMVlTODROemszTnpjNU9UVXhOalEyTG1wd1p3fGIyNTc5ODEyNmU1ZGYzOTEyNjA1YTE0NGM3ZDFkMzExNDE0MjMxOWE0OTBkNTk4OGFjOTM0MTI3ZWJkNzRjYzc",
+                "price": 650,
+                "product_id": "0031-1",
+                "product_name": "Trench Coat",
+                "summary": "A timeless and elegant trench coat"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY",
+                "price": 999,
+                "product_id": "0032-1",
+                "product_name": "Leather Jacket",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDU1N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnME9TOW9NbVV2T0RjNU5qWTRNRGd4TkRZeU1pNXFjR2N8YWJjZTY5NmZmOGMwODA0NjI4OWRjZjRmNDQ0MDU2ZWNmODE2YzlmNTlhYjc2ZjY0MTY0NjIxZGNmZWVlYjMwYg",
+                "price": 101.21,
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTUxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek15OW9Oek12T0RjNU5qWTRNelF6TmpBMk1pNXFjR2N8ZjRmOGIxMzEzZjBiOGRlZGRhZDg4YmNkZTA5MGFmNWM5NmQwNjEyNzExNjQxNGJjNWJjMTIyNzcxNzhjNDJlYQ",
+                "price": 80.96,
+                "product_id": "94474",
+                "product_name": "Trenchtown Jacket",
+                "summary": "So stylish and so cool - the Trenchtown jacket by Special Blend."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTM1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE15OW9OMlF2T0RjNU5qWTRPVFkyTVRrNE1pNXFjR2N8MWI0MzAxM2MyMzU0MWM4MTg5ZGU1NzdmOTgwNDk5MjBjNjIwNTNhMDBkN2NlOGUwNDE0ZjhkNTkyMWVkYjZjNA",
+                "price": 89.06,
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [
+              {
+                "product_id": "0031-1",
+                "product_name": "Trench Coat",
+                "price": 650,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/trench-coat.jpg?context=bWFzdGVyfHJvb3R8MjIxMDB8aW1hZ2UvanBlZ3xhRFptTDJnMVlTODROemszTnpjNU9UVXhOalEyTG1wd1p3fGIyNTc5ODEyNmU1ZGYzOTEyNjA1YTE0NGM3ZDFkMzExNDE0MjMxOWE0OTBkNTk4OGFjOTM0MTI3ZWJkNzRjYzc",
+                "summary": "A timeless and elegant trench coat"
+              },
+              {
+                "product_id": "0032-1",
+                "product_name": "Leather Jacket",
+                "price": 999,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 101.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDU1N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnME9TOW9NbVV2T0RjNU5qWTRNRGd4TkRZeU1pNXFjR2N8YWJjZTY5NmZmOGMwODA0NjI4OWRjZjRmNDQ0MDU2ZWNmODE2YzlmNTlhYjc2ZjY0MTY0NjIxZGNmZWVlYjMwYg",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              },
+              {
+                "product_id": "94474",
+                "product_name": "Trenchtown Jacket",
+                "price": 80.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTUxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek15OW9Oek12T0RjNU5qWTRNelF6TmpBMk1pNXFjR2N8ZjRmOGIxMzEzZjBiOGRlZGRhZDg4YmNkZTA5MGFmNWM5NmQwNjEyNzExNjQxNGJjNWJjMTIyNzcxNzhjNDJlYQ",
+                "summary": "So stylish and so cool - the Trenchtown jacket by Special Blend."
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTM1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE15OW9OMlF2T0RjNU5qWTRPVFkyTVRrNE1pNXFjR2N8MWI0MzAxM2MyMzU0MWM4MTg5ZGU1NzdmOTgwNDk5MjBjNjIwNTNhMDBkN2NlOGUwNDE0ZjhkNTkyMWVkYjZjNA",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "0031-1",
+                "product_name": "Trench Coat",
+                "price": 650,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/trench-coat.jpg?context=bWFzdGVyfHJvb3R8MjIxMDB8aW1hZ2UvanBlZ3xhRFptTDJnMVlTODROemszTnpjNU9UVXhOalEyTG1wd1p3fGIyNTc5ODEyNmU1ZGYzOTEyNjA1YTE0NGM3ZDFkMzExNDE0MjMxOWE0OTBkNTk4OGFjOTM0MTI3ZWJkNzRjYzc",
+                "summary": "A timeless and elegant trench coat"
+              },
+              {
+                "product_id": "0032-1",
+                "product_name": "Leather Jacket",
+                "price": 999,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 101.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDU1N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnME9TOW9NbVV2T0RjNU5qWTRNRGd4TkRZeU1pNXFjR2N8YWJjZTY5NmZmOGMwODA0NjI4OWRjZjRmNDQ0MDU2ZWNmODE2YzlmNTlhYjc2ZjY0MTY0NjIxZGNmZWVlYjMwYg",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              },
+              {
+                "product_id": "94474",
+                "product_name": "Trenchtown Jacket",
+                "price": 80.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTUxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek15OW9Oek12T0RjNU5qWTRNelF6TmpBMk1pNXFjR2N8ZjRmOGIxMzEzZjBiOGRlZGRhZDg4YmNkZTA5MGFmNWM5NmQwNjEyNzExNjQxNGJjNWJjMTIyNzcxNzhjNDJlYQ",
+                "summary": "So stylish and so cool - the Trenchtown jacket by Special Blend."
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTM1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE15OW9OMlF2T0RjNU5qWTRPVFkyTVRrNE1pNXFjR2N8MWI0MzAxM2MyMzU0MWM4MTg5ZGU1NzdmOTgwNDk5MjBjNjIwNTNhMDBkN2NlOGUwNDE0ZjhkNTkyMWVkYjZjNA",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2025-10-27T13:28:10.554Z"
+          }
+        },
+        {
+          "id": 1761571716561,
+          "timestamp": "2025-10-27T13:28:36.561Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        }
+      ],
+      "last_products": [
+        {
+          "product_id": "0031-1",
+          "product_name": "Trench Coat",
+          "price": 650,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/trench-coat.jpg?context=bWFzdGVyfHJvb3R8MjIxMDB8aW1hZ2UvanBlZ3xhRFptTDJnMVlTODROemszTnpjNU9UVXhOalEyTG1wd1p3fGIyNTc5ODEyNmU1ZGYzOTEyNjA1YTE0NGM3ZDFkMzExNDE0MjMxOWE0OTBkNTk4OGFjOTM0MTI3ZWJkNzRjYzc",
+          "summary": "A timeless and elegant trench coat"
+        },
+        {
+          "product_id": "0032-1",
+          "product_name": "Leather Jacket",
+          "price": 999,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY",
+          "summary": "A classic leather jacket that offers a stylish and edgy look"
+        },
+        {
+          "product_id": "100191",
+          "product_name": "Beacon Jacket",
+          "price": 101.21,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDU1N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnME9TOW9NbVV2T0RjNU5qWTRNRGd4TkRZeU1pNXFjR2N8YWJjZTY5NmZmOGMwODA0NjI4OWRjZjRmNDQ0MDU2ZWNmODE2YzlmNTlhYjc2ZjY0MTY0NjIxZGNmZWVlYjMwYg",
+          "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+        },
+        {
+          "product_id": "94474",
+          "product_name": "Trenchtown Jacket",
+          "price": 80.96,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTUxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek15OW9Oek12T0RjNU5qWTRNelF6TmpBMk1pNXFjR2N8ZjRmOGIxMzEzZjBiOGRlZGRhZDg4YmNkZTA5MGFmNWM5NmQwNjEyNzExNjQxNGJjNWJjMTIyNzcxNzhjNDJlYQ",
+          "summary": "So stylish and so cool - the Trenchtown jacket by Special Blend."
+        },
+        {
+          "product_id": "94462",
+          "product_name": "Bender Jacket",
+          "price": 89.06,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTM1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE15OW9OMlF2T0RjNU5qWTRPVFkyTVRrNE1pNXFjR2N8MWI0MzAxM2MyMzU0MWM4MTg5ZGU1NzdmOTgwNDk5MjBjNjIwNTNhMDBkN2NlOGUwNDE0ZjhkNTkyMWVkYjZjNA",
+          "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+        }
+      ],
+      "recent_displayed": [
+        {
+          "product_id": "0031-1",
+          "product_name": "Trench Coat",
+          "price": 650,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/trench-coat.jpg?context=bWFzdGVyfHJvb3R8MjIxMDB8aW1hZ2UvanBlZ3xhRFptTDJnMVlTODROemszTnpjNU9UVXhOalEyTG1wd1p3fGIyNTc5ODEyNmU1ZGYzOTEyNjA1YTE0NGM3ZDFkMzExNDE0MjMxOWE0OTBkNTk4OGFjOTM0MTI3ZWJkNzRjYzc",
+          "summary": "A timeless and elegant trench coat"
+        },
+        {
+          "product_id": "0032-1",
+          "product_name": "Leather Jacket",
+          "price": 999,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY",
+          "summary": "A classic leather jacket that offers a stylish and edgy look"
+        },
+        {
+          "product_id": "100191",
+          "product_name": "Beacon Jacket",
+          "price": 101.21,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDU1N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnME9TOW9NbVV2T0RjNU5qWTRNRGd4TkRZeU1pNXFjR2N8YWJjZTY5NmZmOGMwODA0NjI4OWRjZjRmNDQ0MDU2ZWNmODE2YzlmNTlhYjc2ZjY0MTY0NjIxZGNmZWVlYjMwYg",
+          "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+        },
+        {
+          "product_id": "94474",
+          "product_name": "Trenchtown Jacket",
+          "price": 80.96,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTUxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek15OW9Oek12T0RjNU5qWTRNelF6TmpBMk1pNXFjR2N8ZjRmOGIxMzEzZjBiOGRlZGRhZDg4YmNkZTA5MGFmNWM5NmQwNjEyNzExNjQxNGJjNWJjMTIyNzcxNzhjNDJlYQ",
+          "summary": "So stylish and so cool - the Trenchtown jacket by Special Blend."
+        },
+        {
+          "product_id": "94462",
+          "product_name": "Bender Jacket",
+          "price": 89.06,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTM1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE15OW9OMlF2T0RjNU5qWTRPVFkyTVRrNE1pNXFjR2N8MWI0MzAxM2MyMzU0MWM4MTg5ZGU1NzdmOTgwNDk5MjBjNjIwNTNhMDBkN2NlOGUwNDE0ZjhkNTkyMWVkYjZjNA",
+          "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+        }
+      ],
+      "context": [
+        {
+          "user": "Show my orders",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        },
+        {
+          "user": "show me jackets",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "0031-1",
+              "product_name": "Trench Coat",
+              "price": 650,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/trench-coat.jpg?context=bWFzdGVyfHJvb3R8MjIxMDB8aW1hZ2UvanBlZ3xhRFptTDJnMVlTODROemszTnpjNU9UVXhOalEyTG1wd1p3fGIyNTc5ODEyNmU1ZGYzOTEyNjA1YTE0NGM3ZDFkMzExNDE0MjMxOWE0OTBkNTk4OGFjOTM0MTI3ZWJkNzRjYzc",
+              "summary": "A timeless and elegant trench coat"
+            },
+            {
+              "product_id": "0032-1",
+              "product_name": "Leather Jacket",
+              "price": 999,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY",
+              "summary": "A classic leather jacket that offers a stylish and edgy look"
+            },
+            {
+              "product_id": "100191",
+              "product_name": "Beacon Jacket",
+              "price": 101.21,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDU1N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnME9TOW9NbVV2T0RjNU5qWTRNRGd4TkRZeU1pNXFjR2N8YWJjZTY5NmZmOGMwODA0NjI4OWRjZjRmNDQ0MDU2ZWNmODE2YzlmNTlhYjc2ZjY0MTY0NjIxZGNmZWVlYjMwYg",
+              "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+            },
+            {
+              "product_id": "94474",
+              "product_name": "Trenchtown Jacket",
+              "price": 80.96,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTUxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek15OW9Oek12T0RjNU5qWTRNelF6TmpBMk1pNXFjR2N8ZjRmOGIxMzEzZjBiOGRlZGRhZDg4YmNkZTA5MGFmNWM5NmQwNjEyNzExNjQxNGJjNWJjMTIyNzcxNzhjNDJlYQ",
+              "summary": "So stylish and so cool - the Trenchtown jacket by Special Blend."
+            },
+            {
+              "product_id": "94462",
+              "product_name": "Bender Jacket",
+              "price": 89.06,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTM1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE15OW9OMlF2T0RjNU5qWTRPVFkyTVRrNE1pNXFjR2N8MWI0MzAxM2MyMzU0MWM4MTg5ZGU1NzdmOTgwNDk5MjBjNjIwNTNhMDBkN2NlOGUwNDE0ZjhkNTkyMWVkYjZjNA",
+              "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+            }
+          ],
+          "type": "products_list"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": "2025-10-27T18:58:38.761286",
+    "session_id": "df248f3e-a601-4b1a-943e-10d597c652d9"
+  },
+  "result": {
+    "payment_id": "PAYID-ND7XHCY2XU36707AX5533306",
+    "payer_id": "4KMQMCK8GJXF4",
+    "token": "EC-30F01728VD7720334",
+    "order_result": {
+      "success": true,
+      "message": "Order #8280 created successfully!",
+      "order_details": {
+        "order_id": "8280",
+        "customer_id": "william.hunter@pronto-hw.com",
+        "order_date": "2025-10-27 18:59:10",
+        "total_price": 89.06,
+        "status": "Open",
+        "items_count": 1,
+        "items": [
+          {
+            "order_id": "8280",
+            "product_id": "94462",
+            "product_name": "Bender Jacket                                              ",
+            "price": 89.06,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "message": "Payment completed successfully!"
+  },
+  "updated_at": "2025-10-27T18:59:10.943782"
+}

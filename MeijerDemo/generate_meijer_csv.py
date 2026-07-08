@@ -1,0 +1,709 @@
+import csv
+import os
+
+OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "data")
+
+# ─── CATEGORIES ────────────────────────────────────────────────────────────────
+# Deduplicated, ordered, with PARENT_CATEGORY_ID ("" = root)
+categories = [
+    # ── Root ──────────────────────────────────────────────────
+    ("300000", "Grocery",               ""),          # Frozen tree root
+    ("400000", "Grocery",               ""),          # All-other tree root
+
+    # ── Frozen ────────────────────────────────────────────────
+    ("300100", "Frozen",                "300000"),
+    ("300101", "Ice Cream",             "300100"),
+    ("300200", "Frozen Meals",          "300100"),
+    ("333300", "Frozen Pizzas",         "300100"),
+    ("300201", "Multi-Serve Meals",     "300200"),
+    ("300202", "Single-Serve Meals",    "300200"),
+    ("300203", "Skillet Meals",         "300200"),
+    ("300204", "International Meals",   "300200"),
+    ("300205", "Pot Pies",              "300200"),
+    ("300206", "Healthy Living",        "300200"),
+    ("300207", "Burritos & Taquitos",   "300200"),
+    ("300208", "Pocket & Sandwiches",   "300200"),
+    ("300209", "Kids Meals",            "300200"),
+
+    # ── Snacks ────────────────────────────────────────────────
+    ("400100", "Snacks",                "400000"),
+    ("400101", "Chips",                 "400100"),
+    ("400102", "Crackers",              "400100"),
+    ("400103", "Cookies",               "400100"),
+
+    # ── Bakery ────────────────────────────────────────────────
+    ("700100", "Bakery",                "400000"),
+    ("700101", "Bread",                 "700100"),
+    ("700102", "Custom Cakes",          "700100"),
+
+    # ── Beverages ─────────────────────────────────────────────
+    ("600100", "Beverages",             "400000"),
+    ("600101", "Soft Drinks",           "600100"),
+    ("600102", "Water",                 "600100"),
+    ("600103", "Coffee",                "600100"),
+
+    # ── Cereal & Breakfast ────────────────────────────────────
+    ("700200", "Cereal & Breakfast",    "400000"),
+
+    # ── Dairy ─────────────────────────────────────────────────
+    ("400200", "Dairy",                 "400000"),
+    ("400201", "Milk",                  "400200"),
+    ("400202", "Yogurt",                "400200"),
+    ("400203", "Cheese",                "400200"),
+    ("400204", "Shredded Cheese",       "400203"),
+    ("400205", "Chunk Cheese",          "400203"),
+    ("400206", "Sliced Cheese",         "400203"),
+    ("400207", "Snacking Cheese",       "400203"),
+    ("400208", "Cream Cheese",          "400203"),
+    ("400209", "Specialty Cheese",      "400203"),
+    ("400210", "Non-Dairy Cheese",      "400203"),
+    ("400211", "Shelf Stable Cheese",   "400203"),
+]
+
+# ─── PRODUCTS ──────────────────────────────────────────────────────────────────
+# Columns: PRODUCT_ID, PRODUCT_NAME, BRAND, SUMMARY, PRICE, CATEGORY_IDS, IMAGE_URL
+products = [
+
+    # ════════════════════════════════════════════════════════════════════════════
+    # ICE CREAM  (300101)
+    # ════════════════════════════════════════════════════════════════════════════
+    ("200001", "Premium Vanilla Ice Cream",        "Häagen-Dazs",
+     "Rich and creamy vanilla ice cream made with real Madagascar vanilla beans.",
+     "4.99", "300101", "/static/images/200001.jpg"),
+
+    ("200002", "Chocolate Ice Cream Pints",        "Ben & Jerry's",
+     "Decadent chocolate ice cream in a convenient pint-sized container.",
+     "5.49", "300101", "/static/images/200002.jpg"),
+
+    ("200003", "Dairy-Free Almond Milk Ice Cream", "So Delicious",
+     "Smooth and creamy dairy-free ice cream made with almond milk. Ideal for lactose-intolerant.",
+     "6.99", "300101", "/static/images/200003.jpg"),
+
+    ("200004", "Strawberry Ice Pops",              "Popsicle",
+     "Refreshing strawberry-flavored ice pops made with real fruit puree.",
+     "3.99", "300101", "/static/images/200004.jpg"),
+
+    ("200005", "Ice Cream Sandwiches",             "Nestlé",
+     "Classic vanilla ice cream sandwiched between two chocolate wafers.",
+     "4.49", "300101", "/static/images/200005.jpg"),
+
+    ("200006", "Mango Sorbet",                     "Talenti",
+     "Tangy and sweet mango sorbet with no artificial flavors or colors.",
+     "5.99", "300101", "/static/images/200006.jpg"),
+
+    ("200007", "Frozen Yogurt Vanilla",            "Yoplait",
+     "Low-fat vanilla frozen yogurt with live and active cultures.",
+     "4.79", "300101", "/static/images/200007.jpg"),
+
+    ("200008", "Party Size Cookie Dough Ice Cream","Ben & Jerry's",
+     "A family-sized tub of cookie dough ice cream with chunks of real cookie dough.",
+     "8.99", "300101", "/static/images/200008.jpg"),
+
+    ("200009", "Waffle Cones & Toppings Kit",      "Joy",
+     "Pack of 6 waffle cones with chocolate syrup, sprinkles, and crushed nuts.",
+     "6.49", "300101", "/static/images/200009.jpg"),
+
+    # ════════════════════════════════════════════════════════════════════════════
+    # FROZEN MEALS  (300201-300209)
+    # ════════════════════════════════════════════════════════════════════════════
+    ("400001", "Family-Size Lasagna",              "Stouffer's",
+     "A hearty multi-serve lasagna with layers of pasta, cheese, and meat sauce.",
+     "9.99", "300201", "/static/images/400001.jpg"),
+
+    ("400002", "Chicken Alfredo Single-Serve",     "Lean Cuisine",
+     "Creamy chicken alfredo in a single-serve microwaveable tray.",
+     "4.99", "300202", "/static/images/400002.jpg"),
+
+    ("400003", "Beef & Vegetable Skillet Meal",    "Banquet",
+     "Pre-cooked beef and vegetables for a quick skillet meal.",
+     "7.99", "300203", "/static/images/400003.jpg"),
+
+    ("400004", "Chicken Tikka Masala",             "Deep Indian Kitchen",
+     "Authentic Indian-style chicken tikka masala, ready to heat and serve.",
+     "8.49", "300204", "/static/images/400004.jpg"),
+
+    ("400005", "Chicken Pot Pie",                  "Marie Callender's",
+     "Flaky crust filled with creamy chicken and vegetable filling.",
+     "5.99", "300205", "/static/images/400005.jpg"),
+
+    ("400006", "Grilled Chicken Healthy Living Meal", "Amy's",
+     "Low-calorie meal with grilled chicken, quinoa, and steamed vegetables.",
+     "6.99", "300206", "/static/images/400006.jpg"),
+
+    ("400007", "Chicken & Cheese Taquitos",        "El Monterey",
+     "Crispy taquitos filled with seasoned chicken and cheese.",
+     "3.99", "300207", "/static/images/400007.jpg"),
+
+    ("400008", "Chicken & Cheese Pocket Sandwich", "Hot Pockets",
+     "Toastable pocket sandwich with chicken and cheese filling.",
+     "4.49", "300208", "/static/images/400008.jpg"),
+
+    ("400009", "Chicken Nuggets Kids Meal",        "Tyson",
+     "Kid-friendly meal with breaded chicken nuggets and fries.",
+     "2.99", "300209", "/static/images/400009.jpg"),
+
+    # ════════════════════════════════════════════════════════════════════════════
+    # FROZEN PIZZA  (333300)
+    # ════════════════════════════════════════════════════════════════════════════
+    ("500001", "Single Serve Pizza",               "Red Baron",
+     "A single-serve pizza with pepperoni and cheese, perfect for one person.",
+     "2.99", "333300", "/static/images/500001.jpg"),
+
+    ("500002", "Pizza Snacks",                     "Totino's",
+     "Bite-sized pizza snacks with pepperoni and cheese filling.",
+     "4.49", "333300", "/static/images/500002.jpg"),
+
+    ("500003", "Pepperoni Pizza",                  "DiGiorno",
+     "Classic pepperoni pizza with a crispy crust and melted mozzarella cheese.",
+     "7.99", "333300", "/static/images/500003.jpg"),
+
+    ("500004", "Meat Pizza",                       "Tombstone",
+     "Loaded with sausage, pepperoni, bacon, and ham on a thick crust.",
+     "8.99", "333300", "/static/images/500004.jpg"),
+
+    ("500005", "Supreme Pizza",                    "Jack's",
+     "Topped with pepperoni, sausage, mushrooms, onions, and green peppers.",
+     "9.99", "333300", "/static/images/500005.jpg"),
+
+    ("500006", "Cheese Pizza",                     "Screamin' Sicilian",
+     "A four-cheese blend pizza with a crispy, foldable crust.",
+     "6.99", "333300", "/static/images/500006.jpg"),
+
+    ("500007", "Veggie Pizza",                     "Amy's",
+     "Made with organic vegetables, including bell peppers, onions, and olives.",
+     "8.49", "333300", "/static/images/500007.jpg"),
+
+    # ════════════════════════════════════════════════════════════════════════════
+    # CHIPS  (400101)
+    # ════════════════════════════════════════════════════════════════════════════
+    ("500101", "Potato Chips Classic",             "Lay's",
+     "Thinly sliced and lightly salted for a crisp, traditional taste.",
+     "2.99", "400101", "/static/images/500101.jpg"),
+
+    ("500102", "Flavored Tortilla Chips Nacho Cheese", "Doritos",
+     "Bold and zesty nacho cheese seasoning on crispy tortilla chips.",
+     "3.49", "400101", "/static/images/500102.jpg"),
+
+    ("500103", "Tortilla Chips Restaurant Style",  "Tostitos",
+     "Thick-cut tortilla chips with a sturdy crunch, perfect for dipping.",
+     "2.79", "400101", "/static/images/500103.jpg"),
+
+    ("500104", "Kettle Chips Sea Salt",            "Kettle Brand",
+     "Hand-cooked in small batches for a thick, crunchy texture with sea salt.",
+     "3.99", "400101", "/static/images/500104.jpg"),
+
+    ("500105", "Corn Chips Original",              "Fritos",
+     "Light and airy corn chips with a classic salty flavor.",
+     "2.49", "400101", "/static/images/500105.jpg"),
+
+    ("500106", "Baked Veggie Straws",              "Good Health",
+     "Crispy baked straws made from real vegetables, lower in fat.",
+     "3.29", "400101", "/static/images/500106.jpg"),
+
+    ("500107", "Mild Salsa Dip",                   "Tostitos",
+     "Smooth and mild tomato salsa, perfect for dipping chips.",
+     "2.99", "400101", "/static/images/500107.jpg"),
+
+    ("500108", "Uncle Chips Classic Salted",       "Uncle Chips",
+     "Traditional potato chips with a classic salted flavor.",
+     "2.29", "400101", "/static/images/500108.jpg"),
+
+    ("500109", "Pringles Original",                "Pringles",
+     "Stackable potato crisps with a light, salty flavor.",
+     "3.49", "400101", "/static/images/500109.jpg"),
+
+    ("500110", "Lays Classic",                     "Lay's",
+     "Lightly salted potato chips with a crispy texture.",
+     "2.99", "400101", "/static/images/500110.jpg"),
+
+    # ════════════════════════════════════════════════════════════════════════════
+    # CRACKERS  (400102)
+    # ════════════════════════════════════════════════════════════════════════════
+    ("500011", "Cheese Crackers",                  "Pepperidge Farm",
+     "Buttery, crisp crackers with a rich cheddar flavor.",
+     "3.29", "400102", "/static/images/500011.jpg"),
+
+    ("500012", "Classic Crackers",                 "Ritz",
+     "Light, crisp, and slightly salty crackers for everyday snacking.",
+     "2.49", "400102", "/static/images/500012.jpg"),
+
+    ("500013", "Wheat & Grain Crackers",           "Triscuit",
+     "Whole grain crackers with a nutty, hearty flavor.",
+     "3.49", "400102", "/static/images/500013.jpg"),
+
+    ("500014", "Sandwich Crackers",                "Cheez-It",
+     "Mini cracker sandwiches with a creamy peanut butter filling.",
+     "3.99", "400102", "/static/images/500014.jpg"),
+
+    ("500015", "Saltines",                         "Premium",
+     "Lightly salted, thin, and crisp crackers for soups or snacking.",
+     "2.29", "400102", "/static/images/500015.jpg"),
+
+    ("500016", "Better for You Crackers",          "Mary's Gone Crackers",
+     "Whole wheat crackers with reduced sodium and no artificial flavors.",
+     "3.79", "400102", "/static/images/500016.jpg"),
+
+    ("500017", "Graham Crackers",                  "Honey Maid",
+     "Sweet, honey-flavored crackers perfect for snacking or s'mores.",
+     "2.99", "400102", "/static/images/500017.jpg"),
+
+    ("500018", "Rice Crackers",                    "Kallo",
+     "Light and crispy rice-based crackers with a delicate texture.",
+     "2.79", "400102", "/static/images/500018.jpg"),
+
+    ("500019", "Multigrain Crackers",              "Triscuit",
+     "Hearty crackers made with a blend of whole grains and seeds.",
+     "3.49", "400102", "/static/images/500019.jpg"),
+
+    ("500020", "Gluten-Free Crackers",             "Simple Mills",
+     "Crispy crackers made with gluten-free ingredients like rice and quinoa.",
+     "3.99", "400102", "/static/images/500020.jpg"),
+
+    # ════════════════════════════════════════════════════════════════════════════
+    # COOKIES  (400103)
+    # ════════════════════════════════════════════════════════════════════════════
+    ("500021", "Chocolate Chip Cookies",           "Nestlé Toll House",
+     "Classic semi-sweet chocolate chip cookies with a soft, chewy texture.",
+     "3.49", "400103", "/static/images/500021.jpg"),
+
+    ("500022", "Sandwich Cookies",                 "Oreo",
+     "Chocolate sandwich cookies with a creamy vanilla filling.",
+     "3.99", "400103", "/static/images/500022.jpg"),
+
+    ("500023", "Bakery Cookies",                   "Famous Amos",
+     "Fresh-baked style chocolate chip cookies with a rich, buttery flavor.",
+     "4.29", "400103", "/static/images/500023.jpg"),
+
+    ("500024", "Specialty Cookies",                "Pepperidge Farm",
+     "Gourmet cookies with premium ingredients like dark chocolate and sea salt.",
+     "4.99", "400103", "/static/images/500024.jpg"),
+
+    ("500025", "Wafer Cookies",                    "Pirouline",
+     "Thin, crispy wafer cookies rolled into a light, airy shape.",
+     "3.79", "400103", "/static/images/500025.jpg"),
+
+    ("500026", "Oatmeal Raisin Cookies",           "Quaker",
+     "Chewy oatmeal cookies packed with plump raisins and whole grain oats.",
+     "3.29", "400103", "/static/images/500026.jpg"),
+
+    ("500027", "Sugar Cookies",                    "Mrs. Fields",
+     "Soft, buttery sugar cookies with a hint of vanilla.",
+     "3.99", "400103", "/static/images/500027.jpg"),
+
+    ("500028", "Peanut Butter Cookies",            "Keebler",
+     "Rich peanut butter cookies with a crisscross pattern.",
+     "3.49", "400103", "/static/images/500028.jpg"),
+
+    ("500029", "Shortbread Cookies",               "Walker's",
+     "Buttery, crumbly shortbread cookies with a melt-in-your-mouth texture.",
+     "3.79", "400103", "/static/images/500029.jpg"),
+
+    ("500030", "Gluten-Free Cookies",              "Tate's Bake Shop",
+     "Crispy, gluten-free cookies made with rice flour and natural ingredients.",
+     "4.49", "400103", "/static/images/500030.jpg"),
+
+    # ════════════════════════════════════════════════════════════════════════════
+    # BREAD  (700101)
+    # ════════════════════════════════════════════════════════════════════════════
+    ("710001", "Classic White Bread",              "Golden Oven",
+     "Soft and fluffy sliced white bread ideal for sandwiches and toast.",
+     "2.49", "700101", "/static/images/710001.jpg"),
+
+    ("710002", "Enriched White Sandwich Bread",    "Daily Fresh",
+     "Freshly baked white bread with a light texture and mild flavor.",
+     "2.79", "700101", "/static/images/710002.jpg"),
+
+    ("710003", "Whole Wheat Bread",                "Nature's Grain",
+     "Made with whole wheat flour for a hearty taste and texture.",
+     "3.29", "700101", "/static/images/710003.jpg"),
+
+    ("710004", "100% Whole Wheat Bread",           "Farm Harvest",
+     "Nutritious whole wheat bread baked with premium grains.",
+     "3.49", "700101", "/static/images/710004.jpg"),
+
+    ("710005", "White Bread Family Loaf",          "Golden Oven",
+     "Large white bread loaf perfect for family meals and sandwiches.",
+     "3.99", "700101", "/static/images/710005.jpg"),
+
+    ("710006", "Honey Wheat Bread",                "Harvest Gold",
+     "Soft wheat bread sweetened with a touch of honey.",
+     "3.79", "700101", "/static/images/710006.jpg"),
+
+    ("710007", "White Bread Thick Slice",          "Daily Fresh",
+     "Thick-cut white bread designed for premium sandwiches and toast.",
+     "2.99", "700101", "/static/images/710007.jpg"),
+
+    ("710008", "Stone Ground Wheat Bread",         "Nature's Grain",
+     "Wheat bread crafted from stone-ground grains for rich flavor.",
+     "3.99", "700101", "/static/images/710008.jpg"),
+
+    ("710009", "White Bread Value Pack",           "Family Bakehouse",
+     "Economical double loaf pack of classic white bread.",
+     "4.99", "700101", "/static/images/710009.jpg"),
+
+    ("710010", "Whole Wheat Sandwich Bread",       "Farm Harvest",
+     "Wholesome wheat bread with a soft texture for everyday sandwiches.",
+     "3.59", "700101", "/static/images/710010.jpg"),
+
+    # ════════════════════════════════════════════════════════════════════════════
+    # CUSTOM CAKES  (700102)
+    # ════════════════════════════════════════════════════════════════════════════
+    ("720001", "Vanilla Celebration Cake",         "Sweet Moments",
+     "Custom vanilla-flavored cake with smooth buttercream frosting and decorative finish.",
+     "24.99", "700102", "/static/images/720001.jpg"),
+
+    ("720002", "Classic Vanilla Birthday Cake",    "Bake Studio",
+     "Moist vanilla sponge cake customized for birthdays and special occasions.",
+     "27.99", "700102", "/static/images/720002.jpg"),
+
+    ("720003", "Vanilla Buttercream Layer Cake",   "Cake Creations",
+     "Three-layer vanilla cake filled and topped with rich buttercream icing.",
+     "29.99", "700102", "/static/images/720003.jpg"),
+
+    ("720004", "Vanilla Sheet Cake",               "Sweet Moments",
+     "Large vanilla sheet cake ideal for office parties and family gatherings.",
+     "34.99", "700102", "/static/images/720004.jpg"),
+
+    ("720005", "Vanilla Floral Designer Cake",     "Cake Creations",
+     "Custom vanilla cake decorated with elegant floral piping and accents.",
+     "39.99", "700102", "/static/images/720005.jpg"),
+
+    ("720006", "Vanilla Celebration Round Cake",   "Bake Studio",
+     "Traditional round vanilla cake with personalized message options.",
+     "26.99", "700102", "/static/images/720006.jpg"),
+
+    ("720007", "Premium Vanilla Party Cake",       "Golden Bakery",
+     "Premium vanilla-flavored cake crafted for celebrations and events.",
+     "42.99", "700102", "/static/images/720007.jpg"),
+
+    ("720008", "Vanilla Kids Theme Cake",          "Sweet Moments",
+     "Custom vanilla cake designed with colorful decorations for children's parties.",
+     "44.99", "700102", "/static/images/720008.jpg"),
+
+    ("720009", "Vanilla Anniversary Cake",         "Cake Creations",
+     "Elegant vanilla cake personalized for anniversaries and milestones.",
+     "36.99", "700102", "/static/images/720009.jpg"),
+
+    ("720010", "Vanilla Custom Photo Cake",        "Bake Studio",
+     "Vanilla cake featuring an edible custom photo topping for special events.",
+     "49.99", "700102", "/static/images/720010.jpg"),
+
+    # ════════════════════════════════════════════════════════════════════════════
+    # SOFT DRINKS  (600101)
+    # ════════════════════════════════════════════════════════════════════════════
+    ("610001", "Cola Classic 12-Pack",             "RefreshCo",
+     "Multipack cola beverage with a bold caramel flavor and smooth finish.",
+     "8.99", "600101", "/static/images/610001.jpg"),
+
+    ("610002", "Zero Sugar Cola",                  "RefreshCo",
+     "Diet cola with zero sugar and the classic cola taste.",
+     "1.99", "600101", "/static/images/610002.jpg"),
+
+    ("610003", "Lemon Lime Soda",                  "SunnyFizz",
+     "Crisp lemon-lime soft drink with refreshing citrus notes.",
+     "1.79", "600101", "/static/images/610003.jpg"),
+
+    ("610004", "Orange Spark Soda",                "CitrusRush",
+     "Bright and bubbly orange-flavored soda made for everyday refreshment.",
+     "1.89", "600101", "/static/images/610004.jpg"),
+
+    ("610005", "Ginger Ale Premium",               "GingerGold",
+     "Smooth ginger ale with balanced sweetness and subtle spice.",
+     "2.19", "600101", "/static/images/610005.jpg"),
+
+    ("610006", "Root Beer Original",               "HeritageBrew",
+     "Rich root beer featuring creamy vanilla and herbal flavors.",
+     "2.29", "600101", "/static/images/610006.jpg"),
+
+    ("610007", "Sparkling Berry Soda",             "NaturePop",
+     "Soda alternative with berry flavors and light carbonation.",
+     "2.49", "600101", "/static/images/610007.jpg"),
+
+    ("610008", "MultiServe Cola 2L",               "RefreshCo",
+     "Large family-size cola bottle ideal for gatherings and parties.",
+     "2.99", "600101", "/static/images/610008.jpg"),
+
+    ("610009", "Mandarin Orange Soda",             "CitrusRush",
+     "Sweet mandarin orange soft drink with lively carbonation.",
+     "1.99", "600101", "/static/images/610009.jpg"),
+
+    ("610010", "Lemon Ginger Sparkler",            "NaturePop",
+     "Soda alternative combining lemon brightness with ginger zest.",
+     "2.69", "600101", "/static/images/610010.jpg"),
+
+    # ════════════════════════════════════════════════════════════════════════════
+    # WATER  (600102)
+    # ════════════════════════════════════════════════════════════════════════════
+    ("620001", "Spring Water 24-Pack",             "Crystal Springs",
+     "Multipack natural spring water with a clean and refreshing taste.",
+     "7.99", "600102", "/static/images/620001.jpg"),
+
+    ("620002", "Purified Drinking Water 1L",       "AquaPure",
+     "Purified water processed for consistent quality and freshness.",
+     "1.29", "600102", "/static/images/620002.jpg"),
+
+    ("620003", "Sparkling Mineral Water",          "Mountain Mist",
+     "Naturally sparkling water with fine bubbles and crisp flavor.",
+     "1.89", "600102", "/static/images/620003.jpg"),
+
+    ("620004", "Soda Water Classic",               "BubbleFresh",
+     "Carbonated soda water ideal for mixing or enjoying on its own.",
+     "1.59", "600102", "/static/images/620004.jpg"),
+
+    ("620005", "Distilled Water 1 Gallon",         "PureDrop",
+     "Steam-distilled water suitable for appliances and specialty uses.",
+     "2.49", "600102", "/static/images/620005.jpg"),
+
+    ("620006", "Lemon Enhanced Water",             "VitaBoost",
+     "Purified water enhanced with natural lemon flavor and vitamins.",
+     "1.99", "600102", "/static/images/620006.jpg"),
+
+    ("620007", "Coconut Water Original",           "Tropical Harvest",
+     "Refreshing coconut water with naturally occurring electrolytes.",
+     "2.79", "600102", "/static/images/620007.jpg"),
+
+    ("620008", "Tonic Water Premium",              "Quinine Select",
+     "Premium tonic water with balanced bitterness and carbonation.",
+     "1.79", "600102", "/static/images/620008.jpg"),
+
+    ("620009", "Seltzer Water Lime",               "SparkWave",
+     "Calorie-free seltzer water infused with a hint of lime flavor.",
+     "1.69", "600102", "/static/images/620009.jpg"),
+
+    ("620010", "Family Size Purified Water 2L",    "AquaPure",
+     "Multi-serve purified water bottle designed for family hydration.",
+     "1.99", "600102", "/static/images/620010.jpg"),
+
+    # ════════════════════════════════════════════════════════════════════════════
+    # COFFEE  (600103)
+    # ════════════════════════════════════════════════════════════════════════════
+    ("630001", "Classic Ground Coffee",            "RoastMaster",
+     "Medium-roast ground coffee with a smooth and balanced flavor profile.",
+     "6.99", "600103", "/static/images/630001.jpg"),
+
+    ("630002", "Premium Colombian Ground Coffee",  "Highland Reserve",
+     "Premium ground coffee made from carefully selected Colombian beans.",
+     "9.49", "600103", "/static/images/630002.jpg"),
+
+    ("630003", "Coffee Pods Breakfast Blend",      "QuickBrew",
+     "Single-serve coffee pods featuring a bright and smooth breakfast blend.",
+     "8.99", "600103", "/static/images/630003.jpg"),
+
+    ("630004", "Coffee Pods Dark Roast",           "QuickBrew",
+     "Rich dark-roast coffee pods with bold flavor and aroma.",
+     "9.99", "600103", "/static/images/630004.jpg"),
+
+    ("630005", "Whole Bean Espresso Roast",        "BeanCraft",
+     "Whole bean coffee roasted for espresso lovers seeking intense flavor.",
+     "11.99", "600103", "/static/images/630005.jpg"),
+
+    ("630006", "Organic Whole Bean Coffee",        "BeanCraft",
+     "Organic whole bean coffee with notes of chocolate and nuts.",
+     "12.49", "600103", "/static/images/630006.jpg"),
+
+    ("630007", "Vanilla Cold Coffee",              "ChillBrew",
+     "Ready-to-drink cold coffee infused with creamy vanilla flavor.",
+     "3.29", "600103", "/static/images/630007.jpg"),
+
+    ("630008", "Mocha Cold Coffee",                "ChillBrew",
+     "Refreshing cold coffee blended with rich chocolate mocha notes.",
+     "3.49", "600103", "/static/images/630008.jpg"),
+
+    ("630009", "Hazelnut Coffee Creamer",          "Cream Delight",
+     "Smooth coffee creamer with sweet hazelnut flavor for everyday use.",
+     "4.99", "600103", "/static/images/630009.jpg"),
+
+    ("630010", "Bulk Coffee Beans 2kg",            "RoastMaster",
+     "Value-sized bulk pack of whole coffee beans for offices and cafes.",
+     "24.99", "600103", "/static/images/630010.jpg"),
+
+    # ════════════════════════════════════════════════════════════════════════════
+    # CEREAL & BREAKFAST  (700200)
+    # ════════════════════════════════════════════════════════════════════════════
+    ("730001", "Honey Crunch Cereal",              "Kellogg's",
+     "Crispy whole grain cereal sweetened with honey for a delicious breakfast.",
+     "4.99", "700200", "/static/images/730001.jpg"),
+
+    ("730002", "Chocolate Breakfast Cereal",       "General Mills",
+     "Crunchy chocolate-flavored cereal loved by kids and adults alike.",
+     "5.49", "700200", "/static/images/730002.jpg"),
+
+    ("730003", "Corn Flakes",                      "Post",
+     "Classic toasted corn flakes with a light and crisp texture.",
+     "3.99", "700200", "/static/images/730003.jpg"),
+
+    ("730004", "Fruit Rings Cereal",               "Malt-O-Meal",
+     "Colorful fruit-flavored cereal rings with a satisfying crunch.",
+     "4.49", "700200", "/static/images/730004.jpg"),
+
+    ("730005", "Oat Crunch Cereal",                "Quaker",
+     "Whole grain oat cereal clusters with a hearty crunch.",
+     "5.99", "700200", "/static/images/730005.jpg"),
+
+    ("730006", "Raisin Bran Cereal",               "Kellogg's",
+     "Toasted bran flakes mixed with sweet raisins for added flavor.",
+     "4.79", "700200", "/static/images/730006.jpg"),
+
+    ("730007", "Protein Boost Cereal",             "Special K",
+     "High-protein breakfast cereal designed to support an active lifestyle.",
+     "6.49", "700200", "/static/images/730007.jpg"),
+
+    ("730008", "Granola Breakfast Blend",          "Nature Valley",
+     "Crunchy granola with oats and honey, perfect with milk or yogurt.",
+     "5.49", "700200", "/static/images/730008.jpg"),
+
+    ("730009", "Frosted Wheat Cereal",             "Post",
+     "Sweet frosted wheat biscuits offering a wholesome breakfast option.",
+     "4.99", "700200", "/static/images/730009.jpg"),
+
+    ("730010", "Multigrain Breakfast Cereal",      "Cheerios",
+     "Heart-healthy multigrain cereal with a lightly sweetened taste.",
+     "5.29", "700200", "/static/images/730010.jpg"),
+
+    # ════════════════════════════════════════════════════════════════════════════
+    # MILK  (400201)
+    # ════════════════════════════════════════════════════════════════════════════
+    ("600001", "Whole Milk",                       "Organic Valley",
+     "Creamy whole milk from grass-fed cows, rich in natural vitamins and calcium.",
+     "3.99", "400201", "/static/images/600001.jpg"),
+
+    ("600002", "2% Milk",                          "DairyPure",
+     "Reduced-fat milk with 2% milkfat, a good source of calcium and vitamin D.",
+     "3.49", "400201", "/static/images/600002.jpg"),
+
+    ("600003", "Skim Milk",                        "Great Value",
+     "Fat-free milk with all the essential nutrients of whole milk.",
+     "2.99", "400201", "/static/images/600003.jpg"),
+
+    ("600004", "Lactose-Free Whole Milk",          "Lactaid",
+     "Real dairy milk without the lactose, perfect for lactose-intolerant individuals.",
+     "4.49", "400201", "/static/images/600004.jpg"),
+
+    ("600005", "Lactose-Free 2% Milk",             "Fairlife",
+     "Ultra-filtered lactose-free milk with extended shelf life and added protein.",
+     "4.29", "400201", "/static/images/600005.jpg"),
+
+    ("600006", "Organic Whole Milk",               "Horizon Organic",
+     "USDA Organic whole milk from pasture-raised cows with no added hormones.",
+     "4.99", "400201", "/static/images/600006.jpg"),
+
+    ("600007", "Organic 2% Milk",                  "Stater Bros.",
+     "Organic reduced-fat milk with no artificial hormones, rich in calcium.",
+     "4.49", "400201", "/static/images/600007.jpg"),
+
+    ("600008", "Chocolate Milk",                   "Nesquik",
+     "Rich chocolate-flavored milk made with real cocoa and low-fat milk.",
+     "2.99", "400201", "/static/images/600008.jpg"),
+
+    ("600009", "Strawberry Milk",                  "TruMoo",
+     "Creamy strawberry-flavored milk made from real strawberries.",
+     "2.99", "400201", "/static/images/600009.jpg"),
+
+    ("600010", "Almond Milk",                      "Almond Breeze",
+     "Unsweetened almond milk, a dairy-free alternative rich in vitamin E.",
+     "3.49", "400201", "/static/images/600010.jpg"),
+
+    # ════════════════════════════════════════════════════════════════════════════
+    # YOGURT  (400202)
+    # ════════════════════════════════════════════════════════════════════════════
+    ("700001", "Traditional Yogurt Plain",         "Dannon",
+     "Creamy and smooth plain yogurt with live and active cultures.",
+     "1.99", "400202", "/static/images/700001.jpg"),
+
+    ("700002", "Traditional Yogurt Vanilla",       "Yoplait",
+     "Rich and creamy vanilla yogurt with a smooth texture.",
+     "2.29", "400202", "/static/images/700002.jpg"),
+
+    ("700003", "Greek Yogurt Plain",               "Chobani",
+     "Thick, creamy, and protein-packed plain Greek yogurt with live cultures.",
+     "2.99", "400202", "/static/images/700003.jpg"),
+
+    ("700004", "Greek Yogurt Vanilla",             "Fage",
+     "Ultra-smooth vanilla Greek yogurt with 15g of protein per serving.",
+     "3.49", "400202", "/static/images/700004.jpg"),
+
+    ("700005", "Drinkable Yogurt Strawberry",      "Yakult",
+     "Smooth and refreshing strawberry-flavored drinkable yogurt with probiotics.",
+     "2.49", "400202", "/static/images/700005.jpg"),
+
+    ("700006", "Drinkable Yogurt Mixed Berry",     "Chobani",
+     "Creamy drinkable yogurt with mixed berry flavor and probiotics.",
+     "2.79", "400202", "/static/images/700006.jpg"),
+
+    ("700007", "Kids Yogurt Strawberry",           "Go-Gurt",
+     "Portable strawberry-flavored yogurt in a convenient tube, perfect for kids.",
+     "3.99", "400202", "/static/images/700007.jpg"),
+
+    ("700008", "Kids Yogurt Vanilla",              "Danimals",
+     "Creamy vanilla yogurt with fun shapes and colors for kids.",
+     "3.99", "400202", "/static/images/700008.jpg"),
+
+    ("700009", "Indulgent Yogurt Chocolate Mousse","Oikos",
+     "Decadent chocolate mousse Greek yogurt with 15g of protein.",
+     "2.99", "400202", "/static/images/700009.jpg"),
+
+    ("700010", "Specialty Yogurt Icelandic Skyr",  "Siggi's",
+     "Thick, protein-rich Icelandic-style yogurt with a tangy taste.",
+     "3.49", "400202", "/static/images/700010.jpg"),
+
+    # ════════════════════════════════════════════════════════════════════════════
+    # CHEESE  (400204 – 400210)
+    # ════════════════════════════════════════════════════════════════════════════
+    ("600011", "Mozzarella Shredded Cheese",       "Amul",
+     "Mild and creamy shredded mozzarella, perfect for pizzas and pasta.",
+     "4.99", "400204", "/static/images/600011.jpg"),
+
+    ("600012", "Cheddar Shredded Cheese",          "Britannia",
+     "Sharp cheddar shredded cheese, ideal for sandwiches and baking.",
+     "5.49", "400204", "/static/images/600012.jpg"),
+
+    ("600013", "Cheddar Chunk Cheese",             "Amul",
+     "Aged cheddar in convenient chunks, great for snacking or cooking.",
+     "6.99", "400205", "/static/images/600013.jpg"),
+
+    ("600014", "Gouda Chunk Cheese",               "Dairy Classic",
+     "Smooth and slightly sweet Gouda cheese in chunk form.",
+     "7.49", "400205", "/static/images/600014.jpg"),
+
+    ("600015", "Swiss Sliced Cheese",              "Britannia",
+     "Mild Swiss cheese with characteristic holes, pre-sliced for convenience.",
+     "5.99", "400206", "/static/images/600015.jpg"),
+
+    ("600016", "American Sliced Cheese",           "Kraft",
+     "Classic American cheese slices, smooth and melts perfectly.",
+     "5.49", "400206", "/static/images/600016.jpg"),
+
+    ("600017", "Cheese Cubes Snacking",            "Amul",
+     "Bite-sized cheddar cheese cubes, perfect for snacking.",
+     "4.79", "400207", "/static/images/600017.jpg"),
+
+    ("600018", "Cream Cheese Spread",              "Britannia",
+     "Creamy and spreadable cream cheese, ideal for bagels and dips.",
+     "3.99", "400208", "/static/images/600018.jpg"),
+
+    ("600019", "Blue Cheese Specialty",            "Dairy Classic",
+     "Bold and tangy blue cheese with characteristic veins, for gourmet dishes.",
+     "8.99", "400209", "/static/images/600019.jpg"),
+
+    ("600020", "Vegan Cheddar Non-Dairy",          "Violife",
+     "Plant-based cheddar alternative, dairy-free and lactose-free.",
+     "7.99", "400210", "/static/images/600020.jpg"),
+]
+
+# ─── WRITE FILES ───────────────────────────────────────────────────────────────
+cat_path  = os.path.join(OUTPUT_DIR, "Meijer_category.csv")
+prod_path = os.path.join(OUTPUT_DIR, "Meijer_product.csv")
+
+with open(cat_path, "w", newline="", encoding="utf-8-sig") as f:
+    w = csv.writer(f)
+    w.writerow(["CATEGORY_ID", "CATEGORY_NAME", "PARENT_CATEGORY_ID"])
+    w.writerows(categories)
+
+with open(prod_path, "w", newline="", encoding="utf-8-sig") as f:
+    w = csv.writer(f)
+    w.writerow(["PRODUCT_ID", "PRODUCT_NAME", "BRAND", "SUMMARY", "PRICE", "CATEGORY_IDS", "IMAGE_URL"])
+    w.writerows(products)
+
+print(f"✓  Meijer_category.csv  → {len(categories)} categories")
+print(f"✓  Meijer_product.csv   → {len(products)} products")
+print(f"   Saved to: {OUTPUT_DIR}")

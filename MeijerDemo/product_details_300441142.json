@@ -1,0 +1,98 @@
+{
+  "availableForPickup": true,
+  "baseOptions": [],
+  "bundleTemplates": [],
+  "categories": [
+    {
+      "code": "Blue Tomato",
+      "image": {
+        "format": "96Wx96H",
+        "url": "/medias/?context=bWFzdGVyfGltYWdlc3w1NzkxfGltYWdlL2pwZWd8YVcxaFoyVnpMMmd3T0M5b09HUXZPRGM1TmpZek1ERTRPREEyTWk1cWNHY3w1ZmEzZjE0OGY2M2Y3NWI3M2QxMzljZDhjN2IwNWNkYmE0MmQ2ZWQzNzFhNjI4OTdkZTM4MmYyNTRkMTBjNjdj"
+      },
+      "name": "Blue Tomato",
+      "url": "/Brands/Blue-Tomato/c/Blue%20Tomato"
+    },
+    {
+      "code": "caps",
+      "name": "Caps",
+      "url": "/Categories/Clothes/Caps/c/caps"
+    }
+  ],
+  "code": "300441142",
+  "configurable": false,
+  "description": "",
+  "images": [
+    {
+      "altText": "Cap Blue Tomato BT Snow Trucker Cap black",
+      "format": "zoom",
+      "imageType": "PRIMARY",
+      "url": "/medias/?context=bWFzdGVyfGltYWdlc3wyNTkyM3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak5pOW9OREV2T0RjNU5qWTBOelE0T1RVMk5pNXFjR2N8NGRlM2NiZmIzZTQ2NDYyYTVkNDgwZTBjZjYxYTZkMGMxYjA3OTQ4NGQ5ZGM3NGQ5NThlY2U4NWYwNTE0MjFhZQ"
+    },
+    {
+      "altText": "Cap Blue Tomato BT Snow Trucker Cap black",
+      "format": "product",
+      "imageType": "PRIMARY",
+      "url": "/medias/?context=bWFzdGVyfGltYWdlc3wxMDAxMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobFlpOW9abVV2T0RjNU5qWTFOVE0xTXpnNE5pNXFjR2N8ZDJjZTYxNmVjOTMxODU3YjIxMDBlMWI5NzA0NmRiMzMyODI4MTljNzc3MWJhMjY4YzlmZjU0NjgzY2NjYjgzYw"
+    },
+    {
+      "altText": "Cap Blue Tomato BT Snow Trucker Cap black",
+      "format": "thumbnail",
+      "imageType": "PRIMARY",
+      "url": "/medias/?context=bWFzdGVyfGltYWdlc3wyMzg2fGltYWdlL2pwZWd8YVcxaFoyVnpMMmd4WkM5b05UVXZPRGM1TmpZMk16SXhPREl3Tmk1cWNHY3xhZGFiZGEwMzYwZjBiMmE1ZWIxMDA3MjY5MGQxYzk3YzU2M2RjM2RlMThkYWJiNmU4MjYxOTQ3MGZlNmE1NmQy"
+    },
+    {
+      "altText": "Cap Blue Tomato BT Snow Trucker Cap black",
+      "format": "cartIcon",
+      "imageType": "PRIMARY",
+      "url": "/medias/?context=bWFzdGVyfGltYWdlc3wxNDk5fGltYWdlL2pwZWd8YVcxaFoyVnpMMmhtTlM5b01UWXZPRGM1TmpZM01UQTRNalV5Tmk1cWNHY3w4NGU2N2FlYTJhYmJlNmRlMjY1ODFjYTdjYjI0MWQ1MjVjZjI3NDg5ZThiODZiZTgxMDI5OTcyMGQ4OWQ0N2Nl"
+    },
+    {
+      "altText": "Cap Blue Tomato BT Snow Trucker Cap black",
+      "format": "zoom",
+      "galleryIndex": 0,
+      "imageType": "GALLERY",
+      "url": "/medias/?context=bWFzdGVyfGltYWdlc3wyNTkyM3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak5pOW9OREV2T0RjNU5qWTBOelE0T1RVMk5pNXFjR2N8NGRlM2NiZmIzZTQ2NDYyYTVkNDgwZTBjZjYxYTZkMGMxYjA3OTQ4NGQ5ZGM3NGQ5NThlY2U4NWYwNTE0MjFhZQ"
+    },
+    {
+      "altText": "Cap Blue Tomato BT Snow Trucker Cap black",
+      "format": "product",
+      "galleryIndex": 0,
+      "imageType": "GALLERY",
+      "url": "/medias/?context=bWFzdGVyfGltYWdlc3wxMDAxMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobFlpOW9abVV2T0RjNU5qWTFOVE0xTXpnNE5pNXFjR2N8ZDJjZTYxNmVjOTMxODU3YjIxMDBlMWI5NzA0NmRiMzMyODI4MTljNzc3MWJhMjY4YzlmZjU0NjgzY2NjYjgzYw"
+    },
+    {
+      "altText": "Cap Blue Tomato BT Snow Trucker Cap black",
+      "format": "thumbnail",
+      "galleryIndex": 0,
+      "imageType": "GALLERY",
+      "url": "/medias/?context=bWFzdGVyfGltYWdlc3wyMzg2fGltYWdlL2pwZWd8YVcxaFoyVnpMMmd4WkM5b05UVXZPRGM1TmpZMk16SXhPREl3Tmk1cWNHY3xhZGFiZGEwMzYwZjBiMmE1ZWIxMDA3MjY5MGQxYzk3YzU2M2RjM2RlMThkYWJiNmU4MjYxOTQ3MGZlNmE1NmQy"
+    }
+  ],
+  "multidimensional": false,
+  "name": "Cap Blue Tomato BT Snow Trucker Cap black",
+  "numberOfReviews": 0,
+  "potentialPromotions": [],
+  "price": {
+    "currencyIso": "GBP",
+    "formattedValue": "\u00a38.46",
+    "priceType": "BUY",
+    "value": 8.46
+  },
+  "priceRange": {},
+  "productReferences": [],
+  "purchasable": true,
+  "reviews": [],
+  "sapUnit": {
+    "availabilityCode": "pieces",
+    "code": "pieces",
+    "name": "Piece"
+  },
+  "stock": {
+    "isValueRounded": false,
+    "stockLevel": -1,
+    "stockLevelStatus": "outOfStock"
+  },
+  "summary": "<p>Show your love for snow and Blue Tomato! With the BT Snow Trucker Cap with Mesh on the back and print on the front.</p>",
+  "url": "/Brands/Blue-Tomato/Cap-Blue-Tomato-BT-Snow-Trucker-Cap-black/p/300441142",
+  "volumePrices": []
+}

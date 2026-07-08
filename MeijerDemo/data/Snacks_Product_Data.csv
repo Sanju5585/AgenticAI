@@ -1,0 +1,63 @@
+
+
+################################## Grocery/Snacks/Chips Begins here ###################################################
+
+CATEGORY_ID,CATEGORY_NAME,PARENT_CATEGORY_ID
+400000,Grocery,
+400100,Snacks,400000
+400101,Chips,400100
+400102,Crackers,400100
+400103,Cookies,400100
+
+
+
+PRODUCT_ID,PRODUCT_NAME,SUMMARY,PRICE,CATEGORY_IDS,IMAGE_URL
+500101,Potato Chips - Classic,"Thinly sliced and lightly salted for a crisp, traditional taste.",2.99,400101,https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=800&q=80
+500102,Flavored Tortilla Chips - Nacho Cheese,"Bold and zesty nacho cheese seasoning on crispy tortilla chips.",3.49,400101,https://images.unsplash.com/photo-1621996346565-e326e20f8423?auto=format&fit=crop&w=800&q=80
+500103,Tortilla Chips - Restaurant Style,"Thick-cut tortilla chips with a sturdy crunch, perfect for dipping.",2.79,400101,https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=800&q=80
+500104,Kettle Chips - Sea Salt,"Hand-cooked in small batches for a thick, crunchy texture with sea salt.",3.99,400101,https://images.unsplash.com/photo-1599599810795-357147342474?auto=format&fit=crop&w=800&q=80
+500105,Corn Chips - Frito's Original,"Light and airy corn chips with a classic salty flavor.",2.49,400101,https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=800&q=80
+500106,Better for You Chips - Baked Veggie Straws,"Crispy baked straws made from real vegetables, lower in fat.",3.29,400101,https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80
+500107,Chip Dips & Salsa - Mild Salsa,"Smooth and mild tomato salsa, perfect for dipping chips.",2.99,400101,https://images.unsplash.com/photo-1565299585323-15d163b341e9?auto=format&fit=crop&w=800&q=80
+500108,Uncle Chips - Classic Salted,"Traditional potato chips with a classic salted flavor.",2.29,400101,https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=800&q=80
+500109,Pringles - Original,"Stackable potato crisps with a light, salty flavor.",3.49,400101,https://images.unsplash.com/photo-1627751139393-47d779924a8b?auto=format&fit=crop&w=800&q=80
+500110,Lays - Classic,"Lightly salted potato chips with a crispy texture.",2.99,400101,https://images.unsplash.com/photo-1599599810795-357147342474?auto=format&fit=crop&w=800&q=80
+
+
+################################## Grocery/Snacks/Chips ends here ###################################################
+
+
+################################## Grocery/Snacks/Crackers begins here ###################################################
+
+
+PRODUCT_ID,PRODUCT_NAME,BRAND,SUMMARY,PRICE,CATEGORY_IDS,IMAGE_URL
+500011,Cheese Crackers,Pepperidge Farm,"Buttery, crisp crackers with a rich cheddar flavor.",3.29,400102,https://images.unsplash.com/photo-1599599810795-357147342474?auto=format&fit=crop&w=800&q=80
+500012,Classic Crackers,Ritz,"Light, crisp, and slightly salty crackers for everyday snacking.",2.49,400102,https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=800&q=80
+500013,Wheat & Grain Crackers,Triscuit,"Whole grain crackers with a nutty, hearty flavor.",3.49,400102,https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80
+500014,Sandwich Crackers,Cheez-It,"Mini cracker sandwiches with a creamy peanut butter filling.",3.99,400102,https://images.unsplash.com/photo-1565299585323-15d163b341e9?auto=format&fit=crop&w=800&q=80
+500015,Saltines,Premium,"Lightly salted, thin, and crisp crackers for soups or snacking.",2.29,400102,https://images.unsplash.com/photo-1621996346565-e326e20f8423?auto=format&fit=crop&w=800&q=80
+500016,Better for You Crackers,Mary's Gone Crackers,"Whole wheat crackers with reduced sodium and no artificial flavors.",3.79,400102,https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80
+500017,Graham Crackers,Honey Maid,"Sweet, honey-flavored crackers perfect for snacking or s'mores.",2.99,400102,https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=800&q=80
+500018,Rice Crackers,Kallo,"Light and crispy rice-based crackers with a delicate texture.",2.79,400102,https://images.unsplash.com/photo-1607382123583-fe450a1334ce?auto=format&fit=crop&w=800&q=80
+500019,Multigrain Crackers,Triscuit,"Hearty crackers made with a blend of whole grains and seeds.",3.49,400102,https://images.unsplash.com/photo-1560008581-09826d1de69e?auto=format&fit=crop&w=800&q=80
+500020,Gluten-Free Crackers,Simple Mills,"Crispy crackers made with gluten-free ingredients like rice and quinoa.",3.99,400102,https://images.unsplash.com/photo-1594212699903-e110a21176b3?auto=format&fit=crop&w=800&q=80
+
+################################## Grocery/Snacks/Crackers ends here ###################################################
+
+################################## Grocery/Snacks/Cookiees begins here ###################################################
+
+s
+PRODUCT_ID,PRODUCT_NAME,BRAND,SUMMARY,PRICE,CATEGORY_IDS,IMAGE_URL
+500021,Chocolate Chip Cookies,Nestlé Toll House,"Classic semi-sweet chocolate chip cookies with a soft, chewy texture.",3.49,400103,https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80
+500022,Sandwich Cookies,Oreo,"Chocolate sandwich cookies with a creamy vanilla filling.",3.99,400103,https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=800&q=80
+500023,Bakery Cookies,Famous Amos,"Fresh-baked style chocolate chip cookies with a rich, buttery flavor.",4.29,400103,https://images.unsplash.com/photo-1596505043423-f123a162b65d?auto=format&fit=crop&w=800&q=80
+500024,Specialty Cookies,Pepperidge Farm,"Gourmet cookies with premium ingredients like dark chocolate and sea salt.",4.99,400103,https://images.unsplash.com/photo-1517594422361-5e834273426b?auto=format&fit=crop&w=800&q=80
+500025,Wafer Cookies,Pirouline,"Thin, crispy wafer cookies rolled into a light, airy shape.",3.79,400103,https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80
+500026,Oatmeal Raisin Cookies,Quaker,"Chewy oatmeal cookies packed with plump raisins and whole grain oats.",3.29,400103,https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80
+500027,Sugar Cookies,Mrs. Fields,"Soft, buttery sugar cookies with a hint of vanilla.",3.99,400103,https://images.unsplash.com/photo-1598840703339-1c115489a798?auto=format&fit=crop&w=800&q=80
+500028,Peanut Butter Cookies,Keebler,"Rich peanut butter cookies with a crisscross pattern.",3.49,400103,https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=800&q=80
+500029,Shortbread Cookies,Walker's,"Buttery, crumbly shortbread cookies with a melt-in-your-mouth texture.",3.79,400103,https://images.unsplash.com/photo-1565299585323-15d163b341e9?auto=format&fit=crop&w=800&q=80
+500030,Gluten-Free Cookies,Tate's Bake Shop,"Crispy, gluten-free cookies made with rice flour and natural ingredients.",4.49,400103,https://images.unsplash.com/photo-1621996346565-e326e20f8423?auto=format&fit=crop&w=800&q=80
+
+
+################################## Grocery/Snacks/Cookiees ends here ###################################################

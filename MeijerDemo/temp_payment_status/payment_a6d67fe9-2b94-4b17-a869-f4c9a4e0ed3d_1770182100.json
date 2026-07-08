@@ -1,0 +1,420 @@
+{
+  "session_id": "a6d67fe9-2b94-4b17-a869-f4c9a4e0ed3d",
+  "status": "success",
+  "created_at": "2026-02-04T10:45:00.674170",
+  "payment_data": {
+    "customer_id": "aayushigupta@gmail.com",
+    "cart_items": [
+      {
+        "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+        "price": 26.68,
+        "product_id": "300076933",
+        "product_name": "Sneakers Vans Old Skool black/white 4.5                    ",
+        "quantity": 1,
+        "addedAt": "2026-02-04T05:14:49.899Z"
+      }
+    ],
+    "total_amount": 26.68,
+    "chat_history": [
+      {
+        "id": "msg_0",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n                <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n                  <i class=\"fas fa-robot text-white text-sm\"></i>\n                </div>\n                <div>\n                  <p class=\"font-medium text-gray-800\">Hello! I'm your AI shopping assistant.</p>\n                  <p class=\"text-gray-600 text-sm mt-1\">How can I help you find the perfect products today?</p>\n                  <p class=\"text-gray-500 text-xs mt-2 italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>\n                    Note: Your cart will be cleared when you refresh the page.\n                  </p>\n                  <p class=\"text-purple-600 text-xs mt-1 font-medium\">\n                    <i class=\"fas fa-credit-card mr-1\"></i>\n                    Secure PayPal checkout available - your session will be maintained during payment!\n                  </p>\n                </div>\n              </div>",
+        "timestamp": "2026-02-04T05:15:00.661Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_1",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n          <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n            <i class=\"fas fa-robot text-white text-sm\"></i>\n          </div>\n          <div class=\"flex-1\">\n            <p class=\"text-gray-800\">You have been logged out successfully. Your cart has been cleared.</p>\n          </div>\n        </div>",
+        "timestamp": "2026-02-04T05:15:00.661Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_2",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n    <div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; border-radius: 15px; margin: 10px 0; box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);\">\n      <div style=\"display: flex; align-items: center; margin-bottom: 20px;\">\n        <div style=\"background: rgba(255,255,255,0.2); border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-size: 24px;\">\n          \ud83d\udc4b\n        </div>\n        <div>\n          <h3 style=\"margin: 0; font-size: 22px; font-weight: 700;\">Welcome back, Aayushi Gupta!</h3>\n          <p style=\"margin: 5px 0 0 0; font-size: 14px; opacity: 0.9;\">Your personalized shopping experience is ready</p>\n        </div>\n      </div>\n  \n      <div style=\"background: rgba(255,255,255,0.15); padding: 18px; border-radius: 12px; margin-top: 15px;\">\n        <h4 style=\"margin: 0 0 15px 0; font-size: 16px; font-weight: 600; display: flex; align-items: center;\">\n          <i class=\"fas fa-history\" style=\"margin-right: 8px;\"></i>\n          Your Recent Orders\n        </h4>\n    \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg\" alt=\"Sneakers Vans Old Skool black/white 12.0                   \" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Sneakers Vans Old Skool black/white 12.0                   </div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 04 Feb 2026</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a324.26</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#7558</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNTUxNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneFppOW9PRGd2T0RjNU5qWTBNalV3T0Rnek1DNXFjR2N8ODRiZDJiNDhlZDA4M2E2ZDIwNmRlMTNmNmViMDVmYWE4NzM5MzU3ZTIzMjgzZjI2ZTExYjZlYzVmMDExMzkyMw\" alt=\"Snowboard Ski Tool Red FBI 6                               \" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Snowboard Ski Tool Red FBI 6                               </div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 03 Feb 2026</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a321.21</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#2670</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNjM4OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak9DOW9NalV2T0RjNU5qa3lOakU0TVRRd05pNXFjR2N8MjBlMTRlMThmZmE2MjBjMjRjMDcxYjdmYzMwM2FmYjJjODIzZDY2ZTg5NTRjYTg4NzE4OTg1YmY5MjQ5NzcyYw\" alt=\"Vintage 86 blue havana striped                             \" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Vintage 86 blue havana striped                             </div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 29 Jan 2026</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a317.78</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#6072</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3w0OTE2MHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd05DOW9NREl2T0RjNU5qazFNVEE0TlRBNE5pNXFjR2N8ZDgzNDAyMGVhNmVlNzZlMDhkMjI4OTIzMjM5MjY3OTc3NjEwYzFmNmVmNWM5Y2RjM2E4ZmQwNDZmNTgxNWM2Mw\" alt=\"Acid SS                                                    \" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Acid SS                                                    </div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 29 Jan 2026</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a311.30</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#7555</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 0; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzIzMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVlTOW9PVFF2T0RjNU5qWTBPVFV5TVRFNE1pNXFjR2N8MzZjMTNmMzFmZGMzNzZmYTg0N2M1YjM5ODc2NGM4YmU5NDllMDYxYTQwNjYwNGQzMmU1M2I4NDFiZTFiOTM2NQ\" alt=\"T-Shirt Men Playboard Logo Tee black S                     \" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">T-Shirt Men Playboard Logo Tee black S                     </div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 28 Jan 2026</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a326.68</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#7091</div>\n          </div>\n        </div>\n      \n      </div>\n      <div style=\"margin-top: 15px; text-align: center; font-size: 13px; opacity: 0.9;\">\n        <i class=\"fas fa-info-circle\" style=\"margin-right: 5px;\"></i>\n        I've personalized your Trending Now section based on your purchase history!\n      </div>\n    \n    </div>\n  \n        </div>\n      </div>",
+        "timestamp": "2026-02-04T05:15:00.661Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_3",
+        "sender": "user",
+        "message": "show me shoes",
+        "timestamp": "2026-02-04T05:15:00.661Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_4",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"bg-gradient-to-br from-purple-50 via-white to-pink-50 rounded-3xl p-6 border border-purple-100\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs px-3 py-1 rounded-full\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white/70 backdrop-blur-sm rounded-full px-4 py-2 border border-purple-200 flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-purple-500 text-sm\"></i>\n                <span class=\"text-sm font-semibold text-purple-600\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1770182084657\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg\" alt=\"Sneakers Vans Old Skool black/white 12.0\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Sneakers Vans Old Skool black/white 12.0</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Classic Vans Old Skool in a black colourway.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a324.26</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg\" alt=\"Sneakers Vans Old Skool black/white 5.0\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Sneakers Vans Old Skool black/white 5.0</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Classic Vans Old Skool in a black colourway.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a326.68</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg\" alt=\"Sneakers Vans Old Skool black/white 4.5\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Sneakers Vans Old Skool black/white 4.5</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Classic Vans Old Skool in a black colourway.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a326.68</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg\" alt=\"Sneakers Vans Old Skool black/white 7.0\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Sneakers Vans Old Skool black/white 7.0</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Classic Vans Old Skool in a black colourway.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a346.71</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg\" alt=\"Sneakers Vans Old Skool black/white 8.0\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Sneakers Vans Old Skool black/white 8.0</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Classic Vans Old Skool in a black colourway.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a350.96</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2026-02-04T05:15:00.661Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_5",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2026-02-04T05:15:00.661Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_6",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n        <div class=\"bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4\" id=\"chat-cart-container\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart text-purple-500 mr-2\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold\" id=\"chat-cart-count\"><i class=\"fas fa-shopping-cart mr-1\"></i>1 item</div>\n            </div>\n            \n            <div id=\"chat-cart-items\" class=\"space-y-3 mb-4\">\n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3 flex-1\">\n          <img src=\"https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg\" alt=\"Sneakers Vans Old Skool black/white 4.5                    \" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1 min-w-0\">\n            <h4 class=\"font-semibold text-gray-800 text-sm truncate\">Sneakers Vans Old Skool black/white 4.5                    </h4>\n            <p class=\"text-xs text-gray-500 mt-1\">\u00a326.68 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 bg-purple-100 text-purple-800 rounded-full min-w-[2rem] text-center\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right ml-4\">\n          <p class=\"text-lg font-bold text-purple-600\">\u00a326.68</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    </div>\n            \n            <div id=\"chat-cart-footer\" class=\"border-t border-purple-200 pt-4\">\n                <div class=\"flex items-center justify-between mb-4\">\n                    <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                    <span class=\"text-2xl font-bold text-purple-600\" id=\"chat-cart-total\">\u00a326.68</span>\n                </div>\n                \n                <div class=\"text-center space-x-2\">\n                    <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-sync-alt mr-2\"></i>Refresh Cart\n                    </button>\n                    <button  class=\"bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-credit-card mr-2\"></i>Checkout\n                    </button>\n                </div>\n                \n                <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" onload=\"(function(){setTimeout(function(){if(typeof renderChatCart === &quot;function&quot;){console.log(&quot;\ud83d\uded2 Auto-triggering renderChatCart via image onload&quot;);renderChatCart();}},100);})()\" style=\"display:none;\">\n        \n        </div>\n      </div>",
+        "timestamp": "2026-02-04T05:15:00.661Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_7",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Ready for Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Order Summary</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: \u00a326.68</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9; margin-bottom: 15px;\">\n          \ud83d\udce6 1 item in your cart<br>\n          \ud83d\udcb0 Total amount: \u00a326.68<br>\n          \ud83d\udd12 Secure PayPal payment\n        </div>\n        <div style=\"background: rgba(255,255,255,0.15); padding: 12px; border-radius: 8px; font-size: 14px; margin-top: 10px;\">\n          <strong>\u26a1 Are you sure you want to proceed with the payment?</strong><br>\n          <span style=\"opacity: 0.9;\">Please reply with \"yes\" to confirm, or \"no\" to cancel.</span>\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-02-04T05:15:00.661Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_8",
+        "sender": "user",
+        "message": "yes",
+        "timestamp": "2026-02-04T05:15:00.661Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_9",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u2705 <strong>Payment Confirmed!</strong><br><br>\n          <div style=\"background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 15px; border-radius: 12px; margin: 10px 0;\">\n            <div style=\"display: flex; align-items-center;\">\n              <i class=\"fas fa-check-circle\" style=\"font-size: 20px; margin-right: 10px;\"></i>\n              <div style=\"font-size: 14px;\">\n                Great! Processing your payment now. Opening PayPal gateway...\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>",
+        "timestamp": "2026-02-04T05:15:00.661Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_10",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Processing Payment</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: \u00a326.68</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u2728 Opening PayPal payment gateway...<br>\n          \ud83d\udd12 Secure payment processing<br>\n          \u26a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-02-04T05:15:00.661Z",
+        "messageType": "html"
+      }
+    ],
+    "conversation_context": {
+      "session_id": "session_1770181882563_97o589xw9",
+      "conversation_history": [
+        {
+          "id": 1770182084655,
+          "timestamp": "2026-02-04T05:14:44.655Z",
+          "user": "show me shoes",
+          "ai": {
+            "ai_response": "Here are some shoes I found:\n\n*   **Sneakers Vans Old Skool black/white 12.0**\n    Classic Vans Old Skool in a black colourway.\n    Price: $24.26\n*   **Sneakers Vans Old Skool black/white 5.0**\n    Classic Vans Old Skool in a black colourway.\n    Price: $26.68\n*   **Sneakers Vans Old Skool black/white 4.5**\n    Classic Vans Old Skool in a black colourway.\n    Price: $26.68\n*   **Sneakers Vans Old Skool black/white 7.0**\n    Classic Vans Old Skool in a black colourway.\n    Price: $46.71\n*   **Sneakers Vans Old Skool black/white 8.0**\n    Classic Vans Old Skool in a black colourway.\n    Price: $50.96\n\nWould you like to refine your search or look for something else?",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+                "price": 24.26,
+                "product_id": "300026675",
+                "product_name": "Sneakers Vans Old Skool black/white 12.0",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+                "price": 26.68,
+                "product_id": "300076934",
+                "product_name": "Sneakers Vans Old Skool black/white 5.0",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+                "price": 26.68,
+                "product_id": "300076933",
+                "product_name": "Sneakers Vans Old Skool black/white 4.5",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+                "price": 46.71,
+                "product_id": "300062466",
+                "product_name": "Sneakers Vans Old Skool black/white 7.0",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+                "price": 50.96,
+                "product_id": "300036394",
+                "product_name": "Sneakers Vans Old Skool black/white 8.0",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1770181882563_97o589xw9",
+            "products": [
+              {
+                "product_id": "300026675",
+                "product_name": "Sneakers Vans Old Skool black/white 12.0",
+                "price": 24.26,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300076934",
+                "product_name": "Sneakers Vans Old Skool black/white 5.0",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300076933",
+                "product_name": "Sneakers Vans Old Skool black/white 4.5",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300062466",
+                "product_name": "Sneakers Vans Old Skool black/white 7.0",
+                "price": 46.71,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300036394",
+                "product_name": "Sneakers Vans Old Skool black/white 8.0",
+                "price": 50.96,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300026675",
+                "product_name": "Sneakers Vans Old Skool black/white 12.0",
+                "price": 24.26,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300076934",
+                "product_name": "Sneakers Vans Old Skool black/white 5.0",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300076933",
+                "product_name": "Sneakers Vans Old Skool black/white 4.5",
+                "price": 26.68,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300062466",
+                "product_name": "Sneakers Vans Old Skool black/white 7.0",
+                "price": 46.71,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300036394",
+                "product_name": "Sneakers Vans Old Skool black/white 8.0",
+                "price": 50.96,
+                "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-02-04T05:14:44.657Z"
+          }
+        },
+        {
+          "id": 1770182093781,
+          "timestamp": "2026-02-04T05:14:53.781Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1770181882563_97o589xw9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        }
+      ],
+      "last_products": [
+        {
+          "product_id": "300026675",
+          "product_name": "Sneakers Vans Old Skool black/white 12.0",
+          "price": 24.26,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+          "summary": "Classic Vans Old Skool in a black colourway."
+        },
+        {
+          "product_id": "300076934",
+          "product_name": "Sneakers Vans Old Skool black/white 5.0",
+          "price": 26.68,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+          "summary": "Classic Vans Old Skool in a black colourway."
+        },
+        {
+          "product_id": "300076933",
+          "product_name": "Sneakers Vans Old Skool black/white 4.5",
+          "price": 26.68,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+          "summary": "Classic Vans Old Skool in a black colourway."
+        },
+        {
+          "product_id": "300062466",
+          "product_name": "Sneakers Vans Old Skool black/white 7.0",
+          "price": 46.71,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+          "summary": "Classic Vans Old Skool in a black colourway."
+        },
+        {
+          "product_id": "300036394",
+          "product_name": "Sneakers Vans Old Skool black/white 8.0",
+          "price": 50.96,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+          "summary": "Classic Vans Old Skool in a black colourway."
+        }
+      ],
+      "recent_displayed": [
+        {
+          "product_id": "300026675",
+          "product_name": "Sneakers Vans Old Skool black/white 12.0",
+          "price": 24.26,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+          "summary": "Classic Vans Old Skool in a black colourway."
+        },
+        {
+          "product_id": "300076934",
+          "product_name": "Sneakers Vans Old Skool black/white 5.0",
+          "price": 26.68,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+          "summary": "Classic Vans Old Skool in a black colourway."
+        },
+        {
+          "product_id": "300076933",
+          "product_name": "Sneakers Vans Old Skool black/white 4.5",
+          "price": 26.68,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+          "summary": "Classic Vans Old Skool in a black colourway."
+        },
+        {
+          "product_id": "300062466",
+          "product_name": "Sneakers Vans Old Skool black/white 7.0",
+          "price": 46.71,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+          "summary": "Classic Vans Old Skool in a black colourway."
+        },
+        {
+          "product_id": "300036394",
+          "product_name": "Sneakers Vans Old Skool black/white 8.0",
+          "price": 50.96,
+          "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+          "summary": "Classic Vans Old Skool in a black colourway."
+        }
+      ],
+      "context": [
+        {
+          "user": "show me shoes",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "300026675",
+              "product_name": "Sneakers Vans Old Skool black/white 12.0",
+              "price": 24.26,
+              "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+              "summary": "Classic Vans Old Skool in a black colourway."
+            },
+            {
+              "product_id": "300076934",
+              "product_name": "Sneakers Vans Old Skool black/white 5.0",
+              "price": 26.68,
+              "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+              "summary": "Classic Vans Old Skool in a black colourway."
+            },
+            {
+              "product_id": "300076933",
+              "product_name": "Sneakers Vans Old Skool black/white 4.5",
+              "price": 26.68,
+              "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+              "summary": "Classic Vans Old Skool in a black colourway."
+            },
+            {
+              "product_id": "300062466",
+              "product_name": "Sneakers Vans Old Skool black/white 7.0",
+              "price": 46.71,
+              "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+              "summary": "Classic Vans Old Skool in a black colourway."
+            },
+            {
+              "product_id": "300036394",
+              "product_name": "Sneakers Vans Old Skool black/white 8.0",
+              "price": 50.96,
+              "image_url": "https://localhost:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTc1M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd09TOW9Oak12T0RjNU5qWTBPRFkyT1RJeE5DNXFjR2N8ZjZlNzExZmQ5YzVkOTQ4ZDc0YTk5ZmM5NmYxMDk0ZGNmMGZkYmZkYjMyMGZiYmQ2YmM0ZGVlZjlkNTI1MzI3Zg",
+              "summary": "Classic Vans Old Skool in a black colourway."
+            }
+          ],
+          "type": "products_list"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": "2026-02-04T10:45:00.673686",
+    "session_id": "a6d67fe9-2b94-4b17-a869-f4c9a4e0ed3d"
+  },
+  "result": {
+    "payment_id": "PAYID-NGBNLWA8CN055925P3968117",
+    "payer_id": "YR6334H86TGYG",
+    "token": "EC-28821636L0202880C",
+    "order_result": {
+      "success": true,
+      "message": "Order #9471 created successfully!",
+      "order_details": {
+        "order_id": "9471",
+        "customer_id": "aayushigupta@gmail.com",
+        "order_date": "2026-02-04 10:45:16",
+        "total_price": 26.68,
+        "status": "Open",
+        "items_count": 1,
+        "items": [
+          {
+            "order_id": "9471",
+            "product_id": "300076933",
+            "product_name": "Sneakers Vans Old Skool black/white 4.5                    ",
+            "price": 26.68,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "message": "Payment completed successfully!"
+  },
+  "updated_at": "2026-02-04T10:45:17.597877"
+}

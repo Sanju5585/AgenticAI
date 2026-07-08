@@ -1,0 +1,9 @@
+CUSTOMER_ID,CUSTOMER_NAME,PASSWORD,GENDER,AGE,PHONE,CITY,INTEREST
+sanjeev5585@gmail.com,Sanjeev Srivastava,Meijer@2025,Male,29,312-555-0191,Chicago,Dairy|Yogurt|CerealBreakfast|Snacks
+ram2024@gmail.com,Ram kumar,Meijer@2025,MALE,35,616-555-0144,Grand Rapids,FrozenPizza|Beverages|Chips|FrozenMeals
+sarah.thompson@yahoo.com,Sarah Thompson,Meijer@2025,FEMALE,42,517-555-0167,Lansing,Bakery|Dairy|CerealBreakfast|Beverages
+michael.brown@gmail.com,Michael Brown,Meijer@2025,MALE,31,734-555-0128,Ann Arbor,FrozenMeals|Coffee|Snacks|Crackers
+jessica.wilson@gmail.com,Jessica Wilson,Meijer@2025,FEMALE,27,248-555-0183,Detroit,IceCream|Cookies|Snacks|Beverages
+david.martinez@outlook.com,David Martinez,Meijer@2025,MALE,45,269-555-0156,Kalamazoo,Coffee|Bakery|Dairy|CerealBreakfast
+ashley.johnson@gmail.com,Ashley Johnson,Meijer@2025,FEMALE,33,313-555-0175,Dearborn,Yogurt|FrozenMeals|Milk|Snacks
+ryan.davis@gmail.com,Ryan Davis,Meijer@2025,MALE,38,616-555-0139,Muskegon,Chips|FrozenPizza|SoftDrinks|Crackers

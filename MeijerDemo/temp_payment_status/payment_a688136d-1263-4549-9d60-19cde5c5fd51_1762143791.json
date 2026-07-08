@@ -1,0 +1,756 @@
+{
+  "session_id": "a688136d-1263-4549-9d60-19cde5c5fd51",
+  "status": "pending",
+  "created_at": "2025-11-03T09:53:11.665058",
+  "payment_data": {
+    "customer_id": "nicolejackson@gmail.com",
+    "cart_items": [
+      {
+        "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w4MTM4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmd4WVM5b1l6VXZPRGM1TmpZMU5UWTBPRGM1T0M1cWNHY3w0NTA0NmY2OTY4NDUxZmU0MWI4MjAzYTg1NzdmZjBmZDEwNjE4MjlkYWVmNTkwZDdiY2VjZmRmMWVhZmE1NWJm",
+        "price": 26.68,
+        "product_id": "300050255",
+        "product_name": "Slip On Vans Classic Slip On checkerboard/black/pewter 8.0 ",
+        "quantity": 1,
+        "addedAt": "2025-11-03T04:23:00.625Z"
+      }
+    ],
+    "total_amount": 26.68,
+    "chat_history": [
+      {
+        "id": "msg_0",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n                <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n                  <i class=\"fas fa-robot text-white text-sm\"></i>\n                </div>\n                <div>\n                  <p class=\"font-medium text-gray-800\">Hello! I'm your AI shopping assistant.</p>\n                  <p class=\"text-gray-600 text-sm mt-1\">How can I help you find the perfect products today?</p>\n                  <p class=\"text-gray-500 text-xs mt-2 italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>\n                    Note: Your cart will be cleared when you refresh the page.\n                  </p>\n                  <p class=\"text-purple-600 text-xs mt-1 font-medium\">\n                    <i class=\"fas fa-credit-card mr-1\"></i>\n                    Secure PayPal checkout available - your session will be maintained during payment!\n                  </p>\n                </div>\n              </div>",
+        "timestamp": "2025-11-03T04:23:11.659Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_1",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2025-11-03T04:23:11.659Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_2",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n        <div class=\"bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4\" id=\"chat-cart-container\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart text-purple-500 mr-2\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold\" id=\"chat-cart-count\"><i class=\"fas fa-shopping-cart mr-1\"></i>1 item</div>\n            </div>\n            \n            <div id=\"chat-cart-items\" class=\"space-y-3 mb-4\">\n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3 flex-1\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w4MTM4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmd4WVM5b1l6VXZPRGM1TmpZMU5UWTBPRGM1T0M1cWNHY3w0NTA0NmY2OTY4NDUxZmU0MWI4MjAzYTg1NzdmZjBmZDEwNjE4MjlkYWVmNTkwZDdiY2VjZmRmMWVhZmE1NWJm\" alt=\"Slip On Vans Classic Slip On checkerboard/black/pewter 8.0 \" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1 min-w-0\">\n            <h4 class=\"font-semibold text-gray-800 text-sm truncate\">Slip On Vans Classic Slip On checkerboard/black/pewter 8.0 </h4>\n            <p class=\"text-xs text-gray-500 mt-1\">\u00a326.68 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 bg-purple-100 text-purple-800 rounded-full min-w-[2rem] text-center\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right ml-4\">\n          <p class=\"text-lg font-bold text-purple-600\">\u00a326.68</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    </div>\n            \n            <div id=\"chat-cart-footer\" class=\"border-t border-purple-200 pt-4\">\n                <div class=\"flex items-center justify-between mb-4\">\n                    <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                    <span class=\"text-2xl font-bold text-purple-600\" id=\"chat-cart-total\">\u00a326.68</span>\n                </div>\n                \n                <div class=\"text-center space-x-2\">\n                    <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-sync-alt mr-2\"></i>Refresh Cart\n                    </button>\n                    <button  class=\"bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-credit-card mr-2\"></i>Checkout\n                    </button>\n                </div>\n                \n                <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" onload=\"(function(){setTimeout(function(){if(typeof renderChatCart === &quot;function&quot;){console.log(&quot;\ud83d\uded2 Auto-triggering renderChatCart via image onload&quot;);renderChatCart();}},100);})()\" style=\"display:none;\">\n        \n        </div>\n      </div>",
+        "timestamp": "2025-11-03T04:23:11.659Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_3",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Ready for Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Order Summary</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: \u00a326.68</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9; margin-bottom: 15px;\">\n          \ud83d\udce6 1 item in your cart<br>\n          \ud83d\udcb0 Total amount: \u00a326.68<br>\n          \ud83d\udd12 Secure PayPal payment\n        </div>\n        <div style=\"background: rgba(255,255,255,0.15); padding: 12px; border-radius: 8px; font-size: 14px; margin-top: 10px;\">\n          <strong>\u26a1 Are you sure you want to proceed with the payment?</strong><br>\n          <span style=\"opacity: 0.9;\">Please reply with \"yes\" to confirm, or \"no\" to cancel.</span>\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2025-11-03T04:23:11.659Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_4",
+        "sender": "user",
+        "message": "yes",
+        "timestamp": "2025-11-03T04:23:11.659Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_5",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u2705 <strong>Payment Confirmed!</strong><br><br>\n          <div style=\"background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 15px; border-radius: 12px; margin: 10px 0;\">\n            <div style=\"display: flex; align-items-center;\">\n              <i class=\"fas fa-check-circle\" style=\"font-size: 20px; margin-right: 10px;\"></i>\n              <div style=\"font-size: 14px;\">\n                Great! Processing your payment now. Opening PayPal gateway...\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>",
+        "timestamp": "2025-11-03T04:23:11.659Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_6",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Processing Payment</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: \u00a326.68</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u2728 Opening PayPal payment gateway...<br>\n          \ud83d\udd12 Secure payment processing<br>\n          \u26a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2025-11-03T04:23:11.659Z",
+        "messageType": "html"
+      }
+    ],
+    "conversation_context": {
+      "session_id": "session_1761542676596_n93alvpl9",
+      "conversation_history": [
+        {
+          "id": 1762142376117,
+          "timestamp": "2025-11-03T03:59:36.117Z",
+          "user": "any accessrioes for these",
+          "ai": {
+            "ai_response": "Perfect! I found 8 accessories from our database that are specifically mapped to go with your selected products: Trench Coat, Mannual Bricks Insulated Jacket youth, Trenchtown Jacket, Kelly Jacket Women, Beacon Jacket. These are curated accessory matches!",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzg5NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMlpDOW9aVGd2T0RjNU5qazJOVGN6TWpNNE1pNXFjR2N8ZDhiZGFlYzY0NjI5MzQ0ZDQ3ZmMzNTJjY2VmOGViYzIyYWY4MDY2NWY3YjQ2NDczZDFkZWRhYzM0M2I0MGVkZQ",
+                "price": 24.26,
+                "product_id": "103151",
+                "product_name": "Transplant Flexfit Cap",
+                "summary": "A trendy Volcom Stone logo on the Transplant Flexfit cap. 98% Cotton 2% Spandex"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzMwNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU5DOW9ZV1F2T0RjNU5qa3lNelEyTVRZMk1pNXFjR2N8YWRkNTQyNWJlZTk1ZjEzZTRlNDczYWVhNDhlZTgxNTJhMDIyOTEzZWJlM2FlYTMxZTliZWIxNTI0ZWVjMGM5MQ",
+                "price": 24.26,
+                "product_id": "100402",
+                "product_name": "Seizure Bag",
+                "summary": "No chance that Billabong forgets about the classic among their bags. Therefore the Seizure bag is again part of the collection"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNTA2NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak5DOW9aall2T0RjNU5qa3lOVEV3TURBMk1pNXFjR2N8YmQ4MzkxMDY3NDFmZDYzMjNkNDkzNzg5YzkxZWY5M2Q2NDkzMTQ4MjQyZjcyNTliNzY5ZjI4ODc1MTdhOTNlYw",
+                "price": 32.36,
+                "product_id": "122723",
+                "product_name": "Override Reversible Belt Women",
+                "summary": "A big metal Fox head use to be the belt buckle and so the Override Reversible belt looks on the one hand heavy and on the other hand dressy. 100% polyurethan"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDMxOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE9TOW9ORFV2T0RjNU5qa3lPVFk0TnpVNE1pNXFjR2N8ZjE2MjQ1ZTQ4YjY3Njc5NDFiMzgyZDFkZWU4NzA3ZjBkYzRlMDI0M2IxN2FiYzA2ODM1ZjJkODNhMzgxNDFjZA",
+                "price": 36.4,
+                "product_id": "98851",
+                "product_name": "Lenus Belt",
+                "summary": "Your pants are always sliding down? Well"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzA2MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE5TOW9ZVEF2T0RjNU5qa3pNRGs1T0RNd01pNXFjR2N8Zjc4YTkyNjc5M2RiMGMwYTBkYjVmY2IwZGU3ZTU0MWQ0NmFkYTU2MGYwZGI2ZWZlNWM3OWY1MzZkMTU0ODE0ZA",
+                "price": 44.51,
+                "product_id": "74010",
+                "product_name": "Torbacula Belt",
+                "summary": "Nice leather belt with cool lettering by Von Zipper. 100% Leather"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDE0OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa05pOW9NelF2T0RjNU5qWTFORGs1TXpRek9DNXFjR2N8Y2ZhY2E4ZTNlOGFjMzlmM2M4NTBjNDQwYjM3ZjBlYzY0MTlmN2YwNGY5OWQ2OTRjNDgxNWY5NTMzOWJjZTYzZA",
+                "price": 46.71,
+                "product_id": "300062456",
+                "product_name": "Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL",
+                "summary": "The Lotus from TSG! One for the Ladies:"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/cap-image-1.jpg?context=bWFzdGVyfHJvb3R8MjYyNTd8aW1hZ2UvanBlZ3xhR05tTDJneE5TODROemszTnpjNU1qazJNamcyTG1wd1p3fGE0ZDlkMDhmNzZlZmYwNmMzNDExZDU4MTQzNmYyYWI2MGEyOWZiNGQxNDM3MGNlYzc3YmMzOTQ5MTAwZGU2MmQ",
+                "price": 50,
+                "product_id": "7001-1",
+                "product_name": "Black Newyork Cap",
+                "summary": "Minimalist and bold"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMjkzNHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk9TOW9OalF2T0RjNU5qYzBPRFkwTkRNNE1pNXFjR2N8MWNjMmQzYTNlYTdiYTZmMjk0MzUyNmQ3ZWEyOTcwMTI3ZGU0YmY3OWFmYTkxNTdjOWU4YzVmODYxMmNhYWQ3Ng",
+                "price": 97.16,
+                "product_id": "95288",
+                "product_name": "Buffer II Sock",
+                "summary": "Freestyle-focused support and cushioning. Guaranteed to help you land more tricks."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [
+              {
+                "product_id": "103151",
+                "product_name": "Transplant Flexfit Cap",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzg5NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMlpDOW9aVGd2T0RjNU5qazJOVGN6TWpNNE1pNXFjR2N8ZDhiZGFlYzY0NjI5MzQ0ZDQ3ZmMzNTJjY2VmOGViYzIyYWY4MDY2NWY3YjQ2NDczZDFkZWRhYzM0M2I0MGVkZQ",
+                "summary": "A trendy Volcom Stone logo on the Transplant Flexfit cap. 98% Cotton 2% Spandex"
+              },
+              {
+                "product_id": "100402",
+                "product_name": "Seizure Bag",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzMwNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU5DOW9ZV1F2T0RjNU5qa3lNelEyTVRZMk1pNXFjR2N8YWRkNTQyNWJlZTk1ZjEzZTRlNDczYWVhNDhlZTgxNTJhMDIyOTEzZWJlM2FlYTMxZTliZWIxNTI0ZWVjMGM5MQ",
+                "summary": "No chance that Billabong forgets about the classic among their bags. Therefore the Seizure bag is again part of the collection"
+              },
+              {
+                "product_id": "122723",
+                "product_name": "Override Reversible Belt Women",
+                "price": 32.36,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNTA2NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak5DOW9aall2T0RjNU5qa3lOVEV3TURBMk1pNXFjR2N8YmQ4MzkxMDY3NDFmZDYzMjNkNDkzNzg5YzkxZWY5M2Q2NDkzMTQ4MjQyZjcyNTliNzY5ZjI4ODc1MTdhOTNlYw",
+                "summary": "A big metal Fox head use to be the belt buckle and so the Override Reversible belt looks on the one hand heavy and on the other hand dressy. 100% polyurethan"
+              },
+              {
+                "product_id": "98851",
+                "product_name": "Lenus Belt",
+                "price": 36.4,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDMxOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE9TOW9ORFV2T0RjNU5qa3lPVFk0TnpVNE1pNXFjR2N8ZjE2MjQ1ZTQ4YjY3Njc5NDFiMzgyZDFkZWU4NzA3ZjBkYzRlMDI0M2IxN2FiYzA2ODM1ZjJkODNhMzgxNDFjZA",
+                "summary": "Your pants are always sliding down? Well"
+              },
+              {
+                "product_id": "74010",
+                "product_name": "Torbacula Belt",
+                "price": 44.51,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzA2MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE5TOW9ZVEF2T0RjNU5qa3pNRGs1T0RNd01pNXFjR2N8Zjc4YTkyNjc5M2RiMGMwYTBkYjVmY2IwZGU3ZTU0MWQ0NmFkYTU2MGYwZGI2ZWZlNWM3OWY1MzZkMTU0ODE0ZA",
+                "summary": "Nice leather belt with cool lettering by Von Zipper. 100% Leather"
+              },
+              {
+                "product_id": "300062456",
+                "product_name": "Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL",
+                "price": 46.71,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDE0OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa05pOW9NelF2T0RjNU5qWTFORGs1TXpRek9DNXFjR2N8Y2ZhY2E4ZTNlOGFjMzlmM2M4NTBjNDQwYjM3ZjBlYzY0MTlmN2YwNGY5OWQ2OTRjNDgxNWY5NTMzOWJjZTYzZA",
+                "summary": "The Lotus from TSG! One for the Ladies:"
+              },
+              {
+                "product_id": "7001-1",
+                "product_name": "Black Newyork Cap",
+                "price": 50,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/cap-image-1.jpg?context=bWFzdGVyfHJvb3R8MjYyNTd8aW1hZ2UvanBlZ3xhR05tTDJneE5TODROemszTnpjNU1qazJNamcyTG1wd1p3fGE0ZDlkMDhmNzZlZmYwNmMzNDExZDU4MTQzNmYyYWI2MGEyOWZiNGQxNDM3MGNlYzc3YmMzOTQ5MTAwZGU2MmQ",
+                "summary": "Minimalist and bold"
+              },
+              {
+                "product_id": "95288",
+                "product_name": "Buffer II Sock",
+                "price": 97.16,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMjkzNHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk9TOW9OalF2T0RjNU5qYzBPRFkwTkRNNE1pNXFjR2N8MWNjMmQzYTNlYTdiYTZmMjk0MzUyNmQ3ZWEyOTcwMTI3ZGU0YmY3OWFmYTkxNTdjOWU4YzVmODYxMmNhYWQ3Ng",
+                "summary": "Freestyle-focused support and cushioning. Guaranteed to help you land more tricks."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 8,
+            "enhanced_query": "any accessrioes for these. Context: User previously viewed these products: Trench Coat, Mannual Bricks Insulated Jacket youth, Trenchtown Jacket, Kelly Jacket Women, Beacon Jacket, Sneakers Vans Old Skool black/white 12.0, Sneakers Vans Old Skool black/white 13.0, Sneakers Vans Old Skool black/white 9.0, Sneakers Vans Old Skool black/white 6.0, Sneakers Vans Old Skool black/white 4.0 (Product IDs: 0031-1, 99063, 94474, 103335, 100191, 300026675, 300036393, 300026677, 300076935, 300076932)",
+            "displayed_products": [
+              {
+                "product_id": "103151",
+                "product_name": "Transplant Flexfit Cap",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzg5NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMlpDOW9aVGd2T0RjNU5qazJOVGN6TWpNNE1pNXFjR2N8ZDhiZGFlYzY0NjI5MzQ0ZDQ3ZmMzNTJjY2VmOGViYzIyYWY4MDY2NWY3YjQ2NDczZDFkZWRhYzM0M2I0MGVkZQ",
+                "summary": "A trendy Volcom Stone logo on the Transplant Flexfit cap. 98% Cotton 2% Spandex"
+              },
+              {
+                "product_id": "100402",
+                "product_name": "Seizure Bag",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzMwNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU5DOW9ZV1F2T0RjNU5qa3lNelEyTVRZMk1pNXFjR2N8YWRkNTQyNWJlZTk1ZjEzZTRlNDczYWVhNDhlZTgxNTJhMDIyOTEzZWJlM2FlYTMxZTliZWIxNTI0ZWVjMGM5MQ",
+                "summary": "No chance that Billabong forgets about the classic among their bags. Therefore the Seizure bag is again part of the collection"
+              },
+              {
+                "product_id": "122723",
+                "product_name": "Override Reversible Belt Women",
+                "price": 32.36,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNTA2NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak5DOW9aall2T0RjNU5qa3lOVEV3TURBMk1pNXFjR2N8YmQ4MzkxMDY3NDFmZDYzMjNkNDkzNzg5YzkxZWY5M2Q2NDkzMTQ4MjQyZjcyNTliNzY5ZjI4ODc1MTdhOTNlYw",
+                "summary": "A big metal Fox head use to be the belt buckle and so the Override Reversible belt looks on the one hand heavy and on the other hand dressy. 100% polyurethan"
+              },
+              {
+                "product_id": "98851",
+                "product_name": "Lenus Belt",
+                "price": 36.4,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDMxOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE9TOW9ORFV2T0RjNU5qa3lPVFk0TnpVNE1pNXFjR2N8ZjE2MjQ1ZTQ4YjY3Njc5NDFiMzgyZDFkZWU4NzA3ZjBkYzRlMDI0M2IxN2FiYzA2ODM1ZjJkODNhMzgxNDFjZA",
+                "summary": "Your pants are always sliding down? Well"
+              },
+              {
+                "product_id": "74010",
+                "product_name": "Torbacula Belt",
+                "price": 44.51,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzA2MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE5TOW9ZVEF2T0RjNU5qa3pNRGs1T0RNd01pNXFjR2N8Zjc4YTkyNjc5M2RiMGMwYTBkYjVmY2IwZGU3ZTU0MWQ0NmFkYTU2MGYwZGI2ZWZlNWM3OWY1MzZkMTU0ODE0ZA",
+                "summary": "Nice leather belt with cool lettering by Von Zipper. 100% Leather"
+              },
+              {
+                "product_id": "300062456",
+                "product_name": "Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL",
+                "price": 46.71,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDE0OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa05pOW9NelF2T0RjNU5qWTFORGs1TXpRek9DNXFjR2N8Y2ZhY2E4ZTNlOGFjMzlmM2M4NTBjNDQwYjM3ZjBlYzY0MTlmN2YwNGY5OWQ2OTRjNDgxNWY5NTMzOWJjZTYzZA",
+                "summary": "The Lotus from TSG! One for the Ladies:"
+              },
+              {
+                "product_id": "7001-1",
+                "product_name": "Black Newyork Cap",
+                "price": 50,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/cap-image-1.jpg?context=bWFzdGVyfHJvb3R8MjYyNTd8aW1hZ2UvanBlZ3xhR05tTDJneE5TODROemszTnpjNU1qazJNamcyTG1wd1p3fGE0ZDlkMDhmNzZlZmYwNmMzNDExZDU4MTQzNmYyYWI2MGEyOWZiNGQxNDM3MGNlYzc3YmMzOTQ5MTAwZGU2MmQ",
+                "summary": "Minimalist and bold"
+              },
+              {
+                "product_id": "95288",
+                "product_name": "Buffer II Sock",
+                "price": 97.16,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMjkzNHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk9TOW9OalF2T0RjNU5qYzBPRFkwTkRNNE1pNXFjR2N8MWNjMmQzYTNlYTdiYTZmMjk0MzUyNmQ3ZWEyOTcwMTI3ZGU0YmY3OWFmYTkxNTdjOWU4YzVmODYxMmNhYWQ3Ng",
+                "summary": "Freestyle-focused support and cushioning. Guaranteed to help you land more tricks."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2025-11-03T03:59:36.119Z"
+          }
+        },
+        {
+          "id": 1762142408982,
+          "timestamp": "2025-11-03T04:00:08.982Z",
+          "user": "Can you recommend some trendy shoes?",
+          "ai": {
+            "ai_response": "Here are some trendy shoes:\n\n*   **Sneakers Vans Old Skool black/white 12.0**: Classic Vans Old Skool in a black colourway.\n*   **Sneakers Vans Old Skool black/white 13.0**: Classic Vans Old Skool in a black colourway.\n*   **Sneakers Vans Old Skool black/white 9.0**: Classic Vans Old Skool in a black colourway.\n*   **Sneakers Vans Old Skool black/white 6.0**: Classic Vans Old Skool in a black colourway.\n*   **Sneakers Vans Old Skool black/white 4.0**: Classic Vans Old Skool in a black colourway.\n\nWould you like to see more options or refine your search?",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "price": 24.26,
+                "product_id": "300026675",
+                "product_name": "Sneakers Vans Old Skool black/white 12.0",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "price": 50.96,
+                "product_id": "300036393",
+                "product_name": "Sneakers Vans Old Skool black/white 13.0",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "price": 59.46,
+                "product_id": "300026677",
+                "product_name": "Sneakers Vans Old Skool black/white 9.0",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "price": 59.46,
+                "product_id": "300076935",
+                "product_name": "Sneakers Vans Old Skool black/white 6.0",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "price": 50.96,
+                "product_id": "300076932",
+                "product_name": "Sneakers Vans Old Skool black/white 4.0",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [
+              {
+                "product_id": "300026675",
+                "product_name": "Sneakers Vans Old Skool black/white 12.0",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300036393",
+                "product_name": "Sneakers Vans Old Skool black/white 13.0",
+                "price": 50.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300026677",
+                "product_name": "Sneakers Vans Old Skool black/white 9.0",
+                "price": 59.46,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300076935",
+                "product_name": "Sneakers Vans Old Skool black/white 6.0",
+                "price": 59.46,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300076932",
+                "product_name": "Sneakers Vans Old Skool black/white 4.0",
+                "price": 50.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300026675",
+                "product_name": "Sneakers Vans Old Skool black/white 12.0",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300036393",
+                "product_name": "Sneakers Vans Old Skool black/white 13.0",
+                "price": 50.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300026677",
+                "product_name": "Sneakers Vans Old Skool black/white 9.0",
+                "price": 59.46,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300076935",
+                "product_name": "Sneakers Vans Old Skool black/white 6.0",
+                "price": 59.46,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300076932",
+                "product_name": "Sneakers Vans Old Skool black/white 4.0",
+                "price": 50.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2025-11-03T04:00:08.986Z"
+          }
+        },
+        {
+          "id": 1762142430213,
+          "timestamp": "2025-11-03T04:00:30.213Z",
+          "user": "Find Tshirts under \u00a350",
+          "ai": {
+            "ai_response": "I found 5 shirts under 50.0 pounds.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk4OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVl5OW9NRFF2T0RjNU5qazBPVE0wT0RNNE1pNXFjR2N8NzE3OWM3NWVkNzgxNmRlNjc4Yjc5OGFmMzA2Y2MyOGQxY2E3MzIwYWQyZDJkNWExMGMxMjAzNzI0N2U2YTQ0ZQ",
+                "price": 11.3,
+                "product_id": "117896",
+                "product_name": "Acid SS",
+                "summary": "The Acid t-shirt by Quiksilver got an unique look for you due to the washing. 100% Organic Cotton"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzEzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE5DOW9OR0V2T0RjNU5qazBNamM1TkRjNE1pNXFjR2N8NzgzOWEyMjhkNjk3ZGFjOWFlNzU5NzBiZDNhNDEwNzg0MWZjMjE5OWIzYzBmYjUwMTE2NjVmMWEwMjRhNjFjOQ",
+                "price": 16.16,
+                "product_id": "122321",
+                "product_name": "Quad Tee SS",
+                "summary": "The Quad t-shirt by Billabong got a nice softhand front photoprint. 100% Cotton"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODkwMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak1pOW9Nek12T0RjNU5qZzNOemMxTURNd01pNXFjR2N8OTI5NmQ4MzFkMDNjNWI4ZmUxMjlhZGJlYjU1YzZmMDlhN2JiMGMwYTA5MWI3ZmNhMmFkNDhmYWRjNWVjOWEwNw",
+                "price": 18.59,
+                "product_id": "122412",
+                "product_name": "Skull 80 SS youth",
+                "summary": "The Skull 80 t-shirt by Billabong got a funky front print. 100% Cotton"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw",
+                "price": 20.21,
+                "product_id": "118893",
+                "product_name": "I Love Tee SS Women",
+                "summary": "The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg",
+                "price": 21.83,
+                "product_id": "122333",
+                "product_name": "Because Tee SS",
+                "summary": "The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [
+              {
+                "product_id": "117896",
+                "product_name": "Acid SS",
+                "price": 11.3,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk4OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVl5OW9NRFF2T0RjNU5qazBPVE0wT0RNNE1pNXFjR2N8NzE3OWM3NWVkNzgxNmRlNjc4Yjc5OGFmMzA2Y2MyOGQxY2E3MzIwYWQyZDJkNWExMGMxMjAzNzI0N2U2YTQ0ZQ",
+                "summary": "The Acid t-shirt by Quiksilver got an unique look for you due to the washing. 100% Organic Cotton"
+              },
+              {
+                "product_id": "122321",
+                "product_name": "Quad Tee SS",
+                "price": 16.16,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzEzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE5DOW9OR0V2T0RjNU5qazBNamM1TkRjNE1pNXFjR2N8NzgzOWEyMjhkNjk3ZGFjOWFlNzU5NzBiZDNhNDEwNzg0MWZjMjE5OWIzYzBmYjUwMTE2NjVmMWEwMjRhNjFjOQ",
+                "summary": "The Quad t-shirt by Billabong got a nice softhand front photoprint. 100% Cotton"
+              },
+              {
+                "product_id": "122412",
+                "product_name": "Skull 80 SS youth",
+                "price": 18.59,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODkwMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak1pOW9Nek12T0RjNU5qZzNOemMxTURNd01pNXFjR2N8OTI5NmQ4MzFkMDNjNWI4ZmUxMjlhZGJlYjU1YzZmMDlhN2JiMGMwYTA5MWI3ZmNhMmFkNDhmYWRjNWVjOWEwNw",
+                "summary": "The Skull 80 t-shirt by Billabong got a funky front print. 100% Cotton"
+              },
+              {
+                "product_id": "118893",
+                "product_name": "I Love Tee SS Women",
+                "price": 20.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw",
+                "summary": "The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton"
+              },
+              {
+                "product_id": "122333",
+                "product_name": "Because Tee SS",
+                "price": 21.83,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg",
+                "summary": "The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "117896",
+                "product_name": "Acid SS",
+                "price": 11.3,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk4OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVl5OW9NRFF2T0RjNU5qazBPVE0wT0RNNE1pNXFjR2N8NzE3OWM3NWVkNzgxNmRlNjc4Yjc5OGFmMzA2Y2MyOGQxY2E3MzIwYWQyZDJkNWExMGMxMjAzNzI0N2U2YTQ0ZQ",
+                "summary": "The Acid t-shirt by Quiksilver got an unique look for you due to the washing. 100% Organic Cotton"
+              },
+              {
+                "product_id": "122321",
+                "product_name": "Quad Tee SS",
+                "price": 16.16,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzEzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE5DOW9OR0V2T0RjNU5qazBNamM1TkRjNE1pNXFjR2N8NzgzOWEyMjhkNjk3ZGFjOWFlNzU5NzBiZDNhNDEwNzg0MWZjMjE5OWIzYzBmYjUwMTE2NjVmMWEwMjRhNjFjOQ",
+                "summary": "The Quad t-shirt by Billabong got a nice softhand front photoprint. 100% Cotton"
+              },
+              {
+                "product_id": "122412",
+                "product_name": "Skull 80 SS youth",
+                "price": 18.59,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODkwMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak1pOW9Nek12T0RjNU5qZzNOemMxTURNd01pNXFjR2N8OTI5NmQ4MzFkMDNjNWI4ZmUxMjlhZGJlYjU1YzZmMDlhN2JiMGMwYTA5MWI3ZmNhMmFkNDhmYWRjNWVjOWEwNw",
+                "summary": "The Skull 80 t-shirt by Billabong got a funky front print. 100% Cotton"
+              },
+              {
+                "product_id": "118893",
+                "product_name": "I Love Tee SS Women",
+                "price": 20.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw",
+                "summary": "The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton"
+              },
+              {
+                "product_id": "122333",
+                "product_name": "Because Tee SS",
+                "price": 21.83,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg",
+                "summary": "The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2025-11-03T04:00:30.215Z"
+          }
+        },
+        {
+          "id": 1762142459954,
+          "timestamp": "2025-11-03T04:00:59.954Z",
+          "user": "show t-shirt between 2250 pound",
+          "ai": {
+            "response": "I'm sorry, but I cannot fulfill this request. The price you provided, \"2250 pound,\" is unusually high for a t-shirt and may indicate an error. Please double-check the amount and currency, and I'll be happy to assist you further."
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1762142479275,
+          "timestamp": "2025-11-03T04:01:19.275Z",
+          "user": "t-shirts between 50 to 22.2",
+          "ai": {
+            "response": "I found 5 t-shirts between \u00a322.2 and \u00a350.0.\n\n*   **Acid SS**: This t-shirt has a unique look due to its washing. Made from 100% Organic Cotton.\n*   **Quad Tee SS**: This t-shirt features a nice soft-hand front photoprint. Made from 100% Cotton.\n*   **Skull 80 SS youth**: This t-shirt has a funky front print. Made from 100% Cotton.\n*   **I Love Tee SS Women**: This t-shirt has an \"I Love Billabong\" print. Made from 50% Cotton.\n*   **Because Tee SS**: This t-shirt doesn't need a reason to look awesome. Made from 100% Cotton.\n\nWould you like to see more details about any of these t-shirts?\n        PRODUCT_CONTEXT_DATA: [{'product_id': '117896', 'product_name': 'Acid SS', 'summary': 'The Acid t-shirt by Quiksilver got an unique look for you due to the washing. 100% Organic Cotton', 'price': 11.3, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk4OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVl5OW9NRFF2T0RjNU5qazBPVE0wT0RNNE1pNXFjR2N8NzE3OWM3NWVkNzgxNmRlNjc4Yjc5OGFmMzA2Y2MyOGQxY2E3MzIwYWQyZDJkNWExMGMxMjAzNzI0N2U2YTQ0ZQ', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}, {'product_id': '122321', 'product_name': 'Quad Tee SS', 'summary': 'The Quad t-shirt by Billabong got a nice softhand front photoprint. 100% Cotton', 'price': 16.16, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzEzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE5DOW9OR0V2T0RjNU5qazBNamM1TkRjNE1pNXFjR2N8NzgzOWEyMjhkNjk3ZGFjOWFlNzU5NzBiZDNhNDEwNzg0MWZjMjE5OWIzYzBmYjUwMTE2NjVmMWEwMjRhNjFjOQ', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}, {'product_id': '122412', 'product_name': 'Skull 80 SS youth', 'summary': 'The Skull 80 t-shirt by Billabong got a funky front print. 100% Cotton', 'price': 18.59, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODkwMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak1pOW9Nek12T0RjNU5qZzNOemMxTURNd01pNXFjR2N8OTI5NmQ4MzFkMDNjNWI4ZmUxMjlhZGJlYjU1YzZmMDlhN2JiMGMwYTA5MWI3ZmNhMmFkNDhmYWRjNWVjOWEwNw', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}, {'product_id': '118893', 'product_name': 'I Love Tee SS Women', 'summary': 'The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton', 'price': 20.21, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}, {'product_id': '122333', 'product_name': 'Because Tee SS', 'summary': \"The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton\", 'price': 21.83, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}]\n        \n        [STRUCTURED_PRODUCTS: [{\"product_id\": \"117896\", \"product_name\": \"Acid SS\", \"summary\": \"The Acid t-shirt by Quiksilver got an unique look for you due to the washing. 100% Organic Cotton\", \"price\": 11.3, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk4OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVl5OW9NRFF2T0RjNU5qazBPVE0wT0RNNE1pNXFjR2N8NzE3OWM3NWVkNzgxNmRlNjc4Yjc5OGFmMzA2Y2MyOGQxY2E3MzIwYWQyZDJkNWExMGMxMjAzNzI0N2U2YTQ0ZQ\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}, {\"product_id\": \"122321\", \"product_name\": \"Quad Tee SS\", \"summary\": \"The Quad t-shirt by Billabong got a nice softhand front photoprint. 100% Cotton\", \"price\": 16.16, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzEzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE5DOW9OR0V2T0RjNU5qazBNamM1TkRjNE1pNXFjR2N8NzgzOWEyMjhkNjk3ZGFjOWFlNzU5NzBiZDNhNDEwNzg0MWZjMjE5OWIzYzBmYjUwMTE2NjVmMWEwMjRhNjFjOQ\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}, {\"product_id\": \"122412\", \"product_name\": \"Skull 80 SS youth\", \"summary\": \"The Skull 80 t-shirt by Billabong got a funky front print. 100% Cotton\", \"price\": 18.59, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODkwMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak1pOW9Nek12T0RjNU5qZzNOemMxTURNd01pNXFjR2N8OTI5NmQ4MzFkMDNjNWI4ZmUxMjlhZGJlYjU1YzZmMDlhN2JiMGMwYTA5MWI3ZmNhMmFkNDhmYWRjNWVjOWEwNw\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}, {\"product_id\": \"118893\", \"product_name\": \"I Love Tee SS Women\", \"summary\": \"The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton\", \"price\": 20.21, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}, {\"product_id\": \"122333\", \"product_name\": \"Because Tee SS\", \"summary\": \"The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton\", \"price\": 21.83, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}]]\n        "
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1762142505651,
+          "timestamp": "2025-11-03T04:01:45.651Z",
+          "user": "Find Tshirts under \u00a350",
+          "ai": {
+            "response": "I found 5 t-shirts under \u00a350.0 pounds.\n\n*   **Acid SS**: This t-shirt has a unique look due to its washing. Made from 100% Organic Cotton.\n*   **Quad Tee SS**: This t-shirt features a nice soft-hand front photoprint. Made from 100% Cotton.\n*   **Skull 80 SS youth**: This t-shirt has a funky front print. Made from 100% Cotton.\n*   **I Love Tee SS Women**: This t-shirt has an \"I Love Billabong\" print. Made from 50% Cotton.\n*   **Because Tee SS**: This t-shirt doesn't need a reason to look awesome. Made from 100% Cotton.\n\nWould you like to see more details about any of these t-shirts?\n        PRODUCT_CONTEXT_DATA: [{'product_id': '117896', 'product_name': 'Acid SS', 'summary': 'The Acid t-shirt by Quiksilver got an unique look for you due to the washing. 100% Organic Cotton', 'price': 11.3, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk4OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVl5OW9NRFF2T0RjNU5qazBPVE0wT0RNNE1pNXFjR2N8NzE3OWM3NWVkNzgxNmRlNjc4Yjc5OGFmMzA2Y2MyOGQxY2E3MzIwYWQyZDJkNWExMGMxMjAzNzI0N2U2YTQ0ZQ', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}, {'product_id': '122321', 'product_name': 'Quad Tee SS', 'summary': 'The Quad t-shirt by Billabong got a nice softhand front photoprint. 100% Cotton', 'price': 16.16, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzEzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE5DOW9OR0V2T0RjNU5qazBNamM1TkRjNE1pNXFjR2N8NzgzOWEyMjhkNjk3ZGFjOWFlNzU5NzBiZDNhNDEwNzg0MWZjMjE5OWIzYzBmYjUwMTE2NjVmMWEwMjRhNjFjOQ', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}, {'product_id': '122412', 'product_name': 'Skull 80 SS youth', 'summary': 'The Skull 80 t-shirt by Billabong got a funky front print. 100% Cotton', 'price': 18.59, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODkwMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak1pOW9Nek12T0RjNU5qZzNOemMxTURNd01pNXFjR2N8OTI5NmQ4MzFkMDNjNWI4ZmUxMjlhZGJlYjU1YzZmMDlhN2JiMGMwYTA5MWI3ZmNhMmFkNDhmYWRjNWVjOWEwNw', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}, {'product_id': '118893', 'product_name': 'I Love Tee SS Women', 'summary': 'The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton', 'price': 20.21, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}, {'product_id': '122333', 'product_name': 'Because Tee SS', 'summary': \"The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton\", 'price': 21.83, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}]\n        \n        [STRUCTURED_PRODUCTS: [{\"product_id\": \"117896\", \"product_name\": \"Acid SS\", \"summary\": \"The Acid t-shirt by Quiksilver got an unique look for you due to the washing. 100% Organic Cotton\", \"price\": 11.3, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk4OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVl5OW9NRFF2T0RjNU5qazBPVE0wT0RNNE1pNXFjR2N8NzE3OWM3NWVkNzgxNmRlNjc4Yjc5OGFmMzA2Y2MyOGQxY2E3MzIwYWQyZDJkNWExMGMxMjAzNzI0N2U2YTQ0ZQ\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}, {\"product_id\": \"122321\", \"product_name\": \"Quad Tee SS\", \"summary\": \"The Quad t-shirt by Billabong got a nice softhand front photoprint. 100% Cotton\", \"price\": 16.16, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzEzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE5DOW9OR0V2T0RjNU5qazBNamM1TkRjNE1pNXFjR2N8NzgzOWEyMjhkNjk3ZGFjOWFlNzU5NzBiZDNhNDEwNzg0MWZjMjE5OWIzYzBmYjUwMTE2NjVmMWEwMjRhNjFjOQ\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}, {\"product_id\": \"122412\", \"product_name\": \"Skull 80 SS youth\", \"summary\": \"The Skull 80 t-shirt by Billabong got a funky front print. 100% Cotton\", \"price\": 18.59, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODkwMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak1pOW9Nek12T0RjNU5qZzNOemMxTURNd01pNXFjR2N8OTI5NmQ4MzFkMDNjNWI4ZmUxMjlhZGJlYjU1YzZmMDlhN2JiMGMwYTA5MWI3ZmNhMmFkNDhmYWRjNWVjOWEwNw\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}, {\"product_id\": \"118893\", \"product_name\": \"I Love Tee SS Women\", \"summary\": \"The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton\", \"price\": 20.21, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}, {\"product_id\": \"122333\", \"product_name\": \"Because Tee SS\", \"summary\": \"The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton\", \"price\": 21.83, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}]]\n        "
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1762142523090,
+          "timestamp": "2025-11-03T04:02:03.090Z",
+          "user": "Find Tshirts under \u00a350",
+          "ai": {
+            "response": "I found 5 t-shirts under \u00a350.0 pounds.\n\n*   **Acid SS**: This t-shirt has a unique look due to its washing. Made from 100% Organic Cotton.\n*   **Quad Tee SS**: This t-shirt features a nice soft-hand front photoprint. Made from 100% Cotton.\n*   **Skull 80 SS youth**: This t-shirt has a funky front print. Made from 100% Cotton.\n*   **I Love Tee SS Women**: This t-shirt has an \"I Love Billabong\" print. Made from 50% Cotton.\n*   **Because Tee SS**: This t-shirt doesn't need a reason to look awesome. Made from 100% Cotton.\n\nWould you like to see more details about any of these t-shirts?\n        PRODUCT_CONTEXT_DATA: [{'product_id': '117896', 'product_name': 'Acid SS', 'summary': 'The Acid t-shirt by Quiksilver got an unique look for you due to the washing. 100% Organic Cotton', 'price': 11.3, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk4OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVl5OW9NRFF2T0RjNU5qazBPVE0wT0RNNE1pNXFjR2N8NzE3OWM3NWVkNzgxNmRlNjc4Yjc5OGFmMzA2Y2MyOGQxY2E3MzIwYWQyZDJkNWExMGMxMjAzNzI0N2U2YTQ0ZQ', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}, {'product_id': '122321', 'product_name': 'Quad Tee SS', 'summary': 'The Quad t-shirt by Billabong got a nice softhand front photoprint. 100% Cotton', 'price': 16.16, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzEzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE5DOW9OR0V2T0RjNU5qazBNamM1TkRjNE1pNXFjR2N8NzgzOWEyMjhkNjk3ZGFjOWFlNzU5NzBiZDNhNDEwNzg0MWZjMjE5OWIzYzBmYjUwMTE2NjVmMWEwMjRhNjFjOQ', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}, {'product_id': '122412', 'product_name': 'Skull 80 SS youth', 'summary': 'The Skull 80 t-shirt by Billabong got a funky front print. 100% Cotton', 'price': 18.59, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODkwMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak1pOW9Nek12T0RjNU5qZzNOemMxTURNd01pNXFjR2N8OTI5NmQ4MzFkMDNjNWI4ZmUxMjlhZGJlYjU1YzZmMDlhN2JiMGMwYTA5MWI3ZmNhMmFkNDhmYWRjNWVjOWEwNw', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}, {'product_id': '118893', 'product_name': 'I Love Tee SS Women', 'summary': 'The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton', 'price': 20.21, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}, {'product_id': '122333', 'product_name': 'Because Tee SS', 'summary': \"The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton\", 'price': 21.83, 'image_url': 'https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': []}]\n        \n        [STRUCTURED_PRODUCTS: [{\"product_id\": \"117896\", \"product_name\": \"Acid SS\", \"summary\": \"The Acid t-shirt by Quiksilver got an unique look for you due to the washing. 100% Organic Cotton\", \"price\": 11.3, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk4OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVl5OW9NRFF2T0RjNU5qazBPVE0wT0RNNE1pNXFjR2N8NzE3OWM3NWVkNzgxNmRlNjc4Yjc5OGFmMzA2Y2MyOGQxY2E3MzIwYWQyZDJkNWExMGMxMjAzNzI0N2U2YTQ0ZQ\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}, {\"product_id\": \"122321\", \"product_name\": \"Quad Tee SS\", \"summary\": \"The Quad t-shirt by Billabong got a nice softhand front photoprint. 100% Cotton\", \"price\": 16.16, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzEzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE5DOW9OR0V2T0RjNU5qazBNamM1TkRjNE1pNXFjR2N8NzgzOWEyMjhkNjk3ZGFjOWFlNzU5NzBiZDNhNDEwNzg0MWZjMjE5OWIzYzBmYjUwMTE2NjVmMWEwMjRhNjFjOQ\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}, {\"product_id\": \"122412\", \"product_name\": \"Skull 80 SS youth\", \"summary\": \"The Skull 80 t-shirt by Billabong got a funky front print. 100% Cotton\", \"price\": 18.59, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODkwMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak1pOW9Nek12T0RjNU5qZzNOemMxTURNd01pNXFjR2N8OTI5NmQ4MzFkMDNjNWI4ZmUxMjlhZGJlYjU1YzZmMDlhN2JiMGMwYTA5MWI3ZmNhMmFkNDhmYWRjNWVjOWEwNw\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}, {\"product_id\": \"118893\", \"product_name\": \"I Love Tee SS Women\", \"summary\": \"The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton\", \"price\": 20.21, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}, {\"product_id\": \"122333\", \"product_name\": \"Because Tee SS\", \"summary\": \"The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton\", \"price\": 21.83, \"image_url\": \"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": []}]]\n        "
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1762142879679,
+          "timestamp": "2025-11-03T04:07:59.679Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1762142917988,
+          "timestamp": "2025-11-03T04:08:37.988Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1762143782995,
+          "timestamp": "2025-11-03T04:23:02.995Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        }
+      ],
+      "last_products": [
+        {
+          "product_id": "117896",
+          "product_name": "Acid SS",
+          "price": 11.3,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk4OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVl5OW9NRFF2T0RjNU5qazBPVE0wT0RNNE1pNXFjR2N8NzE3OWM3NWVkNzgxNmRlNjc4Yjc5OGFmMzA2Y2MyOGQxY2E3MzIwYWQyZDJkNWExMGMxMjAzNzI0N2U2YTQ0ZQ",
+          "summary": "The Acid t-shirt by Quiksilver got an unique look for you due to the washing. 100% Organic Cotton"
+        },
+        {
+          "product_id": "122321",
+          "product_name": "Quad Tee SS",
+          "price": 16.16,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzEzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE5DOW9OR0V2T0RjNU5qazBNamM1TkRjNE1pNXFjR2N8NzgzOWEyMjhkNjk3ZGFjOWFlNzU5NzBiZDNhNDEwNzg0MWZjMjE5OWIzYzBmYjUwMTE2NjVmMWEwMjRhNjFjOQ",
+          "summary": "The Quad t-shirt by Billabong got a nice softhand front photoprint. 100% Cotton"
+        },
+        {
+          "product_id": "122412",
+          "product_name": "Skull 80 SS youth",
+          "price": 18.59,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODkwMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak1pOW9Nek12T0RjNU5qZzNOemMxTURNd01pNXFjR2N8OTI5NmQ4MzFkMDNjNWI4ZmUxMjlhZGJlYjU1YzZmMDlhN2JiMGMwYTA5MWI3ZmNhMmFkNDhmYWRjNWVjOWEwNw",
+          "summary": "The Skull 80 t-shirt by Billabong got a funky front print. 100% Cotton"
+        },
+        {
+          "product_id": "118893",
+          "product_name": "I Love Tee SS Women",
+          "price": 20.21,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw",
+          "summary": "The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton"
+        },
+        {
+          "product_id": "122333",
+          "product_name": "Because Tee SS",
+          "price": 21.83,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg",
+          "summary": "The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton"
+        }
+      ],
+      "recent_displayed": [],
+      "context": [
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": "2025-11-03T09:53:11.664835",
+    "session_id": "a688136d-1263-4549-9d60-19cde5c5fd51"
+  },
+  "result": null
+}

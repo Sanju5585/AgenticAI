@@ -1,0 +1,16 @@
+
+CATEGORY_ID,CATEGORY_NAME,PARENT_CATEGORY_ID
+400000,Grocery,
+700200,CerealBreakfast,400000
+
+PRODUCT_ID,PRODUCT_NAME,BRAND,SUMMARY,PRICE,CATEGORY_IDS,IMAGE_URL
+730001,Honey Crunch Cereal,Kellogg's,"Crispy whole grain cereal sweetened with honey for a delicious breakfast.",4.99,700200,https://images.unsplash.com/photo-1517093157656-b9eccef91cb1?auto=format&fit=crop&w=800&q=80
+730002,Chocolate Breakfast Cereal,General Mills,"Crunchy chocolate-flavored cereal loved by kids and adults alike.",5.49,700200,https://images.unsplash.com/photo-1515543904379-3d757afe72e4?auto=format&fit=crop&w=800&q=80
+730003,Corn Flakes,Post,"Classic toasted corn flakes with a light and crisp texture.",3.99,700200,https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80
+730004,Fruit Rings Cereal,Malt-O-Meal,"Colorful fruit-flavored cereal rings with a satisfying crunch.",4.49,700200,https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80
+730005,Oat Crunch Cereal,Quaker,"Whole grain oat cereal clusters with a hearty crunch.",5.99,700200,https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=800&q=80
+730006,Raisin Bran Cereal,Kellogg's,"Toasted bran flakes mixed with sweet raisins for added flavor.",4.79,700200,https://images.unsplash.com/photo-1517093157656-b9eccef91cb1?auto=format&fit=crop&w=800&q=80
+730007,Protein Boost Cereal,Special K,"High-protein breakfast cereal designed to support an active lifestyle.",6.49,700200,https://images.unsplash.com/photo-1495214783159-3503fd1b572d?auto=format&fit=crop&w=800&q=80
+730008,Granola Breakfast Blend,Nature Valley,"Crunchy granola with oats and honey, perfect with milk or yogurt.",5.49,700200,https://images.unsplash.com/photo-1517673400267-0251440c45dc?auto=format&fit=crop&w=800&q=80
+730009,Frosted Wheat Cereal,Post,"Sweet frosted wheat biscuits offering a wholesome breakfast option.",4.99,700200,https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80
+730010,Multigrain Breakfast Cereal,Cheerios,"Heart-healthy multigrain cereal with a lightly sweetened taste.",5.29,700200,https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?auto=format&fit=crop&w=800&q=80

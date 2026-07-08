@@ -1,0 +1,1144 @@
+{
+  "session_id": "a112f1c1-3d5e-462c-b7db-1232f7b1180d",
+  "status": "success",
+  "created_at": "2026-06-01T09:57:05.743987",
+  "payment_data": {
+    "customer_id": "jack.morrison@gmail.com",
+    "cart_items": [
+      {
+        "image_url": "/static/twinings_images/TW082.jpeg",
+        "price": 12.32,
+        "product_id": "TW082",
+        "product_name": "Twinings Chocolate Lovers Gift Box",
+        "quantity": 1,
+        "addedAt": "2026-06-01T04:26:33.313Z"
+      }
+    ],
+    "total_amount": 12.32,
+    "chat_history": [
+      {
+        "id": "msg_0",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n                <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background: #8B6520;\">\n                  <i class=\"fas fa-robot text-white text-sm\"></i>\n                </div>\n                <div>\n                  <p class=\"font-medium text-gray-800\">Hello! I'm your Twinings AI shopping assistant powered by Capgemini.</p>\n                  <p class=\"text-gray-600 text-sm mt-1\">How can I help you find the perfect tea or gift today?</p>\n                  <p class=\"text-gray-500 text-xs mt-2 italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>\n                    Note: Your cart will be cleared when you refresh the page.\n                  </p>\n                  <p class=\"text-yellow-600 text-xs mt-1 font-medium\">\n                    <i class=\"fas fa-credit-card mr-1\"></i>\n                    Secure PayPal checkout available - your session will be maintained during payment!\n                  </p>\n                </div>\n              </div>",
+        "timestamp": "2026-06-01T04:27:05.416Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_1",
+        "sender": "user",
+        "message": "My wife loves tea\u2014can you suggest some gift ideas for her?",
+        "timestamp": "2026-06-01T04:27:05.416Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_2",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#8B6520;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          Oh, how wonderful! Finding the perfect tea gift for your wife sounds like a delightful mission, and I'm absolutely thrilled to help you explore the world of Twinings!\n\nWe have so many beautiful options to make her tea moments extra special. You might consider our:\n\n*   **Luxury Gift Sets:** These are exquisitely curated collections featuring our most premium and sought-after teas, perfect for a truly indulgent experience.\n*   **Gift Boxes &amp; Hampers:** Beautifully presented assortments of our finest teas, offering a delightful journey through different flavors and blends.\n*   **Superblends:** For a touch of wellness, our Superblends offer delicious teas designed to support specific needs like sleep, immunity, or focus.\n*   **Classic Tea Collections:** You can't go wrong with the timeless favorites! Think of our iconic English Breakfast, sophisticated Earl Grey, or refreshing Green Teas.\n*   **Teaware:** Elevate her tea ritual with our elegant teapots, charming mugs, and handy infusers \u2013 they're as beautiful as they are functional.\n*   **Sparkling Tea:** For a truly unique and sophisticated treat, our premium tea-based sparkling drinks are a delightful surprise!\n\nDoes any of these categories spark your interest for a special gift for your wife?\n        </div>\n      </div>",
+        "timestamp": "2026-06-01T04:27:05.416Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_3",
+        "sender": "user",
+        "message": "ok show some gift sets",
+        "timestamp": "2026-06-01T04:27:05.416Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_4",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#8B6520;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"rounded-xl p-6 border\" style=\"background:rgba(139,101,32,0.03); border-color:#DDDDDD;\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg\" style=\"background:#8B6520;\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 text-white text-xs px-3 py-1 rounded-full\" style=\"background:#8B6520;\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white rounded-full px-4 py-2 border\" style=\"border-color:rgba(139,101,32,0.2); flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-sm\" style=\"color:#8B6520;\"></i>\n                <span class=\"text-sm font-semibold\" style=\"color:#8B6520;\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-gray-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110 border group\" style=\"border-color:#DDDDDD;\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-[#8B6520] transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-gray-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110 border group\" style=\"border-color:#DDDDDD;\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-[#8B6520] transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1780287629673\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/twinings_images/TW090.jpeg\" alt=\"Twinings Wellbeing Collection Gift Box\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#8B6520;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#8B6520] transition-colors duration-300\">Twinings Wellbeing Collection Gift Box</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Thoughtful wellbeing gift box with a handpicked selection of Twinings Superblends teas and a mug. Clearance.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#111; font-style:italic;\">$9.80</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background: rgb(196, 151, 61);\" onmouseover=\"this.style.background='#d4691a'\" onmouseout=\"this.style.background='#C4973D'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/twinings_images/TW082.jpeg\" alt=\"Twinings Chocolate Lovers Gift Box\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#8B6520;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#8B6520] transition-colors duration-300\">Twinings Chocolate Lovers Gift Box</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Indulgent gift box pairing Twinings tea with a delightful chocolate treat for the ultimate luxury experience. Clearance.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#111; font-style:italic;\">$12.32</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background:#C4973D;\" onmouseover=\"this.style.background='#d4691a'\" onmouseout=\"this.style.background='#C4973D'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/twinings_images/TW079.jpeg\" alt=\"Twinings Wind Down Gift Box\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#8B6520;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#8B6520] transition-colors duration-300\">Twinings Wind Down Gift Box</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Relaxing gift box with Twinings Wind Down tea and a beautiful mug. Perfect for unwinding. Clearance.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#111; font-style:italic;\">$10.50</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background:#C4973D;\" onmouseover=\"this.style.background='#d4691a'\" onmouseout=\"this.style.background='#C4973D'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/twinings_images/TW081.jpeg\" alt=\"Twinings Wellbeing Essentials Gift Bag\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#8B6520;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#8B6520] transition-colors duration-300\">Twinings Wellbeing Essentials Gift Bag</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Curated wellbeing gift bag featuring a selection of Twinings Superblends and essentials for mind and body.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#111; font-style:italic;\">$10.50</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background: rgb(196, 151, 61);\" onmouseover=\"this.style.background='#d4691a'\" onmouseout=\"this.style.background='#C4973D'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/twinings_images/TW088.jpeg\" alt=\"Twinings Moments of Still Gift Box\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#8B6520;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#8B6520] transition-colors duration-300\">Twinings Moments of Still Gift Box</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Serene gift box curated for moments of stillness featuring calming Twinings teas and a beautiful mug.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#111; font-style:italic;\">$18.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background: rgb(196, 151, 61);\" onmouseover=\"this.style.background='#d4691a'\" onmouseout=\"this.style.background='#C4973D'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2026-06-01T04:27:05.416Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_5",
+        "sender": "user",
+        "message": "great show some gift tea sets",
+        "timestamp": "2026-06-01T04:27:05.416Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_6",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#8B6520;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"rounded-xl p-6 border\" style=\"background:rgba(139,101,32,0.03); border-color:#DDDDDD;\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg\" style=\"background:#8B6520;\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 text-white text-xs px-3 py-1 rounded-full\" style=\"background:#8B6520;\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white rounded-full px-4 py-2 border\" style=\"border-color:rgba(139,101,32,0.2); flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-sm\" style=\"color:#8B6520;\"></i>\n                <span class=\"text-sm font-semibold\" style=\"color:#8B6520;\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-gray-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110 border group\" style=\"border-color:#DDDDDD;\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-[#8B6520] transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-gray-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110 border group\" style=\"border-color:#DDDDDD;\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-[#8B6520] transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1780287820210\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/twinings_images/TW082.jpeg\" alt=\"Twinings Chocolate Lovers Gift Box\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#8B6520;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#8B6520] transition-colors duration-300\">Twinings Chocolate Lovers Gift Box</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Indulgent gift box pairing Twinings tea with a delightful chocolate treat for the ultimate luxury experience. Clearance.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#111; font-style:italic;\">$12.32</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background: rgb(196, 151, 61);\" onmouseover=\"this.style.background='#d4691a'\" onmouseout=\"this.style.background='#C4973D'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/twinings_images/TW079.jpeg\" alt=\"Twinings Wind Down Gift Box\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#8B6520;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#8B6520] transition-colors duration-300\">Twinings Wind Down Gift Box</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Relaxing gift box with Twinings Wind Down tea and a beautiful mug. Perfect for unwinding. Clearance.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#111; font-style:italic;\">$10.50</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background: rgb(196, 151, 61);\" onmouseover=\"this.style.background='#d4691a'\" onmouseout=\"this.style.background='#C4973D'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/twinings_images/TW088.jpeg\" alt=\"Twinings Moments of Still Gift Box\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#8B6520;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#8B6520] transition-colors duration-300\">Twinings Moments of Still Gift Box</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Serene gift box curated for moments of stillness featuring calming Twinings teas and a beautiful mug.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#111; font-style:italic;\">$18.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background: rgb(196, 151, 61);\" onmouseover=\"this.style.background='#d4691a'\" onmouseout=\"this.style.background='#C4973D'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/twinings_images/TW099.jpeg\" alt=\"Twinings Large White Gift Box with Gold Ribbon\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#8B6520;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#8B6520] transition-colors duration-300\">Twinings Large White Gift Box with Gold Ribbon</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Luxurious large empty white gift box with a beautiful gold satin ribbon. Create the perfect gift.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#111; font-style:italic;\">$6.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background:#C4973D;\" onmouseover=\"this.style.background='#d4691a'\" onmouseout=\"this.style.background='#C4973D'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white rounded-2xl shadow-lg overflow-hidden product-card-modern border w-64 flex-shrink-0 group transition-all duration-300\" style=\"border-color:#DDDDDD;\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/twinings_images/TW090.jpeg\" alt=\"Twinings Wellbeing Collection Gift Box\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg\" style=\"background:#8B6520;\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-[#8B6520] transition-colors duration-300\">Twinings Wellbeing Collection Gift Box</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Thoughtful wellbeing gift box with a handpicked selection of Twinings Superblends teas and a mug. Clearance.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold\" style=\"color:#111; font-style:italic;\">$9.80</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full text-white py-2.5 rounded-2xl font-semibold transition-all duration-200 transform hover:scale-105 shadow-md flex items-center justify-center space-x-2\" style=\"background: rgb(196, 151, 61);\" onmouseover=\"this.style.background='#d4691a'\" onmouseout=\"this.style.background='#C4973D'\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2026-06-01T04:27:05.416Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_7",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n          <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#8B6520;\">\n            <i class=\"fas fa-robot text-white text-sm\"></i>\n          </div>\n          <div class=\"flex-1\">\n            <p class=\"text-gray-800\">You have been logged out successfully. Your cart has been cleared.</p>\n          </div>\n        </div>",
+        "timestamp": "2026-06-01T04:27:05.416Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_8",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#8B6520;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n    <div style=\"background: linear-gradient(135deg, #8B6520 0%, #2d7a7a 100%); color: white; padding: 25px; border-radius: 15px; margin: 10px 0; box-shadow: 0 8px 20px rgba(139,101,32,0.3);\">\n      <div style=\"display: flex; align-items: center; margin-bottom: 20px;\">\n        <div style=\"background: rgba(255,255,255,0.2); border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-size: 24px;\">\n          \ud83d\udc4b\n        </div>\n        <div>\n          <h3 style=\"margin: 0; font-size: 22px; font-weight: 700;\">Welcome back, Jack Morrison!</h3>\n          <p style=\"margin: 5px 0 0 0; font-size: 14px; opacity: 0.9;\">Your personalized shopping experience is ready</p>\n        </div>\n      </div>\n  \n      <div style=\"background: rgba(255,255,255,0.15); padding: 15px; border-radius: 12px; margin-top: 15px; text-align: center;\">\n        <i class=\"fas fa-shopping-bag\" style=\"font-size: 32px; opacity: 0.5; margin-bottom: 10px;\"></i>\n        <p style=\"margin: 0; font-size: 14px; opacity: 0.9;\">No order history yet. Start shopping to get personalized recommendations!</p>\n      </div>\n    \n    </div>\n  \n        </div>\n      </div>",
+        "timestamp": "2026-06-01T04:27:05.416Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_9",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2026-06-01T04:27:05.416Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_10",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#8B6520;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n        <div class=\"bg-gradient-to-br from-teal-50 to-green-50 rounded-2xl p-6 border mb-4\" style=\"border-color:rgba(27,82,82,0.25);\" id=\"chat-cart-container\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart mr-2\" style=\"color:#1B5252;\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"px-3 py-1 rounded-full text-sm font-semibold text-white\" style=\"background:#1B5252;\" id=\"chat-cart-count\"><i class=\"fas fa-shopping-cart mr-1\"></i>1 item</div>\n            </div>\n            \n            <div id=\"chat-cart-items\" class=\"space-y-3 mb-4\">\n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3 flex-1\">\n          <img src=\"/static/twinings_images/TW082.jpeg\" alt=\"Twinings Chocolate Lovers Gift Box\" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1 min-w-0\">\n            <h4 class=\"font-semibold text-gray-800 text-sm truncate\">Twinings Chocolate Lovers Gift Box</h4>\n            <p class=\"text-xs text-gray-500 mt-1\">12.32 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 rounded-full min-w-[2rem] text-center&quot; style=&quot;background:rgba(139,101,32,0.1); color:#8B6520;\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right ml-4\">\n          <p class=\"text-lg font-bold&quot; style=&quot;color:#8B6520;\">12.32</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    </div>\n            \n            <div id=\"chat-cart-footer\" class=\"pt-4\" style=\"border-top:1px solid rgba(27,82,82,0.2);\">\n                <div class=\"flex items-center justify-between mb-4\">\n                    <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                    <span class=\"text-2xl font-bold\" style=\"color:#1B5252;\" id=\"chat-cart-total\">12.32</span>\n                </div>\n                \n                <div class=\"text-center space-x-2\">\n                    <button  class=\"text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\" style=\"background: rgb(244, 121, 32);\" onmouseover=\"this.style.background='#d4691a'\" onmouseout=\"this.style.background='#F47920'\">\n                        <i class=\"fas fa-sync-alt mr-2\"></i>Refresh Cart\n                    </button>\n                    <button  class=\"text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\" style=\"background: rgb(27, 82, 82);\" onmouseover=\"this.style.background='#133d3d'\" onmouseout=\"this.style.background='#1B5252'\">\n                        <i class=\"fas fa-credit-card mr-2\"></i>Checkout\n                    </button>\n                </div>\n                \n                <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" onload=\"(function(){setTimeout(function(){if(typeof renderChatCart === &quot;function&quot;){console.log(&quot;\ud83d\uded2 Auto-triggering renderChatCart via image onload&quot;);renderChatCart();}},100);})()\" style=\"display:none;\">\n        \n        </div>\n      </div>",
+        "timestamp": "2026-06-01T04:27:05.416Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_11",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#8B6520;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Ready for Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #8B6520, #2d7a7a); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Order Summary</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: 12.32</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9; margin-bottom: 15px;\">\n          \ud83d\udce6 1 item in your cart<br>\n          \ud83d\udcb0 Total amount: 12.32<br>\n          \ud83d\udd12 Secure PayPal payment\n        </div>\n        <div style=\"background: rgba(255,255,255,0.15); padding: 12px; border-radius: 8px; font-size: 14px; margin-top: 10px;\">\n          <strong>\u26a1 Are you sure you want to proceed with the payment?</strong><br>\n          <span style=\"opacity: 0.9;\">Please reply with \"yes\" to confirm, or \"no\" to cancel.</span>\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-06-01T04:27:05.416Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_12",
+        "sender": "user",
+        "message": "yes",
+        "timestamp": "2026-06-01T04:27:05.416Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_13",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#8B6520;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u2705 <strong>Payment Confirmed!</strong><br><br>\n          <div style=\"background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 15px; border-radius: 12px; margin: 10px 0;\">\n            <div style=\"display: flex; align-items-center;\">\n              <i class=\"fas fa-check-circle\" style=\"font-size: 20px; margin-right: 10px;\"></i>\n              <div style=\"font-size: 14px;\">\n                Great! Processing your payment now. Opening PayPal gateway...\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>",
+        "timestamp": "2026-06-01T04:27:05.416Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_14",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background:#8B6520;\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #8B6520, #2d7a7a); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Processing Payment</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: 12.32</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u2728 Opening PayPal payment gateway...<br>\n          \ud83d\udd12 Secure payment processing<br>\n          \u26a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-06-01T04:27:05.416Z",
+        "messageType": "html"
+      }
+    ],
+    "conversation_context": {
+      "session_id": "session_1779683955213_xi5jjelda",
+      "conversation_history": [
+        {
+          "id": 1779793084260,
+          "timestamp": "2026-05-26T10:58:04.260Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1779683955213_xi5jjelda",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1779793148241,
+          "timestamp": "2026-05-26T10:59:08.241Z",
+          "user": "show my orders",
+          "ai": {
+            "ai_response": "Found 12 orders in your history.",
+            "orders_data": [
+              {
+                "image_url": "/static/product_images/97602.jpg",
+                "order_date": "2026-05-26 16:28:51",
+                "order_id": "5123",
+                "order_status": "Open",
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "total_price": "699.3"
+              },
+              {
+                "image_url": "/static/product_images/300044623.jpg",
+                "order_date": "2026-05-26 10:50:30",
+                "order_id": "5804",
+                "order_status": "Open",
+                "product_id": "300044623",
+                "product_name": "Shades Anon Legion crystal & black grey",
+                "total_price": "39.06"
+              },
+              {
+                "image_url": null,
+                "order_date": "2026-02-19 15:53:13",
+                "order_id": "4586",
+                "order_status": "Open",
+                "product_id": "200023",
+                "product_name": "Samsung Galaxy S23 Ultra",
+                "total_price": "372.3"
+              },
+              {
+                "image_url": "/static/product_images/300050255.jpg",
+                "order_date": "2025-10-14 16:04:43",
+                "order_id": "9288",
+                "order_status": "Open",
+                "product_id": "300050255",
+                "product_name": "Slip On Vans Classic Slip On checkerboard/black/pewter 8.0 ",
+                "total_price": "26.68"
+              },
+              {
+                "image_url": "/static/product_images/300050255.jpg",
+                "order_date": "2025-10-14 15:57:01",
+                "order_id": "7966",
+                "order_status": "Open",
+                "product_id": "300050255",
+                "product_name": "Slip On Vans Classic Slip On checkerboard/black/pewter 8.0 ",
+                "total_price": "26.68"
+              },
+              {
+                "image_url": "/static/product_images/300147490.jpg",
+                "order_date": "2025-10-14 15:51:52",
+                "order_id": "3278",
+                "order_status": "Open",
+                "product_id": "300147490",
+                "product_name": "T-Shirt Men Playboard Skull SS black S                     ",
+                "total_price": "59.46"
+              },
+              {
+                "image_url": "/static/product_images/300147490.jpg",
+                "order_date": "2025-10-14 15:45:22",
+                "order_id": "6868",
+                "order_status": "Open",
+                "product_id": "300147490",
+                "product_name": "T-Shirt Men Playboard Skull SS black S                     ",
+                "total_price": "59.46"
+              },
+              {
+                "image_url": "/static/product_images/300026675.jpg",
+                "order_date": "2025-10-05 19:06:42",
+                "order_id": "5358",
+                "order_status": "Open",
+                "product_id": "300026675",
+                "product_name": "Sneakers Vans Old Skool black/white 12.0                   ",
+                "total_price": "24.26"
+              },
+              {
+                "image_url": "/static/product_images/300738114.jpg",
+                "order_date": "2023-04-05",
+                "order_id": "2029",
+                "order_status": "READY",
+                "product_id": "300738114",
+                "product_name": "Asterisk SS youth black XS",
+                "total_price": "26.2"
+              },
+              {
+                "image_url": null,
+                "order_date": "2022-03-19",
+                "order_id": "2031",
+                "order_status": "OPEN",
+                "product_id": "300026672",
+                "product_name": "Sneakers Vans Old Skool black/white 10.0",
+                "total_price": "65.45"
+              },
+              {
+                "image_url": null,
+                "order_date": "2021-11-22",
+                "order_id": "2027",
+                "order_status": "APPROVED",
+                "product_id": "0032-1",
+                "product_name": "Leather Jacket",
+                "total_price": "1025.2"
+              },
+              {
+                "image_url": null,
+                "order_date": "2021-03-14",
+                "order_id": "2025",
+                "order_status": "OPEN",
+                "product_id": "0032-1",
+                "product_name": "Leather Jacket",
+                "total_price": "1004.99"
+              }
+            ],
+            "response_type": "order_history"
+          },
+          "metadata": {
+            "session_id": "session_1779683955213_xi5jjelda",
+            "products": [],
+            "response_type": "order_history",
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1779793295256,
+          "timestamp": "2026-05-26T11:01:35.256Z",
+          "user": "I want tshirts with BJP banner",
+          "ai": {
+            "blocked": true,
+            "reason": "political",
+            "response": "\u26a0\ufe0f We avoid political content and affiliations. Our products are focused on fashion, style, and general designs. Please explore our non-political collections! \ud83d\udecd\ufe0f",
+            "show_products": false
+          },
+          "metadata": {
+            "session_id": "session_1779683955213_xi5jjelda",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1780286356045,
+          "timestamp": "2026-06-01T03:59:16.045Z",
+          "user": "looking for pots",
+          "ai": {
+            "ai_response": "I couldn't find any products matching your search. Try: different keywords, broader search terms, or browse categories like smartphones, tablets, smartwatches, accessories.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW042.jpeg",
+                "payment_plans": [],
+                "price": 2.49,
+                "product_id": "TW042",
+                "product_name": "Twinings Green Tea & Pomegranate",
+                "summary": "Refreshing green tea with the rich antioxidant taste of juicy pomegranate. 20 tea bags."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW009.jpeg",
+                "payment_plans": [],
+                "price": 3.79,
+                "product_id": "TW009",
+                "product_name": "Twinings Superblends Heart Warming",
+                "summary": "Blackcurrant coconut honey and liquorice warming blend for a comforting uplift. 20 envelopes."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW013.jpeg",
+                "payment_plans": [],
+                "price": 3.79,
+                "product_id": "TW013",
+                "product_name": "Twinings Superblends Digest",
+                "summary": "Fennel apple and cardamom blend with fennel to support healthy digestion. 20 envelopes."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW059.jpeg",
+                "payment_plans": [],
+                "price": 2.99,
+                "product_id": "TW059",
+                "product_name": "Twinings Peach & Orange",
+                "summary": "Sweet and sunny fruity infusion combining ripe peach and zesty orange with silky rooibos. 20 tea bags."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW052.jpeg",
+                "payment_plans": [],
+                "price": 3.79,
+                "product_id": "TW052",
+                "product_name": "Twinings Fruit Discovery Collection",
+                "summary": "Fruity variety with Blackcurrant & Blueberry Orange & Lemon Cranberry & Raspberry and Mango & Strawberry. 20 envelopes."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1779683955213_xi5jjelda",
+            "products": [
+              {
+                "product_id": "TW042",
+                "product_name": "Twinings Green Tea & Pomegranate",
+                "price": 2.49,
+                "image_url": "/static/twinings_images/TW042.jpeg",
+                "summary": "Refreshing green tea with the rich antioxidant taste of juicy pomegranate. 20 tea bags."
+              },
+              {
+                "product_id": "TW009",
+                "product_name": "Twinings Superblends Heart Warming",
+                "price": 3.79,
+                "image_url": "/static/twinings_images/TW009.jpeg",
+                "summary": "Blackcurrant coconut honey and liquorice warming blend for a comforting uplift. 20 envelopes."
+              },
+              {
+                "product_id": "TW013",
+                "product_name": "Twinings Superblends Digest",
+                "price": 3.79,
+                "image_url": "/static/twinings_images/TW013.jpeg",
+                "summary": "Fennel apple and cardamom blend with fennel to support healthy digestion. 20 envelopes."
+              },
+              {
+                "product_id": "TW059",
+                "product_name": "Twinings Peach & Orange",
+                "price": 2.99,
+                "image_url": "/static/twinings_images/TW059.jpeg",
+                "summary": "Sweet and sunny fruity infusion combining ripe peach and zesty orange with silky rooibos. 20 tea bags."
+              },
+              {
+                "product_id": "TW052",
+                "product_name": "Twinings Fruit Discovery Collection",
+                "price": 3.79,
+                "image_url": "/static/twinings_images/TW052.jpeg",
+                "summary": "Fruity variety with Blackcurrant & Blueberry Orange & Lemon Cranberry & Raspberry and Mango & Strawberry. 20 envelopes."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "TW042",
+                "product_name": "Twinings Green Tea & Pomegranate",
+                "price": 2.49,
+                "image_url": "/static/twinings_images/TW042.jpeg",
+                "summary": "Refreshing green tea with the rich antioxidant taste of juicy pomegranate. 20 tea bags."
+              },
+              {
+                "product_id": "TW009",
+                "product_name": "Twinings Superblends Heart Warming",
+                "price": 3.79,
+                "image_url": "/static/twinings_images/TW009.jpeg",
+                "summary": "Blackcurrant coconut honey and liquorice warming blend for a comforting uplift. 20 envelopes."
+              },
+              {
+                "product_id": "TW013",
+                "product_name": "Twinings Superblends Digest",
+                "price": 3.79,
+                "image_url": "/static/twinings_images/TW013.jpeg",
+                "summary": "Fennel apple and cardamom blend with fennel to support healthy digestion. 20 envelopes."
+              },
+              {
+                "product_id": "TW059",
+                "product_name": "Twinings Peach & Orange",
+                "price": 2.99,
+                "image_url": "/static/twinings_images/TW059.jpeg",
+                "summary": "Sweet and sunny fruity infusion combining ripe peach and zesty orange with silky rooibos. 20 tea bags."
+              },
+              {
+                "product_id": "TW052",
+                "product_name": "Twinings Fruit Discovery Collection",
+                "price": 3.79,
+                "image_url": "/static/twinings_images/TW052.jpeg",
+                "summary": "Fruity variety with Blackcurrant & Blueberry Orange & Lemon Cranberry & Raspberry and Mango & Strawberry. 20 envelopes."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-06-01T03:59:16.049Z"
+          }
+        },
+        {
+          "id": 1780286759486,
+          "timestamp": "2026-06-01T04:05:59.486Z",
+          "user": "show some teapots",
+          "ai": {
+            "ai_response": "Here are some teapots I found:\n\n*   **Yvonne Ellen Tiger Teapot**: Bold and playful Yvonne Ellen tiger-shaped teapot. A striking statement piece for adventurous tea lovers.\n*   **The English Tableware Company Bee Happy Teapot**: Charming and cheerful Bee Happy teapot from The English Tableware Company. White with delightful bee motif.\n*   **Twinings 216 Strand Teapot - Black Design**: Stunning Twinings 216 Strand teapot in a bold black design with gold lettering. A true collector's piece.\n*   **Yvonne Ellen Zebra & Parrot Teapot**: Quirky and characterful Yvonne Ellen teapot featuring a zebra and parrot design. A true conversation piece.\n*   **Twinings 216 Strand Teapot - Gold Edge**: Beautiful Twinings 216 Strand teapot with a luxurious gold edge finish. A statement piece for any tea lover.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW127.jpeg",
+                "payment_plans": [],
+                "price": 50,
+                "product_id": "TW127",
+                "product_name": "Yvonne Ellen Tiger Teapot",
+                "summary": "Bold and playful Yvonne Ellen tiger-shaped teapot. A striking statement piece for adventurous tea lovers."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW119.jpeg",
+                "payment_plans": [],
+                "price": 22.99,
+                "product_id": "TW119",
+                "product_name": "The English Tableware Company Bee Happy Teapot",
+                "summary": "Charming and cheerful Bee Happy teapot from The English Tableware Company. White with delightful bee motif."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW116.jpeg",
+                "payment_plans": [],
+                "price": 80,
+                "product_id": "TW116",
+                "product_name": "Twinings 216 Strand Teapot - Black Design",
+                "summary": "Stunning Twinings 216 Strand teapot in a bold black design with gold lettering. A true collector's piece."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW126.jpeg",
+                "payment_plans": [],
+                "price": 50,
+                "product_id": "TW126",
+                "product_name": "Yvonne Ellen Zebra & Parrot Teapot",
+                "summary": "Quirky and characterful Yvonne Ellen teapot featuring a zebra and parrot design. A true conversation piece."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW118.jpeg",
+                "payment_plans": [],
+                "price": 80,
+                "product_id": "TW118",
+                "product_name": "Twinings 216 Strand Teapot - Gold Edge",
+                "summary": "Beautiful Twinings 216 Strand teapot with a luxurious gold edge finish. A statement piece for any tea lover."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1779683955213_xi5jjelda",
+            "products": [
+              {
+                "product_id": "TW127",
+                "product_name": "Yvonne Ellen Tiger Teapot",
+                "price": 50,
+                "image_url": "/static/twinings_images/TW127.jpeg",
+                "summary": "Bold and playful Yvonne Ellen tiger-shaped teapot. A striking statement piece for adventurous tea lovers."
+              },
+              {
+                "product_id": "TW119",
+                "product_name": "The English Tableware Company Bee Happy Teapot",
+                "price": 22.99,
+                "image_url": "/static/twinings_images/TW119.jpeg",
+                "summary": "Charming and cheerful Bee Happy teapot from The English Tableware Company. White with delightful bee motif."
+              },
+              {
+                "product_id": "TW116",
+                "product_name": "Twinings 216 Strand Teapot - Black Design",
+                "price": 80,
+                "image_url": "/static/twinings_images/TW116.jpeg",
+                "summary": "Stunning Twinings 216 Strand teapot in a bold black design with gold lettering. A true collector's piece."
+              },
+              {
+                "product_id": "TW126",
+                "product_name": "Yvonne Ellen Zebra & Parrot Teapot",
+                "price": 50,
+                "image_url": "/static/twinings_images/TW126.jpeg",
+                "summary": "Quirky and characterful Yvonne Ellen teapot featuring a zebra and parrot design. A true conversation piece."
+              },
+              {
+                "product_id": "TW118",
+                "product_name": "Twinings 216 Strand Teapot - Gold Edge",
+                "price": 80,
+                "image_url": "/static/twinings_images/TW118.jpeg",
+                "summary": "Beautiful Twinings 216 Strand teapot with a luxurious gold edge finish. A statement piece for any tea lover."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "TW127",
+                "product_name": "Yvonne Ellen Tiger Teapot",
+                "price": 50,
+                "image_url": "/static/twinings_images/TW127.jpeg",
+                "summary": "Bold and playful Yvonne Ellen tiger-shaped teapot. A striking statement piece for adventurous tea lovers."
+              },
+              {
+                "product_id": "TW119",
+                "product_name": "The English Tableware Company Bee Happy Teapot",
+                "price": 22.99,
+                "image_url": "/static/twinings_images/TW119.jpeg",
+                "summary": "Charming and cheerful Bee Happy teapot from The English Tableware Company. White with delightful bee motif."
+              },
+              {
+                "product_id": "TW116",
+                "product_name": "Twinings 216 Strand Teapot - Black Design",
+                "price": 80,
+                "image_url": "/static/twinings_images/TW116.jpeg",
+                "summary": "Stunning Twinings 216 Strand teapot in a bold black design with gold lettering. A true collector's piece."
+              },
+              {
+                "product_id": "TW126",
+                "product_name": "Yvonne Ellen Zebra & Parrot Teapot",
+                "price": 50,
+                "image_url": "/static/twinings_images/TW126.jpeg",
+                "summary": "Quirky and characterful Yvonne Ellen teapot featuring a zebra and parrot design. A true conversation piece."
+              },
+              {
+                "product_id": "TW118",
+                "product_name": "Twinings 216 Strand Teapot - Gold Edge",
+                "price": 80,
+                "image_url": "/static/twinings_images/TW118.jpeg",
+                "summary": "Beautiful Twinings 216 Strand teapot with a luxurious gold edge finish. A statement piece for any tea lover."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-06-01T04:05:59.488Z"
+          }
+        },
+        {
+          "id": 1780286824359,
+          "timestamp": "2026-06-01T04:07:04.359Z",
+          "user": "My wife loves tea\u2014can you suggest some gift ideas for her?",
+          "ai": {
+            "response": "That's wonderful! I'd be happy to help you find the perfect gift. We have a great selection of:\n- Mobile Phones (latest smartphones with amazing features)\n- Cameras (DSLR cameras and accessories)\n- Kitchen Appliances (kettles, toasters, microwaves)\n- Headphones & Speakers (wireless audio accessories)\n- Lighting (pendant lights and smart lighting)\n- Door Hardware (smart locks and handles)\n\nWhat type of gift are you interested in?"
+          },
+          "metadata": {
+            "session_id": "session_1779683955213_xi5jjelda",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1780287575469,
+          "timestamp": "2026-06-01T04:19:35.469Z",
+          "user": "My wife loves tea\u2014can you suggest some gift ideas for her?",
+          "ai": {
+            "response": "Oh, how wonderful! Finding the perfect tea gift for your wife sounds like a delightful mission, and I'm absolutely thrilled to help you explore the world of Twinings!\n\nWe have so many beautiful options to make her tea moments extra special. You might consider our:\n\n*   **Luxury Gift Sets:** These are exquisitely curated collections featuring our most premium and sought-after teas, perfect for a truly indulgent experience.\n*   **Gift Boxes & Hampers:** Beautifully presented assortments of our finest teas, offering a delightful journey through different flavors and blends.\n*   **Superblends:** For a touch of wellness, our Superblends offer delicious teas designed to support specific needs like sleep, immunity, or focus.\n*   **Classic Tea Collections:** You can't go wrong with the timeless favorites! Think of our iconic English Breakfast, sophisticated Earl Grey, or refreshing Green Teas.\n*   **Teaware:** Elevate her tea ritual with our elegant teapots, charming mugs, and handy infusers \u2013 they're as beautiful as they are functional.\n*   **Sparkling Tea:** For a truly unique and sophisticated treat, our premium tea-based sparkling drinks are a delightful surprise!\n\nDoes any of these categories spark your interest for a special gift for your wife?"
+          },
+          "metadata": {
+            "session_id": "session_1779683955213_xi5jjelda",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1780287629672,
+          "timestamp": "2026-06-01T04:20:29.672Z",
+          "user": "ok show some gift sets",
+          "ai": {
+            "ai_response": "",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW090.jpeg",
+                "payment_plans": [],
+                "price": 9.8,
+                "product_id": "TW090",
+                "product_name": "Twinings Wellbeing Collection Gift Box",
+                "summary": "Thoughtful wellbeing gift box with a handpicked selection of Twinings Superblends teas and a mug. Clearance."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW082.jpeg",
+                "payment_plans": [],
+                "price": 12.32,
+                "product_id": "TW082",
+                "product_name": "Twinings Chocolate Lovers Gift Box",
+                "summary": "Indulgent gift box pairing Twinings tea with a delightful chocolate treat for the ultimate luxury experience. Clearance."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW079.jpeg",
+                "payment_plans": [],
+                "price": 10.5,
+                "product_id": "TW079",
+                "product_name": "Twinings Wind Down Gift Box",
+                "summary": "Relaxing gift box with Twinings Wind Down tea and a beautiful mug. Perfect for unwinding. Clearance."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW081.jpeg",
+                "payment_plans": [],
+                "price": 10.5,
+                "product_id": "TW081",
+                "product_name": "Twinings Wellbeing Essentials Gift Bag",
+                "summary": "Curated wellbeing gift bag featuring a selection of Twinings Superblends and essentials for mind and body."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW088.jpeg",
+                "payment_plans": [],
+                "price": 18,
+                "product_id": "TW088",
+                "product_name": "Twinings Moments of Still Gift Box",
+                "summary": "Serene gift box curated for moments of stillness featuring calming Twinings teas and a beautiful mug."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1779683955213_xi5jjelda",
+            "products": [
+              {
+                "product_id": "TW090",
+                "product_name": "Twinings Wellbeing Collection Gift Box",
+                "price": 9.8,
+                "image_url": "/static/twinings_images/TW090.jpeg",
+                "summary": "Thoughtful wellbeing gift box with a handpicked selection of Twinings Superblends teas and a mug. Clearance."
+              },
+              {
+                "product_id": "TW082",
+                "product_name": "Twinings Chocolate Lovers Gift Box",
+                "price": 12.32,
+                "image_url": "/static/twinings_images/TW082.jpeg",
+                "summary": "Indulgent gift box pairing Twinings tea with a delightful chocolate treat for the ultimate luxury experience. Clearance."
+              },
+              {
+                "product_id": "TW079",
+                "product_name": "Twinings Wind Down Gift Box",
+                "price": 10.5,
+                "image_url": "/static/twinings_images/TW079.jpeg",
+                "summary": "Relaxing gift box with Twinings Wind Down tea and a beautiful mug. Perfect for unwinding. Clearance."
+              },
+              {
+                "product_id": "TW081",
+                "product_name": "Twinings Wellbeing Essentials Gift Bag",
+                "price": 10.5,
+                "image_url": "/static/twinings_images/TW081.jpeg",
+                "summary": "Curated wellbeing gift bag featuring a selection of Twinings Superblends and essentials for mind and body."
+              },
+              {
+                "product_id": "TW088",
+                "product_name": "Twinings Moments of Still Gift Box",
+                "price": 18,
+                "image_url": "/static/twinings_images/TW088.jpeg",
+                "summary": "Serene gift box curated for moments of stillness featuring calming Twinings teas and a beautiful mug."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "TW090",
+                "product_name": "Twinings Wellbeing Collection Gift Box",
+                "price": 9.8,
+                "image_url": "/static/twinings_images/TW090.jpeg",
+                "summary": "Thoughtful wellbeing gift box with a handpicked selection of Twinings Superblends teas and a mug. Clearance."
+              },
+              {
+                "product_id": "TW082",
+                "product_name": "Twinings Chocolate Lovers Gift Box",
+                "price": 12.32,
+                "image_url": "/static/twinings_images/TW082.jpeg",
+                "summary": "Indulgent gift box pairing Twinings tea with a delightful chocolate treat for the ultimate luxury experience. Clearance."
+              },
+              {
+                "product_id": "TW079",
+                "product_name": "Twinings Wind Down Gift Box",
+                "price": 10.5,
+                "image_url": "/static/twinings_images/TW079.jpeg",
+                "summary": "Relaxing gift box with Twinings Wind Down tea and a beautiful mug. Perfect for unwinding. Clearance."
+              },
+              {
+                "product_id": "TW081",
+                "product_name": "Twinings Wellbeing Essentials Gift Bag",
+                "price": 10.5,
+                "image_url": "/static/twinings_images/TW081.jpeg",
+                "summary": "Curated wellbeing gift bag featuring a selection of Twinings Superblends and essentials for mind and body."
+              },
+              {
+                "product_id": "TW088",
+                "product_name": "Twinings Moments of Still Gift Box",
+                "price": 18,
+                "image_url": "/static/twinings_images/TW088.jpeg",
+                "summary": "Serene gift box curated for moments of stillness featuring calming Twinings teas and a beautiful mug."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-06-01T04:20:29.673Z"
+          }
+        },
+        {
+          "id": 1780287820207,
+          "timestamp": "2026-06-01T04:23:40.207Z",
+          "user": "great show some gift tea sets",
+          "ai": {
+            "ai_response": "",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW082.jpeg",
+                "payment_plans": [],
+                "price": 12.32,
+                "product_id": "TW082",
+                "product_name": "Twinings Chocolate Lovers Gift Box",
+                "summary": "Indulgent gift box pairing Twinings tea with a delightful chocolate treat for the ultimate luxury experience. Clearance."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW079.jpeg",
+                "payment_plans": [],
+                "price": 10.5,
+                "product_id": "TW079",
+                "product_name": "Twinings Wind Down Gift Box",
+                "summary": "Relaxing gift box with Twinings Wind Down tea and a beautiful mug. Perfect for unwinding. Clearance."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW088.jpeg",
+                "payment_plans": [],
+                "price": 18,
+                "product_id": "TW088",
+                "product_name": "Twinings Moments of Still Gift Box",
+                "summary": "Serene gift box curated for moments of stillness featuring calming Twinings teas and a beautiful mug."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW099.jpeg",
+                "payment_plans": [],
+                "price": 6,
+                "product_id": "TW099",
+                "product_name": "Twinings Large White Gift Box with Gold Ribbon",
+                "summary": "Luxurious large empty white gift box with a beautiful gold satin ribbon. Create the perfect gift."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/twinings_images/TW090.jpeg",
+                "payment_plans": [],
+                "price": 9.8,
+                "product_id": "TW090",
+                "product_name": "Twinings Wellbeing Collection Gift Box",
+                "summary": "Thoughtful wellbeing gift box with a handpicked selection of Twinings Superblends teas and a mug. Clearance."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1779683955213_xi5jjelda",
+            "products": [
+              {
+                "product_id": "TW082",
+                "product_name": "Twinings Chocolate Lovers Gift Box",
+                "price": 12.32,
+                "image_url": "/static/twinings_images/TW082.jpeg",
+                "summary": "Indulgent gift box pairing Twinings tea with a delightful chocolate treat for the ultimate luxury experience. Clearance."
+              },
+              {
+                "product_id": "TW079",
+                "product_name": "Twinings Wind Down Gift Box",
+                "price": 10.5,
+                "image_url": "/static/twinings_images/TW079.jpeg",
+                "summary": "Relaxing gift box with Twinings Wind Down tea and a beautiful mug. Perfect for unwinding. Clearance."
+              },
+              {
+                "product_id": "TW088",
+                "product_name": "Twinings Moments of Still Gift Box",
+                "price": 18,
+                "image_url": "/static/twinings_images/TW088.jpeg",
+                "summary": "Serene gift box curated for moments of stillness featuring calming Twinings teas and a beautiful mug."
+              },
+              {
+                "product_id": "TW099",
+                "product_name": "Twinings Large White Gift Box with Gold Ribbon",
+                "price": 6,
+                "image_url": "/static/twinings_images/TW099.jpeg",
+                "summary": "Luxurious large empty white gift box with a beautiful gold satin ribbon. Create the perfect gift."
+              },
+              {
+                "product_id": "TW090",
+                "product_name": "Twinings Wellbeing Collection Gift Box",
+                "price": 9.8,
+                "image_url": "/static/twinings_images/TW090.jpeg",
+                "summary": "Thoughtful wellbeing gift box with a handpicked selection of Twinings Superblends teas and a mug. Clearance."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "TW082",
+                "product_name": "Twinings Chocolate Lovers Gift Box",
+                "price": 12.32,
+                "image_url": "/static/twinings_images/TW082.jpeg",
+                "summary": "Indulgent gift box pairing Twinings tea with a delightful chocolate treat for the ultimate luxury experience. Clearance."
+              },
+              {
+                "product_id": "TW079",
+                "product_name": "Twinings Wind Down Gift Box",
+                "price": 10.5,
+                "image_url": "/static/twinings_images/TW079.jpeg",
+                "summary": "Relaxing gift box with Twinings Wind Down tea and a beautiful mug. Perfect for unwinding. Clearance."
+              },
+              {
+                "product_id": "TW088",
+                "product_name": "Twinings Moments of Still Gift Box",
+                "price": 18,
+                "image_url": "/static/twinings_images/TW088.jpeg",
+                "summary": "Serene gift box curated for moments of stillness featuring calming Twinings teas and a beautiful mug."
+              },
+              {
+                "product_id": "TW099",
+                "product_name": "Twinings Large White Gift Box with Gold Ribbon",
+                "price": 6,
+                "image_url": "/static/twinings_images/TW099.jpeg",
+                "summary": "Luxurious large empty white gift box with a beautiful gold satin ribbon. Create the perfect gift."
+              },
+              {
+                "product_id": "TW090",
+                "product_name": "Twinings Wellbeing Collection Gift Box",
+                "price": 9.8,
+                "image_url": "/static/twinings_images/TW090.jpeg",
+                "summary": "Thoughtful wellbeing gift box with a handpicked selection of Twinings Superblends teas and a mug. Clearance."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-06-01T04:23:40.210Z"
+          }
+        },
+        {
+          "id": 1780287996650,
+          "timestamp": "2026-06-01T04:26:36.650Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-teal-50 to-green-50 rounded-2xl p-6 border mb-4' style='border-color:rgba(27,82,82,0.25);' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart mr-2' style='color:#1B5252;'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='px-3 py-1 rounded-full text-sm font-semibold text-white' style='background:#1B5252;' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='pt-4' style='border-top:1px solid rgba(27,82,82,0.2);'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold' style='color:#1B5252;' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl' style='background:#F47920;' onmouseover=\"this.style.background='#d4691a'\" onmouseout=\"this.style.background='#F47920'\">\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl' style='background:#1B5252;' onmouseover=\"this.style.background='#133d3d'\" onmouseout=\"this.style.background='#1B5252'\">\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1779683955213_xi5jjelda",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        }
+      ],
+      "last_products": [
+        {
+          "product_id": "TW082",
+          "product_name": "Twinings Chocolate Lovers Gift Box",
+          "price": 12.32,
+          "image_url": "/static/twinings_images/TW082.jpeg",
+          "summary": "Indulgent gift box pairing Twinings tea with a delightful chocolate treat for the ultimate luxury experience. Clearance."
+        },
+        {
+          "product_id": "TW079",
+          "product_name": "Twinings Wind Down Gift Box",
+          "price": 10.5,
+          "image_url": "/static/twinings_images/TW079.jpeg",
+          "summary": "Relaxing gift box with Twinings Wind Down tea and a beautiful mug. Perfect for unwinding. Clearance."
+        },
+        {
+          "product_id": "TW088",
+          "product_name": "Twinings Moments of Still Gift Box",
+          "price": 18,
+          "image_url": "/static/twinings_images/TW088.jpeg",
+          "summary": "Serene gift box curated for moments of stillness featuring calming Twinings teas and a beautiful mug."
+        },
+        {
+          "product_id": "TW099",
+          "product_name": "Twinings Large White Gift Box with Gold Ribbon",
+          "price": 6,
+          "image_url": "/static/twinings_images/TW099.jpeg",
+          "summary": "Luxurious large empty white gift box with a beautiful gold satin ribbon. Create the perfect gift."
+        },
+        {
+          "product_id": "TW090",
+          "product_name": "Twinings Wellbeing Collection Gift Box",
+          "price": 9.8,
+          "image_url": "/static/twinings_images/TW090.jpeg",
+          "summary": "Thoughtful wellbeing gift box with a handpicked selection of Twinings Superblends teas and a mug. Clearance."
+        }
+      ],
+      "recent_displayed": [
+        {
+          "product_id": "TW082",
+          "product_name": "Twinings Chocolate Lovers Gift Box",
+          "price": 12.32,
+          "image_url": "/static/twinings_images/TW082.jpeg",
+          "summary": "Indulgent gift box pairing Twinings tea with a delightful chocolate treat for the ultimate luxury experience. Clearance."
+        },
+        {
+          "product_id": "TW079",
+          "product_name": "Twinings Wind Down Gift Box",
+          "price": 10.5,
+          "image_url": "/static/twinings_images/TW079.jpeg",
+          "summary": "Relaxing gift box with Twinings Wind Down tea and a beautiful mug. Perfect for unwinding. Clearance."
+        },
+        {
+          "product_id": "TW088",
+          "product_name": "Twinings Moments of Still Gift Box",
+          "price": 18,
+          "image_url": "/static/twinings_images/TW088.jpeg",
+          "summary": "Serene gift box curated for moments of stillness featuring calming Twinings teas and a beautiful mug."
+        },
+        {
+          "product_id": "TW099",
+          "product_name": "Twinings Large White Gift Box with Gold Ribbon",
+          "price": 6,
+          "image_url": "/static/twinings_images/TW099.jpeg",
+          "summary": "Luxurious large empty white gift box with a beautiful gold satin ribbon. Create the perfect gift."
+        },
+        {
+          "product_id": "TW090",
+          "product_name": "Twinings Wellbeing Collection Gift Box",
+          "price": 9.8,
+          "image_url": "/static/twinings_images/TW090.jpeg",
+          "summary": "Thoughtful wellbeing gift box with a handpicked selection of Twinings Superblends teas and a mug. Clearance."
+        }
+      ],
+      "context": [
+        {
+          "user": "ok show some gift sets",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "TW090",
+              "product_name": "Twinings Wellbeing Collection Gift Box",
+              "price": 9.8,
+              "image_url": "/static/twinings_images/TW090.jpeg",
+              "summary": "Thoughtful wellbeing gift box with a handpicked selection of Twinings Superblends teas and a mug. Clearance."
+            },
+            {
+              "product_id": "TW082",
+              "product_name": "Twinings Chocolate Lovers Gift Box",
+              "price": 12.32,
+              "image_url": "/static/twinings_images/TW082.jpeg",
+              "summary": "Indulgent gift box pairing Twinings tea with a delightful chocolate treat for the ultimate luxury experience. Clearance."
+            },
+            {
+              "product_id": "TW079",
+              "product_name": "Twinings Wind Down Gift Box",
+              "price": 10.5,
+              "image_url": "/static/twinings_images/TW079.jpeg",
+              "summary": "Relaxing gift box with Twinings Wind Down tea and a beautiful mug. Perfect for unwinding. Clearance."
+            },
+            {
+              "product_id": "TW081",
+              "product_name": "Twinings Wellbeing Essentials Gift Bag",
+              "price": 10.5,
+              "image_url": "/static/twinings_images/TW081.jpeg",
+              "summary": "Curated wellbeing gift bag featuring a selection of Twinings Superblends and essentials for mind and body."
+            },
+            {
+              "product_id": "TW088",
+              "product_name": "Twinings Moments of Still Gift Box",
+              "price": 18,
+              "image_url": "/static/twinings_images/TW088.jpeg",
+              "summary": "Serene gift box curated for moments of stillness featuring calming Twinings teas and a beautiful mug."
+            }
+          ],
+          "type": "products_list"
+        },
+        {
+          "user": "great show some gift tea sets",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "TW082",
+              "product_name": "Twinings Chocolate Lovers Gift Box",
+              "price": 12.32,
+              "image_url": "/static/twinings_images/TW082.jpeg",
+              "summary": "Indulgent gift box pairing Twinings tea with a delightful chocolate treat for the ultimate luxury experience. Clearance."
+            },
+            {
+              "product_id": "TW079",
+              "product_name": "Twinings Wind Down Gift Box",
+              "price": 10.5,
+              "image_url": "/static/twinings_images/TW079.jpeg",
+              "summary": "Relaxing gift box with Twinings Wind Down tea and a beautiful mug. Perfect for unwinding. Clearance."
+            },
+            {
+              "product_id": "TW088",
+              "product_name": "Twinings Moments of Still Gift Box",
+              "price": 18,
+              "image_url": "/static/twinings_images/TW088.jpeg",
+              "summary": "Serene gift box curated for moments of stillness featuring calming Twinings teas and a beautiful mug."
+            },
+            {
+              "product_id": "TW099",
+              "product_name": "Twinings Large White Gift Box with Gold Ribbon",
+              "price": 6,
+              "image_url": "/static/twinings_images/TW099.jpeg",
+              "summary": "Luxurious large empty white gift box with a beautiful gold satin ribbon. Create the perfect gift."
+            },
+            {
+              "product_id": "TW090",
+              "product_name": "Twinings Wellbeing Collection Gift Box",
+              "price": 9.8,
+              "image_url": "/static/twinings_images/TW090.jpeg",
+              "summary": "Thoughtful wellbeing gift box with a handpicked selection of Twinings Superblends teas and a mug. Clearance."
+            }
+          ],
+          "type": "products_list"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": "2026-06-01T09:57:05.743803",
+    "session_id": "a112f1c1-3d5e-462c-b7db-1232f7b1180d"
+  },
+  "result": {
+    "payment_id": "PAYID-NIOQUHA7J044873DF0075324",
+    "payer_id": "YR6334H86TGYG",
+    "token": "EC-6NK4702069059883Y",
+    "order_result": {
+      "success": true,
+      "message": "Order TWN-967176 created successfully!",
+      "order_details": {
+        "order_id": "TWN-967176",
+        "customer_id": "jack.morrison@gmail.com",
+        "order_date": "2026-06-01 09:57:30",
+        "total_price": 12.32,
+        "status": "Open",
+        "items_count": 1,
+        "items": [
+          {
+            "line_item_id": 1,
+            "product_id": "TW082",
+            "product_name": "Twinings Chocolate Lovers Gift Box",
+            "quantity": 1,
+            "unit_price": 12.32,
+            "line_total": 12.32,
+            "image_url": "/static/twinings_images/TW082.jpeg"
+          }
+        ]
+      }
+    },
+    "message": "Payment completed successfully!"
+  },
+  "updated_at": "2026-06-01T09:57:31.322591"
+}

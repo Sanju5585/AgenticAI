@@ -1,0 +1,1225 @@
+{
+  "session_id": "58f9cb3a-c327-489a-bcca-ead601e5ab5e",
+  "status": "pending",
+  "created_at": "2025-11-03T08:59:28.814597",
+  "payment_data": {
+    "customer_id": "nicolejackson@gmail.com",
+    "cart_items": [
+      {
+        "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTE1NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak1DOW9NRFl2T0RjNU5qWTFOVEU1TURBME5pNXFjR2N8NTFmM2RjNWIwYTk3ZGUxNDhhMmU1OTNiOGU5OGFmZjg5NjIzNTNlMTU2N2FhZWMzMDM3NmJjN2YzNzRjYjgwYg",
+        "price": 26.68,
+        "product_id": "300046035",
+        "product_name": "T-Shirt Men Playboard Raster SS white XL                   ",
+        "quantity": 1,
+        "addedAt": "2025-11-03T03:29:09.900Z"
+      }
+    ],
+    "total_amount": 26.68,
+    "chat_history": [
+      {
+        "id": "msg_0",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n                <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n                  <i class=\"fas fa-robot text-white text-sm\"></i>\n                </div>\n                <div>\n                  <p class=\"font-medium text-gray-800\">Hello! I'm your AI shopping assistant.</p>\n                  <p class=\"text-gray-600 text-sm mt-1\">How can I help you find the perfect products today?</p>\n                  <p class=\"text-gray-500 text-xs mt-2 italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>\n                    Note: Your cart will be cleared when you refresh the page.\n                  </p>\n                  <p class=\"text-purple-600 text-xs mt-1 font-medium\">\n                    <i class=\"fas fa-credit-card mr-1\"></i>\n                    Secure PayPal checkout available - your session will be maintained during payment!\n                  </p>\n                </div>\n              </div>",
+        "timestamp": "2025-11-03T03:29:28.810Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_1",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n          <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n            <i class=\"fas fa-robot text-white text-sm\"></i>\n          </div>\n          <div class=\"flex-1\">\n            <p class=\"text-gray-800\">You have been logged out successfully. Your cart has been cleared.</p>\n          </div>\n        </div>",
+        "timestamp": "2025-11-03T03:29:28.810Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_2",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n    <div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; border-radius: 15px; margin: 10px 0; box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);\">\n      <div style=\"display: flex; align-items: center; margin-bottom: 20px;\">\n        <div style=\"background: rgba(255,255,255,0.2); border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-size: 24px;\">\n          \ud83d\udc4b\n        </div>\n        <div>\n          <h3 style=\"margin: 0; font-size: 22px; font-weight: 700;\">Welcome back, Nicole Jackson!</h3>\n          <p style=\"margin: 5px 0 0 0; font-size: 14px; opacity: 0.9;\">Your personalized shopping experience is ready</p>\n        </div>\n      </div>\n  \n      <div style=\"background: rgba(255,255,255,0.15); padding: 18px; border-radius: 12px; margin-top: 15px;\">\n        <h4 style=\"margin: 0 0 15px 0; font-size: 16px; font-weight: 600; display: flex; align-items: center;\">\n          <i class=\"fas fa-history\" style=\"margin-right: 8px;\"></i>\n          Your Recent Orders\n        </h4>\n    \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTMyNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1ppOW9NR1V2T0RjNU5qZzJNRE00TXpJMk1pNXFjR2N8YjlkNDc0YjliMThlZGY4ZjhjOWMxNDUwYTIxYmVjMTI4YTFhMGViMmQ2MTQyNmE1OTk1MTRiMDQ5NGYzMDRjOQ\" alt=\"Nightlife T-Shirt Women violet M\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255, 255, 255, 0.3); display: none;\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Nightlife T-Shirt Women violet M</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 23 Dec 2024</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">OPEN</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a370.75</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#2016</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/cap-image-1.jpg?context=bWFzdGVyfHJvb3R8MjYyNTd8aW1hZ2UvanBlZ3xhR05tTDJneE5TODROemszTnpjNU1qazJNamcyTG1wd1p3fGE0ZDlkMDhmNzZlZmYwNmMzNDExZDU4MTQzNmYyYWI2MGEyOWZiNGQxNDM3MGNlYzc3YmMzOTQ5MTAwZGU2MmQ\" alt=\"Black Newyork Cap\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255, 255, 255, 0.3); display: none;\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Black Newyork Cap</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 25 Jan 2023</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">OPEN</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a355.99</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#2017</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 0; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTMyNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1ppOW9NR1V2T0RjNU5qZzJNRE00TXpJMk1pNXFjR2N8YjlkNDc0YjliMThlZGY4ZjhjOWMxNDUwYTIxYmVjMTI4YTFhMGViMmQ2MTQyNmE1OTk1MTRiMDQ5NGYzMDRjOQ\" alt=\"Nightlife T-Shirt Women violet M\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255, 255, 255, 0.3); display: none;\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Nightlife T-Shirt Women violet M</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 27 Nov 2021</span>\n                <span style=\"background: #6b7280; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">READY</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a370.75</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#2015</div>\n          </div>\n        </div>\n      \n      </div>\n      <div style=\"margin-top: 15px; text-align: center; font-size: 13px; opacity: 0.9;\">\n        <i class=\"fas fa-info-circle\" style=\"margin-right: 5px;\"></i>\n        I've personalized your Trending Now section based on your purchase history!\n      </div>\n    \n    </div>\n  \n        </div>\n      </div>",
+        "timestamp": "2025-11-03T03:29:28.810Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_3",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n          <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n            <i class=\"fas fa-robot text-white text-sm\"></i>\n          </div>\n          <div class=\"flex-1\">\n            <p class=\"text-gray-800\">You have been logged out successfully. Your cart has been cleared.</p>\n          </div>\n        </div>",
+        "timestamp": "2025-11-03T03:29:28.810Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_4",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n    <div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; border-radius: 15px; margin: 10px 0; box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);\">\n      <div style=\"display: flex; align-items: center; margin-bottom: 20px;\">\n        <div style=\"background: rgba(255,255,255,0.2); border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-size: 24px;\">\n          \ud83d\udc4b\n        </div>\n        <div>\n          <h3 style=\"margin: 0; font-size: 22px; font-weight: 700;\">Welcome back, Nicole Jackson!</h3>\n          <p style=\"margin: 5px 0 0 0; font-size: 14px; opacity: 0.9;\">Your personalized shopping experience is ready</p>\n        </div>\n      </div>\n  \n      <div style=\"background: rgba(255,255,255,0.15); padding: 18px; border-radius: 12px; margin-top: 15px;\">\n        <h4 style=\"margin: 0 0 15px 0; font-size: 16px; font-weight: 600; display: flex; align-items: center;\">\n          <i class=\"fas fa-history\" style=\"margin-right: 8px;\"></i>\n          Your Recent Orders\n        </h4>\n    \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTMyNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1ppOW9NR1V2T0RjNU5qZzJNRE00TXpJMk1pNXFjR2N8YjlkNDc0YjliMThlZGY4ZjhjOWMxNDUwYTIxYmVjMTI4YTFhMGViMmQ2MTQyNmE1OTk1MTRiMDQ5NGYzMDRjOQ\" alt=\"Nightlife T-Shirt Women violet M\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Nightlife T-Shirt Women violet M</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 23 Dec 2024</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">OPEN</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a370.75</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#2016</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/cap-image-1.jpg?context=bWFzdGVyfHJvb3R8MjYyNTd8aW1hZ2UvanBlZ3xhR05tTDJneE5TODROemszTnpjNU1qazJNamcyTG1wd1p3fGE0ZDlkMDhmNzZlZmYwNmMzNDExZDU4MTQzNmYyYWI2MGEyOWZiNGQxNDM3MGNlYzc3YmMzOTQ5MTAwZGU2MmQ\" alt=\"Black Newyork Cap\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Black Newyork Cap</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 25 Jan 2023</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">OPEN</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a355.99</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#2017</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 0; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTMyNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1ppOW9NR1V2T0RjNU5qZzJNRE00TXpJMk1pNXFjR2N8YjlkNDc0YjliMThlZGY4ZjhjOWMxNDUwYTIxYmVjMTI4YTFhMGViMmQ2MTQyNmE1OTk1MTRiMDQ5NGYzMDRjOQ\" alt=\"Nightlife T-Shirt Women violet M\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Nightlife T-Shirt Women violet M</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 27 Nov 2021</span>\n                <span style=\"background: #6b7280; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">READY</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a370.75</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#2015</div>\n          </div>\n        </div>\n      \n      </div>\n      <div style=\"margin-top: 15px; text-align: center; font-size: 13px; opacity: 0.9;\">\n        <i class=\"fas fa-info-circle\" style=\"margin-right: 5px;\"></i>\n        I've personalized your Trending Now section based on your purchase history!\n      </div>\n    \n    </div>\n  \n        </div>\n      </div>",
+        "timestamp": "2025-11-03T03:29:28.810Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_5",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2025-11-03T03:29:28.810Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_6",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n        <div class=\"bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4\" id=\"chat-cart-container\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart text-purple-500 mr-2\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold\" id=\"chat-cart-count\"><i class=\"fas fa-shopping-cart mr-1\"></i>1 item</div>\n            </div>\n            \n            <div id=\"chat-cart-items\" class=\"space-y-3 mb-4\">\n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3 flex-1\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTE1NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak1DOW9NRFl2T0RjNU5qWTFOVEU1TURBME5pNXFjR2N8NTFmM2RjNWIwYTk3ZGUxNDhhMmU1OTNiOGU5OGFmZjg5NjIzNTNlMTU2N2FhZWMzMDM3NmJjN2YzNzRjYjgwYg\" alt=\"T-Shirt Men Playboard Raster SS white XL                   \" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1 min-w-0\">\n            <h4 class=\"font-semibold text-gray-800 text-sm truncate\">T-Shirt Men Playboard Raster SS white XL                   </h4>\n            <p class=\"text-xs text-gray-500 mt-1\">\u00a326.68 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 bg-purple-100 text-purple-800 rounded-full min-w-[2rem] text-center\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right ml-4\">\n          <p class=\"text-lg font-bold text-purple-600\">\u00a326.68</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    </div>\n            \n            <div id=\"chat-cart-footer\" class=\"border-t border-purple-200 pt-4\">\n                <div class=\"flex items-center justify-between mb-4\">\n                    <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                    <span class=\"text-2xl font-bold text-purple-600\" id=\"chat-cart-total\">\u00a326.68</span>\n                </div>\n                \n                <div class=\"text-center space-x-2\">\n                    <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-sync-alt mr-2\"></i>Refresh Cart\n                    </button>\n                    <button  class=\"bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-credit-card mr-2\"></i>Checkout\n                    </button>\n                </div>\n                \n                <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" onload=\"(function(){setTimeout(function(){if(typeof renderChatCart === &quot;function&quot;){console.log(&quot;\ud83d\uded2 Auto-triggering renderChatCart via image onload&quot;);renderChatCart();}},100);})()\" style=\"display:none;\">\n        \n        </div>\n      </div>",
+        "timestamp": "2025-11-03T03:29:28.810Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_7",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Ready for Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Order Summary</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: \u00a326.68</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9; margin-bottom: 15px;\">\n          \ud83d\udce6 1 item in your cart<br>\n          \ud83d\udcb0 Total amount: \u00a326.68<br>\n          \ud83d\udd12 Secure PayPal payment\n        </div>\n        <div style=\"background: rgba(255,255,255,0.15); padding: 12px; border-radius: 8px; font-size: 14px; margin-top: 10px;\">\n          <strong>\u26a1 Are you sure you want to proceed with the payment?</strong><br>\n          <span style=\"opacity: 0.9;\">Please reply with \"yes\" to confirm, or \"no\" to cancel.</span>\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2025-11-03T03:29:28.810Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_8",
+        "sender": "user",
+        "message": "yes",
+        "timestamp": "2025-11-03T03:29:28.810Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_9",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u2705 <strong>Payment Confirmed!</strong><br><br>\n          <div style=\"background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 15px; border-radius: 12px; margin: 10px 0;\">\n            <div style=\"display: flex; align-items-center;\">\n              <i class=\"fas fa-check-circle\" style=\"font-size: 20px; margin-right: 10px;\"></i>\n              <div style=\"font-size: 14px;\">\n                Great! Processing your payment now. Opening PayPal gateway...\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>",
+        "timestamp": "2025-11-03T03:29:28.810Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_10",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Processing Payment</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: \u00a326.68</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u2728 Opening PayPal payment gateway...<br>\n          \ud83d\udd12 Secure payment processing<br>\n          \u26a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2025-11-03T03:29:28.810Z",
+        "messageType": "html"
+      }
+    ],
+    "conversation_context": {
+      "session_id": "session_1761542676596_n93alvpl9",
+      "conversation_history": [
+        {
+          "id": 1761572332588,
+          "timestamp": "2025-10-27T13:38:52.588Z",
+          "user": "show my orders",
+          "ai": {
+            "response": "\n    <div style='font-family: Arial, sans-serif; margin: 10px 0;'>\n        <h3 style='color: #667eea; margin-bottom: 15px;'>\n            <i class='fas fa-shopping-bag'></i> Your Order History (7 orders)\n        </h3>\n        <table style='width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);'>\n            <thead>\n                <tr style='background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;'>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Order ID</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Product</th>\n                    <th style='padding: 12px; text-align: center; font-weight: 600;'>Image</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Date</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Status</th>\n                    <th style='padding: 12px; text-align: right; font-weight: 600;'>Price</th>\n                </tr>\n            </thead>\n            <tbody>\n    \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2372</td>\n                    <td style='padding: 12px; color: #374151;'>Stella Dress Women                                         </td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTg0NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnM1pDOW9PVFF2T0RjNU5qZzVOamt4T1RVNE1pNXFjR2N8YTlkZGUwNDU5OTA5Y2E2NzIxOTcwOWE1YTNlM2JiY2I0Njk2MThkZGI5OTg0OGUyYWIwNWJmNzllNmE1Y2NjOA' alt='Stella Dress Women                                         ' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2025-10-27 19:05:11</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>Open</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a344.51</td>\n                </tr>\n        \n                <tr style='background: #f9fafb; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#9650</td>\n                    <td style='padding: 12px; color: #374151;'>Slip On Vans Classic Slip On checkerboard/black/pewter 8.0 </td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w4MTM4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmd4WVM5b1l6VXZPRGM1TmpZMU5UWTBPRGM1T0M1cWNHY3w0NTA0NmY2OTY4NDUxZmU0MWI4MjAzYTg1NzdmZjBmZDEwNjE4MjlkYWVmNTkwZDdiY2VjZmRmMWVhZmE1NWJm' alt='Slip On Vans Classic Slip On checkerboard/black/pewter 8.0 ' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2025-10-15 09:18:15</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>Open</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a326.68</td>\n                </tr>\n        \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2611</td>\n                    <td style='padding: 12px; color: #374151;'>Slip On Vans Classic Slip On checkerboard/black/pewter 8.0 </td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w4MTM4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmd4WVM5b1l6VXZPRGM1TmpZMU5UWTBPRGM1T0M1cWNHY3w0NTA0NmY2OTY4NDUxZmU0MWI4MjAzYTg1NzdmZjBmZDEwNjE4MjlkYWVmNTkwZDdiY2VjZmRmMWVhZmE1NWJm' alt='Slip On Vans Classic Slip On checkerboard/black/pewter 8.0 ' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2025-10-14 22:27:31</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>Open</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a326.68</td>\n                </tr>\n        \n                <tr style='background: #f9fafb; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#3003</td>\n                    <td style='padding: 12px; color: #374151;'>HD Hero2 Outdoor Edition uni Uni</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzAzOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnM055OW9PVFV2T0RjNU5qY3lOek0wTlRFNE1pNXFjR2N8YWU0YjZmZWUwODdhNDU2YmFkZDcxNjJkYTUyMTAwMDI4Y2RjMjI4Zjc3NjMzM2Q4MjFjZGQ1ZTlmOTNmNDEzYg' alt='HD Hero2 Outdoor Edition uni Uni' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2025-02-03</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>CHECKED_VALID</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a3289.45</td>\n                </tr>\n        \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2012</td>\n                    <td style='padding: 12px; color: #374151;'>Sadplant Pipe Glove digi plaid S</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNDA5MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU5TOW9ZVEF2T0RjNU5qYzBOak0xTURZeU1pNXFjR2N8YWFiY2JlOTAyODZhZWUwZWYyMjU1ZjNjZmVhZGZmZDM4NGIyZDNmOGQzOTdhMjIxOTk1MTI1ZTBiMGNhMDNiMA' alt='Sadplant Pipe Glove digi plaid S' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2025-01-12</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>ON_HOLD</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a330.25</td>\n                </tr>\n        \n                <tr style='background: #f9fafb; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2011</td>\n                    <td style='padding: 12px; color: #374151;'>Skull 80 SS youth navy S</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODkwMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak1pOW9Nek12T0RjNU5qZzNOemMxTURNd01pNXFjR2N8OTI5NmQ4MzFkMDNjNWI4ZmUxMjlhZGJlYjU1YzZmMDlhN2JiMGMwYTA5MWI3ZmNhMmFkNDhmYWRjNWVjOWEwNw' alt='Skull 80 SS youth navy S' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2024-10-09</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>CREATED</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a326.20</td>\n                </tr>\n        \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2010</td>\n                    <td style='padding: 12px; color: #374151;'>Shades Fox The Duncan polished black grey</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w2MzYyfGltYWdlL2pwZWd8YVcxaFoyVnpMMmd3TXk5b09ERXZPRGM1TmpZMU1EQXhNamN3TWk1cWNHY3xkYzI4OTA3MTg3MmI2ZGFhZjRlOTZmM2U4YWJhOWU2MjJhYTM1MmI4OWY2ZmM5NDVjMWM5OGU0Yjc2YjA2MzEy' alt='Shades Fox The Duncan polished black grey' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2024-06-06</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>OPEN</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a3107.95</td>\n                </tr>\n        \n            </tbody>\n        </table>\n    </div>\n    "
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761889000097,
+          "timestamp": "2025-10-31T05:36:40.097Z",
+          "user": "I need something for winter clothing",
+          "ai": {
+            "ai_response": "Here are some winter clothing options:\n\n*   **Trench Coat**: A timeless and elegant trench coat.\n*   **Leather Jacket**: A classic leather jacket that offers a stylish and edgy look.\n*   **Kelly Jacket Women**: The Kelly Jacket by WLD is a top cut jacket for all the girls out there.\n*   **Fornax Pant Insulated youth**: The Fornax Pant is available in great pastel colors and is waterproof and super warm! Therefore ideal for the chillier days in winter!\n*   **Trenchtown Jacket**: So stylish and so cool - the Trenchtown jacket by Special Blend.\n\nWould you like to refine this search or look for something else?",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/trench-coat.jpg?context=bWFzdGVyfHJvb3R8MjIxMDB8aW1hZ2UvanBlZ3xhRFptTDJnMVlTODROemszTnpjNU9UVXhOalEyTG1wd1p3fGIyNTc5ODEyNmU1ZGYzOTEyNjA1YTE0NGM3ZDFkMzExNDE0MjMxOWE0OTBkNTk4OGFjOTM0MTI3ZWJkNzRjYzc",
+                "price": 650,
+                "product_id": "0031-1",
+                "product_name": "Trench Coat",
+                "summary": "A timeless and elegant trench coat"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY",
+                "price": 999,
+                "product_id": "0032-1",
+                "product_name": "Leather Jacket",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNTE0NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobE5DOW9NV1V2T0RjNU5qZ3lNVE00T1RNME1pNXFjR2N8ZDJmYTJiYjcwNDQ3MDBmM2E4MjQ0NjdlNzJjYjYxOTAzZWE1ZWJiM2M2OGMwMTg1MWNjOTdhZjRmNDc4OTc2MA",
+                "price": 80.95,
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMzkzNHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNVlTOW9PR1V2T0RjNU5qYzVOREU1TVRrd01pNXFjR2N8ZjNlNjM4OGU4MWJjYjExNDdjZGIzZTAwYzIyNjY0YzY2MWM3YmFkNjBhOWViMDBkNDE2MWNlYWM5NGJjMWZjMg",
+                "price": 80.96,
+                "product_id": "81252",
+                "product_name": "Fornax Pant Insulated youth",
+                "summary": "The Fornax Pant is available in great pastell colours and is waterproof and super warm! Therefore ideal for the chillier day in winter!"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTUxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek15OW9Oek12T0RjNU5qWTRNelF6TmpBMk1pNXFjR2N8ZjRmOGIxMzEzZjBiOGRlZGRhZDg4YmNkZTA5MGFmNWM5NmQwNjEyNzExNjQxNGJjNWJjMTIyNzcxNzhjNDJlYQ",
+                "price": 80.96,
+                "product_id": "94474",
+                "product_name": "Trenchtown Jacket",
+                "summary": "So stylish and so cool - the Trenchtown jacket by Special Blend."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [
+              {
+                "product_id": "0031-1",
+                "product_name": "Trench Coat",
+                "price": 650,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/trench-coat.jpg?context=bWFzdGVyfHJvb3R8MjIxMDB8aW1hZ2UvanBlZ3xhRFptTDJnMVlTODROemszTnpjNU9UVXhOalEyTG1wd1p3fGIyNTc5ODEyNmU1ZGYzOTEyNjA1YTE0NGM3ZDFkMzExNDE0MjMxOWE0OTBkNTk4OGFjOTM0MTI3ZWJkNzRjYzc",
+                "summary": "A timeless and elegant trench coat"
+              },
+              {
+                "product_id": "0032-1",
+                "product_name": "Leather Jacket",
+                "price": 999,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "price": 80.95,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNTE0NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobE5DOW9NV1V2T0RjNU5qZ3lNVE00T1RNME1pNXFjR2N8ZDJmYTJiYjcwNDQ3MDBmM2E4MjQ0NjdlNzJjYjYxOTAzZWE1ZWJiM2M2OGMwMTg1MWNjOTdhZjRmNDc4OTc2MA",
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "product_id": "81252",
+                "product_name": "Fornax Pant Insulated youth",
+                "price": 80.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMzkzNHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNVlTOW9PR1V2T0RjNU5qYzVOREU1TVRrd01pNXFjR2N8ZjNlNjM4OGU4MWJjYjExNDdjZGIzZTAwYzIyNjY0YzY2MWM3YmFkNjBhOWViMDBkNDE2MWNlYWM5NGJjMWZjMg",
+                "summary": "The Fornax Pant is available in great pastell colours and is waterproof and super warm! Therefore ideal for the chillier day in winter!"
+              },
+              {
+                "product_id": "94474",
+                "product_name": "Trenchtown Jacket",
+                "price": 80.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTUxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek15OW9Oek12T0RjNU5qWTRNelF6TmpBMk1pNXFjR2N8ZjRmOGIxMzEzZjBiOGRlZGRhZDg4YmNkZTA5MGFmNWM5NmQwNjEyNzExNjQxNGJjNWJjMTIyNzcxNzhjNDJlYQ",
+                "summary": "So stylish and so cool - the Trenchtown jacket by Special Blend."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "0031-1",
+                "product_name": "Trench Coat",
+                "price": 650,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/trench-coat.jpg?context=bWFzdGVyfHJvb3R8MjIxMDB8aW1hZ2UvanBlZ3xhRFptTDJnMVlTODROemszTnpjNU9UVXhOalEyTG1wd1p3fGIyNTc5ODEyNmU1ZGYzOTEyNjA1YTE0NGM3ZDFkMzExNDE0MjMxOWE0OTBkNTk4OGFjOTM0MTI3ZWJkNzRjYzc",
+                "summary": "A timeless and elegant trench coat"
+              },
+              {
+                "product_id": "0032-1",
+                "product_name": "Leather Jacket",
+                "price": 999,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "price": 80.95,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNTE0NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobE5DOW9NV1V2T0RjNU5qZ3lNVE00T1RNME1pNXFjR2N8ZDJmYTJiYjcwNDQ3MDBmM2E4MjQ0NjdlNzJjYjYxOTAzZWE1ZWJiM2M2OGMwMTg1MWNjOTdhZjRmNDc4OTc2MA",
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "product_id": "81252",
+                "product_name": "Fornax Pant Insulated youth",
+                "price": 80.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMzkzNHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNVlTOW9PR1V2T0RjNU5qYzVOREU1TVRrd01pNXFjR2N8ZjNlNjM4OGU4MWJjYjExNDdjZGIzZTAwYzIyNjY0YzY2MWM3YmFkNjBhOWViMDBkNDE2MWNlYWM5NGJjMWZjMg",
+                "summary": "The Fornax Pant is available in great pastell colours and is waterproof and super warm! Therefore ideal for the chillier day in winter!"
+              },
+              {
+                "product_id": "94474",
+                "product_name": "Trenchtown Jacket",
+                "price": 80.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTUxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek15OW9Oek12T0RjNU5qWTRNelF6TmpBMk1pNXFjR2N8ZjRmOGIxMzEzZjBiOGRlZGRhZDg4YmNkZTA5MGFmNWM5NmQwNjEyNzExNjQxNGJjNWJjMTIyNzcxNzhjNDJlYQ",
+                "summary": "So stylish and so cool - the Trenchtown jacket by Special Blend."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2025-10-31T05:36:40.102Z"
+          }
+        },
+        {
+          "id": 1761889049298,
+          "timestamp": "2025-10-31T05:37:29.298Z",
+          "user": "any accessrioes for these",
+          "ai": {
+            "ai_response": "Perfect! I found 8 accessories from our database that are specifically mapped to go with your selected products: Trench Coat, Leather Jacket, Kelly Jacket Women, Fornax Pant Insulated youth, Trenchtown Jacket. These are curated accessory matches!",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk1NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMU55OW9aakF2T0RjNU5qazJOVFF3TkRjd01pNXFjR2N8Zjg5OGE1MzQ0ODQ1ZGIzODJjOGJhZGVmYWMyZWJlYjMzNDBkZmVmNzc0NGFkZWFmYzUxYTg2MGVkZTRmMWE0ZQ",
+                "price": 12.92,
+                "product_id": "117210",
+                "product_name": "Faded Droid Cap",
+                "summary": "The droid. Faded Cap let you never fade away. 97% Cotton 3% spandex"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzMwNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU5DOW9ZV1F2T0RjNU5qa3lNelEyTVRZMk1pNXFjR2N8YWRkNTQyNWJlZTk1ZjEzZTRlNDczYWVhNDhlZTgxNTJhMDIyOTEzZWJlM2FlYTMxZTliZWIxNTI0ZWVjMGM5MQ",
+                "price": 24.26,
+                "product_id": "100402",
+                "product_name": "Seizure Bag",
+                "summary": "No chance that Billabong forgets about the classic among their bags. Therefore the Seizure bag is again part of the collection"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzg5NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMlpDOW9aVGd2T0RjNU5qazJOVGN6TWpNNE1pNXFjR2N8ZDhiZGFlYzY0NjI5MzQ0ZDQ3ZmMzNTJjY2VmOGViYzIyYWY4MDY2NWY3YjQ2NDczZDFkZWRhYzM0M2I0MGVkZQ",
+                "price": 24.26,
+                "product_id": "103151",
+                "product_name": "Transplant Flexfit Cap",
+                "summary": "A trendy Volcom Stone logo on the Transplant Flexfit cap. 98% Cotton 2% Spandex"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNTA2NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak5DOW9aall2T0RjNU5qa3lOVEV3TURBMk1pNXFjR2N8YmQ4MzkxMDY3NDFmZDYzMjNkNDkzNzg5YzkxZWY5M2Q2NDkzMTQ4MjQyZjcyNTliNzY5ZjI4ODc1MTdhOTNlYw",
+                "price": 32.36,
+                "product_id": "122723",
+                "product_name": "Override Reversible Belt Women",
+                "summary": "A big metal Fox head use to be the belt buckle and so the Override Reversible belt looks on the one hand heavy and on the other hand dressy. 100% polyurethan"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDMxOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE9TOW9ORFV2T0RjNU5qa3lPVFk0TnpVNE1pNXFjR2N8ZjE2MjQ1ZTQ4YjY3Njc5NDFiMzgyZDFkZWU4NzA3ZjBkYzRlMDI0M2IxN2FiYzA2ODM1ZjJkODNhMzgxNDFjZA",
+                "price": 36.4,
+                "product_id": "98851",
+                "product_name": "Lenus Belt",
+                "summary": "Your pants are always sliding down? Well"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzA2MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE5TOW9ZVEF2T0RjNU5qa3pNRGs1T0RNd01pNXFjR2N8Zjc4YTkyNjc5M2RiMGMwYTBkYjVmY2IwZGU3ZTU0MWQ0NmFkYTU2MGYwZGI2ZWZlNWM3OWY1MzZkMTU0ODE0ZA",
+                "price": 44.51,
+                "product_id": "74010",
+                "product_name": "Torbacula Belt",
+                "summary": "Nice leather belt with cool lettering by Von Zipper. 100% Leather"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDE0OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa05pOW9NelF2T0RjNU5qWTFORGs1TXpRek9DNXFjR2N8Y2ZhY2E4ZTNlOGFjMzlmM2M4NTBjNDQwYjM3ZjBlYzY0MTlmN2YwNGY5OWQ2OTRjNDgxNWY5NTMzOWJjZTYzZA",
+                "price": 46.71,
+                "product_id": "300062456",
+                "product_name": "Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL",
+                "summary": "The Lotus from TSG! One for the Ladies:"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDI1OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnM1l5OW9aV1l2T0RjNU5qWTBPRGN3TVRrNE1pNXFjR2N8NWFhYTg4ODlhZjY1OTE3ZjZlZTc0MDAyMDYyMmE3NjFkNGUwN2E0MTc2NTVmODhkZjgyNTk2MGM1NmY4ZDNmZg",
+                "price": 558.86,
+                "product_id": "300020294",
+                "product_name": "Shade Accessories Spy Omega Lens persimmon",
+                "summary": "Replacement lens for the Omega from Spy/ persimmon"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [
+              {
+                "product_id": "117210",
+                "product_name": "Faded Droid Cap",
+                "price": 12.92,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk1NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMU55OW9aakF2T0RjNU5qazJOVFF3TkRjd01pNXFjR2N8Zjg5OGE1MzQ0ODQ1ZGIzODJjOGJhZGVmYWMyZWJlYjMzNDBkZmVmNzc0NGFkZWFmYzUxYTg2MGVkZTRmMWE0ZQ",
+                "summary": "The droid. Faded Cap let you never fade away. 97% Cotton 3% spandex"
+              },
+              {
+                "product_id": "100402",
+                "product_name": "Seizure Bag",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzMwNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU5DOW9ZV1F2T0RjNU5qa3lNelEyTVRZMk1pNXFjR2N8YWRkNTQyNWJlZTk1ZjEzZTRlNDczYWVhNDhlZTgxNTJhMDIyOTEzZWJlM2FlYTMxZTliZWIxNTI0ZWVjMGM5MQ",
+                "summary": "No chance that Billabong forgets about the classic among their bags. Therefore the Seizure bag is again part of the collection"
+              },
+              {
+                "product_id": "103151",
+                "product_name": "Transplant Flexfit Cap",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzg5NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMlpDOW9aVGd2T0RjNU5qazJOVGN6TWpNNE1pNXFjR2N8ZDhiZGFlYzY0NjI5MzQ0ZDQ3ZmMzNTJjY2VmOGViYzIyYWY4MDY2NWY3YjQ2NDczZDFkZWRhYzM0M2I0MGVkZQ",
+                "summary": "A trendy Volcom Stone logo on the Transplant Flexfit cap. 98% Cotton 2% Spandex"
+              },
+              {
+                "product_id": "122723",
+                "product_name": "Override Reversible Belt Women",
+                "price": 32.36,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNTA2NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak5DOW9aall2T0RjNU5qa3lOVEV3TURBMk1pNXFjR2N8YmQ4MzkxMDY3NDFmZDYzMjNkNDkzNzg5YzkxZWY5M2Q2NDkzMTQ4MjQyZjcyNTliNzY5ZjI4ODc1MTdhOTNlYw",
+                "summary": "A big metal Fox head use to be the belt buckle and so the Override Reversible belt looks on the one hand heavy and on the other hand dressy. 100% polyurethan"
+              },
+              {
+                "product_id": "98851",
+                "product_name": "Lenus Belt",
+                "price": 36.4,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDMxOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE9TOW9ORFV2T0RjNU5qa3lPVFk0TnpVNE1pNXFjR2N8ZjE2MjQ1ZTQ4YjY3Njc5NDFiMzgyZDFkZWU4NzA3ZjBkYzRlMDI0M2IxN2FiYzA2ODM1ZjJkODNhMzgxNDFjZA",
+                "summary": "Your pants are always sliding down? Well"
+              },
+              {
+                "product_id": "74010",
+                "product_name": "Torbacula Belt",
+                "price": 44.51,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzA2MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE5TOW9ZVEF2T0RjNU5qa3pNRGs1T0RNd01pNXFjR2N8Zjc4YTkyNjc5M2RiMGMwYTBkYjVmY2IwZGU3ZTU0MWQ0NmFkYTU2MGYwZGI2ZWZlNWM3OWY1MzZkMTU0ODE0ZA",
+                "summary": "Nice leather belt with cool lettering by Von Zipper. 100% Leather"
+              },
+              {
+                "product_id": "300062456",
+                "product_name": "Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL",
+                "price": 46.71,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDE0OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa05pOW9NelF2T0RjNU5qWTFORGs1TXpRek9DNXFjR2N8Y2ZhY2E4ZTNlOGFjMzlmM2M4NTBjNDQwYjM3ZjBlYzY0MTlmN2YwNGY5OWQ2OTRjNDgxNWY5NTMzOWJjZTYzZA",
+                "summary": "The Lotus from TSG! One for the Ladies:"
+              },
+              {
+                "product_id": "300020294",
+                "product_name": "Shade Accessories Spy Omega Lens persimmon",
+                "price": 558.86,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDI1OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnM1l5OW9aV1l2T0RjNU5qWTBPRGN3TVRrNE1pNXFjR2N8NWFhYTg4ODlhZjY1OTE3ZjZlZTc0MDAyMDYyMmE3NjFkNGUwN2E0MTc2NTVmODhkZjgyNTk2MGM1NmY4ZDNmZg",
+                "summary": "Replacement lens for the Omega from Spy/ persimmon"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 8,
+            "enhanced_query": "any accessrioes for these. Context: User previously viewed these products: Trench Coat, Leather Jacket, Kelly Jacket Women, Fornax Pant Insulated youth, Trenchtown Jacket, Stella Dress Women, Selva Dress Women, Stratus Dress Women, Up Country Floral Dress Women, Strybal Dress Women (Product IDs: 0031-1, 0032-1, 103335, 81252, 94474, 83174, 83223, 84574, 122447, 121868)",
+            "displayed_products": [
+              {
+                "product_id": "117210",
+                "product_name": "Faded Droid Cap",
+                "price": 12.92,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk1NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMU55OW9aakF2T0RjNU5qazJOVFF3TkRjd01pNXFjR2N8Zjg5OGE1MzQ0ODQ1ZGIzODJjOGJhZGVmYWMyZWJlYjMzNDBkZmVmNzc0NGFkZWFmYzUxYTg2MGVkZTRmMWE0ZQ",
+                "summary": "The droid. Faded Cap let you never fade away. 97% Cotton 3% spandex"
+              },
+              {
+                "product_id": "100402",
+                "product_name": "Seizure Bag",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzMwNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU5DOW9ZV1F2T0RjNU5qa3lNelEyTVRZMk1pNXFjR2N8YWRkNTQyNWJlZTk1ZjEzZTRlNDczYWVhNDhlZTgxNTJhMDIyOTEzZWJlM2FlYTMxZTliZWIxNTI0ZWVjMGM5MQ",
+                "summary": "No chance that Billabong forgets about the classic among their bags. Therefore the Seizure bag is again part of the collection"
+              },
+              {
+                "product_id": "103151",
+                "product_name": "Transplant Flexfit Cap",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzg5NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMlpDOW9aVGd2T0RjNU5qazJOVGN6TWpNNE1pNXFjR2N8ZDhiZGFlYzY0NjI5MzQ0ZDQ3ZmMzNTJjY2VmOGViYzIyYWY4MDY2NWY3YjQ2NDczZDFkZWRhYzM0M2I0MGVkZQ",
+                "summary": "A trendy Volcom Stone logo on the Transplant Flexfit cap. 98% Cotton 2% Spandex"
+              },
+              {
+                "product_id": "122723",
+                "product_name": "Override Reversible Belt Women",
+                "price": 32.36,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNTA2NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak5DOW9aall2T0RjNU5qa3lOVEV3TURBMk1pNXFjR2N8YmQ4MzkxMDY3NDFmZDYzMjNkNDkzNzg5YzkxZWY5M2Q2NDkzMTQ4MjQyZjcyNTliNzY5ZjI4ODc1MTdhOTNlYw",
+                "summary": "A big metal Fox head use to be the belt buckle and so the Override Reversible belt looks on the one hand heavy and on the other hand dressy. 100% polyurethan"
+              },
+              {
+                "product_id": "98851",
+                "product_name": "Lenus Belt",
+                "price": 36.4,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDMxOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE9TOW9ORFV2T0RjNU5qa3lPVFk0TnpVNE1pNXFjR2N8ZjE2MjQ1ZTQ4YjY3Njc5NDFiMzgyZDFkZWU4NzA3ZjBkYzRlMDI0M2IxN2FiYzA2ODM1ZjJkODNhMzgxNDFjZA",
+                "summary": "Your pants are always sliding down? Well"
+              },
+              {
+                "product_id": "74010",
+                "product_name": "Torbacula Belt",
+                "price": 44.51,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzA2MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE5TOW9ZVEF2T0RjNU5qa3pNRGs1T0RNd01pNXFjR2N8Zjc4YTkyNjc5M2RiMGMwYTBkYjVmY2IwZGU3ZTU0MWQ0NmFkYTU2MGYwZGI2ZWZlNWM3OWY1MzZkMTU0ODE0ZA",
+                "summary": "Nice leather belt with cool lettering by Von Zipper. 100% Leather"
+              },
+              {
+                "product_id": "300062456",
+                "product_name": "Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL",
+                "price": 46.71,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDE0OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa05pOW9NelF2T0RjNU5qWTFORGs1TXpRek9DNXFjR2N8Y2ZhY2E4ZTNlOGFjMzlmM2M4NTBjNDQwYjM3ZjBlYzY0MTlmN2YwNGY5OWQ2OTRjNDgxNWY5NTMzOWJjZTYzZA",
+                "summary": "The Lotus from TSG! One for the Ladies:"
+              },
+              {
+                "product_id": "300020294",
+                "product_name": "Shade Accessories Spy Omega Lens persimmon",
+                "price": 558.86,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDI1OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnM1l5OW9aV1l2T0RjNU5qWTBPRGN3TVRrNE1pNXFjR2N8NWFhYTg4ODlhZjY1OTE3ZjZlZTc0MDAyMDYyMmE3NjFkNGUwN2E0MTc2NTVmODhkZjgyNTk2MGM1NmY4ZDNmZg",
+                "summary": "Replacement lens for the Omega from Spy/ persimmon"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2025-10-31T05:37:29.303Z"
+          }
+        },
+        {
+          "id": 1761889071365,
+          "timestamp": "2025-10-31T05:37:51.365Z",
+          "user": "I am going for a holiday suggest some products?",
+          "ai": {
+            "response": "I can help you with that! To give you the best suggestions, could you tell me a bit more about your holiday? For example, where are you going, and what kind of activities do you have planned?"
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761889106271,
+          "timestamp": "2025-10-31T05:38:26.271Z",
+          "user": "going to Kashmir Skiing",
+          "ai": {
+            "ai_response": "Here are some products that could be useful for your skiing trip in Kashmir:\n\n*   **Snowboard Ski Tool Red Basic Kit**: This kit includes a zip tool, ceramic stone, rub-down wax, and a carry pouch.\n*   **Snowboard Ski Tool Toko Skib\u00fcrste Kombi Nylon/Kupfer**: A brush with both nylon and copper bristles for ski maintenance.\n*   **Snowboard Binding F2-FTWO Mondo LT black L**: A robust and high-quality binding suitable for beginners and occasional riders.\n*   **Snowboard Ski Tool Red FBI 6**: A compact tool for ski maintenance.\n*   **Snowboard Ski Tool Toko Multi Base File Control**: A precision tool for tuning the base edge of your skis.\n\nWould you like to explore any of these options further or look for other winter sports gear?",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTMzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9NRFV2T0RjNU5qWTBPVEUyTURjek5DNXFjR2N8NDJkOGE0M2JkODgwOTk5N2I0MDNlNDQ2MmI4NmRiNjAyNTBkODdlMzZhNThjYzY0ZGM2YjIyZGE5N2RhODM3MQ",
+                "price": 29.71,
+                "product_id": "300044323",
+                "product_name": "Snowboard Ski Tool Red Basic Kit",
+                "summary": "BASIC KIT Satisfy your need for speed.  Includes + Zip Tool + Ceramic Stone + Rub-Down Wax + Stash Carry Pouch"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w5MjI4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmczTUM5b05ETXZPRGM1TmpZMU5ETXpPREEzT0M1cWNHY3w0YTAwZDAzNmYwMDJkNjMwMTg4MThjNDdhYzI1YjU1N2U2NzNjNjcxYTA1NzE2OGI0MTdhNTg1YWEyZDBkODNi",
+                "price": 226.76,
+                "product_id": "45576",
+                "product_name": "Snowboard Ski Tool Toko Skib\u00fcrste Kombi Nylon/Kupfer",
+                "summary": "An economical brush option of 1/2 nylon and 1/2 copper."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTc1MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak5pOW9ZVEV2T0RjNU5qWTFORGt5Tnprd01pNXFjR2N8NmY2MWIzNDEwODMzZWVlZDgzMzNiYWYxNGRmNTAwNTBmN2QwYjBkYTg5ZmIzMTIxZDZiMWQ4MGJmMWNjZGM1MA",
+                "price": 46.71,
+                "product_id": "300060389",
+                "product_name": "Snowboard Binding F2-FTWO Mondo LT black L",
+                "summary": "Beginners and occasional riders will find the Mondo LT to be an extremly robust and high quality binding."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDQwMHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnelpDOW9Oek12T0RjNU5qWTBPRFUzTURreE1DNXFjR2N8ZTdkOGMwZTgyN2ExM2E0M2M5MjllMmZjZDkwNzE1ZTgxYzEzMDI1ZmRmNTNjMzA5NTM3ZjBiNDRmZDNmOWIzMg",
+                "price": 21.21,
+                "product_id": "300013358",
+                "product_name": "Snowboard Ski Tool Red FBI 6",
+                "summary": "A pit crew for your pocket."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTI4N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoallTOW9Zamd2T0RjNU5qWTBPVE0xTnpNME1pNXFjR2N8YmU1Mzc1MDY2ZjhjZTM3ZTExYmM0ZmZhNGUzZGE3N2YzZDM2ZjU1N2M3MDZhOWRhMjliM2FlMWQ1ODkzMDI4NQ",
+                "price": 29.71,
+                "product_id": "300044600",
+                "product_name": "Snowboard Ski Tool Toko Multi Base File Control",
+                "summary": "Precision base (hanging) edge tuning tool"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [
+              {
+                "product_id": "300044323",
+                "product_name": "Snowboard Ski Tool Red Basic Kit",
+                "price": 29.71,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTMzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9NRFV2T0RjNU5qWTBPVEUyTURjek5DNXFjR2N8NDJkOGE0M2JkODgwOTk5N2I0MDNlNDQ2MmI4NmRiNjAyNTBkODdlMzZhNThjYzY0ZGM2YjIyZGE5N2RhODM3MQ",
+                "summary": "BASIC KIT Satisfy your need for speed.  Includes + Zip Tool + Ceramic Stone + Rub-Down Wax + Stash Carry Pouch"
+              },
+              {
+                "product_id": "45576",
+                "product_name": "Snowboard Ski Tool Toko Skib\u00fcrste Kombi Nylon/Kupfer",
+                "price": 226.76,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w5MjI4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmczTUM5b05ETXZPRGM1TmpZMU5ETXpPREEzT0M1cWNHY3w0YTAwZDAzNmYwMDJkNjMwMTg4MThjNDdhYzI1YjU1N2U2NzNjNjcxYTA1NzE2OGI0MTdhNTg1YWEyZDBkODNi",
+                "summary": "An economical brush option of 1/2 nylon and 1/2 copper."
+              },
+              {
+                "product_id": "300060389",
+                "product_name": "Snowboard Binding F2-FTWO Mondo LT black L",
+                "price": 46.71,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTc1MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak5pOW9ZVEV2T0RjNU5qWTFORGt5Tnprd01pNXFjR2N8NmY2MWIzNDEwODMzZWVlZDgzMzNiYWYxNGRmNTAwNTBmN2QwYjBkYTg5ZmIzMTIxZDZiMWQ4MGJmMWNjZGM1MA",
+                "summary": "Beginners and occasional riders will find the Mondo LT to be an extremly robust and high quality binding."
+              },
+              {
+                "product_id": "300013358",
+                "product_name": "Snowboard Ski Tool Red FBI 6",
+                "price": 21.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDQwMHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnelpDOW9Oek12T0RjNU5qWTBPRFUzTURreE1DNXFjR2N8ZTdkOGMwZTgyN2ExM2E0M2M5MjllMmZjZDkwNzE1ZTgxYzEzMDI1ZmRmNTNjMzA5NTM3ZjBiNDRmZDNmOWIzMg",
+                "summary": "A pit crew for your pocket."
+              },
+              {
+                "product_id": "300044600",
+                "product_name": "Snowboard Ski Tool Toko Multi Base File Control",
+                "price": 29.71,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTI4N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoallTOW9Zamd2T0RjNU5qWTBPVE0xTnpNME1pNXFjR2N8YmU1Mzc1MDY2ZjhjZTM3ZTExYmM0ZmZhNGUzZGE3N2YzZDM2ZjU1N2M3MDZhOWRhMjliM2FlMWQ1ODkzMDI4NQ",
+                "summary": "Precision base (hanging) edge tuning tool"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300044323",
+                "product_name": "Snowboard Ski Tool Red Basic Kit",
+                "price": 29.71,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTMzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9NRFV2T0RjNU5qWTBPVEUyTURjek5DNXFjR2N8NDJkOGE0M2JkODgwOTk5N2I0MDNlNDQ2MmI4NmRiNjAyNTBkODdlMzZhNThjYzY0ZGM2YjIyZGE5N2RhODM3MQ",
+                "summary": "BASIC KIT Satisfy your need for speed.  Includes + Zip Tool + Ceramic Stone + Rub-Down Wax + Stash Carry Pouch"
+              },
+              {
+                "product_id": "45576",
+                "product_name": "Snowboard Ski Tool Toko Skib\u00fcrste Kombi Nylon/Kupfer",
+                "price": 226.76,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w5MjI4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmczTUM5b05ETXZPRGM1TmpZMU5ETXpPREEzT0M1cWNHY3w0YTAwZDAzNmYwMDJkNjMwMTg4MThjNDdhYzI1YjU1N2U2NzNjNjcxYTA1NzE2OGI0MTdhNTg1YWEyZDBkODNi",
+                "summary": "An economical brush option of 1/2 nylon and 1/2 copper."
+              },
+              {
+                "product_id": "300060389",
+                "product_name": "Snowboard Binding F2-FTWO Mondo LT black L",
+                "price": 46.71,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTc1MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak5pOW9ZVEV2T0RjNU5qWTFORGt5Tnprd01pNXFjR2N8NmY2MWIzNDEwODMzZWVlZDgzMzNiYWYxNGRmNTAwNTBmN2QwYjBkYTg5ZmIzMTIxZDZiMWQ4MGJmMWNjZGM1MA",
+                "summary": "Beginners and occasional riders will find the Mondo LT to be an extremly robust and high quality binding."
+              },
+              {
+                "product_id": "300013358",
+                "product_name": "Snowboard Ski Tool Red FBI 6",
+                "price": 21.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDQwMHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnelpDOW9Oek12T0RjNU5qWTBPRFUzTURreE1DNXFjR2N8ZTdkOGMwZTgyN2ExM2E0M2M5MjllMmZjZDkwNzE1ZTgxYzEzMDI1ZmRmNTNjMzA5NTM3ZjBiNDRmZDNmOWIzMg",
+                "summary": "A pit crew for your pocket."
+              },
+              {
+                "product_id": "300044600",
+                "product_name": "Snowboard Ski Tool Toko Multi Base File Control",
+                "price": 29.71,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTI4N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoallTOW9Zamd2T0RjNU5qWTBPVE0xTnpNME1pNXFjR2N8YmU1Mzc1MDY2ZjhjZTM3ZTExYmM0ZmZhNGUzZGE3N2YzZDM2ZjU1N2M3MDZhOWRhMjliM2FlMWQ1ODkzMDI4NQ",
+                "summary": "Precision base (hanging) edge tuning tool"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2025-10-31T05:38:26.275Z"
+          }
+        },
+        {
+          "id": 1761889181233,
+          "timestamp": "2025-10-31T05:39:41.233Z",
+          "user": "show me products below 100 pounds",
+          "ai": {
+            "ai_response": "I found 5 products under 100.0 pounds.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNjAwMHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNU9TOW9NRE12T0RjNU5qa3lNRGcwTURJeU1pNXFjR2N8Nzc3Mzk1MmU4MTM1ZTg5ODkwOWYwZTgxMWIwM2M4NDY4MDY3MTQ3ZTZmMTJiMmEyN2QyM2U1NWZmZTRjNmM0Mg",
+                "price": 1.58,
+                "product_id": "104396",
+                "product_name": "BT Shopping Bag",
+                "summary": "Not just for shopping. You can also use the BT Shopping bag for the beach or something else. 100% Polyester"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDE0MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU5DOW9aR1V2T0RjNU5qa3hPVFV5T1RVd01pNXFjR2N8NTdiZmFkZTU4YmIyMThmOTcxN2NkOGQ4YjliZGQ2NGQzNjNlNzQ4OTM5YTRiMzZmZjk1ZmY3OWQzMmNmYjliNA",
+                "price": 1.98,
+                "product_id": "102153",
+                "product_name": "AC Trefoil Shop Bag white",
+                "summary": "You can store your shopping or your favourite belongings for every day use into the adidas AC Trefoil Shop bag."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMzg3M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaFlTOW9ZbUV2T0RjNU5qa3lOamN6T0RRMk1pNXFjR2N8NDVhMGQwZmJlZDQxOWViYWU4MDg3OWZlYTVhYzA5N2Y5MzBjMjJiMGIxZDczNmNlYzU5MGU3OWQ1NWY3NTJhZQ",
+                "price": 4.01,
+                "product_id": "63500",
+                "product_name": "Overtime Belt Women",
+                "summary": "Stylish Belt with large Logo buckle! 100% cotton"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzE5NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoalpDOW9ObVV2T0RjNU5qY3hOakl3TkRBMk1pNXFjR2N8Y2UyOWFjOWNmOWM1ZWFlZjFkOGEzYTAwYmY2NTU0Y2ZhNTZlZTBlNzQwMmE3MzE4YzllYTIxMTgyN2JlOWU0Zg",
+                "price": 4.82,
+                "product_id": "21618",
+                "product_name": "Base Brush Combi Nylon/Copper",
+                "summary": "An economical brush option of 1/2 nylon and 1/2 copper."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMjQ2MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek1DOW9PREV2T0RjNU5qZzFPVFF3TURJeU1pNXFjR2N8YmU1YzQ5NjNiYTI0Y2U1OWM2NWIxNWFlZWVmOTliYTc2M2Q5ZjM2YjYzODYyZDEwZDI5OTAwZmM3OGMxNjY4Mg",
+                "price": 8.46,
+                "product_id": "43339",
+                "product_name": "The Sentry",
+                "summary": "Guards you from boredom."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [
+              {
+                "product_id": "104396",
+                "product_name": "BT Shopping Bag",
+                "price": 1.58,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNjAwMHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNU9TOW9NRE12T0RjNU5qa3lNRGcwTURJeU1pNXFjR2N8Nzc3Mzk1MmU4MTM1ZTg5ODkwOWYwZTgxMWIwM2M4NDY4MDY3MTQ3ZTZmMTJiMmEyN2QyM2U1NWZmZTRjNmM0Mg",
+                "summary": "Not just for shopping. You can also use the BT Shopping bag for the beach or something else. 100% Polyester"
+              },
+              {
+                "product_id": "102153",
+                "product_name": "AC Trefoil Shop Bag white",
+                "price": 1.98,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDE0MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU5DOW9aR1V2T0RjNU5qa3hPVFV5T1RVd01pNXFjR2N8NTdiZmFkZTU4YmIyMThmOTcxN2NkOGQ4YjliZGQ2NGQzNjNlNzQ4OTM5YTRiMzZmZjk1ZmY3OWQzMmNmYjliNA",
+                "summary": "You can store your shopping or your favourite belongings for every day use into the adidas AC Trefoil Shop bag."
+              },
+              {
+                "product_id": "63500",
+                "product_name": "Overtime Belt Women",
+                "price": 4.01,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMzg3M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaFlTOW9ZbUV2T0RjNU5qa3lOamN6T0RRMk1pNXFjR2N8NDVhMGQwZmJlZDQxOWViYWU4MDg3OWZlYTVhYzA5N2Y5MzBjMjJiMGIxZDczNmNlYzU5MGU3OWQ1NWY3NTJhZQ",
+                "summary": "Stylish Belt with large Logo buckle! 100% cotton"
+              },
+              {
+                "product_id": "21618",
+                "product_name": "Base Brush Combi Nylon/Copper",
+                "price": 4.82,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzE5NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoalpDOW9ObVV2T0RjNU5qY3hOakl3TkRBMk1pNXFjR2N8Y2UyOWFjOWNmOWM1ZWFlZjFkOGEzYTAwYmY2NTU0Y2ZhNTZlZTBlNzQwMmE3MzE4YzllYTIxMTgyN2JlOWU0Zg",
+                "summary": "An economical brush option of 1/2 nylon and 1/2 copper."
+              },
+              {
+                "product_id": "43339",
+                "product_name": "The Sentry",
+                "price": 8.46,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMjQ2MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek1DOW9PREV2T0RjNU5qZzFPVFF3TURJeU1pNXFjR2N8YmU1YzQ5NjNiYTI0Y2U1OWM2NWIxNWFlZWVmOTliYTc2M2Q5ZjM2YjYzODYyZDEwZDI5OTAwZmM3OGMxNjY4Mg",
+                "summary": "Guards you from boredom."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "104396",
+                "product_name": "BT Shopping Bag",
+                "price": 1.58,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNjAwMHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNU9TOW9NRE12T0RjNU5qa3lNRGcwTURJeU1pNXFjR2N8Nzc3Mzk1MmU4MTM1ZTg5ODkwOWYwZTgxMWIwM2M4NDY4MDY3MTQ3ZTZmMTJiMmEyN2QyM2U1NWZmZTRjNmM0Mg",
+                "summary": "Not just for shopping. You can also use the BT Shopping bag for the beach or something else. 100% Polyester"
+              },
+              {
+                "product_id": "102153",
+                "product_name": "AC Trefoil Shop Bag white",
+                "price": 1.98,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDE0MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU5DOW9aR1V2T0RjNU5qa3hPVFV5T1RVd01pNXFjR2N8NTdiZmFkZTU4YmIyMThmOTcxN2NkOGQ4YjliZGQ2NGQzNjNlNzQ4OTM5YTRiMzZmZjk1ZmY3OWQzMmNmYjliNA",
+                "summary": "You can store your shopping or your favourite belongings for every day use into the adidas AC Trefoil Shop bag."
+              },
+              {
+                "product_id": "63500",
+                "product_name": "Overtime Belt Women",
+                "price": 4.01,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMzg3M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaFlTOW9ZbUV2T0RjNU5qa3lOamN6T0RRMk1pNXFjR2N8NDVhMGQwZmJlZDQxOWViYWU4MDg3OWZlYTVhYzA5N2Y5MzBjMjJiMGIxZDczNmNlYzU5MGU3OWQ1NWY3NTJhZQ",
+                "summary": "Stylish Belt with large Logo buckle! 100% cotton"
+              },
+              {
+                "product_id": "21618",
+                "product_name": "Base Brush Combi Nylon/Copper",
+                "price": 4.82,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzE5NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoalpDOW9ObVV2T0RjNU5qY3hOakl3TkRBMk1pNXFjR2N8Y2UyOWFjOWNmOWM1ZWFlZjFkOGEzYTAwYmY2NTU0Y2ZhNTZlZTBlNzQwMmE3MzE4YzllYTIxMTgyN2JlOWU0Zg",
+                "summary": "An economical brush option of 1/2 nylon and 1/2 copper."
+              },
+              {
+                "product_id": "43339",
+                "product_name": "The Sentry",
+                "price": 8.46,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMjQ2MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek1DOW9PREV2T0RjNU5qZzFPVFF3TURJeU1pNXFjR2N8YmU1YzQ5NjNiYTI0Y2U1OWM2NWIxNWFlZWVmOTliYTc2M2Q5ZjM2YjYzODYyZDEwZDI5OTAwZmM3OGMxNjY4Mg",
+                "summary": "Guards you from boredom."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2025-10-31T05:39:41.235Z"
+          }
+        },
+        {
+          "id": 1761889235243,
+          "timestamp": "2025-10-31T05:40:35.243Z",
+          "user": "show jackets under 100 pounds",
+          "ai": {
+            "ai_response": "I found 5 jackets under 100.0 pounds.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNTg2NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE1pOW9OMk12T0RjNU5qZzFNemd5T1RZMk1pNXFjR2N8MGJjNjdiOGRhMDk1N2UxMmFkYzNiOWFiM2UwMmY4ZWRmODEzMmY2NDU1OTM0NmIzYTc4OTc5M2U1MTUxYWU3Ng",
+                "price": 20.21,
+                "product_id": "98929",
+                "product_name": "Luna Twill Pant Women",
+                "summary": "The Luna Twill Pant fits easily even the most eye-catching jacket. Through the adjustable waistband"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTQ1MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa09DOW9PVGt2T0RjNU5qYzNOVEU0TmpRMk1pNXFjR2N8ZThiNjFjOGQ2NDg5MjFhNDY4MTRlYTg3ZTI2NThhYzBkMTY0ZDQxMzhkZTgwZjdhMTNjMDEzOGM4MTkyMGIxYg",
+                "price": 20.21,
+                "product_id": "95361",
+                "product_name": "Sludge Jacket youth",
+                "summary": "Uniquely Burton. Designed to inspire both on and off the mountain."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTQ1MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa09DOW9PVGt2T0RjNU5qYzNOVEU0TmpRMk1pNXFjR2N8ZThiNjFjOGQ2NDg5MjFhNDY4MTRlYTg3ZTI2NThhYzBkMTY0ZDQxMzhkZTgwZjdhMTNjMDEzOGM4MTkyMGIxYg",
+                "price": 50.96,
+                "product_id": "300410422",
+                "product_name": "Sludge Jacket youth col mustard colorblock XL",
+                "summary": "Sludge Jacket youth col mustard colorblock XL"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDYwOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk9TOW9ORGd2T0RjNU5qYzROVFkzTWpJeU1pNXFjR2N8ODM4OGM5MTlkZTE2Nzk1MzcwN2M5MmRiNTFkM2NhZjc2ZTk0MzQ2YWFkNWQ5ZDFmYWIwZWYwNTEwN2EwNmQ4YQ",
+                "price": 52.61,
+                "product_id": "95367",
+                "product_name": "Minishred Melody Jacket youth",
+                "summary": "Kid-tested"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODUxM3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1lpOW9NREF2T0RjNU5qZ3dOamszTVRReU1pNXFjR2N8ZjNjNjc2MTA5NjZmZGE0Y2U0N2QzZTZiZTcxNzliYmRkZjMwNjMzOWU2ZTEwZjM0ZjY0NzZhMDBmMjQ0YjI2Nw",
+                "price": 52.61,
+                "product_id": "95437",
+                "product_name": "Tabloid Jacket Women",
+                "summary": "Roll out the red carpet. A smoking hot"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [
+              {
+                "product_id": "98929",
+                "product_name": "Luna Twill Pant Women",
+                "price": 20.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNTg2NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE1pOW9OMk12T0RjNU5qZzFNemd5T1RZMk1pNXFjR2N8MGJjNjdiOGRhMDk1N2UxMmFkYzNiOWFiM2UwMmY4ZWRmODEzMmY2NDU1OTM0NmIzYTc4OTc5M2U1MTUxYWU3Ng",
+                "summary": "The Luna Twill Pant fits easily even the most eye-catching jacket. Through the adjustable waistband"
+              },
+              {
+                "product_id": "95361",
+                "product_name": "Sludge Jacket youth",
+                "price": 20.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTQ1MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa09DOW9PVGt2T0RjNU5qYzNOVEU0TmpRMk1pNXFjR2N8ZThiNjFjOGQ2NDg5MjFhNDY4MTRlYTg3ZTI2NThhYzBkMTY0ZDQxMzhkZTgwZjdhMTNjMDEzOGM4MTkyMGIxYg",
+                "summary": "Uniquely Burton. Designed to inspire both on and off the mountain."
+              },
+              {
+                "product_id": "300410422",
+                "product_name": "Sludge Jacket youth col mustard colorblock XL",
+                "price": 50.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTQ1MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa09DOW9PVGt2T0RjNU5qYzNOVEU0TmpRMk1pNXFjR2N8ZThiNjFjOGQ2NDg5MjFhNDY4MTRlYTg3ZTI2NThhYzBkMTY0ZDQxMzhkZTgwZjdhMTNjMDEzOGM4MTkyMGIxYg",
+                "summary": "Sludge Jacket youth col mustard colorblock XL"
+              },
+              {
+                "product_id": "95367",
+                "product_name": "Minishred Melody Jacket youth",
+                "price": 52.61,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDYwOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk9TOW9ORGd2T0RjNU5qYzROVFkzTWpJeU1pNXFjR2N8ODM4OGM5MTlkZTE2Nzk1MzcwN2M5MmRiNTFkM2NhZjc2ZTk0MzQ2YWFkNWQ5ZDFmYWIwZWYwNTEwN2EwNmQ4YQ",
+                "summary": "Kid-tested"
+              },
+              {
+                "product_id": "95437",
+                "product_name": "Tabloid Jacket Women",
+                "price": 52.61,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODUxM3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1lpOW9NREF2T0RjNU5qZ3dOamszTVRReU1pNXFjR2N8ZjNjNjc2MTA5NjZmZGE0Y2U0N2QzZTZiZTcxNzliYmRkZjMwNjMzOWU2ZTEwZjM0ZjY0NzZhMDBmMjQ0YjI2Nw",
+                "summary": "Roll out the red carpet. A smoking hot"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "98929",
+                "product_name": "Luna Twill Pant Women",
+                "price": 20.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNTg2NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE1pOW9OMk12T0RjNU5qZzFNemd5T1RZMk1pNXFjR2N8MGJjNjdiOGRhMDk1N2UxMmFkYzNiOWFiM2UwMmY4ZWRmODEzMmY2NDU1OTM0NmIzYTc4OTc5M2U1MTUxYWU3Ng",
+                "summary": "The Luna Twill Pant fits easily even the most eye-catching jacket. Through the adjustable waistband"
+              },
+              {
+                "product_id": "95361",
+                "product_name": "Sludge Jacket youth",
+                "price": 20.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTQ1MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa09DOW9PVGt2T0RjNU5qYzNOVEU0TmpRMk1pNXFjR2N8ZThiNjFjOGQ2NDg5MjFhNDY4MTRlYTg3ZTI2NThhYzBkMTY0ZDQxMzhkZTgwZjdhMTNjMDEzOGM4MTkyMGIxYg",
+                "summary": "Uniquely Burton. Designed to inspire both on and off the mountain."
+              },
+              {
+                "product_id": "300410422",
+                "product_name": "Sludge Jacket youth col mustard colorblock XL",
+                "price": 50.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTQ1MnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa09DOW9PVGt2T0RjNU5qYzNOVEU0TmpRMk1pNXFjR2N8ZThiNjFjOGQ2NDg5MjFhNDY4MTRlYTg3ZTI2NThhYzBkMTY0ZDQxMzhkZTgwZjdhMTNjMDEzOGM4MTkyMGIxYg",
+                "summary": "Sludge Jacket youth col mustard colorblock XL"
+              },
+              {
+                "product_id": "95367",
+                "product_name": "Minishred Melody Jacket youth",
+                "price": 52.61,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDYwOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk9TOW9ORGd2T0RjNU5qYzROVFkzTWpJeU1pNXFjR2N8ODM4OGM5MTlkZTE2Nzk1MzcwN2M5MmRiNTFkM2NhZjc2ZTk0MzQ2YWFkNWQ5ZDFmYWIwZWYwNTEwN2EwNmQ4YQ",
+                "summary": "Kid-tested"
+              },
+              {
+                "product_id": "95437",
+                "product_name": "Tabloid Jacket Women",
+                "price": 52.61,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODUxM3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1lpOW9NREF2T0RjNU5qZ3dOamszTVRReU1pNXFjR2N8ZjNjNjc2MTA5NjZmZGE0Y2U0N2QzZTZiZTcxNzliYmRkZjMwNjMzOWU2ZTEwZjM0ZjY0NzZhMDBmMjQ0YjI2Nw",
+                "summary": "Roll out the red carpet. A smoking hot"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2025-10-31T05:40:35.245Z"
+          }
+        },
+        {
+          "id": 1761889298767,
+          "timestamp": "2025-10-31T05:41:38.767Z",
+          "user": "Can you recommend some trendy shoes for me?",
+          "ai": {
+            "ai_response": "Here are some trendy shoes that might interest you:\n\n*   **Sneakers Vans Old Skool black/white 12.0**: Classic Vans Old Skool in a black colorway.\n*   **Sneakers Vans Old Skool black/white 13.0**: Classic Vans Old Skool in a black colorway.\n*   **Sneakers Vans Old Skool black/white 9.0**: Classic Vans Old Skool in a black colorway.\n*   **Sneakers Vans Old Skool black/white 6.0**: Classic Vans Old Skool in a black colorway.\n*   **Sneakers Vans Old Skool black/white 4.0**: Classic Vans Old Skool in a black colorway.\n\nWould you like to know more about any of these?",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "price": 24.26,
+                "product_id": "300026675",
+                "product_name": "Sneakers Vans Old Skool black/white 12.0",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "price": 50.96,
+                "product_id": "300036393",
+                "product_name": "Sneakers Vans Old Skool black/white 13.0",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "price": 59.46,
+                "product_id": "300026677",
+                "product_name": "Sneakers Vans Old Skool black/white 9.0",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "price": 59.46,
+                "product_id": "300076935",
+                "product_name": "Sneakers Vans Old Skool black/white 6.0",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "price": 50.96,
+                "product_id": "300076932",
+                "product_name": "Sneakers Vans Old Skool black/white 4.0",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [
+              {
+                "product_id": "300026675",
+                "product_name": "Sneakers Vans Old Skool black/white 12.0",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300036393",
+                "product_name": "Sneakers Vans Old Skool black/white 13.0",
+                "price": 50.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300026677",
+                "product_name": "Sneakers Vans Old Skool black/white 9.0",
+                "price": 59.46,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300076935",
+                "product_name": "Sneakers Vans Old Skool black/white 6.0",
+                "price": 59.46,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300076932",
+                "product_name": "Sneakers Vans Old Skool black/white 4.0",
+                "price": 50.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300026675",
+                "product_name": "Sneakers Vans Old Skool black/white 12.0",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300036393",
+                "product_name": "Sneakers Vans Old Skool black/white 13.0",
+                "price": 50.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300026677",
+                "product_name": "Sneakers Vans Old Skool black/white 9.0",
+                "price": 59.46,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300076935",
+                "product_name": "Sneakers Vans Old Skool black/white 6.0",
+                "price": 59.46,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300076932",
+                "product_name": "Sneakers Vans Old Skool black/white 4.0",
+                "price": 50.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2025-10-31T05:41:38.769Z"
+          }
+        },
+        {
+          "id": 1761889327211,
+          "timestamp": "2025-10-31T05:42:07.211Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1762140553893,
+          "timestamp": "2025-11-03T03:29:13.893Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1761542676596_n93alvpl9",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        }
+      ],
+      "last_products": [
+        {
+          "product_id": "300026675",
+          "product_name": "Sneakers Vans Old Skool black/white 12.0",
+          "price": 24.26,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+          "summary": "Classic Vans Old Skool in a black colourway."
+        },
+        {
+          "product_id": "300036393",
+          "product_name": "Sneakers Vans Old Skool black/white 13.0",
+          "price": 50.96,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+          "summary": "Classic Vans Old Skool in a black colourway."
+        },
+        {
+          "product_id": "300026677",
+          "product_name": "Sneakers Vans Old Skool black/white 9.0",
+          "price": 59.46,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+          "summary": "Classic Vans Old Skool in a black colourway."
+        },
+        {
+          "product_id": "300076935",
+          "product_name": "Sneakers Vans Old Skool black/white 6.0",
+          "price": 59.46,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+          "summary": "Classic Vans Old Skool in a black colourway."
+        },
+        {
+          "product_id": "300076932",
+          "product_name": "Sneakers Vans Old Skool black/white 4.0",
+          "price": 50.96,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+          "summary": "Classic Vans Old Skool in a black colourway."
+        }
+      ],
+      "recent_displayed": [],
+      "context": [
+        {
+          "user": "Can you recommend some trendy shoes for me?",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "300026675",
+              "product_name": "Sneakers Vans Old Skool black/white 12.0",
+              "price": 24.26,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+              "summary": "Classic Vans Old Skool in a black colourway."
+            },
+            {
+              "product_id": "300036393",
+              "product_name": "Sneakers Vans Old Skool black/white 13.0",
+              "price": 50.96,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+              "summary": "Classic Vans Old Skool in a black colourway."
+            },
+            {
+              "product_id": "300026677",
+              "product_name": "Sneakers Vans Old Skool black/white 9.0",
+              "price": 59.46,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+              "summary": "Classic Vans Old Skool in a black colourway."
+            },
+            {
+              "product_id": "300076935",
+              "product_name": "Sneakers Vans Old Skool black/white 6.0",
+              "price": 59.46,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+              "summary": "Classic Vans Old Skool in a black colourway."
+            },
+            {
+              "product_id": "300076932",
+              "product_name": "Sneakers Vans Old Skool black/white 4.0",
+              "price": 50.96,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+              "summary": "Classic Vans Old Skool in a black colourway."
+            }
+          ],
+          "type": "products_list"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": "2025-11-03T08:59:28.814374",
+    "session_id": "58f9cb3a-c327-489a-bcca-ead601e5ab5e"
+  },
+  "result": null
+}

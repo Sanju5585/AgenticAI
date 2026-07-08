@@ -1,0 +1,43 @@
+
+
+
+################################# Grocery/Bakery/Bread  Begins here ###################################################
+
+CATEGORY_ID,CATEGORY_NAME,PARENT_CATEGORY_ID
+400000,Grocery,
+700100,Bakery,400000
+700101,Bread,700100
+700102,Custom Cakes,700100
+
+
+PRODUCT_ID,PRODUCT_NAME,BRAND,SUMMARY,PRICE,CATEGORY_IDS,IMAGE_URL
+710001,Classic White Bread,Golden Oven,"Soft and fluffy sliced white bread ideal for sandwiches and toast.",2.49,700101,https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80
+710002,Enriched White Sandwich Bread,Daily Fresh,"Freshly baked white bread with a light texture and mild flavor.",2.79,700101,https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=800&q=80
+710003,Whole Wheat Bread,Nature's Grain,"Made with whole wheat flour for a hearty taste and texture.",3.29,700101,https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=800&q=80
+710004,100% Whole Wheat Bread,Farm Harvest,"Nutritious whole wheat bread baked with premium grains.",3.49,700101,https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80
+710005,White Bread Family Loaf,Golden Oven,"Large white bread loaf perfect for family meals and sandwiches.",3.99,700101,https://images.unsplash.com/photo-1598373182133-52452f7691ef?auto=format&fit=crop&w=800&q=80
+710006,Honey Wheat Bread,Harvest Gold,"Soft wheat bread sweetened with a touch of honey.",3.79,700101,https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=800&q=80
+710007,White Bread Thick Slice,Daily Fresh,"Thick-cut white bread designed for premium sandwiches and toast.",2.99,700101,https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=800&q=80
+710008,Stone Ground Wheat Bread,Nature's Grain,"Wheat bread crafted from stone-ground grains for rich flavor.",3.99,700101,https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80
+710009,White Bread Value Pack,Family Bakehouse,"Economical double loaf pack of classic white bread.",4.99,700101,https://images.unsplash.com/photo-1598373182133-52452f7691ef?auto=format&fit=crop&w=800&q=80
+710010,Whole Wheat Sandwich Bread,Farm Harvest,"Wholesome wheat bread with a soft texture for everyday sandwiches.",3.59,700101,https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=800&q=80
+
+
+################################# Grocery/Bakery/Bread ends here ###################################################
+
+################################# Grocery/Bakery/Custom Cakes  Begins here ###################################################
+
+PRODUCT_ID,PRODUCT_NAME,BRAND,SUMMARY,PRICE,CATEGORY_IDS,IMAGE_URL
+720001,Vanilla Celebration Cake,Sweet Moments,"Custom vanilla-flavored cake with smooth buttercream frosting and decorative finish.",24.99,700102,https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80
+720002,Classic Vanilla Birthday Cake,Bake Studio,"Moist vanilla sponge cake customized for birthdays and special occasions.",27.99,700102,https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=800&q=80
+720003,Vanilla Buttercream Layer Cake,Cake Creations,"Three-layer vanilla cake filled and topped with rich buttercream icing.",29.99,700102,https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&w=800&q=80
+720004,Vanilla Sheet Cake,Sweet Moments,"Large vanilla sheet cake ideal for office parties and family gatherings.",34.99,700102,https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=80
+720005,Vanilla Floral Designer Cake,Cake Creations,"Custom vanilla cake decorated with elegant floral piping and accents.",39.99,700102,https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?auto=format&fit=crop&w=800&q=80
+720006,Vanilla Celebration Round Cake,Bake Studio,"Traditional round vanilla cake with personalized message options.",26.99,700102,https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=800&q=80
+720007,Premium Vanilla Party Cake,Golden Bakery,"Premium vanilla-flavored cake crafted for celebrations and events.",42.99,700102,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=800&q=80
+720008,Vanilla Kids Theme Cake,Sweet Moments,"Custom vanilla cake designed with colorful decorations for children's parties.",44.99,700102,https://images.unsplash.com/photo-1621303837174-89787a7d4729?auto=format&fit=crop&w=800&q=80
+720009,Vanilla Anniversary Cake,Cake Creations,"Elegant vanilla cake personalized for anniversaries and milestones.",36.99,700102,https://images.unsplash.com/photo-1562777717-dc6984f65a63?auto=format&fit=crop&w=800&q=80
+720010,Vanilla Custom Photo Cake,Bake Studio,"Vanilla cake featuring an edible custom photo topping for special events.",49.99,700102,https://images.unsplash.com/photo-1571115764595-644a1f56a55c?auto=format&fit=crop&w=800&q=80
+
+
+################################# Grocery/Bakery/Custom Cakes ends here ###################################################

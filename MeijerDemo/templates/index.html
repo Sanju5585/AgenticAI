@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meijer AI Shopping Assistant</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Animate.css for animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  
+  <!-- AOS (Animate On Scroll) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/static/css/styles.css">
+  
+  <!-- Tailwind Configuration -->
+  <script src="/static/js/tailwind-config.js"></script>
+</head>
+<body class="font-inter min-h-screen" style="background-color: #F2F4F7;">
+  <!-- Subtle background pattern -->
+  <div class="fixed inset-0 overflow-hidden pointer-events-none">
+    <div class="absolute inset-0 opacity-20" style="background-image: radial-gradient(circle at center, rgba(0,82,155,0.08) 1px, transparent 1px); background-size: 32px 32px;"></div>
+  </div>
+
+  <!-- Header Section -->
+  <header class="relative z-10" style="background: linear-gradient(90deg, #00529B 0%, #003F7A 60%, #D32029 100%); box-shadow: 0 2px 8px rgba(0,0,0,0.25);">
+    <div class="container mx-auto px-6 py-3" data-aos="fade-down">
+      <div class="flex flex-col lg:flex-row items-center justify-between">
+<!-- Meijer Branding -->
+          <div class="flex items-center space-x-5 mb-4 lg:mb-0" data-aos="slide-right">
+            <!-- Meijer Logo -->
+            <div class="flex flex-col items-start">
+              <div class="flex items-center space-x-2">
+                <div class="flex items-center px-3 py-1.5 rounded-xl" style="background:#FFFFFF;">
+                  <img src="/static/assets/MeijerLogo.svg" alt="Meijer" class="h-9 w-auto object-contain">
+                </div>
+              </div>
+              <p class="text-white/70 text-xs mt-1 tracking-wide">AI POWERED SHOPPING ASSISTANT</p>
+            </div>
+
+            <!-- Divider -->
+            <div class="flex flex-col items-center mx-1">
+              <div class="h-10 w-px bg-white/30"></div>
+            </div>
+
+            <!-- Capgemini Co-branding Block -->
+            <div class="flex flex-col items-start">
+              <div class="flex items-center space-x-2 bg-white rounded-lg px-3 py-1.5 shadow-md">
+                <img src="/static/assets/logo.svg" alt="Capgemini" class="h-6 w-auto object-contain">
+              </div>
+            </div>
+          </div>
+        
+        <!-- Feature Badges -->
+        <div class="flex items-center space-x-3 text-white/90" data-aos="slide-left">
+          <div class="flex items-center space-x-2 bg-white/10 rounded-full px-3 py-1.5 border border-white/20">
+            <i class="fas fa-brain text-sm" style="color:#FFD700;"></i>
+            <span class="text-xs font-medium">AI Powered</span>
+          </div>
+          <div class="flex items-center space-x-2 bg-white/10 rounded-full px-3 py-1.5 border border-white/20">
+            <i class="fas fa-rocket text-sm" style="color:#FFD700;"></i>
+            <span class="text-xs font-medium">Agentic AI</span>
+          </div>
+          <div class="flex items-center space-x-2 bg-white/10 rounded-full px-3 py-1.5 border border-white/20">
+            <i class="fas fa-bolt text-sm text-yellow-300"></i>
+            <span class="text-xs font-medium">Instant Results</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Section -->
+  <div class="relative z-10 mx-auto px-4 py-8" style="width: 95%; max-width: 1400px;">
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+      
+      <!-- Chat Container -->
+      <div class="lg:col-span-3" data-aos="fade-up">
+        <div class="rounded-2xl shadow-lg border" style="background: #FFFFFF; border-color: #DDDDDD;">
+          <!-- Chat Header -->
+          <div class="px-6 py-4 border-b rounded-t-2xl" style="background: linear-gradient(90deg, #00529B 0%, #003F7A 60%, #D32029 100%); border-color: #003F7A;">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center space-x-3">
+                  <div class="w-10 h-10 rounded-full flex items-center justify-center border border-white/30" style="background: rgba(0,63,122,0.8);">
+                  <i class="fas fa-robot text-white text-lg"></i>
+                </div>
+                <div class="text-white">
+                  <h2 class="font-semibold text-lg flex items-center">
+                    AI Assistant
+                    <span class="ml-2 px-2 py-0.5 bg-yellow-400/20 rounded-full text-xs border border-yellow-400/50">Online</span>
+                  </h2>
+                  <p class="text-xs opacity-90 flex items-center">
+                    <span class="w-2 h-2 bg-green-400 rounded-full mr-1.5 animate-pulse"></span>
+                    Agentic Mode Active
+                  </p>
+                </div>
+              </div>
+              
+              <!-- User Controls -->
+              <div class="flex items-center space-x-3">
+                <!-- Mini Cart Icon -->
+                <div class="relative">
+                  <button 
+                    id="mini-cart-btn" 
+                    onclick="toggleMiniCart()" 
+                    class="bg-white/10 hover:bg-white/20 rounded-full p-3 text-white transition-all duration-300 hover:scale-105 border border-white/25"
+                    title="View Cart"
+                  >
+                    <i class="fas fa-shopping-cart text-lg"></i>
+                    <span 
+                      id="cart-badge" 
+                      class="absolute -top-2 -right-2 text-white text-xs rounded-full h-6 w-6 flex items-center justify-center font-bold hidden"
+                      style="background: #00529B;"
+                    >0</span>
+                  </button>
+                  
+                  <!-- Mini Cart Dropdown -->
+                  <div 
+                    id="mini-cart-dropdown" 
+                    class="absolute right-0 top-full mt-4 w-80 bg-white rounded-2xl shadow-2xl border z-50 hidden opacity-0 transform translate-y-2 transition-all duration-300" style="border-color:#DDDDDD;"
+                  >
+                    <div class="p-4 border-b border-gray-100">
+                      <div class="flex items-center justify-between">
+                        <h3 class="text-lg font-semibold text-gray-800 flex items-center">
+                          <i class="fas fa-shopping-cart mr-2" style="color:#00529B;"></i>
+                          Your Cart
+                        </h3>
+                        <button 
+                          onclick="toggleMiniCart()" 
+                          class="text-gray-400 hover:text-gray-600 transition-colors"
+                        >
+                          <i class="fas fa-times"></i>
+                        </button>
+                      </div>
+                    </div>
+                    
+                    <!-- Cart Items Container -->
+                    <div id="cart-items" class="max-h-64 overflow-y-auto">
+                      <!-- Empty cart message -->
+                      <div id="empty-cart" class="p-8 text-center text-gray-500">
+                        <i class="fas fa-shopping-cart text-4xl mb-3 opacity-30"></i>
+                        <p class="text-sm">Your cart is empty</p>
+                        <p class="text-xs text-gray-400 mt-1">Add some products to get started</p>
+                      </div>
+                    </div>
+                    
+                    <!-- Cart Footer -->
+                    <div id="cart-footer" class="p-4 bg-gray-50 rounded-b-2xl hidden">
+                      <div class="flex items-center justify-between mb-3">
+                        <span class="font-semibold text-gray-700">Total:</span>
+                        <span id="cart-total" class="text-xl font-bold" style="color:#00529B;">$0.00</span>
+                      </div>
+                      <div class="flex space-x-2">
+                        <button 
+                          onclick="viewFullCart()" 
+                          class="flex-1 text-white py-2 px-4 rounded-xl font-medium transition-all duration-200 text-sm" style="background:#00529B;" onmouseover="this.style.background='#003F7A'" onmouseout="this.style.background='#00529B'"
+                        >
+                          View Cart
+                        </button>
+                        <button 
+                          onclick="clearCart()" 
+                          class="px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-xl transition-all duration-300 text-sm"
+                        >
+                          Clear
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Login/Logout Button -->
+                <div class="relative">
+                  <!-- Login Button (shown when not logged in) -->
+                  <button 
+                    id="login-btn"
+                    onclick="showLoginModal()" 
+                    class="bg-white/10 hover:bg-white/20 rounded-full px-5 py-2 text-white font-medium transition-all duration-300 hover:scale-105 border border-white/25 flex items-center space-x-2"
+                  >
+                    <i class="fas fa-sign-in-alt"></i>
+                    <span>Login</span>
+                  </button>
+                  
+                  <!-- User Info Button (shown when logged in) -->
+                  <div id="user-info-btn" class="hidden">
+                    <button 
+                      onclick="toggleUserMenu()"
+                      class="bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-full px-4 py-2 text-white font-medium transition-all duration-300 hover:scale-105 border border-white/30 flex items-center space-x-2"
+                    >
+                      <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
+                        <i class="fas fa-user text-white text-sm"></i>
+                      </div>
+                      <div class="text-left">
+                        <p id="logged-in-name" class="text-xs font-bold"></p>
+                        <p class="text-xs text-white/70">Logged In</p>
+                      </div>
+                      <i class="fas fa-chevron-down text-xs"></i>
+                    </button>
+                    
+                    <!-- User Dropdown Menu -->
+                    <div 
+                      id="user-menu-dropdown" 
+                      class="absolute right-0 top-full mt-2 w-64 bg-white rounded-2xl shadow-2xl border z-50 hidden opacity-0 transform translate-y-2 transition-all duration-300" style="border-color:#DDDDDD;"
+                    >
+                      <div class="p-4">
+                        <div class="flex items-center space-x-3 mb-4 pb-4 border-b border-gray-100">
+                          <div class="w-12 h-12 rounded-full flex items-center justify-center" style="background:#00529B;">
+                            <i class="fas fa-user text-white text-lg"></i>
+                          </div>
+                          <div class="flex-1">
+                            <p id="user-menu-name" class="font-bold text-gray-800"></p>
+                            <p id="user-menu-email" class="text-xs text-gray-500"></p>
+                          </div>
+                        </div>
+                        <button 
+                          onclick="viewOrderHistory()"
+                          class="w-full text-left px-4 py-2 rounded-lg hover:bg-gray-100 transition-colors flex items-center space-x-2 text-gray-700"
+                        >
+                          <i class="fas fa-history" style="color:#00529B;"></i>
+                          <span>Order History</span>
+                        </button>
+                        <button 
+                          onclick="logout()" 
+                          class="w-full text-left px-4 py-2 rounded-lg hover:bg-red-50 transition-colors flex items-center space-x-2 text-red-600 mt-2"
+                        >
+                          <i class="fas fa-sign-out-alt"></i>
+                          <span>Logout</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Chat Messages Area -->
+          <div class="overflow-y-auto overflow-x-hidden p-4 space-y-4 custom-scrollbar" id="chat-box" style="background: #F7F7F7; height: clamp(380px, 55vh, 580px);">
+            <!-- Welcome Message -->
+            <div class="chat-bubble-bot p-4 max-w-4xl animate-slide-in">
+              <div class="flex items-start space-x-3">
+                <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style="background: #00529B;">
+                  <i class="fas fa-robot text-white text-sm"></i>
+                </div>
+                <div>
+                  <p class="font-medium text-gray-800">Hello! I'm your Meijer AI shopping assistant powered by Capgemini.</p>
+                  <p class="text-gray-600 text-sm mt-1">How can I help you find the perfect grocery product today?</p>
+                  <p class="text-gray-500 text-xs mt-2 italic">
+                    <i class="fas fa-info-circle mr-1"></i>
+                    Note: Your cart will be cleared when you refresh the page.
+                  </p>
+                  <p class="text-yellow-600 text-xs mt-1 font-medium">
+                    <i class="fas fa-credit-card mr-1"></i>
+                    Secure PayPal checkout available - your session will be maintained during payment!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Chat Input Area -->
+          <div class="p-6 border-t" style="background: #FFFFFF; border-color: #DDDDDD;">
+            <!-- Voice Search Container (will be dynamically inserted here) -->
+            
+            <div class="flex items-stretch space-x-3">
+              <div class="flex-1 relative">
+                <input 
+                  type="text" 
+                  id="query" 
+                  placeholder="Ask me about Meijer groceries, frozen foods, snacks..."
+                  class="w-full h-full px-6 py-3 rounded-full border-2 focus:outline-none transition-all duration-200 text-gray-800 bg-white"
+                  style="border-color: #CCCCCC;"
+                  onfocus="this.style.borderColor='#00529B'; this.style.boxShadow='0 0 0 3px rgba(0,82,155,0.18)';"
+                  onblur="this.style.borderColor='#CCCCCC'; this.style.boxShadow='none';"
+                />
+              </div>
+              <button 
+                onclick="submitQuery()"
+                class="text-white px-8 py-3 rounded-full font-semibold shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-200 flex items-center justify-center space-x-2 whitespace-nowrap"
+                style="background: #00529B;"
+                onmouseover="this.style.background='#003F7A'"
+                onmouseout="this.style.background='#00529B'"
+              >
+                <i class="fas fa-paper-plane"></i>
+                <span>Send</span>
+              </button>
+            </div>
+          </div>
+          
+          <!-- Similar / Cross-sell Products (shown when user opens a product) -->
+          <div id="similar-products-section" class="hidden p-6 border-t" style="background: #F7F7F7; border-color: #DDDDDD;">
+            <div class="mb-4">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                  <div class="w-10 h-10 rounded-full flex items-center justify-center" style="background: #00529B;">
+                    <i class="fas fa-layer-group text-white text-lg"></i>
+                  </div>
+                  <div>
+                    <h3 class="text-xl font-bold text-gray-800">You May Also Like</h3>
+                    <p id="similar-products-subtitle" class="text-sm text-gray-600">Products you may also like</p>
+                  </div>
+                </div>
+                <button 
+                  onclick="hideSimilarProducts()"
+                  class="bg-white hover:bg-gray-50 px-3 py-2 rounded-full text-sm font-medium transition-all duration-200 hover:shadow-md flex items-center space-x-1 border" style="color: #5A5A5A; border-color: #CCCCCC;"
+                  title="Close"
+                >
+                  <i class="fas fa-times"></i>
+                  <span>Close</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Carousel Container -->
+            <div class="relative">
+              <div id="similar-products-carousel" class="flex space-x-4 overflow-x-auto pb-4 scroll-smooth custom-scrollbar">
+                <!-- Loading State -->
+                <div id="similar-products-loading" class="w-full flex items-center justify-center py-12">
+                  <div class="animate-spin rounded-full h-8 w-8 border-b-2 mr-3" style="border-color:#00529B;"></div>
+                  <span class="text-gray-600">Loading related products...</span>
+                </div>
+              </div>
+              <!-- Scroll Buttons -->
+              <button id="scroll-left-similar"
+                onclick="scrollSimilarCarousel('left')"
+                class="hidden absolute left-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 z-10">
+                <i class="fas fa-chevron-left text-gray-700"></i>
+              </button>
+              <button id="scroll-right-similar"
+                onclick="scrollSimilarCarousel('right')"
+                class="hidden absolute right-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 z-10">
+                <i class="fas fa-chevron-right text-gray-700"></i>
+              </button>
+            </div>
+          </div>
+
+          
+          <!-- Login Form (Hidden by default) -->
+          <div id="login-form" class="hidden p-6 border-t" style="background: #F7F7F7; border-color: #DDDDDD;">
+            <div class="max-w-md mx-auto">
+              <div class="text-center mb-4">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-full mb-3" style="background: #00529B;">
+                  <i class="fas fa-lock text-white text-xl"></i>
+                </div>
+                <h3 class="text-lg font-bold text-gray-800">Login Required</h3>
+                <p class="text-sm text-gray-600 mt-1">Please login to access orders or add items to cart</p>
+              </div>
+              
+              <form id="login-form-element" class="space-y-4">
+                <div class="relative">
+                  <input 
+                    type="email" 
+                    id="login-email" 
+                    placeholder="Enter your email address"
+                    required
+                    class="w-full px-4 py-3 rounded-xl border-2 focus:outline-none transition-all duration-200 text-gray-700 bg-white" style="border-color: #CCCCCC;" onfocus="this.style.borderColor='#00529B'" onblur="this.style.borderColor='#CCCCCC'"
+                  />
+                  <i class="fas fa-envelope absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                </div>
+                
+                <div class="relative">
+                  <input 
+                    type="password" 
+                    id="login-password" 
+                    placeholder="Enter any password"
+                    required
+                    class="w-full px-4 py-3 rounded-xl border-2 focus:outline-none transition-all duration-200 text-gray-700 bg-white" style="border-color: #CCCCCC;" onfocus="this.style.borderColor='#00529B'" onblur="this.style.borderColor='#CCCCCC'"
+                  />
+                  <i class="fas fa-lock absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                </div>
+                
+                <div class="text-xs text-gray-500 text-center">
+                  <i class="fas fa-info-circle mr-1"></i>
+                  Email must be registered in our system
+                </div>
+                
+                <div class="flex space-x-3">
+                  <button 
+                    type="submit"
+                    class="flex-1 text-white py-3 px-6 rounded-xl font-medium transition-all duration-200 hover:scale-105 shadow-md" style="background: #00529B;" onmouseover="this.style.background='#003F7A'" onmouseout="this.style.background='#00529B'"
+                  >
+                    <i class="fas fa-sign-in-alt mr-2"></i>
+                    Login
+                  </button>
+                  <button 
+                    type="button"
+                    onclick="hideLoginForm()"
+                    class="px-6 py-3 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-xl transition-all duration-300"
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar with Best Selling Products -->
+      <div class="lg:col-span-1" data-aos="fade-left">
+        <div class="rounded-2xl shadow-md p-6 border" style="background: #FFFFFF; border-color: #DDDDDD;">
+          <!-- Section Header -->
+          <div class="text-center mb-6">
+            <div class="inline-flex items-center justify-center w-12 h-12 rounded-full mb-4" style="background: #00529B;">
+              <i class="fas fa-fire text-white text-xl"></i>
+            </div>
+            <h2 class="text-2xl font-bold text-gray-800 font-poppins best-selling-section-title">
+              <i class="fas fa-fire" style="color: #00529B;"></i> Trending Now
+            </h2>
+            <p class="text-gray-600 mt-1 best-selling-section-subtitle">Our most popular products</p>
+          </div>
+          
+          <!-- Products Container -->
+          <div id="best-selling-carousel-container" class="relative">
+            <div id="best-selling-carousel" class="space-y-4 max-h-96 overflow-y-auto custom-scrollbar">
+              <!-- Loading State -->
+              <div class="flex items-center justify-center py-12 text-gray-500">
+                <div class="animate-spin rounded-full h-8 w-8 border-b-2 mr-3" style="border-color: #00529B;"></div>
+                <span class="text-sm">Loading trending products...</span>
+              </div>
+            </div>
+            
+            <!-- Navigation Buttons -->
+            <div class="hidden carousel-nav-controls mt-4 flex justify-center space-x-2">
+              <button 
+                onclick="scrollCarousel('best-selling-carousel', -240)"
+                class="w-8 h-8 bg-white/80 hover:bg-white rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110"
+              >
+                <i class="fas fa-chevron-left text-gray-600 text-sm"></i>
+              </button>
+              <button 
+                onclick="scrollCarousel('best-selling-carousel', 240)"
+                class="w-8 h-8 bg-white/80 hover:bg-white rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110"
+              >
+                <i class="fas fa-chevron-right text-gray-600 text-sm"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- AI Features Panel -->
+        <div class="rounded-2xl shadow-md p-6 border mt-4" data-aos="fade-left" data-aos-delay="200" style="background: #FFFFFF; border-color: #DDDDDD;">
+          <div class="text-center mb-4">
+            <div class="inline-flex items-center justify-center w-12 h-12 rounded-full mb-3" style="background: #00529B;">
+              <i class="fas fa-magic text-white text-xl"></i>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-800">AI Features</h3>
+          </div>
+          
+          <div class="space-y-3">
+            <div class="flex items-center space-x-3 p-3 rounded-xl border" style="background: rgba(0,82,155,0.07); border-color: rgba(0,82,155,0.2);">
+              <i class="fas fa-search" style="color:#00529B;"></i>
+              <span class="text-sm text-gray-700">Smart Product Search</span>
+            </div>
+            <div class="flex items-center space-x-3 p-3 rounded-xl border" style="background: rgba(0,82,155,0.05); border-color: rgba(0,82,155,0.15);">
+              <i class="fas fa-heart" style="color: #00529B;"></i>
+              <span class="text-sm text-gray-700">Personalized Recommendations</span>
+            </div>
+            <div class="flex items-center space-x-3 p-3 rounded-xl border" style="background: rgba(0,82,155,0.07); border-color: rgba(0,82,155,0.2);">
+              <i class="fas fa-camera" style="color:#00529B;"></i>
+              <span class="text-sm text-gray-700">Visual Search</span>
+            </div>
+            <div class="flex items-center space-x-3 p-3 rounded-xl border" style="background: rgba(211,32,41,0.05); border-color: rgba(211,32,41,0.2);">
+              <i class="fas fa-language" style="color:#D32029;"></i>
+              <span class="text-sm text-gray-700">Multi Language Support</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Order History Section (Hidden by default, shown when logged in) -->
+      <div id="order-history-section" class="mt-8 hidden" data-aos="fade-up">
+      <div class="rounded-2xl shadow-md p-8 border" style="background:#FFFFFF; border-color:#DDDDDD;">
+        <div class="flex items-center justify-between mb-6">
+          <div class="flex items-center space-x-3">
+            <div class="w-12 h-12 rounded-2xl flex items-center justify-center shadow-md" style="background:#00529B;">
+              <i class="fas fa-history text-white text-xl"></i>
+            </div>
+            <div>
+              <h2 class="text-2xl font-bold text-gray-800 font-poppins">Your Order History</h2>
+              <p class="text-gray-600 mt-1">Track and manage your orders</p>
+            </div>
+          </div>
+          <button 
+            onclick="closeOrderHistory()"
+            class="text-gray-400 hover:text-gray-600 transition-colors p-2"
+            title="Close"
+          >
+            <i class="fas fa-times text-2xl"></i>
+          </button>
+        </div>
+        
+        <!-- Order History Table -->
+        <div class="overflow-x-auto">
+          <div id="order-history-content" class="min-w-full">
+            <!-- Loading State -->
+            <div id="order-loading" class="flex items-center justify-center py-12">
+              <div class="animate-spin rounded-full h-12 w-12 border-b-2 mr-3" style="border-color:#00529B;"></div>
+              <span class="text-gray-600">Loading your orders...</span>
+            </div>
+            
+            <!-- No Orders State -->
+            <div id="no-orders" class="hidden text-center py-12">
+              <i class="fas fa-shopping-bag text-6xl text-gray-300 mb-4"></i>
+              <h3 class="text-xl font-bold text-gray-700 mb-2">No Orders Yet</h3>
+              <p class="text-gray-500">Start shopping to see your orders here!</p>
+            </div>
+            
+            <!-- Orders Table -->
+            <table id="orders-table" class="hidden min-w-full bg-white border border-gray-200 rounded-2xl overflow-hidden">
+              <thead class="text-white" style="background: #00529B;">
+                <tr>
+                  <th class="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider">Order ID</th>
+                  <th class="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider">Product</th>
+                  <th class="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider">Image</th>
+                  <th class="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider">Order Date</th>
+                  <th class="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider">Status</th>
+                  <th class="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider">Price</th>
+                </tr>
+              </thead>
+              <tbody id="orders-table-body" class="divide-y divide-gray-200">
+                <!-- Orders will be inserted here -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Featured Categories Section -->
+    <div class="mt-12" data-aos="fade-up">
+      <div class="text-center mb-8">
+        <h2 class="text-3xl font-bold text-gray-800 font-poppins">Shop by Category</h2>
+        <p class="text-gray-600 mt-2">Explore Meijer grocery categories</p>
+      </div>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="rounded-xl p-5 text-center hover:shadow-lg transition-all duration-200 cursor-pointer group bg-white border" data-category="frozen" style="border-color:#D0E4F5;" onclick="document.getElementById('query').value='show me frozen foods'; submitQuery();">
+          <div class="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-200" style="background: #00529B;">
+            <i class="fas fa-snowflake text-white text-2xl"></i>
+          </div>
+          <h3 class="font-semibold text-gray-800 mb-0.5">Frozen Foods</h3>
+          <p class="text-xs text-gray-500">Ice cream, pizza & meals</p>
+        </div>
+        
+        <div class="rounded-xl p-5 text-center hover:shadow-lg transition-all duration-200 cursor-pointer group bg-white border" data-category="snacks" style="border-color:#D0E4F5;" onclick="document.getElementById('query').value='show me snacks chips and cookies'; submitQuery();">
+          <div class="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-200" style="background: #D32029;">
+            <i class="fas fa-cookie-bite text-white text-2xl"></i>
+          </div>
+          <h3 class="font-semibold text-gray-800 mb-0.5">Snacks</h3>
+          <p class="text-xs text-gray-500">Chips, crackers & cookies</p>
+        </div>
+        
+        <div class="rounded-xl p-5 text-center hover:shadow-lg transition-all duration-200 cursor-pointer group bg-white border" data-category="bakery" style="border-color:#D0E4F5;" onclick="document.getElementById('query').value='show me bakery bread and cakes'; submitQuery();">
+          <div class="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-200" style="background: #D32029;">
+            <i class="fas fa-bread-slice text-white text-2xl"></i>
+          </div>
+          <h3 class="font-semibold text-gray-800 mb-0.5">Bakery</h3>
+          <p class="text-xs text-gray-500">Bread, cakes & more</p>
+        </div>
+        
+        <div class="rounded-xl p-5 text-center hover:shadow-lg transition-all duration-200 cursor-pointer group bg-white border" data-category="beverages" style="border-color:#D0E4F5;" onclick="document.getElementById('query').value='show me beverages soda and coffee'; submitQuery();">
+          <div class="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-200" style="background: #00529B;">
+            <i class="fas fa-glass-whiskey text-white text-2xl"></i>
+          </div>
+          <h3 class="font-semibold text-gray-800 mb-0.5">Beverages</h3>
+          <p class="text-xs text-gray-500">Soda, water & coffee</p>
+        </div>
+        
+        <div class="rounded-xl p-5 text-center hover:shadow-lg transition-all duration-200 cursor-pointer group bg-white border" data-category="dairy" style="border-color:#D0E4F5;" onclick="document.getElementById('query').value='show me dairy milk yogurt and cheese'; submitQuery();">
+          <div class="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-200" style="background: #5D4037;">
+            <i class="fas fa-cheese text-white text-2xl"></i>
+          </div>
+          <h3 class="font-semibold text-gray-800 mb-0.5">Dairy</h3>
+          <p class="text-xs text-gray-500">Milk, yogurt & cheese</p>
+        </div>
+        
+        <div class="rounded-xl p-5 text-center hover:shadow-lg transition-all duration-200 cursor-pointer group bg-white border" data-category="cereal" style="border-color:#D0E4F5;" onclick="document.getElementById('query').value='show me cereal and breakfast foods'; submitQuery();">
+          <div class="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-200" style="background: #F5A623;">
+            <i class="fas fa-sun text-white text-2xl"></i>
+          </div>
+          <h3 class="font-semibold text-gray-800 mb-0.5">Cereal & Breakfast</h3>
+          <p class="text-xs text-gray-500">Cereal, granola & oats</p>
+        </div>
+        
+        <div class="rounded-xl p-5 text-center hover:shadow-lg transition-all duration-200 cursor-pointer group bg-white border" data-category="frozen pizza" style="border-color:#D0E4F5;" onclick="document.getElementById('query').value='show me frozen pizza'; submitQuery();">
+          <div class="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-200" style="background: #D32029;">
+            <i class="fas fa-pizza-slice text-white text-2xl"></i>
+          </div>
+          <h3 class="font-semibold text-gray-800 mb-0.5">Frozen Pizza</h3>
+          <p class="text-xs text-gray-500">DiGiorno, Tombstone & more</p>
+        </div>
+        
+        <div class="rounded-xl p-5 text-center hover:shadow-lg transition-all duration-200 cursor-pointer group bg-white border" data-category="ice cream" style="border-color:#D0E4F5;" onclick="document.getElementById('query').value='show me ice cream'; submitQuery();">
+          <div class="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-200" style="background: #E91E8C;">
+            <i class="fas fa-ice-cream text-white text-2xl"></i>
+          </div>
+          <h3 class="font-semibold text-gray-800 mb-0.5">Ice Cream</h3>
+          <p class="text-xs text-gray-500">Häagen-Dazs, Ben & Jerry's</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="relative z-10 text-white mt-16" style="background: #00529B; border-top: 3px solid #00529B;">
+    <div class="container mx-auto px-6 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <!-- Brand Section with Capgemini -->
+        <div class="col-span-1 md:col-span-2">
+          <div class="flex items-center space-x-3 mb-4">
+            <div class="bg-white rounded-lg px-3 py-1.5">
+              <img src="/static/assets/MeijerLogo.svg" alt="Meijer" class="h-8 w-auto object-contain">
+            </div>
+            <h3 class="text-xl font-bold text-white/90">AI Shopping Assistant</h3>
+          </div>
+          <p class="text-white/70 mb-4 leading-relaxed text-sm">
+            Experience the future of grocery shopping with our AI-powered Meijer assistant.
+            Powered by Capgemini's cutting-edge agentic AI technology.
+          </p>
+          <div class="mb-4 p-3 rounded-xl border" style="background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.15);">
+            <div class="flex items-center space-x-3">
+              <div class="w-10 h-10 bg-white rounded-lg p-1.5">
+                <img src="/static/assets/logo.svg" alt="Capgemini Logo" class="w-full h-full object-contain">
+              </div>
+              <div>
+                <p class="text-xs text-yellow-400 font-semibold">POWERED BY</p>
+                <p class="text-sm font-bold text-white">Capgemini</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex space-x-4">
+            <a href="#" class="w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 border" style="background: rgba(255, 255, 255, 0.05); border-color: rgba(211,32,41,0.4); box-shadow: 0 0 10px rgba(211,32,41,0.3);" onmouseover="this.style.boxShadow='0 0 20px rgba(211,32,41,0.7)'; this.style.borderColor='rgba(211,32,41,0.7)';" onmouseout="this.style.boxShadow='0 0 10px rgba(211,32,41,0.3)'; this.style.borderColor='rgba(211,32,41,0.4)';">
+              <i class="fab fa-facebook text-lg"></i>
+            </a>
+            <a href="#" class="w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 border" style="background: rgba(255, 255, 255, 0.05); border-color: rgba(211,32,41,0.4); box-shadow: 0 0 10px rgba(211,32,41,0.3);" onmouseover="this.style.boxShadow='0 0 20px rgba(211,32,41,0.7)'; this.style.borderColor='rgba(211,32,41,0.7)';" onmouseout="this.style.boxShadow='0 0 10px rgba(211,32,41,0.3)'; this.style.borderColor='rgba(211,32,41,0.4)';">
+              <i class="fab fa-twitter text-lg"></i>
+            </a>
+            <a href="#" class="w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 border" style="background: rgba(255, 255, 255, 0.05); border-color: rgba(211,32,41,0.4); box-shadow: 0 0 10px rgba(211,32,41,0.3);" onmouseover="this.style.boxShadow='0 0 20px rgba(211,32,41,0.7)'; this.style.borderColor='rgba(211,32,41,0.7)';" onmouseout="this.style.boxShadow='0 0 10px rgba(211,32,41,0.3)'; this.style.borderColor='rgba(211,32,41,0.4)';">
+              <i class="fab fa-instagram text-lg"></i>
+            </a>
+            <a href="#" class="w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 border" style="background: rgba(255, 255, 255, 0.05); border-color: rgba(211,32,41,0.4); box-shadow: 0 0 10px rgba(211,32,41,0.3);" onmouseover="this.style.boxShadow='0 0 20px rgba(211,32,41,0.7)'; this.style.borderColor='rgba(211,32,41,0.7)';" onmouseout="this.style.boxShadow='0 0 10px rgba(211,32,41,0.3)'; this.style.borderColor='rgba(211,32,41,0.4)';">
+              <i class="fab fa-linkedin text-lg"></i>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Quick Links -->
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">About Us</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">How It Works</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">AI Features</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Help Center</a></li>
+          </ul>
+        </div>
+        
+        <!-- Legal -->
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Legal</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Cookie Policy</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Bottom Section -->
+      <div class="border-t mt-8 pt-8 flex flex-col md:flex-row justify-between items-center" style="border-color: rgba(255,255,255,0.2);">
+        <p class="text-white/50 text-sm">
+          &copy; 2026 Meijer AI Shopping Assistant. Powered by Capgemini Agentic AI.
+        </p>
+        <div class="flex items-center space-x-6 mt-4 md:mt-0">
+          <div class="flex items-center space-x-2 text-sm text-gray-300">
+            <i class="fas fa-brain text-yellow-400"></i>
+            <span>Google Gemini</span>
+          </div>
+          <div class="flex items-center space-x-2 px-3 py-1 rounded-full border" style="background: rgba(0,82,155,0.2); border-color: rgba(255,255,255,0.25);">
+            <div class="w-6 h-6 bg-white rounded p-0.5">
+              <img src="/static/assets/logo.svg" alt="Capgemini Logo" class="w-full h-full object-contain">
+            </div>
+            <span class="text-sm font-semibold text-white/90">Capgemini</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Login Modal -->
+  <div id="login-modal" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 hidden flex items-center justify-center">
+    <div class="bg-white rounded-3xl shadow-2xl max-w-md w-full mx-4 transform transition-all duration-300 scale-95 opacity-0" id="login-modal-content">
+      <div class="text-white px-8 py-6 rounded-t-3xl" style="background: #00529B;">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-3">
+            <div class="w-12 h-12 rounded-full flex items-center justify-center" style="background:rgba(0,82,155,0.7);">
+              <i class="fas fa-user-circle text-2xl"></i>
+            </div>
+            <div>
+              <h3 class="text-2xl font-bold">Welcome Back!</h3>
+              <p class="text-sm opacity-90">Login to your account</p>
+            </div>
+          </div>
+          <button onclick="closeLoginModal()" class="text-white/70 hover:text-white transition-colors">
+            <i class="fas fa-times text-2xl"></i>
+          </button>
+        </div>
+      </div>
+      
+      <form id="login-modal-form" class="p-8 space-y-6">
+        <div class="relative">
+          <label class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+          <input 
+            type="email" 
+            id="modal-login-email" 
+            placeholder="Enter your email address"
+            required
+            class="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:outline-none transition-all duration-200 text-gray-700" onfocus="this.style.borderColor='#00529B'" onblur="this.style.borderColor='#e5e7eb'"
+          />
+          <i class="fas fa-envelope absolute right-4 bottom-4 text-gray-400"></i>
+        </div>
+        
+        <div class="relative">
+          <label class="block text-sm font-medium text-gray-700 mb-2">Password</label>
+          <input 
+            type="password" 
+            id="modal-login-password" 
+            placeholder="Enter any password"
+            required
+            class="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:outline-none transition-all duration-200 text-gray-700" onfocus="this.style.borderColor='#00529B'" onblur="this.style.borderColor='#e5e7eb'"
+          />
+          <i class="fas fa-lock absolute right-4 bottom-4 text-gray-400"></i>
+        </div>
+        
+        <div class="bg-blue-50 border border-blue-200 rounded-xl p-4">
+          <div class="flex items-start space-x-2">
+            <i class="fas fa-info-circle text-blue-500 mt-0.5"></i>
+            <p class="text-xs text-blue-700">
+              Email must be registered in our system.
+            </p>
+          </div>
+        </div>
+        
+        <button 
+          type="submit"
+          class="w-full text-white py-4 px-6 rounded-xl font-bold text-lg transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl" style="background:#00529B;" onmouseover="this.style.background='#003F7A'" onmouseout="this.style.background='#00529B'"
+        >
+          <i class="fas fa-sign-in-alt mr-2"></i>
+          Login to Your Account
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- External Scripts -->
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- A2UI Protocol Client -->
+  <script src="/static/js/a2ui-client.js"></script>
+  
+  <!-- Voice Search Script -->
+  <script src="/static/js/voice-search.js"></script>
+  
+  <!-- Conversation Context Script -->
+  <script src="/static/js/conversation-context.js"></script>
+  
+  <!-- Main Application Script -->
+  <script src="/static/js/app.js?v=2024-10-10-002"></script>
+  
+  <!-- A2UI Protocol Initialization for What's New Carousel -->
+  <script>
+    // Initialize A2UI Client for real-time updates
+    let a2uiClient = null;
+    
+    function initA2UIClient() {
+      try {
+        // Create A2UI client instance
+        a2uiClient = new A2UIClient({
+          serverUrl: 'ws://localhost:8020',
+          debug: true
+        });
+        
+        // Store globally for access from other functions
+        window.a2uiClient = a2uiClient;
+        
+        console.log('🔗 A2UI Session ID:', a2uiClient.getSessionId());
+        
+        // Subscribe to What's New carousel and similar products modules
+        a2uiClient.subscribe('whats_new_carousel');
+        a2uiClient.subscribe('similar_products');
+        console.log('📝 Subscribed to whats_new_carousel and similar_products modules');
+
+        // Handle A2UI JSON carousel render for "You May Also Like"
+        // Triggered when backend pushes an A2UI JSON structure built from the DB response
+        a2uiClient.on('similar_products_a2ui', (message) => {
+          console.log('🎨 A2UI similar_products_a2ui received:', message);
+          if ((message.action === 'render' || message.action === 'replace') &&
+              message.data && message.data.a2ui_json) {
+
+            const a2uiJson = message.data.a2ui_json;
+            const section  = document.getElementById('similar-products-section');
+
+            // Make section visible
+            section?.classList.remove('hidden');
+
+            // Update subtitle from A2UI JSON title / source product
+            const subtitle = document.getElementById('similar-products-subtitle');
+            const firstItem = (a2uiJson.items || [])[0];
+            if (subtitle && firstItem) {
+              const name = firstItem.content?.title || a2uiJson.source_product || '';
+              subtitle.textContent = `Products related to: ${name.length > 40 ? name.substring(0, 40) + '\u2026' : name}`;
+            }
+
+            // Render carousel from A2UI JSON
+            renderA2UIProductCarousel(a2uiJson);
+
+            section?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            console.log(`✅ A2UI carousel rendered with ${(a2uiJson.items || []).length} items`);
+          }
+        });
+
+        // Fallback: plain products push (non-A2UI-JSON path)
+        a2uiClient.on('similar_products', (message) => {
+          console.log('🛍️ A2UI Similar Products Update:', message);
+          if (message.action === 'replace' && message.data && message.data.products) {
+            const products = message.data.products;
+            const section = document.getElementById('similar-products-section');
+            // Make the section visible via A2UI
+            section?.classList.remove('hidden');
+            const subtitle = document.getElementById('similar-products-subtitle');
+            if (subtitle && products.length > 0) {
+              const productName = products[0].product_name || '';
+              subtitle.textContent = `Products related to: ${productName.length > 40 ? productName.substring(0, 40) + '\u2026' : productName}`;
+            }
+            window._similarProductsCache = products;
+            _renderSimilarProducts(products);
+            section?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          } else if (message.data && message.data.products && message.data.products.length === 0) {
+            document.getElementById('similar-products-section')?.classList.add('hidden');
+          }
+        });
+
+        // Handle carousel product updates
+        a2uiClient.on('whats_new_carousel', (message) => {
+          console.log('📦 A2UI Carousel Update:', message);
+          console.log('   Action:', message.action);
+          console.log('   Data:', message.data);
+          
+          if (message.action === 'replace' && message.data.products) {
+            console.log('🎨 Rendering', message.data.products.length, 'products via A2UI');
+            displayWhatsNewProducts(message.data.products);
+          } else {
+            console.warn('⚠️ Unexpected message format:', message);
+          }
+        });
+        
+        // Handle loading state updates
+        a2uiClient.on('carousel_loading', (message) => {
+          const loadingEl = document.getElementById('whats-new-loading');
+          if (message.data.is_loading) {
+            loadingEl?.classList.remove('hidden');
+          } else {
+            loadingEl?.classList.add('hidden');
+          }
+        });
+        
+        // Handle error updates
+        a2uiClient.on('carousel_error', (message) => {
+          if (message.data.has_error) {
+            displayWhatsNewError(message.data.error_message);
+          }
+        });
+        
+        // Handle connection status
+        a2uiClient.onConnect(() => {
+          console.log('✅ A2UI Connected - Real-time carousel updates enabled');
+        });
+        
+        a2uiClient.onDisconnect(() => {
+          console.log('⚠️ A2UI Disconnected - Falling back to standard API');
+        });
+        
+        // Connect to server
+        a2uiClient.connect();
+        
+      } catch (error) {
+        console.log('⚠️ A2UI not available, using standard API:', error);
+        // Continue without A2UI - functionality will still work via REST API
+      }
+    }
+    
+    // Initialize A2UI when DOM is ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initA2UIClient);
+    } else {
+      initA2UIClient();
+    }
+  </script>
+</body>
+</html>

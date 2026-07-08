@@ -1,0 +1,68 @@
+
+
+################################# Grocery/Diary/Milk Begins here ###################################################
+
+CATEGORY_ID,CATEGORY_NAME,PARENT_CATEGORY_ID
+400000,Grocery,
+400200,Dairy,400000
+400201,Milk,400200
+400202,Yogurt,400200
+400203,Cheese,400200
+
+####  Sub-Category of Cheese  ######
+400204,Shredded Cheese,400203
+400205,Chunk Cheese,400203
+400206,Sliced Cheese,400203
+400207,Snacking Cheese,400203
+400208,Cream Cheese,400203
+400209,Specialty Cheese,400203
+400210,Non-Dairy Cheese,400203
+400211,Shelf Stable Cheese,400203
+
+
+PRODUCT_ID,PRODUCT_NAME,BRAND,SUMMARY,PRICE,CATEGORY_IDS,IMAGE_URL
+600001,Whole Milk,Organic Valley,"Creamy whole milk from grass-fed cows, rich in natural vitamins and calcium.",3.99,400201,https://images.unsplash.com/photo-1550583791-bbe6b06a0075?auto=format&fit=crop&w=800&q=80
+600002,2% Milk,DairyPure,"Reduced-fat milk with 2% milkfat, a good source of calcium and vitamin D.",3.49,400201,https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=800&q=80
+600003,Skim Milk,Great Value,"Fat-free milk with all the essential nutrients of whole milk, including calcium and vitamin D.",2.99,400201,https://images.unsplash.com/photo-1599599810795-357147342474?auto=format&fit=crop&w=800&q=80
+600004,Lactose-Free Whole Milk,Lactaid,"Real dairy milk without the lactose, perfect for lactose-intolerant individuals.",4.49,400201,https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=800&q=80
+600005,Lactose-Free 2% Milk,Fairlife,"Ultra-filtered lactose-free milk with extended shelf life and added protein.",4.29,400201,https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80
+600006,Organic Whole Milk,Horizon Organic,"USDA Organic whole milk from pasture-raised cows with no added hormones or antibiotics.",4.99,400201,https://images.unsplash.com/photo-1565299585323-15d163b341e9?auto=format&fit=crop&w=800&q=80
+600007,Organic 2% Milk,Stater Bros.,"Organic reduced-fat milk with no artificial hormones or antibiotics, rich in calcium.",4.49,400201,https://images.unsplash.com/photo-1621996346565-e326e20f8423?auto=format&fit=crop&w=800&q=80
+600008,Chocolate Milk,Nesquik,"Rich chocolate-flavored milk made with real cocoa and low-fat milk.",2.99,400201,https://images.unsplash.com/photo-1560008581-09826d1de69e?auto=format&fit=crop&w=800&q=80
+600009,Strawberry Milk,TruMoo,"Creamy strawberry-flavored milk with no artificial growth hormones, made from real strawberries.",2.99,400201,https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80
+600010,Almond Milk,Almond Breeze,"Unsweetened almond milk, a dairy-free and lactose-free alternative rich in vitamin E.",3.49,400201,https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=800&q=80
+
+################################# Grocery/Diary/Milk ends here ###################################################
+
+################################# Grocery/Diary/Yogurt Begins here ###################################################
+
+PRODUCT_ID,PRODUCT_NAME,BRAND,SUMMARY,PRICE,CATEGORY_IDS,IMAGE_URL
+700001,Traditional Yogurt - Plain,Dannon,"Creamy and smooth plain yogurt with live and active cultures.",1.99,400202,https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=800&q=80
+700002,Traditional Yogurt - Vanilla,Yoplait,"Rich and creamy vanilla yogurt with a smooth texture.",2.29,400202,https://images.unsplash.com/photo-1565299585323-15d163b341e9?auto=format&fit=crop&w=800&q=80
+700003,Greek Yogurt - Plain,Chobani,"Thick, creamy, and protein-packed plain Greek yogurt with live cultures.",2.99,400202,https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=800&q=80
+700004,Greek Yogurt - Vanilla,Fage,"Ultra-smooth vanilla Greek yogurt with 15g of protein per serving.",3.49,400202,https://images.unsplash.com/photo-1599599810795-357147342474?auto=format&fit=crop&w=800&q=80
+700005,Drinkable Yogurt - Strawberry,Yakult,"Smooth and refreshing strawberry-flavored drinkable yogurt with probiotics.",2.49,400202,https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80
+700006,Drinkable Yogurt - Mixed Berry,Chobani Flip,"Creamy drinkable yogurt with mixed berry flavor and probiotics.",2.79,400202,https://images.unsplash.com/photo-1621996346565-e326e20f8423?auto=format&fit=crop&w=800&q=80
+700007,Kids Yogurt - Strawberry,Go-Gurt,"Portable strawberry-flavored yogurt in a convenient tube, perfect for kids.",3.99,400202,https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80
+700008,Kids Yogurt - Vanilla,Danimals,"Creamy vanilla yogurt with fun shapes and colors for kids.",3.99,400202,https://images.unsplash.com/photo-1560008581-09826d1de69e?auto=format&fit=crop&w=800&q=80
+700009,Indulgent Yogurt - Chocolate Mousse,Oikos,"Decadent chocolate mousse Greek yogurt with 15g of protein and rich cocoa flavor.",2.99,400202,https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=800&q=80
+700010,Specialty Yogurt - Icelandic Skyr,Siggi's,"Thick, protein-rich Icelandic-style yogurt with a tangy taste and no added sugar.",3.49,400202,https://images.unsplash.com/photo-1607382123583-fe450a1334ce?auto=format&fit=crop&w=800&q=80
+
+################################# Grocery/Diary/Yogurt ends here ###################################################
+
+################################# Grocery/Diary/Cheese Begins here ###################################################
+
+
+PRODUCT_ID,PRODUCT_NAME,BRAND,SUMMARY,PRICE,CATEGORY_IDS,IMAGE_URL
+600011,Mozzarella Shredded Cheese,Amul,"Mild and creamy shredded mozzarella, perfect for pizzas and pasta.",250,400204,https://example.com/amul-mozzarella-shredded.jpg
+600012,Cheddar Shredded Cheese,Britannia,"Sharp cheddar shredded cheese, ideal for sandwiches and baking.",300,400204,https://example.com/britannia-cheddar-shredded.jpg
+600013,Cheddar Chunk Cheese,Amul,"Aged cheddar in convenient chunks, great for snacking or cooking.",400,400205,https://example.com/amul-cheddar-chunk.jpg
+600014,Gouda Chunk Cheese,Dairy Classic,"Smooth and slightly sweet Gouda cheese in chunk form.",450,400205,https://example.com/dairy-classic-gouda.jpg
+600015,Swiss Sliced Cheese,Britannia,"Mild Swiss cheese with characteristic holes, pre-sliced for convenience.",350,400206,https://example.com/britannia-swiss-sliced.jpg
+600016,American Sliced Cheese,Kraft,"Classic American cheese slices, smooth and melts perfectly.",320,400206,https://example.com/kraft-american-sliced.jpg
+600017,Cheese Cubes (Snacking),Amul,"Bite-sized cheddar cheese cubes, perfect for snacking.",280,400207,https://example.com/amul-cheese-cubes.jpg
+600018,Cream Cheese Spread,Britannia,"Creamy and spreadable cream cheese, ideal for bagels and dips.",220,400208,https://example.com/britannia-cream-cheese.jpg
+600019,Blue Cheese (Specialty),Dairy Classic,"Bold and tangy blue cheese with characteristic veins, for gourmet dishes.",550,400209,https://example.com/dairy-classic-blue-cheese.jpg
+600020,Vegan Cheddar (Non-Dairy),Violife,"Plant-based cheddar alternative, dairy-free and lactose-free.",500,400210,https://example.com/violife-vegan-cheddar.jpg
+
+################################# Grocery/Diary/Cheese ends here ###################################################

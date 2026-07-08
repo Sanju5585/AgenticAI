@@ -1,0 +1,1162 @@
+{
+  "session_id": "d7e02582-2243-43ca-85b2-99ae090ee6d8",
+  "status": "success",
+  "created_at": "2026-04-10T11:32:28.877836",
+  "payment_data": {
+    "customer_id": "lars.bauer@rustic-hw.com",
+    "cart_items": [
+      {
+        "image_url": "images/200032.png",
+        "price": 630.33,
+        "product_id": "200032",
+        "product_name": "Nokia Nokia G60",
+        "quantity": 1,
+        "addedAt": "2026-04-10T06:01:57.491Z"
+      }
+    ],
+    "total_amount": 630.33,
+    "chat_history": [
+      {
+        "id": "msg_0",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n                <div class=\"w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background: linear-gradient(135deg, #0070AD 0%, #00C9FF 100%); box-shadow: 0 0 15px rgba(0, 201, 255, 0.5);\">\n                  <i class=\"fas fa-robot text-white text-sm\"></i>\n                </div>\n                <div>\n                  <p class=\"font-medium text-gray-800\">Hello! I'm your AI shopping assistant powered by Capgemini.</p>\n                  <p class=\"text-gray-600 text-sm mt-1\">How can I help you find the perfect products today?</p>\n                  <p class=\"text-gray-500 text-xs mt-2 italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>\n                    Note: Your cart will be cleared when you refresh the page.\n                  </p>\n                  <p class=\"text-cyan-600 text-xs mt-1 font-medium\">\n                    <i class=\"fas fa-credit-card mr-1\"></i>\n                    Secure PayPal checkout available - your session will be maintained during payment!\n                  </p>\n                </div>\n              </div>",
+        "timestamp": "2026-04-10T06:02:28.841Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_1",
+        "sender": "user",
+        "message": "i am going for an holiday suggest some products",
+        "timestamp": "2026-04-10T06:02:28.841Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_2",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          Oh, how exciting that you're going on holiday! That sounds like so much fun! To help me suggest the perfect things, could you tell me a little more about what you have planned? Are you thinking of relaxing on a beach, exploring a new city, or perhaps embarking on an adventure? Knowing what kind of activities you're most looking forward to will help me find just the right products to make your trip even better!\n        </div>\n      </div>",
+        "timestamp": "2026-04-10T06:02:28.841Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_3",
+        "sender": "user",
+        "message": "i need good mobile phone which has good camera",
+        "timestamp": "2026-04-10T06:02:28.841Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_4",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"bg-gradient-to-br from-purple-50 via-white to-pink-50 rounded-3xl p-6 border border-purple-100\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs px-3 py-1 rounded-full\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white/70 backdrop-blur-sm rounded-full px-4 py-2 border border-purple-200 flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-purple-500 text-sm\"></i>\n                <span class=\"text-sm font-semibold text-purple-600\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1775800747701\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/200022.png\" alt=\"Apple iPhone 15\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Apple iPhone 15</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$1044.50</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/200032.png\" alt=\"Nokia Nokia G60\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Nokia Nokia G60</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Nokia Nokia G60 \u2014 Great camera. 5G ready. Ideal for professionals.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$630.33</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/200023.png\" alt=\"Samsung Galaxy S23 Ultra\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Samsung Galaxy S23 Ultra</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Samsung Galaxy S23 Ultra \u2014 Powerful performance. 5G ready. Ideal for travelers.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$372.30</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/200053.png\" alt=\"Apple iPhone 16 Pro Max\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Apple iPhone 16 Pro Max</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$1099.99</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"images/200003.png\" alt=\"Motorola Moto G54\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Motorola Moto G54</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Motorola Moto G54 \u2014 Sleek design. 5G ready. Ideal for professionals.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">$189.38</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2026-04-10T06:02:28.842Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_5",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n    <div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; border-radius: 15px; margin: 10px 0; box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);\">\n      <div style=\"display: flex; align-items: center; margin-bottom: 20px;\">\n        <div style=\"background: rgba(255,255,255,0.2); border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-size: 24px;\">\n          \u00f0\u0178\u2018\u2039\n        </div>\n        <div>\n          <h3 style=\"margin: 0; font-size: 22px; font-weight: 700;\">Welcome back, Lars Bauer!</h3>\n          <p style=\"margin: 5px 0 0 0; font-size: 14px; opacity: 0.9;\">Your personalized shopping experience is ready</p>\n        </div>\n      </div>\n  \n      <div style=\"background: rgba(255,255,255,0.15); padding: 18px; border-radius: 12px; margin-top: 15px;\">\n        <h4 style=\"margin: 0 0 15px 0; font-size: 16px; font-weight: 600; display: flex; align-items: center;\">\n          <i class=\"fas fa-history\" style=\"margin-right: 8px;\"></i>\n          Your Recent Orders\n        </h4>\n    \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            \n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Sneakers Vans Old Skool black/white 4.5                    </div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\u00f0\u0178\u201c\u2026 24 Feb 2026</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">26.68</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#8009</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            \n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Vintage 86 blue havana striped                             </div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\u00f0\u0178\u201c\u2026 24 Feb 2026</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">17.78</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#8510</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            \n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Quad Tee SS                                                </div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\u00f0\u0178\u201c\u2026 18 Feb 2026</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">16.16</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#4419</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            \n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">T-Shirt Men Playboard Raster SS purple M                   </div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\u00f0\u0178\u201c\u2026 13 Feb 2026</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">26.68</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#5414</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 0; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            \n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Nightlife T-Shirt Women                                    </div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\u00f0\u0178\u201c\u2026 20 Nov 2025</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">64.76</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#1632</div>\n          </div>\n        </div>\n      \n      </div>\n      <div style=\"margin-top: 15px; text-align: center; font-size: 13px; opacity: 0.9;\">\n        <i class=\"fas fa-info-circle\" style=\"margin-right: 5px;\"></i>\n        I've personalized your Trending Now section based on your purchase history!\n      </div>\n    \n    </div>\n  \n        </div>\n      </div>",
+        "timestamp": "2026-04-10T06:02:28.842Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_6",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2026-04-10T06:02:28.842Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_7",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n        <div class=\"bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4\" id=\"chat-cart-container\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart text-purple-500 mr-2\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold\" id=\"chat-cart-count\"><i class=\"fas fa-shopping-cart mr-1\"></i>1 item</div>\n            </div>\n            \n            <div id=\"chat-cart-items\" class=\"space-y-3 mb-4\">\n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3 flex-1\">\n          <img src=\"images/200032.png\" alt=\"Nokia Nokia G60\" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1 min-w-0\">\n            <h4 class=\"font-semibold text-gray-800 text-sm truncate\">Nokia Nokia G60</h4>\n            <p class=\"text-xs text-gray-500 mt-1\">630.33 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 bg-purple-100 text-purple-800 rounded-full min-w-[2rem] text-center\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right ml-4\">\n          <p class=\"text-lg font-bold text-purple-600\">630.33</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    </div>\n            \n            <div id=\"chat-cart-footer\" class=\"border-t border-purple-200 pt-4\">\n                <div class=\"flex items-center justify-between mb-4\">\n                    <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                    <span class=\"text-2xl font-bold text-purple-600\" id=\"chat-cart-total\">630.33</span>\n                </div>\n                \n                <div class=\"text-center space-x-2\">\n                    <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-sync-alt mr-2\"></i>Refresh Cart\n                    </button>\n                    <button  class=\"bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-credit-card mr-2\"></i>Checkout\n                    </button>\n                </div>\n                \n                <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" onload=\"(function(){setTimeout(function(){if(typeof renderChatCart === &quot;function&quot;){console.log(&quot;\ud83d\uded2 Auto-triggering renderChatCart via image onload&quot;);renderChatCart();}},100);})()\" style=\"display:none;\">\n        \n        </div>\n      </div>",
+        "timestamp": "2026-04-10T06:02:28.842Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_8",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u00f0\u0178\u203a\u2019 <strong>Ready for Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Order Summary</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u00e2\u20ac\u00a2 Total: 630.33</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9; margin-bottom: 15px;\">\n          \u00f0\u0178\u201c\u00a6 1 item in your cart<br>\n          \u00f0\u0178\u2019\u00b0 Total amount: 630.33<br>\n          \u00f0\u0178\u201d\u2019 Secure PayPal payment\n        </div>\n        <div style=\"background: rgba(255,255,255,0.15); padding: 12px; border-radius: 8px; font-size: 14px; margin-top: 10px;\">\n          <strong>\u00e2\u0161\u00a1 Are you sure you want to proceed with the payment?</strong><br>\n          <span style=\"opacity: 0.9;\">Please reply with \"yes\" to confirm, or \"no\" to cancel.</span>\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-04-10T06:02:28.842Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_9",
+        "sender": "user",
+        "message": "yes",
+        "timestamp": "2026-04-10T06:02:28.842Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_10",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u00e2\u0153\u2026 <strong>Payment Confirmed!</strong><br><br>\n          <div style=\"background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 15px; border-radius: 12px; margin: 10px 0;\">\n            <div style=\"display: flex; align-items-center;\">\n              <i class=\"fas fa-check-circle\" style=\"font-size: 20px; margin-right: 10px;\"></i>\n              <div style=\"font-size: 14px;\">\n                Great! Processing your payment now. Opening PayPal gateway...\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>",
+        "timestamp": "2026-04-10T06:02:28.842Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_11",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u00f0\u0178\u203a\u2019 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Processing Payment</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u00e2\u20ac\u00a2 Total: 630.33</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u00e2\u0153\u00a8 Opening PayPal payment gateway...<br>\n          \u00f0\u0178\u201d\u2019 Secure payment processing<br>\n          \u00e2\u0161\u00a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-04-10T06:02:28.842Z",
+        "messageType": "html"
+      }
+    ],
+    "conversation_context": {
+      "session_id": "session_1775706042357_ojkaavebl",
+      "conversation_history": [
+        {
+          "id": 1775710543774,
+          "timestamp": "2026-04-09T04:55:43.774Z",
+          "user": "going to kashmir will do skiing activity",
+          "ai": {
+            "response": "I'm sorry, I encountered an issue while searching for products. Please try again in a moment."
+          },
+          "metadata": {
+            "session_id": "session_1775706042357_ojkaavebl",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1775792060963,
+          "timestamp": "2026-04-10T03:34:20.963Z",
+          "user": "show mobile",
+          "ai": {
+            "ai_response": "",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200022.png",
+                "payment_plans": [],
+                "price": 1044.5,
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200053.png",
+                "payment_plans": [],
+                "price": 1099.99,
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200008.png",
+                "payment_plans": [],
+                "price": 1164.81,
+                "product_id": "200008",
+                "product_name": "Apple iPhone 14",
+                "summary": "Apple iPhone 14 \u2014 All\u2011day battery. 5G ready. Ideal for creators."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200057.png",
+                "payment_plans": [],
+                "price": 949.99,
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ACA200001.png",
+                "payment_plans": [],
+                "price": 19.99,
+                "product_id": "ACA200001",
+                "product_name": "Case for Apple iPhone 16",
+                "summary": "Protective case designed for Apple iPhone 16."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1775706042357_ojkaavebl",
+            "products": [
+              {
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "price": 1044.5,
+                "image_url": "images/200022.png",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "product_id": "200008",
+                "product_name": "Apple iPhone 14",
+                "price": 1164.81,
+                "image_url": "images/200008.png",
+                "summary": "Apple iPhone 14 \u2014 All\u2011day battery. 5G ready. Ideal for creators."
+              },
+              {
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "price": 949.99,
+                "image_url": "images/200057.png",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "product_id": "ACA200001",
+                "product_name": "Case for Apple iPhone 16",
+                "price": 19.99,
+                "image_url": "images/ACA200001.png",
+                "summary": "Protective case designed for Apple iPhone 16."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "price": 1044.5,
+                "image_url": "images/200022.png",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "product_id": "200008",
+                "product_name": "Apple iPhone 14",
+                "price": 1164.81,
+                "image_url": "images/200008.png",
+                "summary": "Apple iPhone 14 \u2014 All\u2011day battery. 5G ready. Ideal for creators."
+              },
+              {
+                "product_id": "200057",
+                "product_name": "Apple iPhone 16 Plus",
+                "price": 949.99,
+                "image_url": "images/200057.png",
+                "summary": "Apple iPhone 16 Plus  Built for Apple Intelligence. Large display. Ideal for media consumption."
+              },
+              {
+                "product_id": "ACA200001",
+                "product_name": "Case for Apple iPhone 16",
+                "price": 19.99,
+                "image_url": "images/ACA200001.png",
+                "summary": "Protective case designed for Apple iPhone 16."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-04-10T03:34:20.969Z"
+          }
+        },
+        {
+          "id": 1775792117156,
+          "timestamp": "2026-04-10T03:35:17.156Z",
+          "user": "show watches",
+          "ai": {
+            "ai_response": "",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/400015.png",
+                "payment_plans": [],
+                "price": 449.99,
+                "product_id": "400015",
+                "product_name": "Apple Watch Series 10 42mm",
+                "summary": "Apple Watch Series 10 42mm  Premium performance. Health monitoring. Ideal for professionals."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/400001.png",
+                "payment_plans": [],
+                "price": 499.99,
+                "product_id": "400001",
+                "product_name": "Apple Watch Series 11 42mm",
+                "summary": "Apple Watch Series 11 42mm  Advanced health tracking. Water resistant. Ideal for fitness enthusiasts."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/400007.png",
+                "payment_plans": [],
+                "price": 849.99,
+                "product_id": "400007",
+                "product_name": "Apple Watch Ultra 3",
+                "summary": "Apple Watch Ultra 3  Rugged design. Advanced GPS. Ideal for outdoor adventurers."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/400002.png",
+                "payment_plans": [],
+                "price": 529.99,
+                "product_id": "400002",
+                "product_name": "Apple Watch Series 11 46mm",
+                "summary": "Apple Watch Series 11 46mm  Advanced health tracking. Larger display. Ideal for fitness enthusiasts."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/400008.png",
+                "payment_plans": [],
+                "price": 449.99,
+                "product_id": "400008",
+                "product_name": "Apple Watch Series 10 46mm",
+                "summary": "Apple Watch Series 10 46mm  Premium performance. Health monitoring. Ideal for professionals."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1775706042357_ojkaavebl",
+            "products": [
+              {
+                "product_id": "400015",
+                "product_name": "Apple Watch Series 10 42mm",
+                "price": 449.99,
+                "image_url": "images/400015.png",
+                "summary": "Apple Watch Series 10 42mm  Premium performance. Health monitoring. Ideal for professionals."
+              },
+              {
+                "product_id": "400001",
+                "product_name": "Apple Watch Series 11 42mm",
+                "price": 499.99,
+                "image_url": "images/400001.png",
+                "summary": "Apple Watch Series 11 42mm  Advanced health tracking. Water resistant. Ideal for fitness enthusiasts."
+              },
+              {
+                "product_id": "400007",
+                "product_name": "Apple Watch Ultra 3",
+                "price": 849.99,
+                "image_url": "images/400007.png",
+                "summary": "Apple Watch Ultra 3  Rugged design. Advanced GPS. Ideal for outdoor adventurers."
+              },
+              {
+                "product_id": "400002",
+                "product_name": "Apple Watch Series 11 46mm",
+                "price": 529.99,
+                "image_url": "images/400002.png",
+                "summary": "Apple Watch Series 11 46mm  Advanced health tracking. Larger display. Ideal for fitness enthusiasts."
+              },
+              {
+                "product_id": "400008",
+                "product_name": "Apple Watch Series 10 46mm",
+                "price": 449.99,
+                "image_url": "images/400008.png",
+                "summary": "Apple Watch Series 10 46mm  Premium performance. Health monitoring. Ideal for professionals."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "400015",
+                "product_name": "Apple Watch Series 10 42mm",
+                "price": 449.99,
+                "image_url": "images/400015.png",
+                "summary": "Apple Watch Series 10 42mm  Premium performance. Health monitoring. Ideal for professionals."
+              },
+              {
+                "product_id": "400001",
+                "product_name": "Apple Watch Series 11 42mm",
+                "price": 499.99,
+                "image_url": "images/400001.png",
+                "summary": "Apple Watch Series 11 42mm  Advanced health tracking. Water resistant. Ideal for fitness enthusiasts."
+              },
+              {
+                "product_id": "400007",
+                "product_name": "Apple Watch Ultra 3",
+                "price": 849.99,
+                "image_url": "images/400007.png",
+                "summary": "Apple Watch Ultra 3  Rugged design. Advanced GPS. Ideal for outdoor adventurers."
+              },
+              {
+                "product_id": "400002",
+                "product_name": "Apple Watch Series 11 46mm",
+                "price": 529.99,
+                "image_url": "images/400002.png",
+                "summary": "Apple Watch Series 11 46mm  Advanced health tracking. Larger display. Ideal for fitness enthusiasts."
+              },
+              {
+                "product_id": "400008",
+                "product_name": "Apple Watch Series 10 46mm",
+                "price": 449.99,
+                "image_url": "images/400008.png",
+                "summary": "Apple Watch Series 10 46mm  Premium performance. Health monitoring. Ideal for professionals."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-04-10T03:35:17.159Z"
+          }
+        },
+        {
+          "id": 1775792150702,
+          "timestamp": "2026-04-10T03:35:50.702Z",
+          "user": "any accessories of these",
+          "ai": {
+            "ai_response": "I found 3 accessories that perfectly complement , ,  and 2 more! These are curated matches from our database.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ACH400001.png",
+                "payment_plans": [],
+                "price": 29.99,
+                "product_id": "ACH400001",
+                "product_name": "Charger for Apple Watch Series 11",
+                "summary": "Chargers for Apple Watch Series 11 42mm"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ACH400001.png",
+                "payment_plans": [],
+                "price": 29.99,
+                "product_id": "ACH400001",
+                "product_name": "Charger for Apple Watch Series 11",
+                "summary": "Chargers for Apple Watch Ultra 3"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ACH400001.png",
+                "payment_plans": [],
+                "price": 29.99,
+                "product_id": "ACH400001",
+                "product_name": "Charger for Apple Watch Series 11",
+                "summary": "Chargers for Apple Watch Series 11 46mm"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1775706042357_ojkaavebl",
+            "products": [
+              {
+                "product_id": "ACH400001",
+                "product_name": "Charger for Apple Watch Series 11",
+                "price": 29.99,
+                "image_url": "images/ACH400001.png",
+                "summary": "Chargers for Apple Watch Series 11 42mm"
+              },
+              {
+                "product_id": "ACH400001",
+                "product_name": "Charger for Apple Watch Series 11",
+                "price": 29.99,
+                "image_url": "images/ACH400001.png",
+                "summary": "Chargers for Apple Watch Ultra 3"
+              },
+              {
+                "product_id": "ACH400001",
+                "product_name": "Charger for Apple Watch Series 11",
+                "price": 29.99,
+                "image_url": "images/ACH400001.png",
+                "summary": "Chargers for Apple Watch Series 11 46mm"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 3,
+            "enhanced_query": "Find accessories for these specific products: Apple Watch Series 10 42mm, Apple Watch Series 11 42mm, Apple Watch Ultra 3, Apple Watch Series 11 46mm, Apple Watch Series 10 46mm. Product IDs: 400015, 400001, 400007, 400002, 400008. Original query: any accessories of these",
+            "displayed_products": [
+              {
+                "product_id": "ACH400001",
+                "product_name": "Charger for Apple Watch Series 11",
+                "price": 29.99,
+                "image_url": "images/ACH400001.png",
+                "summary": "Chargers for Apple Watch Series 11 42mm"
+              },
+              {
+                "product_id": "ACH400001",
+                "product_name": "Charger for Apple Watch Series 11",
+                "price": 29.99,
+                "image_url": "images/ACH400001.png",
+                "summary": "Chargers for Apple Watch Ultra 3"
+              },
+              {
+                "product_id": "ACH400001",
+                "product_name": "Charger for Apple Watch Series 11",
+                "price": 29.99,
+                "image_url": "images/ACH400001.png",
+                "summary": "Chargers for Apple Watch Series 11 46mm"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-04-10T03:35:50.706Z"
+          }
+        },
+        {
+          "id": 1775792194335,
+          "timestamp": "2026-04-10T03:36:34.335Z",
+          "user": "i am looking for a good birthday gift suggest some products",
+          "ai": {
+            "response": "Oh, how exciting! I'd be absolutely delighted to help you find the perfect birthday gift! \ud83c\udf89\n\nWe have a fantastic selection of goodies that are sure to impress. You might be interested in:\n\n*   **Smartphones:** We've got the latest models packed with amazing features that make everyday life a breeze.\n*   **Smartwatches:** Perfect for keeping track of fitness goals and staying connected on the go.\n*   **Tablets:** Whether for work, creativity, or just unwinding with entertainment, our tablets are top-notch.\n*   **Accessories Galore:** From speedy chargers and stylish cases to crystal-clear earbuds and powerful headphones, we have all the little extras to make any gift complete!\n\nTo help me narrow it down, what kind of gift are you leaning towards today? \ud83d\ude0a"
+          },
+          "metadata": {
+            "session_id": "session_1775706042357_ojkaavebl",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1775792255722,
+          "timestamp": "2026-04-10T03:37:35.722Z",
+          "user": "hmm i think tablet is good gift for my son",
+          "ai": {
+            "ai_response": "",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/ADA300002.png",
+                "payment_plans": [],
+                "price": 14.99,
+                "product_id": "ADA300002",
+                "product_name": "Data Cable for Galaxy Tab",
+                "summary": "USB-C data cable for Samsung Galaxy Tab."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/300008.png",
+                "payment_plans": [],
+                "price": 276,
+                "product_id": "300008",
+                "product_name": "Samsung Galaxy Tab A9+ 5G",
+                "summary": "Samsung Galaxy Tab A9+ 5G  All-day battery. 5G connectivity. Ideal for entertainment."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/300009.png",
+                "payment_plans": [],
+                "price": 169.99,
+                "product_id": "300009",
+                "product_name": "T-Mobile Revvl Tab 2",
+                "summary": "T-Mobile Revvl Tab 2  Affordable tablet. Great for everyday use. Ideal for students."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/300001.png",
+                "payment_plans": [],
+                "price": 289.99,
+                "product_id": "300001",
+                "product_name": "Samsung Galaxy Tab A11+ 5G",
+                "summary": "Samsung Galaxy Tab A11+ 5G  High-resolution display. 5G connectivity. Ideal for multimedia."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/300006.png",
+                "payment_plans": [],
+                "price": 1149.99,
+                "product_id": "300006",
+                "product_name": "Samsung Galaxy Tab S10+ 5G",
+                "summary": "Samsung Galaxy Tab S10+ 5G  Premium performance. 5G ready. Ideal for creators."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1775706042357_ojkaavebl",
+            "products": [
+              {
+                "product_id": "ADA300002",
+                "product_name": "Data Cable for Galaxy Tab",
+                "price": 14.99,
+                "image_url": "images/ADA300002.png",
+                "summary": "USB-C data cable for Samsung Galaxy Tab."
+              },
+              {
+                "product_id": "300008",
+                "product_name": "Samsung Galaxy Tab A9+ 5G",
+                "price": 276,
+                "image_url": "images/300008.png",
+                "summary": "Samsung Galaxy Tab A9+ 5G  All-day battery. 5G connectivity. Ideal for entertainment."
+              },
+              {
+                "product_id": "300009",
+                "product_name": "T-Mobile Revvl Tab 2",
+                "price": 169.99,
+                "image_url": "images/300009.png",
+                "summary": "T-Mobile Revvl Tab 2  Affordable tablet. Great for everyday use. Ideal for students."
+              },
+              {
+                "product_id": "300001",
+                "product_name": "Samsung Galaxy Tab A11+ 5G",
+                "price": 289.99,
+                "image_url": "images/300001.png",
+                "summary": "Samsung Galaxy Tab A11+ 5G  High-resolution display. 5G connectivity. Ideal for multimedia."
+              },
+              {
+                "product_id": "300006",
+                "product_name": "Samsung Galaxy Tab S10+ 5G",
+                "price": 1149.99,
+                "image_url": "images/300006.png",
+                "summary": "Samsung Galaxy Tab S10+ 5G  Premium performance. 5G ready. Ideal for creators."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "ADA300002",
+                "product_name": "Data Cable for Galaxy Tab",
+                "price": 14.99,
+                "image_url": "images/ADA300002.png",
+                "summary": "USB-C data cable for Samsung Galaxy Tab."
+              },
+              {
+                "product_id": "300008",
+                "product_name": "Samsung Galaxy Tab A9+ 5G",
+                "price": 276,
+                "image_url": "images/300008.png",
+                "summary": "Samsung Galaxy Tab A9+ 5G  All-day battery. 5G connectivity. Ideal for entertainment."
+              },
+              {
+                "product_id": "300009",
+                "product_name": "T-Mobile Revvl Tab 2",
+                "price": 169.99,
+                "image_url": "images/300009.png",
+                "summary": "T-Mobile Revvl Tab 2  Affordable tablet. Great for everyday use. Ideal for students."
+              },
+              {
+                "product_id": "300001",
+                "product_name": "Samsung Galaxy Tab A11+ 5G",
+                "price": 289.99,
+                "image_url": "images/300001.png",
+                "summary": "Samsung Galaxy Tab A11+ 5G  High-resolution display. 5G connectivity. Ideal for multimedia."
+              },
+              {
+                "product_id": "300006",
+                "product_name": "Samsung Galaxy Tab S10+ 5G",
+                "price": 1149.99,
+                "image_url": "images/300006.png",
+                "summary": "Samsung Galaxy Tab S10+ 5G  Premium performance. 5G ready. Ideal for creators."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-04-10T03:37:35.724Z"
+          }
+        },
+        {
+          "id": 1775792298927,
+          "timestamp": "2026-04-10T03:38:18.927Z",
+          "user": "Show me detailed information about product 200053",
+          "ai": {
+            "ai_response": "Apple iPhone 16 Pro Max - Built for Apple Intelligence. Pro performance. Ideal for professionals. It comes with storage options of 256GB, 512GB, and 1TB. The 256GB model is available for $54.17/month for 24 months, the 512GB model for $58.33/month for 24 months, and the 1TB model for $62.50/month for 24 months. All models are currently in stock.",
+            "product_data": {
+              "PROMO_DESCRIPTION": "",
+              "PROMO_DISCOUNT_PERCENT": "",
+              "PROMO_TITLE": "",
+              "categories": [],
+              "image_url": "images/200053.png",
+              "payment_plans": [
+                {
+                  "due_today": 0,
+                  "duration_months": 24,
+                  "full_price": 1299.99,
+                  "monthly_payment": 54.17,
+                  "plan_id": "PLAN_200053_256",
+                  "product_id": "200053",
+                  "stock_status": "In stock",
+                  "variant_name": "256GB",
+                  "variant_order": 1
+                },
+                {
+                  "due_today": 0,
+                  "duration_months": 24,
+                  "full_price": 1399.99,
+                  "monthly_payment": 58.33,
+                  "plan_id": "PLAN_200053_512",
+                  "product_id": "200053",
+                  "stock_status": "In stock",
+                  "variant_name": "512GB",
+                  "variant_order": 2
+                },
+                {
+                  "due_today": 0,
+                  "duration_months": 24,
+                  "full_price": 1499.99,
+                  "monthly_payment": 62.5,
+                  "plan_id": "PLAN_200053_1TB",
+                  "product_id": "200053",
+                  "stock_status": "In stock",
+                  "variant_name": "1TB",
+                  "variant_order": 3
+                }
+              ],
+              "price": 1099.99,
+              "product_id": "200053",
+              "product_name": "Apple iPhone 16 Pro Max",
+              "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+            },
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200053.png",
+                "payment_plans": [
+                  {
+                    "due_today": 0,
+                    "duration_months": 24,
+                    "full_price": 1299.99,
+                    "monthly_payment": 54.17,
+                    "plan_id": "PLAN_200053_256",
+                    "product_id": "200053",
+                    "stock_status": "In stock",
+                    "variant_name": "256GB",
+                    "variant_order": 1
+                  },
+                  {
+                    "due_today": 0,
+                    "duration_months": 24,
+                    "full_price": 1399.99,
+                    "monthly_payment": 58.33,
+                    "plan_id": "PLAN_200053_512",
+                    "product_id": "200053",
+                    "stock_status": "In stock",
+                    "variant_name": "512GB",
+                    "variant_order": 2
+                  },
+                  {
+                    "due_today": 0,
+                    "duration_months": 24,
+                    "full_price": 1499.99,
+                    "monthly_payment": 62.5,
+                    "plan_id": "PLAN_200053_1TB",
+                    "product_id": "200053",
+                    "stock_status": "In stock",
+                    "variant_name": "1TB",
+                    "variant_order": 3
+                  }
+                ],
+                "price": 1099.99,
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              }
+            ],
+            "response_type": "product"
+          },
+          "metadata": {
+            "session_id": "session_1775706042357_ojkaavebl",
+            "products": [
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              }
+            ],
+            "response_type": "product",
+            "products_count": 1,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1775800695910,
+          "timestamp": "2026-04-10T05:58:15.910Z",
+          "user": "i am going for an holiday suggest some products",
+          "ai": {
+            "response": "Oh, how exciting that you're going on holiday! That sounds like so much fun! To help me suggest the perfect things, could you tell me a little more about what you have planned? Are you thinking of relaxing on a beach, exploring a new city, or perhaps embarking on an adventure? Knowing what kind of activities you're most looking forward to will help me find just the right products to make your trip even better!"
+          },
+          "metadata": {
+            "session_id": "session_1775706042357_ojkaavebl",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1775800747699,
+          "timestamp": "2026-04-10T05:59:07.699Z",
+          "user": "i need good mobile phone which has good camera",
+          "ai": {
+            "ai_response": "Here are some mobile phones with good cameras that might be great for your holiday:\n\n*   **Apple iPhone 15**: Known for its great camera and 5G readiness, it's ideal for capturing memories.\n*   **Nokia Nokia G60**: This phone also boasts a great camera and 5G capabilities, suitable for professionals.\n*   **Samsung Galaxy S23 Ultra**: With powerful performance and 5G, it's ideal for travelers and has a good camera.\n*   **Apple iPhone 16 Pro Max**: Offers pro performance and is built for advanced features, including a great camera.\n*   **Motorola Moto G54**: A sleek, 5G-ready option with a good camera, ideal for professionals.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200022.png",
+                "payment_plans": [],
+                "price": 1044.5,
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200032.png",
+                "payment_plans": [],
+                "price": 630.33,
+                "product_id": "200032",
+                "product_name": "Nokia Nokia G60",
+                "summary": "Nokia Nokia G60 \u2014 Great camera. 5G ready. Ideal for professionals."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200023.png",
+                "payment_plans": [],
+                "price": 372.3,
+                "product_id": "200023",
+                "product_name": "Samsung Galaxy S23 Ultra",
+                "summary": "Samsung Galaxy S23 Ultra \u2014 Powerful performance. 5G ready. Ideal for travelers."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200053.png",
+                "payment_plans": [],
+                "price": 1099.99,
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "images/200003.png",
+                "payment_plans": [],
+                "price": 189.38,
+                "product_id": "200003",
+                "product_name": "Motorola Moto G54",
+                "summary": "Motorola Moto G54 \u2014 Sleek design. 5G ready. Ideal for professionals."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1775706042357_ojkaavebl",
+            "products": [
+              {
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "price": 1044.5,
+                "image_url": "images/200022.png",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "product_id": "200032",
+                "product_name": "Nokia Nokia G60",
+                "price": 630.33,
+                "image_url": "images/200032.png",
+                "summary": "Nokia Nokia G60 \u2014 Great camera. 5G ready. Ideal for professionals."
+              },
+              {
+                "product_id": "200023",
+                "product_name": "Samsung Galaxy S23 Ultra",
+                "price": 372.3,
+                "image_url": "images/200023.png",
+                "summary": "Samsung Galaxy S23 Ultra \u2014 Powerful performance. 5G ready. Ideal for travelers."
+              },
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "product_id": "200003",
+                "product_name": "Motorola Moto G54",
+                "price": 189.38,
+                "image_url": "images/200003.png",
+                "summary": "Motorola Moto G54 \u2014 Sleek design. 5G ready. Ideal for professionals."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "200022",
+                "product_name": "Apple iPhone 15",
+                "price": 1044.5,
+                "image_url": "images/200022.png",
+                "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+              },
+              {
+                "product_id": "200032",
+                "product_name": "Nokia Nokia G60",
+                "price": 630.33,
+                "image_url": "images/200032.png",
+                "summary": "Nokia Nokia G60 \u2014 Great camera. 5G ready. Ideal for professionals."
+              },
+              {
+                "product_id": "200023",
+                "product_name": "Samsung Galaxy S23 Ultra",
+                "price": 372.3,
+                "image_url": "images/200023.png",
+                "summary": "Samsung Galaxy S23 Ultra \u2014 Powerful performance. 5G ready. Ideal for travelers."
+              },
+              {
+                "product_id": "200053",
+                "product_name": "Apple iPhone 16 Pro Max",
+                "price": 1099.99,
+                "image_url": "images/200053.png",
+                "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+              },
+              {
+                "product_id": "200003",
+                "product_name": "Motorola Moto G54",
+                "price": 189.38,
+                "image_url": "images/200003.png",
+                "summary": "Motorola Moto G54 \u2014 Sleek design. 5G ready. Ideal for professionals."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-04-10T05:59:07.701Z"
+          }
+        },
+        {
+          "id": 1775800922893,
+          "timestamp": "2026-04-10T06:02:02.893Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1775706042357_ojkaavebl",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        }
+      ],
+      "last_products": [
+        {
+          "product_id": "200022",
+          "product_name": "Apple iPhone 15",
+          "price": 1044.5,
+          "image_url": "images/200022.png",
+          "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+        },
+        {
+          "product_id": "200032",
+          "product_name": "Nokia Nokia G60",
+          "price": 630.33,
+          "image_url": "images/200032.png",
+          "summary": "Nokia Nokia G60 \u2014 Great camera. 5G ready. Ideal for professionals."
+        },
+        {
+          "product_id": "200023",
+          "product_name": "Samsung Galaxy S23 Ultra",
+          "price": 372.3,
+          "image_url": "images/200023.png",
+          "summary": "Samsung Galaxy S23 Ultra \u2014 Powerful performance. 5G ready. Ideal for travelers."
+        },
+        {
+          "product_id": "200053",
+          "product_name": "Apple iPhone 16 Pro Max",
+          "price": 1099.99,
+          "image_url": "images/200053.png",
+          "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+        },
+        {
+          "product_id": "200003",
+          "product_name": "Motorola Moto G54",
+          "price": 189.38,
+          "image_url": "images/200003.png",
+          "summary": "Motorola Moto G54 \u2014 Sleek design. 5G ready. Ideal for professionals."
+        }
+      ],
+      "recent_displayed": [
+        {
+          "product_id": "200022",
+          "product_name": "Apple iPhone 15",
+          "price": 1044.5,
+          "image_url": "images/200022.png",
+          "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+        },
+        {
+          "product_id": "200032",
+          "product_name": "Nokia Nokia G60",
+          "price": 630.33,
+          "image_url": "images/200032.png",
+          "summary": "Nokia Nokia G60 \u2014 Great camera. 5G ready. Ideal for professionals."
+        },
+        {
+          "product_id": "200023",
+          "product_name": "Samsung Galaxy S23 Ultra",
+          "price": 372.3,
+          "image_url": "images/200023.png",
+          "summary": "Samsung Galaxy S23 Ultra \u2014 Powerful performance. 5G ready. Ideal for travelers."
+        },
+        {
+          "product_id": "200053",
+          "product_name": "Apple iPhone 16 Pro Max",
+          "price": 1099.99,
+          "image_url": "images/200053.png",
+          "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+        },
+        {
+          "product_id": "200003",
+          "product_name": "Motorola Moto G54",
+          "price": 189.38,
+          "image_url": "images/200003.png",
+          "summary": "Motorola Moto G54 \u2014 Sleek design. 5G ready. Ideal for professionals."
+        }
+      ],
+      "context": [
+        {
+          "user": "i am going for an holiday suggest some products",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        },
+        {
+          "user": "i need good mobile phone which has good camera",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "200022",
+              "product_name": "Apple iPhone 15",
+              "price": 1044.5,
+              "image_url": "images/200022.png",
+              "summary": "Apple iPhone 15 \u2014 Great camera. 5G ready. Ideal for students."
+            },
+            {
+              "product_id": "200032",
+              "product_name": "Nokia Nokia G60",
+              "price": 630.33,
+              "image_url": "images/200032.png",
+              "summary": "Nokia Nokia G60 \u2014 Great camera. 5G ready. Ideal for professionals."
+            },
+            {
+              "product_id": "200023",
+              "product_name": "Samsung Galaxy S23 Ultra",
+              "price": 372.3,
+              "image_url": "images/200023.png",
+              "summary": "Samsung Galaxy S23 Ultra \u2014 Powerful performance. 5G ready. Ideal for travelers."
+            },
+            {
+              "product_id": "200053",
+              "product_name": "Apple iPhone 16 Pro Max",
+              "price": 1099.99,
+              "image_url": "images/200053.png",
+              "summary": "Apple iPhone 16 Pro Max  Built for Apple Intelligence. Pro performance. Ideal for professionals."
+            },
+            {
+              "product_id": "200003",
+              "product_name": "Motorola Moto G54",
+              "price": 189.38,
+              "image_url": "images/200003.png",
+              "summary": "Motorola Moto G54 \u2014 Sleek design. 5G ready. Ideal for professionals."
+            }
+          ],
+          "type": "products_list"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": "2026-04-10T11:32:28.877585",
+    "session_id": "d7e02582-2243-43ca-85b2-99ae090ee6d8"
+  },
+  "result": {
+    "payment_id": "PAYID-NHMJE6A6VU19963TS1404116",
+    "payer_id": "YR6334H86TGYG",
+    "token": "EC-6GY993558A9215112",
+    "order_result": {
+      "success": true,
+      "message": "Order #4469 created successfully!",
+      "order_details": {
+        "order_id": "4469",
+        "customer_id": "lars.bauer@rustic-hw.com",
+        "order_date": "2026-04-10 11:32:56",
+        "total_price": 630.33,
+        "status": "Open",
+        "items_count": 1,
+        "items": [
+          {
+            "order_id": "4469",
+            "product_id": "200032",
+            "product_name": "Nokia Nokia G60",
+            "price": 630.33,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "message": "Payment completed successfully!"
+  },
+  "updated_at": "2026-04-10T11:32:57.642148"
+}

@@ -1,0 +1,1035 @@
+{
+  "session_id": "f9f8ab27-c9b7-46b8-b771-43a59d34adc4",
+  "status": "success",
+  "created_at": "2025-10-15T16:12:41.591470",
+  "payment_data": {
+    "customer_id": "mark.rivers@pronto-hw.com",
+    "cart_items": [
+      {
+        "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw",
+        "price": 20.21,
+        "product_id": "118893",
+        "product_name": "I Love Tee SS Women                                        ",
+        "quantity": 1,
+        "addedAt": "2025-10-15T10:42:25.913Z"
+      }
+    ],
+    "total_amount": 20.21,
+    "chat_history": [
+      {
+        "id": "msg_0",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n                <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n                  <i class=\"fas fa-robot text-white text-sm\"></i>\n                </div>\n                <div>\n                  <p class=\"font-medium text-gray-800\">Hello! I'm your AI shopping assistant.</p>\n                  <p class=\"text-gray-600 text-sm mt-1\">How can I help you find the perfect products today?</p>\n                  <p class=\"text-gray-500 text-xs mt-2 italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>\n                    Note: Your cart will be cleared when you refresh the page.\n                  </p>\n                  <p class=\"text-purple-600 text-xs mt-1 font-medium\">\n                    <i class=\"fas fa-credit-card mr-1\"></i>\n                    Secure PayPal checkout available - your session will be maintained during payment!\n                  </p>\n                </div>\n              </div>",
+        "timestamp": "2025-10-15T10:42:41.569Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_1",
+        "sender": "user",
+        "message": "Hi i am going for an holiday can you suggest some products",
+        "timestamp": "2025-10-15T10:42:41.569Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_2",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          Oh, how exciting that you're going on holiday! That sounds like so much fun! To help me suggest some perfect items, could you tell me a little more about your trip? Are you heading somewhere warm and sunny for some beach time, or perhaps exploring a new city, or maybe even embarking on an adventure in the great outdoors? Once I know what kind of activities you're most looking forward to, I can help you find just the right things to make your holiday even more amazing!\n        </div>\n      </div>",
+        "timestamp": "2025-10-15T10:42:41.569Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_3",
+        "sender": "user",
+        "message": "i am going to Kashmir will do skiing can you suggest some ski products",
+        "timestamp": "2025-10-15T10:42:41.569Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_4",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"bg-gradient-to-br from-purple-50 via-white to-pink-50 rounded-3xl p-6 border border-purple-100\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs px-3 py-1 rounded-full\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white/70 backdrop-blur-sm rounded-full px-4 py-2 border border-purple-200 flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-purple-500 text-sm\"></i>\n                <span class=\"text-sm font-semibold text-purple-600\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1760524755836\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTc1MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak5pOW9ZVEV2T0RjNU5qWTFORGt5Tnprd01pNXFjR2N8NmY2MWIzNDEwODMzZWVlZDgzMzNiYWYxNGRmNTAwNTBmN2QwYjBkYTg5ZmIzMTIxZDZiMWQ4MGJmMWNjZGM1MA\" alt=\"Snowboard Binding F2-FTWO Mondo LT black L\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Snowboard Binding F2-FTWO Mondo LT black L</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Beginners and occasional riders will find the Mondo LT to be an extremly robust and high quality binding.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a346.71</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY\" alt=\"Leather Jacket\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Leather Jacket</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">A classic leather jacket that offers a stylish and edgy look</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a3999.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTMzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9NRFV2T0RjNU5qWTBPVEUyTURjek5DNXFjR2N8NDJkOGE0M2JkODgwOTk5N2I0MDNlNDQ2MmI4NmRiNjAyNTBkODdlMzZhNThjYzY0ZGM2YjIyZGE5N2RhODM3MQ\" alt=\"Snowboard Ski Tool Red Basic Kit\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Snowboard Ski Tool Red Basic Kit</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">BASIC KIT Satisfy your need for speed.  Includes + Zip Tool + Ceramic Stone + Rub-Down Wax + Stash Carry Pouch</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a329.71</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNjY3NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1pOW9aRGt2T0RjNU5qZzFNamcwTmpZeU1pNXFjR2N8MTk3NTAxNDExMmRkM2MzZTMzNjBkNDQ1YjgxMjI5ODA3MzE0YTc0ZTgyM2RlZGQ2MWUzNzc5ODQxYTE1YzJhMg\" alt=\"Panorama Pants Women\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Panorama Pants Women</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Show everyone what a nice figure you have. Now it's even possible when you go snowboarding</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a3153.86</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNDE4M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobU9DOW9NMlF2T0RjNU5qZ3lORFkyTmpFME1pNXFjR2N8NjFmOWNjNGMyN2FjYjdmMGVmNzZlNjhhOWQ0ODQ5ODVkNTZlMWFjYWEwNmJkY2RhMGZhN2FmY2E3YjBhMzJjYw\" alt=\"Dandridge Down Jacket Women\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Dandridge Down Jacket Women</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Vintage flannel sleeping bag experience without the smell of stale mothballs.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a380.96</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2025-10-15T10:42:41.569Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_5",
+        "sender": "user",
+        "message": "is there is  any accessories",
+        "timestamp": "2025-10-15T10:42:41.569Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_6",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"bg-gradient-to-br from-purple-50 via-white to-pink-50 rounded-3xl p-6 border border-purple-100\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs px-3 py-1 rounded-full\">8</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white/70 backdrop-blur-sm rounded-full px-4 py-2 border border-purple-200 flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-purple-500 text-sm\"></i>\n                <span class=\"text-sm font-semibold text-purple-600\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1760524804366\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk1NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMU55OW9aakF2T0RjNU5qazJOVFF3TkRjd01pNXFjR2N8Zjg5OGE1MzQ0ODQ1ZGIzODJjOGJhZGVmYWMyZWJlYjMzNDBkZmVmNzc0NGFkZWFmYzUxYTg2MGVkZTRmMWE0ZQ\" alt=\"Faded Droid Cap\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Faded Droid Cap</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">The droid. Faded Cap let you never fade away. 97% Cotton 3% spandex</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a312.92</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzM3OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE55OW9PVFl2T0RjNU5qYzBPVEk1T1RjME1pNXFjR2N8ZmViMTJkMzA2NWEwMjNhZmVlYjMzN2JjNDljZGFkOWNhMTMzMzhjZDBjM2JiYjlhZmU3MmQxNTk4ZmRjODM2Mw\" alt=\"Party Sock\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Party Sock</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">A breathable blend of woolly warmth</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a320.21</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzg5NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMlpDOW9aVGd2T0RjNU5qazJOVGN6TWpNNE1pNXFjR2N8ZDhiZGFlYzY0NjI5MzQ0ZDQ3ZmMzNTJjY2VmOGViYzIyYWY4MDY2NWY3YjQ2NDczZDFkZWRhYzM0M2I0MGVkZQ\" alt=\"Transplant Flexfit Cap\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Transplant Flexfit Cap</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">A trendy Volcom Stone logo on the Transplant Flexfit cap. 98% Cotton 2% Spandex</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a324.26</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzMwNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU5DOW9ZV1F2T0RjNU5qa3lNelEyTVRZMk1pNXFjR2N8YWRkNTQyNWJlZTk1ZjEzZTRlNDczYWVhNDhlZTgxNTJhMDIyOTEzZWJlM2FlYTMxZTliZWIxNTI0ZWVjMGM5MQ\" alt=\"Seizure Bag\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Seizure Bag</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">No chance that Billabong forgets about the classic among their bags. Therefore the Seizure bag is again part of the collection</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a324.26</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDMxOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE9TOW9ORFV2T0RjNU5qa3lPVFk0TnpVNE1pNXFjR2N8ZjE2MjQ1ZTQ4YjY3Njc5NDFiMzgyZDFkZWU4NzA3ZjBkYzRlMDI0M2IxN2FiYzA2ODM1ZjJkODNhMzgxNDFjZA\" alt=\"Lenus Belt\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Lenus Belt</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Your pants are always sliding down? Well</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a336.40</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzA2MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE5TOW9ZVEF2T0RjNU5qa3pNRGs1T0RNd01pNXFjR2N8Zjc4YTkyNjc5M2RiMGMwYTBkYjVmY2IwZGU3ZTU0MWQ0NmFkYTU2MGYwZGI2ZWZlNWM3OWY1MzZkMTU0ODE0ZA\" alt=\"Torbacula Belt\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Torbacula Belt</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Nice leather belt with cool lettering by Von Zipper. 100% Leather</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a344.51</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDE0OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa05pOW9NelF2T0RjNU5qWTFORGs1TXpRek9DNXFjR2N8Y2ZhY2E4ZTNlOGFjMzlmM2M4NTBjNDQwYjM3ZjBlYzY0MTlmN2YwNGY5OWQ2OTRjNDgxNWY5NTMzOWJjZTYzZA\" alt=\"Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">The Lotus from TSG! One for the Ladies:</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a346.71</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/cap-image-1.jpg?context=bWFzdGVyfHJvb3R8MjYyNTd8aW1hZ2UvanBlZ3xhR05tTDJneE5TODROemszTnpjNU1qazJNamcyTG1wd1p3fGE0ZDlkMDhmNzZlZmYwNmMzNDExZDU4MTQzNmYyYWI2MGEyOWZiNGQxNDM3MGNlYzc3YmMzOTQ5MTAwZGU2MmQ\" alt=\"Black Newyork Cap\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Black Newyork Cap</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Minimalist and bold</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a350.00</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2025-10-15T10:42:41.570Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_7",
+        "sender": "user",
+        "message": "show some tshirts under 50 pounds",
+        "timestamp": "2025-10-15T10:42:41.570Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_8",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"bg-gradient-to-br from-purple-50 via-white to-pink-50 rounded-3xl p-6 border border-purple-100\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs px-3 py-1 rounded-full\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white/70 backdrop-blur-sm rounded-full px-4 py-2 border border-purple-200 flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-purple-500 text-sm\"></i>\n                <span class=\"text-sm font-semibold text-purple-600\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1760524857195\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk4OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVl5OW9NRFF2T0RjNU5qazBPVE0wT0RNNE1pNXFjR2N8NzE3OWM3NWVkNzgxNmRlNjc4Yjc5OGFmMzA2Y2MyOGQxY2E3MzIwYWQyZDJkNWExMGMxMjAzNzI0N2U2YTQ0ZQ\" alt=\"Acid SS\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Acid SS</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">The Acid t-shirt by Quiksilver got an unique look for you due to the washing. 100% Organic Cotton</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a311.30</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzEzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE5DOW9OR0V2T0RjNU5qazBNamM1TkRjNE1pNXFjR2N8NzgzOWEyMjhkNjk3ZGFjOWFlNzU5NzBiZDNhNDEwNzg0MWZjMjE5OWIzYzBmYjUwMTE2NjVmMWEwMjRhNjFjOQ\" alt=\"Quad Tee SS\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Quad Tee SS</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">The Quad t-shirt by Billabong got a nice softhand front photoprint. 100% Cotton</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a316.16</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODkwMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak1pOW9Nek12T0RjNU5qZzNOemMxTURNd01pNXFjR2N8OTI5NmQ4MzFkMDNjNWI4ZmUxMjlhZGJlYjU1YzZmMDlhN2JiMGMwYTA5MWI3ZmNhMmFkNDhmYWRjNWVjOWEwNw\" alt=\"Skull 80 SS youth\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Skull 80 SS youth</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">The Skull 80 t-shirt by Billabong got a funky front print. 100% Cotton</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a318.59</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw\" alt=\"I Love Tee SS Women\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">I Love Tee SS Women</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a320.21</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg\" alt=\"Because Tee SS\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Because Tee SS</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a321.83</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2025-10-15T10:42:41.570Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_9",
+        "sender": "user",
+        "message": "show some tshirts between 20 to 50 pounds",
+        "timestamp": "2025-10-15T10:42:41.570Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_10",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"bg-gradient-to-br from-purple-50 via-white to-pink-50 rounded-3xl p-6 border border-purple-100\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs px-3 py-1 rounded-full\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white/70 backdrop-blur-sm rounded-full px-4 py-2 border border-purple-200 flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-purple-500 text-sm\"></i>\n                <span class=\"text-sm font-semibold text-purple-600\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1760524895302\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw\" alt=\"I Love Tee SS Women\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">I Love Tee SS Women</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a320.21</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg\" alt=\"Because Tee SS\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Because Tee SS</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a321.83</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMjUxNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE1DOW9OakV2T0RjNU5qa3pNVE15TlRrNE1pNXFjR2N8NDE4ZDU4NTUyMmZmNzNmZGE5ZGMzNWNjNTUzNGE5ODU5NTNmN2ZlYzUwZTI3NjVkMmQ1YjgzMGM5OTBiMmJiYw\" alt=\"Bike Bones SS Youth\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Bike Bones SS Youth</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">The Bike Bones Youth t-shirt by Quiksilver is not just a regular t-shirt. It's the ultimate allrounder to make sure you always look amazing! 100% Cotton</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a322.64</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA\" alt=\"Del Chaos Tee SS Youth white L\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Del Chaos Tee SS Youth white L</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Great standart fit tee by DC with eyecatching logo print on the front: The Delivering Chaos shirt. Unbeatable.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a324.26</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyODk3N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMVppOW9ZamN2T0RjNU5qZzNNVFV5TkRNNE1pNXFjR2N8Y2Y5OTIwNDA4MGNmMTAwMTc3ZGIzMjBhMjAxNzVkOTEyMDc5Njc4MjRjNzgyNzVjM2ZlNGU2OTgxZjlkZDUzZA\" alt=\"Jackson Tee SS\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Jackson Tee SS</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">The Jackson t-shirt by Billabong got an awesome vintage softhand print. 12</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a324.26</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2025-10-15T10:42:41.570Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_11",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n          <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n            <i class=\"fas fa-robot text-white text-sm\"></i>\n          </div>\n          <div class=\"flex-1\">\n            <p class=\"text-gray-800\">Login required to access this feature</p>\n          </div>\n        </div>",
+        "timestamp": "2025-10-15T10:42:41.570Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_12",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n          <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n            <i class=\"fas fa-robot text-white text-sm\"></i>\n          </div>\n          <div class=\"flex-1\">\n            <p class=\"text-gray-800\">Welcome back, Mark Rivers! You are now logged in.</p>\n          </div>\n        </div>",
+        "timestamp": "2025-10-15T10:42:41.570Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_13",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2025-10-15T10:42:41.570Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_14",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n        <div class=\"bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart text-purple-500 mr-2\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold\" id=\"cart-display-count\"><i class=\"fas fa-shopping-cart mr-1\"></i>1 items</div>\n            </div>\n            \n            <div id=\"cart-display-items\" class=\"space-y-3 mb-4\">\n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw\" alt=\"I Love Tee SS Women                                        \" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1\">\n            <h4 class=\"font-semibold text-gray-800 text-sm\">I Love Tee SS Women                                        </h4>\n            <p class=\"text-xs text-gray-500 mt-1\">\u00a320.21 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 bg-purple-100 text-purple-800 rounded-full min-w-[2rem] text-center\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right\">\n          <p class=\"text-lg font-bold text-purple-600\">\u00a320.21</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    </div>\n            \n            <div id=\"cart-display-total\" class=\"border-t border-purple-200 pt-4 flex items-center justify-between\">\n                <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                <span class=\"text-2xl font-bold text-purple-600\" id=\"cart-total-display\">\u00a320.21</span>\n            </div>\n            \n            <div class=\"mt-4 text-center\">\n                <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl mr-3\">\n                    <i class=\"fas fa-sync-alt mr-2\"></i>\n                    Refresh Cart\n                </button>\n                <button  class=\"bg-gradient-to-r hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl from-orange-500 to-yellow-500\" disabled=\"\"><i class=\"fas fa-spinner fa-spin mr-2\"></i>Preparing PayPal...</button>\n            </div>\n            \n            <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                <i class=\"fas fa-info-circle mr-1\"></i>\n                Cart items are managed in your browser session and will reset on page refresh.\n            </div>\n        </div>\n        \n        \n        \n        </div>\n      </div>",
+        "timestamp": "2025-10-15T10:42:41.570Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_15",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Ready for Checkout</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: \u00a320.21</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u2728 Opening PayPal payment gateway...<br>\n          \ud83d\udd12 Secure payment processing<br>\n          \u26a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2025-10-15T10:42:41.570Z",
+        "messageType": "html"
+      }
+    ],
+    "conversation_context": {
+      "session_id": "session_1760523479140_dle8svjik",
+      "conversation_history": [
+        {
+          "id": 1760524694771,
+          "timestamp": "2025-10-15T10:38:14.772Z",
+          "user": "Hi i am going for an holiday can you suggest some products",
+          "ai": {
+            "response": "Oh, how exciting that you're going on holiday! That sounds like so much fun! To help me suggest some perfect items, could you tell me a little more about your trip? Are you heading somewhere warm and sunny for some beach time, or perhaps exploring a new city, or maybe even embarking on an adventure in the great outdoors? Once I know what kind of activities you're most looking forward to, I can help you find just the right things to make your holiday even more amazing!"
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1760524755835,
+          "timestamp": "2025-10-15T10:39:15.835Z",
+          "user": "i am going to Kashmir will do skiing can you suggest some ski products",
+          "ai": {
+            "ai_response": "I don't see any recent product searches in our conversation. Please search for products first (like 'show me tshirts' or 'find jackets'), then I can show you any available offers or promotions for those products.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTc1MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak5pOW9ZVEV2T0RjNU5qWTFORGt5Tnprd01pNXFjR2N8NmY2MWIzNDEwODMzZWVlZDgzMzNiYWYxNGRmNTAwNTBmN2QwYjBkYTg5ZmIzMTIxZDZiMWQ4MGJmMWNjZGM1MA",
+                "price": 46.71,
+                "product_id": "300060389",
+                "product_name": "Snowboard Binding F2-FTWO Mondo LT black L",
+                "summary": "Beginners and occasional riders will find the Mondo LT to be an extremly robust and high quality binding."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY",
+                "price": 999,
+                "product_id": "0032-1",
+                "product_name": "Leather Jacket",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTMzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9NRFV2T0RjNU5qWTBPVEUyTURjek5DNXFjR2N8NDJkOGE0M2JkODgwOTk5N2I0MDNlNDQ2MmI4NmRiNjAyNTBkODdlMzZhNThjYzY0ZGM2YjIyZGE5N2RhODM3MQ",
+                "price": 29.71,
+                "product_id": "300044323",
+                "product_name": "Snowboard Ski Tool Red Basic Kit",
+                "summary": "BASIC KIT Satisfy your need for speed.  Includes + Zip Tool + Ceramic Stone + Rub-Down Wax + Stash Carry Pouch"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNjY3NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1pOW9aRGt2T0RjNU5qZzFNamcwTmpZeU1pNXFjR2N8MTk3NTAxNDExMmRkM2MzZTMzNjBkNDQ1YjgxMjI5ODA3MzE0YTc0ZTgyM2RlZGQ2MWUzNzc5ODQxYTE1YzJhMg",
+                "price": 153.86,
+                "product_id": "100124",
+                "product_name": "Panorama Pants Women",
+                "summary": "Show everyone what a nice figure you have. Now it's even possible when you go snowboarding"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNDE4M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobU9DOW9NMlF2T0RjNU5qZ3lORFkyTmpFME1pNXFjR2N8NjFmOWNjNGMyN2FjYjdmMGVmNzZlNjhhOWQ0ODQ5ODVkNTZlMWFjYWEwNmJkY2RhMGZhN2FmY2E3YjBhMzJjYw",
+                "price": 80.96,
+                "product_id": "95424",
+                "product_name": "Dandridge Down Jacket Women",
+                "summary": "Vintage flannel sleeping bag experience without the smell of stale mothballs."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [
+              {
+                "product_id": "300060389",
+                "product_name": "Snowboard Binding F2-FTWO Mondo LT black L",
+                "price": 46.71,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTc1MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak5pOW9ZVEV2T0RjNU5qWTFORGt5Tnprd01pNXFjR2N8NmY2MWIzNDEwODMzZWVlZDgzMzNiYWYxNGRmNTAwNTBmN2QwYjBkYTg5ZmIzMTIxZDZiMWQ4MGJmMWNjZGM1MA",
+                "summary": "Beginners and occasional riders will find the Mondo LT to be an extremly robust and high quality binding."
+              },
+              {
+                "product_id": "0032-1",
+                "product_name": "Leather Jacket",
+                "price": 999,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "300044323",
+                "product_name": "Snowboard Ski Tool Red Basic Kit",
+                "price": 29.71,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTMzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9NRFV2T0RjNU5qWTBPVEUyTURjek5DNXFjR2N8NDJkOGE0M2JkODgwOTk5N2I0MDNlNDQ2MmI4NmRiNjAyNTBkODdlMzZhNThjYzY0ZGM2YjIyZGE5N2RhODM3MQ",
+                "summary": "BASIC KIT Satisfy your need for speed.  Includes + Zip Tool + Ceramic Stone + Rub-Down Wax + Stash Carry Pouch"
+              },
+              {
+                "product_id": "100124",
+                "product_name": "Panorama Pants Women",
+                "price": 153.86,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNjY3NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1pOW9aRGt2T0RjNU5qZzFNamcwTmpZeU1pNXFjR2N8MTk3NTAxNDExMmRkM2MzZTMzNjBkNDQ1YjgxMjI5ODA3MzE0YTc0ZTgyM2RlZGQ2MWUzNzc5ODQxYTE1YzJhMg",
+                "summary": "Show everyone what a nice figure you have. Now it's even possible when you go snowboarding"
+              },
+              {
+                "product_id": "95424",
+                "product_name": "Dandridge Down Jacket Women",
+                "price": 80.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNDE4M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobU9DOW9NMlF2T0RjNU5qZ3lORFkyTmpFME1pNXFjR2N8NjFmOWNjNGMyN2FjYjdmMGVmNzZlNjhhOWQ0ODQ5ODVkNTZlMWFjYWEwNmJkY2RhMGZhN2FmY2E3YjBhMzJjYw",
+                "summary": "Vintage flannel sleeping bag experience without the smell of stale mothballs."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300060389",
+                "product_name": "Snowboard Binding F2-FTWO Mondo LT black L",
+                "price": 46.71,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTc1MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak5pOW9ZVEV2T0RjNU5qWTFORGt5Tnprd01pNXFjR2N8NmY2MWIzNDEwODMzZWVlZDgzMzNiYWYxNGRmNTAwNTBmN2QwYjBkYTg5ZmIzMTIxZDZiMWQ4MGJmMWNjZGM1MA",
+                "summary": "Beginners and occasional riders will find the Mondo LT to be an extremly robust and high quality binding."
+              },
+              {
+                "product_id": "0032-1",
+                "product_name": "Leather Jacket",
+                "price": 999,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "300044323",
+                "product_name": "Snowboard Ski Tool Red Basic Kit",
+                "price": 29.71,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTMzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9NRFV2T0RjNU5qWTBPVEUyTURjek5DNXFjR2N8NDJkOGE0M2JkODgwOTk5N2I0MDNlNDQ2MmI4NmRiNjAyNTBkODdlMzZhNThjYzY0ZGM2YjIyZGE5N2RhODM3MQ",
+                "summary": "BASIC KIT Satisfy your need for speed.  Includes + Zip Tool + Ceramic Stone + Rub-Down Wax + Stash Carry Pouch"
+              },
+              {
+                "product_id": "100124",
+                "product_name": "Panorama Pants Women",
+                "price": 153.86,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNjY3NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1pOW9aRGt2T0RjNU5qZzFNamcwTmpZeU1pNXFjR2N8MTk3NTAxNDExMmRkM2MzZTMzNjBkNDQ1YjgxMjI5ODA3MzE0YTc0ZTgyM2RlZGQ2MWUzNzc5ODQxYTE1YzJhMg",
+                "summary": "Show everyone what a nice figure you have. Now it's even possible when you go snowboarding"
+              },
+              {
+                "product_id": "95424",
+                "product_name": "Dandridge Down Jacket Women",
+                "price": 80.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNDE4M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJobU9DOW9NMlF2T0RjNU5qZ3lORFkyTmpFME1pNXFjR2N8NjFmOWNjNGMyN2FjYjdmMGVmNzZlNjhhOWQ0ODQ5ODVkNTZlMWFjYWEwNmJkY2RhMGZhN2FmY2E3YjBhMzJjYw",
+                "summary": "Vintage flannel sleeping bag experience without the smell of stale mothballs."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2025-10-15T10:39:15.836Z"
+          }
+        },
+        {
+          "id": 1760524804364,
+          "timestamp": "2025-10-15T10:40:04.364Z",
+          "user": "is there is  any accessories",
+          "ai": {
+            "ai_response": "Perfect! I found 8 accessories from our database that are specifically mapped to go with your selected products: , , , , . These are curated accessory matches!",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk1NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMU55OW9aakF2T0RjNU5qazJOVFF3TkRjd01pNXFjR2N8Zjg5OGE1MzQ0ODQ1ZGIzODJjOGJhZGVmYWMyZWJlYjMzNDBkZmVmNzc0NGFkZWFmYzUxYTg2MGVkZTRmMWE0ZQ",
+                "price": 12.92,
+                "product_id": "117210",
+                "product_name": "Faded Droid Cap",
+                "summary": "The droid. Faded Cap let you never fade away. 97% Cotton 3% spandex"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzM3OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE55OW9PVFl2T0RjNU5qYzBPVEk1T1RjME1pNXFjR2N8ZmViMTJkMzA2NWEwMjNhZmVlYjMzN2JjNDljZGFkOWNhMTMzMzhjZDBjM2JiYjlhZmU3MmQxNTk4ZmRjODM2Mw",
+                "price": 20.21,
+                "product_id": "95290",
+                "product_name": "Party Sock",
+                "summary": "A breathable blend of woolly warmth"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzg5NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMlpDOW9aVGd2T0RjNU5qazJOVGN6TWpNNE1pNXFjR2N8ZDhiZGFlYzY0NjI5MzQ0ZDQ3ZmMzNTJjY2VmOGViYzIyYWY4MDY2NWY3YjQ2NDczZDFkZWRhYzM0M2I0MGVkZQ",
+                "price": 24.26,
+                "product_id": "103151",
+                "product_name": "Transplant Flexfit Cap",
+                "summary": "A trendy Volcom Stone logo on the Transplant Flexfit cap. 98% Cotton 2% Spandex"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzMwNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU5DOW9ZV1F2T0RjNU5qa3lNelEyTVRZMk1pNXFjR2N8YWRkNTQyNWJlZTk1ZjEzZTRlNDczYWVhNDhlZTgxNTJhMDIyOTEzZWJlM2FlYTMxZTliZWIxNTI0ZWVjMGM5MQ",
+                "price": 24.26,
+                "product_id": "100402",
+                "product_name": "Seizure Bag",
+                "summary": "No chance that Billabong forgets about the classic among their bags. Therefore the Seizure bag is again part of the collection"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDMxOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE9TOW9ORFV2T0RjNU5qa3lPVFk0TnpVNE1pNXFjR2N8ZjE2MjQ1ZTQ4YjY3Njc5NDFiMzgyZDFkZWU4NzA3ZjBkYzRlMDI0M2IxN2FiYzA2ODM1ZjJkODNhMzgxNDFjZA",
+                "price": 36.4,
+                "product_id": "98851",
+                "product_name": "Lenus Belt",
+                "summary": "Your pants are always sliding down? Well"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzA2MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE5TOW9ZVEF2T0RjNU5qa3pNRGs1T0RNd01pNXFjR2N8Zjc4YTkyNjc5M2RiMGMwYTBkYjVmY2IwZGU3ZTU0MWQ0NmFkYTU2MGYwZGI2ZWZlNWM3OWY1MzZkMTU0ODE0ZA",
+                "price": 44.51,
+                "product_id": "74010",
+                "product_name": "Torbacula Belt",
+                "summary": "Nice leather belt with cool lettering by Von Zipper. 100% Leather"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDE0OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa05pOW9NelF2T0RjNU5qWTFORGs1TXpRek9DNXFjR2N8Y2ZhY2E4ZTNlOGFjMzlmM2M4NTBjNDQwYjM3ZjBlYzY0MTlmN2YwNGY5OWQ2OTRjNDgxNWY5NTMzOWJjZTYzZA",
+                "price": 46.71,
+                "product_id": "300062456",
+                "product_name": "Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL",
+                "summary": "The Lotus from TSG! One for the Ladies:"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/cap-image-1.jpg?context=bWFzdGVyfHJvb3R8MjYyNTd8aW1hZ2UvanBlZ3xhR05tTDJneE5TODROemszTnpjNU1qazJNamcyTG1wd1p3fGE0ZDlkMDhmNzZlZmYwNmMzNDExZDU4MTQzNmYyYWI2MGEyOWZiNGQxNDM3MGNlYzc3YmMzOTQ5MTAwZGU2MmQ",
+                "price": 50,
+                "product_id": "7001-1",
+                "product_name": "Black Newyork Cap",
+                "summary": "Minimalist and bold"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [
+              {
+                "product_id": "117210",
+                "product_name": "Faded Droid Cap",
+                "price": 12.92,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk1NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMU55OW9aakF2T0RjNU5qazJOVFF3TkRjd01pNXFjR2N8Zjg5OGE1MzQ0ODQ1ZGIzODJjOGJhZGVmYWMyZWJlYjMzNDBkZmVmNzc0NGFkZWFmYzUxYTg2MGVkZTRmMWE0ZQ",
+                "summary": "The droid. Faded Cap let you never fade away. 97% Cotton 3% spandex"
+              },
+              {
+                "product_id": "95290",
+                "product_name": "Party Sock",
+                "price": 20.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzM3OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE55OW9PVFl2T0RjNU5qYzBPVEk1T1RjME1pNXFjR2N8ZmViMTJkMzA2NWEwMjNhZmVlYjMzN2JjNDljZGFkOWNhMTMzMzhjZDBjM2JiYjlhZmU3MmQxNTk4ZmRjODM2Mw",
+                "summary": "A breathable blend of woolly warmth"
+              },
+              {
+                "product_id": "103151",
+                "product_name": "Transplant Flexfit Cap",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzg5NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMlpDOW9aVGd2T0RjNU5qazJOVGN6TWpNNE1pNXFjR2N8ZDhiZGFlYzY0NjI5MzQ0ZDQ3ZmMzNTJjY2VmOGViYzIyYWY4MDY2NWY3YjQ2NDczZDFkZWRhYzM0M2I0MGVkZQ",
+                "summary": "A trendy Volcom Stone logo on the Transplant Flexfit cap. 98% Cotton 2% Spandex"
+              },
+              {
+                "product_id": "100402",
+                "product_name": "Seizure Bag",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzMwNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU5DOW9ZV1F2T0RjNU5qa3lNelEyTVRZMk1pNXFjR2N8YWRkNTQyNWJlZTk1ZjEzZTRlNDczYWVhNDhlZTgxNTJhMDIyOTEzZWJlM2FlYTMxZTliZWIxNTI0ZWVjMGM5MQ",
+                "summary": "No chance that Billabong forgets about the classic among their bags. Therefore the Seizure bag is again part of the collection"
+              },
+              {
+                "product_id": "98851",
+                "product_name": "Lenus Belt",
+                "price": 36.4,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDMxOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE9TOW9ORFV2T0RjNU5qa3lPVFk0TnpVNE1pNXFjR2N8ZjE2MjQ1ZTQ4YjY3Njc5NDFiMzgyZDFkZWU4NzA3ZjBkYzRlMDI0M2IxN2FiYzA2ODM1ZjJkODNhMzgxNDFjZA",
+                "summary": "Your pants are always sliding down? Well"
+              },
+              {
+                "product_id": "74010",
+                "product_name": "Torbacula Belt",
+                "price": 44.51,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzA2MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE5TOW9ZVEF2T0RjNU5qa3pNRGs1T0RNd01pNXFjR2N8Zjc4YTkyNjc5M2RiMGMwYTBkYjVmY2IwZGU3ZTU0MWQ0NmFkYTU2MGYwZGI2ZWZlNWM3OWY1MzZkMTU0ODE0ZA",
+                "summary": "Nice leather belt with cool lettering by Von Zipper. 100% Leather"
+              },
+              {
+                "product_id": "300062456",
+                "product_name": "Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL",
+                "price": 46.71,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDE0OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa05pOW9NelF2T0RjNU5qWTFORGs1TXpRek9DNXFjR2N8Y2ZhY2E4ZTNlOGFjMzlmM2M4NTBjNDQwYjM3ZjBlYzY0MTlmN2YwNGY5OWQ2OTRjNDgxNWY5NTMzOWJjZTYzZA",
+                "summary": "The Lotus from TSG! One for the Ladies:"
+              },
+              {
+                "product_id": "7001-1",
+                "product_name": "Black Newyork Cap",
+                "price": 50,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/cap-image-1.jpg?context=bWFzdGVyfHJvb3R8MjYyNTd8aW1hZ2UvanBlZ3xhR05tTDJneE5TODROemszTnpjNU1qazJNamcyTG1wd1p3fGE0ZDlkMDhmNzZlZmYwNmMzNDExZDU4MTQzNmYyYWI2MGEyOWZiNGQxNDM3MGNlYzc3YmMzOTQ5MTAwZGU2MmQ",
+                "summary": "Minimalist and bold"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 8,
+            "enhanced_query": "Find accessories for these specific products: Snowboard Binding F2-FTWO Mondo LT black L, Leather Jacket, Snowboard Ski Tool Red Basic Kit, Panorama Pants Women, Dandridge Down Jacket Women. Product IDs: 300060389, 0032-1, 300044323, 100124, 95424. Original query: is there is  any accessories",
+            "displayed_products": [
+              {
+                "product_id": "117210",
+                "product_name": "Faded Droid Cap",
+                "price": 12.92,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk1NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMU55OW9aakF2T0RjNU5qazJOVFF3TkRjd01pNXFjR2N8Zjg5OGE1MzQ0ODQ1ZGIzODJjOGJhZGVmYWMyZWJlYjMzNDBkZmVmNzc0NGFkZWFmYzUxYTg2MGVkZTRmMWE0ZQ",
+                "summary": "The droid. Faded Cap let you never fade away. 97% Cotton 3% spandex"
+              },
+              {
+                "product_id": "95290",
+                "product_name": "Party Sock",
+                "price": 20.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzM3OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE55OW9PVFl2T0RjNU5qYzBPVEk1T1RjME1pNXFjR2N8ZmViMTJkMzA2NWEwMjNhZmVlYjMzN2JjNDljZGFkOWNhMTMzMzhjZDBjM2JiYjlhZmU3MmQxNTk4ZmRjODM2Mw",
+                "summary": "A breathable blend of woolly warmth"
+              },
+              {
+                "product_id": "103151",
+                "product_name": "Transplant Flexfit Cap",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMzg5NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMlpDOW9aVGd2T0RjNU5qazJOVGN6TWpNNE1pNXFjR2N8ZDhiZGFlYzY0NjI5MzQ0ZDQ3ZmMzNTJjY2VmOGViYzIyYWY4MDY2NWY3YjQ2NDczZDFkZWRhYzM0M2I0MGVkZQ",
+                "summary": "A trendy Volcom Stone logo on the Transplant Flexfit cap. 98% Cotton 2% Spandex"
+              },
+              {
+                "product_id": "100402",
+                "product_name": "Seizure Bag",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzMwNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU5DOW9ZV1F2T0RjNU5qa3lNelEyTVRZMk1pNXFjR2N8YWRkNTQyNWJlZTk1ZjEzZTRlNDczYWVhNDhlZTgxNTJhMDIyOTEzZWJlM2FlYTMxZTliZWIxNTI0ZWVjMGM5MQ",
+                "summary": "No chance that Billabong forgets about the classic among their bags. Therefore the Seizure bag is again part of the collection"
+              },
+              {
+                "product_id": "98851",
+                "product_name": "Lenus Belt",
+                "price": 36.4,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDMxOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE9TOW9ORFV2T0RjNU5qa3lPVFk0TnpVNE1pNXFjR2N8ZjE2MjQ1ZTQ4YjY3Njc5NDFiMzgyZDFkZWU4NzA3ZjBkYzRlMDI0M2IxN2FiYzA2ODM1ZjJkODNhMzgxNDFjZA",
+                "summary": "Your pants are always sliding down? Well"
+              },
+              {
+                "product_id": "74010",
+                "product_name": "Torbacula Belt",
+                "price": 44.51,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyNzA2MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneE5TOW9ZVEF2T0RjNU5qa3pNRGs1T0RNd01pNXFjR2N8Zjc4YTkyNjc5M2RiMGMwYTBkYjVmY2IwZGU3ZTU0MWQ0NmFkYTU2MGYwZGI2ZWZlNWM3OWY1MzZkMTU0ODE0ZA",
+                "summary": "Nice leather belt with cool lettering by Von Zipper. 100% Leather"
+              },
+              {
+                "product_id": "300062456",
+                "product_name": "Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL",
+                "price": 46.71,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDE0OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa05pOW9NelF2T0RjNU5qWTFORGs1TXpRek9DNXFjR2N8Y2ZhY2E4ZTNlOGFjMzlmM2M4NTBjNDQwYjM3ZjBlYzY0MTlmN2YwNGY5OWQ2OTRjNDgxNWY5NTMzOWJjZTYzZA",
+                "summary": "The Lotus from TSG! One for the Ladies:"
+              },
+              {
+                "product_id": "7001-1",
+                "product_name": "Black Newyork Cap",
+                "price": 50,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/cap-image-1.jpg?context=bWFzdGVyfHJvb3R8MjYyNTd8aW1hZ2UvanBlZ3xhR05tTDJneE5TODROemszTnpjNU1qazJNamcyTG1wd1p3fGE0ZDlkMDhmNzZlZmYwNmMzNDExZDU4MTQzNmYyYWI2MGEyOWZiNGQxNDM3MGNlYzc3YmMzOTQ5MTAwZGU2MmQ",
+                "summary": "Minimalist and bold"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2025-10-15T10:40:04.366Z"
+          }
+        },
+        {
+          "id": 1760524857193,
+          "timestamp": "2025-10-15T10:40:57.193Z",
+          "user": "show some tshirts under 50 pounds",
+          "ai": {
+            "ai_response": "I found 5 shirts under 50.0 pounds.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk4OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVl5OW9NRFF2T0RjNU5qazBPVE0wT0RNNE1pNXFjR2N8NzE3OWM3NWVkNzgxNmRlNjc4Yjc5OGFmMzA2Y2MyOGQxY2E3MzIwYWQyZDJkNWExMGMxMjAzNzI0N2U2YTQ0ZQ",
+                "price": 11.3,
+                "product_id": "117896",
+                "product_name": "Acid SS",
+                "summary": "The Acid t-shirt by Quiksilver got an unique look for you due to the washing. 100% Organic Cotton"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzEzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE5DOW9OR0V2T0RjNU5qazBNamM1TkRjNE1pNXFjR2N8NzgzOWEyMjhkNjk3ZGFjOWFlNzU5NzBiZDNhNDEwNzg0MWZjMjE5OWIzYzBmYjUwMTE2NjVmMWEwMjRhNjFjOQ",
+                "price": 16.16,
+                "product_id": "122321",
+                "product_name": "Quad Tee SS",
+                "summary": "The Quad t-shirt by Billabong got a nice softhand front photoprint. 100% Cotton"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODkwMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak1pOW9Nek12T0RjNU5qZzNOemMxTURNd01pNXFjR2N8OTI5NmQ4MzFkMDNjNWI4ZmUxMjlhZGJlYjU1YzZmMDlhN2JiMGMwYTA5MWI3ZmNhMmFkNDhmYWRjNWVjOWEwNw",
+                "price": 18.59,
+                "product_id": "122412",
+                "product_name": "Skull 80 SS youth",
+                "summary": "The Skull 80 t-shirt by Billabong got a funky front print. 100% Cotton"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw",
+                "price": 20.21,
+                "product_id": "118893",
+                "product_name": "I Love Tee SS Women",
+                "summary": "The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg",
+                "price": 21.83,
+                "product_id": "122333",
+                "product_name": "Because Tee SS",
+                "summary": "The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [
+              {
+                "product_id": "117896",
+                "product_name": "Acid SS",
+                "price": 11.3,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk4OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVl5OW9NRFF2T0RjNU5qazBPVE0wT0RNNE1pNXFjR2N8NzE3OWM3NWVkNzgxNmRlNjc4Yjc5OGFmMzA2Y2MyOGQxY2E3MzIwYWQyZDJkNWExMGMxMjAzNzI0N2U2YTQ0ZQ",
+                "summary": "The Acid t-shirt by Quiksilver got an unique look for you due to the washing. 100% Organic Cotton"
+              },
+              {
+                "product_id": "122321",
+                "product_name": "Quad Tee SS",
+                "price": 16.16,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzEzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE5DOW9OR0V2T0RjNU5qazBNamM1TkRjNE1pNXFjR2N8NzgzOWEyMjhkNjk3ZGFjOWFlNzU5NzBiZDNhNDEwNzg0MWZjMjE5OWIzYzBmYjUwMTE2NjVmMWEwMjRhNjFjOQ",
+                "summary": "The Quad t-shirt by Billabong got a nice softhand front photoprint. 100% Cotton"
+              },
+              {
+                "product_id": "122412",
+                "product_name": "Skull 80 SS youth",
+                "price": 18.59,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODkwMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak1pOW9Nek12T0RjNU5qZzNOemMxTURNd01pNXFjR2N8OTI5NmQ4MzFkMDNjNWI4ZmUxMjlhZGJlYjU1YzZmMDlhN2JiMGMwYTA5MWI3ZmNhMmFkNDhmYWRjNWVjOWEwNw",
+                "summary": "The Skull 80 t-shirt by Billabong got a funky front print. 100% Cotton"
+              },
+              {
+                "product_id": "118893",
+                "product_name": "I Love Tee SS Women",
+                "price": 20.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw",
+                "summary": "The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton"
+              },
+              {
+                "product_id": "122333",
+                "product_name": "Because Tee SS",
+                "price": 21.83,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg",
+                "summary": "The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "117896",
+                "product_name": "Acid SS",
+                "price": 11.3,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk4OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVl5OW9NRFF2T0RjNU5qazBPVE0wT0RNNE1pNXFjR2N8NzE3OWM3NWVkNzgxNmRlNjc4Yjc5OGFmMzA2Y2MyOGQxY2E3MzIwYWQyZDJkNWExMGMxMjAzNzI0N2U2YTQ0ZQ",
+                "summary": "The Acid t-shirt by Quiksilver got an unique look for you due to the washing. 100% Organic Cotton"
+              },
+              {
+                "product_id": "122321",
+                "product_name": "Quad Tee SS",
+                "price": 16.16,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzEzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE5DOW9OR0V2T0RjNU5qazBNamM1TkRjNE1pNXFjR2N8NzgzOWEyMjhkNjk3ZGFjOWFlNzU5NzBiZDNhNDEwNzg0MWZjMjE5OWIzYzBmYjUwMTE2NjVmMWEwMjRhNjFjOQ",
+                "summary": "The Quad t-shirt by Billabong got a nice softhand front photoprint. 100% Cotton"
+              },
+              {
+                "product_id": "122412",
+                "product_name": "Skull 80 SS youth",
+                "price": 18.59,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODkwMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak1pOW9Nek12T0RjNU5qZzNOemMxTURNd01pNXFjR2N8OTI5NmQ4MzFkMDNjNWI4ZmUxMjlhZGJlYjU1YzZmMDlhN2JiMGMwYTA5MWI3ZmNhMmFkNDhmYWRjNWVjOWEwNw",
+                "summary": "The Skull 80 t-shirt by Billabong got a funky front print. 100% Cotton"
+              },
+              {
+                "product_id": "118893",
+                "product_name": "I Love Tee SS Women",
+                "price": 20.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw",
+                "summary": "The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton"
+              },
+              {
+                "product_id": "122333",
+                "product_name": "Because Tee SS",
+                "price": 21.83,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg",
+                "summary": "The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2025-10-15T10:40:57.195Z"
+          }
+        },
+        {
+          "id": 1760524895301,
+          "timestamp": "2025-10-15T10:41:35.301Z",
+          "user": "show some tshirts between 20 to 50 pounds",
+          "ai": {
+            "ai_response": "I found 5 shirts between 20.0 and 50.0 pounds.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw",
+                "price": 20.21,
+                "product_id": "118893",
+                "product_name": "I Love Tee SS Women",
+                "summary": "The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg",
+                "price": 21.83,
+                "product_id": "122333",
+                "product_name": "Because Tee SS",
+                "summary": "The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMjUxNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE1DOW9OakV2T0RjNU5qa3pNVE15TlRrNE1pNXFjR2N8NDE4ZDU4NTUyMmZmNzNmZGE5ZGMzNWNjNTUzNGE5ODU5NTNmN2ZlYzUwZTI3NjVkMmQ1YjgzMGM5OTBiMmJiYw",
+                "price": 22.64,
+                "product_id": "123922",
+                "product_name": "Bike Bones SS Youth",
+                "summary": "The Bike Bones Youth t-shirt by Quiksilver is not just a regular t-shirt. It's the ultimate allrounder to make sure you always look amazing! 100% Cotton"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA",
+                "price": 24.26,
+                "product_id": "300772559",
+                "product_name": "Del Chaos Tee SS Youth white L",
+                "summary": "Great standart fit tee by DC with eyecatching logo print on the front: The Delivering Chaos shirt. Unbeatable."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyODk3N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMVppOW9ZamN2T0RjNU5qZzNNVFV5TkRNNE1pNXFjR2N8Y2Y5OTIwNDA4MGNmMTAwMTc3ZGIzMjBhMjAxNzVkOTEyMDc5Njc4MjRjNzgyNzVjM2ZlNGU2OTgxZjlkZDUzZA",
+                "price": 24.26,
+                "product_id": "122340",
+                "product_name": "Jackson Tee SS",
+                "summary": "The Jackson t-shirt by Billabong got an awesome vintage softhand print. 12"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [
+              {
+                "product_id": "118893",
+                "product_name": "I Love Tee SS Women",
+                "price": 20.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw",
+                "summary": "The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton"
+              },
+              {
+                "product_id": "122333",
+                "product_name": "Because Tee SS",
+                "price": 21.83,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg",
+                "summary": "The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton"
+              },
+              {
+                "product_id": "123922",
+                "product_name": "Bike Bones SS Youth",
+                "price": 22.64,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMjUxNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE1DOW9OakV2T0RjNU5qa3pNVE15TlRrNE1pNXFjR2N8NDE4ZDU4NTUyMmZmNzNmZGE5ZGMzNWNjNTUzNGE5ODU5NTNmN2ZlYzUwZTI3NjVkMmQ1YjgzMGM5OTBiMmJiYw",
+                "summary": "The Bike Bones Youth t-shirt by Quiksilver is not just a regular t-shirt. It's the ultimate allrounder to make sure you always look amazing! 100% Cotton"
+              },
+              {
+                "product_id": "300772559",
+                "product_name": "Del Chaos Tee SS Youth white L",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA",
+                "summary": "Great standart fit tee by DC with eyecatching logo print on the front: The Delivering Chaos shirt. Unbeatable."
+              },
+              {
+                "product_id": "122340",
+                "product_name": "Jackson Tee SS",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyODk3N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMVppOW9ZamN2T0RjNU5qZzNNVFV5TkRNNE1pNXFjR2N8Y2Y5OTIwNDA4MGNmMTAwMTc3ZGIzMjBhMjAxNzVkOTEyMDc5Njc4MjRjNzgyNzVjM2ZlNGU2OTgxZjlkZDUzZA",
+                "summary": "The Jackson t-shirt by Billabong got an awesome vintage softhand print. 12"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "118893",
+                "product_name": "I Love Tee SS Women",
+                "price": 20.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw",
+                "summary": "The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton"
+              },
+              {
+                "product_id": "122333",
+                "product_name": "Because Tee SS",
+                "price": 21.83,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg",
+                "summary": "The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton"
+              },
+              {
+                "product_id": "123922",
+                "product_name": "Bike Bones SS Youth",
+                "price": 22.64,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMjUxNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE1DOW9OakV2T0RjNU5qa3pNVE15TlRrNE1pNXFjR2N8NDE4ZDU4NTUyMmZmNzNmZGE5ZGMzNWNjNTUzNGE5ODU5NTNmN2ZlYzUwZTI3NjVkMmQ1YjgzMGM5OTBiMmJiYw",
+                "summary": "The Bike Bones Youth t-shirt by Quiksilver is not just a regular t-shirt. It's the ultimate allrounder to make sure you always look amazing! 100% Cotton"
+              },
+              {
+                "product_id": "300772559",
+                "product_name": "Del Chaos Tee SS Youth white L",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA",
+                "summary": "Great standart fit tee by DC with eyecatching logo print on the front: The Delivering Chaos shirt. Unbeatable."
+              },
+              {
+                "product_id": "122340",
+                "product_name": "Jackson Tee SS",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyODk3N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMVppOW9ZamN2T0RjNU5qZzNNVFV5TkRNNE1pNXFjR2N8Y2Y5OTIwNDA4MGNmMTAwMTc3ZGIzMjBhMjAxNzVkOTEyMDc5Njc4MjRjNzgyNzVjM2ZlNGU2OTgxZjlkZDUzZA",
+                "summary": "The Jackson t-shirt by Billabong got an awesome vintage softhand print. 12"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2025-10-15T10:41:35.302Z"
+          }
+        },
+        {
+          "id": 1760524956546,
+          "timestamp": "2025-10-15T10:42:36.546Z",
+          "user": "Show my cart",
+          "ai": {
+            "cart_display": true,
+            "message": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='cart-display-count'>\n                    <i class='fas fa-spinner fa-spin mr-1'></i> Loading...\n                </div>\n            </div>\n            \n            <div id='cart-display-items' class='space-y-3 mb-4'>\n                <div class='text-center py-4 text-gray-500'>\n                    <div class='animate-pulse'>\n                        <div class='h-4 bg-gray-300 rounded mb-2'></div>\n                        <div class='h-4 bg-gray-300 rounded w-3/4 mx-auto'></div>\n                    </div>\n                    <p class='text-sm mt-2'>Loading cart...</p>\n                </div>\n            </div>\n            \n            <div id='cart-display-total' class='border-t border-purple-200 pt-4 flex items-center justify-between'>\n                <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                <span class='text-2xl font-bold text-purple-600' id='cart-total-display'>\n                    <i class='fas fa-spinner fa-spin'></i>\n                </span>\n            </div>\n            \n            <div class='mt-4 text-center'>\n                <button onclick='refreshCartDisplay()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl mr-3'>\n                    <i class='fas fa-sync-alt mr-2'></i>\n                    Refresh Cart\n                </button>\n                <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                    <i class='fas fa-credit-card mr-2'></i>\n                    Checkout\n                </button>\n            </div>\n            \n            <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                <i class='fas fa-info-circle mr-1'></i>\n                Cart items are managed in your browser session and will reset on page refresh.\n            </div>\n        </div>\n        \n        <script>\n            // Auto-load cart display when this message appears - reduced delay and multiple attempts\n            setTimeout(function() {\n                if (typeof displayCartInChat === 'function') {\n                    displayCartInChat();\n                }\n            }, 100);\n            \n            // Backup call in case the first one doesn't work\n            setTimeout(function() {\n                if (typeof displayCartInChat === 'function') {\n                    displayCartInChat();\n                }\n            }, 300);\n        </script>\n        ",
+            "show_cart": true
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        }
+      ],
+      "last_products": [
+        {
+          "product_id": "118893",
+          "product_name": "I Love Tee SS Women",
+          "price": 20.21,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw",
+          "summary": "The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton"
+        },
+        {
+          "product_id": "122333",
+          "product_name": "Because Tee SS",
+          "price": 21.83,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg",
+          "summary": "The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton"
+        },
+        {
+          "product_id": "123922",
+          "product_name": "Bike Bones SS Youth",
+          "price": 22.64,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMjUxNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE1DOW9OakV2T0RjNU5qa3pNVE15TlRrNE1pNXFjR2N8NDE4ZDU4NTUyMmZmNzNmZGE5ZGMzNWNjNTUzNGE5ODU5NTNmN2ZlYzUwZTI3NjVkMmQ1YjgzMGM5OTBiMmJiYw",
+          "summary": "The Bike Bones Youth t-shirt by Quiksilver is not just a regular t-shirt. It's the ultimate allrounder to make sure you always look amazing! 100% Cotton"
+        },
+        {
+          "product_id": "300772559",
+          "product_name": "Del Chaos Tee SS Youth white L",
+          "price": 24.26,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA",
+          "summary": "Great standart fit tee by DC with eyecatching logo print on the front: The Delivering Chaos shirt. Unbeatable."
+        },
+        {
+          "product_id": "122340",
+          "product_name": "Jackson Tee SS",
+          "price": 24.26,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyODk3N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMVppOW9ZamN2T0RjNU5qZzNNVFV5TkRNNE1pNXFjR2N8Y2Y5OTIwNDA4MGNmMTAwMTc3ZGIzMjBhMjAxNzVkOTEyMDc5Njc4MjRjNzgyNzVjM2ZlNGU2OTgxZjlkZDUzZA",
+          "summary": "The Jackson t-shirt by Billabong got an awesome vintage softhand print. 12"
+        }
+      ],
+      "recent_displayed": [
+        {
+          "product_id": "118893",
+          "product_name": "I Love Tee SS Women",
+          "price": 20.21,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw",
+          "summary": "The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton"
+        },
+        {
+          "product_id": "122333",
+          "product_name": "Because Tee SS",
+          "price": 21.83,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg",
+          "summary": "The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton"
+        },
+        {
+          "product_id": "123922",
+          "product_name": "Bike Bones SS Youth",
+          "price": 22.64,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMjUxNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE1DOW9OakV2T0RjNU5qa3pNVE15TlRrNE1pNXFjR2N8NDE4ZDU4NTUyMmZmNzNmZGE5ZGMzNWNjNTUzNGE5ODU5NTNmN2ZlYzUwZTI3NjVkMmQ1YjgzMGM5OTBiMmJiYw",
+          "summary": "The Bike Bones Youth t-shirt by Quiksilver is not just a regular t-shirt. It's the ultimate allrounder to make sure you always look amazing! 100% Cotton"
+        },
+        {
+          "product_id": "300772559",
+          "product_name": "Del Chaos Tee SS Youth white L",
+          "price": 24.26,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA",
+          "summary": "Great standart fit tee by DC with eyecatching logo print on the front: The Delivering Chaos shirt. Unbeatable."
+        },
+        {
+          "product_id": "122340",
+          "product_name": "Jackson Tee SS",
+          "price": 24.26,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyODk3N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMVppOW9ZamN2T0RjNU5qZzNNVFV5TkRNNE1pNXFjR2N8Y2Y5OTIwNDA4MGNmMTAwMTc3ZGIzMjBhMjAxNzVkOTEyMDc5Njc4MjRjNzgyNzVjM2ZlNGU2OTgxZjlkZDUzZA",
+          "summary": "The Jackson t-shirt by Billabong got an awesome vintage softhand print. 12"
+        }
+      ],
+      "context": [
+        {
+          "user": "show some tshirts under 50 pounds",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "117896",
+              "product_name": "Acid SS",
+              "price": 11.3,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODk4OHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaVl5OW9NRFF2T0RjNU5qazBPVE0wT0RNNE1pNXFjR2N8NzE3OWM3NWVkNzgxNmRlNjc4Yjc5OGFmMzA2Y2MyOGQxY2E3MzIwYWQyZDJkNWExMGMxMjAzNzI0N2U2YTQ0ZQ",
+              "summary": "The Acid t-shirt by Quiksilver got an unique look for you due to the washing. 100% Organic Cotton"
+            },
+            {
+              "product_id": "122321",
+              "product_name": "Quad Tee SS",
+              "price": 16.16,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNzEzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE5DOW9OR0V2T0RjNU5qazBNamM1TkRjNE1pNXFjR2N8NzgzOWEyMjhkNjk3ZGFjOWFlNzU5NzBiZDNhNDEwNzg0MWZjMjE5OWIzYzBmYjUwMTE2NjVmMWEwMjRhNjFjOQ",
+              "summary": "The Quad t-shirt by Billabong got a nice softhand front photoprint. 100% Cotton"
+            },
+            {
+              "product_id": "122412",
+              "product_name": "Skull 80 SS youth",
+              "price": 18.59,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODkwMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoak1pOW9Nek12T0RjNU5qZzNOemMxTURNd01pNXFjR2N8OTI5NmQ4MzFkMDNjNWI4ZmUxMjlhZGJlYjU1YzZmMDlhN2JiMGMwYTA5MWI3ZmNhMmFkNDhmYWRjNWVjOWEwNw",
+              "summary": "The Skull 80 t-shirt by Billabong got a funky front print. 100% Cotton"
+            },
+            {
+              "product_id": "118893",
+              "product_name": "I Love Tee SS Women",
+              "price": 20.21,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw",
+              "summary": "The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton"
+            },
+            {
+              "product_id": "122333",
+              "product_name": "Because Tee SS",
+              "price": 21.83,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg",
+              "summary": "The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton"
+            }
+          ],
+          "type": "products_list"
+        },
+        {
+          "user": "show some tshirts between 20 to 50 pounds",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "118893",
+              "product_name": "I Love Tee SS Women",
+              "price": 20.21,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTMyN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMk1TOW9ZVGt2T0RjNU5qazFNVGsyT1RneU1pNXFjR2N8OTI2NjA5YjRmZjhlZTY2ZGUxZTJmNGJjMjIyMDczMzkyNGI4NjY0ZGZlOWJjZDQxNDRhNjllY2M0NTdhMTg3Mw",
+              "summary": "The I Love t-shirt by Billabong got an awesome I Love Billabong Print. 50% Cotton"
+            },
+            {
+              "product_id": "122333",
+              "product_name": "Because Tee SS",
+              "price": 21.83,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODQ1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1TOW9aR0l2T0RjNU5qZzJPVFUxT0RNd01pNXFjR2N8ZTQyNzllZTk5ZGMyZDcwZmNlZmNjNTRiMTJhOTg1ZjlkODY4NTBmMWNmYTJkMTliYWY3ODNjYjUzZDVkYzljMg",
+              "summary": "The Because t-shirt by Billabong don't need a reason to look awesome. 100% Cotton"
+            },
+            {
+              "product_id": "123922",
+              "product_name": "Bike Bones SS Youth",
+              "price": 22.64,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMjUxNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE1DOW9OakV2T0RjNU5qa3pNVE15TlRrNE1pNXFjR2N8NDE4ZDU4NTUyMmZmNzNmZGE5ZGMzNWNjNTUzNGE5ODU5NTNmN2ZlYzUwZTI3NjVkMmQ1YjgzMGM5OTBiMmJiYw",
+              "summary": "The Bike Bones Youth t-shirt by Quiksilver is not just a regular t-shirt. It's the ultimate allrounder to make sure you always look amazing! 100% Cotton"
+            },
+            {
+              "product_id": "300772559",
+              "product_name": "Del Chaos Tee SS Youth white L",
+              "price": 24.26,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA",
+              "summary": "Great standart fit tee by DC with eyecatching logo print on the front: The Delivering Chaos shirt. Unbeatable."
+            },
+            {
+              "product_id": "122340",
+              "product_name": "Jackson Tee SS",
+              "price": 24.26,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyODk3N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnMVppOW9ZamN2T0RjNU5qZzNNVFV5TkRNNE1pNXFjR2N8Y2Y5OTIwNDA4MGNmMTAwMTc3ZGIzMjBhMjAxNzVkOTEyMDc5Njc4MjRjNzgyNzVjM2ZlNGU2OTgxZjlkZDUzZA",
+              "summary": "The Jackson t-shirt by Billabong got an awesome vintage softhand print. 12"
+            }
+          ],
+          "type": "products_list"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": "2025-10-15T16:12:41.591223",
+    "session_id": "f9f8ab27-c9b7-46b8-b771-43a59d34adc4"
+  },
+  "result": {
+    "payment_id": "PAYID-NDXXVJQ1T807533DG3241930",
+    "payer_id": "4KMQMCK8GJXF4",
+    "token": "EC-26L68500DY642202G",
+    "order_result": {
+      "success": true,
+      "message": "Order #8903 created successfully!",
+      "order_details": {
+        "order_id": "8903",
+        "customer_id": "mark.rivers@pronto-hw.com",
+        "order_date": "2025-10-15 16:13:25",
+        "total_price": 20.21,
+        "status": "Open",
+        "items_count": 1,
+        "items": [
+          {
+            "order_id": "8903",
+            "product_id": "118893",
+            "product_name": "I Love Tee SS Women                                        ",
+            "price": 20.21,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "message": "Payment completed successfully!"
+  },
+  "updated_at": "2025-10-15T16:13:25.813469"
+}

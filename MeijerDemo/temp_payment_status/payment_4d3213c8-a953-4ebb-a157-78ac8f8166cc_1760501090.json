@@ -1,0 +1,200 @@
+{
+  "session_id": "4d3213c8-a953-4ebb-a157-78ac8f8166cc",
+  "status": "success",
+  "created_at": "2025-10-15T09:34:50.166267",
+  "payment_data": {
+    "customer_id": "mark.rivers@pronto-hw.com",
+    "cart_items": [
+      {
+        "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w4MTM4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmd4WVM5b1l6VXZPRGM1TmpZMU5UWTBPRGM1T0M1cWNHY3w0NTA0NmY2OTY4NDUxZmU0MWI4MjAzYTg1NzdmZjBmZDEwNjE4MjlkYWVmNTkwZDdiY2VjZmRmMWVhZmE1NWJm",
+        "price": 26.68,
+        "product_id": "300050255",
+        "product_name": "Slip On Vans Classic Slip On checkerboard/black/pewter 8.0 ",
+        "quantity": 1,
+        "addedAt": "2025-10-15T04:04:33.958Z"
+      }
+    ],
+    "total_amount": 26.68,
+    "chat_history": [
+      {
+        "id": "msg_0",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n                <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n                  <i class=\"fas fa-robot text-white text-sm\"></i>\n                </div>\n                <div>\n                  <p class=\"font-medium text-gray-800\">Hello! I'm your AI shopping assistant.</p>\n                  <p class=\"text-gray-600 text-sm mt-1\">How can I help you find the perfect products today?</p>\n                  <p class=\"text-gray-500 text-xs mt-2 italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>\n                    Note: Your cart will be cleared when you refresh the page.\n                  </p>\n                  <p class=\"text-purple-600 text-xs mt-1 font-medium\">\n                    <i class=\"fas fa-credit-card mr-1\"></i>\n                    Secure PayPal checkout available - your session will be maintained during payment!\n                  </p>\n                </div>\n              </div>",
+        "timestamp": "2025-10-15T04:04:50.159Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_1",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n          <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n            <i class=\"fas fa-robot text-white text-sm\"></i>\n          </div>\n          <div class=\"flex-1\">\n            <p class=\"text-gray-800\">Login required to access this feature</p>\n          </div>\n        </div>",
+        "timestamp": "2025-10-15T04:04:50.159Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_2",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n          <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n            <i class=\"fas fa-robot text-white text-sm\"></i>\n          </div>\n          <div class=\"flex-1\">\n            <p class=\"text-gray-800\">Welcome back, Mark Rivers! You are now logged in.</p>\n          </div>\n        </div>",
+        "timestamp": "2025-10-15T04:04:50.159Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_3",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2025-10-15T04:04:50.159Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_4",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n        <div class=\"bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart text-purple-500 mr-2\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold\" id=\"cart-display-count\"><i class=\"fas fa-shopping-cart mr-1\"></i>1 items</div>\n            </div>\n            \n            <div id=\"cart-display-items\" class=\"space-y-3 mb-4\">\n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w4MTM4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmd4WVM5b1l6VXZPRGM1TmpZMU5UWTBPRGM1T0M1cWNHY3w0NTA0NmY2OTY4NDUxZmU0MWI4MjAzYTg1NzdmZjBmZDEwNjE4MjlkYWVmNTkwZDdiY2VjZmRmMWVhZmE1NWJm\" alt=\"Slip On Vans Classic Slip On checkerboard/black/pewter 8.0 \" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1\">\n            <h4 class=\"font-semibold text-gray-800 text-sm\">Slip On Vans Classic Slip On checkerboard/black/pewter 8.0 </h4>\n            <p class=\"text-xs text-gray-500 mt-1\">\u00a326.68 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 bg-purple-100 text-purple-800 rounded-full min-w-[2rem] text-center\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right\">\n          <p class=\"text-lg font-bold text-purple-600\">\u00a326.68</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    </div>\n            \n            <div id=\"cart-display-total\" class=\"border-t border-purple-200 pt-4 flex items-center justify-between\">\n                <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                <span class=\"text-2xl font-bold text-purple-600\" id=\"cart-total-display\">\u00a326.68</span>\n            </div>\n            \n            <div class=\"mt-4 text-center\">\n                <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl mr-3\">\n                    <i class=\"fas fa-sync-alt mr-2\"></i>\n                    Refresh Cart\n                </button>\n                <button  class=\"bg-gradient-to-r hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl from-orange-500 to-yellow-500\" disabled=\"\"><i class=\"fas fa-spinner fa-spin mr-2\"></i>Preparing PayPal...</button>\n            </div>\n            \n            <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                <i class=\"fas fa-info-circle mr-1\"></i>\n                Cart items are managed in your browser session and will reset on page refresh.\n            </div>\n        </div>\n        \n        \n        \n        </div>\n      </div>",
+        "timestamp": "2025-10-15T04:04:50.159Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_5",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Ready for Checkout</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: \u00a326.68</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u2728 Opening PayPal payment gateway...<br>\n          \ud83d\udd12 Secure payment processing<br>\n          \u26a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2025-10-15T04:04:50.159Z",
+        "messageType": "html"
+      }
+    ],
+    "conversation_context": {
+      "session_id": "session_1760499874346_ccagq8p48",
+      "conversation_history": [
+        {
+          "id": 1760499937509,
+          "timestamp": "2025-10-15T03:45:37.509Z",
+          "user": "Show my cart",
+          "ai": {
+            "cart_display": true,
+            "message": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='cart-display-count'>\n                    <i class='fas fa-spinner fa-spin mr-1'></i> Loading...\n                </div>\n            </div>\n            \n            <div id='cart-display-items' class='space-y-3 mb-4'>\n                <div class='text-center py-4 text-gray-500'>\n                    <div class='animate-pulse'>\n                        <div class='h-4 bg-gray-300 rounded mb-2'></div>\n                        <div class='h-4 bg-gray-300 rounded w-3/4 mx-auto'></div>\n                    </div>\n                    <p class='text-sm mt-2'>Loading cart...</p>\n                </div>\n            </div>\n            \n            <div id='cart-display-total' class='border-t border-purple-200 pt-4 flex items-center justify-between'>\n                <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                <span class='text-2xl font-bold text-purple-600' id='cart-total-display'>\n                    <i class='fas fa-spinner fa-spin'></i>\n                </span>\n            </div>\n            \n            <div class='mt-4 text-center'>\n                <button onclick='refreshCartDisplay()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl mr-3'>\n                    <i class='fas fa-sync-alt mr-2'></i>\n                    Refresh Cart\n                </button>\n                <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                    <i class='fas fa-credit-card mr-2'></i>\n                    Checkout\n                </button>\n            </div>\n            \n            <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                <i class='fas fa-info-circle mr-1'></i>\n                Cart items are managed in your browser session and will reset on page refresh.\n            </div>\n        </div>\n        \n        <script>\n            // Auto-load cart display when this message appears - reduced delay and multiple attempts\n            setTimeout(function() {\n                if (typeof displayCartInChat === 'function') {\n                    displayCartInChat();\n                }\n            }, 100);\n            \n            // Backup call in case the first one doesn't work\n            setTimeout(function() {\n                if (typeof displayCartInChat === 'function') {\n                    displayCartInChat();\n                }\n            }, 300);\n        </script>\n        ",
+            "show_cart": true
+          },
+          "metadata": {
+            "session_id": "session_1760499874346_ccagq8p48",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1760500057160,
+          "timestamp": "2025-10-15T03:47:37.160Z",
+          "user": "Show my cart",
+          "ai": {
+            "cart_display": true,
+            "message": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='cart-display-count'>\n                    <i class='fas fa-spinner fa-spin mr-1'></i> Loading...\n                </div>\n            </div>\n            \n            <div id='cart-display-items' class='space-y-3 mb-4'>\n                <div class='text-center py-4 text-gray-500'>\n                    <div class='animate-pulse'>\n                        <div class='h-4 bg-gray-300 rounded mb-2'></div>\n                        <div class='h-4 bg-gray-300 rounded w-3/4 mx-auto'></div>\n                    </div>\n                    <p class='text-sm mt-2'>Loading cart...</p>\n                </div>\n            </div>\n            \n            <div id='cart-display-total' class='border-t border-purple-200 pt-4 flex items-center justify-between'>\n                <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                <span class='text-2xl font-bold text-purple-600' id='cart-total-display'>\n                    <i class='fas fa-spinner fa-spin'></i>\n                </span>\n            </div>\n            \n            <div class='mt-4 text-center'>\n                <button onclick='refreshCartDisplay()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl mr-3'>\n                    <i class='fas fa-sync-alt mr-2'></i>\n                    Refresh Cart\n                </button>\n                <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                    <i class='fas fa-credit-card mr-2'></i>\n                    Checkout\n                </button>\n            </div>\n            \n            <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                <i class='fas fa-info-circle mr-1'></i>\n                Cart items are managed in your browser session and will reset on page refresh.\n            </div>\n        </div>\n        \n        <script>\n            // Auto-load cart display when this message appears - reduced delay and multiple attempts\n            setTimeout(function() {\n                if (typeof displayCartInChat === 'function') {\n                    displayCartInChat();\n                }\n            }, 100);\n            \n            // Backup call in case the first one doesn't work\n            setTimeout(function() {\n                if (typeof displayCartInChat === 'function') {\n                    displayCartInChat();\n                }\n            }, 300);\n        </script>\n        ",
+            "show_cart": true
+          },
+          "metadata": {
+            "session_id": "session_1760499874346_ccagq8p48",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1760500331685,
+          "timestamp": "2025-10-15T03:52:11.685Z",
+          "user": "Show my cart",
+          "ai": {
+            "cart_display": true,
+            "message": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='cart-display-count'>\n                    <i class='fas fa-spinner fa-spin mr-1'></i> Loading...\n                </div>\n            </div>\n            \n            <div id='cart-display-items' class='space-y-3 mb-4'>\n                <div class='text-center py-4 text-gray-500'>\n                    <div class='animate-pulse'>\n                        <div class='h-4 bg-gray-300 rounded mb-2'></div>\n                        <div class='h-4 bg-gray-300 rounded w-3/4 mx-auto'></div>\n                    </div>\n                    <p class='text-sm mt-2'>Loading cart...</p>\n                </div>\n            </div>\n            \n            <div id='cart-display-total' class='border-t border-purple-200 pt-4 flex items-center justify-between'>\n                <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                <span class='text-2xl font-bold text-purple-600' id='cart-total-display'>\n                    <i class='fas fa-spinner fa-spin'></i>\n                </span>\n            </div>\n            \n            <div class='mt-4 text-center'>\n                <button onclick='refreshCartDisplay()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl mr-3'>\n                    <i class='fas fa-sync-alt mr-2'></i>\n                    Refresh Cart\n                </button>\n                <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                    <i class='fas fa-credit-card mr-2'></i>\n                    Checkout\n                </button>\n            </div>\n            \n            <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                <i class='fas fa-info-circle mr-1'></i>\n                Cart items are managed in your browser session and will reset on page refresh.\n            </div>\n        </div>\n        \n        <script>\n            // Auto-load cart display when this message appears - reduced delay and multiple attempts\n            setTimeout(function() {\n                if (typeof displayCartInChat === 'function') {\n                    displayCartInChat();\n                }\n            }, 100);\n            \n            // Backup call in case the first one doesn't work\n            setTimeout(function() {\n                if (typeof displayCartInChat === 'function') {\n                    displayCartInChat();\n                }\n            }, 300);\n        </script>\n        ",
+            "show_cart": true
+          },
+          "metadata": {
+            "session_id": "session_1760499874346_ccagq8p48",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1760500774093,
+          "timestamp": "2025-10-15T03:59:34.093Z",
+          "user": "Show my cart",
+          "ai": {
+            "cart_display": true,
+            "message": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='cart-display-count'>\n                    <i class='fas fa-spinner fa-spin mr-1'></i> Loading...\n                </div>\n            </div>\n            \n            <div id='cart-display-items' class='space-y-3 mb-4'>\n                <div class='text-center py-4 text-gray-500'>\n                    <div class='animate-pulse'>\n                        <div class='h-4 bg-gray-300 rounded mb-2'></div>\n                        <div class='h-4 bg-gray-300 rounded w-3/4 mx-auto'></div>\n                    </div>\n                    <p class='text-sm mt-2'>Loading cart...</p>\n                </div>\n            </div>\n            \n            <div id='cart-display-total' class='border-t border-purple-200 pt-4 flex items-center justify-between'>\n                <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                <span class='text-2xl font-bold text-purple-600' id='cart-total-display'>\n                    <i class='fas fa-spinner fa-spin'></i>\n                </span>\n            </div>\n            \n            <div class='mt-4 text-center'>\n                <button onclick='refreshCartDisplay()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl mr-3'>\n                    <i class='fas fa-sync-alt mr-2'></i>\n                    Refresh Cart\n                </button>\n                <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                    <i class='fas fa-credit-card mr-2'></i>\n                    Checkout\n                </button>\n            </div>\n            \n            <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                <i class='fas fa-info-circle mr-1'></i>\n                Cart items are managed in your browser session and will reset on page refresh.\n            </div>\n        </div>\n        \n        <script>\n            // Auto-load cart display when this message appears - reduced delay and multiple attempts\n            setTimeout(function() {\n                if (typeof displayCartInChat === 'function') {\n                    displayCartInChat();\n                }\n            }, 100);\n            \n            // Backup call in case the first one doesn't work\n            setTimeout(function() {\n                if (typeof displayCartInChat === 'function') {\n                    displayCartInChat();\n                }\n            }, 300);\n        </script>\n        ",
+            "show_cart": true
+          },
+          "metadata": {
+            "session_id": "session_1760499874346_ccagq8p48",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1760501085342,
+          "timestamp": "2025-10-15T04:04:45.342Z",
+          "user": "Show my cart",
+          "ai": {
+            "cart_display": true,
+            "message": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='cart-display-count'>\n                    <i class='fas fa-spinner fa-spin mr-1'></i> Loading...\n                </div>\n            </div>\n            \n            <div id='cart-display-items' class='space-y-3 mb-4'>\n                <div class='text-center py-4 text-gray-500'>\n                    <div class='animate-pulse'>\n                        <div class='h-4 bg-gray-300 rounded mb-2'></div>\n                        <div class='h-4 bg-gray-300 rounded w-3/4 mx-auto'></div>\n                    </div>\n                    <p class='text-sm mt-2'>Loading cart...</p>\n                </div>\n            </div>\n            \n            <div id='cart-display-total' class='border-t border-purple-200 pt-4 flex items-center justify-between'>\n                <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                <span class='text-2xl font-bold text-purple-600' id='cart-total-display'>\n                    <i class='fas fa-spinner fa-spin'></i>\n                </span>\n            </div>\n            \n            <div class='mt-4 text-center'>\n                <button onclick='refreshCartDisplay()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl mr-3'>\n                    <i class='fas fa-sync-alt mr-2'></i>\n                    Refresh Cart\n                </button>\n                <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                    <i class='fas fa-credit-card mr-2'></i>\n                    Checkout\n                </button>\n            </div>\n            \n            <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                <i class='fas fa-info-circle mr-1'></i>\n                Cart items are managed in your browser session and will reset on page refresh.\n            </div>\n        </div>\n        \n        <script>\n            // Auto-load cart display when this message appears - reduced delay and multiple attempts\n            setTimeout(function() {\n                if (typeof displayCartInChat === 'function') {\n                    displayCartInChat();\n                }\n            }, 100);\n            \n            // Backup call in case the first one doesn't work\n            setTimeout(function() {\n                if (typeof displayCartInChat === 'function') {\n                    displayCartInChat();\n                }\n            }, 300);\n        </script>\n        ",
+            "show_cart": true
+          },
+          "metadata": {
+            "session_id": "session_1760499874346_ccagq8p48",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        }
+      ],
+      "last_products": [],
+      "recent_displayed": [],
+      "context": [
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": "2025-10-15T09:34:50.166041",
+    "session_id": "4d3213c8-a953-4ebb-a157-78ac8f8166cc"
+  },
+  "result": {
+    "payment_id": "PAYID-NDXR2ZQ1NF91026943489248",
+    "payer_id": "4KMQMCK8GJXF4",
+    "token": "EC-4UM46805WS387222C",
+    "order_result": {
+      "success": true,
+      "message": "Order #7453 created successfully!",
+      "order_details": {
+        "order_id": "7453",
+        "customer_id": "mark.rivers@pronto-hw.com",
+        "order_date": "2025-10-15 09:35:19",
+        "total_price": 26.68,
+        "status": "Open",
+        "items_count": 1,
+        "items": [
+          {
+            "order_id": "7453",
+            "product_id": "300050255",
+            "product_name": "Slip On Vans Classic Slip On checkerboard/black/pewter 8.0 ",
+            "price": 26.68,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "message": "Payment completed successfully!"
+  },
+  "updated_at": "2025-10-15T09:35:20.210448"
+}

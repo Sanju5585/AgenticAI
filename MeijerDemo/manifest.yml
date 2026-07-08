@@ -1,0 +1,10 @@
+---
+applications:
+- name: ecom-assist
+  random-route: true
+  path: ./
+  memory: 1GB
+  disk_quota: 2GB
+  buildpacks: 
+  - python_buildpack
+  health-check-type: process
