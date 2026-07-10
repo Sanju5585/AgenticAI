@@ -301,11 +301,14 @@ function restoreSessionFromLocalStorage(message = null) {
         console.log('User session restored from localStorage:', currentUser);
       }
       
-      // Restore cart items
-      if (sessionData.cartItems && sessionData.cartItems.length > 0) {
+      // Restore cart items only if this was NOT a successful payment
+      const wasPaymentSuccess = new URLSearchParams(window.location.search).get('payment_success') === 'true';
+      if (!wasPaymentSuccess && sessionData.cartItems && sessionData.cartItems.length > 0) {
         cartItems = sessionData.cartItems;
         updateCartDisplay();
         console.log('Cart restored from localStorage:', cartItems.length, 'items');
+      } else if (wasPaymentSuccess) {
+        console.log('Cart NOT restored after successful payment - cart should be empty');
       }
       
       // Restore conversation context
@@ -1987,6 +1990,10 @@ function appendBotMessage(data) {
           <i class="fas fa-info-circle mr-1"></i>Showing all ${orders.length} order${orders.length !== 1 ? 's' : ''} from your purchase history
         </div>
       `;
+    } else if (data.response_type === 'checkout' || data.action_type === 'INITIATE_CHECKOUT') {
+      // Agent triggered checkout — call proceedToCheckout() after showing a brief message
+      messageContent = `<div style="color:#00529B;font-weight:600;"><i class="fas fa-shopping-cart mr-2"></i>Starting checkout process...</div>`;
+      setTimeout(() => proceedToCheckout(), 400);
     } else if (data.success !== undefined || data.error !== undefined || data.message !== undefined) {
       // Handle tool responses with success/error/message
       if (data.success && data.message) {
@@ -3057,13 +3064,8 @@ function displayCartInChat() {
   if (cartItems.length === 0) {
     console.log('📭 Cart is empty, showing empty state');
     cartItemsDisplay.innerHTML = `
-      <div class='text-center py-8 text-gray-500'>
-        <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>
-        <p class='text-lg font-medium'>Your cart is empty</p>
-        <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>
-        <button onclick='document.getElementById("query").focus(); document.getElementById("query").value="show me products"' class='mt-3" style="background:#00529B; text-white px-4 py-2 rounded-lg font-medium transition-all duration-300 text-sm'>
-          <i class='fas fa-search mr-2'></i>Browse Products
-        </button>
+      <div class='py-5 px-4 text-center text-gray-500'>
+        <p class='text-sm font-medium'>🛒 Cart is empty. Please add a product to the cart.</p>
       </div>
     `;
     console.log('✅ Empty cart message displayed');
@@ -3106,6 +3108,9 @@ function displayCartInChat() {
   console.log('✅ ========================================');
   console.log('✅ displayCartInChat COMPLETED SUCCESSFULLY');
   console.log('✅ ========================================');
+
+  // Record the time the cart was last shown in chat
+  lastCartShownInChatTime = Date.now();
 }
 
 // New simplified cart rendering function for chat window
@@ -3135,10 +3140,8 @@ function renderChatCart() {
   // Update items
   if (cartItems.length === 0) {
     itemsEl.innerHTML = `
-      <div class='text-center py-8 text-gray-500'>
-        <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>
-        <p class='text-lg font-medium'>Your cart is empty</p>
-        <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>
+      <div class='py-5 px-4 text-center text-gray-500'>
+        <p class='text-sm font-medium'>🛒 Cart is empty. Please add a product to the cart.</p>
       </div>`;
   } else {
     itemsEl.innerHTML = cartItems.map(item => `
@@ -3170,6 +3173,9 @@ function renderChatCart() {
   }
   
   console.log('✅ Chat cart rendered successfully');
+
+  // Record the time the cart was last shown in chat
+  lastCartShownInChatTime = Date.now();
 }
 
 // Helper functions for chat cart
@@ -3207,22 +3213,24 @@ let paymentPollingInterval = null;
 let awaitingPaymentConfirmation = false;
 let pendingCheckoutData = null;
 
+// Track when cart was last displayed in chat (to avoid showing it twice)
+let lastCartShownInChatTime = 0;
+
 async function proceedToCheckout() {
   if (cartItems.length === 0) {
     showNotification("Your cart is empty. Add some products to proceed to checkout.", "error");
+    appendBotMessage({ response: `<div style="color:#c00;"><i class="fas fa-exclamation-circle mr-2"></i>Your cart is empty. Please add products before placing an order.</div>` });
     return;
   }
-  
+
   if (!isLoggedIn || !currentUser || !currentUser.email) {
     showLoginForm("Please login to proceed to checkout");
-    console.error("Checkout failed: User not properly logged in", { isLoggedIn, currentUser });
     return;
   }
-  
-  // Show checkout confirmation dialog
+
   const totalAmount = cartTotal.toFixed(2);
   const itemCount = cartItems.length;
-  
+
   // Set confirmation state
   awaitingPaymentConfirmation = true;
   pendingCheckoutData = {
@@ -3231,30 +3239,49 @@ async function proceedToCheckout() {
     total_amount: totalAmount,
     item_count: itemCount
   };
-  
-  // Ask AI-driven confirmation question
+
+  // Check if cart was shown in chat in the last 60 seconds — skip re-showing it
+  const cartRecentlyShown = (Date.now() - lastCartShownInChatTime) < 60000;
+
+  let cartItemsHtml = '';
+  if (!cartRecentlyShown) {
+    // Build cart items rows
+    cartItemsHtml = `
+      <div style="margin-bottom:14px;">
+        <div style="font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;opacity:.8;margin-bottom:8px;">Cart Items</div>
+        ${cartItems.map(item => `
+          <div style="display:flex;align-items:center;gap:10px;background:rgba(255,255,255,0.12);border-radius:8px;padding:8px 10px;margin-bottom:6px;">
+            ${item.image_url ? `<img src="${item.image_url}" style="width:40px;height:40px;object-fit:cover;border-radius:6px;flex-shrink:0;" onerror="this.style.display='none'">` : ''}
+            <div style="flex:1;min-width:0;">
+              <div style="font-size:14px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${item.product_name || item.name || 'Product'}</div>
+              <div style="font-size:12px;opacity:.85;">Qty: ${item.quantity || 1} &nbsp;•&nbsp; $${((item.price || 0) * (item.quantity || 1)).toFixed(2)}</div>
+            </div>
+          </div>`).join('')}
+      </div>`;
+  }
+
   appendBotMessage({
-    response: `🛒 <strong>Ready for Checkout</strong><br><br>
-      <div style="background: linear-gradient(135deg, #00529B, #2d7a7a); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;">
-        <div style="display: flex; align-items-center; margin-bottom: 15px;">
-          <i class="fas fa-shopping-cart" style="font-size: 24px; margin-right: 10px;"></i>
+    response: `🛒 <strong>Ready to Place Your Order</strong><br><br>
+      <div style="background:linear-gradient(135deg,#00529B,#1B5252);color:white;padding:20px;border-radius:15px;margin:10px 0;">
+        <div style="display:flex;align-items:center;margin-bottom:14px;">
+          <i class="fas fa-shopping-cart" style="font-size:22px;margin-right:10px;"></i>
           <div>
-            <div style="font-size: 18px; font-weight: bold;">Order Summary</div>
-            <div style="font-size: 14px; opacity: 0.9;">${itemCount} item${itemCount > 1 ? 's' : ''} • Total: ${totalAmount}</div>
+            <div style="font-size:17px;font-weight:bold;">Order Summary</div>
+            <div style="font-size:13px;opacity:.9;">${itemCount} item${itemCount > 1 ? 's' : ''}</div>
           </div>
         </div>
-        <div style="font-size: 14px; opacity: 0.9; margin-bottom: 15px;">
-          📦 ${itemCount} item${itemCount > 1 ? 's' : ''} in your cart<br>
-          💰 Total amount: ${totalAmount}<br>
-          🔒 Secure PayPal payment
+        ${cartItemsHtml}
+        <div style="background:rgba(255,255,255,0.15);border-radius:8px;padding:10px 14px;display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;">
+          <span style="font-size:15px;font-weight:600;">Total</span>
+          <span style="font-size:20px;font-weight:bold;">$${totalAmount}</span>
         </div>
-        <div style="background: rgba(255,255,255,0.15); padding: 12px; border-radius: 8px; font-size: 14px; margin-top: 10px;">
-          <strong>⚡ Are you sure you want to proceed with the payment?</strong><br>
-          <span style="opacity: 0.9;">Please reply with "yes" to confirm, or "no" to cancel.</span>
+        <div style="background:rgba(255,255,255,0.15);padding:12px;border-radius:8px;font-size:14px;">
+          <strong>⚡ Would you like to proceed with the payment?</strong><br>
+          <span style="opacity:.9;">Reply <strong>yes</strong> to confirm or <strong>no</strong> to cancel.</span>
         </div>
       </div>`
   });
-  
+
   console.log("Awaiting payment confirmation from user");
 }
 
@@ -3449,10 +3476,14 @@ async function checkPaymentStatus(sessionId) {
       console.log('Order ID:', orderId);
       console.log('Order Total:', orderTotal);
       
-      // Clear cart
+      // Clear cart after successful order
       cartItems = [];
       cartCount = 0;
       cartTotal = 0;
+      try {
+        sessionStorage.removeItem('shoppingCart');
+        sessionStorage.removeItem('tempCart');
+      } catch (e) { console.warn('Could not clear cart storage', e); }
       updateCartDisplay();
       
       // Show congratulations message with order ID

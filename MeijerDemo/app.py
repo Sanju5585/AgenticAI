@@ -981,7 +981,7 @@ def api_checkout():
         # Prepare PayPal payment request
         paypal_request = {
             "amount": str(total_amount),
-            "currency": "GBP",
+            "currency": "USD",
             "description": f"Order for {len(cart_items)} items from AI Shopping Assistant",
             "return_url": f"{request.host_url}paypal/callback/success?session_id={session_id}",
             "cancel_url": f"{request.host_url}paypal/callback/cancel?session_id={session_id}"

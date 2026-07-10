@@ -2640,6 +2640,20 @@ def faq_answers(query: str) -> dict:
         traceback.print_exc()
         return {"error": f"Error during semantic FAQ search: {str(e)}"}
 
+@tool("initiate_checkout", args_schema=SearchInput, return_direct=True, description=
+      "Initiates the checkout / place-order process for the customer. "
+      "Use this tool whenever the user says something like 'place my order', 'checkout', 'buy now', 'proceed to payment', 'I want to pay', 'complete my purchase', or any similar intent to start paying for cart items.")
+def initiate_checkout(query: str) -> dict:
+    """
+    Triggers the frontend checkout flow.
+    Returns a special action_type marker that the frontend intercepts to call proceedToCheckout().
+    """
+    return {
+        "action_type": "INITIATE_CHECKOUT",
+        "response_type": "checkout",
+        "message": "🛒 Starting checkout process for you..."
+    }
+
 @tool("add_to_cart", args_schema=SearchInput, return_direct=True, description="Adds a product to cart using browser session storage. Input: Product_ID and optional quantity. "
         "Format: 'product_id:<product_id>,quantity:<qty>' or just 'product_id:<product_id>' for quantity 1.")
 def add_to_cart(query: str) -> dict:
@@ -2722,10 +2736,8 @@ def show_cart(query: str) -> dict:
             </div>
             
             <div id='chat-cart-items' class='space-y-3 mb-4'>
-                <div class='text-center py-8 text-gray-500'>
-                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>
-                    <p class='text-lg font-medium'>Your cart is empty</p>
-                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>
+                <div class='py-5 px-4 text-center text-gray-500'>
+                    <p class='text-sm font-medium'>🛒 Cart is empty. Please add a product to the cart.</p>
                 </div>
             </div>
             
@@ -3324,7 +3336,7 @@ What are you looking for today? You can tell me:
 
 I'll help you discover the perfect Meijer tea! What can I help you find? 🍵"""
 
-tools=[get_order_history, get_orders_by_status, query_orders, find_offers_for_products, get_product_details, query_products, ai_semantic_product_search, ai_context_price_filter, search_products_with_promotions, faq_answers,add_to_cart, show_cart, create_order, ai_personalized_recommendations, ai_conversational_assistant]
+tools=[get_order_history, get_orders_by_status, query_orders, find_offers_for_products, get_product_details, query_products, ai_semantic_product_search, ai_context_price_filter, search_products_with_promotions, faq_answers,add_to_cart, show_cart, create_order, initiate_checkout, ai_personalized_recommendations, ai_conversational_assistant]
 
 tools_by_name = {tool.name: tool for tool in tools}
 model = llm.bind_tools(tools)
@@ -3461,7 +3473,12 @@ You are an intelligent AI that understands user intent. Use your reasoning to se
 - Multi-language understanding with automatic intent translation
 - Context-aware product recommendations
 - Semantic similarity matching with AI scoring
-- Cart operations: `add_to_cart`, `show_cart`, `create_order`
+- Cart operations: `add_to_cart`, `show_cart`, `create_order`, `initiate_checkout`
+
+**`initiate_checkout`** - To start the checkout / payment process:
+- When user says: "place my order", "checkout", "buy now", "proceed to payment", "I want to pay", "complete my purchase", "place order"
+- MUST call initiate_checkout tool immediately — do NOT ask for confirmation
+- Example thinking: "place my order" → user wants to pay, call initiate_checkout
 
 💡 **PERFECT E-COMMERCE AI BEHAVIOR:**
 1. **ANALYZE QUERY**: Understand what the user really wants (product type, price range, activity)
@@ -3856,9 +3873,22 @@ def process_query(customer_id: str,cart_id: str, query: str,commerce_token:str) 
             print(traceback.format_exc())
             # Fall through to agent if direct call fails
 
+    # 🛒 CHECKOUT SHORTCUT: Detect place-order / checkout intent and return trigger immediately
+    checkout_keywords = ['place my order', 'place order', 'checkout', 'check out', 'buy now',
+                         'proceed to payment', 'proceed to checkout', 'complete my purchase',
+                         'i want to pay', 'pay now', 'complete purchase', 'finalize order']
+    is_checkout_query = any(keyword in query.lower() for keyword in checkout_keywords)
+    if is_checkout_query:
+        print(f"🛒 CHECKOUT QUERY DETECTED - returning INITIATE_CHECKOUT trigger directly")
+        return {
+            "action_type": "INITIATE_CHECKOUT",
+            "response_type": "checkout",
+            "message": "🛒 Starting checkout process for you..."
+        }
+
     # 🤖 AI-DRIVEN ORDER QUERY DETECTION - More intelligent and precise (AFTER cart check)
     is_order_query = detect_order_query_with_ai(query)
-    
+
     print(f"DEBUG: Query analysis - query: '{query}', is_order_query: {is_order_query}, is_cart_query: {is_cart_query}, customer_id: '{customer_id}'")
     
     if is_order_query and (not customer_id or customer_id.strip() == ''):
@@ -4328,6 +4358,7 @@ def process_query(customer_id: str,cart_id: str, query: str,commerce_token:str) 
     
     # Check for cart display tools first
     cart_data = None
+    checkout_trigger = None
     for i, message in enumerate(response["messages"]):
         # Check for show_cart tool responses
         if hasattr(message, 'name') and message.name == 'show_cart':
@@ -4355,7 +4386,18 @@ def process_query(customer_id: str,cart_id: str, query: str,commerce_token:str) 
             except Exception as e:
                 print(f"DEBUG: Error processing show_cart tool result: {e}")
                 pass
-    
+
+    # Check for initiate_checkout tool response
+    for i, message in enumerate(response["messages"]):
+        if hasattr(message, 'name') and message.name == 'initiate_checkout':
+            print(f"DEBUG: Found initiate_checkout tool response — returning checkout trigger")
+            checkout_trigger = {
+                "action_type": "INITIATE_CHECKOUT",
+                "response_type": "checkout",
+                "message": "🛒 Starting checkout process for you..."
+            }
+            break
+
     # Check for conversational assistant responses
     conversational_data = None
     for i, message in enumerate(response["messages"]):
@@ -4575,6 +4617,9 @@ def process_query(customer_id: str,cart_id: str, query: str,commerce_token:str) 
         print(f"DEBUG: Returning simple text response")
     
     # If we found cart data, return structured cart response
+    if checkout_trigger:
+        return checkout_trigger
+
     if cart_data:
         return cart_data
     
