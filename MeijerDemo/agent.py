@@ -323,7 +323,7 @@ def build_order_status_query(customer_id: str, status_mapping: dict) -> str:
       "🎯 USE THIS TOOL when user asks about THEIR orders, purchase history, or past orders!"
       "📝 TRIGGER KEYWORDS: 'my orders', 'show my orders', 'order history', 'my purchases', 'view my orders', 'my past orders', 'show orders', 'list my orders'"
       "⚡ IMMEDIATE USE for: 'show my orders', 'what are my orders', 'order history', 'my order history', 'view orders'"
-      "🚫 DO NOT USE for product searches like 'show green tea' or 'find teapots' - those use ai_semantic_product_search!"
+      "🚫 DO NOT USE for product searches like 'show frozen meals' or 'find snacks' - those use ai_semantic_product_search!"
       "✅ CRITICAL RULE: If query contains 'my orders' or 'order history' → USE THIS TOOL IMMEDIATELY!"
       "🔐 Automatically handles customer authentication and fetches order details with images."
       "Returns: Complete order history grouped by order, each with all line items, images and totals.")
@@ -429,12 +429,12 @@ def get_product_details(query: str) -> dict:
     # Extract product ID from the query
     import re
     
-    # Look for patterns like "product TW003", "product ID TW003", "TW003", etc.
+    # Look for patterns like "product 200001", "product ID 200001", "200001", etc.
     product_id_patterns = [
         r'product\s+id\s+([A-Za-z0-9]+)',
         r'product\s+([A-Za-z0-9]+)',
         r'item\s+([A-Za-z0-9]+)',
-        r'\b(TW\d+)\b',
+        r'\b(\d{6})\b',
         r'id\s+([A-Za-z0-9]+)',
         r'\b([A-Za-z]{2}\d{3,})\b',
     ]
@@ -504,7 +504,7 @@ def get_product_details(query: str) -> dict:
        "Input: MUST be valid SQL query syntax only. Examples: 'SELECT * FROM SAP_MEIJER_PRODUCTS_V1 WHERE PRICE <= 80'"
        "🚫 DO NOT use for natural language queries - use ai_semantic_product_search instead."
        "Table columns: PRODUCT_ID,PRODUCT_NAME,SUMMARY,PRICE (DECIMAL),CATEGORY_IDS,IMAGE_URL,BRAND. "
-       "CATEGORY_IDS examples: Tea|Snacks, Tea|BlackTea, Tea|GreenTea, Tea|FruitHerbal, Tea|WellbeingDrinks|SparklingTea, Gifting&Teaware|LuxuryGifts, Gifting&Teaware|GiftBoxesBagsHampers")
+       "CATEGORY_IDS examples: 300101 (Ice Cream), 300200 (Frozen Meals), 300300 (Bakery), 300400 (Beverages), 300500 (Snacks), 300600 (Dairy), 300700 (Cereal)")
 def query_products(query: str) -> dict:
     """
     Query the SAP_MEIJER_PRODUCTS_V1 table based on the user's query.
@@ -536,7 +536,7 @@ def query_products(query: str) -> dict:
 #"Supports price queries: 'smartwatches under 80', 'tablets between 50 and 100 pounds', 'smartphones over 60 dollars'."
 def is_direct_product_query(query: str) -> bool:
     """
-    Check if query is a direct product search (e.g., 'green tea', 'teapots', 'gift sets')
+    Check if query is a direct product search (e.g., 'frozen meals', 'snacks', 'beverages')
     """
     query_lower = query.lower().strip()
     
@@ -776,7 +776,7 @@ def ai_powered_text_search(enhanced_query: str, original_query: str, conn, curso
         # Detect gender filtering requirements (use original query to avoid translation issues)
         gender_filter = detect_gender_filter(original_query)
 
-        # Detect specific product type (teapot, mug, matcha, etc.) - hard WHERE filter
+        # Detect specific product type (grocery category filter)
         product_type_filter = detect_product_type_filter(original_query)
         
         final_where = " OR ".join(where_conditions) + price_filter + gender_filter + product_type_filter
@@ -909,8 +909,8 @@ def extract_price_constraints_ai(query: str) -> tuple:
 def detect_product_type_filter(query: str) -> str:
     """
     Detect specific Meijer product type keywords and return a SQL WHERE clause
-    that hard-filters to the right CATEGORY_IDS, preventing 'teapot' from matching
-    tea bags, and 'mug' from matching tea pouches, etc.
+    that hard-filters to the right CATEGORY_IDS, preventing 'chips' from matching
+    chip-flavored ice cream, etc.
     Returns "" when no specific product type is detected.
     """
     import re
@@ -1003,7 +1003,7 @@ def execute_ai_semantic_search(query_vector, enhanced_query, original_query, con
         category_bonus = detect_category_ai(enhanced_query)
         print(f"🏷️ Category bonus: {category_bonus}")
 
-        # Brand-name boost — ensures brand-specific queries (e.g. "pip studio teapot") rank brand first
+        # Brand-name boost — ensures brand-specific queries (e.g. "ben & jerry's ice cream") rank brand first
         brand_boost = detect_brand_boost(original_query)
         print(f"🏷️ Brand boost: {brand_boost}")
 
@@ -1015,9 +1015,9 @@ def execute_ai_semantic_search(query_vector, enhanced_query, original_query, con
         gender_filter = detect_gender_filter(original_query)
         print(f"👥 Gender filter: {gender_filter}")
 
-        # Detect specific product type (teapot, mug, matcha, etc.) - hard WHERE filter
+        # Detect specific product type (grocery category filter)
         product_type_filter = detect_product_type_filter(original_query)
-        print(f"🫖 Product type filter: {product_type_filter}")
+        print(f"🛒 Product type filter: {product_type_filter}")
         
         # Dynamic semantic search with AI-driven scoring
         sql = f"""
@@ -1248,16 +1248,20 @@ def find_intelligent_accessories_for_products(products_list, cursor) -> list:
             product_names.append(name)
             
             # AI-driven category detection based on product names (Meijer)
-            if any(word in name for word in ['teapot', 'pip studio', 'yvonne ellen']):
-                product_categories.append('smartphones')
-            elif any(word in name for word in ['camera', 'dslr', 'digital camera']):
-                product_categories.append('cameras')
-            elif any(word in name for word in ['superblend', 'sleep', 'immune', 'defence', 'digest', 'glow']):
-                product_categories.append('drills')
-            elif any(word in name for word in ['headphone', 'earbuds', 'earphone', 'speaker']):
-                product_categories.append('audio')
-            elif any(word in name for word in ['watch', 'smartwatch', 'wearable']):
-                product_categories.append('wearables')
+            if any(word in name for word in ['ice cream', 'sorbet', 'gelato']):
+                product_categories.append('frozen_desserts')
+            elif any(word in name for word in ['chips', 'crackers', 'popcorn', 'nuts']):
+                product_categories.append('snacks')
+            elif any(word in name for word in ['frozen', 'pizza', 'meal', 'nugget']):
+                product_categories.append('frozen')
+            elif any(word in name for word in ['juice', 'soda', 'water', 'drink', 'beverage']):
+                product_categories.append('beverages')
+            elif any(word in name for word in ['bread', 'muffin', 'cake', 'pastry']):
+                product_categories.append('bakery')
+            elif any(word in name for word in ['milk', 'cheese', 'yogurt', 'butter']):
+                product_categories.append('dairy')
+            elif any(word in name for word in ['cereal', 'granola', 'oatmeal']):
+                product_categories.append('cereal')
             else:
                 product_categories.append('general')
         
@@ -1565,9 +1569,9 @@ def get_personalized_recommendations(query: str) -> dict:
 ################ Context-Aware Price Filter Tool ##################
 @tool("ai_context_price_filter", args_schema=SearchInput, return_direct=True, description=(
     "🧠 ENHANCED PRICE FILTERING TOOL - Use for ANY query containing price constraints!"
-    "🎯 IMMEDIATE USE for price queries like: 'tea under £5', 'teapots between £30-80', 'gift sets over £20'"
+    "🎯 IMMEDIATE USE for price queries like: 'snacks under $5', 'frozen meals between $5-$15', 'beverages over $3'"
     "💡 SMART FEATURE: Automatically understands both category AND price from single query."
-    "🔍 PERFECT FOR: 'show teapots under £80', 'find gift sets between £20 to £50', 'sparkling tea over £5'"
+    "🔍 PERFECT FOR: 'show frozen meals under $10', 'find snacks between $2 to $5', 'beverages over $3'"
     "📊 ENHANCED PARSER: Uses advanced natural language understanding for prices."
     "💰 SUPPORTS: 'under X', 'below X', 'above X', 'over X', 'between X and Y', 'less than X', 'more than X'."
     "🌍 MULTI-CURRENCY: Handles pounds, dollars, euros, and currency-free numeric values."
@@ -1773,14 +1777,14 @@ def extract_ai_product_context(query: str) -> dict:
         Look for the most recent product search that would be relevant to the current price constraint.
         
         Focus on finding:
-        1. Product categories mentioned (green tea, Earl Grey, herbal infusions, Snacks, teapots, teaware, gift sets, hampers, sparkling tea, matcha, etc.)
+        1. Product categories mentioned (frozen meals, ice cream, snacks, chips, beverages, bakery, dairy, cereal, etc.)
         2. Specific product names or types
         3. Shopping context that would apply to price filtering
         
         Return ONLY a JSON object with this structure:
         {{
             "has_product_context": true/false,
-            "product_category": "black tea" or "green tea" or "herbal tea" or "Snacks" or "fruit tea" or "earl grey" or "teapots" or "teaware" or "gift sets" or "hampers" or "sparkling tea" or "matcha" or "general",
+            "product_category": "frozen" or "snacks" or "beverages" or "bakery" or "dairy" or "cereal" or "ice cream" or "general",
             "context_confidence": "high" or "medium" or "low",
             "detected_products": ["product1", "product2"],
             "search_strategy": "category_based" or "name_based" or "general",
@@ -1788,11 +1792,10 @@ def extract_ai_product_context(query: str) -> dict:
         }}
         
         Examples:
-        - If user recently searched "gift sets" and now asks "under £30" → product_category: "gift sets"
-        - If user recently searched "teapots" or "Pip Studio teapot" and now asks "under £100" → product_category: "teapots"
-        - If user recently searched "teapots" or "Pip Studio teapot" and now asks "under 100" → product_category: "teapots"
-        - If user recently searched "Snacks" and now asks "below £10" → product_category: "Snacks"
-        - If user recently searched "Earl Grey" and now asks "under 5" → product_category: "black tea"
+        - If user recently searched "frozen meals" and now asks "under $10" → product_category: "frozen"
+        - If user recently searched "chips" or "Lays chips" and now asks "under $5" → product_category: "snacks"
+        - If user recently searched "chips" or "Lays chips" and now asks "under 5" → product_category: "snacks"
+        - If user recently searched "ice cream" and now asks "below $8" → product_category: "ice cream"
         - If no clear context → product_category: "general", has_product_context: false
         """
         
@@ -1885,72 +1888,66 @@ def build_context_aware_price_query(price_info: dict, context_info: dict) -> tup
             print(f"🔍 Adding category preference for: {category_to_filter}")
             
             # Instead of restricting results, we'll add scoring to prioritize relevant products
-            if category_to_filter in ['black tea', 'blacktea', 'black']:
+            if category_to_filter in ['frozen', 'frozen food', 'frozen foods', 'frozen meals']:
                 category_scoring = """
                     AND (
-                        UPPER(CATEGORY_IDS) LIKE '%BLACKTEA%' OR UPPER(PRODUCT_NAME) LIKE '%BLACK TEA%'
-                        OR UPPER(PRODUCT_NAME) LIKE '%ENGLISH BREAKFAST%' OR UPPER(PRODUCT_NAME) LIKE '%ASSAM%'
-                        OR UPPER(PRODUCT_NAME) LIKE '%EARL GREY%'
+                        UPPER(CATEGORY_IDS) LIKE '%FROZEN%' OR UPPER(PRODUCT_NAME) LIKE '%FROZEN%'
                     )
                 """
-                print("🍵 Added black tea filter")
-            elif category_to_filter in ['green tea', 'greentea', 'green']:
+                print("❄️ Added frozen foods filter")
+            elif category_to_filter in ['ice cream', 'icecream']:
                 category_scoring = """
                     AND (
-                        UPPER(CATEGORY_IDS) LIKE '%GREENTEA%' OR UPPER(PRODUCT_NAME) LIKE '%GREEN TEA%'
-                        OR UPPER(PRODUCT_NAME) LIKE '%SENCHA%' OR UPPER(PRODUCT_NAME) LIKE '%MATCHA%'
+                        UPPER(CATEGORY_IDS) LIKE '%ICE CREAM%' OR UPPER(PRODUCT_NAME) LIKE '%ICE CREAM%'
+                        OR UPPER(PRODUCT_NAME) LIKE '%SORBET%' OR UPPER(PRODUCT_NAME) LIKE '%GELATO%'
                     )
                 """
-                print("🍵 Added green tea filter")
-            elif category_to_filter in ['herbal', 'herbal tea', 'fruit', 'fruitherbal', 'fruit tea']:
+                print("🍦 Added ice cream filter")
+            elif category_to_filter in ['snacks', 'snack', 'chips', 'crackers']:
                 category_scoring = """
                     AND (
-                        UPPER(CATEGORY_IDS) LIKE '%FRUITHERBAL%' OR UPPER(PRODUCT_NAME) LIKE '%HERBAL%'
-                        OR UPPER(PRODUCT_NAME) LIKE '%CHAMOMILE%' OR UPPER(PRODUCT_NAME) LIKE '%PEPPERMINT%'
-                        OR UPPER(PRODUCT_NAME) LIKE '%FRUIT%' OR UPPER(CATEGORY_IDS) LIKE '%HERBAL%'
+                        UPPER(CATEGORY_IDS) LIKE '%SNACK%' OR UPPER(PRODUCT_NAME) LIKE '%CHIP%'
+                        OR UPPER(PRODUCT_NAME) LIKE '%CRACKER%' OR UPPER(PRODUCT_NAME) LIKE '%POPCORN%'
+                        OR UPPER(PRODUCT_NAME) LIKE '%NUT%'
                     )
                 """
-                print("🌿 Added herbal/fruit tea filter")
-            elif category_to_filter in ['Snacks', 'super blends', 'wellness', 'wellbeing']:
+                print("🍿 Added snacks filter")
+            elif category_to_filter in ['beverages', 'beverage', 'drinks', 'juice', 'soda']:
                 category_scoring = """
                     AND (
-                        UPPER(CATEGORY_IDS) LIKE '%Snacks%' OR UPPER(PRODUCT_NAME) LIKE '%SUPERBLEND%'
-                        OR UPPER(CATEGORY_IDS) LIKE '%WELLBEING%' OR UPPER(PRODUCT_NAME) LIKE '%WELLNESS%'
+                        UPPER(CATEGORY_IDS) LIKE '%BEVERAGE%' OR UPPER(PRODUCT_NAME) LIKE '%JUICE%'
+                        OR UPPER(PRODUCT_NAME) LIKE '%SODA%' OR UPPER(PRODUCT_NAME) LIKE '%WATER%'
+                        OR UPPER(PRODUCT_NAME) LIKE '%DRINK%'
                     )
                 """
-                print("✨ Added Snacks/wellness filter")
-            elif category_to_filter in ['sparkling tea', 'sparkling']:
+                print("🥤 Added beverages filter")
+            elif category_to_filter in ['bakery', 'bread', 'muffin', 'cake', 'pastry']:
                 category_scoring = """
                     AND (
-                        UPPER(CATEGORY_IDS) LIKE '%SPARKLING%' OR UPPER(PRODUCT_NAME) LIKE '%SPARKLING%'
+                        UPPER(CATEGORY_IDS) LIKE '%BAKERY%' OR UPPER(PRODUCT_NAME) LIKE '%BREAD%'
+                        OR UPPER(PRODUCT_NAME) LIKE '%MUFFIN%' OR UPPER(PRODUCT_NAME) LIKE '%CAKE%'
+                        OR UPPER(PRODUCT_NAME) LIKE '%PASTRY%' OR UPPER(PRODUCT_NAME) LIKE '%BISCUIT%'
                     )
                 """
-                print("🫧 Added sparkling tea filter")
-            elif category_to_filter in ['gift', 'gifts', 'luxury gift', 'luxury gifts', 'gifting']:
+                print("🥐 Added bakery filter")
+            elif category_to_filter in ['dairy', 'milk', 'cheese', 'yogurt']:
                 category_scoring = """
                     AND (
-                        UPPER(CATEGORY_IDS) LIKE '%GIFT%' OR UPPER(PRODUCT_NAME) LIKE '%GIFT%'
-                        OR UPPER(CATEGORY_IDS) LIKE '%LUXURYGIFT%' OR UPPER(PRODUCT_NAME) LIKE '%LUXURY%'
+                        UPPER(CATEGORY_IDS) LIKE '%DAIRY%' OR UPPER(PRODUCT_NAME) LIKE '%MILK%'
+                        OR UPPER(PRODUCT_NAME) LIKE '%CHEESE%' OR UPPER(PRODUCT_NAME) LIKE '%YOGURT%'
+                        OR UPPER(PRODUCT_NAME) LIKE '%BUTTER%'
                     )
                 """
-                print("🎁 Added gifts filter")
-            elif category_to_filter in ['hamper', 'hampers', 'gift box', 'gift boxes']:
+                print("🧀 Added dairy filter")
+            elif category_to_filter in ['cereal', 'breakfast', 'oatmeal', 'granola']:
                 category_scoring = """
                     AND (
-                        UPPER(CATEGORY_IDS) LIKE '%HAMPER%' OR UPPER(PRODUCT_NAME) LIKE '%HAMPER%'
-                        OR UPPER(PRODUCT_NAME) LIKE '%GIFT BOX%' OR UPPER(CATEGORY_IDS) LIKE '%GIFTBOX%'
+                        UPPER(CATEGORY_IDS) LIKE '%CEREAL%' OR UPPER(PRODUCT_NAME) LIKE '%CEREAL%'
+                        OR UPPER(PRODUCT_NAME) LIKE '%OATMEAL%' OR UPPER(PRODUCT_NAME) LIKE '%GRANOLA%'
+                        OR UPPER(PRODUCT_NAME) LIKE '%BREAKFAST%'
                     )
                 """
-                print("🧺 Added hampers/gift boxes filter")
-            elif category_to_filter in ['teaware', 'tea ware', 'teapot', 'mug', 'mugs']:
-                category_scoring = """
-                    AND (
-                        UPPER(CATEGORY_IDS) LIKE '%TEAWARE%' OR UPPER(PRODUCT_NAME) LIKE '%TEAPOT%'
-                        OR UPPER(PRODUCT_NAME) LIKE '%MUG%' OR UPPER(PRODUCT_NAME) LIKE '%CUP%'
-                        OR UPPER(PRODUCT_NAME) LIKE '%INFUSER%'
-                    )
-                """
-                print("🫖 Added teaware filter")
+                print("🥣 Added cereal/breakfast filter")
             else:
                 # For unknown categories, try a generic search using the raw category term itself
                 print(f"🌐 Unknown category '{category_to_filter}' - using generic keyword filter")
@@ -1968,7 +1965,6 @@ def build_context_aware_price_query(price_info: dict, context_info: dict) -> tup
         # Add category scoring to base query if we have one
         if category_scoring:
             base_sql += category_scoring
-        
         # Add ordering - prioritize lower prices for better user experience
         base_sql += " ORDER BY PRICE ASC, PRODUCT_NAME"
         
@@ -2011,12 +2007,12 @@ def generate_context_price_response(price_info: dict, context_info: dict, result
                     suggested_price = int(cheapest_alternative['price'] + 10)  # Round up +10
                     return f"Sorry, I couldn't find any {category} {price_desc.strip()}.\n\n💡 The cheapest {category.rstrip('s')} I have is '{cheapest_alternative['name']}' at £{cheapest_alternative['price']:.2f}.\n\nWould you like to see {category} under £{suggested_price} instead?"
                 else:
-                    return f"Sorry, I couldn't find any {category} {price_desc.strip()}. You can try:\n• Increasing your price range\n• Searching for '{category}' without a price filter to see all available options\n• Trying a different Meijer category (Tea, Snacks, BlackTea, GreenTea, FruitHerbal, WellbeingDrinks, Gifting&Teaware)"
+                    return f"Sorry, I couldn't find any {category} {price_desc.strip()}. You can try:\n• Increasing your price range\n• Searching for '{category}' without a price filter to see all available options\n• Trying a different Meijer category (Frozen, Snacks, Beverages, Bakery, Dairy, Cereal)"
         else:
             if result_count > 0:
                 return f"I found {result_count} products {price_desc.strip()}."
             else:
-                return f"Sorry, I couldn't find any products {price_desc.strip()}. Try adjusting your price range or search for specific categories like 'gift sets', 'teapots', or 'Snacks'."
+                return f"Sorry, I couldn't find any products {price_desc.strip()}. Try adjusting your price range or search for specific categories like 'frozen meals', 'snacks', or 'beverages'."
                 
     except Exception as e:
         print(f"Response generation failed: {e}")
@@ -2376,7 +2372,7 @@ def find_offers_for_products(query: str) -> dict:
         print(f"⚠️ DEBUG: No products or category found in conversation history")
         return {
             "response_type": "no_context",
-            "ai_response": "I don't see any recent product searches in our conversation. Please search for products first (like 'show me gift sets' or 'find teapots'), then I can show you any available offers or promotions for those products.",
+            "ai_response": "I don't see any recent product searches in our conversation. Please search for products first (like 'show me snacks' or 'find frozen meals'), then I can show you any available offers or promotions for those products.",
             "results": [],
             "context_products": [],
             "total_found": 0
@@ -3172,19 +3168,18 @@ def generate_contextual_ai_response(query: str, intent: str) -> str:
             Generate a FRIENDLY, CONVERSATIONAL response (4-5 sentences) that:
             
             1. Shows warmth and enthusiasm about their occasion
-            2. Asks what kind of tea experience or gift they have in mind
+            2. Asks what kind of grocery items or gifts they have in mind
             3. Suggests different Meijer product areas they might enjoy
-            4. Explains that once they tell you more details, you'll find the perfect tea products for them
+            4. Explains that once they tell you more details, you'll find the perfect products for them
             
             For occasion/event queries, suggest product areas like:
-            - A relaxing treat for yourself (Snacks, herbal infusions, chamomile, peppermint)
-            - Morning energy (English Breakfast, Assam, Earl Grey, green tea)
-            - Gift giving (Luxury Gift Sets, Gift Boxes, Hampers, Teaware)
-            - Something unique (Sparkling Tea, matcha, single origin teas)
-            - Wellness & health (Snacks Immune, Sleep, Defence, Glow)
-            - Teaware & accessories (teapots, mugs, infusers, matcha sets)
+            - Snacks and beverages for entertaining
+            - Bakery items for celebrations
+            - Frozen meals for convenience
+            - Dairy and breakfast items for everyday needs
+            - Cereal and snack variety packs as gifts
             
-            BE CONVERSATIONAL, not salesy. Ask what type of tea experience they're most interested in.
+            BE CONVERSATIONAL, not salesy. Ask what type of product they're most interested in.
             DO NOT immediately suggest products - first understand their preferences.
             """
             
@@ -3195,20 +3190,19 @@ def generate_contextual_ai_response(query: str, intent: str) -> str:
             Generate a warm, enthusiastic gift-finding response as an AI shopping assistant for Meijer grocery.
             
             Response structure:
-            1. Express excitement about helping them find the perfect tea gift (1 sentence)
+            1. Express excitement about helping them find the perfect gift (1 sentence)
             2. List the main gift categories available (use bullet points or natural listing):
-               - Luxury Gift Sets (premium curated Meijer collections)
-               - Gift Boxes & Hampers (beautifully presented tea assortments)
-               - Snacks (functional wellness teas)
-               - Classic Tea Collections (English Breakfast, Earl Grey, Green Tea)
-               - Teaware (elegant teapots, mugs and infusers)
-               - Sparkling Tea (unique, premium tea-based drinks)
+               - Snack Variety Packs
+               - Beverage bundles (juices, sodas, sparkling water)
+               - Bakery items (cakes, muffins, pastries)
+               - Breakfast baskets (cereals, granola, oatmeal)
+               - Frozen dessert assortments (ice cream, frozen treats)
             3. Ask what type of gift interests them (1 sentence)
             
             Keep it natural, friendly, and conversational. Use HTML formatting for better readability.
-            Be enthusiastic but not pushy. Make them feel excited about finding the perfect tea gift.
+            Be enthusiastic but not pushy. Make them feel excited about finding the perfect gift.
             
-            Example tone: "That's wonderful! I'd be happy to help you find the perfect tea gift..."
+            Example tone: "That's wonderful! I'd be happy to help you find the perfect gift..."
             """
             
         elif intent == "product_discovery":
@@ -3218,9 +3212,9 @@ def generate_contextual_ai_response(query: str, intent: str) -> str:
             Generate an exciting product discovery response (3-4 sentences) for a Meijer grocery store.
             Include:
             - Enthusiasm about the Meijer range
-            - Mention popular tea categories (English Breakfast, Earl Grey, Snacks, green tea, herbal, gift sets)
-            - Ask about their tea preferences or what they're looking for
-            - Offer to show different types of teas or teaware
+            - Mention popular categories (frozen foods, snacks, beverages, bakery, dairy, cereal)
+            - Ask about their preferences or what they're looking for
+            - Offer to show different product categories
             
             Be enthusiastic and knowledgeable about Meijer grocery products.
             """
@@ -3232,7 +3226,7 @@ def generate_contextual_ai_response(query: str, intent: str) -> str:
             Generate a helpful, informative response (3-4 sentences) as an AI shopping assistant for Meijer grocery.
             Include:
             - Acknowledge their message warmly
-            - Explain how you can help them find the perfect tea or gift
+            - Explain how you can help them find products
             - Mention the main Meijer product areas: frozen foods, snacks, bakery, beverages, dairy, and cereal
             - Ask what they're interested in
             
@@ -3242,14 +3236,15 @@ def generate_contextual_ai_response(query: str, intent: str) -> str:
         response_prompt += """
         
         IMPORTANT: You are an AI assistant for the Meijer grocery store.
-        Available products include ONLY Meijer products:
-        - Teas: Frozen Meals, Frozen Pizza, Ice Cream
-        - Snacks: Sleep, Immune Support, Defence, Glow, Heart Warming, Digest, Focus
-        - Premium: Jacksons of Piccadilly, Single Origin teas, Sparkling Tea
-        - Gifts: Bakery Custom Cakes, Snack Variety Packs
-        - Teaware & Accessories: Coffee Pods, Water Variety Packs, Soft Drinks
+        Available products include ONLY Meijer grocery products:
+        - Frozen: Frozen Meals, Frozen Pizza, Ice Cream, Frozen Snacks
+        - Snacks: Chips, Crackers, Nuts, Popcorn, Granola Bars
+        - Beverages: Juices, Sodas, Water, Coffee, Energy Drinks
+        - Bakery: Breads, Muffins, Cakes, Pastries
+        - Dairy: Yogurt, Cheese, Milk, Butter
+        - Cereal & Breakfast: Cereals, Oatmeal, Granola
         
-        NEVER mention electronics, cameras, mobile phones, or any non-grocery products.
+        NEVER mention tea brands, Twinings, teaware, teapots, or any non-grocery products.
         
         Response (direct to customer, no quotes or explanations):
         """
@@ -3269,72 +3264,70 @@ def generate_contextual_response(query: str) -> str:
     
     # Holiday/Travel scenarios
     if any(word in query_lower for word in ['holiday', 'vacation', 'travel', 'trip', 'tour']):
-        return """That sounds exciting! 🌴 Why not take the perfect cup of tea with you?
+        return """That sounds exciting! 🌴 Meijer has everything you need before you head out!
         
 What kind of Meijer products are you looking for? I can help you find:
-• 🍵 **Classic Teas** - English Breakfast, Earl Grey, Assam
-• 🌿 **Herbal Infusions** - Chamomile, Peppermint, Fruit teas
-• ✨ **Snacks** - Functional wellness teas for any occasion
-• 🫧 **Sparkling Teas** - Refreshing premium sparkling tea drinks
-• 🎁 **Gift Sets** - Luxury gifts and beautifully presented hampers
-• 🫖 **Teaware** - Travel-friendly teapots, infusers and mugs
+• 🛒 **Snacks** - Chips, nuts, granola bars, and on-the-go treats
+• 🥤 **Beverages** - Juices, sodas, water, and energy drinks
+• 🥐 **Bakery** - Fresh breads, muffins, and pastries
+• 🧀 **Dairy** - Yogurt, cheese, and dairy essentials
+• ❄️ **Frozen Foods** - Frozen meals and frozen snacks
+• 🥣 **Cereal & Breakfast** - Cereals, oatmeal, and breakfast items
 
-What do you need? Tell me more and I'll find the perfect tea!"""
+What do you need? Tell me more and I'll find it for you!"""
 
     # Greetings and general inquiries
     elif any(word in query_lower for word in ['hi', 'hello', 'hey', 'good morning', 'good afternoon']):
-        return """Hello there! 👋 Welcome to Meijer! I'm your personal tea shopping assistant.
+        return """Hello there! 👋 Welcome to Meijer! I'm your personal shopping assistant.
         
-I can help you find exactly what you're looking for from our wonderful range of teas:
-• **Black Teas** - English Breakfast, Earl Grey, Assam, and classics
-• **Green Teas** - Jasmine Green, Sencha, and more
-• **Herbal & Fruit** - Chamomile, Peppermint, Fruit infusions
-• **Snacks** - Functional wellness tea blends
-• **Sparkling Teas** - Premium refreshing sparkling tea drinks
-• **Gifts & Teaware** - Luxury gift sets, hampers, and teaware
+I can help you find exactly what you're looking for from our wide range of groceries:
+• **Frozen Foods** - Frozen meals, pizzas, ice cream, and more
+• **Snacks** - Chips, crackers, nuts, and on-the-go treats
+• **Beverages** - Juices, sodas, water, and energy drinks
+• **Bakery** - Fresh breads, muffins, and pastries
+• **Dairy** - Yogurt, cheese, milk, and dairy essentials
+• **Cereal & Breakfast** - Cereals, oatmeal, and breakfast items
 
 What are you shopping for today? Tell me what you need! 😊"""
 
     # Gift/shopping scenarios
     elif any(word in query_lower for word in ['gift', 'present', 'birthday', 'anniversary', 'party']):
-        return """That's so thoughtful! 🎁 I'd love to help you find the perfect tea gift!
+        return """That's so thoughtful! 🎁 I'd love to help you find the perfect item!
         
 To give you the best recommendations, could you tell me:
-• **Who is it for?** (tea lover, wellness enthusiast, someone who loves herbal teas)
-• **What's the occasion?** (birthday, anniversary, housewarming, thank you gift)
-• **Any preferences?** (classic teas, herbal/caffeine-free, luxury gift sets, teaware)
+• **Who is it for?** (friend, family member, colleague)
+• **What's the occasion?** (birthday, anniversary, housewarming, thank you)
+• **Any preferences?** (dietary needs, favorite food categories)
 • **Budget range?** (if you have one in mind)
 
-I can suggest from our amazing Meijer collection of luxury gift sets, gift boxes, hampers, sparkling teas, Snacks, and beautiful teaware!"""
+I can suggest from our amazing Meijer collection of groceries, snacks, beverages, bakery items, and more!"""
 
     # Product category inquiries
     elif any(word in query_lower for word in ['products', 'items', 'sell', 'have', 'available']):
-        return """Great question! Meijer has a wonderful selection of premium teas across many categories:
+        return """Great question! Meijer has a wonderful selection of groceries across many categories:
 
 🛍️ **Main Categories:**
-• **Black Teas** - English Breakfast, Earl Grey, Assam, Prince of Wales
-• **Green Teas** - Jasmine Green, Sencha, Pure Green Tea
-• **Herbal & Fruit Infusions** - Chamomile, Peppermint, Mixed Berry, Lemon & Ginger
-• **Snacks** - Functional wellness tea blends with added benefits
-• **Sparkling Teas** - Premium refreshing sparkling tea drinks
-• **Luxury Gift Sets** - Beautifully curated premium tea collections
-• **Gift Boxes & Hampers** - Perfectly presented tea gift assortments
-• **Teaware** - Elegant teapots, mugs, infusers and accessories
+• **Frozen Foods** - Frozen meals, pizzas, ice cream, and frozen snacks
+• **Snacks** - Chips, crackers, nuts, popcorn, and on-the-go treats
+• **Beverages** - Juices, sodas, water, coffee, and energy drinks
+• **Bakery** - Fresh breads, muffins, cakes, and pastries
+• **Dairy** - Yogurt, cheese, milk, butter, and dairy essentials
+• **Cereal & Breakfast** - Cereals, oatmeal, granola, and breakfast bars
 
-What category interests you most? Or tell me what you need and I'll help you find it! 🍵"""
+What category interests you most? Or tell me what you need and I'll help you find it! 🛒"""
 
     # Default helpful response
     else:
         return """Hi! I'm here to help you find exactly what you need! 😊
         
-I can assist you with finding products from our extensive Meijer collection including black teas, green teas, herbal infusions, fruit teas, Snacks, sparkling teas, luxury gift sets, gift boxes & hampers, and beautiful teaware.
+I can assist you with finding products from our extensive Meijer grocery collection including frozen foods, snacks, beverages, bakery items, dairy products, and cereals.
 
 What are you looking for today? You can tell me:
-• Specific items you need (e.g., "earl grey", "chamomile", "gift set")
+• Specific items you need (e.g., "ice cream", "chips", "orange juice")
 • The occasion you're shopping for  
-• What kind of tea you enjoy
+• What type of product you're interested in
 
-I'll help you discover the perfect Meijer tea! What can I help you find? 🍵"""
+I'll help you find exactly what you need at Meijer! What can I help you find? 🛒"""
 
 tools=[get_order_history, get_orders_by_status, query_orders, find_offers_for_products, get_product_details, query_products, ai_semantic_product_search, ai_context_price_filter, search_products_with_promotions, faq_answers,add_to_cart, show_cart, create_order, initiate_checkout, ai_personalized_recommendations, ai_conversational_assistant]
 
@@ -3387,18 +3380,18 @@ def call_model(
 🎯 **MANDATORY TOOL USAGE - NO EXCEPTIONS:**
 
 **For product searches with price constraints:**
-- Query pattern: "tea under £5", "teapots between £30-80", "gift sets over £20"
+- Query pattern: "snacks under $5", "frozen meals between $5-$15", "beverages over $3"
 - MUST use: `ai_context_price_filter` tool
 - Examples: 
-  • "Find teapots under £80" → CALL ai_context_price_filter("Find teapots under £80")
-  • "Gift sets between 20 and 50 pounds" → CALL ai_context_price_filter("Gift sets between 20 and 50 pounds")
+  • "Find frozen meals under $10" → CALL ai_context_price_filter("Find frozen meals under $10")
+  • "Snacks between $2 and $5" → CALL ai_context_price_filter("Snacks between $2 and $5")
 
 **For product searches WITHOUT price:**
-- Query pattern: "show me green tea", "find gift sets", "teapots", "Snacks", "Earl Grey"
+- Query pattern: "show me frozen meals", "find snacks", "beverages", "bakery items", "ice cream"
 - MUST use: `ai_semantic_product_search` tool
 - Examples:
-  • "show me green tea" → CALL ai_semantic_product_search("show me green tea")
-  • "find gift sets" → CALL ai_semantic_product_search("find gift sets")
+  • "show me frozen meals" → CALL ai_semantic_product_search("show me frozen meals")
+  • "find snacks" → CALL ai_semantic_product_search("find snacks")
 
 **For order history:**
 - Query pattern: "my orders", "show my orders", "order history"
@@ -3432,21 +3425,21 @@ You are an intelligent AI that understands user intent. Use your reasoning to se
 **`ai_semantic_product_search`** - For product searches without price constraints:
 - When user wants to find products by category, activity, or description
 - No price/budget mentioned in query
-- Example thinking: "teapots and infusers" → user wants teaware, no price mentioned, use semantic search
+- Example thinking: "frozen meals and snacks" → user wants grocery products, no price mentioned, use semantic search
 - IMPORTANT: "show gift sets" = product search, but "show MY orders" = order history!
 
 **Smart Reasoning Guidelines:**
 - Order history queries = get_order_history (e.g., "show my orders", "order history", "my orders")
 - Tea + occasion = semantic search (e.g., "calming herbal tea")
-- Product + price = price filter (e.g., "teapots above £60")
-- Just product = semantic search (e.g., "show gift sets")
+- Product + price = price filter (e.g., "frozen meals under $10")
+- Just product = semantic search (e.g., "show snacks")
 
 
 **CRITICAL: Order vs Product Detection:**
 - "show MY orders" → ORDER HISTORY (possessive "my" indicates personal orders)
-- "show teapots" → PRODUCT SEARCH (searching for products to buy)
+- "show snacks" → PRODUCT SEARCH (searching for products to buy)
 - "my orders" → ORDER HISTORY (personal purchase history)
-- "show gift sets" → PRODUCT SEARCH (browsing products)
+- "show frozen meals" → PRODUCT SEARCH (browsing products)
 
 
 **Use `ai_conversational_assistant` when AI detects:**
@@ -3455,7 +3448,7 @@ You are an intelligent AI that understands user intent. Use your reasoning to se
 - Gift-related queries needing product category clarification
 - Store information and policy questions
 - **AI Rule**: Only when no product need is detected
-- **Gift Queries**: "buying a gift", "gift for my wife/friend" → List Meijer tea gift categories conversationally
+- **Gift Queries**: "buying a gift", "gift for my wife/friend" → List Meijer grocery gift categories conversationally
 
 **🎯 INTELLIGENT PROMOTION DETECTION:**
 - `find_offers_PRIORITY_for_products`: **AI PRIORITY** for contextual offer requests
@@ -3467,8 +3460,8 @@ You are an intelligent AI that understands user intent. Use your reasoning to se
   - AI detects: "show discounted products", "find promotional items"
 
 **🧠 ADVANCED AI CAPABILITIES:**
-- Smart occasion understanding (bedtime → chamomile/Snacks Sleep, morning → English Breakfast/Assam)
-- Intelligent gift context (gift for wife → luxury gift sets, teaware, Snacks)
+- Smart occasion understanding (quick dinner → frozen meals, party → snack packs/beverages)
+- Intelligent gift context (gift for friend → snack variety packs, beverage bundles, bakery items)
 - Natural language price filtering with AI comprehension
 - Multi-language understanding with automatic intent translation
 - Context-aware product recommendations
@@ -3595,77 +3588,77 @@ def create_mock_product_response(query: str, response_content: str) -> dict:
     query_lower = query.lower()
     
     # Different product sets based on query
-    if 'teapot' in query_lower or 'pip studio' in query_lower:
+    if 'frozen' in query_lower or 'pizza' in query_lower or 'meal' in query_lower:
         mock_products = [
             {
-                'product_id': 'TW115',
-                'product_name': 'Pip Studio Holland Flower 1.2L Teapot - Yellow',
-                'summary': 'Beautiful hand-painted floral teapot by Pip Studio.',
-                'price': 65.00,
-                'image_url': '/static/Meijer_images/TW115.jpg'
+                'product_id': '200101',
+                'product_name': 'Frozen Cheese Pizza',
+                'summary': 'Crispy thin-crust cheese pizza, ready in minutes.',
+                'price': 5.99,
+                'image_url': '/static/images/200101.jpg'
             },
             {
-                'product_id': 'TW116',
-                'product_name': 'Pip Studio Oriental Flower Festival 1L Teapot - Blue',
-                'summary': 'Elegant oriental floral design teapot by Pip Studio.',
-                'price': 75.00,
-                'image_url': '/static/Meijer_images/TW116.jpg'
+                'product_id': '200102',
+                'product_name': 'Frozen Chicken Alfredo',
+                'summary': 'Creamy chicken alfredo pasta, a quick and satisfying meal.',
+                'price': 7.49,
+                'image_url': '/static/images/200102.jpg'
             },
             {
-                'product_id': 'TW117',
-                'product_name': 'Yvonne Ellen Leopard Teapot - 600ml',
-                'summary': 'Fun, colourful leopard print teapot by Yvonne Ellen.',
-                'price': 35.00,
-                'image_url': '/static/Meijer_images/TW117.jpg'
+                'product_id': '200103',
+                'product_name': 'Frozen Beef Lasagna',
+                'summary': 'Hearty beef lasagna with rich tomato sauce and melted cheese.',
+                'price': 8.99,
+                'image_url': '/static/images/200103.jpg'
             }
         ]
-    elif 'gift' in query_lower or 'set' in query_lower or 'hamper' in query_lower:
+    elif 'snack' in query_lower or 'chip' in query_lower:
         mock_products = [
             {
-                'product_id': 'TW101',
-                'product_name': 'Meijer Luxury Tea Gift Set',
-                'summary': 'A beautifully presented luxury tea gift set with premium Meijer teas.',
-                'price': 30.00,
-                'image_url': '/static/Meijer_images/TW101.jpg'
+                'product_id': '200201',
+                'product_name': 'Classic Potato Chips',
+                'summary': 'Crispy, golden potato chips lightly salted for a great snack.',
+                'price': 3.49,
+                'image_url': '/static/images/200201.jpg'
             },
             {
-                'product_id': 'TW103',
-                'product_name': 'Meijer Tea Hamper',
-                'summary': 'Generous tea hamper filled with Meijer favourite blends.',
-                'price': 45.00,
-                'image_url': '/static/Meijer_images/TW103.jpg'
+                'product_id': '200202',
+                'product_name': 'Mixed Nut Variety Pack',
+                'summary': 'A delicious mix of almonds, cashews, and peanuts.',
+                'price': 5.99,
+                'image_url': '/static/images/200202.jpg'
             },
             {
-                'product_id': 'TW105',
-                'product_name': 'Meijer Earl Grey Gift Box',
-                'summary': 'Classic Earl Grey collection beautifully presented in a gift box.',
-                'price': 20.00,
-                'image_url': '/static/Meijer_images/TW105.jpg'
+                'product_id': '200203',
+                'product_name': 'Buttery Microwave Popcorn',
+                'summary': 'Light and fluffy microwave popcorn with rich butter flavor.',
+                'price': 4.29,
+                'image_url': '/static/images/200203.jpg'
             }
         ]
     else:
-        # Default tea products
+        # Default grocery products
         mock_products = [
             {
-                'product_id': 'TW001',
-                'product_name': 'Meijer English Breakfast Tea 80s',
-                'summary': 'Classic, robust English Breakfast blend - perfect morning tea.',
+                'product_id': '200001',
+                'product_name': 'Premium Vanilla Ice Cream',
+                'summary': 'Rich and creamy vanilla ice cream made with real Madagascar vanilla beans.',
                 'price': 4.99,
-                'image_url': '/static/Meijer_images/TW001.jpg'
+                'image_url': '/static/images/200001.jpg'
             },
             {
-                'product_id': 'TW002',
-                'product_name': 'Meijer Earl Grey Tea 50s',
-                'summary': 'Distinctive bergamot-scented Earl Grey, a timeless classic.',
-                'price': 3.99,
-                'image_url': '/static/Meijer_images/TW002.jpg'
-            },
-            {
-                'product_id': 'TW099',
-                'product_name': 'Meijer Snacks Sleep 20s',
-                'summary': 'Dreamy chamomile and lavender blend to help you unwind.',
+                'product_id': '200002',
+                'product_name': 'Chocolate Ice Cream Pints',
+                'summary': 'Decadent chocolate ice cream in a convenient pint-sized container.',
                 'price': 5.49,
-                'image_url': '/static/Meijer_images/TW099.jpg'
+                'image_url': '/static/images/200002.jpg'
+            },
+            {
+                'product_id': '200003',
+                'product_name': 'Dairy-Free Almond Milk Ice Cream',
+                'summary': 'Smooth and creamy dairy-free ice cream made with almond milk.',
+                'price': 6.99,
+                'image_url': '/static/images/200003.jpg'
             }
         ]
     
@@ -3721,15 +3714,15 @@ def detect_order_query_with_ai(query: str) -> bool:
         - "my past orders"
 
         EXAMPLES OF PRODUCT QUERIES (return false):
-        - "show teapots" (searching for teapot products)
-        - "show me green tea" (searching for tea products)
-        - "find gift sets" (product search)
-        - "show Snacks" (product search)
-        - "display Earl Grey teas" (product search)
-        - "I want to see the sparkling teas" (product search)
-        - "show me herbal teas" (product search)
+        - "show frozen meals" (searching for frozen products)
+        - "show me snacks" (searching for snack products)
+        - "find beverages" (product search)
+        - "show bakery items" (product search)
+        - "display ice cream" (product search)
+        - "I want to see the dairy products" (product search)
+        - "show me cereals" (product search)
         - "any offers" (promotion search)
-        - "teaware" (product search)
+        - "show chips" (product search)
         
         EXAMPLES OF CART QUERIES (return false):
         - "show my cart" (NOT an order query - this is cart viewing)
@@ -3961,7 +3954,7 @@ def process_query(customer_id: str,cart_id: str, query: str,commerce_token:str) 
             "  • 'show my orders' → USE get_order_history (NOT product search!)"
             "  • 'my order history' → USE get_order_history (NOT product search!)"
             "  • 'view my orders' → USE get_order_history (NOT product search!)"
-            "  • 'show teapots' → USE ai_semantic_product_search (product search)"
+            "  • 'show snacks' → USE ai_semantic_product_search (product search)"
             ""
             " === GENERAL BEHAVIOR ==="
             "You are a helpful agent with access to tools. The tools return json response."
@@ -3993,19 +3986,19 @@ def process_query(customer_id: str,cart_id: str, query: str,commerce_token:str) 
             "🔍 **PRIMARY PRODUCT SEARCH TOOL**: ai_semantic_product_search"
             "• Use for ALL general product searches and discovery queries"
             "• Handles multilingual queries intelligently (Hindi, Spanish, French, German, Arabic, Chinese, Japanese, Korean, etc.)"
-            "• Understands natural language intent: 'show me green tea', 'find teapots', 'gift sets under £30', 'luxury hampers'"
-            "• AI-powered use-case detection: 'tea for sleep' → Snacks Sleep, 'morning tea' → English Breakfast/Assam"
-            "• Occasion-based intelligence: 'relaxing evening' → herbal/chamomile, 'gifting' → gift sets/teaware"
-            "• Price-aware searches: 'affordable tea', 'premium gift set', 'budget-friendly teaware'"
+            "• Understands natural language intent: 'show me frozen meals', 'find snacks', 'beverages under $5', 'bakery items'"
+            "• AI-powered use-case detection: 'healthy snacks' → low-calorie options, 'breakfast items' → cereals/granola"
+            "• Occasion-based intelligence: 'quick dinner' → frozen meals, 'gifting' → snack packs/beverage bundles"
+            "• Price-aware searches: 'affordable snacks', 'premium ice cream', 'budget-friendly beverages'"
             "• Semantic understanding: Finds products based on meaning, not just keywords"
             
             "🎯 **WHEN TO USE ai_semantic_product_search**:"
-            "• General product queries: 'show me green tea', 'find teapots', 'what gift sets do you have'"
-            "• Category browsing: 'black teas', 'herbal infusions', 'Snacks', 'gift sets', 'teaware'"
-            "• Descriptive searches: 'chamomile tea', 'loose leaf Earl Grey', 'sparkling tea'"
-            "• Occasion-based searches: 'tea for relaxation', 'morning energy tea', 'bedtime tea'"
+            "• General product queries: 'show me frozen meals', 'find snacks', 'what beverages do you have'"
+            "• Category browsing: 'frozen foods', 'snacks', 'beverages', 'bakery', 'dairy', 'cereal'"
+            "• Descriptive searches: 'vanilla ice cream', 'whole grain cereal', 'sparkling water'"
+            "• Occasion-based searches: 'quick dinner options', 'healthy breakfast', 'party snacks'"
             "• Natural language queries in ANY language: Hindi, Arabic, Spanish, French, German, Chinese, Japanese, etc."
-            "• Intent-based searches: 'need something for a gift', 'looking for a teapot'"
+            "• Intent-based searches: 'need something for a party', 'looking for a quick meal'"
             "• Multilingual product queries: All languages supported with intelligent AI translation"
             
             "🚫 **CRITICAL: ZERO TOLERANCE FOR DUMMY DATA!**"
@@ -4014,7 +4007,7 @@ def process_query(customer_id: str,cart_id: str, query: str,commerce_token:str) 
             "• NEVER provide dummy product data, sample responses, or fake product lists"
             "• NEVER create hardcoded responses with made-up product information"
             "• If ai_semantic_product_search returns empty results or 'no_results' flag, provide a helpful message with suggestions"
-            "• When no results found, respond with: 'I couldn't find any products matching your search. Try: different keywords, broader search terms, or browse categories like smartphones, tablets, smartwatches, accessories.'"
+            "• When no results found, respond with: 'I couldn't find any products matching your search. Try: different keywords, broader search terms, or browse categories like frozen foods, snacks, beverages, bakery, dairy, cereal.'"
             "• DO NOT suggest alternative products or provide general shopping advice without tool results"
             "• ALL non-English queries MUST use ai_semantic_product_search - NO TEXT RESPONSES!"
             
@@ -4127,7 +4120,7 @@ def process_query(customer_id: str,cart_id: str, query: str,commerce_token:str) 
             "  * GIFT-RELATED queries: 'buying a gift', 'gift for my wife', 'gift for friend', 'present for someone'"
             "  * Greeting and exploratory queries: 'hello', 'can you help me', 'what do you recommend'"
             "  * 🎯 RULE: If query is GENERAL (a gift, a recommendation) → use ai_conversational_assistant to ask details"
-            "  * 🎯 RULE: If query is SPECIFIC (green tea, teapots, Earl Grey, Snacks) → use ai_semantic_product_search directly"
+            "  * 🎯 RULE: If query is SPECIFIC (frozen meals, snacks, beverages, ice cream) → use ai_semantic_product_search directly"
             "  * 🎁 GIFT HANDLING: When user asks about gifts, respond warmly and list Meijer categories: 'Great! We have frozen meals, snacks, beverages, bakery cakes, dairy products, and cereal. What interests you?'"
             "- For PRICE FILTERING of PREVIOUS SEARCH RESULTS: **ALWAYS use ai_context_price_filter tool** - this includes:"
             "  * Queries like 'under 200', 'below 150', 'between 50 and 100', 'over 80'"
@@ -4671,7 +4664,7 @@ def process_query(customer_id: str,cart_id: str, query: str,commerce_token:str) 
     # Check if response is empty or just whitespace
     if not response_content or not response_content.strip():
         # Provide helpful fallback message
-        response_content = "I apologize, but I couldn't find any products matching your search criteria. Could you please try:\n\n• Using different keywords\n• Checking the spelling\n• Broadening your search terms\n• Asking about a specific category like 'English Breakfast', 'herbal tea', 'gift sets', or 'teapots'\n\nHow else can I help you today?"
+        response_content = "I apologize, but I couldn't find any products matching your search criteria. Could you please try:\n\n• Using different keywords\n• Checking the spelling\n• Broadening your search terms\n• Asking about a specific category like 'frozen meals', 'snacks', 'beverages', or 'bakery items'\n\nHow else can I help you today?"
     
     # Default to regular response
     return response_content
