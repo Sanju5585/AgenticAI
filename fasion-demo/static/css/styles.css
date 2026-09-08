@@ -1,0 +1,714 @@
+/* AI Shopping Assistant - Custom Styles */
+
+/* Tailwind Configuration */
+:root {
+  --ai-blue: #3B82F6;
+  --ai-purple: #8B5CF6;
+  --ai-gradient-start: #667eea;
+  --ai-gradient-end: #764ba2;
+  --chat-user: #F0F9FF;
+  --chat-bot: #F8FAFC;
+}
+
+/* Custom CSS to complement Tailwind */
+.gradient-bg {
+  background: linear-gradient(-45deg, #667eea, #764ba2, #f093fb, #f5576c);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+.glass-effect {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.chat-bubble-user {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 18px 18px 4px 18px;
+}
+
+.chat-bubble-bot {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  border: 1px solid #e2e8f0;
+  color: #1f2937;
+  border-radius: 18px 18px 18px 4px;
+}
+
+.typing-indicator {
+  display: inline-block;
+}
+
+.typing-indicator span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 0 2px;
+  background: #9ca3af;
+  animation: typing 1.4s infinite ease-in-out;
+}
+
+.typing-indicator span:nth-child(1) { 
+  animation-delay: -0.32s; 
+}
+
+.typing-indicator span:nth-child(2) { 
+  animation-delay: -0.16s; 
+}
+
+@keyframes typing {
+  0%, 80%, 100% { 
+    transform: scale(0);
+    opacity: 0.5;
+  } 
+  40% { 
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* 🧠 Conversation Context & Smart Features Styles */
+.smart-suggestion {
+  animation: slideDown 0.3s ease-out;
+}
+
+.context-indicator {
+  animation: contextPulse 2s ease-in-out infinite;
+}
+
+.brain-glow {
+  animation: brainGlow 2s ease-in-out infinite alternate;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes contextPulse {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(139, 92, 246, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.6);
+  }
+}
+
+@keyframes brainGlow {
+  0% {
+    color: #8b5cf6;
+    text-shadow: 0 0 5px rgba(139, 92, 246, 0.5);
+  }
+  100% {
+    color: #ec4899;
+    text-shadow: 0 0 10px rgba(236, 72, 153, 0.8);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.product-card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.product-card-hover:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 20px 40px -12px rgba(139, 92, 246, 0.3);
+}
+
+.product-card-modern {
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.product-card-modern:hover {
+  transform: translateY(-12px) rotate(-1deg);
+  box-shadow: 0 30px 60px -12px rgba(139, 92, 246, 0.4), 0 0 0 1px rgba(139, 92, 246, 0.1);
+}
+
+.product-card-modern:hover::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(236, 72, 153, 0.1));
+  z-index: -1;
+}
+
+/* Enhanced Product Card Animations */
+.product-card-modern .group:hover img {
+  filter: brightness(1.1) contrast(1.05);
+}
+
+/* Line clamp utilities */
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+}
+
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+}
+
+/* Smooth star rating animation */
+.text-yellow-400 {
+  color: #fbbf24;
+  transition: color 0.3s ease;
+}
+
+/* Enhanced button hover effects */
+button:hover i {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+/* Custom gradient backgrounds for product sections */
+.product-collection-bg {
+  background: linear-gradient(135deg, 
+    rgba(139, 92, 246, 0.05) 0%, 
+    rgba(236, 72, 153, 0.05) 50%, 
+    rgba(59, 130, 246, 0.05) 100%);
+}
+
+/* Improved carousel navigation */
+.carousel-nav-button {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.ai-glow {
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.3);
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #5a67d8, #6b46c1);
+}
+
+/* Additional utility classes for enhanced interactions */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Enhanced transitions and interactions */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+/* Animation keyframes */
+@keyframes gradient {
+  0%, 100% {
+    background-size: 200% 200%;
+    background-position: left center;
+  }
+  50% {
+    background-size: 200% 200%;
+    background-position: right center;
+  }
+}
+
+@keyframes slideUp {
+  0% { 
+    transform: translateY(100%); 
+    opacity: 0; 
+  }
+  100% { 
+    transform: translateY(0); 
+    opacity: 1; 
+  }
+}
+
+@keyframes slideIn {
+  0% { 
+    transform: translateX(-100%); 
+    opacity: 0; 
+  }
+  100% { 
+    transform: translateX(0); 
+    opacity: 1; 
+  }
+}
+
+@keyframes glow {
+  0% { 
+    box-shadow: 0 0 5px #3B82F6, 0 0 10px #3B82F6, 0 0 15px #3B82F6; 
+  }
+  100% { 
+    box-shadow: 0 0 10px #8B5CF6, 0 0 20px #8B5CF6, 0 0 30px #8B5CF6; 
+  }
+}
+
+/* Cart Animations and Styles */
+.cart-icon-bounce {
+  animation: cartBounce 0.6s ease-in-out;
+}
+
+.cart-badge-pulse {
+  animation: badgePulse 1s ease-in-out infinite;
+}
+
+.cart-item-enter {
+  animation: itemSlideIn 0.3s ease-out;
+}
+
+.cart-dropdown-shadow {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25), 
+              0 0 0 1px rgba(139, 92, 246, 0.1);
+}
+
+@keyframes cartBounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes badgePulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+}
+
+@keyframes itemSlideIn {
+  0% {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Login Form Styles */
+#login-form {
+  animation: slideInUp 0.3s ease-out;
+}
+
+.login-input:focus {
+  transform: scale(1.02);
+}
+
+.user-avatar {
+  background: linear-gradient(135deg, #10b981, #059669);
+  animation: userGlow 2s ease-in-out infinite alternate;
+}
+
+@keyframes slideInUp {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes userGlow {
+  0% {
+    box-shadow: 0 0 5px rgba(16, 185, 129, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.8);
+  }
+}
+
+/* Cart Success States */
+.cart-success {
+  background: linear-gradient(135deg, #10b981, #059669) !important;
+  animation: successGlow 0.6s ease-out;
+}
+
+.cart-error {
+  background: linear-gradient(135deg, #ef4444, #dc2626) !important;
+  animation: errorShake 0.6s ease-out;
+}
+
+@keyframes successGlow {
+  0% { box-shadow: 0 0 0 rgba(16, 185, 129, 0.7); }
+  50% { box-shadow: 0 0 20px rgba(16, 185, 129, 0.7); }
+  100% { box-shadow: 0 0 0 rgba(16, 185, 129, 0.7); }
+}
+
+@keyframes errorShake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+/* Animation classes */
+.animate-gradient {
+  animation: gradient 6s ease infinite;
+}
+
+.animate-bounce-slow {
+  animation: bounce 2s infinite;
+}
+
+.animate-pulse-soft {
+  animation: pulse 3s ease-in-out infinite;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.3s ease-out;
+}
+
+.animate-slide-in {
+  animation: slideIn 0.5s ease-out;
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Detailed Product View Styles */
+.detailed-product-view {
+  animation: fadeInUp 0.5s ease-out;
+}
+
+.detailed-product-view img {
+  transition: all 0.3s ease;
+}
+
+.detailed-product-view img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.detailed-product-view .quantity-controls input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgb(147 51 234 / 0.5);
+  border-color: rgb(147 51 234);
+}
+
+/* Notification styles */
+.notification-enter {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.notification-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 300ms ease-out;
+}
+
+.notification-exit {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.notification-exit-active {
+  transform: translateX(100%);
+  opacity: 0;
+  transition: all 300ms ease-in;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Enhanced product card animations */
+.product-card-modern {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.product-card-modern:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+/* Glow effect for buttons */
+.ai-glow:hover {
+  box-shadow: 0 0 20px rgba(147, 51, 234, 0.4);
+}
+
+/* Recommendation Section Loading Animations */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.shimmer-loading {
+  animation: shimmer 2s infinite linear;
+  background: linear-gradient(
+    to right,
+    #f0f0f0 0%,
+    #e0e0e0 20%,
+    #f0f0f0 40%,
+    #f0f0f0 100%
+  );
+  background-size: 1000px 100%;
+}
+
+.recommendation-skeleton {
+  background: linear-gradient(
+    90deg,
+    #f0f0f0 25%,
+    #e0e0e0 50%,
+    #f0f0f0 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes fadeInSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.fade-in-slide-up {
+  animation: fadeInSlideUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  opacity: 0;
+}
+
+.fade-in-scale {
+  animation: fadeInScale 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  opacity: 0;
+}
+
+/* Staggered animation for product cards */
+.product-card-animated {
+  animation: fadeInSlideUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  opacity: 0;
+}
+
+.product-card-animated:nth-child(1) { animation-delay: 0.1s; }
+.product-card-animated:nth-child(2) { animation-delay: 0.2s; }
+.product-card-animated:nth-child(3) { animation-delay: 0.3s; }
+.product-card-animated:nth-child(4) { animation-delay: 0.4s; }
+.product-card-animated:nth-child(5) { animation-delay: 0.5s; }
+.product-card-animated:nth-child(6) { animation-delay: 0.6s; }
+.product-card-animated:nth-child(7) { animation-delay: 0.7s; }
+.product-card-animated:nth-child(8) { animation-delay: 0.8s; }
+
+/* Loading timer bar animation */
+@keyframes loadingProgress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.loading-progress-bar {
+  animation: loadingProgress 2s ease-in-out forwards;
+}
+
+/* Pulsing heart animation */
+@keyframes heartBeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  10%, 30% {
+    transform: scale(1.1);
+  }
+  20%, 40% {
+    transform: scale(1.05);
+  }
+}
+
+.heart-beat {
+  animation: heartBeat 1.5s ease-in-out infinite;
+}
+
+/* Section transition animation */
+@keyframes sectionTransition {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section-transition {
+  animation: sectionTransition 0.5s ease-out;
+}
+
+/* Dots loading animation */
+@keyframes dotPulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+.dot-pulse {
+  animation: dotPulse 1.4s infinite ease-in-out;
+}
+
+.dot-pulse:nth-child(1) { animation-delay: 0s; }
+.dot-pulse:nth-child(2) { animation-delay: 0.2s; }
+.dot-pulse:nth-child(3) { animation-delay: 0.4s; }
+
+/* What's New Carousel Animations */
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Custom scrollbar for What's New carousel */
+#whats-new-carousel::-webkit-scrollbar {
+  height: 8px;
+}
+
+#whats-new-carousel::-webkit-scrollbar-track {
+  background: rgba(139, 92, 246, 0.1);
+  border-radius: 10px;
+}
+
+#whats-new-carousel::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #8B5CF6, #EC4899);
+  border-radius: 10px;
+}
+
+#whats-new-carousel::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(90deg, #7C3AED, #DB2777);
+}
+
+/* Line clamp utility for product names */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Hide scrollbar for cross-sell carousel */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
+
+/* Cross-sell carousel smooth scroll */
+#crosssell-carousel-track {
+  scroll-behavior: smooth;
+}

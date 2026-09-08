@@ -1,0 +1,1251 @@
+{
+  "session_id": "0b5795d8-97b6-43bb-90f0-95db151ed580",
+  "status": "cancelled",
+  "created_at": "2026-06-09T12:09:16.331865",
+  "payment_data": {
+    "customer_id": "jack.morrison@gmail.com",
+    "cart_items": [
+      {
+        "discount_percent": 30,
+        "has_promotion": true,
+        "image_url": "/static/product_images/97602.jpg",
+        "original_price": 999,
+        "price": 699.3,
+        "product_id": "97602",
+        "product_name": "Leather Jacket",
+        "quantity": 1,
+        "savings": 299.7,
+        "addedAt": "2026-06-09T06:39:04.791Z"
+      }
+    ],
+    "total_amount": 699.3,
+    "chat_history": [
+      {
+        "id": "msg_0",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n                <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n                  <i class=\"fas fa-robot text-white text-sm\"></i>\n                </div>\n                <div>\n                  <p class=\"font-medium text-gray-800\">Hello! I'm your AI shopping assistant.</p>\n                  <p class=\"text-gray-600 text-sm mt-1\">How can I help you find the perfect products today?</p>\n                  <p class=\"text-gray-500 text-xs mt-2 italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>\n                    Note: Your cart will be cleared when you refresh the page.\n                  </p>\n                  <p class=\"text-purple-600 text-xs mt-1 font-medium\">\n                    <i class=\"fas fa-credit-card mr-1\"></i>\n                    Secure PayPal checkout available - your session will be maintained during payment!\n                  </p>\n                </div>\n              </div>",
+        "timestamp": "2026-06-09T06:39:16.325Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_1",
+        "sender": "user",
+        "message": "\ud83d\udcf1 Loading product details for 97602...",
+        "timestamp": "2026-06-09T06:39:16.325Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_2",
+        "sender": "user",
+        "message": "Show me detailed information about product 97602",
+        "timestamp": "2026-06-09T06:39:16.325Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_3",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n    <div class=\"detailed-product-view bg-gradient-to-br from-white via-purple-50 to-pink-50 rounded-3xl shadow-2xl overflow-hidden border border-purple-200/50 max-w-5xl mx-auto my-6\">\n      <!-- Product Header -->\n      <div class=\"bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 px-8 py-6 text-white\">\n        <div class=\"flex items-center justify-between\">\n          <div class=\"flex items-center space-x-4\">\n            <div class=\"w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center\">\n              <i class=\"fas fa-box-open text-white text-lg\"></i>\n            </div>\n            <div>\n              <h3 class=\"text-xl font-bold\">Product Details</h3>\n              <p class=\"text-sm opacity-90\">Complete product information</p>\n            </div>\n          </div>\n          <div class=\"flex items-center space-x-3\">\n            <div class=\"flex text-yellow-300\">\n              <i class=\"fas fa-star text-sm\"></i>\n              <i class=\"fas fa-star text-sm\"></i>\n              <i class=\"fas fa-star text-sm\"></i>\n              <i class=\"fas fa-star text-sm\"></i>\n              <i class=\"fas fa-star-half-alt text-sm\"></i>\n            </div>\n            <span class=\"text-sm font-medium opacity-90\">(4.5/5)</span>\n          </div>\n        </div>\n      </div>\n\n      <!-- Product Content -->\n      <div class=\"p-8\">\n        <div class=\"grid grid-cols-1 lg:grid-cols-2 gap-10 items-start\">\n          \n          <!-- Product Image Section -->\n          <div class=\"relative\">\n            <div class=\"relative overflow-hidden rounded-3xl shadow-2xl bg-gradient-to-br from-gray-50 to-gray-100 p-6\">\n              <img src=\"/static/product_images/97602.jpg\" alt=\"Leather Jacket\" class=\"w-full h-96 object-cover rounded-2xl transition-all duration-500 hover:scale-105 shadow-lg\" onerror=\"this.src='https://via.placeholder.com/400x400/667eea/ffffff?text=No+Image'\">\n              <!-- Image Overlay Effects -->\n              <div class=\"absolute inset-6 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 rounded-2xl pointer-events-none\"></div>\n              \n              <!-- Product Badge -->\n              <div class=\"absolute top-8 left-8 bg-gradient-to-r from-green-500 to-emerald-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-xl backdrop-blur-sm\">\n                <i class=\"fas fa-check-circle mr-2\"></i>\n                Available\n              </div>\n              \n              <!-- Product ID Badge -->\n              <div class=\"absolute top-8 right-8 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1.5 shadow-lg\">\n                <span class=\"text-xs font-bold text-gray-600\">ID: 97602</span>\n              </div>\n              \n              <!-- Favorite Button -->\n              <div class=\"absolute bottom-8 right-8 bg-white/90 backdrop-blur-sm rounded-full p-3 shadow-xl hover:bg-white transition-all duration-300 cursor-pointer group hover:scale-110\">\n                <i class=\"fas fa-heart text-gray-400 group-hover:text-red-500 transition-colors duration-300 text-lg\"></i>\n              </div>\n            </div>\n            \n            <!-- Product Gallery Thumbnails -->\n            <div class=\"flex space-x-4 mt-6 justify-center\">\n              <div class=\"w-20 h-20 bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl cursor-pointer border-3 border-purple-500 shadow-lg flex items-center justify-center\">\n                <i class=\"fas fa-image text-purple-500 text-lg\"></i>\n              </div>\n              <div class=\"w-20 h-20 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl cursor-pointer hover:border-3 hover:border-purple-300 transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center opacity-60\">\n                <i class=\"fas fa-camera text-gray-400\"></i>\n              </div>\n              <div class=\"w-20 h-20 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl cursor-pointer hover:border-3 hover:border-purple-300 transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center opacity-60\">\n                <i class=\"fas fa-video text-gray-400\"></i>\n              </div>\n            </div>\n          </div>\n\n          <!-- Product Info Section -->\n          <div class=\"space-y-8\">\n            <!-- Product Title & Price -->\n            <div>\n              <div class=\"flex items-start justify-between mb-4\">\n                <div class=\"flex-1\">\n                  <h1 class=\"text-3xl lg:text-4xl font-bold text-gray-900 mb-2 leading-tight\">Leather Jacket</h1>\n                  <div class=\"flex items-center space-x-2 text-sm text-gray-500\">\n                    <span>Product ID: 97602</span>\n                    <span>\u2022</span>\n                    <span class=\"text-green-600 font-medium\">In Stock</span>\n                  </div>\n                </div>\n              </div>\n              \n              <div class=\"bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200/50\">\n                <div class=\"flex items-center justify-between flex-wrap gap-4\">\n                  <div class=\"flex items-baseline space-x-4\">\n                    <span class=\"text-4xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600\">\u00a3699.30</span>\n                    <div class=\"flex flex-col\">\n                      <span class=\"text-lg text-gray-500 line-through\">\u00a3839.16</span>\n                      <span class=\"bg-gradient-to-r from-red-500 to-pink-500 text-white text-sm px-3 py-1 rounded-full font-bold shadow-lg\">Save 17%</span>\n                    </div>\n                  </div>\n                  <div class=\"text-right\">\n                    <div class=\"text-sm text-gray-600\">Free shipping</div>\n                    <div class=\"text-sm text-green-600 font-medium\">\u2713 30-day returns</div>\n                  </div>\n                </div>\n              </div>\n            </div>\n\n            <!-- Product Categories -->\n            <div>\n              <h4 class=\"text-lg font-semibold text-gray-900 mb-3 flex items-center\">\n                <i class=\"fas fa-tags text-purple-500 mr-2\"></i>\n                Categories\n              </h4>\n              <div class=\"flex flex-wrap gap-2\">\n                <span class=\"inline-block bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full mr-2 mb-2\">Hyper Personalization Products</span><span class=\"inline-block bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full mr-2 mb-2\">Jackets</span>\n              </div>\n            </div>\n\n            <!-- Product Description -->\n            <div>\n              <h4 class=\"text-lg font-semibold text-gray-900 mb-3 flex items-center\">\n                <i class=\"fas fa-info-circle text-blue-500 mr-2\"></i>\n                Description\n              </h4>\n              <div class=\"bg-gray-50 rounded-2xl p-6 border border-gray-200\">\n                <p class=\"text-gray-700 leading-relaxed text-lg\">A classic leather jacket that offers a stylish and edgy look</p>\n              </div>\n            </div>\n\n            <!-- Product Features -->\n            <div>\n              <h4 class=\"text-lg font-semibold text-gray-900 mb-4 flex items-center\">\n                <i class=\"fas fa-star text-yellow-500 mr-2\"></i>\n                Key Features\n              </h4>\n              <div class=\"grid grid-cols-1 sm:grid-cols-2 gap-4\">\n                <div class=\"flex items-center space-x-3 p-3 bg-green-50 rounded-xl border border-green-200\">\n                  <i class=\"fas fa-check-circle text-green-500 text-lg\"></i>\n                  <span class=\"text-gray-700 font-medium\">Premium Quality</span>\n                </div>\n                <div class=\"flex items-center space-x-3 p-3 bg-blue-50 rounded-xl border border-blue-200\">\n                  <i class=\"fas fa-shipping-fast text-blue-500 text-lg\"></i>\n                  <span class=\"text-gray-700 font-medium\">Fast Delivery</span>\n                </div>\n                <div class=\"flex items-center space-x-3 p-3 bg-purple-50 rounded-xl border border-purple-200\">\n                  <i class=\"fas fa-undo text-purple-500 text-lg\"></i>\n                  <span class=\"text-gray-700 font-medium\">30-Day Returns</span>\n                </div>\n                <div class=\"flex items-center space-x-3 p-3 bg-orange-50 rounded-xl border border-orange-200\">\n                  <i class=\"fas fa-headset text-orange-500 text-lg\"></i>\n                  <span class=\"text-gray-700 font-medium\">24/7 Support</span>\n                </div>\n              </div>\n            </div>\n\n            <!-- Quantity Selector & Add to Cart -->\n            <div class=\"bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200/50\">\n              <div class=\"flex items-center space-x-4 mb-4\">\n                <div class=\"flex items-center space-x-3\">\n                  <label class=\"text-sm font-medium text-gray-700\">Quantity:</label>\n                  <div class=\"flex items-center bg-white rounded-xl border border-gray-300 shadow-sm\">\n                    <button class=\"px-3 py-2 text-gray-500 hover:text-purple-600 transition-colors duration-300\" >\n                      <i class=\"fas fa-minus text-sm\"></i>\n                    </button>\n                    <input type=\"number\" id=\"quantity-97602\" value=\"1\" min=\"1\" max=\"10\" class=\"w-16 text-center border-0 focus:outline-none focus:ring-0 py-2 text-sm font-medium text-gray-900\">\n                    <button class=\"px-3 py-2 text-gray-500 hover:text-purple-600 transition-colors duration-300\" >\n                      <i class=\"fas fa-plus text-sm\"></i>\n                    </button>\n                  </div>\n                </div>\n              </div>\n\n              <!-- Action Buttons -->\n              <div class=\"flex space-x-4\">\n                <button  class=\"flex-1 bg-gradient-to-r via-purple-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-4 px-6 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl flex items-center justify-center space-x-3 group from-purple-600 to-pink-500\">\n                  <i class=\"fas fa-cart-plus text-xl group-hover:animate-pulse\"></i>\n                  <span>Add to Cart</span>\n                </button>\n                \n                <button class=\"bg-white hover:bg-gray-50 border-2 border-purple-300 text-purple-600 hover:text-purple-700 py-4 px-6 rounded-2xl font-bold transition-all duration-300 hover:shadow-lg flex items-center justify-center min-w-fit\" title=\"Add to Wishlist\">\n                  <i class=\"fas fa-heart text-xl\"></i>\n                </button>\n              </div>\n            </div>\n\n            <!-- Delivery Information -->\n            <div class=\"grid grid-cols-2 gap-4 text-sm\">\n              <div class=\"flex items-center space-x-3 p-3 bg-green-50 rounded-xl border border-green-200\">\n                <i class=\"fas fa-shipping-fast text-green-600 text-lg\"></i>\n                <div>\n                  <p class=\"font-medium text-green-800\">Free Delivery</p>\n                  <p class=\"text-green-600\">2-3 business days</p>\n                </div>\n              </div>\n              <div class=\"flex items-center space-x-3 p-3 bg-blue-50 rounded-xl border border-blue-200\">\n                <i class=\"fas fa-shield-alt text-blue-600 text-lg\"></i>\n                <div>\n                  <p class=\"font-medium text-blue-800\">Secure Payment</p>\n                  <p class=\"text-blue-600\">SSL Encrypted</p>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  \n        </div>\n      </div>",
+        "timestamp": "2026-06-09T06:39:16.326Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_4",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-9 h-9 rounded-full flex items-center justify-center flex-shrink-0\" style=\"background: linear-gradient(135deg,#7c3aed,#db2777);\">\n          <i class=\"fas fa-magic text-white text-sm\"></i>\n        </div>\n        <div>\n          <p class=\"text-gray-800 text-sm font-medium mb-2\">\n            Want a complete outfit to go with <strong>Leather Jacket</strong>? \u2728\n          </p>\n          <button  class=\"px-4 py-1.5 rounded-full text-white text-xs font-semibold shadow\" style=\"background: linear-gradient(135deg,#7c3aed,#db2777);\">\n            Style Me! \u2728\n          </button>\n        </div>\n      </div>",
+        "timestamp": "2026-06-09T06:39:16.326Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_5",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2026-06-09T06:39:16.326Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_6",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n        <div class=\"bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4\" id=\"chat-cart-container\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart text-purple-500 mr-2\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold\" id=\"chat-cart-count\"><i class=\"fas fa-shopping-cart mr-1\"></i>1 item</div>\n            </div>\n            \n            <div id=\"chat-cart-items\" class=\"space-y-3 mb-4\">\n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3 flex-1\">\n          <img src=\"/static/product_images/97602.jpg\" alt=\"Leather Jacket\" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1 min-w-0\">\n            <h4 class=\"font-semibold text-gray-800 text-sm truncate\">Leather Jacket</h4>\n            <p class=\"text-xs text-gray-500 mt-1\">\u00a3699.30 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 bg-purple-100 text-purple-800 rounded-full min-w-[2rem] text-center\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right ml-4\">\n          <p class=\"text-lg font-bold text-purple-600\">\u00a3699.30</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    </div>\n            \n            <div id=\"chat-cart-footer\" class=\"border-t border-purple-200 pt-4\">\n                <div class=\"flex items-center justify-between mb-4\">\n                    <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                    <span class=\"text-2xl font-bold text-purple-600\" id=\"chat-cart-total\">\u00a3699.30</span>\n                </div>\n                \n                <div class=\"text-center space-x-2\">\n                    <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-sync-alt mr-2\"></i>Refresh Cart\n                    </button>\n                    <button  class=\"bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-credit-card mr-2\"></i>Checkout\n                    </button>\n                </div>\n                \n                <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" onload=\"(function(){setTimeout(function(){if(typeof renderChatCart === &quot;function&quot;){console.log(&quot;\ud83d\uded2 Auto-triggering renderChatCart via image onload&quot;);renderChatCart();}},100);})()\" style=\"display:none;\">\n        \n        </div>\n      </div>",
+        "timestamp": "2026-06-09T06:39:16.326Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_7",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Ready for Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Order Summary</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: \u00a3699.30</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9; margin-bottom: 15px;\">\n          \ud83d\udce6 1 item in your cart<br>\n          \ud83d\udcb0 Total amount: \u00a3699.30<br>\n          \ud83d\udd12 Secure PayPal payment\n        </div>\n        <div style=\"background: rgba(255,255,255,0.15); padding: 12px; border-radius: 8px; font-size: 14px; margin-top: 10px;\">\n          <strong>\u26a1 Are you sure you want to proceed with the payment?</strong><br>\n          <span style=\"opacity: 0.9;\">Please reply with \"yes\" to confirm, or \"no\" to cancel.</span>\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-06-09T06:39:16.326Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_8",
+        "sender": "user",
+        "message": "yes",
+        "timestamp": "2026-06-09T06:39:16.326Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_9",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u2705 <strong>Payment Confirmed!</strong><br><br>\n          <div style=\"background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 15px; border-radius: 12px; margin: 10px 0;\">\n            <div style=\"display: flex; align-items-center;\">\n              <i class=\"fas fa-check-circle\" style=\"font-size: 20px; margin-right: 10px;\"></i>\n              <div style=\"font-size: 14px;\">\n                Great! Processing your payment now. Opening PayPal gateway...\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>",
+        "timestamp": "2026-06-09T06:39:16.326Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_10",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Processing Payment</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: \u00a3699.30</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u2728 Opening PayPal payment gateway...<br>\n          \ud83d\udd12 Secure payment processing<br>\n          \u26a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-06-09T06:39:16.326Z",
+        "messageType": "html"
+      }
+    ],
+    "conversation_context": {
+      "session_id": "session_1780975875592_jykj1vta1",
+      "conversation_history": [
+        {
+          "id": 1780975919153,
+          "timestamp": "2026-06-09T03:31:59.153Z",
+          "user": "show jackets",
+          "ai": {
+            "error": "Error calling model 'gemini-2.5-flash-lite' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}"
+          },
+          "metadata": {
+            "session_id": "session_1780975875592_jykj1vta1",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1780976241128,
+          "timestamp": "2026-06-09T03:37:21.128Z",
+          "user": "show jacket",
+          "ai": {
+            "error": "Error calling model 'gemini-2.5-flash-lite' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}"
+          },
+          "metadata": {
+            "session_id": "session_1780975875592_jykj1vta1",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1780976399071,
+          "timestamp": "2026-06-09T03:39:59.071Z",
+          "user": "show jackets",
+          "ai": {
+            "error": "Error calling model 'gemini-2.5-flash-lite' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}"
+          },
+          "metadata": {
+            "session_id": "session_1780975875592_jykj1vta1",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1780984027509,
+          "timestamp": "2026-06-09T05:47:07.509Z",
+          "user": "show jackets",
+          "ai": {
+            "ai_response": "Here are some jackets I found:\n\n*   **Leather Jacket**\n    A classic leather jacket that offers a stylish and edgy look. It's currently on sale for 30% off, bringing the price down to $699.30.\n*   **Limited Jacket**\n    The perfect set up to reach your next freeriding level. Further improvements in performance and functionality ensure a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacket supports your own way. This jacket is priced at $137.66.\n*   **Kelly Jacket Women**\n    The Kelly Jacket by WLD is a top cut jacket for all the girls out there. It's on sale for 28% off, making it $58.28.\n*   **Bender Jacket**\n    Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece. This jacket is priced at $89.06.\n*   **Beacon Jacket**\n    Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only have style but also super features. It's currently 30% off, priced at $70.85.\n\nWould you like to refine your search or look for something else?",
+            "ai_suggestions": {
+              "has_suggestions": true,
+              "query_context": "Customer ID: jack.morrison@gmail.com. show jackets",
+              "result_count": 5,
+              "suggestions": [
+                {
+                  "text": "Complete your look with some stylish accessories that pair perfectly with jackets. Shop now!",
+                  "type": "accessories"
+                },
+                {
+                  "text": "Looking for a deal? Check out our jackets under $100. Explore options!",
+                  "type": "budget"
+                },
+                {
+                  "text": "Expand your search to include other popular outerwear like hoodies. Browse now!",
+                  "type": "category"
+                }
+              ]
+            },
+            "product_data": null,
+            "products_data": [
+              {
+                "PRICE": 999,
+                "PROMO_DESCRIPTION": "Genuine leather jacket - Save 30% now",
+                "PROMO_DISCOUNT_PERCENT": "30",
+                "PROMO_TITLE": "Premium Leather Special",
+                "categories": [],
+                "discount_percent": 30,
+                "discounted_price": 699.3,
+                "has_promotion": true,
+                "image_url": "/static/product_images/97602.jpg",
+                "original_price": 999,
+                "price": 699.3,
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "promo_title": "Premium Leather Special",
+                "savings": 299.7,
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "PRICE": 137.66,
+                "PROMO_DESCRIPTION": null,
+                "PROMO_DISCOUNT_PERCENT": null,
+                "PROMO_TITLE": null,
+                "categories": [],
+                "discount_percent": 0,
+                "discounted_price": 137.66,
+                "has_promotion": false,
+                "image_url": "/static/product_images/132871.jpg",
+                "original_price": 137.66,
+                "price": 137.66,
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "promo_title": null,
+                "savings": 0,
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "PRICE": 80.95,
+                "PROMO_DESCRIPTION": "Stylish women's jackets - 28% off",
+                "PROMO_DISCOUNT_PERCENT": "28",
+                "PROMO_TITLE": "Women's Spring Jacket Sale",
+                "categories": [],
+                "discount_percent": 28,
+                "discounted_price": 58.28,
+                "has_promotion": true,
+                "image_url": "/static/product_images/103335.jpg",
+                "original_price": 80.95,
+                "price": 58.28,
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "promo_title": "Women's Spring Jacket Sale",
+                "savings": 22.67,
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "PRICE": 89.06,
+                "PROMO_DESCRIPTION": null,
+                "PROMO_DISCOUNT_PERCENT": null,
+                "PROMO_TITLE": null,
+                "categories": [],
+                "discount_percent": 0,
+                "discounted_price": 89.06,
+                "has_promotion": false,
+                "image_url": "/static/product_images/94462.jpg",
+                "original_price": 89.06,
+                "price": 89.06,
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "promo_title": null,
+                "savings": 0,
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              },
+              {
+                "PRICE": 101.21,
+                "PROMO_DESCRIPTION": "Premium outdoor jacket - 30% off",
+                "PROMO_DISCOUNT_PERCENT": "30",
+                "PROMO_TITLE": "Outdoor Spring Collection",
+                "categories": [],
+                "discount_percent": 30,
+                "discounted_price": 70.85,
+                "has_promotion": true,
+                "image_url": "/static/product_images/100191.jpg",
+                "original_price": 101.21,
+                "price": 70.85,
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "promo_title": "Outdoor Spring Collection",
+                "savings": 30.36,
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1780975875592_jykj1vta1",
+            "products": [
+              {
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "price": 699.3,
+                "image_url": "/static/product_images/97602.jpg",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "price": 137.66,
+                "image_url": "/static/product_images/132871.jpg",
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "price": 58.28,
+                "image_url": "/static/product_images/103335.jpg",
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "/static/product_images/94462.jpg",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 70.85,
+                "image_url": "/static/product_images/100191.jpg",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "price": 699.3,
+                "image_url": "/static/product_images/97602.jpg",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "price": 137.66,
+                "image_url": "/static/product_images/132871.jpg",
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "price": 58.28,
+                "image_url": "/static/product_images/103335.jpg",
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "/static/product_images/94462.jpg",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 70.85,
+                "image_url": "/static/product_images/100191.jpg",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-06-09T05:47:07.511Z"
+          }
+        },
+        {
+          "id": 1780985760812,
+          "timestamp": "2026-06-09T06:16:00.812Z",
+          "user": "show jackets",
+          "ai": {
+            "ai_response": "Here are some jackets I found:\n\n*   **Leather Jacket**\n    A classic leather jacket that offers a stylish and edgy look. It's currently on sale for 30% off, bringing the price down to $699.30.\n*   **Limited Jacket**\n    The perfect set up to reach your next freeriding level. Further improvements in performance and functionality ensure a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacket supports your own way. This jacket is priced at $137.66.\n*   **Kelly Jacket Women**\n    The Kelly Jacket by WLD is a top cut jacket for all the girls out there. It's on sale for 28% off, making it $58.28.\n*   **Bender Jacket**\n    Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece. This jacket is priced at $89.06.\n*   **Beacon Jacket**\n    Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only have style but also super features. It's currently 30% off, priced at $70.85.\n\nWould you like to refine your search or look for something else?",
+            "ai_suggestions": {
+              "has_suggestions": true,
+              "query_context": "Customer ID: jack.morrison@gmail.com. show jackets",
+              "result_count": 5,
+              "suggestions": [
+                {
+                  "text": "Complete your look with some stylish accessories that pair perfectly with jackets. Shop now!",
+                  "type": "accessories"
+                },
+                {
+                  "text": "Looking for a deal? Check out our jackets under $100. Explore options!",
+                  "type": "budget"
+                },
+                {
+                  "text": "Expand your search to include other popular outerwear like hoodies. Browse now!",
+                  "type": "category"
+                }
+              ]
+            },
+            "product_data": null,
+            "products_data": [
+              {
+                "PRICE": 999,
+                "PROMO_DESCRIPTION": "Genuine leather jacket - Save 30% now",
+                "PROMO_DISCOUNT_PERCENT": "30",
+                "PROMO_TITLE": "Premium Leather Special",
+                "categories": [],
+                "discount_percent": 30,
+                "discounted_price": 699.3,
+                "has_promotion": true,
+                "image_url": "/static/product_images/97602.jpg",
+                "original_price": 999,
+                "price": 699.3,
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "promo_title": "Premium Leather Special",
+                "savings": 299.7,
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "PRICE": 137.66,
+                "PROMO_DESCRIPTION": null,
+                "PROMO_DISCOUNT_PERCENT": null,
+                "PROMO_TITLE": null,
+                "categories": [],
+                "discount_percent": 0,
+                "discounted_price": 137.66,
+                "has_promotion": false,
+                "image_url": "/static/product_images/132871.jpg",
+                "original_price": 137.66,
+                "price": 137.66,
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "promo_title": null,
+                "savings": 0,
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "PRICE": 80.95,
+                "PROMO_DESCRIPTION": "Stylish women's jackets - 28% off",
+                "PROMO_DISCOUNT_PERCENT": "28",
+                "PROMO_TITLE": "Women's Spring Jacket Sale",
+                "categories": [],
+                "discount_percent": 28,
+                "discounted_price": 58.28,
+                "has_promotion": true,
+                "image_url": "/static/product_images/103335.jpg",
+                "original_price": 80.95,
+                "price": 58.28,
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "promo_title": "Women's Spring Jacket Sale",
+                "savings": 22.67,
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "PRICE": 89.06,
+                "PROMO_DESCRIPTION": null,
+                "PROMO_DISCOUNT_PERCENT": null,
+                "PROMO_TITLE": null,
+                "categories": [],
+                "discount_percent": 0,
+                "discounted_price": 89.06,
+                "has_promotion": false,
+                "image_url": "/static/product_images/94462.jpg",
+                "original_price": 89.06,
+                "price": 89.06,
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "promo_title": null,
+                "savings": 0,
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              },
+              {
+                "PRICE": 101.21,
+                "PROMO_DESCRIPTION": "Premium outdoor jacket - 30% off",
+                "PROMO_DISCOUNT_PERCENT": "30",
+                "PROMO_TITLE": "Outdoor Spring Collection",
+                "categories": [],
+                "discount_percent": 30,
+                "discounted_price": 70.85,
+                "has_promotion": true,
+                "image_url": "/static/product_images/100191.jpg",
+                "original_price": 101.21,
+                "price": 70.85,
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "promo_title": "Outdoor Spring Collection",
+                "savings": 30.36,
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1780975875592_jykj1vta1",
+            "products": [
+              {
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "price": 699.3,
+                "image_url": "/static/product_images/97602.jpg",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "price": 137.66,
+                "image_url": "/static/product_images/132871.jpg",
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "price": 58.28,
+                "image_url": "/static/product_images/103335.jpg",
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "/static/product_images/94462.jpg",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 70.85,
+                "image_url": "/static/product_images/100191.jpg",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "price": 699.3,
+                "image_url": "/static/product_images/97602.jpg",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "price": 137.66,
+                "image_url": "/static/product_images/132871.jpg",
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "price": 58.28,
+                "image_url": "/static/product_images/103335.jpg",
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "/static/product_images/94462.jpg",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 70.85,
+                "image_url": "/static/product_images/100191.jpg",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-06-09T06:16:00.813Z"
+          }
+        },
+        {
+          "id": 1780986897271,
+          "timestamp": "2026-06-09T06:34:57.271Z",
+          "user": "show jackets",
+          "ai": {
+            "ai_response": "Here are some jackets I found:\n\n*   **Leather Jacket**\n    A classic leather jacket that offers a stylish and edgy look. It's currently on sale for 30% off, making the price $699.30.\n*   **Limited Jacket**\n    The perfect set up to reach your next freeriding level. Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacket supports your own way. This jacket is priced at $137.66.\n*   **Kelly Jacket Women**\n    The Kelly Jacket by WLD is a top cut jacket for all the girls out there. It's on sale for 28% off, with a discounted price of $58.28.\n*   **Bender Jacket**\n    Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece. This jacket is priced at $89.06.\n*   **Beacon Jacket**\n    Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only have style but also super features. It's on sale for 30% off, making the price $70.85.\n\nWould you like to refine your search or look for something else?",
+            "ai_suggestions": {
+              "has_suggestions": true,
+              "query_context": "Customer ID: jack.morrison@gmail.com. show jackets",
+              "result_count": 5,
+              "suggestions": [
+                {
+                  "text": "Complete your look with matching accessories for your new jacket. Shop now!",
+                  "type": "accessories"
+                },
+                {
+                  "text": "Looking for a deal? Filter jackets under $100 to find great value. Explore options!",
+                  "type": "budget"
+                },
+                {
+                  "text": "Expand your search to related clothing like hoodies and t-shirts. See more styles!",
+                  "type": "category"
+                }
+              ]
+            },
+            "product_data": null,
+            "products_data": [
+              {
+                "PRICE": 999,
+                "PROMO_DESCRIPTION": "Genuine leather jacket - Save 30% now",
+                "PROMO_DISCOUNT_PERCENT": "30",
+                "PROMO_TITLE": "Premium Leather Special",
+                "categories": [],
+                "discount_percent": 30,
+                "discounted_price": 699.3,
+                "has_promotion": true,
+                "image_url": "/static/product_images/97602.jpg",
+                "original_price": 999,
+                "price": 699.3,
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "promo_title": "Premium Leather Special",
+                "savings": 299.7,
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "PRICE": 137.66,
+                "PROMO_DESCRIPTION": null,
+                "PROMO_DISCOUNT_PERCENT": null,
+                "PROMO_TITLE": null,
+                "categories": [],
+                "discount_percent": 0,
+                "discounted_price": 137.66,
+                "has_promotion": false,
+                "image_url": "/static/product_images/132871.jpg",
+                "original_price": 137.66,
+                "price": 137.66,
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "promo_title": null,
+                "savings": 0,
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "PRICE": 80.95,
+                "PROMO_DESCRIPTION": "Stylish women's jackets - 28% off",
+                "PROMO_DISCOUNT_PERCENT": "28",
+                "PROMO_TITLE": "Women's Spring Jacket Sale",
+                "categories": [],
+                "discount_percent": 28,
+                "discounted_price": 58.28,
+                "has_promotion": true,
+                "image_url": "/static/product_images/103335.jpg",
+                "original_price": 80.95,
+                "price": 58.28,
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "promo_title": "Women's Spring Jacket Sale",
+                "savings": 22.67,
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "PRICE": 89.06,
+                "PROMO_DESCRIPTION": null,
+                "PROMO_DISCOUNT_PERCENT": null,
+                "PROMO_TITLE": null,
+                "categories": [],
+                "discount_percent": 0,
+                "discounted_price": 89.06,
+                "has_promotion": false,
+                "image_url": "/static/product_images/94462.jpg",
+                "original_price": 89.06,
+                "price": 89.06,
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "promo_title": null,
+                "savings": 0,
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              },
+              {
+                "PRICE": 101.21,
+                "PROMO_DESCRIPTION": "Premium outdoor jacket - 30% off",
+                "PROMO_DISCOUNT_PERCENT": "30",
+                "PROMO_TITLE": "Outdoor Spring Collection",
+                "categories": [],
+                "discount_percent": 30,
+                "discounted_price": 70.85,
+                "has_promotion": true,
+                "image_url": "/static/product_images/100191.jpg",
+                "original_price": 101.21,
+                "price": 70.85,
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "promo_title": "Outdoor Spring Collection",
+                "savings": 30.36,
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1780975875592_jykj1vta1",
+            "products": [
+              {
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "price": 699.3,
+                "image_url": "/static/product_images/97602.jpg",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "price": 137.66,
+                "image_url": "/static/product_images/132871.jpg",
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "price": 58.28,
+                "image_url": "/static/product_images/103335.jpg",
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "/static/product_images/94462.jpg",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 70.85,
+                "image_url": "/static/product_images/100191.jpg",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "price": 699.3,
+                "image_url": "/static/product_images/97602.jpg",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "price": 137.66,
+                "image_url": "/static/product_images/132871.jpg",
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "price": 58.28,
+                "image_url": "/static/product_images/103335.jpg",
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "/static/product_images/94462.jpg",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 70.85,
+                "image_url": "/static/product_images/100191.jpg",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-06-09T06:34:57.272Z"
+          }
+        },
+        {
+          "id": 1780986998357,
+          "timestamp": "2026-06-09T06:36:38.357Z",
+          "user": "show jackets",
+          "ai": {
+            "ai_response": "Here are some jackets I found:\n\n*   **Leather Jacket**\n    A classic leather jacket that offers a stylish and edgy look. It's currently on sale for 30% off, bringing the price down to $699.30.\n*   **Limited Jacket**\n    The perfect set up to reach your next freeriding level. Further improvements in performance and functionality ensure a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacket supports your own way. This jacket is priced at $137.66.\n*   **Kelly Jacket Women**\n    The Kelly Jacket by WLD is a top cut jacket for all the girls out there. It's on sale for 28% off, making it $58.28.\n*   **Bender Jacket**\n    Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece. This jacket is priced at $89.06.\n*   **Beacon Jacket**\n    Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only have style but also super features. It's currently 30% off, priced at $70.85.\n\nWould you like to refine your search or look for something else?",
+            "ai_suggestions": {
+              "has_suggestions": true,
+              "query_context": "Customer ID: jack.morrison@gmail.com. show jackets",
+              "result_count": 5,
+              "suggestions": [
+                {
+                  "text": "Complete your look with a stylish belt or scarf to go with your new jacket!",
+                  "type": "accessories"
+                },
+                {
+                  "text": "Looking for something specific? Try filtering by price, like 'under $100'.",
+                  "type": "budget"
+                },
+                {
+                  "text": "Explore our collection of t-shirts and hoodies that pair perfectly with jackets.",
+                  "type": "category"
+                }
+              ]
+            },
+            "product_data": null,
+            "products_data": [
+              {
+                "PRICE": 999,
+                "PROMO_DESCRIPTION": "Genuine leather jacket - Save 30% now",
+                "PROMO_DISCOUNT_PERCENT": "30",
+                "PROMO_TITLE": "Premium Leather Special",
+                "categories": [],
+                "discount_percent": 30,
+                "discounted_price": 699.3,
+                "has_promotion": true,
+                "image_url": "/static/product_images/97602.jpg",
+                "original_price": 999,
+                "price": 699.3,
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "promo_title": "Premium Leather Special",
+                "savings": 299.7,
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "PRICE": 137.66,
+                "PROMO_DESCRIPTION": null,
+                "PROMO_DISCOUNT_PERCENT": null,
+                "PROMO_TITLE": null,
+                "categories": [],
+                "discount_percent": 0,
+                "discounted_price": 137.66,
+                "has_promotion": false,
+                "image_url": "/static/product_images/132871.jpg",
+                "original_price": 137.66,
+                "price": 137.66,
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "promo_title": null,
+                "savings": 0,
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "PRICE": 80.95,
+                "PROMO_DESCRIPTION": "Stylish women's jackets - 28% off",
+                "PROMO_DISCOUNT_PERCENT": "28",
+                "PROMO_TITLE": "Women's Spring Jacket Sale",
+                "categories": [],
+                "discount_percent": 28,
+                "discounted_price": 58.28,
+                "has_promotion": true,
+                "image_url": "/static/product_images/103335.jpg",
+                "original_price": 80.95,
+                "price": 58.28,
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "promo_title": "Women's Spring Jacket Sale",
+                "savings": 22.67,
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "PRICE": 89.06,
+                "PROMO_DESCRIPTION": null,
+                "PROMO_DISCOUNT_PERCENT": null,
+                "PROMO_TITLE": null,
+                "categories": [],
+                "discount_percent": 0,
+                "discounted_price": 89.06,
+                "has_promotion": false,
+                "image_url": "/static/product_images/94462.jpg",
+                "original_price": 89.06,
+                "price": 89.06,
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "promo_title": null,
+                "savings": 0,
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              },
+              {
+                "PRICE": 101.21,
+                "PROMO_DESCRIPTION": "Premium outdoor jacket - 30% off",
+                "PROMO_DISCOUNT_PERCENT": "30",
+                "PROMO_TITLE": "Outdoor Spring Collection",
+                "categories": [],
+                "discount_percent": 30,
+                "discounted_price": 70.85,
+                "has_promotion": true,
+                "image_url": "/static/product_images/100191.jpg",
+                "original_price": 101.21,
+                "price": 70.85,
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "promo_title": "Outdoor Spring Collection",
+                "savings": 30.36,
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1780975875592_jykj1vta1",
+            "products": [
+              {
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "price": 699.3,
+                "image_url": "/static/product_images/97602.jpg",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "price": 137.66,
+                "image_url": "/static/product_images/132871.jpg",
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "price": 58.28,
+                "image_url": "/static/product_images/103335.jpg",
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "/static/product_images/94462.jpg",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 70.85,
+                "image_url": "/static/product_images/100191.jpg",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "price": 699.3,
+                "image_url": "/static/product_images/97602.jpg",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "price": 137.66,
+                "image_url": "/static/product_images/132871.jpg",
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "price": 58.28,
+                "image_url": "/static/product_images/103335.jpg",
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "/static/product_images/94462.jpg",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 70.85,
+                "image_url": "/static/product_images/100191.jpg",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-06-09T06:36:38.358Z"
+          }
+        },
+        {
+          "id": 1780987072635,
+          "timestamp": "2026-06-09T06:37:52.635Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1780975875592_jykj1vta1",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1780987140670,
+          "timestamp": "2026-06-09T06:39:00.670Z",
+          "user": "Show me detailed information about product 97602",
+          "ai": {
+            "ai_response": "The Leather Jacket is a classic piece that offers a stylish and edgy look. It's made from genuine leather and is currently on sale for 30% off, bringing the price down to $699.30.\n\nHere are some other items you might be interested in:\n\n*   **Trench Coat**: A timeless and elegant trench coat, currently 25% off at $487.50.\n*   **Kelly Jacket Women**: This jacket is on sale for 28% off, making it $58.28.\n*   **Last Mission Jacket**: This jacket is 32% off, priced at $44.04.\n*   **Beacon Jacket**: This jacket is 30% off, priced at $70.85.",
+            "cross_sell_products": [
+              {
+                "IMAGE_URL": "/static/product_images/94474.jpg",
+                "PRICE": 650,
+                "PRIORITY": 1,
+                "PRODUCT_ID": "94474",
+                "PRODUCT_NAME": "Trench Coat",
+                "RELATIONSHIP_TYPE": "cross-sell",
+                "SOURCE_PRODUCT_ID": "97602",
+                "SUMMARY": "A timeless and elegant trench coat",
+                "discount_percent": 25,
+                "discounted_price": 487.5,
+                "has_promotion": true,
+                "image_url": "/static/product_images/94474.jpg",
+                "original_price": 650,
+                "price": 487.5,
+                "product_id": "94474",
+                "product_name": "Trench Coat",
+                "promo_title": "Winter Fashion Sale",
+                "savings": 162.5,
+                "summary": "A timeless and elegant trench coat"
+              },
+              {
+                "IMAGE_URL": "/static/product_images/103335.jpg",
+                "PRICE": 80.95,
+                "PRIORITY": 2,
+                "PRODUCT_ID": "103335",
+                "PRODUCT_NAME": "Kelly Jacket Women",
+                "RELATIONSHIP_TYPE": "cross-sell",
+                "SOURCE_PRODUCT_ID": "97602",
+                "SUMMARY": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there",
+                "discount_percent": 28,
+                "discounted_price": 58.28,
+                "has_promotion": true,
+                "image_url": "/static/product_images/103335.jpg",
+                "original_price": 80.95,
+                "price": 58.28,
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "promo_title": "Women's Spring Jacket Sale",
+                "savings": 22.67,
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "IMAGE_URL": "/static/product_images/103410.jpg",
+                "PRICE": 64.76,
+                "PRIORITY": 3,
+                "PRODUCT_ID": "103410",
+                "PRODUCT_NAME": "Last Mission Jacket",
+                "RELATIONSHIP_TYPE": "cross-sell",
+                "SOURCE_PRODUCT_ID": "97602",
+                "SUMMARY": "This is the Quiksilver classic and it always presents itself in a new outfit. Even if you thought you have seen them all you will always find a new one. The Last Mission Jacket presents itself in new colours",
+                "discount_percent": 32,
+                "discounted_price": 44.04,
+                "has_promotion": true,
+                "image_url": "/static/product_images/103410.jpg",
+                "original_price": 64.76,
+                "price": 44.04,
+                "product_id": "103410",
+                "product_name": "Last Mission Jacket",
+                "promo_title": "Adventure Gear Spring Sale",
+                "savings": 20.72,
+                "summary": "This is the Quiksilver classic and it always presents itself in a new outfit. Even if you thought you have seen them all you will always find a new one. The Last Mission Jacket presents itself in new colours"
+              },
+              {
+                "IMAGE_URL": "/static/product_images/100191.jpg",
+                "PRICE": 101.21,
+                "PRIORITY": 4,
+                "PRODUCT_ID": "100191",
+                "PRODUCT_NAME": "Beacon Jacket",
+                "RELATIONSHIP_TYPE": "related",
+                "SOURCE_PRODUCT_ID": "97602",
+                "SUMMARY": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features",
+                "discount_percent": 30,
+                "discounted_price": 70.85,
+                "has_promotion": true,
+                "image_url": "/static/product_images/100191.jpg",
+                "original_price": 101.21,
+                "price": 70.85,
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "promo_title": "Outdoor Spring Collection",
+                "savings": 30.36,
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              }
+            ],
+            "product_data": {
+              "PRICE": 999,
+              "PROMO_DESCRIPTION": "Genuine leather jacket - Save 30% now",
+              "PROMO_DISCOUNT_PERCENT": 30,
+              "PROMO_TITLE": "Premium Leather Special",
+              "categories": [
+                "Hyper Personalization Products",
+                "Jackets"
+              ],
+              "discount_percent": 30,
+              "discounted_price": 699.3,
+              "has_promotion": true,
+              "image_url": "/static/product_images/97602.jpg",
+              "original_price": 999,
+              "price": 699.3,
+              "product_id": "97602",
+              "product_name": "Leather Jacket",
+              "promo_title": "Premium Leather Special",
+              "savings": 299.7,
+              "summary": "A classic leather jacket that offers a stylish and edgy look"
+            },
+            "products_data": [
+              {
+                "PRICE": 999,
+                "PROMO_DESCRIPTION": "Genuine leather jacket - Save 30% now",
+                "PROMO_DISCOUNT_PERCENT": 30,
+                "PROMO_TITLE": "Premium Leather Special",
+                "categories": [
+                  "Hyper Personalization Products",
+                  "Jackets"
+                ],
+                "discount_percent": 30,
+                "discounted_price": 699.3,
+                "has_promotion": true,
+                "image_url": "/static/product_images/97602.jpg",
+                "original_price": 999,
+                "price": 699.3,
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "promo_title": "Premium Leather Special",
+                "savings": 299.7,
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              }
+            ],
+            "response_type": "product"
+          },
+          "metadata": {
+            "session_id": "session_1780975875592_jykj1vta1",
+            "products": [
+              {
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "price": 699.3,
+                "image_url": "/static/product_images/97602.jpg",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              }
+            ],
+            "response_type": "product",
+            "products_count": 1,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1780987149166,
+          "timestamp": "2026-06-09T06:39:09.166Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1780975875592_jykj1vta1",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        }
+      ],
+      "last_products": [
+        {
+          "product_id": "97602",
+          "product_name": "Leather Jacket",
+          "price": 699.3,
+          "image_url": "/static/product_images/97602.jpg",
+          "summary": "A classic leather jacket that offers a stylish and edgy look"
+        },
+        {
+          "product_id": "132871",
+          "product_name": "Limited Jacket",
+          "price": 137.66,
+          "image_url": "/static/product_images/132871.jpg",
+          "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+        },
+        {
+          "product_id": "103335",
+          "product_name": "Kelly Jacket Women",
+          "price": 58.28,
+          "image_url": "/static/product_images/103335.jpg",
+          "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+        },
+        {
+          "product_id": "94462",
+          "product_name": "Bender Jacket",
+          "price": 89.06,
+          "image_url": "/static/product_images/94462.jpg",
+          "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+        },
+        {
+          "product_id": "100191",
+          "product_name": "Beacon Jacket",
+          "price": 70.85,
+          "image_url": "/static/product_images/100191.jpg",
+          "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+        }
+      ],
+      "recent_displayed": [
+        {
+          "product_id": "97602",
+          "product_name": "Leather Jacket",
+          "price": 699.3,
+          "image_url": "/static/product_images/97602.jpg",
+          "summary": "A classic leather jacket that offers a stylish and edgy look"
+        },
+        {
+          "product_id": "132871",
+          "product_name": "Limited Jacket",
+          "price": 137.66,
+          "image_url": "/static/product_images/132871.jpg",
+          "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+        },
+        {
+          "product_id": "103335",
+          "product_name": "Kelly Jacket Women",
+          "price": 58.28,
+          "image_url": "/static/product_images/103335.jpg",
+          "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+        },
+        {
+          "product_id": "94462",
+          "product_name": "Bender Jacket",
+          "price": 89.06,
+          "image_url": "/static/product_images/94462.jpg",
+          "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+        },
+        {
+          "product_id": "100191",
+          "product_name": "Beacon Jacket",
+          "price": 70.85,
+          "image_url": "/static/product_images/100191.jpg",
+          "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+        }
+      ],
+      "context": [
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        },
+        {
+          "user": "Show me detailed information about product 97602",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "97602",
+              "product_name": "Leather Jacket",
+              "price": 699.3,
+              "image_url": "/static/product_images/97602.jpg",
+              "summary": "A classic leather jacket that offers a stylish and edgy look"
+            }
+          ],
+          "type": "product"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": "2026-06-09T12:09:16.331695",
+    "session_id": "0b5795d8-97b6-43bb-90f0-95db151ed580"
+  },
+  "result": {
+    "message": "Payment was cancelled by user"
+  },
+  "updated_at": "2026-06-09T12:09:29.970497"
+}

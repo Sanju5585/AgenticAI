@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Shopping Assistant - Smart Ecommerce</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Animate.css for animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  
+  <!-- AOS (Animate On Scroll) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/static/css/styles.css">
+  
+  <!-- Tailwind Configuration -->
+  <script src="/static/js/tailwind-config.js"></script>
+</head>
+<body class="font-inter bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 min-h-screen">
+  <!-- Animated Background Elements -->
+  <div class="fixed inset-0 overflow-hidden pointer-events-none">
+    <div class="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse-soft"></div>
+    <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-r from-yellow-400 to-red-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse-soft animation-delay-2000"></div>
+    <div class="absolute top-40 left-40 w-80 h-80 bg-gradient-to-r from-blue-400 to-indigo-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse-soft animation-delay-4000"></div>
+  </div>
+
+  <!-- Header Section -->
+  <header class="relative z-10 gradient-bg shadow-2xl">
+    <div class="container mx-auto px-6 py-8" data-aos="fade-down">
+      <div class="flex flex-col lg:flex-row items-center justify-between">
+        <!-- Logo and Branding -->
+        <div class="flex items-center space-x-6 mb-6 lg:mb-0" data-aos="slide-right">
+          <div class="relative">
+            <div class="w-16 h-16 lg:w-20 lg:h-20 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center shadow-xl">
+              <i class="fas fa-robot text-3xl lg:text-4xl text-white"></i>
+            </div>
+            <div class="absolute -top-2 -right-2 w-6 h-6 bg-green-400 rounded-full animate-pulse"></div>
+          </div>
+          <div class="text-white">
+            <h1 class="text-2xl lg:text-4xl font-bold font-poppins tracking-tight">
+              AI Shopping Assistant
+            </h1>
+            <p class="text-lg lg:text-xl font-light opacity-90 mt-1">
+              Your Intelligent Commerce Companion
+            </p>
+          </div>
+        </div>
+        
+        <!-- Feature Highlights -->
+        <div class="flex items-center space-x-8 text-white/90" data-aos="slide-left">
+          <div class="text-center">
+            <i class="fas fa-brain text-2xl mb-2 block animate-bounce-slow"></i>
+            <span class="text-sm font-medium">AI Powered</span>
+          </div>
+          <div class="text-center">
+            <i class="fas fa-search text-2xl mb-2 block animate-bounce-slow" style="animation-delay: 0.5s"></i>
+            <span class="text-sm font-medium">Smart Search</span>
+          </div>
+          <div class="text-center">
+            <i class="fas fa-shopping-bag text-2xl mb-2 block animate-bounce-slow" style="animation-delay: 1s"></i>
+            <span class="text-sm font-medium">Easy Shopping</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Section -->
+  <div class="relative z-10 mx-auto px-4 py-8" style="width: 90%; max-width: none;">
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+      
+      <!-- Chat Container -->
+      <div class="lg:col-span-3" data-aos="fade-up">
+        <div class="glass-effect rounded-3xl shadow-2xl border border-white/20">
+          <!-- Chat Header -->
+          <div class="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 px-6 py-4">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">
+                  <i class="fas fa-comments text-white text-lg"></i>
+                </div>
+                <div class="text-white">
+                  <h2 class="font-semibold text-lg">AI Assistant</h2>
+                  <p class="text-sm opacity-90">Always here to help</p>
+                </div>
+              </div>
+              
+              <!-- User Controls -->
+              <div class="flex items-center space-x-3">
+                <!-- Mini Cart Icon -->
+                <div class="relative">
+                  <button 
+                    id="mini-cart-btn" 
+                    onclick="toggleMiniCart()" 
+                    class="bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-full p-3 text-white transition-all duration-300 hover:scale-110 border border-white/30"
+                    title="View Cart"
+                  >
+                    <i class="fas fa-shopping-cart text-lg"></i>
+                    <span 
+                      id="cart-badge" 
+                      class="absolute -top-2 -right-2 bg-gradient-to-r from-red-500 to-pink-500 text-white text-xs rounded-full h-6 w-6 flex items-center justify-center font-bold hidden animate-pulse"
+                    >0</span>
+                  </button>
+                  
+                  <!-- Mini Cart Dropdown -->
+                  <div 
+                    id="mini-cart-dropdown" 
+                    class="absolute right-0 top-full mt-4 w-80 bg-white rounded-2xl shadow-2xl border border-purple-100 z-50 hidden opacity-0 transform translate-y-2 transition-all duration-300"
+                  >
+                    <div class="p-4 border-b border-gray-100">
+                      <div class="flex items-center justify-between">
+                        <h3 class="text-lg font-semibold text-gray-800 flex items-center">
+                          <i class="fas fa-shopping-cart text-purple-500 mr-2"></i>
+                          Your Cart
+                        </h3>
+                        <button 
+                          onclick="toggleMiniCart()" 
+                          class="text-gray-400 hover:text-gray-600 transition-colors"
+                        >
+                          <i class="fas fa-times"></i>
+                        </button>
+                      </div>
+                    </div>
+                    
+                    <!-- Cart Items Container -->
+                    <div id="cart-items" class="max-h-64 overflow-y-auto">
+                      <!-- Empty cart message -->
+                      <div id="empty-cart" class="p-8 text-center text-gray-500">
+                        <i class="fas fa-shopping-cart text-4xl mb-3 opacity-30"></i>
+                        <p class="text-sm">Your cart is empty</p>
+                        <p class="text-xs text-gray-400 mt-1">Add some products to get started</p>
+                      </div>
+                    </div>
+                    
+                    <!-- Cart Footer -->
+                    <div id="cart-footer" class="p-4 bg-gray-50 rounded-b-2xl hidden">
+                      <div class="flex items-center justify-between mb-3">
+                        <span class="font-semibold text-gray-700">Total:</span>
+                        <span id="cart-total" class="text-xl font-bold text-purple-600">£0.00</span>
+                      </div>
+                      <div class="flex space-x-2">
+                        <button 
+                          onclick="viewFullCart()" 
+                          class="flex-1 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white py-2 px-4 rounded-xl font-medium transition-all duration-300 text-sm"
+                        >
+                          View Cart
+                        </button>
+                        <button 
+                          onclick="clearCart()" 
+                          class="px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-xl transition-all duration-300 text-sm"
+                        >
+                          Clear
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Login/Logout Button -->
+                <div class="relative">
+                  <!-- Login Button (shown when not logged in) -->
+                  <button 
+                    id="login-btn"
+                    onclick="showLoginModal()" 
+                    class="bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-full px-6 py-2 text-white font-medium transition-all duration-300 hover:scale-105 border border-white/30 flex items-center space-x-2"
+                  >
+                    <i class="fas fa-sign-in-alt"></i>
+                    <span>Login</span>
+                  </button>
+                  
+                  <!-- User Info Button (shown when logged in) -->
+                  <div id="user-info-btn" class="hidden">
+                    <button 
+                      onclick="toggleUserMenu()"
+                      class="bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-full px-4 py-2 text-white font-medium transition-all duration-300 hover:scale-105 border border-white/30 flex items-center space-x-2"
+                    >
+                      <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
+                        <i class="fas fa-user text-white text-sm"></i>
+                      </div>
+                      <div class="text-left">
+                        <p id="logged-in-name" class="text-xs font-bold"></p>
+                        <p class="text-xs text-white/70">Logged In</p>
+                      </div>
+                      <i class="fas fa-chevron-down text-xs"></i>
+                    </button>
+                    
+                    <!-- User Dropdown Menu -->
+                    <div 
+                      id="user-menu-dropdown" 
+                      class="absolute right-0 top-full mt-2 w-64 bg-white rounded-2xl shadow-2xl border border-purple-100 z-50 hidden opacity-0 transform translate-y-2 transition-all duration-300"
+                    >
+                      <div class="p-4">
+                        <div class="flex items-center space-x-3 mb-4 pb-4 border-b border-gray-100">
+                          <div class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-user text-white text-lg"></i>
+                          </div>
+                          <div class="flex-1">
+                            <p id="user-menu-name" class="font-bold text-gray-800"></p>
+                            <p id="user-menu-email" class="text-xs text-gray-500"></p>
+                          </div>
+                        </div>
+                        <button 
+                          onclick="viewOrderHistory()"
+                          class="w-full text-left px-4 py-2 rounded-lg hover:bg-purple-50 transition-colors flex items-center space-x-2 text-gray-700"
+                        >
+                          <i class="fas fa-history text-purple-500"></i>
+                          <span>Order History</span>
+                        </button>
+                        <button 
+                          onclick="logout()" 
+                          class="w-full text-left px-4 py-2 rounded-lg hover:bg-red-50 transition-colors flex items-center space-x-2 text-red-600 mt-2"
+                        >
+                          <i class="fas fa-sign-out-alt"></i>
+                          <span>Logout</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Chat Messages Area -->
+          <div class="h-[500px] overflow-y-auto p-6 space-y-4 bg-gradient-to-b from-white/60 to-white/40 custom-scrollbar" id="chat-box">
+            <!-- Welcome Message -->
+            <div class="chat-bubble-bot p-4 max-w-4xl animate-slide-in">
+              <div class="flex items-start space-x-3">
+                <div class="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0">
+                  <i class="fas fa-robot text-white text-sm"></i>
+                </div>
+                <div>
+                  <p class="font-medium text-gray-800">Hello! I'm your AI shopping assistant.</p>
+                  <p class="text-gray-600 text-sm mt-1">How can I help you find the perfect products today?</p>
+                  <p class="text-gray-500 text-xs mt-2 italic">
+                    <i class="fas fa-info-circle mr-1"></i>
+                    Note: Your cart will be cleared when you refresh the page.
+                  </p>
+                  <p class="text-purple-600 text-xs mt-1 font-medium">
+                    <i class="fas fa-credit-card mr-1"></i>
+                    Secure PayPal checkout available - your session will be maintained during payment!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Chat Input Area -->
+          <div class="p-6 bg-white/70 border-t border-white/20">
+            <!-- Voice Search Container (will be dynamically inserted here) -->
+            
+            <div class="flex items-stretch space-x-3">
+              <div class="flex-1 relative">
+                <input 
+                  type="text" 
+                  id="query" 
+                  placeholder="Ask me anything about products..."
+                  class="w-full h-full px-6 py-3 rounded-full border-2 border-gray-200 focus:border-purple-500 focus:outline-none focus:ring-4 focus:ring-purple-500/20 transition-all duration-300 text-gray-700 bg-white shadow-lg"
+                />
+              </div>
+              <button 
+                onclick="submitQuery()"
+                class="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-3 rounded-full font-medium shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2 ai-glow whitespace-nowrap"
+              >
+                <i class="fas fa-paper-plane"></i>
+                <span>Send</span>
+              </button>
+            </div>
+          </div>
+          
+          <!-- Login Form (Hidden by default) -->
+          <div id="login-form" class="hidden p-6 bg-gradient-to-r from-blue-50 to-purple-50 border-t border-purple-200">
+            <div class="max-w-md mx-auto">
+              <div class="text-center mb-4">
+                <div class="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mb-3">
+                  <i class="fas fa-lock text-white text-xl"></i>
+                </div>
+                <h3 class="text-lg font-bold text-gray-800">Login Required</h3>
+                <p class="text-sm text-gray-600 mt-1">Please login to access orders or add items to cart</p>
+              </div>
+              
+              <form id="login-form-element" class="space-y-4">
+                <div class="relative">
+                  <input 
+                    type="email" 
+                    id="login-email" 
+                    placeholder="Enter your email address"
+                    required
+                    class="w-full px-4 py-3 rounded-xl border-2 border-purple-200 focus:border-purple-500 focus:outline-none focus:ring-4 focus:ring-purple-500/20 transition-all duration-300 text-gray-700 bg-white"
+                  />
+                  <i class="fas fa-envelope absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                </div>
+                
+                <div class="relative">
+                  <input 
+                    type="password" 
+                    id="login-password" 
+                    placeholder="Enter any password"
+                    required
+                    class="w-full px-4 py-3 rounded-xl border-2 border-purple-200 focus:border-purple-500 focus:outline-none focus:ring-4 focus:ring-purple-500/20 transition-all duration-300 text-gray-700 bg-white"
+                  />
+                  <i class="fas fa-lock absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                </div>
+                
+                <div class="text-xs text-gray-500 text-center">
+                  <i class="fas fa-info-circle mr-1"></i>
+                  Email must be registered in our system
+                </div>
+                
+                <div class="flex space-x-3">
+                  <button 
+                    type="submit"
+                    class="flex-1 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white py-3 px-6 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+                  >
+                    <i class="fas fa-sign-in-alt mr-2"></i>
+                    Login
+                  </button>
+                  <button 
+                    type="button"
+                    onclick="hideLoginForm()"
+                    class="px-6 py-3 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-xl transition-all duration-300"
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          
+          <!-- A2UI Cross-Sell Section (Below Chat Window) -->
+          <div id="crosssell-a2ui-section" class="hidden mt-6">
+            <!-- A2UI Connection Status -->
+            <div class="flex items-center justify-between mb-4 px-6">
+              <h3 class="text-lg font-semibold text-gray-800">
+                <i class="fas fa-star text-yellow-500 mr-2"></i>
+                You May Also Like
+              </h3>
+              <div class="flex items-center space-x-2 text-sm">
+                <i class="fas fa-plug text-gray-500"></i>
+                <span class="text-gray-600">A2UI:</span>
+                <span id="a2ui-connection-status" class="px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-600">
+                  Disconnected
+                </span>
+                <button onclick="testCrossSellA2UI()" class="ml-2 px-2 py-1 bg-blue-500 text-white text-xs rounded hover:bg-blue-600" title="Test A2UI Connection">
+                  Test
+                </button>
+              </div>
+            </div>
+            
+            <!-- Loading State -->
+            <div id="crosssell-a2ui-loading" class="hidden px-6"></div>
+            
+            <!-- Cross-Sell Carousel Container -->
+            <div id="crosssell-a2ui-container" class="px-6"></div>
+          </div>
+
+          <!-- ═══════════════════════════════════════════════════════════════ -->
+          <!-- 👗 OUTFIT BUILDER / "Complete the Look" Section (A2UI powered) -->
+          <!-- ═══════════════════════════════════════════════════════════════ -->
+          <div id="outfit-builder-section" class="hidden mt-6">
+
+            <!-- Header -->
+            <div class="flex items-center justify-between mb-4 px-6">
+              <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 flex items-center justify-center shadow-lg">
+                  <i class="fas fa-tshirt text-white text-sm"></i>
+                </div>
+                <div>
+                  <h3 class="text-lg font-bold text-gray-800">Complete the Look</h3>
+                  <p id="outfit-builder-subtitle" class="text-xs text-gray-500">Perfect pairings for your cart item</p>
+                </div>
+              </div>
+              <button onclick="document.getElementById('outfit-builder-section').classList.add('hidden')"
+                      class="text-gray-400 hover:text-gray-600 text-lg leading-none"
+                      title="Close">&times;</button>
+            </div>
+
+            <!-- Loading state -->
+            <div id="outfit-builder-loading" class="hidden px-6 py-4 text-center text-sm text-purple-600">
+              <i class="fas fa-spinner fa-spin mr-2"></i>
+              <span id="outfit-builder-loading-msg">Building your outfit…</span>
+            </div>
+
+            <!-- Outfit sections container — filled by A2UI WebSocket message -->
+            <div id="outfit-builder-container" class="px-4 pb-4 space-y-6"></div>
+          </div>
+          <!-- ═══════════════════════════════════════════════════════════ end outfit -->
+
+          <script>
+            // Test function for A2UI cross-sell
+            async function testCrossSellA2UI() {
+              console.log('🧪 Testing A2UI Cross-Sell...');
+              console.log('   A2UI Client:', window.a2uiClient);
+              console.log('   Session ID:', window.a2uiSessionId);
+              console.log('   Cross-Sell Handler:', window.crossSellHandler);
+              console.log('   A2UI Connected:', window.a2uiClient?.isConnected);
+              
+              // Use product 97602 which has cross-sell products in HANA DB
+              const testProductId = '97602';
+              console.log(`\n🔗 Testing with product: ${testProductId} (has cross-sell data)`);
+              
+              // Make sure A2UI is connected first
+              if (!window.a2uiSessionId || !window.a2uiClient?.isConnected) {
+                console.error('❌ A2UI not connected! Please wait for connection...');
+                alert('A2UI not connected yet. Please wait a moment and try again.');
+                return;
+              }
+              
+              console.log('   Calling loadCrossSellViaA2UI...');
+              
+              if (typeof loadCrossSellViaA2UI === 'function') {
+                await loadCrossSellViaA2UI(testProductId);
+              } else {
+                console.error('❌ loadCrossSellViaA2UI function not found!');
+              }
+            }
+            
+            // Test A2UI connection status
+            function checkA2UIStatus() {
+              console.log('🔍 A2UI Status Check:');
+              console.log('   Client exists:', !!window.a2uiClient);
+              console.log('   Connected:', window.a2uiClient?.isConnected);
+              console.log('   Session ID:', window.a2uiSessionId);
+              console.log('   Handler exists:', !!window.crossSellHandler);
+              console.log('   WebSocket:', window.a2uiClient?.ws);
+              console.log('   Module Handlers:', window.a2uiClient?.moduleHandlers);
+            }
+            
+            // Expose globally
+            window.testCrossSellA2UI = testCrossSellA2UI;
+            window.checkA2UIStatus = checkA2UIStatus;
+          </script>
+        </div>
+      </div>
+
+      <!-- Sidebar with Best Selling Products -->
+      <div class="lg:col-span-1" data-aos="fade-left">
+        <div class="glass-effect rounded-3xl shadow-2xl p-6 border border-white/20">
+          <!-- Section Header -->
+          <div class="text-center mb-6">
+            <div class="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full mb-4">
+              <i class="fas fa-fire text-white text-xl"></i>
+            </div>
+            <h2 class="text-2xl font-bold text-gray-800 font-poppins best-selling-section-title">
+              <i class="fas fa-fire text-orange-500"></i> Trending Now
+            </h2>
+            <p class="text-gray-600 mt-1 best-selling-section-subtitle">Our most popular products</p>
+          </div>
+          
+          <!-- Products Container -->
+          <div id="best-selling-carousel-container" class="relative">
+            <div id="best-selling-carousel" class="space-y-4 max-h-96 overflow-y-auto custom-scrollbar">
+              <!-- Loading State -->
+              <div class="flex items-center justify-center py-12 text-gray-500">
+                <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-purple-600 mr-3"></div>
+                <span class="text-sm">Loading trending products...</span>
+              </div>
+            </div>
+            
+            <!-- Navigation Buttons -->
+            <div class="hidden carousel-nav-controls mt-4 flex justify-center space-x-2">
+              <button 
+                onclick="scrollCarousel('best-selling-carousel', -240)"
+                class="w-8 h-8 bg-white/80 hover:bg-white rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110"
+              >
+                <i class="fas fa-chevron-left text-gray-600 text-sm"></i>
+              </button>
+              <button 
+                onclick="scrollCarousel('best-selling-carousel', 240)"
+                class="w-8 h-8 bg-white/80 hover:bg-white rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110"
+              >
+                <i class="fas fa-chevron-right text-gray-600 text-sm"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- AI Features Panel -->
+        <div class="glass-effect rounded-3xl shadow-2xl p-6 border border-white/20 mt-6" data-aos="fade-left" data-aos-delay="200">
+          <div class="text-center mb-4">
+            <div class="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-r from-green-400 to-blue-500 rounded-full mb-3">
+              <i class="fas fa-magic text-white text-xl"></i>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-800">AI Features</h3>
+          </div>
+          
+          <div class="space-y-3">
+            <div class="flex items-center space-x-3 p-3 bg-white/60 rounded-xl">
+              <i class="fas fa-search text-blue-500"></i>
+              <span class="text-sm text-gray-700">Smart Product Search</span>
+            </div>
+            <div class="flex items-center space-x-3 p-3 bg-white/60 rounded-xl">
+              <i class="fas fa-heart text-red-500"></i>
+              <span class="text-sm text-gray-700">Personalized Recommendations</span>
+            </div>
+            <div class="flex items-center space-x-3 p-3 bg-white/60 rounded-xl">
+              <i class="fas fa-chart-line text-green-500"></i>
+              <span class="text-sm text-gray-700">Price Comparison</span>
+            </div>
+            <div class="flex items-center space-x-3 p-3 bg-white/60 rounded-xl">
+              <i class="fas fa-clock text-purple-500"></i>
+              <span class="text-sm text-gray-700">24/7 Assistance</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Order History Section (Hidden by default, shown when logged in) -->
+    <div id="order-history-section" class="mt-12 hidden" data-aos="fade-up">
+      <div class="glass-effect rounded-3xl shadow-2xl p-8 border border-white/20">
+        <div class="flex items-center justify-between mb-6">
+          <div class="flex items-center space-x-3">
+            <div class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg">
+              <i class="fas fa-history text-white text-xl"></i>
+            </div>
+            <div>
+              <h2 class="text-2xl font-bold text-gray-800 font-poppins">Your Order History</h2>
+              <p class="text-gray-600 mt-1">Track and manage your orders</p>
+            </div>
+          </div>
+          <button 
+            onclick="closeOrderHistory()"
+            class="text-gray-400 hover:text-gray-600 transition-colors p-2"
+            title="Close"
+          >
+            <i class="fas fa-times text-2xl"></i>
+          </button>
+        </div>
+        
+        <!-- Order History Table -->
+        <div class="overflow-x-auto">
+          <div id="order-history-content" class="min-w-full">
+            <!-- Loading State -->
+            <div id="order-loading" class="flex items-center justify-center py-12">
+              <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600 mr-3"></div>
+              <span class="text-gray-600">Loading your orders...</span>
+            </div>
+            
+            <!-- No Orders State -->
+            <div id="no-orders" class="hidden text-center py-12">
+              <i class="fas fa-shopping-bag text-6xl text-gray-300 mb-4"></i>
+              <h3 class="text-xl font-bold text-gray-700 mb-2">No Orders Yet</h3>
+              <p class="text-gray-500">Start shopping to see your orders here!</p>
+            </div>
+            
+            <!-- Orders Table -->
+            <table id="orders-table" class="hidden min-w-full bg-white border border-gray-200 rounded-2xl overflow-hidden">
+              <thead class="bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
+                <tr>
+                  <th class="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider">Order ID</th>
+                  <th class="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider">Product</th>
+                  <th class="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider">Image</th>
+                  <th class="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider">Order Date</th>
+                  <th class="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider">Status</th>
+                  <th class="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider">Price</th>
+                </tr>
+              </thead>
+              <tbody id="orders-table-body" class="divide-y divide-gray-200">
+                <!-- Orders will be inserted here -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Featured Categories Section -->
+    <div class="mt-12" data-aos="fade-up">
+      <div class="text-center mb-8">
+        <h2 class="text-3xl font-bold text-gray-800 font-poppins">Shop by Category</h2>
+        <p class="text-gray-600 mt-2">Explore our wide range of products</p>
+      </div>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="glass-effect rounded-2xl p-6 text-center hover:shadow-xl transition-all duration-300 cursor-pointer group border border-white/20" data-category="electronics">
+          <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+            <i class="fas fa-laptop text-white text-2xl"></i>
+          </div>
+          <h3 class="font-semibold text-gray-800 mb-1">Electronics</h3>
+          <p class="text-sm text-gray-600">Latest gadgets</p>
+        </div>
+        
+        <div class="glass-effect rounded-2xl p-6 text-center hover:shadow-xl transition-all duration-300 cursor-pointer group border border-white/20" data-category="fashion">
+          <div class="w-16 h-16 bg-gradient-to-r from-pink-500 to-red-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+            <i class="fas fa-tshirt text-white text-2xl"></i>
+          </div>
+          <h3 class="font-semibold text-gray-800 mb-1">Fashion</h3>
+          <p class="text-sm text-gray-600">Trendy styles</p>
+        </div>
+        
+        <div class="glass-effect rounded-2xl p-6 text-center hover:shadow-xl transition-all duration-300 cursor-pointer group border border-white/20" data-category="home">
+          <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-teal-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+            <i class="fas fa-home text-white text-2xl"></i>
+          </div>
+          <h3 class="font-semibold text-gray-800 mb-1">Home</h3>
+          <p class="text-sm text-gray-600">Decor & more</p>
+        </div>
+        
+        <div class="glass-effect rounded-2xl p-6 text-center hover:shadow-xl transition-all duration-300 cursor-pointer group border border-white/20" data-category="sports">
+          <div class="w-16 h-16 bg-gradient-to-r from-yellow-500 to-orange-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+            <i class="fas fa-gamepad text-white text-2xl"></i>
+          </div>
+          <h3 class="font-semibold text-gray-800 mb-1">Sports</h3>
+          <p class="text-sm text-gray-600">Active lifestyle</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="relative z-10 bg-gradient-to-r from-gray-900 via-purple-900 to-gray-900 text-white mt-20">
+    <div class="container mx-auto px-6 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <!-- Brand Section -->
+        <div class="col-span-1 md:col-span-2">
+          <div class="flex items-center space-x-3 mb-4">
+            <div class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center">
+              <i class="fas fa-robot text-white text-xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold">AI Shopping Assistant</h3>
+          </div>
+          <p class="text-gray-300 mb-4 leading-relaxed">
+            Experience the future of online shopping with our AI-powered assistant. 
+            Get personalized recommendations, smart search results, and seamless shopping experience.
+          </p>
+          <div class="flex space-x-4">
+            <a href="#" class="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-all duration-300">
+              <i class="fab fa-facebook text-lg"></i>
+            </a>
+            <a href="#" class="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-all duration-300">
+              <i class="fab fa-twitter text-lg"></i>
+            </a>
+            <a href="#" class="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-all duration-300">
+              <i class="fab fa-instagram text-lg"></i>
+            </a>
+            <a href="#" class="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-all duration-300">
+              <i class="fab fa-linkedin text-lg"></i>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Quick Links -->
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">About Us</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">How It Works</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">AI Features</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Help Center</a></li>
+          </ul>
+        </div>
+        
+        <!-- Legal -->
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Legal</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Cookie Policy</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Bottom Section -->
+      <div class="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <p class="text-gray-400 text-sm">
+          &copy; 2025 AI Shopping Assistant. All rights reserved. Powered by advanced AI technology.
+        </p>
+        <div class="flex items-center space-x-4 mt-4 md:mt-0">
+          <span class="text-sm text-gray-400">Powered by</span>
+          <div class="flex items-center space-x-2 text-sm text-gray-300">
+            <i class="fas fa-brain text-purple-400"></i>
+            <span>OpenAI</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Login Modal -->
+  <div id="login-modal" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 hidden flex items-center justify-center">
+    <div class="bg-white rounded-3xl shadow-2xl max-w-md w-full mx-4 transform transition-all duration-300 scale-95 opacity-0" id="login-modal-content">
+      <div class="bg-gradient-to-r from-purple-600 to-indigo-600 text-white px-8 py-6 rounded-t-3xl">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-3">
+            <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
+              <i class="fas fa-user-circle text-2xl"></i>
+            </div>
+            <div>
+              <h3 class="text-2xl font-bold">Welcome Back!</h3>
+              <p class="text-sm opacity-90">Login to your account</p>
+            </div>
+          </div>
+          <button onclick="closeLoginModal()" class="text-white/70 hover:text-white transition-colors">
+            <i class="fas fa-times text-2xl"></i>
+          </button>
+        </div>
+      </div>
+      
+      <form id="login-modal-form" class="p-8 space-y-6">
+        <div class="relative">
+          <label class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+          <input 
+            type="email" 
+            id="modal-login-email" 
+            placeholder="Enter your email address"
+            required
+            class="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-purple-500 focus:outline-none focus:ring-4 focus:ring-purple-500/20 transition-all duration-300 text-gray-700"
+          />
+          <i class="fas fa-envelope absolute right-4 bottom-4 text-gray-400"></i>
+        </div>
+        
+        <div class="relative">
+          <label class="block text-sm font-medium text-gray-700 mb-2">Password</label>
+          <input 
+            type="password" 
+            id="modal-login-password" 
+            placeholder="Enter any password"
+            required
+            class="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-purple-500 focus:outline-none focus:ring-4 focus:ring-purple-500/20 transition-all duration-300 text-gray-700"
+          />
+          <i class="fas fa-lock absolute right-4 bottom-4 text-gray-400"></i>
+        </div>
+        
+        <div class="bg-blue-50 border border-blue-200 rounded-xl p-4">
+          <div class="flex items-start space-x-2">
+            <i class="fas fa-info-circle text-blue-500 mt-0.5"></i>
+            <p class="text-xs text-blue-700">
+              Email must be registered in our system.
+            </p>
+          </div>
+        </div>
+        
+        <button 
+          type="submit"
+          class="w-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white py-4 px-6 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+        >
+          <i class="fas fa-sign-in-alt mr-2"></i>
+          Login to Your Account
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- External Scripts -->
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- A2UI Protocol Client -->
+  <script src="/static/js/a2ui-client.js"></script>
+  
+  <!-- A2UI Initialization -->
+  <script>
+    // Initialize A2UI Client for Cross-Sell products
+    let a2uiClient = null;
+    let crossSellHandler = null;
+    
+    function initializeA2UI() {
+      console.log('🚀 Initializing A2UI for Cross-Sell products...');
+      
+      try {
+        // Create A2UI client
+        a2uiClient = new A2UIClient({
+          serverUrl: 'ws://localhost:8020',
+          debug: true,
+          reconnectInterval: 3000,
+          maxReconnectAttempts: 5
+        });
+        
+        console.log('✅ A2UIClient created');
+        
+        // Create cross-sell handler
+        crossSellHandler = new CrossSellA2UIHandler();
+        console.log('✅ CrossSellA2UIHandler created');
+        
+        // Store globally for access
+        window.a2uiClient = a2uiClient;
+        window.crossSellHandler = crossSellHandler;
+        
+        // Register cross-sell module
+        a2uiClient.registerModule('product_crosssell', (action, component, data, message) => {
+          console.log('🎯 Cross-sell module handler called!');
+          console.log('   Action:', action);
+          console.log('   Component:', component);
+          console.log('   Data:', data);
+          crossSellHandler.handle(action, component, data, message);
+        });
+        console.log('✅ Module handler registered for: product_crosssell');
+
+        // ── Outfit Builder module handler ───────────────────────────────────
+        a2uiClient.registerModule('outfit_builder', (action, component, data) => {
+          console.log('👗 Outfit Builder A2UI message:', action, component);
+          if (component === 'outfit_loading') {
+            const loadDiv = document.getElementById('outfit-builder-loading');
+            if (loadDiv) {
+              if (data.is_loading) {
+                loadDiv.classList.remove('hidden');
+                const msgEl = document.getElementById('outfit-builder-loading-msg');
+                if (msgEl) msgEl.textContent = data.message || 'Building your outfit…';
+              } else {
+                loadDiv.classList.add('hidden');
+              }
+            }
+          } else if (component === 'outfit_complete_look') {
+            renderOutfitBuilder(data);
+          }
+        });
+        console.log('✅ Module handler registered for: outfit_builder');
+        
+        // Connect to A2UI server
+        a2uiClient.connect();
+        console.log('✅ Connecting to A2UI server...');
+        
+        // Store session ID globally for API calls
+        window.a2uiSessionId = a2uiClient.getSessionId();
+        console.log('✅ A2UI initialized with session:', window.a2uiSessionId);
+        
+        // Add connection callback
+        a2uiClient.onConnect(() => {
+          console.log('🔗 A2UI Connection established!');
+          console.log('   Session ID:', window.a2uiSessionId);
+          console.log('   WebSocket ready for cross-sell updates');
+        });
+        
+        a2uiClient.onDisconnect(() => {
+          console.log('🔌 A2UI Connection lost');
+          console.warn('⚠️ Cross-sell updates may not work until reconnected');
+        });
+        
+        a2uiClient.onError((error) => {
+          console.error('❌ A2UI Error:', error);
+        });
+        
+      } catch (error) {
+        console.error('❌ Failed to initialize A2UI:', error);
+        console.error('Stack trace:', error.stack);
+      }
+    }
+    
+    // Initialize A2UI when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+      console.log('📄 DOM Content Loaded - Starting A2UI initialization');
+      initializeA2UI();
+    });
+    
+    // Also expose initializeA2UI globally for manual retry
+    window.initializeA2UI = initializeA2UI;
+  </script>
+  
+  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+  <!-- 👗 AI PERSONAL STYLIST MODAL                                          -->
+  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+  <div id="stylist-modal"
+       class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 hidden flex items-end sm:items-center justify-center p-4"
+       onclick="if(event.target===this) closeStylistModal()">
+
+    <div class="bg-white rounded-3xl shadow-2xl w-full max-w-lg flex flex-col"
+         style="max-height: 90vh;">
+
+      <!-- Header -->
+      <div class="flex items-center justify-between px-6 py-4 rounded-t-3xl"
+           style="background: linear-gradient(135deg, #7c3aed, #db2777);">
+        <div class="flex items-center space-x-3">
+          <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">
+            <i class="fas fa-magic text-white text-sm"></i>
+          </div>
+          <div>
+            <h3 class="text-white font-bold text-lg leading-tight">AI Personal Stylist</h3>
+            <p id="stylist-modal-subtitle" class="text-white/70 text-xs">Building your complete look…</p>
+          </div>
+        </div>
+        <button onclick="closeStylistModal()"
+                class="text-white/70 hover:text-white text-2xl leading-none">&times;</button>
+      </div>
+
+      <!-- Progress bar -->
+      <div class="h-1 bg-gray-100">
+        <div id="stylist-progress-bar"
+             class="h-1 transition-all duration-500"
+             style="width:0%; background: linear-gradient(90deg,#7c3aed,#db2777);"></div>
+      </div>
+
+      <!-- Chat messages area -->
+      <div id="stylist-chat-box"
+           class="flex-1 overflow-y-auto px-4 py-4 space-y-3"
+           style="min-height: 220px; max-height: 340px;"></div>
+
+      <!-- Quick-reply option buttons -->
+      <div id="stylist-options" class="px-4 pb-3 flex flex-wrap gap-2"></div>
+
+      <!-- Custom text input (visible only when needed) -->
+      <div id="stylist-input-row" class="px-4 pb-4 hidden">
+        <div class="flex space-x-2">
+          <input id="stylist-text-input"
+                 type="text"
+                 placeholder="Type your preference…"
+                 class="flex-1 border border-gray-300 rounded-xl px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-purple-400"
+                 onkeydown="if(event.key==='Enter') sendStylistMessage(document.getElementById('stylist-text-input').value)">
+          <button onclick="sendStylistMessage(document.getElementById('stylist-text-input').value)"
+                  class="px-4 py-2 rounded-xl text-white text-sm font-semibold"
+                  style="background: linear-gradient(135deg,#7c3aed,#db2777);">Send</button>
+        </div>
+      </div>
+
+      <!-- Outfit product results -->
+      <div id="stylist-outfit-results" class="hidden px-4 pb-5">
+        <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">Complete Your Look</p>
+        <div id="stylist-outfit-grid"
+             class="grid grid-cols-2 gap-3 overflow-y-auto"
+             style="max-height: 280px;"></div>
+        <button onclick="closeStylistModal()"
+                class="mt-4 w-full py-2 rounded-xl text-white text-sm font-semibold"
+                style="background: linear-gradient(135deg,#7c3aed,#db2777);">Done &mdash; Back to Shopping</button>
+      </div>
+    </div>
+  </div>
+  <!-- ══════════════════════════════════════════════════════════ end stylist -->
+
+  <!-- Voice Search Script -->
+  <script src="/static/js/voice-search.js"></script>
+  
+  <!-- Conversation Context Script -->
+  <script src="/static/js/conversation-context.js"></script>
+  
+  <!-- Main Application Script -->
+  <script src="/static/js/app.js?v=2026-05-26-carousel-fix"></script>
+</body>
+</html>

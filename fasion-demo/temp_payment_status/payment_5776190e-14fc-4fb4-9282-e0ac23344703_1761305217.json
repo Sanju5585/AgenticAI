@@ -1,0 +1,566 @@
+{
+  "session_id": "5776190e-14fc-4fb4-9282-e0ac23344703",
+  "status": "success",
+  "created_at": "2025-10-24T16:56:57.662228",
+  "payment_data": {
+    "customer_id": "william.hunter@pronto-hw.com",
+    "cart_items": [
+      {
+        "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNjY3NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1pOW9aRGt2T0RjNU5qZzFNamcwTmpZeU1pNXFjR2N8MTk3NTAxNDExMmRkM2MzZTMzNjBkNDQ1YjgxMjI5ODA3MzE0YTc0ZTgyM2RlZGQ2MWUzNzc5ODQxYTE1YzJhMg",
+        "price": 153.86,
+        "product_id": "100124",
+        "product_name": "Panorama Pants Women                                       ",
+        "quantity": 1,
+        "addedAt": "2025-10-24T11:26:52.839Z"
+      }
+    ],
+    "total_amount": 153.86,
+    "chat_history": [
+      {
+        "id": "msg_0",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n                <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n                  <i class=\"fas fa-robot text-white text-sm\"></i>\n                </div>\n                <div>\n                  <p class=\"font-medium text-gray-800\">Hello! I'm your AI shopping assistant.</p>\n                  <p class=\"text-gray-600 text-sm mt-1\">How can I help you find the perfect products today?</p>\n                  <p class=\"text-gray-500 text-xs mt-2 italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>\n                    Note: Your cart will be cleared when you refresh the page.\n                  </p>\n                  <p class=\"text-purple-600 text-xs mt-1 font-medium\">\n                    <i class=\"fas fa-credit-card mr-1\"></i>\n                    Secure PayPal checkout available - your session will be maintained during payment!\n                  </p>\n                </div>\n              </div>",
+        "timestamp": "2025-10-24T11:26:57.332Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_1",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n          <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n            <i class=\"fas fa-robot text-white text-sm\"></i>\n          </div>\n          <div class=\"flex-1\">\n            <p class=\"text-gray-800\">You have been logged out successfully. Your cart has been cleared.</p>\n          </div>\n        </div>",
+        "timestamp": "2025-10-24T11:26:57.332Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_2",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n    <div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; border-radius: 15px; margin: 10px 0; box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);\">\n      <div style=\"display: flex; align-items: center; margin-bottom: 20px;\">\n        <div style=\"background: rgba(255,255,255,0.2); border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-size: 24px;\">\n          \ud83d\udc4b\n        </div>\n        <div>\n          <h3 style=\"margin: 0; font-size: 22px; font-weight: 700;\">Welcome back, William Hunter!</h3>\n          <p style=\"margin: 5px 0 0 0; font-size: 14px; opacity: 0.9;\">Your personalized shopping experience is ready</p>\n        </div>\n      </div>\n  \n      <div style=\"background: rgba(255,255,255,0.15); padding: 18px; border-radius: 12px; margin-top: 15px;\">\n        <h4 style=\"margin: 0 0 15px 0; font-size: 16px; font-weight: 600; display: flex; align-items: center;\">\n          <i class=\"fas fa-history\" style=\"margin-right: 8px;\"></i>\n          Your Recent 5 Orders\n        </h4>\n    \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            \n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Tabloid Jacket Women                                       </div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 17 Oct 2025</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a352.61</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#2458</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNjIxMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNU1pOW9abVV2T0RjNU5qYzJOalkyTmpjNE1pNXFjR2N8ODRmMjYyZWVkN2QxMzE5MzllODE2YWE3OThiOTk1NTVkMWViNTY0ZDFlNTk0OTAyYWVhYjM2Njg1YTE1M2E0OQ\" alt=\"5 Pocket Freedom Pant burnt greens M\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">5 Pocket Freedom Pant burnt greens M</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 29 Jan 2024</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">OPEN</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a3103.15</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#2030</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA\" alt=\"Del Chaos Tee SS Youth white L\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Del Chaos Tee SS Youth white L</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 15 Jul 2023</span>\n                <span style=\"background: #10b981; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">APPROVED</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a326.20</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#2024</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA\" alt=\"Del Chaos Tee SS Youth white L\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Del Chaos Tee SS Youth white L</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 18 Jun 2022</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">OPEN</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a326.20</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#2028</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 0; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA\" alt=\"Del Chaos Tee SS Youth white L\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Del Chaos Tee SS Youth white L</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 22 Jul 2020</span>\n                <span style=\"background: #6b7280; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">READY</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a354.51</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#2026</div>\n          </div>\n        </div>\n      \n      </div>\n      <div style=\"margin-top: 15px; text-align: center; font-size: 13px; opacity: 0.9;\">\n        <i class=\"fas fa-info-circle\" style=\"margin-right: 5px;\"></i>\n        I've personalized your Trending Now section based on your purchase history!\n      </div>\n    \n    </div>\n  \n        </div>\n      </div>",
+        "timestamp": "2025-10-24T11:26:57.332Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_3",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2025-10-24T11:26:57.332Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_4",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n        <div class=\"bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4\" id=\"chat-cart-container\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart text-purple-500 mr-2\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold\" id=\"chat-cart-count\"><i class=\"fas fa-shopping-cart mr-1\"></i>1 item</div>\n            </div>\n            \n            <div id=\"chat-cart-items\" class=\"space-y-3 mb-4\">\n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3 flex-1\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNjY3NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1pOW9aRGt2T0RjNU5qZzFNamcwTmpZeU1pNXFjR2N8MTk3NTAxNDExMmRkM2MzZTMzNjBkNDQ1YjgxMjI5ODA3MzE0YTc0ZTgyM2RlZGQ2MWUzNzc5ODQxYTE1YzJhMg\" alt=\"Panorama Pants Women                                       \" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1 min-w-0\">\n            <h4 class=\"font-semibold text-gray-800 text-sm truncate\">Panorama Pants Women                                       </h4>\n            <p class=\"text-xs text-gray-500 mt-1\">\u00a3153.86 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 bg-purple-100 text-purple-800 rounded-full min-w-[2rem] text-center\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right ml-4\">\n          <p class=\"text-lg font-bold text-purple-600\">\u00a3153.86</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    </div>\n            \n            <div id=\"chat-cart-footer\" class=\"border-t border-purple-200 pt-4\">\n                <div class=\"flex items-center justify-between mb-4\">\n                    <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                    <span class=\"text-2xl font-bold text-purple-600\" id=\"chat-cart-total\">\u00a3153.86</span>\n                </div>\n                \n                <div class=\"text-center space-x-2\">\n                    <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-sync-alt mr-2\"></i>Refresh Cart\n                    </button>\n                    <button  class=\"bg-gradient-to-r hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl from-orange-500 to-yellow-500\" disabled=\"\"><i class=\"fas fa-spinner fa-spin mr-2\"></i>Preparing PayPal...</button>\n                </div>\n                \n                <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" onload=\"(function(){setTimeout(function(){if(typeof renderChatCart === &quot;function&quot;){console.log(&quot;\ud83d\uded2 Auto-triggering renderChatCart via image onload&quot;);renderChatCart();}},100);})()\" style=\"display:none;\">\n        \n        </div>\n      </div>",
+        "timestamp": "2025-10-24T11:26:57.332Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_5",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Ready for Checkout</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: \u00a3153.86</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u2728 Opening PayPal payment gateway...<br>\n          \ud83d\udd12 Secure payment processing<br>\n          \u26a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2025-10-24T11:26:57.332Z",
+        "messageType": "html"
+      }
+    ],
+    "conversation_context": {
+      "session_id": "session_1760523479140_dle8svjik",
+      "conversation_history": [
+        {
+          "id": 1761295594178,
+          "timestamp": "2025-10-24T08:46:34.178Z",
+          "user": "show me jackets",
+          "ai": {
+            "ai_response": "",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/trench-coat.jpg?context=bWFzdGVyfHJvb3R8MjIxMDB8aW1hZ2UvanBlZ3xhRFptTDJnMVlTODROemszTnpjNU9UVXhOalEyTG1wd1p3fGIyNTc5ODEyNmU1ZGYzOTEyNjA1YTE0NGM3ZDFkMzExNDE0MjMxOWE0OTBkNTk4OGFjOTM0MTI3ZWJkNzRjYzc",
+                "price": 650,
+                "product_id": "0031-1",
+                "product_name": "Trench Coat",
+                "summary": "A timeless and elegant trench coat"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY",
+                "price": 999,
+                "product_id": "0032-1",
+                "product_name": "Leather Jacket",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDU1N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnME9TOW9NbVV2T0RjNU5qWTRNRGd4TkRZeU1pNXFjR2N8YWJjZTY5NmZmOGMwODA0NjI4OWRjZjRmNDQ0MDU2ZWNmODE2YzlmNTlhYjc2ZjY0MTY0NjIxZGNmZWVlYjMwYg",
+                "price": 101.21,
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTUxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek15OW9Oek12T0RjNU5qWTRNelF6TmpBMk1pNXFjR2N8ZjRmOGIxMzEzZjBiOGRlZGRhZDg4YmNkZTA5MGFmNWM5NmQwNjEyNzExNjQxNGJjNWJjMTIyNzcxNzhjNDJlYQ",
+                "price": 80.96,
+                "product_id": "94474",
+                "product_name": "Trenchtown Jacket",
+                "summary": "So stylish and so cool - the Trenchtown jacket by Special Blend."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTM1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE15OW9OMlF2T0RjNU5qWTRPVFkyTVRrNE1pNXFjR2N8MWI0MzAxM2MyMzU0MWM4MTg5ZGU1NzdmOTgwNDk5MjBjNjIwNTNhMDBkN2NlOGUwNDE0ZjhkNTkyMWVkYjZjNA",
+                "price": 89.06,
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [
+              {
+                "product_id": "0031-1",
+                "product_name": "Trench Coat",
+                "price": 650,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/trench-coat.jpg?context=bWFzdGVyfHJvb3R8MjIxMDB8aW1hZ2UvanBlZ3xhRFptTDJnMVlTODROemszTnpjNU9UVXhOalEyTG1wd1p3fGIyNTc5ODEyNmU1ZGYzOTEyNjA1YTE0NGM3ZDFkMzExNDE0MjMxOWE0OTBkNTk4OGFjOTM0MTI3ZWJkNzRjYzc",
+                "summary": "A timeless and elegant trench coat"
+              },
+              {
+                "product_id": "0032-1",
+                "product_name": "Leather Jacket",
+                "price": 999,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 101.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDU1N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnME9TOW9NbVV2T0RjNU5qWTRNRGd4TkRZeU1pNXFjR2N8YWJjZTY5NmZmOGMwODA0NjI4OWRjZjRmNDQ0MDU2ZWNmODE2YzlmNTlhYjc2ZjY0MTY0NjIxZGNmZWVlYjMwYg",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              },
+              {
+                "product_id": "94474",
+                "product_name": "Trenchtown Jacket",
+                "price": 80.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTUxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek15OW9Oek12T0RjNU5qWTRNelF6TmpBMk1pNXFjR2N8ZjRmOGIxMzEzZjBiOGRlZGRhZDg4YmNkZTA5MGFmNWM5NmQwNjEyNzExNjQxNGJjNWJjMTIyNzcxNzhjNDJlYQ",
+                "summary": "So stylish and so cool - the Trenchtown jacket by Special Blend."
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTM1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE15OW9OMlF2T0RjNU5qWTRPVFkyTVRrNE1pNXFjR2N8MWI0MzAxM2MyMzU0MWM4MTg5ZGU1NzdmOTgwNDk5MjBjNjIwNTNhMDBkN2NlOGUwNDE0ZjhkNTkyMWVkYjZjNA",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "0031-1",
+                "product_name": "Trench Coat",
+                "price": 650,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/trench-coat.jpg?context=bWFzdGVyfHJvb3R8MjIxMDB8aW1hZ2UvanBlZ3xhRFptTDJnMVlTODROemszTnpjNU9UVXhOalEyTG1wd1p3fGIyNTc5ODEyNmU1ZGYzOTEyNjA1YTE0NGM3ZDFkMzExNDE0MjMxOWE0OTBkNTk4OGFjOTM0MTI3ZWJkNzRjYzc",
+                "summary": "A timeless and elegant trench coat"
+              },
+              {
+                "product_id": "0032-1",
+                "product_name": "Leather Jacket",
+                "price": 999,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 101.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDU1N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnME9TOW9NbVV2T0RjNU5qWTRNRGd4TkRZeU1pNXFjR2N8YWJjZTY5NmZmOGMwODA0NjI4OWRjZjRmNDQ0MDU2ZWNmODE2YzlmNTlhYjc2ZjY0MTY0NjIxZGNmZWVlYjMwYg",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              },
+              {
+                "product_id": "94474",
+                "product_name": "Trenchtown Jacket",
+                "price": 80.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTUxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek15OW9Oek12T0RjNU5qWTRNelF6TmpBMk1pNXFjR2N8ZjRmOGIxMzEzZjBiOGRlZGRhZDg4YmNkZTA5MGFmNWM5NmQwNjEyNzExNjQxNGJjNWJjMTIyNzcxNzhjNDJlYQ",
+                "summary": "So stylish and so cool - the Trenchtown jacket by Special Blend."
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTM1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE15OW9OMlF2T0RjNU5qWTRPVFkyTVRrNE1pNXFjR2N8MWI0MzAxM2MyMzU0MWM4MTg5ZGU1NzdmOTgwNDk5MjBjNjIwNTNhMDBkN2NlOGUwNDE0ZjhkNTkyMWVkYjZjNA",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2025-10-24T08:46:34.182Z"
+          }
+        },
+        {
+          "id": 1761295618369,
+          "timestamp": "2025-10-24T08:46:58.369Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <script>\n        (function() {\n            console.log('\ud83d\uded2 Cart display script executing...');\n            setTimeout(function() {\n                if (typeof renderChatCart === 'function') {\n                    console.log('\u2705 Calling renderChatCart');\n                    renderChatCart();\n                } else {\n                    console.error('\u274c renderChatCart not found');\n                }\n            }, 100);\n        })();\n        </script>\n        "
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761296074130,
+          "timestamp": "2025-10-24T08:54:34.130Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <script>\n        (function() {\n            console.log('\ud83d\uded2 Cart display script executing...');\n            setTimeout(function() {\n                if (typeof renderChatCart === 'function') {\n                    console.log('\u2705 Calling renderChatCart');\n                    renderChatCart();\n                } else {\n                    console.error('\u274c renderChatCart not found');\n                }\n            }, 100);\n        })();\n        </script>\n        "
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761296854286,
+          "timestamp": "2025-10-24T09:07:34.286Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        "
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761296990266,
+          "timestamp": "2025-10-24T09:09:50.266Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        "
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761297236733,
+          "timestamp": "2025-10-24T09:13:56.733Z",
+          "user": "show jackets",
+          "ai": {
+            "ai_response": "",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/trench-coat.jpg?context=bWFzdGVyfHJvb3R8MjIxMDB8aW1hZ2UvanBlZ3xhRFptTDJnMVlTODROemszTnpjNU9UVXhOalEyTG1wd1p3fGIyNTc5ODEyNmU1ZGYzOTEyNjA1YTE0NGM3ZDFkMzExNDE0MjMxOWE0OTBkNTk4OGFjOTM0MTI3ZWJkNzRjYzc",
+                "price": 650,
+                "product_id": "0031-1",
+                "product_name": "Trench Coat",
+                "summary": "A timeless and elegant trench coat"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY",
+                "price": 999,
+                "product_id": "0032-1",
+                "product_name": "Leather Jacket",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDU1N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnME9TOW9NbVV2T0RjNU5qWTRNRGd4TkRZeU1pNXFjR2N8YWJjZTY5NmZmOGMwODA0NjI4OWRjZjRmNDQ0MDU2ZWNmODE2YzlmNTlhYjc2ZjY0MTY0NjIxZGNmZWVlYjMwYg",
+                "price": 101.21,
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTUxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek15OW9Oek12T0RjNU5qWTRNelF6TmpBMk1pNXFjR2N8ZjRmOGIxMzEzZjBiOGRlZGRhZDg4YmNkZTA5MGFmNWM5NmQwNjEyNzExNjQxNGJjNWJjMTIyNzcxNzhjNDJlYQ",
+                "price": 80.96,
+                "product_id": "94474",
+                "product_name": "Trenchtown Jacket",
+                "summary": "So stylish and so cool - the Trenchtown jacket by Special Blend."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTM1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE15OW9OMlF2T0RjNU5qWTRPVFkyTVRrNE1pNXFjR2N8MWI0MzAxM2MyMzU0MWM4MTg5ZGU1NzdmOTgwNDk5MjBjNjIwNTNhMDBkN2NlOGUwNDE0ZjhkNTkyMWVkYjZjNA",
+                "price": 89.06,
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [
+              {
+                "product_id": "0031-1",
+                "product_name": "Trench Coat",
+                "price": 650,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/trench-coat.jpg?context=bWFzdGVyfHJvb3R8MjIxMDB8aW1hZ2UvanBlZ3xhRFptTDJnMVlTODROemszTnpjNU9UVXhOalEyTG1wd1p3fGIyNTc5ODEyNmU1ZGYzOTEyNjA1YTE0NGM3ZDFkMzExNDE0MjMxOWE0OTBkNTk4OGFjOTM0MTI3ZWJkNzRjYzc",
+                "summary": "A timeless and elegant trench coat"
+              },
+              {
+                "product_id": "0032-1",
+                "product_name": "Leather Jacket",
+                "price": 999,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 101.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDU1N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnME9TOW9NbVV2T0RjNU5qWTRNRGd4TkRZeU1pNXFjR2N8YWJjZTY5NmZmOGMwODA0NjI4OWRjZjRmNDQ0MDU2ZWNmODE2YzlmNTlhYjc2ZjY0MTY0NjIxZGNmZWVlYjMwYg",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              },
+              {
+                "product_id": "94474",
+                "product_name": "Trenchtown Jacket",
+                "price": 80.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTUxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek15OW9Oek12T0RjNU5qWTRNelF6TmpBMk1pNXFjR2N8ZjRmOGIxMzEzZjBiOGRlZGRhZDg4YmNkZTA5MGFmNWM5NmQwNjEyNzExNjQxNGJjNWJjMTIyNzcxNzhjNDJlYQ",
+                "summary": "So stylish and so cool - the Trenchtown jacket by Special Blend."
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTM1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE15OW9OMlF2T0RjNU5qWTRPVFkyTVRrNE1pNXFjR2N8MWI0MzAxM2MyMzU0MWM4MTg5ZGU1NzdmOTgwNDk5MjBjNjIwNTNhMDBkN2NlOGUwNDE0ZjhkNTkyMWVkYjZjNA",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "0031-1",
+                "product_name": "Trench Coat",
+                "price": 650,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/trench-coat.jpg?context=bWFzdGVyfHJvb3R8MjIxMDB8aW1hZ2UvanBlZ3xhRFptTDJnMVlTODROemszTnpjNU9UVXhOalEyTG1wd1p3fGIyNTc5ODEyNmU1ZGYzOTEyNjA1YTE0NGM3ZDFkMzExNDE0MjMxOWE0OTBkNTk4OGFjOTM0MTI3ZWJkNzRjYzc",
+                "summary": "A timeless and elegant trench coat"
+              },
+              {
+                "product_id": "0032-1",
+                "product_name": "Leather Jacket",
+                "price": 999,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 101.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDU1N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnME9TOW9NbVV2T0RjNU5qWTRNRGd4TkRZeU1pNXFjR2N8YWJjZTY5NmZmOGMwODA0NjI4OWRjZjRmNDQ0MDU2ZWNmODE2YzlmNTlhYjc2ZjY0MTY0NjIxZGNmZWVlYjMwYg",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              },
+              {
+                "product_id": "94474",
+                "product_name": "Trenchtown Jacket",
+                "price": 80.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTUxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek15OW9Oek12T0RjNU5qWTRNelF6TmpBMk1pNXFjR2N8ZjRmOGIxMzEzZjBiOGRlZGRhZDg4YmNkZTA5MGFmNWM5NmQwNjEyNzExNjQxNGJjNWJjMTIyNzcxNzhjNDJlYQ",
+                "summary": "So stylish and so cool - the Trenchtown jacket by Special Blend."
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTM1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE15OW9OMlF2T0RjNU5qWTRPVFkyTVRrNE1pNXFjR2N8MWI0MzAxM2MyMzU0MWM4MTg5ZGU1NzdmOTgwNDk5MjBjNjIwNTNhMDBkN2NlOGUwNDE0ZjhkNTkyMWVkYjZjNA",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2025-10-24T09:13:56.735Z"
+          }
+        },
+        {
+          "id": 1761297253049,
+          "timestamp": "2025-10-24T09:14:13.049Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761297518034,
+          "timestamp": "2025-10-24T09:18:38.034Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761297598808,
+          "timestamp": "2025-10-24T09:19:58.808Z",
+          "user": "show my orders",
+          "ai": {
+            "response": "\n    <div style='font-family: Arial, sans-serif; margin: 10px 0;'>\n        <h3 style='color: #667eea; margin-bottom: 15px;'>\n            <i class='fas fa-shopping-bag'></i> Your Order History (5 orders)\n        </h3>\n        <table style='width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);'>\n            <thead>\n                <tr style='background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;'>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Order ID</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Product</th>\n                    <th style='padding: 12px; text-align: center; font-weight: 600;'>Image</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Date</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Status</th>\n                    <th style='padding: 12px; text-align: right; font-weight: 600;'>Price</th>\n                </tr>\n            </thead>\n            <tbody>\n    \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2458</td>\n                    <td style='padding: 12px; color: #374151;'>Tabloid Jacket Women                                       </td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='None' alt='Tabloid Jacket Women                                       ' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2025-10-17 17:12:17</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>Open</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a352.61</td>\n                </tr>\n        \n                <tr style='background: #f9fafb; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2030</td>\n                    <td style='padding: 12px; color: #374151;'>5 Pocket Freedom Pant burnt greens M</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNjIxMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNU1pOW9abVV2T0RjNU5qYzJOalkyTmpjNE1pNXFjR2N8ODRmMjYyZWVkN2QxMzE5MzllODE2YWE3OThiOTk1NTVkMWViNTY0ZDFlNTk0OTAyYWVhYjM2Njg1YTE1M2E0OQ' alt='5 Pocket Freedom Pant burnt greens M' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2024-01-29</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>OPEN</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a3103.15</td>\n                </tr>\n        \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2024</td>\n                    <td style='padding: 12px; color: #374151;'>Del Chaos Tee SS Youth white L</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA' alt='Del Chaos Tee SS Youth white L' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2023-07-15</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #10b981; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>APPROVED</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a326.20</td>\n                </tr>\n        \n                <tr style='background: #f9fafb; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2028</td>\n                    <td style='padding: 12px; color: #374151;'>Del Chaos Tee SS Youth white L</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA' alt='Del Chaos Tee SS Youth white L' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2022-06-18</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>OPEN</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a326.20</td>\n                </tr>\n        \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2026</td>\n                    <td style='padding: 12px; color: #374151;'>Del Chaos Tee SS Youth white L</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA' alt='Del Chaos Tee SS Youth white L' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2020-07-22</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>READY</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a354.51</td>\n                </tr>\n        \n            </tbody>\n        </table>\n    </div>\n    "
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761305215776,
+          "timestamp": "2025-10-24T11:26:55.776Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        }
+      ],
+      "last_products": [
+        {
+          "product_id": "0031-1",
+          "product_name": "Trench Coat",
+          "price": 650,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/trench-coat.jpg?context=bWFzdGVyfHJvb3R8MjIxMDB8aW1hZ2UvanBlZ3xhRFptTDJnMVlTODROemszTnpjNU9UVXhOalEyTG1wd1p3fGIyNTc5ODEyNmU1ZGYzOTEyNjA1YTE0NGM3ZDFkMzExNDE0MjMxOWE0OTBkNTk4OGFjOTM0MTI3ZWJkNzRjYzc",
+          "summary": "A timeless and elegant trench coat"
+        },
+        {
+          "product_id": "0032-1",
+          "product_name": "Leather Jacket",
+          "price": 999,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/leather-jacket-1.jpg?context=bWFzdGVyfHJvb3R8MjIyMTl8aW1hZ2UvanBlZ3xhRGxtTDJneFl5ODRPREF3TmpFNU5USTRNakl5TG1wd1p3fGY0ZjQwYzEwOTNlN2IzMjRiY2MzOTcxNDMwMzgxMjY0Mzc3MTQ3MjY4ODY2ODUzMWM5ZGY4NzAzYjEyMDAxNjY",
+          "summary": "A classic leather jacket that offers a stylish and edgy look"
+        },
+        {
+          "product_id": "100191",
+          "product_name": "Beacon Jacket",
+          "price": 101.21,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMDU1N3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnME9TOW9NbVV2T0RjNU5qWTRNRGd4TkRZeU1pNXFjR2N8YWJjZTY5NmZmOGMwODA0NjI4OWRjZjRmNDQ0MDU2ZWNmODE2YzlmNTlhYjc2ZjY0MTY0NjIxZGNmZWVlYjMwYg",
+          "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+        },
+        {
+          "product_id": "94474",
+          "product_name": "Trenchtown Jacket",
+          "price": 80.96,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxOTUxOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek15OW9Oek12T0RjNU5qWTRNelF6TmpBMk1pNXFjR2N8ZjRmOGIxMzEzZjBiOGRlZGRhZDg4YmNkZTA5MGFmNWM5NmQwNjEyNzExNjQxNGJjNWJjMTIyNzcxNzhjNDJlYQ",
+          "summary": "So stylish and so cool - the Trenchtown jacket by Special Blend."
+        },
+        {
+          "product_id": "94462",
+          "product_name": "Bender Jacket",
+          "price": 89.06,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMTM1NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE15OW9OMlF2T0RjNU5qWTRPVFkyTVRrNE1pNXFjR2N8MWI0MzAxM2MyMzU0MWM4MTg5ZGU1NzdmOTgwNDk5MjBjNjIwNTNhMDBkN2NlOGUwNDE0ZjhkNTkyMWVkYjZjNA",
+          "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+        }
+      ],
+      "recent_displayed": [],
+      "context": [
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        },
+        {
+          "user": "show my orders",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": "2025-10-24T16:56:57.661935",
+    "session_id": "5776190e-14fc-4fb4-9282-e0ac23344703"
+  },
+  "result": {
+    "payment_id": "PAYID-ND5WFBY5FM416660S103524B",
+    "payer_id": "4KMQMCK8GJXF4",
+    "token": "EC-7LG32840PA049732S",
+    "order_result": {
+      "success": true,
+      "message": "Order #9847 created successfully!",
+      "order_details": {
+        "order_id": "9847",
+        "customer_id": "william.hunter@pronto-hw.com",
+        "order_date": "2025-10-24 16:57:29",
+        "total_price": 153.86,
+        "status": "Open",
+        "items_count": 1,
+        "items": [
+          {
+            "order_id": "9847",
+            "product_id": "100124",
+            "product_name": "Panorama Pants Women                                       ",
+            "price": 153.86,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "message": "Payment completed successfully!"
+  },
+  "updated_at": "2025-10-24T16:57:30.234920"
+}

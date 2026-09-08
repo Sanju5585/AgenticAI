@@ -1,0 +1,694 @@
+{
+  "session_id": "2fe0842e-b841-47d9-80e5-e62bdc6f0ca7",
+  "status": "success",
+  "created_at": "2025-10-26T18:08:12.216340",
+  "payment_data": {
+    "customer_id": "william.hunter@pronto-hw.com",
+    "cart_items": [
+      {
+        "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMjY1MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnellTOW9aR0l2T0RjNU5qZzFORGd4TWpjd01pNXFjR2N8MGVkOTQzOWE3YTA0MzJhNGQ4NGJmMWJlM2M2NWQyYWJhNzM4NTAxNmY4MDI3NmMyNjk1NTAzMDc3MTA0Y2FhZA",
+        "price": 202.46,
+        "product_id": "64389",
+        "product_name": "The Vega Women                                             ",
+        "quantity": 1,
+        "addedAt": "2025-10-26T12:37:51.207Z"
+      }
+    ],
+    "total_amount": 202.46,
+    "chat_history": [
+      {
+        "id": "msg_0",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n                <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n                  <i class=\"fas fa-robot text-white text-sm\"></i>\n                </div>\n                <div>\n                  <p class=\"font-medium text-gray-800\">Hello! I'm your AI shopping assistant.</p>\n                  <p class=\"text-gray-600 text-sm mt-1\">How can I help you find the perfect products today?</p>\n                  <p class=\"text-gray-500 text-xs mt-2 italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>\n                    Note: Your cart will be cleared when you refresh the page.\n                  </p>\n                  <p class=\"text-purple-600 text-xs mt-1 font-medium\">\n                    <i class=\"fas fa-credit-card mr-1\"></i>\n                    Secure PayPal checkout available - your session will be maintained during payment!\n                  </p>\n                </div>\n              </div>",
+        "timestamp": "2025-10-26T12:38:11.863Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_1",
+        "sender": "user",
+        "message": "mujhe kuch jute dikhao",
+        "timestamp": "2025-10-26T12:38:11.863Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_2",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"bg-gradient-to-br from-purple-50 via-white to-pink-50 rounded-3xl p-6 border border-purple-100\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs px-3 py-1 rounded-full\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white/70 backdrop-blur-sm rounded-full px-4 py-2 border border-purple-200 flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-purple-500 text-sm\"></i>\n                <span class=\"text-sm font-semibold text-purple-600\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1761481996491\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm\" alt=\"Sneakers Vans Old Skool black/white 12.0\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Sneakers Vans Old Skool black/white 12.0</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Classic Vans Old Skool in a black colourway.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a324.26</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm\" alt=\"Sneakers Vans Old Skool black/white 13.0\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Sneakers Vans Old Skool black/white 13.0</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Classic Vans Old Skool in a black colourway.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a350.96</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm\" alt=\"Sneakers Vans Old Skool black/white 11.5\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Sneakers Vans Old Skool black/white 11.5</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Classic Vans Old Skool in a black colourway.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a350.96</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm\" alt=\"Sneakers Vans Old Skool black/white 9.0\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Sneakers Vans Old Skool black/white 9.0</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Classic Vans Old Skool in a black colourway.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a359.46</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm\" alt=\"Sneakers Vans Old Skool black/white 11.0\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Sneakers Vans Old Skool black/white 11.0</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Classic Vans Old Skool in a black colourway.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a397.16</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2025-10-26T12:38:11.863Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_3",
+        "sender": "user",
+        "message": "who are you",
+        "timestamp": "2025-10-26T12:38:11.863Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_4",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          I am an AI shopping assistant. How can I help you today?\n        [STRUCTURED_RESPONSE: {\"ai_response\": \"I am an AI shopping assistant. How can I help you today?\"}]\n        \n        </div>\n      </div>",
+        "timestamp": "2025-10-26T12:38:11.863Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_5",
+        "sender": "user",
+        "message": "i am going for holiday can you suggest some products",
+        "timestamp": "2025-10-26T12:38:11.863Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_6",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          I can help you with that! To give you the best suggestions, could you tell me a bit more about your holiday? For example, where are you going, and what kind of activities will you be doing?\n        </div>\n      </div>",
+        "timestamp": "2025-10-26T12:38:11.863Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_7",
+        "sender": "user",
+        "message": "i am going to kashmir will do sikiing  can you suggest some ski products",
+        "timestamp": "2025-10-26T12:38:11.863Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_8",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"bg-gradient-to-br from-purple-50 via-white to-pink-50 rounded-3xl p-6 border border-purple-100\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs px-3 py-1 rounded-full\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white/70 backdrop-blur-sm rounded-full px-4 py-2 border border-purple-200 flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-purple-500 text-sm\"></i>\n                <span class=\"text-sm font-semibold text-purple-600\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1761482130163\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTMzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9NRFV2T0RjNU5qWTBPVEUyTURjek5DNXFjR2N8NDJkOGE0M2JkODgwOTk5N2I0MDNlNDQ2MmI4NmRiNjAyNTBkODdlMzZhNThjYzY0ZGM2YjIyZGE5N2RhODM3MQ\" alt=\"Snowboard Ski Tool Red Basic Kit\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Snowboard Ski Tool Red Basic Kit</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">BASIC KIT Satisfy your need for speed.  Includes + Zip Tool + Ceramic Stone + Rub-Down Wax + Stash Carry Pouch</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a329.71</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDQwMHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnelpDOW9Oek12T0RjNU5qWTBPRFUzTURreE1DNXFjR2N8ZTdkOGMwZTgyN2ExM2E0M2M5MjllMmZjZDkwNzE1ZTgxYzEzMDI1ZmRmNTNjMzA5NTM3ZjBiNDRmZDNmOWIzMg\" alt=\"Snowboard Ski Tool Red FBI 6\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Snowboard Ski Tool Red FBI 6</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">A pit crew for your pocket.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a321.21</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNDA3NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa055OW9ZakV2T0RjNU5qYzJOams1TkRRMk1pNXFjR2N8NWU3ZmYyZGY2NGIzM2JlZGMwY2ZjYTIzOWQxNzUyYWI2N2E1ZjZkYmFmYTg4MjVmMzM0YzlhYzc1NWE5MTQ2Nw\" alt=\"Limmer Pant\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Limmer Pant</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">The Limmer Pant by Zimtstern is a cargo snowboard pant that still offers everything you need despite their killer price.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a3113.36</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w5MjI4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmczTUM5b05ETXZPRGM1TmpZMU5ETXpPREEzT0M1cWNHY3w0YTAwZDAzNmYwMDJkNjMwMTg4MThjNDdhYzI1YjU1N2U2NzNjNjcxYTA1NzE2OGI0MTdhNTg1YWEyZDBkODNi\" alt=\"Snowboard Ski Tool Toko Skib\u00fcrste Kombi Nylon/Kupfer\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Snowboard Ski Tool Toko Skib\u00fcrste Kombi Nylon/Kupfer</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">An economical brush option of 1/2 nylon and 1/2 copper.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a3226.76</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w5NTYwfGltYWdlL2pwZWd8YVcxaFoyVnpMMmhpT0M5b1pURXZPRGM1TmpZME9EazJOREV5Tmk1cWNHY3wyZDZmNzEwYTZkYTQwMTA5N2M0YzM1YTI4NjY2M2FlMTE1NjgwNWM5MGE4ZmRmZjcwMjMxMzBmZmIyMTRhMmQy\" alt=\"Snowboard Ski Tool Toko Ergo Speed Top 88\u00b0/89\u00b0\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n            Featured\n          </div>\n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Snowboard Ski Tool Toko Ergo Speed Top 88\u00b0/89\u00b0</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Small handy tool for the preparing stages of the sidecute edges.Rotatable file discs with a lock mechanism provide for a 100% usable file material.Ideal also for on the way.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              <span class=\"text-xl font-bold text-purple-600\">\u00a376.46</span>\n                \n            </div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl group-hover:shadow-purple-500/25 flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2025-10-26T12:38:11.863Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_9",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n          <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n            <i class=\"fas fa-robot text-white text-sm\"></i>\n          </div>\n          <div class=\"flex-1\">\n            <p class=\"text-gray-800\">You have been logged out successfully. Your cart has been cleared.</p>\n          </div>\n        </div>",
+        "timestamp": "2025-10-26T12:38:11.863Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_10",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n    <div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; border-radius: 15px; margin: 10px 0; box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);\">\n      <div style=\"display: flex; align-items: center; margin-bottom: 20px;\">\n        <div style=\"background: rgba(255,255,255,0.2); border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-size: 24px;\">\n          \ud83d\udc4b\n        </div>\n        <div>\n          <h3 style=\"margin: 0; font-size: 22px; font-weight: 700;\">Welcome back, William Hunter!</h3>\n          <p style=\"margin: 5px 0 0 0; font-size: 14px; opacity: 0.9;\">Your personalized shopping experience is ready</p>\n        </div>\n      </div>\n  \n      <div style=\"background: rgba(255,255,255,0.15); padding: 18px; border-radius: 12px; margin-top: 15px;\">\n        <h4 style=\"margin: 0 0 15px 0; font-size: 16px; font-weight: 600; display: flex; align-items: center;\">\n          <i class=\"fas fa-history\" style=\"margin-right: 8px;\"></i>\n          Your Recent 5 Orders\n        </h4>\n    \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            \n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Panorama Pants Women                                       </div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 24 Oct 2025</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a3153.86</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#9847</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            \n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Tabloid Jacket Women                                       </div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 17 Oct 2025</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">Open</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a352.61</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#2458</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNjIxMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNU1pOW9abVV2T0RjNU5qYzJOalkyTmpjNE1pNXFjR2N8ODRmMjYyZWVkN2QxMzE5MzllODE2YWE3OThiOTk1NTVkMWViNTY0ZDFlNTk0OTAyYWVhYjM2Njg1YTE1M2E0OQ\" alt=\"5 Pocket Freedom Pant burnt greens M\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">5 Pocket Freedom Pant burnt greens M</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 29 Jan 2024</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">OPEN</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a3103.15</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#2030</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA\" alt=\"Del Chaos Tee SS Youth white L\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Del Chaos Tee SS Youth white L</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 15 Jul 2023</span>\n                <span style=\"background: #10b981; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">APPROVED</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a326.20</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#2024</div>\n          </div>\n        </div>\n      \n        <div style=\"background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px; margin-bottom: 0; display: flex; align-items: center; justify-content: space-between;\">\n          <div style=\"display: flex; align-items: center; flex: 1;\">\n            <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA\" alt=\"Del Chaos Tee SS Youth white L\" style=\"width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 12px; border: 2px solid rgba(255,255,255,0.3);\" onerror=\"this.style.display='none'\">\n            <div style=\"flex: 1; min-width: 0;\">\n              <div style=\"font-size: 13px; font-weight: 600; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;\">Del Chaos Tee SS Youth white L</div>\n              <div style=\"font-size: 11px; opacity: 0.8;\">\n                <span style=\"margin-right: 10px;\">\ud83d\udcc5 18 Jun 2022</span>\n                <span style=\"background: #3b82f6; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;\">OPEN</span>\n              </div>\n            </div>\n          </div>\n          <div style=\"text-align: right; margin-left: 12px;\">\n            <div style=\"font-size: 14px; font-weight: 700;\">\u00a326.20</div>\n            <div style=\"font-size: 10px; opacity: 0.7;\">#2028</div>\n          </div>\n        </div>\n      \n      </div>\n      <div style=\"margin-top: 15px; text-align: center; font-size: 13px; opacity: 0.9;\">\n        <i class=\"fas fa-info-circle\" style=\"margin-right: 5px;\"></i>\n        I've personalized your Trending Now section based on your purchase history!\n      </div>\n    \n    </div>\n  \n        </div>\n      </div>",
+        "timestamp": "2025-10-26T12:38:11.863Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_11",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2025-10-26T12:38:11.863Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_12",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n        <div class=\"bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4\" id=\"chat-cart-container\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart text-purple-500 mr-2\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold\" id=\"chat-cart-count\"><i class=\"fas fa-shopping-cart mr-1\"></i>1 item</div>\n            </div>\n            \n            <div id=\"chat-cart-items\" class=\"space-y-3 mb-4\">\n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3 flex-1\">\n          <img src=\"https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wyMjY1MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnellTOW9aR0l2T0RjNU5qZzFORGd4TWpjd01pNXFjR2N8MGVkOTQzOWE3YTA0MzJhNGQ4NGJmMWJlM2M2NWQyYWJhNzM4NTAxNmY4MDI3NmMyNjk1NTAzMDc3MTA0Y2FhZA\" alt=\"The Vega Women                                             \" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1 min-w-0\">\n            <h4 class=\"font-semibold text-gray-800 text-sm truncate\">The Vega Women                                             </h4>\n            <p class=\"text-xs text-gray-500 mt-1\">\u00a3202.46 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 bg-purple-100 text-purple-800 rounded-full min-w-[2rem] text-center\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right ml-4\">\n          <p class=\"text-lg font-bold text-purple-600\">\u00a3202.46</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    </div>\n            \n            <div id=\"chat-cart-footer\" class=\"border-t border-purple-200 pt-4\">\n                <div class=\"flex items-center justify-between mb-4\">\n                    <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                    <span class=\"text-2xl font-bold text-purple-600\" id=\"chat-cart-total\">\u00a3202.46</span>\n                </div>\n                \n                <div class=\"text-center space-x-2\">\n                    <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-sync-alt mr-2\"></i>Refresh Cart\n                    </button>\n                    <button  class=\"bg-gradient-to-r hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl from-orange-500 to-yellow-500\" disabled=\"\"><i class=\"fas fa-spinner fa-spin mr-2\"></i>Preparing PayPal...</button>\n                </div>\n                \n                <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" onload=\"(function(){setTimeout(function(){if(typeof renderChatCart === &quot;function&quot;){console.log(&quot;\ud83d\uded2 Auto-triggering renderChatCart via image onload&quot;);renderChatCart();}},100);})()\" style=\"display:none;\">\n        \n        </div>\n      </div>",
+        "timestamp": "2025-10-26T12:38:11.863Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_13",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Ready for Checkout</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: \u00a3202.46</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u2728 Opening PayPal payment gateway...<br>\n          \ud83d\udd12 Secure payment processing<br>\n          \u26a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2025-10-26T12:38:11.863Z",
+        "messageType": "html"
+      }
+    ],
+    "conversation_context": {
+      "session_id": "session_1760523479140_dle8svjik",
+      "conversation_history": [
+        {
+          "id": 1761297518034,
+          "timestamp": "2025-10-24T09:18:38.034Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761297598808,
+          "timestamp": "2025-10-24T09:19:58.808Z",
+          "user": "show my orders",
+          "ai": {
+            "response": "\n    <div style='font-family: Arial, sans-serif; margin: 10px 0;'>\n        <h3 style='color: #667eea; margin-bottom: 15px;'>\n            <i class='fas fa-shopping-bag'></i> Your Order History (5 orders)\n        </h3>\n        <table style='width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);'>\n            <thead>\n                <tr style='background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;'>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Order ID</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Product</th>\n                    <th style='padding: 12px; text-align: center; font-weight: 600;'>Image</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Date</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Status</th>\n                    <th style='padding: 12px; text-align: right; font-weight: 600;'>Price</th>\n                </tr>\n            </thead>\n            <tbody>\n    \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2458</td>\n                    <td style='padding: 12px; color: #374151;'>Tabloid Jacket Women                                       </td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='None' alt='Tabloid Jacket Women                                       ' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2025-10-17 17:12:17</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>Open</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a352.61</td>\n                </tr>\n        \n                <tr style='background: #f9fafb; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2030</td>\n                    <td style='padding: 12px; color: #374151;'>5 Pocket Freedom Pant burnt greens M</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNjIxMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNU1pOW9abVV2T0RjNU5qYzJOalkyTmpjNE1pNXFjR2N8ODRmMjYyZWVkN2QxMzE5MzllODE2YWE3OThiOTk1NTVkMWViNTY0ZDFlNTk0OTAyYWVhYjM2Njg1YTE1M2E0OQ' alt='5 Pocket Freedom Pant burnt greens M' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2024-01-29</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>OPEN</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a3103.15</td>\n                </tr>\n        \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2024</td>\n                    <td style='padding: 12px; color: #374151;'>Del Chaos Tee SS Youth white L</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA' alt='Del Chaos Tee SS Youth white L' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2023-07-15</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #10b981; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>APPROVED</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a326.20</td>\n                </tr>\n        \n                <tr style='background: #f9fafb; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2028</td>\n                    <td style='padding: 12px; color: #374151;'>Del Chaos Tee SS Youth white L</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA' alt='Del Chaos Tee SS Youth white L' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2022-06-18</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>OPEN</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a326.20</td>\n                </tr>\n        \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2026</td>\n                    <td style='padding: 12px; color: #374151;'>Del Chaos Tee SS Youth white L</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA' alt='Del Chaos Tee SS Youth white L' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2020-07-22</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>READY</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a354.51</td>\n                </tr>\n        \n            </tbody>\n        </table>\n    </div>\n    "
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761305215776,
+          "timestamp": "2025-10-24T11:26:55.776Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761305264951,
+          "timestamp": "2025-10-24T11:27:44.951Z",
+          "user": "show my orders",
+          "ai": {
+            "response": "\n    <div style='font-family: Arial, sans-serif; margin: 10px 0;'>\n        <h3 style='color: #667eea; margin-bottom: 15px;'>\n            <i class='fas fa-shopping-bag'></i> Your Order History (6 orders)\n        </h3>\n        <table style='width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);'>\n            <thead>\n                <tr style='background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;'>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Order ID</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Product</th>\n                    <th style='padding: 12px; text-align: center; font-weight: 600;'>Image</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Date</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Status</th>\n                    <th style='padding: 12px; text-align: right; font-weight: 600;'>Price</th>\n                </tr>\n            </thead>\n            <tbody>\n    \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#9847</td>\n                    <td style='padding: 12px; color: #374151;'>Panorama Pants Women                                       </td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='None' alt='Panorama Pants Women                                       ' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2025-10-24 16:57:29</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>Open</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a3153.86</td>\n                </tr>\n        \n                <tr style='background: #f9fafb; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2458</td>\n                    <td style='padding: 12px; color: #374151;'>Tabloid Jacket Women                                       </td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='None' alt='Tabloid Jacket Women                                       ' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2025-10-17 17:12:17</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>Open</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a352.61</td>\n                </tr>\n        \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2030</td>\n                    <td style='padding: 12px; color: #374151;'>5 Pocket Freedom Pant burnt greens M</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNjIxMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNU1pOW9abVV2T0RjNU5qYzJOalkyTmpjNE1pNXFjR2N8ODRmMjYyZWVkN2QxMzE5MzllODE2YWE3OThiOTk1NTVkMWViNTY0ZDFlNTk0OTAyYWVhYjM2Njg1YTE1M2E0OQ' alt='5 Pocket Freedom Pant burnt greens M' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2024-01-29</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>OPEN</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a3103.15</td>\n                </tr>\n        \n                <tr style='background: #f9fafb; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2024</td>\n                    <td style='padding: 12px; color: #374151;'>Del Chaos Tee SS Youth white L</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA' alt='Del Chaos Tee SS Youth white L' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2023-07-15</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #10b981; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>APPROVED</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a326.20</td>\n                </tr>\n        \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2028</td>\n                    <td style='padding: 12px; color: #374151;'>Del Chaos Tee SS Youth white L</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA' alt='Del Chaos Tee SS Youth white L' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2022-06-18</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>OPEN</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a326.20</td>\n                </tr>\n        \n                <tr style='background: #f9fafb; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2026</td>\n                    <td style='padding: 12px; color: #374151;'>Del Chaos Tee SS Youth white L</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA' alt='Del Chaos Tee SS Youth white L' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2020-07-22</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>READY</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a354.51</td>\n                </tr>\n        \n            </tbody>\n        </table>\n    </div>\n    "
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761305907993,
+          "timestamp": "2025-10-24T11:38:27.993Z",
+          "user": "show my orders",
+          "ai": {
+            "response": "\n    <div style='font-family: Arial, sans-serif; margin: 10px 0;'>\n        <h3 style='color: #667eea; margin-bottom: 15px;'>\n            <i class='fas fa-shopping-bag'></i> Your Order History (6 orders)\n        </h3>\n        <table style='width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);'>\n            <thead>\n                <tr style='background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;'>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Order ID</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Product</th>\n                    <th style='padding: 12px; text-align: center; font-weight: 600;'>Image</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Date</th>\n                    <th style='padding: 12px; text-align: left; font-weight: 600;'>Status</th>\n                    <th style='padding: 12px; text-align: right; font-weight: 600;'>Price</th>\n                </tr>\n            </thead>\n            <tbody>\n    \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#9847</td>\n                    <td style='padding: 12px; color: #374151;'>Panorama Pants Women                                       </td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNjY3NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1pOW9aRGt2T0RjNU5qZzFNamcwTmpZeU1pNXFjR2N8MTk3NTAxNDExMmRkM2MzZTMzNjBkNDQ1YjgxMjI5ODA3MzE0YTc0ZTgyM2RlZGQ2MWUzNzc5ODQxYTE1YzJhMg' alt='Panorama Pants Women                                       ' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2025-10-24 16:57:29</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>Open</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a3153.86</td>\n                </tr>\n        \n                <tr style='background: #f9fafb; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2458</td>\n                    <td style='padding: 12px; color: #374151;'>Tabloid Jacket Women                                       </td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxODUxM3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1lpOW9NREF2T0RjNU5qZ3dOamszTVRReU1pNXFjR2N8ZjNjNjc2MTA5NjZmZGE0Y2U0N2QzZTZiZTcxNzliYmRkZjMwNjMzOWU2ZTEwZjM0ZjY0NzZhMDBmMjQ0YjI2Nw' alt='Tabloid Jacket Women                                       ' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2025-10-17 17:12:17</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>Open</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a352.61</td>\n                </tr>\n        \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2030</td>\n                    <td style='padding: 12px; color: #374151;'>5 Pocket Freedom Pant burnt greens M</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNjIxMnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNU1pOW9abVV2T0RjNU5qYzJOalkyTmpjNE1pNXFjR2N8ODRmMjYyZWVkN2QxMzE5MzllODE2YWE3OThiOTk1NTVkMWViNTY0ZDFlNTk0OTAyYWVhYjM2Njg1YTE1M2E0OQ' alt='5 Pocket Freedom Pant burnt greens M' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2024-01-29</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>OPEN</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a3103.15</td>\n                </tr>\n        \n                <tr style='background: #f9fafb; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2024</td>\n                    <td style='padding: 12px; color: #374151;'>Del Chaos Tee SS Youth white L</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA' alt='Del Chaos Tee SS Youth white L' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2023-07-15</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #10b981; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>APPROVED</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a326.20</td>\n                </tr>\n        \n                <tr style='background: #ffffff; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2028</td>\n                    <td style='padding: 12px; color: #374151;'>Del Chaos Tee SS Youth white L</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA' alt='Del Chaos Tee SS Youth white L' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2022-06-18</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>OPEN</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a326.20</td>\n                </tr>\n        \n                <tr style='background: #f9fafb; border-bottom: 1px solid #e5e7eb;'>\n                    <td style='padding: 12px; font-weight: 600; color: #667eea;'>#2026</td>\n                    <td style='padding: 12px; color: #374151;'>Del Chaos Tee SS Youth white L</td>\n                    <td style='padding: 12px; text-align: center;'>\n                        <img src='https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wzMDU3NXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU1TOW9ZbUV2T0RjNU5qZzROVEk0TmprME1pNXFjR2N8Y2M1MmQ4ZDEyOTdmNzFlOGM4YWZlYTEwNjUwMmMwYTVlYTc5MjViOTBlZmEyZjAxNWNiNDdmMWYzOWRiMWY1MA' alt='Del Chaos Tee SS Youth white L' style='width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #e5e7eb;' onerror='this.src=\"https://via.placeholder.com/80\"'>\n                    </td>\n                    <td style='padding: 12px; color: #6b7280;'>2020-07-22</td>\n                    <td style='padding: 12px;'>\n                        <span style='background: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;'>READY</span>\n                    </td>\n                    <td style='padding: 12px; text-align: right; font-weight: 600; color: #10b981;'>\u00a354.51</td>\n                </tr>\n        \n            </tbody>\n        </table>\n    </div>\n    "
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761481996485,
+          "timestamp": "2025-10-26T12:33:16.485Z",
+          "user": "mujhe kuch jute dikhao",
+          "ai": {
+            "ai_response": "Here are some shoes I found for you:\n\n*   **Sneakers Vans Old Skool black/white 12.0**\n    Classic Vans Old Skool in a black colourway.\n    Price: $24.26\n*   **Sneakers Vans Old Skool black/white 13.0**\n    Classic Vans Old Skool in a black colourway.\n    Price: $50.96\n*   **Sneakers Vans Old Skool black/white 11.5**\n    Classic Vans Old Skool in a black colourway.\n    Price: $50.96\n*   **Sneakers Vans Old Skool black/white 9.0**\n    Classic Vans Old Skool in a black colourway.\n    Price: $59.46\n*   **Sneakers Vans Old Skool black/white 11.0**\n    Classic Vans Old Skool in a black colourway.\n    Price: $97.16\n\nWould you like to refine your search or see more options?",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "price": 24.26,
+                "product_id": "300026675",
+                "product_name": "Sneakers Vans Old Skool black/white 12.0",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "price": 50.96,
+                "product_id": "300036393",
+                "product_name": "Sneakers Vans Old Skool black/white 13.0",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "price": 50.96,
+                "product_id": "300036392",
+                "product_name": "Sneakers Vans Old Skool black/white 11.5",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "price": 59.46,
+                "product_id": "300026677",
+                "product_name": "Sneakers Vans Old Skool black/white 9.0",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "price": 97.16,
+                "product_id": "300026674",
+                "product_name": "Sneakers Vans Old Skool black/white 11.0",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [
+              {
+                "product_id": "300026675",
+                "product_name": "Sneakers Vans Old Skool black/white 12.0",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300036393",
+                "product_name": "Sneakers Vans Old Skool black/white 13.0",
+                "price": 50.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300036392",
+                "product_name": "Sneakers Vans Old Skool black/white 11.5",
+                "price": 50.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300026677",
+                "product_name": "Sneakers Vans Old Skool black/white 9.0",
+                "price": 59.46,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300026674",
+                "product_name": "Sneakers Vans Old Skool black/white 11.0",
+                "price": 97.16,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300026675",
+                "product_name": "Sneakers Vans Old Skool black/white 12.0",
+                "price": 24.26,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300036393",
+                "product_name": "Sneakers Vans Old Skool black/white 13.0",
+                "price": 50.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300036392",
+                "product_name": "Sneakers Vans Old Skool black/white 11.5",
+                "price": 50.96,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300026677",
+                "product_name": "Sneakers Vans Old Skool black/white 9.0",
+                "price": 59.46,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              },
+              {
+                "product_id": "300026674",
+                "product_name": "Sneakers Vans Old Skool black/white 11.0",
+                "price": 97.16,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w3Nzg4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc1T1M5b1pXVXZPRGM1TmpZMU5EY3pNVEk1TkM1cWNHY3xmM2M1YzQ1NThiYmI1NmYxMTRmNWUyNWIxOTJkMmFlYmM4NzBlZjgwZjRkMDcwMDk5NWRlNjM4MzYzY2YyNDNm",
+                "summary": "Classic Vans Old Skool in a black colourway."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2025-10-26T12:33:16.491Z"
+          }
+        },
+        {
+          "id": 1761482033434,
+          "timestamp": "2025-10-26T12:33:53.434Z",
+          "user": "who are you",
+          "ai": {
+            "response": "I am an AI shopping assistant. How can I help you today?\n        [STRUCTURED_RESPONSE: {\"ai_response\": \"I am an AI shopping assistant. How can I help you today?\"}]\n        "
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761482072252,
+          "timestamp": "2025-10-26T12:34:32.252Z",
+          "user": "i am going for holiday can you suggest some products",
+          "ai": {
+            "response": "I can help you with that! To give you the best suggestions, could you tell me a bit more about your holiday? For example, where are you going, and what kind of activities will you be doing?"
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1761482130160,
+          "timestamp": "2025-10-26T12:35:30.160Z",
+          "user": "i am going to kashmir will do sikiing  can you suggest some ski products",
+          "ai": {
+            "ai_response": "Here are some ski products that might be suitable for your trip to Kashmir:\n\n*   **Snowboard Ski Tool Red Basic Kit**\n    BASIC KIT Satisfy your need for speed. Includes + Zip Tool + Ceramic Stone + Rub-Down Wax + Stash Carry Pouch\n    Price: $29.71\n*   **Snowboard Ski Tool Red FBI 6**\n    A pit crew for your pocket.\n    Price: $21.21\n*   **Limmer Pant**\n    The Limmer Pant by Zimtstern is a cargo snowboard pant that still offers everything you need despite their killer price.\n    Price: $113.36\n*   **Snowboard Ski Tool Toko Skib\u00fcrste Kombi Nylon/Kupfer**\n    An economical brush option of 1/2 nylon and 1/2 copper.\n    Price: $226.76\n*   **Snowboard Ski Tool Toko Ergo Speed Top 88\u00b0/89\u00b0**\n    Small handy tool for the preparing stages of the sidecute edges.Rotatable file discs with a lock mechanism provide for a 100% usable file material.Ideal also for on the way.\n    Price: $76.46\n\nWould you like to see more options or refine your search?",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTMzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9NRFV2T0RjNU5qWTBPVEUyTURjek5DNXFjR2N8NDJkOGE0M2JkODgwOTk5N2I0MDNlNDQ2MmI4NmRiNjAyNTBkODdlMzZhNThjYzY0ZGM2YjIyZGE5N2RhODM3MQ",
+                "price": 29.71,
+                "product_id": "300044323",
+                "product_name": "Snowboard Ski Tool Red Basic Kit",
+                "summary": "BASIC KIT Satisfy your need for speed.  Includes + Zip Tool + Ceramic Stone + Rub-Down Wax + Stash Carry Pouch"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDQwMHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnelpDOW9Oek12T0RjNU5qWTBPRFUzTURreE1DNXFjR2N8ZTdkOGMwZTgyN2ExM2E0M2M5MjllMmZjZDkwNzE1ZTgxYzEzMDI1ZmRmNTNjMzA5NTM3ZjBiNDRmZDNmOWIzMg",
+                "price": 21.21,
+                "product_id": "300013358",
+                "product_name": "Snowboard Ski Tool Red FBI 6",
+                "summary": "A pit crew for your pocket."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNDA3NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa055OW9ZakV2T0RjNU5qYzJOams1TkRRMk1pNXFjR2N8NWU3ZmYyZGY2NGIzM2JlZGMwY2ZjYTIzOWQxNzUyYWI2N2E1ZjZkYmFmYTg4MjVmMzM0YzlhYzc1NWE5MTQ2Nw",
+                "price": 113.36,
+                "product_id": "94714",
+                "product_name": "Limmer Pant",
+                "summary": "The Limmer Pant by Zimtstern is a cargo snowboard pant that still offers everything you need despite their killer price."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w5MjI4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmczTUM5b05ETXZPRGM1TmpZMU5ETXpPREEzT0M1cWNHY3w0YTAwZDAzNmYwMDJkNjMwMTg4MThjNDdhYzI1YjU1N2U2NzNjNjcxYTA1NzE2OGI0MTdhNTg1YWEyZDBkODNi",
+                "price": 226.76,
+                "product_id": "45576",
+                "product_name": "Snowboard Ski Tool Toko Skib\u00fcrste Kombi Nylon/Kupfer",
+                "summary": "An economical brush option of 1/2 nylon and 1/2 copper."
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w5NTYwfGltYWdlL2pwZWd8YVcxaFoyVnpMMmhpT0M5b1pURXZPRGM1TmpZME9EazJOREV5Tmk1cWNHY3wyZDZmNzEwYTZkYTQwMTA5N2M0YzM1YTI4NjY2M2FlMTE1NjgwNWM5MGE4ZmRmZjcwMjMxMzBmZmIyMTRhMmQy",
+                "price": 76.46,
+                "product_id": "300022356",
+                "product_name": "Snowboard Ski Tool Toko Ergo Speed Top 88\u00b0/89\u00b0",
+                "summary": "Small handy tool for the preparing stages of the sidecute edges.Rotatable file discs with a lock mechanism provide for a 100% usable file material.Ideal also for on the way."
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [
+              {
+                "product_id": "300044323",
+                "product_name": "Snowboard Ski Tool Red Basic Kit",
+                "price": 29.71,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTMzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9NRFV2T0RjNU5qWTBPVEUyTURjek5DNXFjR2N8NDJkOGE0M2JkODgwOTk5N2I0MDNlNDQ2MmI4NmRiNjAyNTBkODdlMzZhNThjYzY0ZGM2YjIyZGE5N2RhODM3MQ",
+                "summary": "BASIC KIT Satisfy your need for speed.  Includes + Zip Tool + Ceramic Stone + Rub-Down Wax + Stash Carry Pouch"
+              },
+              {
+                "product_id": "300013358",
+                "product_name": "Snowboard Ski Tool Red FBI 6",
+                "price": 21.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDQwMHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnelpDOW9Oek12T0RjNU5qWTBPRFUzTURreE1DNXFjR2N8ZTdkOGMwZTgyN2ExM2E0M2M5MjllMmZjZDkwNzE1ZTgxYzEzMDI1ZmRmNTNjMzA5NTM3ZjBiNDRmZDNmOWIzMg",
+                "summary": "A pit crew for your pocket."
+              },
+              {
+                "product_id": "94714",
+                "product_name": "Limmer Pant",
+                "price": 113.36,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNDA3NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa055OW9ZakV2T0RjNU5qYzJOams1TkRRMk1pNXFjR2N8NWU3ZmYyZGY2NGIzM2JlZGMwY2ZjYTIzOWQxNzUyYWI2N2E1ZjZkYmFmYTg4MjVmMzM0YzlhYzc1NWE5MTQ2Nw",
+                "summary": "The Limmer Pant by Zimtstern is a cargo snowboard pant that still offers everything you need despite their killer price."
+              },
+              {
+                "product_id": "45576",
+                "product_name": "Snowboard Ski Tool Toko Skib\u00fcrste Kombi Nylon/Kupfer",
+                "price": 226.76,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w5MjI4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmczTUM5b05ETXZPRGM1TmpZMU5ETXpPREEzT0M1cWNHY3w0YTAwZDAzNmYwMDJkNjMwMTg4MThjNDdhYzI1YjU1N2U2NzNjNjcxYTA1NzE2OGI0MTdhNTg1YWEyZDBkODNi",
+                "summary": "An economical brush option of 1/2 nylon and 1/2 copper."
+              },
+              {
+                "product_id": "300022356",
+                "product_name": "Snowboard Ski Tool Toko Ergo Speed Top 88\u00b0/89\u00b0",
+                "price": 76.46,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w5NTYwfGltYWdlL2pwZWd8YVcxaFoyVnpMMmhpT0M5b1pURXZPRGM1TmpZME9EazJOREV5Tmk1cWNHY3wyZDZmNzEwYTZkYTQwMTA5N2M0YzM1YTI4NjY2M2FlMTE1NjgwNWM5MGE4ZmRmZjcwMjMxMzBmZmIyMTRhMmQy",
+                "summary": "Small handy tool for the preparing stages of the sidecute edges.Rotatable file discs with a lock mechanism provide for a 100% usable file material.Ideal also for on the way."
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300044323",
+                "product_name": "Snowboard Ski Tool Red Basic Kit",
+                "price": 29.71,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTMzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9NRFV2T0RjNU5qWTBPVEUyTURjek5DNXFjR2N8NDJkOGE0M2JkODgwOTk5N2I0MDNlNDQ2MmI4NmRiNjAyNTBkODdlMzZhNThjYzY0ZGM2YjIyZGE5N2RhODM3MQ",
+                "summary": "BASIC KIT Satisfy your need for speed.  Includes + Zip Tool + Ceramic Stone + Rub-Down Wax + Stash Carry Pouch"
+              },
+              {
+                "product_id": "300013358",
+                "product_name": "Snowboard Ski Tool Red FBI 6",
+                "price": 21.21,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDQwMHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnelpDOW9Oek12T0RjNU5qWTBPRFUzTURreE1DNXFjR2N8ZTdkOGMwZTgyN2ExM2E0M2M5MjllMmZjZDkwNzE1ZTgxYzEzMDI1ZmRmNTNjMzA5NTM3ZjBiNDRmZDNmOWIzMg",
+                "summary": "A pit crew for your pocket."
+              },
+              {
+                "product_id": "94714",
+                "product_name": "Limmer Pant",
+                "price": 113.36,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNDA3NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa055OW9ZakV2T0RjNU5qYzJOams1TkRRMk1pNXFjR2N8NWU3ZmYyZGY2NGIzM2JlZGMwY2ZjYTIzOWQxNzUyYWI2N2E1ZjZkYmFmYTg4MjVmMzM0YzlhYzc1NWE5MTQ2Nw",
+                "summary": "The Limmer Pant by Zimtstern is a cargo snowboard pant that still offers everything you need despite their killer price."
+              },
+              {
+                "product_id": "45576",
+                "product_name": "Snowboard Ski Tool Toko Skib\u00fcrste Kombi Nylon/Kupfer",
+                "price": 226.76,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w5MjI4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmczTUM5b05ETXZPRGM1TmpZMU5ETXpPREEzT0M1cWNHY3w0YTAwZDAzNmYwMDJkNjMwMTg4MThjNDdhYzI1YjU1N2U2NzNjNjcxYTA1NzE2OGI0MTdhNTg1YWEyZDBkODNi",
+                "summary": "An economical brush option of 1/2 nylon and 1/2 copper."
+              },
+              {
+                "product_id": "300022356",
+                "product_name": "Snowboard Ski Tool Toko Ergo Speed Top 88\u00b0/89\u00b0",
+                "price": 76.46,
+                "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w5NTYwfGltYWdlL2pwZWd8YVcxaFoyVnpMMmhpT0M5b1pURXZPRGM1TmpZME9EazJOREV5Tmk1cWNHY3wyZDZmNzEwYTZkYTQwMTA5N2M0YzM1YTI4NjY2M2FlMTE1NjgwNWM5MGE4ZmRmZjcwMjMxMzBmZmIyMTRhMmQy",
+                "summary": "Small handy tool for the preparing stages of the sidecute edges.Rotatable file discs with a lock mechanism provide for a 100% usable file material.Ideal also for on the way."
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2025-10-26T12:35:30.163Z"
+          }
+        },
+        {
+          "id": 1761482286942,
+          "timestamp": "2025-10-26T12:38:06.942Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1760523479140_dle8svjik",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        }
+      ],
+      "last_products": [
+        {
+          "product_id": "300044323",
+          "product_name": "Snowboard Ski Tool Red Basic Kit",
+          "price": 29.71,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTMzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9NRFV2T0RjNU5qWTBPVEUyTURjek5DNXFjR2N8NDJkOGE0M2JkODgwOTk5N2I0MDNlNDQ2MmI4NmRiNjAyNTBkODdlMzZhNThjYzY0ZGM2YjIyZGE5N2RhODM3MQ",
+          "summary": "BASIC KIT Satisfy your need for speed.  Includes + Zip Tool + Ceramic Stone + Rub-Down Wax + Stash Carry Pouch"
+        },
+        {
+          "product_id": "300013358",
+          "product_name": "Snowboard Ski Tool Red FBI 6",
+          "price": 21.21,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDQwMHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnelpDOW9Oek12T0RjNU5qWTBPRFUzTURreE1DNXFjR2N8ZTdkOGMwZTgyN2ExM2E0M2M5MjllMmZjZDkwNzE1ZTgxYzEzMDI1ZmRmNTNjMzA5NTM3ZjBiNDRmZDNmOWIzMg",
+          "summary": "A pit crew for your pocket."
+        },
+        {
+          "product_id": "94714",
+          "product_name": "Limmer Pant",
+          "price": 113.36,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNDA3NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa055OW9ZakV2T0RjNU5qYzJOams1TkRRMk1pNXFjR2N8NWU3ZmYyZGY2NGIzM2JlZGMwY2ZjYTIzOWQxNzUyYWI2N2E1ZjZkYmFmYTg4MjVmMzM0YzlhYzc1NWE5MTQ2Nw",
+          "summary": "The Limmer Pant by Zimtstern is a cargo snowboard pant that still offers everything you need despite their killer price."
+        },
+        {
+          "product_id": "45576",
+          "product_name": "Snowboard Ski Tool Toko Skib\u00fcrste Kombi Nylon/Kupfer",
+          "price": 226.76,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w5MjI4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmczTUM5b05ETXZPRGM1TmpZMU5ETXpPREEzT0M1cWNHY3w0YTAwZDAzNmYwMDJkNjMwMTg4MThjNDdhYzI1YjU1N2U2NzNjNjcxYTA1NzE2OGI0MTdhNTg1YWEyZDBkODNi",
+          "summary": "An economical brush option of 1/2 nylon and 1/2 copper."
+        },
+        {
+          "product_id": "300022356",
+          "product_name": "Snowboard Ski Tool Toko Ergo Speed Top 88\u00b0/89\u00b0",
+          "price": 76.46,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w5NTYwfGltYWdlL2pwZWd8YVcxaFoyVnpMMmhpT0M5b1pURXZPRGM1TmpZME9EazJOREV5Tmk1cWNHY3wyZDZmNzEwYTZkYTQwMTA5N2M0YzM1YTI4NjY2M2FlMTE1NjgwNWM5MGE4ZmRmZjcwMjMxMzBmZmIyMTRhMmQy",
+          "summary": "Small handy tool for the preparing stages of the sidecute edges.Rotatable file discs with a lock mechanism provide for a 100% usable file material.Ideal also for on the way."
+        }
+      ],
+      "recent_displayed": [
+        {
+          "product_id": "300044323",
+          "product_name": "Snowboard Ski Tool Red Basic Kit",
+          "price": 29.71,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTMzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9NRFV2T0RjNU5qWTBPVEUyTURjek5DNXFjR2N8NDJkOGE0M2JkODgwOTk5N2I0MDNlNDQ2MmI4NmRiNjAyNTBkODdlMzZhNThjYzY0ZGM2YjIyZGE5N2RhODM3MQ",
+          "summary": "BASIC KIT Satisfy your need for speed.  Includes + Zip Tool + Ceramic Stone + Rub-Down Wax + Stash Carry Pouch"
+        },
+        {
+          "product_id": "300013358",
+          "product_name": "Snowboard Ski Tool Red FBI 6",
+          "price": 21.21,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDQwMHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnelpDOW9Oek12T0RjNU5qWTBPRFUzTURreE1DNXFjR2N8ZTdkOGMwZTgyN2ExM2E0M2M5MjllMmZjZDkwNzE1ZTgxYzEzMDI1ZmRmNTNjMzA5NTM3ZjBiNDRmZDNmOWIzMg",
+          "summary": "A pit crew for your pocket."
+        },
+        {
+          "product_id": "94714",
+          "product_name": "Limmer Pant",
+          "price": 113.36,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNDA3NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa055OW9ZakV2T0RjNU5qYzJOams1TkRRMk1pNXFjR2N8NWU3ZmYyZGY2NGIzM2JlZGMwY2ZjYTIzOWQxNzUyYWI2N2E1ZjZkYmFmYTg4MjVmMzM0YzlhYzc1NWE5MTQ2Nw",
+          "summary": "The Limmer Pant by Zimtstern is a cargo snowboard pant that still offers everything you need despite their killer price."
+        },
+        {
+          "product_id": "45576",
+          "product_name": "Snowboard Ski Tool Toko Skib\u00fcrste Kombi Nylon/Kupfer",
+          "price": 226.76,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w5MjI4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmczTUM5b05ETXZPRGM1TmpZMU5ETXpPREEzT0M1cWNHY3w0YTAwZDAzNmYwMDJkNjMwMTg4MThjNDdhYzI1YjU1N2U2NzNjNjcxYTA1NzE2OGI0MTdhNTg1YWEyZDBkODNi",
+          "summary": "An economical brush option of 1/2 nylon and 1/2 copper."
+        },
+        {
+          "product_id": "300022356",
+          "product_name": "Snowboard Ski Tool Toko Ergo Speed Top 88\u00b0/89\u00b0",
+          "price": 76.46,
+          "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w5NTYwfGltYWdlL2pwZWd8YVcxaFoyVnpMMmhpT0M5b1pURXZPRGM1TmpZME9EazJOREV5Tmk1cWNHY3wyZDZmNzEwYTZkYTQwMTA5N2M0YzM1YTI4NjY2M2FlMTE1NjgwNWM5MGE4ZmRmZjcwMjMxMzBmZmIyMTRhMmQy",
+          "summary": "Small handy tool for the preparing stages of the sidecute edges.Rotatable file discs with a lock mechanism provide for a 100% usable file material.Ideal also for on the way."
+        }
+      ],
+      "context": [
+        {
+          "user": "i am going for holiday can you suggest some products",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        },
+        {
+          "user": "i am going to kashmir will do sikiing  can you suggest some ski products",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "300044323",
+              "product_name": "Snowboard Ski Tool Red Basic Kit",
+              "price": 29.71,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMTMzMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa1pDOW9NRFV2T0RjNU5qWTBPVEUyTURjek5DNXFjR2N8NDJkOGE0M2JkODgwOTk5N2I0MDNlNDQ2MmI4NmRiNjAyNTBkODdlMzZhNThjYzY0ZGM2YjIyZGE5N2RhODM3MQ",
+              "summary": "BASIC KIT Satisfy your need for speed.  Includes + Zip Tool + Ceramic Stone + Rub-Down Wax + Stash Carry Pouch"
+            },
+            {
+              "product_id": "300013358",
+              "product_name": "Snowboard Ski Tool Red FBI 6",
+              "price": 21.21,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxMDQwMHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnelpDOW9Oek12T0RjNU5qWTBPRFUzTURreE1DNXFjR2N8ZTdkOGMwZTgyN2ExM2E0M2M5MjllMmZjZDkwNzE1ZTgxYzEzMDI1ZmRmNTNjMzA5NTM3ZjBiNDRmZDNmOWIzMg",
+              "summary": "A pit crew for your pocket."
+            },
+            {
+              "product_id": "94714",
+              "product_name": "Limmer Pant",
+              "price": 113.36,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3wxNDA3NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa055OW9ZakV2T0RjNU5qYzJOams1TkRRMk1pNXFjR2N8NWU3ZmYyZGY2NGIzM2JlZGMwY2ZjYTIzOWQxNzUyYWI2N2E1ZjZkYmFmYTg4MjVmMzM0YzlhYzc1NWE5MTQ2Nw",
+              "summary": "The Limmer Pant by Zimtstern is a cargo snowboard pant that still offers everything you need despite their killer price."
+            },
+            {
+              "product_id": "45576",
+              "product_name": "Snowboard Ski Tool Toko Skib\u00fcrste Kombi Nylon/Kupfer",
+              "price": 226.76,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w5MjI4fGltYWdlL2pwZWd8YVcxaFoyVnpMMmczTUM5b05ETXZPRGM1TmpZMU5ETXpPREEzT0M1cWNHY3w0YTAwZDAzNmYwMDJkNjMwMTg4MThjNDdhYzI1YjU1N2U2NzNjNjcxYTA1NzE2OGI0MTdhNTg1YWEyZDBkODNi",
+              "summary": "An economical brush option of 1/2 nylon and 1/2 copper."
+            },
+            {
+              "product_id": "300022356",
+              "product_name": "Snowboard Ski Tool Toko Ergo Speed Top 88\u00b0/89\u00b0",
+              "price": 76.46,
+              "image_url": "https://ec2-3-17-109-117.us-east-2.compute.amazonaws.com:9002/medias/?context=bWFzdGVyfGltYWdlc3w5NTYwfGltYWdlL2pwZWd8YVcxaFoyVnpMMmhpT0M5b1pURXZPRGM1TmpZME9EazJOREV5Tmk1cWNHY3wyZDZmNzEwYTZkYTQwMTA5N2M0YzM1YTI4NjY2M2FlMTE1NjgwNWM5MGE4ZmRmZjcwMjMxMzBmZmIyMTRhMmQy",
+              "summary": "Small handy tool for the preparing stages of the sidecute edges.Rotatable file discs with a lock mechanism provide for a 100% usable file material.Ideal also for on the way."
+            }
+          ],
+          "type": "products_list"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": "2025-10-26T18:08:12.215649",
+    "session_id": "2fe0842e-b841-47d9-80e5-e62bdc6f0ca7"
+  },
+  "result": {
+    "payment_id": "PAYID-ND7BMOI5DV27532LA974684L",
+    "payer_id": "4KMQMCK8GJXF4",
+    "token": "EC-6XE48883AA899783B",
+    "order_result": {
+      "success": true,
+      "message": "Order #1021 created successfully!",
+      "order_details": {
+        "order_id": "1021",
+        "customer_id": "william.hunter@pronto-hw.com",
+        "order_date": "2025-10-26 18:08:45",
+        "total_price": 202.46,
+        "status": "Open",
+        "items_count": 1,
+        "items": [
+          {
+            "order_id": "1021",
+            "product_id": "64389",
+            "product_name": "The Vega Women                                             ",
+            "price": 202.46,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "message": "Payment completed successfully!"
+  },
+  "updated_at": "2025-10-26T18:08:46.395879"
+}

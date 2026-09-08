@@ -1,0 +1,1498 @@
+{
+  "session_id": "aeb28b41-a0cc-4579-b9e4-97575db477e9",
+  "status": "pending",
+  "created_at": "2026-05-09T14:05:29.926346",
+  "payment_data": {
+    "customer_id": "william.hunter@pronto-hw.com",
+    "cart_items": [
+      {
+        "discount_percent": 30,
+        "has_promotion": true,
+        "image_url": "/static/product_images/97602.jpg",
+        "original_price": 999,
+        "price": 699.3,
+        "product_id": "97602",
+        "product_name": "Leather Jacket",
+        "quantity": 1,
+        "savings": 299.7,
+        "addedAt": "2026-05-09T08:34:51.811Z"
+      }
+    ],
+    "total_amount": 699.3,
+    "chat_history": [
+      {
+        "id": "msg_0",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n                <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n                  <i class=\"fas fa-robot text-white text-sm\"></i>\n                </div>\n                <div>\n                  <p class=\"font-medium text-gray-800\">Hello! I'm your AI shopping assistant.</p>\n                  <p class=\"text-gray-600 text-sm mt-1\">How can I help you find the perfect products today?</p>\n                  <p class=\"text-gray-500 text-xs mt-2 italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>\n                    Note: Your cart will be cleared when you refresh the page.\n                  </p>\n                  <p class=\"text-purple-600 text-xs mt-1 font-medium\">\n                    <i class=\"fas fa-credit-card mr-1\"></i>\n                    Secure PayPal checkout available - your session will be maintained during payment!\n                  </p>\n                </div>\n              </div>",
+        "timestamp": "2026-05-09T08:35:29.908Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_1",
+        "sender": "user",
+        "message": "show jackets",
+        "timestamp": "2026-05-09T08:35:29.908Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_2",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n      <div class=\"relative\">\n        <div class=\"bg-gradient-to-br from-purple-50 via-white to-pink-50 rounded-3xl p-6 border border-purple-100\">\n          <div class=\"flex items-center justify-between mb-6\">\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg\">\n                <i class=\"fas fa-shopping-bag text-white text-lg\"></i>\n              </div>\n              <div>\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                  Product Collection\n                  <span class=\"ml-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs px-3 py-1 rounded-full\">5</span>\n                </h3>\n                <p class=\"text-sm text-gray-500 flex items-center mt-1\">\n                  <i class=\"fas fa-fire text-orange-500 mr-1\"></i>\n                  Trending products just for you\n                </p>\n              </div>\n            </div>\n            <div class=\"flex items-center space-x-3\">\n              <div class=\"bg-white/70 backdrop-blur-sm rounded-full px-4 py-2 border border-purple-200 flex items-center space-x-2\">\n                <i class=\"fas fa-eye text-purple-500 text-sm\"></i>\n                <span class=\"text-sm font-semibold text-purple-600\">View All</span>\n              </div>\n              <div class=\"flex space-x-2\">\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-left text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n                <button  class=\"w-10 h-10 bg-white hover:bg-purple-50 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-purple-200 group\">\n                  <i class=\"fas fa-chevron-right text-gray-600 group-hover:text-purple-600 transition-colors\"></i>\n                </button>\n              </div>\n            </div>\n          </div>\n          <div id=\"carousel-1778315679662\" class=\"flex space-x-5 overflow-x-auto pb-4 scroll-smooth custom-scrollbar\" style=\"scrollbar-width: none; -ms-overflow-style: none;\">\n            \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500 relative\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/97602.jpg\" alt=\"Leather Jacket\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          \n          \n            <div class=\"absolute top-3 right-3 bg-gradient-to-r from-red-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1.5 text-xs font-bold text-white shadow-lg transform -rotate-3 group-hover:rotate-0 transition-transform duration-300 z-10\">\n              <i class=\"fas fa-tag mr-1\"></i>30% OFF\n            </div>\n            <div class=\"absolute top-3 left-3 bg-green-500/90 backdrop-blur-sm rounded-lg px-2 py-1 text-xs font-semibold text-white shadow-lg\">\n              SALE\n            </div>\n          \n          \n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          \n            <div class=\"mb-2 text-xs text-red-600 font-semibold flex items-center\">\n              <i class=\"fas fa-fire mr-1 animate-pulse\"></i>\n              Premium Leather Special\n            </div>\n          \n          \n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Leather Jacket</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">A classic leather jacket that offers a stylish and edgy look</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              \n                <span class=\"text-sm text-gray-400 line-through\">\u00a3999.00</span>\n                <div class=\"flex items-center gap-2\">\n                  <span class=\"text-xl font-bold text-green-600\">\u00a3699.30</span>\n                  <span class=\"text-xs bg-red-100 text-red-600 px-2 py-0.5 rounded-full font-bold\">-30%</span>\n                </div>\n                <span class=\"text-xs text-green-600 font-semibold\">Save \u00a3299.70</span>\n              \n</div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full from-green-600 via-green-500 to-emerald-500 hover:from-green-700 hover:via-green-600 hover:to-emerald-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Get Deal</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500 relative\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/132871.jpg\" alt=\"Limited Jacket\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          \n          \n            <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n              Featured\n            </div>\n          \n          \n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          \n          \n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Limited Jacket</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way.</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              \n                <span class=\"text-xl font-bold text-purple-600\">\u00a3137.66</span>\n              \n</div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500 relative\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/103335.jpg\" alt=\"Kelly Jacket Women\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          \n          \n            <div class=\"absolute top-3 right-3 bg-gradient-to-r from-red-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1.5 text-xs font-bold text-white shadow-lg transform -rotate-3 group-hover:rotate-0 transition-transform duration-300 z-10\">\n              <i class=\"fas fa-tag mr-1\"></i>28% OFF\n            </div>\n            <div class=\"absolute top-3 left-3 bg-green-500/90 backdrop-blur-sm rounded-lg px-2 py-1 text-xs font-semibold text-white shadow-lg\">\n              SALE\n            </div>\n          \n          \n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          \n            <div class=\"mb-2 text-xs text-red-600 font-semibold flex items-center\">\n              <i class=\"fas fa-fire mr-1 animate-pulse\"></i>\n              Women's Spring Jacket Sale\n            </div>\n          \n          \n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Kelly Jacket Women</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">The Kelly Jacket by WLD is a top cut jacket for all the girls out there</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              \n                <span class=\"text-sm text-gray-400 line-through\">\u00a380.95</span>\n                <div class=\"flex items-center gap-2\">\n                  <span class=\"text-xl font-bold text-green-600\">\u00a358.28</span>\n                  <span class=\"text-xs bg-red-100 text-red-600 px-2 py-0.5 rounded-full font-bold\">-28%</span>\n                </div>\n                <span class=\"text-xs text-green-600 font-semibold\">Save \u00a322.67</span>\n              \n</div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-green-600 via-green-500 to-emerald-500 hover:from-green-700 hover:via-green-600 hover:to-emerald-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Get Deal</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500 relative\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/94462.jpg\" alt=\"Bender Jacket\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          \n          \n            <div class=\"absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold text-white shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300\">\n              Featured\n            </div>\n          \n          \n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          \n          \n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Bender Jacket</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              \n                <span class=\"text-xl font-bold text-purple-600\">\u00a389.06</span>\n              \n</div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-700 hover:via-purple-600 hover:to-pink-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Add to Cart</span>\n          </button>\n        </div>\n      </div>\n    \n      <div class=\"bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden product-card-modern border-2 border-purple-100/50 hover:border-purple-300/70 w-64 flex-shrink-0 group transition-all duration-500 relative\" >\n        <div class=\"relative overflow-hidden\">\n          <img src=\"/static/product_images/100191.jpg\" alt=\"Beacon Jacket\" class=\"w-full h-40 object-cover group-hover:scale-110 transition-transform duration-700\" onerror=\"this.style.display='none'\">\n          <div class=\"absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n          \n          \n            <div class=\"absolute top-3 right-3 bg-gradient-to-r from-red-500 to-pink-500 backdrop-blur-sm rounded-full px-3 py-1.5 text-xs font-bold text-white shadow-lg transform -rotate-3 group-hover:rotate-0 transition-transform duration-300 z-10\">\n              <i class=\"fas fa-tag mr-1\"></i>30% OFF\n            </div>\n            <div class=\"absolute top-3 left-3 bg-green-500/90 backdrop-blur-sm rounded-lg px-2 py-1 text-xs font-semibold text-white shadow-lg\">\n              SALE\n            </div>\n          \n          \n          <div class=\"absolute top-3 left-3 bg-white/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300\">\n            <i class=\"fas fa-heart text-white text-sm\"></i>\n          </div>\n        </div>\n        <div class=\"p-5\">\n          \n            <div class=\"mb-2 text-xs text-red-600 font-semibold flex items-center\">\n              <i class=\"fas fa-fire mr-1 animate-pulse\"></i>\n              Outdoor Spring Collection\n            </div>\n          \n          \n          <h3 class=\"font-bold text-gray-800 text-base mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors duration-300\">Beacon Jacket</h3>\n          <p class=\"text-gray-500 text-xs mb-4 line-clamp-2 leading-relaxed\">Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features</p>\n          \n          <div class=\"flex items-center justify-between mb-3\">\n            <div class=\"flex flex-col\">\n              \n                <span class=\"text-sm text-gray-400 line-through\">\u00a3101.21</span>\n                <div class=\"flex items-center gap-2\">\n                  <span class=\"text-xl font-bold text-green-600\">\u00a370.85</span>\n                  <span class=\"text-xs bg-red-100 text-red-600 px-2 py-0.5 rounded-full font-bold\">-30%</span>\n                </div>\n                <span class=\"text-xs text-green-600 font-semibold\">Save \u00a330.36</span>\n              \n</div>\n            <div class=\"flex items-center space-x-1\">\n              <div class=\"flex text-yellow-400\">\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star text-xs\"></i>\n                <i class=\"fas fa-star-half-alt text-xs\"></i>\n              </div>\n              <span class=\"text-xs text-gray-400\">(4.5)</span>\n            </div>\n          </div>\n          \n          <button  class=\"w-full bg-gradient-to-r from-green-600 via-green-500 to-emerald-500 hover:from-green-700 hover:via-green-600 hover:to-emerald-600 text-white py-2.5 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl flex items-center justify-center space-x-2\" title=\"Add to Cart\">\n            <i class=\"fas fa-cart-plus text-sm\"></i>\n            <span class=\"text-sm\">Get Deal</span>\n          </button>\n        </div>\n      </div>\n    \n          </div>\n        </div>\n      </div>\n    \n        </div>\n      </div>",
+        "timestamp": "2026-05-09T08:35:29.909Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_3",
+        "sender": "user",
+        "message": "Show my cart",
+        "timestamp": "2026-05-09T08:35:29.909Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_4",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \n        <div class=\"bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4\" id=\"chat-cart-container\">\n            <div class=\"flex items-center justify-between mb-4\">\n                <h3 class=\"text-xl font-bold text-gray-800 flex items-center\">\n                    <i class=\"fas fa-shopping-cart text-purple-500 mr-2\"></i>\n                    Your Shopping Cart\n                </h3>\n                <div class=\"bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold\" id=\"chat-cart-count\"><i class=\"fas fa-shopping-cart mr-1\"></i>1 item</div>\n            </div>\n            \n            <div id=\"chat-cart-items\" class=\"space-y-3 mb-4\">\n      <div class=\"flex items-center justify-between bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow\">\n        <div class=\"flex items-center space-x-3 flex-1\">\n          <img src=\"/static/product_images/97602.jpg\" alt=\"Leather Jacket\" class=\"w-16 h-16 object-cover rounded-lg border border-gray-200\" onerror=\"this.style.display='none'\">\n          <div class=\"flex-1 min-w-0\">\n            <h4 class=\"font-semibold text-gray-800 text-sm truncate\">Leather Jacket</h4>\n            <p class=\"text-xs text-gray-500 mt-1\">\u00a3699.30 each</p>\n            <div class=\"flex items-center space-x-2 mt-2\">\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-minus\"></i>\n              </button>\n              <span class=\"text-sm font-medium px-3 py-1 bg-purple-100 text-purple-800 rounded-full min-w-[2rem] text-center\">1</span>\n              <button  class=\"w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xs transition-colors border border-gray-300\">\n                <i class=\"fas fa-plus\"></i>\n              </button>\n            </div>\n          </div>\n        </div>\n        <div class=\"text-right ml-4\">\n          <p class=\"text-lg font-bold text-purple-600\">\u00a3699.30</p>\n          <button  class=\"text-xs text-red-500 hover:text-red-700 transition-colors mt-2 bg-red-50 hover:bg-red-100 px-2 py-1 rounded\">\n            <i class=\"fas fa-trash mr-1\"></i>Remove\n          </button>\n        </div>\n      </div>\n    </div>\n            \n            <div id=\"chat-cart-footer\" class=\"border-t border-purple-200 pt-4\">\n                <div class=\"flex items-center justify-between mb-4\">\n                    <span class=\"text-lg font-semibold text-gray-800\">Total:</span>\n                    <span class=\"text-2xl font-bold text-purple-600\" id=\"chat-cart-total\">\u00a3699.30</span>\n                </div>\n                \n                <div class=\"text-center space-x-2\">\n                    <button  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-sync-alt mr-2\"></i>Refresh Cart\n                    </button>\n                    <button  class=\"bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n                        <i class=\"fas fa-credit-card mr-2\"></i>Checkout\n                    </button>\n                </div>\n                \n                <div class=\"mt-3 text-xs text-gray-500 text-center italic\">\n                    <i class=\"fas fa-info-circle mr-1\"></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" onload=\"(function(){setTimeout(function(){if(typeof renderChatCart === &quot;function&quot;){console.log(&quot;\ud83d\uded2 Auto-triggering renderChatCart via image onload&quot;);renderChatCart();}},100);})()\" style=\"display:none;\">\n        \n        </div>\n      </div>",
+        "timestamp": "2026-05-09T08:35:29.909Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_5",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Ready for Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Order Summary</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: \u00a3699.30</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9; margin-bottom: 15px;\">\n          \ud83d\udce6 1 item in your cart<br>\n          \ud83d\udcb0 Total amount: \u00a3699.30<br>\n          \ud83d\udd12 Secure PayPal payment\n        </div>\n        <div style=\"background: rgba(255,255,255,0.15); padding: 12px; border-radius: 8px; font-size: 14px; margin-top: 10px;\">\n          <strong>\u26a1 Are you sure you want to proceed with the payment?</strong><br>\n          <span style=\"opacity: 0.9;\">Please reply with \"yes\" to confirm, or \"no\" to cancel.</span>\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-05-09T08:35:29.909Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_6",
+        "sender": "user",
+        "message": "yes",
+        "timestamp": "2026-05-09T08:35:29.909Z",
+        "messageType": "text"
+      },
+      {
+        "id": "msg_7",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \u2705 <strong>Payment Confirmed!</strong><br><br>\n          <div style=\"background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 15px; border-radius: 12px; margin: 10px 0;\">\n            <div style=\"display: flex; align-items-center;\">\n              <i class=\"fas fa-check-circle\" style=\"font-size: 20px; margin-right: 10px;\"></i>\n              <div style=\"font-size: 14px;\">\n                Great! Processing your payment now. Opening PayPal gateway...\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>",
+        "timestamp": "2026-05-09T08:35:29.909Z",
+        "messageType": "html"
+      },
+      {
+        "id": "msg_8",
+        "sender": "bot",
+        "message": "<div class=\"flex items-start space-x-3\">\n        <div class=\"w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0\">\n          <i class=\"fas fa-robot text-white text-sm\"></i>\n        </div>\n        <div class=\"flex-1\">\n          \ud83d\uded2 <strong>Processing Checkout</strong><br><br>\n      <div style=\"background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 20px; border-radius: 15px; margin: 10px 0;\">\n        <div style=\"display: flex; align-items-center; margin-bottom: 15px;\">\n          <i class=\"fas fa-shopping-cart\" style=\"font-size: 24px; margin-right: 10px;\"></i>\n          <div>\n            <div style=\"font-size: 18px; font-weight: bold;\">Processing Payment</div>\n            <div style=\"font-size: 14px; opacity: 0.9;\">1 item \u2022 Total: \u00a3699.30</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; opacity: 0.9;\">\n          \u2728 Opening PayPal payment gateway...<br>\n          \ud83d\udd12 Secure payment processing<br>\n          \u26a1 Keep this window open to see your payment status\n        </div>\n      </div>\n        </div>\n      </div>",
+        "timestamp": "2026-05-09T08:35:29.909Z",
+        "messageType": "html"
+      }
+    ],
+    "conversation_context": {
+      "session_id": "session_1778215907472_hwj4wubtk",
+      "conversation_history": [
+        {
+          "id": 1778307369816,
+          "timestamp": "2026-05-09T06:16:09.816Z",
+          "user": "show mobile smart phone",
+          "ai": {
+            "ai_response": "Here are some mobile smartphones I found:\n\n*   **Iqu Smarteasy Q50 Smartphone 5.5\" 16GB/2GB - Black**: Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black. Price: $179.0\n*   **Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone**: Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use. Price: $109.95\n*   **Phone Holder for Car Universal Windscreen Adjustable Black**: Universal adjustable black windscreen phone holder for secure hands-free in-car navigation. Price: $34.95\n*   **Blackview FORT 100 6.56\" HD+ Rugged Smartphone**: Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments. Price: $379.0\n*   **Oppo A6x 128GB (Ice Blue)**: Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity. Price: $227.0",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300104.jpg",
+                "payment_plans": [],
+                "price": 179,
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300100.jpg",
+                "payment_plans": [],
+                "price": 109.95,
+                "product_id": "300100",
+                "product_name": "Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone",
+                "summary": "Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300161.jpg",
+                "payment_plans": [],
+                "price": 34.95,
+                "product_id": "300161",
+                "product_name": "Phone Holder for Car Universal Windscreen Adjustable Black",
+                "summary": "Universal adjustable black windscreen phone holder for secure hands-free in-car navigation"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300107.jpg",
+                "payment_plans": [],
+                "price": 379,
+                "product_id": "300107",
+                "product_name": "Blackview FORT 100 6.56\" HD+ Rugged Smartphone",
+                "summary": "Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300109.jpg",
+                "payment_plans": [],
+                "price": 227,
+                "product_id": "300109",
+                "product_name": "Oppo A6x 128gb (ice Blue)",
+                "summary": "Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "price": 179,
+                "image_url": "/static/product_images/300104.jpg",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              },
+              {
+                "product_id": "300100",
+                "product_name": "Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone",
+                "price": 109.95,
+                "image_url": "/static/product_images/300100.jpg",
+                "summary": "Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use"
+              },
+              {
+                "product_id": "300161",
+                "product_name": "Phone Holder for Car Universal Windscreen Adjustable Black",
+                "price": 34.95,
+                "image_url": "/static/product_images/300161.jpg",
+                "summary": "Universal adjustable black windscreen phone holder for secure hands-free in-car navigation"
+              },
+              {
+                "product_id": "300107",
+                "product_name": "Blackview FORT 100 6.56\" HD+ Rugged Smartphone",
+                "price": 379,
+                "image_url": "/static/product_images/300107.jpg",
+                "summary": "Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments"
+              },
+              {
+                "product_id": "300109",
+                "product_name": "Oppo A6x 128gb (ice Blue)",
+                "price": 227,
+                "image_url": "/static/product_images/300109.jpg",
+                "summary": "Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "price": 179,
+                "image_url": "/static/product_images/300104.jpg",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              },
+              {
+                "product_id": "300100",
+                "product_name": "Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone",
+                "price": 109.95,
+                "image_url": "/static/product_images/300100.jpg",
+                "summary": "Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use"
+              },
+              {
+                "product_id": "300161",
+                "product_name": "Phone Holder for Car Universal Windscreen Adjustable Black",
+                "price": 34.95,
+                "image_url": "/static/product_images/300161.jpg",
+                "summary": "Universal adjustable black windscreen phone holder for secure hands-free in-car navigation"
+              },
+              {
+                "product_id": "300107",
+                "product_name": "Blackview FORT 100 6.56\" HD+ Rugged Smartphone",
+                "price": 379,
+                "image_url": "/static/product_images/300107.jpg",
+                "summary": "Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments"
+              },
+              {
+                "product_id": "300109",
+                "product_name": "Oppo A6x 128gb (ice Blue)",
+                "price": 227,
+                "image_url": "/static/product_images/300109.jpg",
+                "summary": "Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-05-09T06:16:09.818Z"
+          }
+        },
+        {
+          "id": 1778307400023,
+          "timestamp": "2026-05-09T06:16:40.023Z",
+          "user": "samsung mobile",
+          "ai": {
+            "ai_response": "Here are some Samsung mobile phones I found:\n\n*   **Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black**: Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black. Price: $179.0\n*   **Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone**: Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use. Price: $109.95\n*   **Phone Holder for Car Universal Windscreen Adjustable Black**: Universal adjustable black windscreen phone holder for secure hands-free in-car navigation. Price: $34.95\n*   **Blackview FORT 100 6.56\" HD+ Rugged Smartphone**: Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments. Price: $379.0\n*   **Oppo A6x 128gb (ice Blue)**: Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity. Price: $227.0",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300104.jpg",
+                "payment_plans": [],
+                "price": 179,
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300100.jpg",
+                "payment_plans": [],
+                "price": 109.95,
+                "product_id": "300100",
+                "product_name": "Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone",
+                "summary": "Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300107.jpg",
+                "payment_plans": [],
+                "price": 379,
+                "product_id": "300107",
+                "product_name": "Blackview FORT 100 6.56\" HD+ Rugged Smartphone",
+                "summary": "Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300161.jpg",
+                "payment_plans": [],
+                "price": 34.95,
+                "product_id": "300161",
+                "product_name": "Phone Holder for Car Universal Windscreen Adjustable Black",
+                "summary": "Universal adjustable black windscreen phone holder for secure hands-free in-car navigation"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300109.jpg",
+                "payment_plans": [],
+                "price": 227,
+                "product_id": "300109",
+                "product_name": "Oppo A6x 128gb (ice Blue)",
+                "summary": "Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "price": 179,
+                "image_url": "/static/product_images/300104.jpg",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              },
+              {
+                "product_id": "300100",
+                "product_name": "Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone",
+                "price": 109.95,
+                "image_url": "/static/product_images/300100.jpg",
+                "summary": "Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use"
+              },
+              {
+                "product_id": "300107",
+                "product_name": "Blackview FORT 100 6.56\" HD+ Rugged Smartphone",
+                "price": 379,
+                "image_url": "/static/product_images/300107.jpg",
+                "summary": "Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments"
+              },
+              {
+                "product_id": "300161",
+                "product_name": "Phone Holder for Car Universal Windscreen Adjustable Black",
+                "price": 34.95,
+                "image_url": "/static/product_images/300161.jpg",
+                "summary": "Universal adjustable black windscreen phone holder for secure hands-free in-car navigation"
+              },
+              {
+                "product_id": "300109",
+                "product_name": "Oppo A6x 128gb (ice Blue)",
+                "price": 227,
+                "image_url": "/static/product_images/300109.jpg",
+                "summary": "Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "price": 179,
+                "image_url": "/static/product_images/300104.jpg",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              },
+              {
+                "product_id": "300100",
+                "product_name": "Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone",
+                "price": 109.95,
+                "image_url": "/static/product_images/300100.jpg",
+                "summary": "Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use"
+              },
+              {
+                "product_id": "300107",
+                "product_name": "Blackview FORT 100 6.56\" HD+ Rugged Smartphone",
+                "price": 379,
+                "image_url": "/static/product_images/300107.jpg",
+                "summary": "Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments"
+              },
+              {
+                "product_id": "300161",
+                "product_name": "Phone Holder for Car Universal Windscreen Adjustable Black",
+                "price": 34.95,
+                "image_url": "/static/product_images/300161.jpg",
+                "summary": "Universal adjustable black windscreen phone holder for secure hands-free in-car navigation"
+              },
+              {
+                "product_id": "300109",
+                "product_name": "Oppo A6x 128gb (ice Blue)",
+                "price": 227,
+                "image_url": "/static/product_images/300109.jpg",
+                "summary": "Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-05-09T06:16:40.025Z"
+          }
+        },
+        {
+          "id": 1778307439187,
+          "timestamp": "2026-05-09T06:17:19.187Z",
+          "user": "show oppo mobile",
+          "ai": {
+            "ai_response": "Here are some Oppo mobile phones I found:\n\n*   **Oppo A6x 128gb (ice Blue)**: Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity. Price: $227.0\n        PRODUCT_CONTEXT_DATA: [{'product_id': '300109', 'product_name': 'Oppo A6x 128gb (ice Blue)', 'summary': 'Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity', 'price': 227.0, 'image_url': '/static/product_images/300109.jpg', 'PROMO_TITLE': '', 'PROMO_DESCRIPTION': '', 'PROMO_DISCOUNT_PERCENT': '', 'categories': [], 'payment_plans': []}]\n        \n        [STRUCTURED_PRODUCTS: [{\"product_id\": \"300109\", \"product_name\": \"Oppo A6x 128gb (ice Blue)\", \"summary\": \"Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity\", \"price\": 227.0, \"image_url\": \"/static/product_images/300109.jpg\", \"PROMO_TITLE\": \"\", \"PROMO_DESCRIPTION\": \"\", \"PROMO_DISCOUNT_PERCENT\": \"\", \"categories\": [], \"payment_plans\": []}]]\n        ",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300104.jpg",
+                "payment_plans": [],
+                "price": 179,
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300100.jpg",
+                "payment_plans": [],
+                "price": 109.95,
+                "product_id": "300100",
+                "product_name": "Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone",
+                "summary": "Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300107.jpg",
+                "payment_plans": [],
+                "price": 379,
+                "product_id": "300107",
+                "product_name": "Blackview FORT 100 6.56\" HD+ Rugged Smartphone",
+                "summary": "Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300161.jpg",
+                "payment_plans": [],
+                "price": 34.95,
+                "product_id": "300161",
+                "product_name": "Phone Holder for Car Universal Windscreen Adjustable Black",
+                "summary": "Universal adjustable black windscreen phone holder for secure hands-free in-car navigation"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300109.jpg",
+                "payment_plans": [],
+                "price": 227,
+                "product_id": "300109",
+                "product_name": "Oppo A6x 128gb (ice Blue)",
+                "summary": "Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "price": 179,
+                "image_url": "/static/product_images/300104.jpg",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              },
+              {
+                "product_id": "300100",
+                "product_name": "Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone",
+                "price": 109.95,
+                "image_url": "/static/product_images/300100.jpg",
+                "summary": "Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use"
+              },
+              {
+                "product_id": "300107",
+                "product_name": "Blackview FORT 100 6.56\" HD+ Rugged Smartphone",
+                "price": 379,
+                "image_url": "/static/product_images/300107.jpg",
+                "summary": "Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments"
+              },
+              {
+                "product_id": "300161",
+                "product_name": "Phone Holder for Car Universal Windscreen Adjustable Black",
+                "price": 34.95,
+                "image_url": "/static/product_images/300161.jpg",
+                "summary": "Universal adjustable black windscreen phone holder for secure hands-free in-car navigation"
+              },
+              {
+                "product_id": "300109",
+                "product_name": "Oppo A6x 128gb (ice Blue)",
+                "price": 227,
+                "image_url": "/static/product_images/300109.jpg",
+                "summary": "Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "price": 179,
+                "image_url": "/static/product_images/300104.jpg",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              },
+              {
+                "product_id": "300100",
+                "product_name": "Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone",
+                "price": 109.95,
+                "image_url": "/static/product_images/300100.jpg",
+                "summary": "Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use"
+              },
+              {
+                "product_id": "300107",
+                "product_name": "Blackview FORT 100 6.56\" HD+ Rugged Smartphone",
+                "price": 379,
+                "image_url": "/static/product_images/300107.jpg",
+                "summary": "Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments"
+              },
+              {
+                "product_id": "300161",
+                "product_name": "Phone Holder for Car Universal Windscreen Adjustable Black",
+                "price": 34.95,
+                "image_url": "/static/product_images/300161.jpg",
+                "summary": "Universal adjustable black windscreen phone holder for secure hands-free in-car navigation"
+              },
+              {
+                "product_id": "300109",
+                "product_name": "Oppo A6x 128gb (ice Blue)",
+                "price": 227,
+                "image_url": "/static/product_images/300109.jpg",
+                "summary": "Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-05-09T06:17:19.190Z"
+          }
+        },
+        {
+          "id": 1778307619582,
+          "timestamp": "2026-05-09T06:20:19.582Z",
+          "user": "show drill machine",
+          "ai": {
+            "ai_response": "Here are some drill machines I found:\n\n*   **Ryobi 18V ONE+ Drill Driver Starter Kit R18DD22**: Compact 18V ONE+ drill driver starter kit with battery and charger for everyday drilling tasks. Price: $99.98\n*   **Ozito Home 12V Cordless Drill Driver Kit**: Lightweight 12V cordless drill driver kit ideal for light-duty home DIY projects. Price: $49.98\n*   **Ozito PXC 18V Cordless Drill Driver Kit PXDDK-250C**: Powerful PXC 18V cordless drill driver kit with battery and charger for versatile performance. Price: $89.98\n*   **Ryobi 18V ONE+ Hammer Drill & Impact Driver Kit R18X2C14**: Dual-tool 18V ONE+ kit combining hammer drill and impact driver for heavy-duty fastening. Price: $199.0\n*   **Ryobi 50 Piece Impact Drill And Drive Set**: High-performance Ryobi 50-piece impact drill and drive set with impact-rated bits for tough fastening applications. Price: $32.99",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300053.jpg",
+                "payment_plans": [],
+                "price": 99.98,
+                "product_id": "300053",
+                "product_name": "Ryobi 18V ONE+ Drill Driver Starter Kit R18DD22",
+                "summary": "Compact 18V ONE+ drill driver starter kit with battery and charger for everyday drilling tasks"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300055.jpg",
+                "payment_plans": [],
+                "price": 49.98,
+                "product_id": "300055",
+                "product_name": "Ozito Home 12V Cordless Drill Driver Kit",
+                "summary": "Lightweight 12V cordless drill driver kit ideal for light-duty home DIY projects"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300059.jpg",
+                "payment_plans": [],
+                "price": 89.98,
+                "product_id": "300059",
+                "product_name": "Ozito PXC 18V Cordless Drill Driver Kit PXDDK-250C",
+                "summary": "Powerful PXC 18V cordless drill driver kit with battery and charger for versatile performance"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300060.jpg",
+                "payment_plans": [],
+                "price": 199,
+                "product_id": "300060",
+                "product_name": "Ryobi 18V ONE+ Hammer Drill & Impact Driver Kit R18X2C14",
+                "summary": "Dual-tool 18V ONE+ kit combining hammer drill and impact driver for heavy-duty fastening"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300220.jpg",
+                "payment_plans": [],
+                "price": 32.99,
+                "product_id": "300220",
+                "product_name": "Ryobi 50 Piece Impact Drill And Drive Set",
+                "summary": "High-performance Ryobi 50-piece impact drill and drive set with impact-rated bits for tough fastening applications"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300053",
+                "product_name": "Ryobi 18V ONE+ Drill Driver Starter Kit R18DD22",
+                "price": 99.98,
+                "image_url": "/static/product_images/300053.jpg",
+                "summary": "Compact 18V ONE+ drill driver starter kit with battery and charger for everyday drilling tasks"
+              },
+              {
+                "product_id": "300055",
+                "product_name": "Ozito Home 12V Cordless Drill Driver Kit",
+                "price": 49.98,
+                "image_url": "/static/product_images/300055.jpg",
+                "summary": "Lightweight 12V cordless drill driver kit ideal for light-duty home DIY projects"
+              },
+              {
+                "product_id": "300059",
+                "product_name": "Ozito PXC 18V Cordless Drill Driver Kit PXDDK-250C",
+                "price": 89.98,
+                "image_url": "/static/product_images/300059.jpg",
+                "summary": "Powerful PXC 18V cordless drill driver kit with battery and charger for versatile performance"
+              },
+              {
+                "product_id": "300060",
+                "product_name": "Ryobi 18V ONE+ Hammer Drill & Impact Driver Kit R18X2C14",
+                "price": 199,
+                "image_url": "/static/product_images/300060.jpg",
+                "summary": "Dual-tool 18V ONE+ kit combining hammer drill and impact driver for heavy-duty fastening"
+              },
+              {
+                "product_id": "300220",
+                "product_name": "Ryobi 50 Piece Impact Drill And Drive Set",
+                "price": 32.99,
+                "image_url": "/static/product_images/300220.jpg",
+                "summary": "High-performance Ryobi 50-piece impact drill and drive set with impact-rated bits for tough fastening applications"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300053",
+                "product_name": "Ryobi 18V ONE+ Drill Driver Starter Kit R18DD22",
+                "price": 99.98,
+                "image_url": "/static/product_images/300053.jpg",
+                "summary": "Compact 18V ONE+ drill driver starter kit with battery and charger for everyday drilling tasks"
+              },
+              {
+                "product_id": "300055",
+                "product_name": "Ozito Home 12V Cordless Drill Driver Kit",
+                "price": 49.98,
+                "image_url": "/static/product_images/300055.jpg",
+                "summary": "Lightweight 12V cordless drill driver kit ideal for light-duty home DIY projects"
+              },
+              {
+                "product_id": "300059",
+                "product_name": "Ozito PXC 18V Cordless Drill Driver Kit PXDDK-250C",
+                "price": 89.98,
+                "image_url": "/static/product_images/300059.jpg",
+                "summary": "Powerful PXC 18V cordless drill driver kit with battery and charger for versatile performance"
+              },
+              {
+                "product_id": "300060",
+                "product_name": "Ryobi 18V ONE+ Hammer Drill & Impact Driver Kit R18X2C14",
+                "price": 199,
+                "image_url": "/static/product_images/300060.jpg",
+                "summary": "Dual-tool 18V ONE+ kit combining hammer drill and impact driver for heavy-duty fastening"
+              },
+              {
+                "product_id": "300220",
+                "product_name": "Ryobi 50 Piece Impact Drill And Drive Set",
+                "price": 32.99,
+                "image_url": "/static/product_images/300220.jpg",
+                "summary": "High-performance Ryobi 50-piece impact drill and drive set with impact-rated bits for tough fastening applications"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-05-09T06:20:19.584Z"
+          }
+        },
+        {
+          "id": 1778307642609,
+          "timestamp": "2026-05-09T06:20:42.609Z",
+          "user": "any accessories of these",
+          "ai": {
+            "ai_response": "I found 8 accessories that perfectly complement , ,  and 2 more! These are curated matches from our database.",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300218.jpg",
+                "payment_plans": [],
+                "price": 8.98,
+                "product_id": "300218",
+                "product_name": "Craftright 5 Piece Hole Saw Set",
+                "summary": "Drill Bits & Accessories for Ryobi 18V ONE+ Drill Driver Starter Kit R18DD22"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300218.jpg",
+                "payment_plans": [],
+                "price": 8.98,
+                "product_id": "300218",
+                "product_name": "Craftright 5 Piece Hole Saw Set",
+                "summary": "Drill Bits & Accessories for Ozito Home 12V Cordless Drill Driver Kit"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300218.jpg",
+                "payment_plans": [],
+                "price": 8.98,
+                "product_id": "300218",
+                "product_name": "Craftright 5 Piece Hole Saw Set",
+                "summary": "Drill Bits & Accessories for Ozito PXC 18V Cordless Drill Driver Kit PXDDK-250C"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300218.jpg",
+                "payment_plans": [],
+                "price": 8.98,
+                "product_id": "300218",
+                "product_name": "Craftright 5 Piece Hole Saw Set",
+                "summary": "Drill Bits & Accessories for Ryobi 18V ONE+ Hammer Drill & Impact Driver Kit R18X2C14"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300219.jpg",
+                "payment_plans": [],
+                "price": 9.98,
+                "product_id": "300219",
+                "product_name": "Craftright 15 Piece Masonry Drill Bit Set",
+                "summary": "Drill Bits & Accessories for Ryobi 18V ONE+ Drill Driver Starter Kit R18DD22"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300219.jpg",
+                "payment_plans": [],
+                "price": 9.98,
+                "product_id": "300219",
+                "product_name": "Craftright 15 Piece Masonry Drill Bit Set",
+                "summary": "Drill Bits & Accessories for Ozito Home 12V Cordless Drill Driver Kit"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300219.jpg",
+                "payment_plans": [],
+                "price": 9.98,
+                "product_id": "300219",
+                "product_name": "Craftright 15 Piece Masonry Drill Bit Set",
+                "summary": "Drill Bits & Accessories for Ozito PXC 18V Cordless Drill Driver Kit PXDDK-250C"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300219.jpg",
+                "payment_plans": [],
+                "price": 9.98,
+                "product_id": "300219",
+                "product_name": "Craftright 15 Piece Masonry Drill Bit Set",
+                "summary": "Drill Bits & Accessories for Ryobi 18V ONE+ Hammer Drill & Impact Driver Kit R18X2C14"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300218",
+                "product_name": "Craftright 5 Piece Hole Saw Set",
+                "price": 8.98,
+                "image_url": "/static/product_images/300218.jpg",
+                "summary": "Drill Bits & Accessories for Ryobi 18V ONE+ Drill Driver Starter Kit R18DD22"
+              },
+              {
+                "product_id": "300218",
+                "product_name": "Craftright 5 Piece Hole Saw Set",
+                "price": 8.98,
+                "image_url": "/static/product_images/300218.jpg",
+                "summary": "Drill Bits & Accessories for Ozito Home 12V Cordless Drill Driver Kit"
+              },
+              {
+                "product_id": "300218",
+                "product_name": "Craftright 5 Piece Hole Saw Set",
+                "price": 8.98,
+                "image_url": "/static/product_images/300218.jpg",
+                "summary": "Drill Bits & Accessories for Ozito PXC 18V Cordless Drill Driver Kit PXDDK-250C"
+              },
+              {
+                "product_id": "300218",
+                "product_name": "Craftright 5 Piece Hole Saw Set",
+                "price": 8.98,
+                "image_url": "/static/product_images/300218.jpg",
+                "summary": "Drill Bits & Accessories for Ryobi 18V ONE+ Hammer Drill & Impact Driver Kit R18X2C14"
+              },
+              {
+                "product_id": "300219",
+                "product_name": "Craftright 15 Piece Masonry Drill Bit Set",
+                "price": 9.98,
+                "image_url": "/static/product_images/300219.jpg",
+                "summary": "Drill Bits & Accessories for Ryobi 18V ONE+ Drill Driver Starter Kit R18DD22"
+              },
+              {
+                "product_id": "300219",
+                "product_name": "Craftright 15 Piece Masonry Drill Bit Set",
+                "price": 9.98,
+                "image_url": "/static/product_images/300219.jpg",
+                "summary": "Drill Bits & Accessories for Ozito Home 12V Cordless Drill Driver Kit"
+              },
+              {
+                "product_id": "300219",
+                "product_name": "Craftright 15 Piece Masonry Drill Bit Set",
+                "price": 9.98,
+                "image_url": "/static/product_images/300219.jpg",
+                "summary": "Drill Bits & Accessories for Ozito PXC 18V Cordless Drill Driver Kit PXDDK-250C"
+              },
+              {
+                "product_id": "300219",
+                "product_name": "Craftright 15 Piece Masonry Drill Bit Set",
+                "price": 9.98,
+                "image_url": "/static/product_images/300219.jpg",
+                "summary": "Drill Bits & Accessories for Ryobi 18V ONE+ Hammer Drill & Impact Driver Kit R18X2C14"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 8,
+            "enhanced_query": "Find accessories for these specific products: Ryobi 18V ONE+ Drill Driver Starter Kit R18DD22, Ozito Home 12V Cordless Drill Driver Kit, Ozito PXC 18V Cordless Drill Driver Kit PXDDK-250C, Ryobi 18V ONE+ Hammer Drill & Impact Driver Kit R18X2C14, Ryobi 50 Piece Impact Drill And Drive Set. Product IDs: 300053, 300055, 300059, 300060, 300220. Original query: any accessories of these",
+            "displayed_products": [
+              {
+                "product_id": "300218",
+                "product_name": "Craftright 5 Piece Hole Saw Set",
+                "price": 8.98,
+                "image_url": "/static/product_images/300218.jpg",
+                "summary": "Drill Bits & Accessories for Ryobi 18V ONE+ Drill Driver Starter Kit R18DD22"
+              },
+              {
+                "product_id": "300218",
+                "product_name": "Craftright 5 Piece Hole Saw Set",
+                "price": 8.98,
+                "image_url": "/static/product_images/300218.jpg",
+                "summary": "Drill Bits & Accessories for Ozito Home 12V Cordless Drill Driver Kit"
+              },
+              {
+                "product_id": "300218",
+                "product_name": "Craftright 5 Piece Hole Saw Set",
+                "price": 8.98,
+                "image_url": "/static/product_images/300218.jpg",
+                "summary": "Drill Bits & Accessories for Ozito PXC 18V Cordless Drill Driver Kit PXDDK-250C"
+              },
+              {
+                "product_id": "300218",
+                "product_name": "Craftright 5 Piece Hole Saw Set",
+                "price": 8.98,
+                "image_url": "/static/product_images/300218.jpg",
+                "summary": "Drill Bits & Accessories for Ryobi 18V ONE+ Hammer Drill & Impact Driver Kit R18X2C14"
+              },
+              {
+                "product_id": "300219",
+                "product_name": "Craftright 15 Piece Masonry Drill Bit Set",
+                "price": 9.98,
+                "image_url": "/static/product_images/300219.jpg",
+                "summary": "Drill Bits & Accessories for Ryobi 18V ONE+ Drill Driver Starter Kit R18DD22"
+              },
+              {
+                "product_id": "300219",
+                "product_name": "Craftright 15 Piece Masonry Drill Bit Set",
+                "price": 9.98,
+                "image_url": "/static/product_images/300219.jpg",
+                "summary": "Drill Bits & Accessories for Ozito Home 12V Cordless Drill Driver Kit"
+              },
+              {
+                "product_id": "300219",
+                "product_name": "Craftright 15 Piece Masonry Drill Bit Set",
+                "price": 9.98,
+                "image_url": "/static/product_images/300219.jpg",
+                "summary": "Drill Bits & Accessories for Ozito PXC 18V Cordless Drill Driver Kit PXDDK-250C"
+              },
+              {
+                "product_id": "300219",
+                "product_name": "Craftright 15 Piece Masonry Drill Bit Set",
+                "price": 9.98,
+                "image_url": "/static/product_images/300219.jpg",
+                "summary": "Drill Bits & Accessories for Ryobi 18V ONE+ Hammer Drill & Impact Driver Kit R18X2C14"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-05-09T06:20:42.611Z"
+          }
+        },
+        {
+          "id": 1778315478745,
+          "timestamp": "2026-05-09T08:31:18.745Z",
+          "user": "I am looking for Smartphone to gift my wife",
+          "ai": {
+            "response": "Oh, how exciting! Finding the perfect smartphone for your wife sounds like a fantastic mission, and I'm absolutely thrilled to help you with it!\n\nWe have a wonderful selection of options that might be just the thing:\n\n*   **Smartphones:** We've got the latest models with incredible cameras, super-fast processors, and stunning displays that she'll adore.\n*   **Smartwatches:** If she's into fitness or just loves staying connected, a smartwatch could be a brilliant companion for her wrist, tracking her health and notifications.\n*   **Tablets:** For a bit of extra screen real estate for browsing, reading, or even catching up on shows, a tablet is always a hit!\n*   **Accessories:** And of course, we have all the perfect companions for any smartphone, like stylish cases, fast chargers, and amazing earbuds.\n\nTo help me narrow down the perfect choice, what kind of features or style are you hoping to find in her new smartphone?"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1778315506215,
+          "timestamp": "2026-05-09T08:31:46.215Z",
+          "user": "show me mobile phone",
+          "ai": {
+            "ai_response": "",
+            "product_data": null,
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300104.jpg",
+                "payment_plans": [],
+                "price": 179,
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300100.jpg",
+                "payment_plans": [],
+                "price": 109.95,
+                "product_id": "300100",
+                "product_name": "Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone",
+                "summary": "Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300161.jpg",
+                "payment_plans": [],
+                "price": 34.95,
+                "product_id": "300161",
+                "product_name": "Phone Holder for Car Universal Windscreen Adjustable Black",
+                "summary": "Universal adjustable black windscreen phone holder for secure hands-free in-car navigation"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300107.jpg",
+                "payment_plans": [],
+                "price": 379,
+                "product_id": "300107",
+                "product_name": "Blackview FORT 100 6.56\" HD+ Rugged Smartphone",
+                "summary": "Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments"
+              },
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300109.jpg",
+                "payment_plans": [],
+                "price": 227,
+                "product_id": "300109",
+                "product_name": "Oppo A6x 128gb (ice Blue)",
+                "summary": "Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "price": 179,
+                "image_url": "/static/product_images/300104.jpg",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              },
+              {
+                "product_id": "300100",
+                "product_name": "Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone",
+                "price": 109.95,
+                "image_url": "/static/product_images/300100.jpg",
+                "summary": "Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use"
+              },
+              {
+                "product_id": "300161",
+                "product_name": "Phone Holder for Car Universal Windscreen Adjustable Black",
+                "price": 34.95,
+                "image_url": "/static/product_images/300161.jpg",
+                "summary": "Universal adjustable black windscreen phone holder for secure hands-free in-car navigation"
+              },
+              {
+                "product_id": "300107",
+                "product_name": "Blackview FORT 100 6.56\" HD+ Rugged Smartphone",
+                "price": 379,
+                "image_url": "/static/product_images/300107.jpg",
+                "summary": "Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments"
+              },
+              {
+                "product_id": "300109",
+                "product_name": "Oppo A6x 128gb (ice Blue)",
+                "price": 227,
+                "image_url": "/static/product_images/300109.jpg",
+                "summary": "Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "price": 179,
+                "image_url": "/static/product_images/300104.jpg",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              },
+              {
+                "product_id": "300100",
+                "product_name": "Aspera F46+ (F46 Plus) Seniors 4G BIG Button FLIP Mobile Phone",
+                "price": 109.95,
+                "image_url": "/static/product_images/300100.jpg",
+                "summary": "Easy-to-use 4G seniors flip mobile phone with large buttons and a clear display for everyday use"
+              },
+              {
+                "product_id": "300161",
+                "product_name": "Phone Holder for Car Universal Windscreen Adjustable Black",
+                "price": 34.95,
+                "image_url": "/static/product_images/300161.jpg",
+                "summary": "Universal adjustable black windscreen phone holder for secure hands-free in-car navigation"
+              },
+              {
+                "product_id": "300107",
+                "product_name": "Blackview FORT 100 6.56\" HD+ Rugged Smartphone",
+                "price": 379,
+                "image_url": "/static/product_images/300107.jpg",
+                "summary": "Ultra-tough Blackview FORT 100 rugged smartphone with a 6.56\" HD+ display for demanding environments"
+              },
+              {
+                "product_id": "300109",
+                "product_name": "Oppo A6x 128gb (ice Blue)",
+                "price": 227,
+                "image_url": "/static/product_images/300109.jpg",
+                "summary": "Stylish OPPO A6x with 128GB storage in a cool Ice Blue finish for everyday connectivity"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-05-09T08:31:46.217Z"
+          }
+        },
+        {
+          "id": 1778315520430,
+          "timestamp": "2026-05-09T08:32:00.430Z",
+          "user": "Show me detailed information about product 300104",
+          "ai": {
+            "ai_response": "The Iqu Smarteasy Q50 Smartphone features a 5.5\" display, 16GB of storage, and 2GB of RAM, all in a sleek black design. It's a simple and reliable choice for everyday use.",
+            "product_data": {
+              "PROMO_DESCRIPTION": "",
+              "PROMO_DISCOUNT_PERCENT": "",
+              "PROMO_TITLE": "",
+              "categories": [],
+              "image_url": "/static/product_images/300104.jpg",
+              "payment_plans": [],
+              "price": 179,
+              "product_id": "300104",
+              "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+              "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+            },
+            "products_data": [
+              {
+                "PROMO_DESCRIPTION": "",
+                "PROMO_DISCOUNT_PERCENT": "",
+                "PROMO_TITLE": "",
+                "categories": [],
+                "image_url": "/static/product_images/300104.jpg",
+                "payment_plans": [],
+                "price": 179,
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              }
+            ],
+            "response_type": "product"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "300104",
+                "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+                "price": 179,
+                "image_url": "/static/product_images/300104.jpg",
+                "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+              }
+            ],
+            "response_type": "product",
+            "products_count": 1,
+            "enhanced_query": null
+          }
+        },
+        {
+          "id": 1778315679653,
+          "timestamp": "2026-05-09T08:34:39.653Z",
+          "user": "show jackets",
+          "ai": {
+            "ai_response": "Here are some jackets I found:\n\n*   **Leather Jacket**: A classic leather jacket that offers a stylish and edgy look. This jacket is part of the \"Premium Leather Special\" promotion, offering 30% off. The original price was 999.0, and now it's 699.3.\n*   **Limited Jacket**: The perfect set up to reach your next freeriding level. Further improvements in performance and functionality ensure a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacket supports your own way. This jacket is priced at 137.66.\n*   **Kelly Jacket Women**: The Kelly Jacket by WLD is a top cut jacket for all the girls out there. This jacket is part of the \"Women's Spring Jacket Sale,\" offering 28% off. The original price was 80.95, and now it's 58.28.\n*   **Bender Jacket**: Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece. This jacket is priced at 89.06.\n*   **Beacon Jacket**: Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only have style but also super features. This jacket is part of the \"Outdoor Spring Collection,\" offering 30% off. The original price was 101.21, and now it's 70.85.\n\nWould you like to refine your search or see any of these jackets in more detail?",
+            "product_data": null,
+            "products_data": [
+              {
+                "PRICE": 999,
+                "PROMO_DESCRIPTION": "Genuine leather jacket - Save 30% now",
+                "PROMO_DISCOUNT_PERCENT": "30",
+                "PROMO_TITLE": "Premium Leather Special",
+                "categories": [],
+                "discount_percent": 30,
+                "discounted_price": 699.3,
+                "has_promotion": true,
+                "image_url": "/static/product_images/97602.jpg",
+                "original_price": 999,
+                "price": 699.3,
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "promo_title": "Premium Leather Special",
+                "savings": 299.7,
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "PRICE": 137.66,
+                "PROMO_DESCRIPTION": null,
+                "PROMO_DISCOUNT_PERCENT": null,
+                "PROMO_TITLE": null,
+                "categories": [],
+                "discount_percent": 0,
+                "discounted_price": 137.66,
+                "has_promotion": false,
+                "image_url": "/static/product_images/132871.jpg",
+                "original_price": 137.66,
+                "price": 137.66,
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "promo_title": null,
+                "savings": 0,
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "PRICE": 80.95,
+                "PROMO_DESCRIPTION": "Stylish women's jackets - 28% off",
+                "PROMO_DISCOUNT_PERCENT": "28",
+                "PROMO_TITLE": "Women's Spring Jacket Sale",
+                "categories": [],
+                "discount_percent": 28,
+                "discounted_price": 58.28,
+                "has_promotion": true,
+                "image_url": "/static/product_images/103335.jpg",
+                "original_price": 80.95,
+                "price": 58.28,
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "promo_title": "Women's Spring Jacket Sale",
+                "savings": 22.67,
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "PRICE": 89.06,
+                "PROMO_DESCRIPTION": null,
+                "PROMO_DISCOUNT_PERCENT": null,
+                "PROMO_TITLE": null,
+                "categories": [],
+                "discount_percent": 0,
+                "discounted_price": 89.06,
+                "has_promotion": false,
+                "image_url": "/static/product_images/94462.jpg",
+                "original_price": 89.06,
+                "price": 89.06,
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "promo_title": null,
+                "savings": 0,
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              },
+              {
+                "PRICE": 101.21,
+                "PROMO_DESCRIPTION": "Premium outdoor jacket - 30% off",
+                "PROMO_DISCOUNT_PERCENT": "30",
+                "PROMO_TITLE": "Outdoor Spring Collection",
+                "categories": [],
+                "discount_percent": 30,
+                "discounted_price": 70.85,
+                "has_promotion": true,
+                "image_url": "/static/product_images/100191.jpg",
+                "original_price": 101.21,
+                "price": 70.85,
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "promo_title": "Outdoor Spring Collection",
+                "savings": 30.36,
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              }
+            ],
+            "response_type": "products_list"
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [
+              {
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "price": 699.3,
+                "image_url": "/static/product_images/97602.jpg",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "price": 137.66,
+                "image_url": "/static/product_images/132871.jpg",
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "price": 58.28,
+                "image_url": "/static/product_images/103335.jpg",
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "/static/product_images/94462.jpg",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 70.85,
+                "image_url": "/static/product_images/100191.jpg",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              }
+            ],
+            "response_type": "products_list",
+            "products_count": 5,
+            "enhanced_query": null,
+            "displayed_products": [
+              {
+                "product_id": "97602",
+                "product_name": "Leather Jacket",
+                "price": 699.3,
+                "image_url": "/static/product_images/97602.jpg",
+                "summary": "A classic leather jacket that offers a stylish and edgy look"
+              },
+              {
+                "product_id": "132871",
+                "product_name": "Limited Jacket",
+                "price": 137.66,
+                "image_url": "/static/product_images/132871.jpg",
+                "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+              },
+              {
+                "product_id": "103335",
+                "product_name": "Kelly Jacket Women",
+                "price": 58.28,
+                "image_url": "/static/product_images/103335.jpg",
+                "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+              },
+              {
+                "product_id": "94462",
+                "product_name": "Bender Jacket",
+                "price": 89.06,
+                "image_url": "/static/product_images/94462.jpg",
+                "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+              },
+              {
+                "product_id": "100191",
+                "product_name": "Beacon Jacket",
+                "price": 70.85,
+                "image_url": "/static/product_images/100191.jpg",
+                "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+              }
+            ],
+            "search_type": "products_list",
+            "display_timestamp": "2026-05-09T08:34:39.662Z"
+          }
+        },
+        {
+          "id": 1778315700472,
+          "timestamp": "2026-05-09T08:35:00.472Z",
+          "user": "Show my cart",
+          "ai": {
+            "response": "\n        <div class='bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200 mb-4' id='chat-cart-container'>\n            <div class='flex items-center justify-between mb-4'>\n                <h3 class='text-xl font-bold text-gray-800 flex items-center'>\n                    <i class='fas fa-shopping-cart text-purple-500 mr-2'></i>\n                    Your Shopping Cart\n                </h3>\n                <div class='bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold' id='chat-cart-count'>\n                    <i class='fas fa-shopping-cart mr-1'></i>0 items\n                </div>\n            </div>\n            \n            <div id='chat-cart-items' class='space-y-3 mb-4'>\n                <div class='text-center py-8 text-gray-500'>\n                    <i class='fas fa-shopping-cart text-4xl mb-3 opacity-30'></i>\n                    <p class='text-lg font-medium'>Your cart is empty</p>\n                    <p class='text-sm text-gray-400 mt-1'>Add some products to get started!</p>\n                </div>\n            </div>\n            \n            <div id='chat-cart-footer' class='border-t border-purple-200 pt-4'>\n                <div class='flex items-center justify-between mb-4'>\n                    <span class='text-lg font-semibold text-gray-800'>Total:</span>\n                    <span class='text-2xl font-bold text-purple-600' id='chat-cart-total'>\u00a30.00</span>\n                </div>\n                \n                <div class='text-center space-x-2'>\n                    <button onclick='renderChatCart()' class='bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-sync-alt mr-2'></i>Refresh Cart\n                    </button>\n                    <button onclick='proceedToCheckout()' class='bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-2 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>\n                        <i class='fas fa-credit-card mr-2'></i>Checkout\n                    </button>\n                </div>\n                \n                <div class='mt-3 text-xs text-gray-500 text-center italic'>\n                    <i class='fas fa-info-circle mr-1'></i>Cart items are managed in your browser session and will reset on page refresh.\n                </div>\n            </div>\n        </div>\n        <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' onload='(function(){setTimeout(function(){if(typeof renderChatCart === \"function\"){console.log(\"\ud83d\uded2 Auto-triggering renderChatCart via image onload\");renderChatCart();}},100);})()' style='display:none;' />\n        "
+          },
+          "metadata": {
+            "session_id": "session_1778215907472_hwj4wubtk",
+            "products": [],
+            "products_count": 0,
+            "enhanced_query": null
+          }
+        }
+      ],
+      "last_products": [
+        {
+          "product_id": "97602",
+          "product_name": "Leather Jacket",
+          "price": 699.3,
+          "image_url": "/static/product_images/97602.jpg",
+          "summary": "A classic leather jacket that offers a stylish and edgy look"
+        },
+        {
+          "product_id": "132871",
+          "product_name": "Limited Jacket",
+          "price": 137.66,
+          "image_url": "/static/product_images/132871.jpg",
+          "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+        },
+        {
+          "product_id": "103335",
+          "product_name": "Kelly Jacket Women",
+          "price": 58.28,
+          "image_url": "/static/product_images/103335.jpg",
+          "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+        },
+        {
+          "product_id": "94462",
+          "product_name": "Bender Jacket",
+          "price": 89.06,
+          "image_url": "/static/product_images/94462.jpg",
+          "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+        },
+        {
+          "product_id": "100191",
+          "product_name": "Beacon Jacket",
+          "price": 70.85,
+          "image_url": "/static/product_images/100191.jpg",
+          "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+        }
+      ],
+      "recent_displayed": [
+        {
+          "product_id": "97602",
+          "product_name": "Leather Jacket",
+          "price": 699.3,
+          "image_url": "/static/product_images/97602.jpg",
+          "summary": "A classic leather jacket that offers a stylish and edgy look"
+        },
+        {
+          "product_id": "132871",
+          "product_name": "Limited Jacket",
+          "price": 137.66,
+          "image_url": "/static/product_images/132871.jpg",
+          "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+        },
+        {
+          "product_id": "103335",
+          "product_name": "Kelly Jacket Women",
+          "price": 58.28,
+          "image_url": "/static/product_images/103335.jpg",
+          "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+        },
+        {
+          "product_id": "94462",
+          "product_name": "Bender Jacket",
+          "price": 89.06,
+          "image_url": "/static/product_images/94462.jpg",
+          "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+        },
+        {
+          "product_id": "100191",
+          "product_name": "Beacon Jacket",
+          "price": 70.85,
+          "image_url": "/static/product_images/100191.jpg",
+          "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+        }
+      ],
+      "context": [
+        {
+          "user": "Show me detailed information about product 300104",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "300104",
+              "product_name": "Iqu Smarteasy Q50 Smartphone 5.5\" 16gb/2gb - Black",
+              "price": 179,
+              "image_url": "/static/product_images/300104.jpg",
+              "summary": "Simple and reliable 5.5\" Iqu Smarteasy Q50 smartphone with 16GB storage and 2GB RAM in black"
+            }
+          ],
+          "type": "product"
+        },
+        {
+          "user": "show jackets",
+          "ai": "Product response",
+          "products": [
+            {
+              "product_id": "97602",
+              "product_name": "Leather Jacket",
+              "price": 699.3,
+              "image_url": "/static/product_images/97602.jpg",
+              "summary": "A classic leather jacket that offers a stylish and edgy look"
+            },
+            {
+              "product_id": "132871",
+              "product_name": "Limited Jacket",
+              "price": 137.66,
+              "image_url": "/static/product_images/132871.jpg",
+              "summary": "The perfect set up to reach your next freeriding level Further Improvements in performance and functionality ensures a perfect and dry ride in any freeride conditions. The \u201cLimited\u201d jacker supports your own way."
+            },
+            {
+              "product_id": "103335",
+              "product_name": "Kelly Jacket Women",
+              "price": 58.28,
+              "image_url": "/static/product_images/103335.jpg",
+              "summary": "The Kelly Jacket by WLD is a top cut jacket for all the girls out there"
+            },
+            {
+              "product_id": "94462",
+              "product_name": "Bender Jacket",
+              "price": 89.06,
+              "image_url": "/static/product_images/94462.jpg",
+              "summary": "Keeps you warm and looks absolutely stylish. The Bender jacket by Special Blend is a genius piece"
+            },
+            {
+              "product_id": "100191",
+              "product_name": "Beacon Jacket",
+              "price": 70.85,
+              "image_url": "/static/product_images/100191.jpg",
+              "summary": "Who can say no to fresh roast bacon?! Then you should also say Yes to the Beacon Jacket by Armada. This jacket doesn't only has style but also super features"
+            }
+          ],
+          "type": "products_list"
+        },
+        {
+          "user": "Show my cart",
+          "ai": "Product response",
+          "products": [],
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": "2026-05-09T14:05:29.925999",
+    "session_id": "aeb28b41-a0cc-4579-b9e4-97575db477e9"
+  },
+  "result": null
+}

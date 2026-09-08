@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2UI Protocol Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .status-bar {
+            background: #f3f4f6;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .status-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #ef4444;
+            animation: pulse 2s infinite;
+        }
+        
+        .status-dot.connected {
+            background: #10b981;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .search-section {
+            margin-bottom: 30px;
+        }
+        
+        .search-box {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        input[type="text"] {
+            flex: 1;
+            padding: 12px 16px;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.2s;
+        }
+        
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        button {
+            padding: 12px 24px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        
+        button:hover {
+            background: #5568d3;
+        }
+        
+        button:active {
+            transform: scale(0.98);
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f4f6;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .results {
+            margin-top: 20px;
+        }
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .product-card {
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 16px;
+            background: white;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 200px;
+            background: #f3f4f6;
+            border-radius: 4px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #9ca3af;
+        }
+        
+        .product-name {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #1f2937;
+        }
+        
+        .product-price {
+            font-size: 20px;
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 12px;
+        }
+        
+        .demo-buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .demo-button {
+            padding: 10px 16px;
+            background: #f3f4f6;
+            color: #1f2937;
+            border: 1px solid #e5e7eb;
+            border-radius: 6px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .demo-button:hover {
+            background: #e5e7eb;
+        }
+        
+        .logs {
+            background: #1f2937;
+            color: #f3f4f6;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            max-height: 300px;
+            overflow-y: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+        }
+        
+        .log-entry {
+            margin-bottom: 5px;
+            padding: 2px 0;
+        }
+        
+        .log-info { color: #60a5fa; }
+        .log-success { color: #34d399; }
+        .log-error { color: #f87171; }
+        .log-warning { color: #fbbf24; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 A2UI Protocol Demo</h1>
+            <p class="subtitle">Real-time Product Search with WebSocket Communication</p>
+        </header>
+        
+        <div class="content">
+            <!-- Status Bar -->
+            <div class="status-bar">
+                <div class="status-indicator">
+                    <div class="status-dot" id="statusDot"></div>
+                    <span id="statusText">Disconnected</span>
+                </div>
+                <div>
+                    <span>Session: <strong id="sessionId">-</strong></span>
+                </div>
+            </div>
+            
+            <!-- Search Section -->
+            <div class="search-section">
+                <h2>Product Search</h2>
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Search for products (e.g., laptop, phone, shirt)">
+                    <button onclick="searchProducts()">Search</button>
+                </div>
+                
+                <div class="demo-buttons">
+                    <button class="demo-button" onclick="testToast('success')">✅ Success Toast</button>
+                    <button class="demo-button" onclick="testToast('error')">❌ Error Toast</button>
+                    <button class="demo-button" onclick="testToast('warning')">⚠️ Warning Toast</button>
+                    <button class="demo-button" onclick="testToast('info')">ℹ️ Info Toast</button>
+                    <button class="demo-button" onclick="testLoading()">⏳ Loading State</button>
+                    <button class="demo-button" onclick="clearResults()">🗑️ Clear Results</button>
+                </div>
+            </div>
+            
+            <!-- Loading Indicator -->
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p id="loadingMessage">Loading...</p>
+            </div>
+            
+            <!-- Results -->
+            <div class="results" id="results"></div>
+            
+            <!-- Logs -->
+            <div class="logs" id="logs">
+                <div class="log-entry log-info">A2UI Protocol Demo initialized...</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- A2UI Client Library -->
+    <script src="/static/js/a2ui-client.js"></script>
+    
+    <script>
+        let a2uiClient = null;
+        
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            addLog('Initializing A2UI client...', 'info');
+            
+            // Create A2UI client
+            a2uiClient = new A2UIClient({
+                serverUrl: 'ws://localhost:8020',
+                debug: true,
+                reconnectInterval: 3000,
+                maxReconnectAttempts: 5
+            });
+            
+            // Setup handlers
+            setupHandlers();
+            
+            // Connect
+            a2uiClient.connect();
+            
+            // Subscribe to modules
+            a2uiClient.subscribe(['product_search']);
+            
+            // Update session ID display
+            document.getElementById('sessionId').textContent = a2uiClient.sessionId.substring(0, 16) + '...';
+        });
+        
+        function setupHandlers() {
+            // Connection handlers
+            a2uiClient.onConnect(() => {
+                updateStatus('connected', 'Connected');
+                addLog('✅ Connected to A2UI server', 'success');
+            });
+            
+            a2uiClient.onDisconnect(() => {
+                updateStatus('disconnected', 'Disconnected');
+                addLog('❌ Disconnected from A2UI server', 'error');
+            });
+            
+            a2uiClient.onError((error) => {
+                addLog(`🔴 Error: ${error}`, 'error');
+            });
+            
+            // Product list updates
+            a2uiClient.on('product_list', ({ action, data, metadata }) => {
+                addLog(`📦 Product list ${action}: ${data.products?.length || 0} products`, 'info');
+                displayProducts(data.products);
+            });
+            
+            // Loading state updates
+            a2uiClient.on('loading_state', ({ data }) => {
+                const loadingDiv = document.getElementById('loading');
+                const loadingMsg = document.getElementById('loadingMessage');
+                
+                if (data.is_loading) {
+                    loadingDiv.style.display = 'block';
+                    loadingMsg.textContent = data.message || 'Loading...';
+                    addLog(`⏳ Loading: ${data.message}`, 'info');
+                } else {
+                    loadingDiv.style.display = 'none';
+                    addLog('✓ Loading complete', 'success');
+                }
+            });
+            
+            // Error state updates
+            a2uiClient.on('error_state', ({ data }) => {
+                if (data.has_error) {
+                    addLog(`❌ Error: ${data.error_message}`, 'error');
+                }
+            });
+        }
+        
+        function updateStatus(status, text) {
+            const statusDot = document.getElementById('statusDot');
+            const statusText = document.getElementById('statusText');
+            
+            statusDot.className = 'status-dot';
+            if (status === 'connected') {
+                statusDot.classList.add('connected');
+            }
+            
+            statusText.textContent = text;
+        }
+        
+        function addLog(message, type = 'info') {
+            const logsDiv = document.getElementById('logs');
+            const entry = document.createElement('div');
+            entry.className = `log-entry log-${type}`;
+            
+            const timestamp = new Date().toLocaleTimeString();
+            entry.textContent = `[${timestamp}] ${message}`;
+            
+            logsDiv.appendChild(entry);
+            logsDiv.scrollTop = logsDiv.scrollHeight;
+        }
+        
+        function searchProducts() {
+            const query = document.getElementById('searchInput').value.trim();
+            
+            if (!query) {
+                a2uiClient.showToast('Please enter a search query', 'warning');
+                return;
+            }
+            
+            addLog(`🔍 Searching for: ${query}`, 'info');
+            
+            // Send event
+            a2uiClient.sendEvent('product_search', 'search_initiated', {
+                query: query,
+                timestamp: new Date().toISOString()
+            });
+            
+            // Simulate search (in real app, this would call your API)
+            simulateSearch(query);
+        }
+        
+        function simulateSearch(query) {
+            // Show loading
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('loadingMessage').textContent = 'Searching products...';
+            
+            // Simulate delay
+            setTimeout(() => {
+                // Mock products
+                const products = [
+                    {
+                        product_id: '1',
+                        product_name: `${query} - Premium Edition`,
+                        price: 299.99
+                    },
+                    {
+                        product_id: '2',
+                        product_name: `${query} - Standard`,
+                        price: 199.99
+                    },
+                    {
+                        product_id: '3',
+                        product_name: `${query} - Budget`,
+                        price: 99.99
+                    }
+                ];
+                
+                // Hide loading
+                document.getElementById('loading').style.display = 'none';
+                
+                // Display products
+                displayProducts(products);
+                
+                // Show success toast
+                a2uiClient.showToast(`Found ${products.length} products`, 'success');
+                
+                addLog(`✅ Found ${products.length} products`, 'success');
+            }, 1500);
+        }
+        
+        function displayProducts(products) {
+            const resultsDiv = document.getElementById('results');
+            
+            if (!products || products.length === 0) {
+                resultsDiv.innerHTML = '<p>No products found.</p>';
+                return;
+            }
+            
+            let html = '<div class="product-grid">';
+            
+            products.forEach(product => {
+                html += `
+                    <div class="product-card">
+                        <div class="product-image">📦</div>
+                        <div class="product-name">${product.product_name}</div>
+                        <div class="product-price">$${product.price.toFixed(2)}</div>
+                        <button onclick="viewProduct('${product.product_id}')">View Details</button>
+                    </div>
+                `;
+            });
+            
+            html += '</div>';
+            resultsDiv.innerHTML = html;
+        }
+        
+        function viewProduct(productId) {
+            a2uiClient.showToast(`Viewing product: ${productId}`, 'info');
+            addLog(`👁️ Viewing product: ${productId}`, 'info');
+        }
+        
+        function testToast(type) {
+            const messages = {
+                success: 'This is a success message!',
+                error: 'This is an error message!',
+                warning: 'This is a warning message!',
+                info: 'This is an info message!'
+            };
+            
+            a2uiClient.showToast(messages[type], type);
+            addLog(`Toast shown: ${type}`, 'info');
+        }
+        
+        function testLoading() {
+            const loadingDiv = document.getElementById('loading');
+            const loadingMsg = document.getElementById('loadingMessage');
+            
+            loadingDiv.style.display = 'block';
+            loadingMsg.textContent = 'Testing loading state...';
+            
+            setTimeout(() => {
+                loadingDiv.style.display = 'none';
+                a2uiClient.showToast('Loading test completed!', 'success');
+            }, 2000);
+        }
+        
+        function clearResults() {
+            document.getElementById('results').innerHTML = '';
+            document.getElementById('searchInput').value = '';
+            a2uiClient.showToast('Results cleared', 'info');
+            addLog('🗑️ Results cleared', 'info');
+        }
+        
+        // Handle Enter key in search box
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchProducts();
+            }
+        });
+    </script>
+</body>
+</html>

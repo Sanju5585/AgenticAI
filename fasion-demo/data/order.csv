@@ -1,0 +1,23 @@
+﻿ORDER_ID,CUSTOMER_ID,TOTAL_PRICE,PRODUCT_ID,PRODUCT_NAME,ORDER_STATUS,ORDER_DATE
+ORDER_ID,CUSTOMER_ID,TOTAL_PRICE,PRODUCT_ID,PRODUCT_NAME,ORDER_STATUS,ORDER_DATE
+2024,william.hunter@pronto-hw.com,26.2,300772559,Del Chaos Tee SS Youth white L,APPROVED,2023-07-15
+2027,linda.wolf@pronto-hw.com,1025.2,0032-1,Leather Jacket,APPROVED,2021-11-22
+2005,aayushigupta@gmail.com,1004.99,0032-1,Leather Jacket,CHECKED_VALID,2022-05-09
+2034,lars.bauer@rustic-hw.com,34.3,300617125,Rollercoaster SS holiday/multicolor L,CHECKED_VALID,2020-03-10
+2016,nicolejackson@gmail.com,70.75,300464995,Nightlife T-Shirt Women violet M,OPEN,2024-12-23
+2017,nicolejackson@gmail.com,55.99,7001-1,Black Newyork Cap,OPEN,2023-01-25
+2025,linda.wolf@pronto-hw.com,1004.99,0032-1,Leather Jacket,OPEN,2021-03-14
+2028,william.hunter@pronto-hw.com,26.2,300772559,Del Chaos Tee SS Youth white L,OPEN,2022-06-18
+2030,william.hunter@pronto-hw.com,103.15,300399834,5 Pocket Freedom Pant burnt greens M,OPEN,2024-01-29
+2031,linda.wolf@pronto-hw.com,65.45,300026672,Sneakers Vans Old Skool black/white 10.0,OPEN,2022-03-19
+2015,nicolejackson@gmail.com,70.75,300464995,Nightlife T-Shirt Women violet M,READY,2021-11-27
+2026,william.hunter@pronto-hw.com,54.51,300772559,Del Chaos Tee SS Youth white L,READY,2020-07-22
+2029,linda.wolf@pronto-hw.com,26.2,300738114,Asterisk SS youth black XS,READY,2023-04-05
+2010,mark.rivers@pronto-hw.com,107.95,300046592,Shades Fox The Duncan polished black grey,OPEN,2024-06-06
+2011,mark.rivers@pronto-hw.com,26.2,300738204,Skull 80 SS youth navy S,CREATED,2024-10-09
+2012,mark.rivers@pronto-hw.com,30.25,300427739,Sadplant Pipe Glove digi plaid S,ON_HOLD,2025-01-12
+3001,mark.rivers@pronto-hw.com,73.95,300062456,Helmet Women TSG Lotus Graphic Designs wms Butterfly LXL,ON_HOLD,2025-05-20
+3002,mark.rivers@pronto-hw.com,74.8,300410422,Sludge Jacket youth col mustard colorblock XL,COMPLETED,2025-05-20
+3000,mark.rivers@pronto-hw.com,655.99,0031-1,Trench Coat,OPEN,2025-04-02
+3004,mark.rivers@pronto-hw.com,30.25,300608392,I Love Tee SS Women grey heather M,CREATED,2025-03-07
+3003,mark.rivers@pronto-hw.com,289.45,300659388,HD Hero2 Outdoor Edition uni Uni,CHECKED_VALID,2025-02-03

@@ -1,0 +1,277 @@
+{
+  "availableForPickup": true,
+  "baseOptions": [
+    {
+      "options": [
+        {
+          "code": "300415739",
+          "priceData": {
+            "currencyIso": "GBP",
+            "formattedValue": "\u00a324.26",
+            "priceType": "BUY",
+            "value": 24.26
+          },
+          "stock": {
+            "isValueRounded": false,
+            "stockLevel": 16,
+            "stockLevelStatus": "inStock"
+          },
+          "url": "/Categories/Accessories/Beanies/What%C2%A6s-Your-Niner/p/300415739",
+          "variantOptionQualifiers": [
+            {
+              "name": "Size",
+              "qualifier": "size",
+              "value": "Uni"
+            },
+            {
+              "name": "Style",
+              "qualifier": "style",
+              "value": "team blue"
+            }
+          ]
+        }
+      ],
+      "selected": {
+        "code": "300415739",
+        "priceData": {
+          "currencyIso": "GBP",
+          "formattedValue": "\u00a324.26",
+          "priceType": "BUY",
+          "value": 24.26
+        },
+        "stock": {
+          "isValueRounded": false,
+          "stockLevel": 16,
+          "stockLevelStatus": "inStock"
+        },
+        "url": "/Categories/Accessories/Beanies/What%C2%A6s-Your-Niner/p/300415739",
+        "variantOptionQualifiers": [
+          {
+            "name": "Size",
+            "qualifier": "size",
+            "value": "Uni"
+          },
+          {
+            "name": "Style",
+            "qualifier": "style",
+            "value": "team blue"
+          }
+        ]
+      },
+      "variantType": "ApparelSizeVariantProduct"
+    },
+    {
+      "options": [
+        {
+          "code": "96026_astro_turf",
+          "priceData": {
+            "currencyIso": "GBP",
+            "formattedValue": "\u00a324.26",
+            "priceType": "FROM",
+            "value": 24.26
+          },
+          "stock": {
+            "isValueRounded": false,
+            "stockLevel": 0,
+            "stockLevelStatus": "outOfStock"
+          },
+          "url": "/Categories/Accessories/Beanies/What%C2%A6s-Your-Niner/p/96026_astro_turf",
+          "variantOptionQualifiers": [
+            {
+              "image": {
+                "format": "30Wx30H",
+                "url": "/medias/?context=bWFzdGVyfGltYWdlc3wxMzk5fGltYWdlL2pwZWd8YVcxaFoyVnpMMmczTWk5b05qRXZPRGM1TmpjME5UUXdNRE0xTUM1cWNHY3wzNDAwOWI2OTFkYjIzZDAwNDMyZjE4ZDY3OWQ2YTgzZDQxZDQ3ZGIzZjU4ZTI3MjRlMmE4MGRkMzA2M2Y2YTY4"
+              },
+              "name": "Style",
+              "qualifier": "style",
+              "value": "astro turf"
+            }
+          ]
+        },
+        {
+          "code": "96026_team_blue",
+          "priceData": {
+            "currencyIso": "GBP",
+            "formattedValue": "\u00a324.26",
+            "priceType": "FROM",
+            "value": 24.26
+          },
+          "stock": {
+            "isValueRounded": false,
+            "stockLevel": 0,
+            "stockLevelStatus": "outOfStock"
+          },
+          "url": "/Categories/Accessories/Beanies/What%C2%A6s-Your-Niner/p/96026_team_blue",
+          "variantOptionQualifiers": [
+            {
+              "image": {
+                "format": "30Wx30H",
+                "url": "/medias/?context=bWFzdGVyfGltYWdlc3wxNDA0fGltYWdlL2pwZWd8YVcxaFoyVnpMMmcxWkM5b05ERXZPRGM1TmpjME5UQTNNalkzTUM1cWNHY3w2ZWU2NWM3MjQ3YzAxMjM1ZjY2ZDg4YTY5ZDMyNTljMjg0YTJmZjM1ZmM4NDlhN2E1Zjc5YzliYzBmYjE0MGU1"
+              },
+              "name": "Style",
+              "qualifier": "style",
+              "value": "team blue"
+            }
+          ]
+        },
+        {
+          "code": "96026_true_black",
+          "priceData": {
+            "currencyIso": "GBP",
+            "formattedValue": "\u00a324.26",
+            "priceType": "FROM",
+            "value": 24.26
+          },
+          "stock": {
+            "isValueRounded": false,
+            "stockLevel": 0,
+            "stockLevelStatus": "outOfStock"
+          },
+          "url": "/Categories/Accessories/Beanies/What%C2%A6s-Your-Niner/p/96026_true_black",
+          "variantOptionQualifiers": [
+            {
+              "image": {
+                "format": "30Wx30H",
+                "url": "/medias/?context=bWFzdGVyfGltYWdlc3wxNDE2fGltYWdlL2pwZWd8YVcxaFoyVnpMMmhsT1M5b05Ua3ZPRGM1TmpjME5UY3lPREF6TUM1cWNHY3w4MzhiMGEyNzFlOTc3NjVkOWQ4MGUxODNmODM4NTI3MmU4OTYwMjVkYmNiYjBmYWFjMDBiMTdkMGRkNmZlMGZh"
+              },
+              "name": "Style",
+              "qualifier": "style",
+              "value": "true black"
+            }
+          ]
+        }
+      ],
+      "selected": {
+        "code": "96026_team_blue",
+        "priceData": {
+          "currencyIso": "GBP",
+          "formattedValue": "\u00a324.26",
+          "priceType": "FROM",
+          "value": 24.26
+        },
+        "stock": {
+          "isValueRounded": false,
+          "stockLevel": 0,
+          "stockLevelStatus": "outOfStock"
+        },
+        "url": "/Categories/Accessories/Beanies/What%C2%A6s-Your-Niner/p/96026_team_blue",
+        "variantOptionQualifiers": [
+          {
+            "image": {
+              "format": "30Wx30H",
+              "url": "/medias/?context=bWFzdGVyfGltYWdlc3wxNDA0fGltYWdlL2pwZWd8YVcxaFoyVnpMMmcxWkM5b05ERXZPRGM1TmpjME5UQTNNalkzTUM1cWNHY3w2ZWU2NWM3MjQ3YzAxMjM1ZjY2ZDg4YTY5ZDMyNTljMjg0YTJmZjM1ZmM4NDlhN2E1Zjc5YzliYzBmYjE0MGU1"
+            },
+            "name": "Style",
+            "qualifier": "style",
+            "value": "team blue"
+          }
+        ]
+      },
+      "variantType": "ApparelStyleVariantProduct"
+    }
+  ],
+  "baseProduct": "96026_team_blue",
+  "bundleTemplates": [],
+  "categories": [
+    {
+      "code": "220500",
+      "name": "Beanies",
+      "url": "/Categories/Accessories/Beanies/c/220500"
+    },
+    {
+      "code": "Burton",
+      "image": {
+        "format": "96Wx96H",
+        "url": "/medias/?context=bWFzdGVyfGltYWdlc3w1ODA2fGltYWdlL2pwZWd8YVcxaFoyVnpMMmhtTnk5b01UQXZPRGM1TmpZek1ESTFNelU1T0M1cWNHY3xiZTRlNmYzODJhOTg4MzkyM2E2NTQ3YmI3ZDIxZmNkYmY2YWY3YjJiYzNjZDlhZTY0Yjc5OWRhZWY5OWFkNDc1"
+      },
+      "name": "Burton",
+      "url": "/Brands/Burton/c/Burton"
+    }
+  ],
+  "code": "300415739",
+  "configurable": false,
+  "description": "",
+  "images": [
+    {
+      "altText": "What's Your Niner team blue Uni",
+      "format": "zoom",
+      "imageType": "PRIMARY",
+      "url": "/medias/?context=bWFzdGVyfGltYWdlc3w4NzgxOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE1pOW9ZMk12T0RjNU5qYzBORGd4TURVeU5pNXFjR2N8NDkyZWRhMGUyYTk3NzhmYWQzZmY5NmZiYmVkNWQ4MWU0YzJmYTkwNmU2NTk5ZDYxMGRjMGE2MDdhNjE5YWU4Mw"
+    },
+    {
+      "altText": "What's Your Niner team blue Uni",
+      "format": "product",
+      "imageType": "PRIMARY",
+      "url": "/medias/?context=bWFzdGVyfGltYWdlc3wyODA2M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnM1pDOW9PV0V2T0RjNU5qYzBORGczTmpBMk1pNXFjR2N8ODVlMWU1NmQ0ZDA2YTI4NzgzOTBiYmRjOGMyZGIwNzdkNTQ2MTA4OTE0NTZiM2YxM2NkZGViZTI0N2JiNGU2Mw"
+    },
+    {
+      "altText": "What's Your Niner team blue Uni",
+      "format": "thumbnail",
+      "imageType": "PRIMARY",
+      "url": "/medias/?context=bWFzdGVyfGltYWdlc3w0NzQwfGltYWdlL2pwZWd8YVcxaFoyVnpMMmczTVM5b1pUa3ZPRGM1TmpjME5EazBNVFU1T0M1cWNHY3xmOTBkYTdiZTJmYjVkMDI2ZWQ2MWIyYzFiYjE3MjFhNTUwZDA5MzA1YTg2OGI0OTg4NjUxOTljMGVkODA3NjJm"
+    },
+    {
+      "altText": "What's Your Niner team blue Uni",
+      "format": "cartIcon",
+      "imageType": "PRIMARY",
+      "url": "/medias/?context=bWFzdGVyfGltYWdlc3wzMDg1fGltYWdlL2pwZWd8YVcxaFoyVnpMMmc0TkM5b05tTXZPRGM1TmpjME5UQXdOekV6TkM1cWNHY3xlZWUwOTI3ODg4ZWY3NmU1ODNhYjcwYzgzMzczYWM0MGNhMTMwMDlhNDFlOGFkZGI5OGQwMjNhMGM3NWYyYTM2"
+    },
+    {
+      "altText": "What's Your Niner team blue Uni",
+      "format": "zoom",
+      "galleryIndex": 0,
+      "imageType": "GALLERY",
+      "url": "/medias/?context=bWFzdGVyfGltYWdlc3w4NzgxOHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE1pOW9ZMk12T0RjNU5qYzBORGd4TURVeU5pNXFjR2N8NDkyZWRhMGUyYTk3NzhmYWQzZmY5NmZiYmVkNWQ4MWU0YzJmYTkwNmU2NTk5ZDYxMGRjMGE2MDdhNjE5YWU4Mw"
+    },
+    {
+      "altText": "What's Your Niner team blue Uni",
+      "format": "product",
+      "galleryIndex": 0,
+      "imageType": "GALLERY",
+      "url": "/medias/?context=bWFzdGVyfGltYWdlc3wyODA2M3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnM1pDOW9PV0V2T0RjNU5qYzBORGczTmpBMk1pNXFjR2N8ODVlMWU1NmQ0ZDA2YTI4NzgzOTBiYmRjOGMyZGIwNzdkNTQ2MTA4OTE0NTZiM2YxM2NkZGViZTI0N2JiNGU2Mw"
+    },
+    {
+      "altText": "What's Your Niner team blue Uni",
+      "format": "thumbnail",
+      "galleryIndex": 0,
+      "imageType": "GALLERY",
+      "url": "/medias/?context=bWFzdGVyfGltYWdlc3w0NzQwfGltYWdlL2pwZWd8YVcxaFoyVnpMMmczTVM5b1pUa3ZPRGM1TmpjME5EazBNVFU1T0M1cWNHY3xmOTBkYTdiZTJmYjVkMDI2ZWQ2MWIyYzFiYjE3MjFhNTUwZDA5MzA1YTg2OGI0OTg4NjUxOTljMGVkODA3NjJm"
+    }
+  ],
+  "multidimensional": false,
+  "name": "What's Your Niner team blue Uni",
+  "numberOfReviews": 0,
+  "potentialPromotions": [],
+  "price": {
+    "currencyIso": "GBP",
+    "formattedValue": "\u00a324.26",
+    "priceType": "BUY",
+    "value": 24.26
+  },
+  "priceRange": {
+    "maxPrice": {
+      "currencyIso": "GBP",
+      "value": 24.26
+    },
+    "minPrice": {
+      "currencyIso": "GBP",
+      "value": 24.26
+    }
+  },
+  "productReferences": [],
+  "purchasable": true,
+  "reviews": [],
+  "sapUnit": {
+    "availabilityCode": "pieces",
+    "code": "pieces",
+    "name": "Piece"
+  },
+  "stock": {
+    "isValueRounded": false,
+    "stockLevel": 16,
+    "stockLevelStatus": "inStock"
+  },
+  "summary": "<p> Features:<br /><br />+ 100% Acrylic<br />+ Basic Beanie with Double Stripes and Pom<br />+ Slouch Fit </p>",
+  "url": "/Categories/Accessories/Beanies/What%C2%A6s-Your-Niner/p/300415739",
+  "volumePrices": []
+}

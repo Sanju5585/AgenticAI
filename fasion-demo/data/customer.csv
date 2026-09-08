@@ -1,0 +1,7 @@
+CUSTOMER_NAME,CUSTOMER_ID,GENDER,AGE,STYLE_PREFERENCE,FAVORITE_CATEGORIES,BUDGET_RANGE,SHOPPING_PERSONA,OCCASION_PREFERENCE,COLOR_PREFERENCE
+Aayushi Gupta,aayushigupta@gmail.com,FEMALE,25,Trendy,"jackets,dresses,accessories",Medium,Fashion Forward,"casual,party",Bright
+Lars Bauer,lars.bauer@rustic-hw.com,MALE,34,Casual,"jackets,shoes,watches",Medium,Practical Buyer,"outdoor,casual",Dark
+Linda Wolf,linda.wolf@pronto-hw.com,FEMALE,29,Classic,"coats,shirts,bags",Premium,Brand Conscious,"office,casual",Neutral
+Mark Rivers,mark.rivers@pronto-hw.com,MALE,42,Formal,"jackets,watches,trousers",Premium,Brand Conscious,"office,formal",Dark
+Nicole Jackson,nicolejackson@gmail.com,FEMALE,31,Sporty,"shoes,activewear,accessories",Low,Deal Hunter,"sport,casual",Bright
+William Hunter,william.hunter@pronto-hw.com,MALE,37,Classic,"jackets,trousers,watches",Premium,Practical Buyer,"outdoor,office",Neutral

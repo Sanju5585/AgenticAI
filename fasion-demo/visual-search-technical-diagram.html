@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Search - Technical Architecture Diagram</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            background: #0f172a;
+            color: #e2e8f0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: #1e293b;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+        }
+
+        h1 {
+            text-align: center;
+            color: #60a5fa;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+            text-shadow: 0 0 20px rgba(96, 165, 250, 0.5);
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #94a3b8;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+
+        /* Architecture Layers */
+        .architecture {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .layer {
+            background: #334155;
+            border-radius: 12px;
+            padding: 25px;
+            border: 2px solid #475569;
+            position: relative;
+        }
+
+        .layer-title {
+            background: #60a5fa;
+            color: #0f172a;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .layer.frontend .layer-title { background: #34d399; }
+        .layer.api .layer-title { background: #fbbf24; }
+        .layer.processing .layer-title { background: #f472b6; }
+        .layer.ai .layer-title { background: #a78bfa; }
+        .layer.database .layer-title { background: #fb923c; }
+
+        .components {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .component {
+            background: #1e293b;
+            border: 2px solid #475569;
+            border-radius: 8px;
+            padding: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .component:hover {
+            border-color: #60a5fa;
+            transform: translateX(5px);
+            box-shadow: 0 0 20px rgba(96, 165, 250, 0.3);
+        }
+
+        .component-name {
+            color: #60a5fa;
+            font-weight: bold;
+            margin-bottom: 8px;
+            font-size: 1.05em;
+        }
+
+        .component-desc {
+            color: #94a3b8;
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+
+        .component-tech {
+            color: #34d399;
+            font-size: 0.85em;
+            margin-top: 8px;
+            font-style: italic;
+        }
+
+        /* Data Flow Diagram */
+        .data-flow {
+            background: #334155;
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+            border: 2px solid #475569;
+        }
+
+        .flow-title {
+            color: #60a5fa;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .flow-steps {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .flow-step {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px;
+            background: #1e293b;
+            border-radius: 8px;
+            border-left: 4px solid #60a5fa;
+        }
+
+        .step-number {
+            background: #60a5fa;
+            color: #0f172a;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2em;
+            flex-shrink: 0;
+        }
+
+        .step-content {
+            flex: 1;
+        }
+
+        .step-title {
+            color: #34d399;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .step-detail {
+            color: #94a3b8;
+            font-size: 0.9em;
+        }
+
+        /* Code Blocks */
+        .code-section {
+            background: #0f172a;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 30px 0;
+            border: 2px solid #475569;
+        }
+
+        .code-title {
+            color: #fbbf24;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .code-block {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 0.9em;
+            line-height: 1.6;
+            border: 1px solid #334155;
+        }
+
+        .code-block pre {
+            margin: 0;
+        }
+
+        .keyword { color: #c084fc; }
+        .string { color: #34d399; }
+        .number { color: #fbbf24; }
+        .comment { color: #64748b; font-style: italic; }
+        .function { color: #60a5fa; }
+        .variable { color: #f472b6; }
+
+        /* API Endpoints */
+        .api-endpoint {
+            background: #1e293b;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 4px solid #fbbf24;
+        }
+
+        .endpoint-method {
+            display: inline-block;
+            background: #dc2626;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .endpoint-path {
+            color: #34d399;
+            font-weight: bold;
+        }
+
+        .endpoint-desc {
+            color: #94a3b8;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+
+        /* Database Schema */
+        .schema-table {
+            background: #1e293b;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            border: 2px solid #475569;
+        }
+
+        .table-name {
+            color: #fb923c;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .schema-fields {
+            display: grid;
+            gap: 8px;
+        }
+
+        .field {
+            display: flex;
+            gap: 15px;
+            padding: 8px;
+            background: #334155;
+            border-radius: 5px;
+        }
+
+        .field-name {
+            color: #60a5fa;
+            font-weight: bold;
+            min-width: 150px;
+        }
+
+        .field-type {
+            color: #fbbf24;
+            min-width: 100px;
+        }
+
+        .field-desc {
+            color: #94a3b8;
+            font-size: 0.9em;
+        }
+
+        /* Class Diagram */
+        .class-diagram {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .class-box {
+            background: #1e293b;
+            border: 2px solid #60a5fa;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .class-header {
+            background: #60a5fa;
+            color: #0f172a;
+            padding: 15px;
+            font-weight: bold;
+            font-size: 1.1em;
+            text-align: center;
+        }
+
+        .class-section {
+            padding: 15px;
+            border-bottom: 1px solid #334155;
+        }
+
+        .class-section:last-child {
+            border-bottom: none;
+        }
+
+        .section-title {
+            color: #34d399;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 0.9em;
+        }
+
+        .class-method, .class-property {
+            color: #94a3b8;
+            padding: 5px 0;
+            font-size: 0.85em;
+            font-family: 'Courier New', monospace;
+        }
+
+        .class-method::before {
+            content: "⚡ ";
+            color: #fbbf24;
+        }
+
+        .class-property::before {
+            content: "📦 ";
+            color: #34d399;
+        }
+
+        /* Performance Metrics */
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .metric-card {
+            background: linear-gradient(135deg, #334155 0%, #1e293b 100%);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            border: 2px solid #475569;
+        }
+
+        .metric-value {
+            font-size: 2.5em;
+            color: #34d399;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .metric-label {
+            color: #94a3b8;
+            font-size: 0.9em;
+        }
+
+        /* Arrow Connectors */
+        .connector {
+            text-align: center;
+            font-size: 2em;
+            color: #475569;
+            margin: 10px 0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .components {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚙️ Visual Search - Technical Architecture</h1>
+        <p class="subtitle">System Design & Implementation Details</p>
+
+        <!-- System Architecture Layers -->
+        <div class="architecture">
+            <!-- Frontend Layer -->
+            <div class="layer frontend">
+                <div class="layer-title">🖥️ FRONTEND LAYER</div>
+                <div class="components">
+                    <div class="component">
+                        <div class="component-name">Image Upload UI</div>
+                        <div class="component-desc">Drag-and-drop file upload interface with preview</div>
+                        <div class="component-tech">HTML5 FileReader API, FormData</div>
+                    </div>
+                    <div class="component">
+                        <div class="component-name">Result Display</div>
+                        <div class="component-desc">Product grid with images, prices, and details</div>
+                        <div class="component-tech">Dynamic DOM rendering, CSS Grid</div>
+                    </div>
+                    <div class="component">
+                        <div class="component-name">Image Validation</div>
+                        <div class="component-desc">Client-side format and size checking</div>
+                        <div class="component-tech">JavaScript file type validation</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="connector">⬇️</div>
+
+            <!-- API Layer -->
+            <div class="layer api">
+                <div class="layer-title">🔌 API LAYER (Flask)</div>
+                <div class="components">
+                    <div class="component">
+                        <div class="component-name">POST /api/visual-search</div>
+                        <div class="component-desc">Main endpoint accepting multipart/form-data</div>
+                        <div class="component-tech">Flask route handler, file upload processing</div>
+                    </div>
+                    <div class="component">
+                        <div class="component-name">Request Validation</div>
+                        <div class="component-desc">File presence, format, size validation (4MB max)</div>
+                        <div class="component-tech">Flask request.files, MIME type checking</div>
+                    </div>
+                    <div class="component">
+                        <div class="component-name">Error Handling</div>
+                        <div class="component-desc">Comprehensive error responses with logging</div>
+                        <div class="component-tech">try-except blocks, JSON error responses</div>
+                    </div>
+                    <div class="component">
+                        <div class="component-name">Response Formatter</div>
+                        <div class="component-desc">Standardized JSON response structure</div>
+                        <div class="component-tech">Flask jsonify, custom response schemas</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="connector">⬇️</div>
+
+            <!-- Processing Layer -->
+            <div class="layer processing">
+                <div class="layer-title">🔧 IMAGE PROCESSING LAYER</div>
+                <div class="components">
+                    <div class="component">
+                        <div class="component-name">Image Loader</div>
+                        <div class="component-desc">Load and decode image from binary data</div>
+                        <div class="component-tech">PIL.Image.open(), io.BytesIO()</div>
+                    </div>
+                    <div class="component">
+                        <div class="component-name">Resize & Optimize</div>
+                        <div class="component-desc">Max 1024px dimension, RGB conversion</div>
+                        <div class="component-tech">PIL resize(LANCZOS), convert('RGB')</div>
+                    </div>
+                    <div class="component">
+                        <div class="component-name">Color Extraction</div>
+                        <div class="component-desc">K-means clustering for dominant colors</div>
+                        <div class="component-tech">sklearn.KMeans (n_clusters=5)</div>
+                    </div>
+                    <div class="component">
+                        <div class="component-name">Perceptual Hashing</div>
+                        <div class="component-desc">Generate phash and ahash for similarity</div>
+                        <div class="component-tech">imagehash.phash(), imagehash.average_hash()</div>
+                    </div>
+                    <div class="component">
+                        <div class="component-name">Cache Manager</div>
+                        <div class="component-desc">MD5-based image storage in local cache</div>
+                        <div class="component-tech">hashlib.md5(), filesystem I/O</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="connector">⬇️</div>
+
+            <!-- AI Layer -->
+            <div class="layer ai">
+                <div class="layer-title">🤖 AI VISION LAYER</div>
+                <div class="components">
+                    <div class="component">
+                        <div class="component-name">Google Gemini Vision</div>
+                        <div class="component-desc">Primary: gemini-2.5-flash-lite</div>
+                        <div class="component-tech">google.generativeai.GenerativeModel</div>
+                    </div>
+                    <div class="component">
+                        <div class="component-name">Fallback Model</div>
+                        <div class="component-desc">Backup: gemini-1.5-flash</div>
+                        <div class="component-tech">Model switching on API errors</div>
+                    </div>
+                    <div class="component">
+                        <div class="component-name">Prompt Engineering</div>
+                        <div class="component-desc">Structured JSON extraction prompt</div>
+                        <div class="component-tech">Multi-modal prompts (text + image)</div>
+                    </div>
+                    <div class="component">
+                        <div class="component-name">Response Parser</div>
+                        <div class="component-desc">Extract JSON from markdown code blocks</div>
+                        <div class="component-tech">Regex pattern matching, json.loads()</div>
+                    </div>
+                    <div class="component">
+                        <div class="component-name">Metadata Extractor</div>
+                        <div class="component-desc">Category, type, colors, attributes, keywords</div>
+                        <div class="component-tech">AI-driven semantic understanding</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="connector">⬇️</div>
+
+            <!-- Database Layer -->
+            <div class="layer database">
+                <div class="layer-title">💾 DATABASE LAYER (SAP HANA)</div>
+                <div class="components">
+                    <div class="component">
+                        <div class="component-name">Connection Pool</div>
+                        <div class="component-desc">Encrypted SSL connection to HANA Cloud</div>
+                        <div class="component-tech">hdbcli.dbapi.connect() with SSL</div>
+                    </div>
+                    <div class="component">
+                        <div class="component-name">Query Builder</div>
+                        <div class="component-desc">LIKE-based text search on product fields</div>
+                        <div class="component-tech">Parameterized SQL queries</div>
+                    </div>
+                    <div class="component">
+                        <div class="component-name">Relevance Ranking</div>
+                        <div class="component-desc">CASE-based ordering (exact match priority)</div>
+                        <div class="component-tech">SQL ORDER BY with CASE statements</div>
+                    </div>
+                    <div class="component">
+                        <div class="component-name">URL Normalizer</div>
+                        <div class="component-desc">Media host rewriting for image URLs</div>
+                        <div class="component-tech">urllib.parse for URL manipulation</div>
+                    </div>
+                    <div class="component">
+                        <div class="component-name">Result Formatter</div>
+                        <div class="component-desc">Convert DB rows to product dictionaries</div>
+                        <div class="component-tech">Python dict mapping with type casting</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data Flow Sequence -->
+        <div class="data-flow">
+            <div class="flow-title">📊 Request-Response Data Flow</div>
+            <div class="flow-steps">
+                <div class="flow-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <div class="step-title">HTTP POST Request</div>
+                        <div class="step-detail">
+                            <strong>Endpoint:</strong> /api/visual-search<br>
+                            <strong>Content-Type:</strong> multipart/form-data<br>
+                            <strong>Parameters:</strong> file (binary), limit (optional, default: 5)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flow-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <div class="step-title">Server-Side Validation</div>
+                        <div class="step-detail">
+                            <strong>Checks:</strong> File presence, MIME type (jpg/png/webp/gif), size ≤ 4MB<br>
+                            <strong>Failure:</strong> Returns 400 Bad Request with error message
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flow-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <div class="step-title">Image Processing Pipeline</div>
+                        <div class="step-detail">
+                            <strong>Operations:</strong> Load → Resize → RGB conversion → Feature extraction<br>
+                            <strong>Features:</strong> Size, format, dominant colors, phash, ahash<br>
+                            <strong>Cache:</strong> Save to image_cache/ with MD5 filename
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flow-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <div class="step-title">AI Vision Analysis</div>
+                        <div class="step-detail">
+                            <strong>Model:</strong> Google Gemini 2.5 Flash-Lite<br>
+                            <strong>Input:</strong> Structured prompt + PIL Image object<br>
+                            <strong>Output:</strong> JSON {category, product_type, colors, attributes, keywords}<br>
+                            <strong>Fallback:</strong> Switch to gemini-1.5-flash on error
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flow-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <div class="step-title">Search Query Generation</div>
+                        <div class="step-detail">
+                            <strong>Primary:</strong> product_type from AI analysis<br>
+                            <strong>Fallback:</strong> First keyword if product_type is generic<br>
+                            <strong>Strategy:</strong> Avoid broad categories like "Accessories"
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flow-step">
+                    <div class="step-number">6</div>
+                    <div class="step-content">
+                        <div class="step-title">Database Query Execution</div>
+                        <div class="step-detail">
+                            <strong>Table:</strong> SAP_PRODUCTS_COMMERCE_2211_V2<br>
+                            <strong>Search:</strong> LIKE on PRODUCT_NAME and SUMMARY<br>
+                            <strong>Ranking:</strong> Exact match in name gets priority<br>
+                            <strong>Limit:</strong> User-specified (default: 5, fetches 2x for filtering)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flow-step">
+                    <div class="step-number">7</div>
+                    <div class="step-content">
+                        <div class="step-title">Response Construction</div>
+                        <div class="step-detail">
+                            <strong>Format:</strong> JSON with success, results array, metadata<br>
+                            <strong>Product Fields:</strong> ID, name, summary, price, image_url, category<br>
+                            <strong>Metadata:</strong> image_cache filename, AI analysis, feature data<br>
+                            <strong>HTTP Status:</strong> 200 OK (success) or 400/500 (error)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- API Specification -->
+        <div class="code-section">
+            <div class="code-title">📡 API Endpoint Specification</div>
+            <div class="api-endpoint">
+                <span class="endpoint-method">POST</span>
+                <span class="endpoint-path">/api/visual-search</span>
+                <div class="endpoint-desc">
+                    <strong>Description:</strong> Upload an image and find visually similar products<br><br>
+                    <strong>Request Headers:</strong><br>
+                    • Content-Type: multipart/form-data<br><br>
+                    <strong>Request Body:</strong><br>
+                    • file (required): Image file (jpg, png, webp, gif, max 4MB)<br>
+                    • limit (optional): Number of results (default: 5, range: 1-20)<br><br>
+                    <strong>Success Response (200):</strong>
+                </div>
+            </div>
+            <div class="code-block">
+<pre><span class="keyword">{</span>
+  <span class="string">"success"</span>: <span class="keyword">true</span>,
+  <span class="string">"response_type"</span>: <span class="string">"visual_search"</span>,
+  <span class="string">"image_cache"</span>: <span class="string">"a1b2c3d4e5f6.jpg"</span>,
+  <span class="string">"analysis"</span>: <span class="keyword">{</span>
+    <span class="string">"category"</span>: <span class="string">"Accessories"</span>,
+    <span class="string">"product_type"</span>: <span class="string">"Sunglasses"</span>,
+    <span class="string">"colors"</span>: [<span class="string">"black"</span>, <span class="string">"gold"</span>, <span class="string">"gray"</span>],
+    <span class="string">"attributes"</span>: [<span class="string">"aviator"</span>, <span class="string">"metal frame"</span>, <span class="string">"UV protection"</span>],
+    <span class="string">"keywords"</span>: [<span class="string">"sunglasses"</span>, <span class="string">"eyewear"</span>, <span class="string">"fashion"</span>, <span class="string">"accessories"</span>]
+  <span class="keyword">}</span>,
+  <span class="string">"features"</span>: <span class="keyword">{</span>
+    <span class="string">"size"</span>: [<span class="number">800</span>, <span class="number">600</span>],
+    <span class="string">"mode"</span>: <span class="string">"RGB"</span>,
+    <span class="string">"dominant_colors"</span>: [<span class="string">"#1a1a1a"</span>, <span class="string">"#d4af37"</span>, <span class="string">"#808080"</span>],
+    <span class="string">"perceptual_hash"</span>: <span class="string">"8f8f0f0f8f8f0f0f"</span>,
+    <span class="string">"average_hash"</span>: <span class="string">"ff00ff00ff00ff00"</span>
+  <span class="keyword">}</span>,
+  <span class="string">"results"</span>: [
+    <span class="keyword">{</span>
+      <span class="string">"PRODUCT_ID"</span>: <span class="string">"300938"</span>,
+      <span class="string">"PRODUCT_NAME"</span>: <span class="string">"Aviator Sunglasses Black"</span>,
+      <span class="string">"SUMMARY"</span>: <span class="string">"Classic aviator style with UV protection"</span>,
+      <span class="string">"PRICE"</span>: <span class="number">79.99</span>,
+      <span class="string">"IMAGE_URL"</span>: <span class="string">"https://example.com/images/300938.jpg"</span>,
+      <span class="string">"CATEGORY_IDs"</span>: <span class="string">"accessories"</span>,
+      <span class="string">"similarity_score"</span>: <span class="number">0.8</span>,
+      <span class="string">"relevance"</span>: <span class="string">"high"</span>
+    <span class="keyword">}</span>
+    <span class="comment">// ... more products</span>
+  ],
+  <span class="string">"count"</span>: <span class="number">5</span>,
+  <span class="string">"query_generated"</span>: <span class="string">"Sunglasses"</span>
+<span class="keyword">}</span></pre>
+            </div>
+            <div class="api-endpoint" style="margin-top: 20px;">
+                <span class="endpoint-method" style="background: #7c3aed;">ERROR</span>
+                <span class="endpoint-path">Error Response (400/500)</span>
+                <div class="endpoint-desc">
+                    <strong>Error Response:</strong>
+                </div>
+            </div>
+            <div class="code-block">
+<pre><span class="keyword">{</span>
+  <span class="string">"success"</span>: <span class="keyword">false</span>,
+  <span class="string">"response_type"</span>: <span class="string">"visual_search"</span>,
+  <span class="string">"error"</span>: <span class="string">"Image too large. Maximum size is 4MB"</span>,
+  <span class="string">"results"</span>: []
+<span class="keyword">}</span></pre>
+            </div>
+        </div>
+
+        <!-- Database Schema -->
+        <div class="code-section">
+            <div class="code-title">🗄️ Database Schema</div>
+            <div class="schema-table">
+                <div class="table-name">SAP_PRODUCTS_COMMERCE_2211_V2</div>
+                <div class="schema-fields">
+                    <div class="field">
+                        <div class="field-name">PRODUCT_ID</div>
+                        <div class="field-type">VARCHAR(50)</div>
+                        <div class="field-desc">Primary key, unique product identifier</div>
+                    </div>
+                    <div class="field">
+                        <div class="field-name">PRODUCT_NAME</div>
+                        <div class="field-type">VARCHAR(255)</div>
+                        <div class="field-desc">Product display name (searchable)</div>
+                    </div>
+                    <div class="field">
+                        <div class="field-name">SUMMARY</div>
+                        <div class="field-type">TEXT</div>
+                        <div class="field-desc">Product description (searchable)</div>
+                    </div>
+                    <div class="field">
+                        <div class="field-name">PRICE</div>
+                        <div class="field-type">DECIMAL(10,2)</div>
+                        <div class="field-desc">Product price in USD</div>
+                    </div>
+                    <div class="field">
+                        <div class="field-name">IMAGE_URL</div>
+                        <div class="field-type">VARCHAR(500)</div>
+                        <div class="field-desc">Product image URL (normalized by system)</div>
+                    </div>
+                    <div class="field">
+                        <div class="field-name">CATEGORY_IDs</div>
+                        <div class="field-type">VARCHAR(100)</div>
+                        <div class="field-desc">Comma-separated category identifiers</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="code-title" style="margin-top: 30px;">🔍 SQL Query Template</div>
+            <div class="code-block">
+<pre><span class="keyword">SELECT</span> 
+    p.PRODUCT_ID,
+    p.PRODUCT_NAME,
+    p.SUMMARY,
+    p.PRICE,
+    p.IMAGE_URL,
+    p.CATEGORY_IDs
+<span class="keyword">FROM</span> 
+    SAP_PRODUCTS_COMMERCE_2211_V2 p
+<span class="keyword">WHERE</span> 
+    <span class="function">LOWER</span>(p.PRODUCT_NAME) <span class="keyword">LIKE</span> <span class="function">LOWER</span>(<span class="variable">?</span>)   <span class="comment">-- %sunglasses%</span>
+    <span class="keyword">OR</span> <span class="function">LOWER</span>(p.SUMMARY) <span class="keyword">LIKE</span> <span class="function">LOWER</span>(<span class="variable">?</span>)      <span class="comment">-- %sunglasses%</span>
+<span class="keyword">ORDER BY</span> 
+    <span class="keyword">CASE</span> 
+        <span class="keyword">WHEN</span> <span class="function">LOWER</span>(p.PRODUCT_NAME) <span class="keyword">LIKE</span> <span class="function">LOWER</span>(<span class="variable">?</span>) <span class="keyword">THEN</span> <span class="number">1</span>   <span class="comment">-- Exact match priority</span>
+        <span class="keyword">ELSE</span> <span class="number">2</span>
+    <span class="keyword">END</span>
+<span class="keyword">LIMIT</span> <span class="variable">?</span>   <span class="comment">-- limit * 2 for filtering</span></pre>
+            </div>
+        </div>
+
+        <!-- Class Diagram -->
+        <div class="code-section">
+            <div class="code-title">📦 Class Structure</div>
+            <div class="class-diagram">
+                <div class="class-box">
+                    <div class="class-header">VisualSearchEngine</div>
+                    <div class="class-section">
+                        <div class="section-title">PROPERTIES</div>
+                        <div class="class-property">max_image_size: int = 4MB</div>
+                        <div class="class-property">supported_formats: set</div>
+                        <div class="class-property">cache_dir: str = "image_cache"</div>
+                        <div class="class-property">vision_model: str</div>
+                        <div class="class-property">fallback_vision_model: str</div>
+                        <div class="class-property">media_host_rewrite: str</div>
+                    </div>
+                    <div class="class-section">
+                        <div class="section-title">METHODS</div>
+                        <div class="class-method">validate_image(bytes) → (bool, str)</div>
+                        <div class="class-method">process_image(bytes) → Dict</div>
+                        <div class="class-method">analyze_image_with_ai(bytes) → Dict</div>
+                        <div class="class-method">search_similar_products(Dict, int) → List[Dict]</div>
+                        <div class="class-method">save_upload(bytes, str) → str</div>
+                        <div class="class-method">_extract_dominant_colors(Image, int) → List[str]</div>
+                        <div class="class-method">_search_database(str, int) → List[Dict]</div>
+                        <div class="class-method">_normalize_image_url(str) → str</div>
+                        <div class="class-method">_rank_by_color_similarity(List, List) → List</div>
+                    </div>
+                </div>
+
+                <div class="class-box">
+                    <div class="class-header">Module: visual_search.py</div>
+                    <div class="class-section">
+                        <div class="section-title">PUBLIC FUNCTIONS</div>
+                        <div class="class-method">search_by_image(bytes, str, int) → Dict</div>
+                        <div class="class-method">get_visual_search_engine() → VisualSearchEngine</div>
+                    </div>
+                    <div class="class-section">
+                        <div class="section-title">DEPENDENCIES</div>
+                        <div class="class-property">PIL (Pillow) - Image processing</div>
+                        <div class="class-property">numpy - Array operations</div>
+                        <div class="class-property">imagehash - Perceptual hashing</div>
+                        <div class="class-property">sklearn - K-means clustering</div>
+                        <div class="class-property">google.generativeai - Gemini Vision</div>
+                        <div class="class-property">hdbcli - SAP HANA connection</div>
+                    </div>
+                </div>
+
+                <div class="class-box">
+                    <div class="class-header">Flask Route: app.py</div>
+                    <div class="class-section">
+                        <div class="section-title">ENDPOINT</div>
+                        <div class="class-method">@app.route("/api/visual-search", methods=["POST"])</div>
+                        <div class="class-method">api_visual_search() → Response</div>
+                    </div>
+                    <div class="class-section">
+                        <div class="section-title">FLOW</div>
+                        <div class="class-property">1. Extract file from request.files</div>
+                        <div class="class-property">2. Validate file presence</div>
+                        <div class="class-property">3. Get limit parameter (default: 5)</div>
+                        <div class="class-property">4. Read file as binary</div>
+                        <div class="class-property">5. Call search_by_image()</div>
+                        <div class="class-property">6. Return JSON response</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Performance Metrics -->
+        <div class="code-section">
+            <div class="code-title">⚡ Performance Specifications</div>
+            <div class="metrics">
+                <div class="metric-card">
+                    <div class="metric-value">4MB</div>
+                    <div class="metric-label">Max Upload Size</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">1024px</div>
+                    <div class="metric-label">Max Image Dimension</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">5</div>
+                    <div class="metric-label">K-means Clusters</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">768</div>
+                    <div class="metric-label">Embedding Dimensions</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">SSL</div>
+                    <div class="metric-label">HANA Connection</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">MD5</div>
+                    <div class="metric-label">Cache Hash Method</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Configuration -->
+        <div class="code-section">
+            <div class="code-title">⚙️ Environment Configuration</div>
+            <div class="code-block">
+<pre><span class="comment"># .env file configuration</span>
+
+<span class="keyword">GOOGLE_API_KEY</span>=<span class="string">your_google_api_key_here</span>
+<span class="keyword">GOOGLE_VISION_MODEL</span>=<span class="string">gemini-2.5-flash-lite</span>
+<span class="keyword">GOOGLE_VISION_FALLBACK_MODEL</span>=<span class="string">gemini-1.5-flash</span>
+
+<span class="comment"># SAP HANA Cloud Connection (embedded in code)</span>
+<span class="keyword">HANA_ADDRESS</span>=<span class="string">794d7a51-4a96-4b97-a476-dacb3a0440b4.hna2.prod-eu10.hanacloud.ondemand.com</span>
+<span class="keyword">HANA_PORT</span>=<span class="number">443</span>
+<span class="keyword">HANA_USER</span>=<span class="string">[encrypted]</span>
+<span class="keyword">HANA_PASSWORD</span>=<span class="string">[encrypted]</span>
+<span class="keyword">HANA_ENCRYPT</span>=<span class="keyword">True</span>
+<span class="keyword">HANA_SSL_VALIDATE</span>=<span class="keyword">False</span>
+
+<span class="comment"># Optional: Media URL rewriting</span>
+<span class="keyword">MEDIA_HOST_REWRITE</span>=<span class="string">https://your-cdn.example.com</span>
+<span class="keyword">OCC_BASE_URL</span>=<span class="string">https://your-occ.example.com</span></pre>
+            </div>
+        </div>
+
+        <!-- Error Handling -->
+        <div class="code-section">
+            <div class="code-title">🚨 Error Handling Strategy</div>
+            <div class="code-block">
+<pre><span class="comment"># Validation Errors (400 Bad Request)</span>
+- <span class="string">"No image file provided"</span>
+- <span class="string">"Image too large. Maximum size is 4MB"</span>
+- <span class="string">"Unsupported format. Use: jpg, jpeg, png, webp, gif"</span>
+- <span class="string">"Invalid image: [PIL error details]"</span>
+
+<span class="comment"># AI Model Errors (with fallback)</span>
+<span class="keyword">try</span>:
+    model = genai.GenerativeModel(<span class="string">"gemini-2.5-flash-lite"</span>)
+<span class="keyword">except</span> Exception:
+    model = genai.GenerativeModel(<span class="string">"gemini-1.5-flash"</span>)  <span class="comment"># Fallback</span>
+
+<span class="comment"># Database Errors (500 Internal Server Error)</span>
+- Connection failures → <span class="string">"Database connection error"</span>
+- Query errors → <span class="string">"Database search error"</span>
+- Returns empty results array on DB failures
+
+<span class="comment"># General Errors (500)</span>
+- <span class="string">"Unexpected error while running visual search. Please retry shortly."</span>
+- Full stack traces logged to console for debugging</pre>
+            </div>
+        </div>
+
+        <!-- Security Considerations -->
+        <div class="code-section">
+            <div class="code-title">🔒 Security & Best Practices</div>
+            <div class="details-grid" style="margin-top: 20px;">
+                <div class="detail-card">
+                    <h3>Input Validation</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 8px 0; color: #94a3b8;">✓ File size limit enforcement (4MB)</li>
+                        <li style="padding: 8px 0; color: #94a3b8;">✓ MIME type validation</li>
+                        <li style="padding: 8px 0; color: #94a3b8;">✓ PIL image integrity check</li>
+                        <li style="padding: 8px 0; color: #94a3b8;">✓ Filename sanitization</li>
+                    </ul>
+                </div>
+                <div class="detail-card">
+                    <h3>Database Security</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 8px 0; color: #94a3b8;">✓ Encrypted SSL connections</li>
+                        <li style="padding: 8px 0; color: #94a3b8;">✓ Parameterized queries (SQL injection prevention)</li>
+                        <li style="padding: 8px 0; color: #94a3b8;">✓ Connection pooling</li>
+                        <li style="padding: 8px 0; color: #94a3b8;">✓ Credential encryption</li>
+                    </ul>
+                </div>
+                <div class="detail-card">
+                    <h3>API Security</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 8px 0; color: #94a3b8;">✓ CORS configuration</li>
+                        <li style="padding: 8px 0; color: #94a3b8;">✓ Request rate limiting (recommended)</li>
+                        <li style="padding: 8px 0; color: #94a3b8;">✓ API key validation for Gemini</li>
+                        <li style="padding: 8px 0; color: #94a3b8;">✓ Error message sanitization</li>
+                    </ul>
+                </div>
+                <div class="detail-card">
+                    <h3>File Storage</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 8px 0; color: #94a3b8;">✓ MD5-based unique filenames</li>
+                        <li style="padding: 8px 0; color: #94a3b8;">✓ Isolated cache directory</li>
+                        <li style="padding: 8px 0; color: #94a3b8;">✓ No user-provided filenames used directly</li>
+                        <li style="padding: 8px 0; color: #94a3b8;">✓ Automatic format conversion</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

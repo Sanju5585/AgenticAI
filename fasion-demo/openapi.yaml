@@ -1,0 +1,182 @@
+openapi: 3.0.2
+info:
+  title: E-commerce Assistant API
+  version: 1.0.0
+  description: API for an e-commerce assistant with product, order, and semantic search endpoints.
+servers:
+  - url: https://ecom-assist-fearless-waterbuck-hp.cfapps.us10-001.hana.ondemand.com
+paths:
+  /api/query:
+    post:
+      summary: Process a user query (order/product/faq)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+                customer_id:
+                  type: string
+              required:
+                - query
+      responses:
+        '200':
+          description: Query response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  response:
+                    type: string
+                  results:
+                    type: array
+                    items:
+                      type: object
+                  error:
+                    type: string
+  /api/flexibleQuery:
+    post:
+      summary: Generate a flexible search query for SAP Commerce Cloud
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+                customer_id:
+                  type: string
+              required:
+                - query
+      responses:
+        '200':
+          description: Flexible search query as plain text
+          content:
+            text/plain:
+              schema:
+                type: string
+  /api/product_semantic:
+    post:
+      summary: Perform semantic product search
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+              required:
+                - query
+      responses:
+        '200':
+          description: Semantic product search results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  results:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                        name:
+                          type: string
+                        description:
+                          type: string
+                        link:
+                          type: string
+                        price:
+                          type: string
+                  response:
+                    type: string
+                  transaction_cost:
+                    type: number
+                  error:
+                    type: string
+  /api/order_semantic:
+    post:
+      summary: Perform semantic order search
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+                customer_id:
+                  type: string
+              required:
+                - query
+                - customer_id
+      responses:
+        '200':
+          description: Semantic order search results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  response:
+                    type: string
+                  transaction_cost:
+                    type: number
+                  error:
+                    type: string
+                  results:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        Order_ID:
+                          type: string
+                        Order_Status:
+                          type: string
+                        Ordered_Date:
+                          type: string
+                        Price:
+                          type: string
+                        Product_Name:
+                          type: string
+  /api/llm_product_semantic:
+    post:
+      summary: Perform LLM-based semantic product search
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+              required:
+                - query
+      responses:
+        '200':
+          description: LLM-based semantic product search results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  results:
+                    type: array
+                    items:
+                      type: object
+                  response:
+                    type: string
+                  error:
+                    type: string
