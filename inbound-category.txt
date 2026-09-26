@@ -1,0 +1,18 @@
+INSERT_UPDATE IntegrationObject; code[unique = true]; integrationType(code) 
+; InboundClassification; INBOUND 
+INSERT_UPDATE IntegrationObjectItem; integrationObject(code)[unique = true]; code[unique = true]; type(code); root[default = false]; itemTypeMatch(code) 
+; InboundClassification	; Category           	; Category           	; 	; 	;  
+; InboundClassification	; ClassificationClass	; ClassificationClass	; true	; 	;  
+; InboundClassification	; Catalog            	; Catalog            	; 	; 	;  
+; InboundClassification	; CatalogVersion     	; CatalogVersion     	; 	; 	;  
+INSERT_UPDATE IntegrationObjectItemAttribute; integrationObjectItem(integrationObject(code), code)[unique = true]; attributeName[unique = true]; attributeDescriptor(enclosingType(code), qualifier); returnIntegrationObjectItem(integrationObject(code), code); unique[default = false]; autoCreate[default = false] 
+; InboundClassification:Category           	; code           	; Category:code                      	;                                     	; true	;  
+; InboundClassification:Category           	; catalogVersion 	; Category:catalogVersion            	; InboundClassification:CatalogVersion	; true	;  
+; InboundClassification:ClassificationClass	; catalogVersion 	; ClassificationClass:catalogVersion 	; InboundClassification:CatalogVersion	; true	;  
+; InboundClassification:ClassificationClass	; supercategories	; ClassificationClass:supercategories	; InboundClassification:Category      	; 	;  
+; InboundClassification:ClassificationClass	; code           	; ClassificationClass:code           	;                                     	; true	;  
+; InboundClassification:ClassificationClass	; name           	; ClassificationClass:name           	;                                     	; 	;  
+; InboundClassification:Catalog            	; id             	; Catalog:id                         	;                                     	; true	;  
+; InboundClassification:CatalogVersion     	; catalog        	; CatalogVersion:catalog             	; InboundClassification:Catalog       	; true	;  
+; InboundClassification:CatalogVersion     	; active         	; CatalogVersion:active              	;                                     	; 	;  
+; InboundClassification:CatalogVersion     	; version        	; CatalogVersion:version             	;                                     	; true	;  

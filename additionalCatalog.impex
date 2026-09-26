@@ -1,0 +1,20 @@
+INSERT_UPDATE Catalog;id[unique=true];name[lang=en];defaultCatalog
+;bhgeGlobalProductCatalog;BH GLOBAL Product Catalog;false
+ 
+INSERT_UPDATE CatalogVersion;catalog(id)[unique=true];version[unique=true];active
+;bhgeGlobalProductCatalog;Online;true
+;bhgeGlobalProductCatalog;Staged;false
+ 
+INSERT_UPDATE BaseStore;uid[unique=true];name[lang=en];languages(isocode);currencies(isocode);net;taxGroup(code);storeLocatorDistanceUnit(code);defaultLanguage(isocode);defaultCurrency(isocode);deliveryModes(code)
+;6210_GE_GE_BaseStore;Druck Limited;en,de,es,fr,pt,ru,ja,zh;AED,ARS,AUD,BHD,BRL,CAD,CLP,CNY,EUR,GBP,HUF,IDR,INR,JPY,KRW,MXN,MYR,NOK,NZD,PHP,PLN,QAR,RMB,RON,RUB,SAR,SEK,SGD,SKK,THB,USD,VEB,VEF,ZAR;false;;;en;GBP;
+;1600_RS_RS_BaseStore;Reuter-Stokes, Inc.;en,de,es,fr,pt,ru,ja,zh;AED,ARS,AUD,BHD,BRL,CAD,CLP,CNY,EUR,GBP,HUF,IDR,INR,JPY,KRW,MXN,MYR,NOK,NZD,PHP,PLN,QAR,RMB,RON,RUB,SAR,SEK,SGD,SKK,THB,USD,VEB,VEF,ZAR;false;;;en;USD;
+;1830_GE_GE_BaseStore;Panametrics LLC;en,de,es,fr,pt,ru,ja,zh;AED,ARS,AUD,BHD,BRL,CAD,CLP,CNY,EUR,GBP,HUF,IDR,INR,JPY,KRW,MXN,MYR,NOK,NZD,PHP,PLN,QAR,RMB,RON,RUB,SAR,SEK,SGD,SKK,THB,USD,VEB,VEF,ZAR;false;;;en;USD;premium-net,standard-gross,standard-net,premium-gross
+;1820_GE_GE_BaseStore;Druck, LLC;en,de,es,fr,pt,ru,ja,zh;AED,ARS,AUD,BHD,BRL,CAD,CLP,CNY,EUR,GBP,HUF,IDR,INR,JPY,KRW,MXN,MYR,NOK,NZD,PHP,PLN,QAR,RMB,RON,RUB,SAR,SEK,SGD,SKK,THB,USD,VEB,VEF,ZAR;false;;;en;USD;premium-net,standard-net,premium-gross,standard-gross
+;6010_BN_BN_BaseStore;Druck Limited, Bently Nevada division;en,de,es,fr,pt,ru,ja,zh;AED,ARS,AUD,BHD,BRL,CAD,CLP,CNY,EUR,GBP,HUF,IDR,INR,JPY,KRW,MXN,MYR,NOK,NZD,PHP,PLN,QAR,RMB,RON,RUB,SAR,SEK,SGD,SKK,THB,USD,VEB,VEF,ZAR;false;;;en;GBP;
+ 
+UPDATE BaseStore;uid[unique=true];catalogs(id)[mode=append]
+;6210_GE_GE_BaseStore;bhgeGlobalProductCatalog
+;1600_RS_RS_BaseStore;bhgeGlobalProductCatalog
+;1830_GE_GE_BaseStore;bhgeGlobalProductCatalog
+;1820_GE_GE_BaseStore;bhgeGlobalProductCatalog
+;6010_BN_BN_BaseStore;bhgeGlobalProductCatalog

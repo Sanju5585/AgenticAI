@@ -1,0 +1,114 @@
+$contentCatalog=bhgeContentCatalog
+$contentCatalogName=bhgeContentCatalog
+$productCatalogName=bhgeGlobalProductCatalog
+$contentCV=catalogVersion(CatalogVersion.catalog(Catalog.id[default=$contentCatalog]),CatalogVersion.version[default=Online])[default=$contentCatalog:Online]
+$productCV=catalogVersion(CatalogVersion.catalog(Catalog.id[default=$productCatalogName]),CatalogVersion.version[default=Online])[default=$productCatalogName:Online]
+
+$druckFeaturedProducts=DEW.IQ,PM880,XMTC
+$druckBestSellerProducts=UTXDR,MOISTURE.IQ
+$druckBanner1title=Welcome to Druck!
+$druckBanner1content=Experts in pressure sensors and test and calibration instrumentation since 1972.<br>We provide peace of mind in the toughest environments
+$druckBanner2title=Test and Calibration instrumentation
+$druckBanner2content=Portable and Handheld Calibration Tools.<br>Portable Calibrators, Pressure Pumps, Indicators and Calibrators, Temperature and Electrical Calibrators, Pressure Controllers
+$druckBanner3title=Pressure Sensors
+$druckBanner3content=Configurable pressure sensors for a wide range of applications and industries.<br>Configurable modular, analogue and digital communication pressure sensors
+$druckNewArrival1title=PACE Tallis
+$druckNewArrival1content=Druck's new transfer standard calibrator, designed for test bench, bench top and panel mount calibration, test and monitoring applications
+$druckNewArrival2title=PV624
+$druckNewArrival2content=Druck’s PV624, a portable hybrid pressure controller, combining manual and automatic technologies, up to 20 bar (300 psi)
+
+$reuterbanner1title=Welcome to Reuter Stokes!
+$reuterbanner1content=For more than 60 years, Reuter-Stokes researchers and engineers have collaborated with customers to design, produce, and install reliable equipment for harsh environments
+$reuterbanner2title=Downhole Sensors
+$reuterbanner2content=Achieve more with sensors and orientation modules built for the smallest spaces and most challenging drilling conditions
+$reuterbanner3title=Flame Sensors
+$reuterbanner3content=Elevate safety, uptime, and operational efficiency with harsh environment flame sensing solutions from a trusted partner
+$reuterbanner4title=Nuclear Instrumentation
+$reuterbanner4content=We are a leader in neutron flux and gamma flux detectors with proven reliability in the harshest environments
+$reuterbanner5title=Radiation Measurement and Monitoring
+$reuterbanner5content=For years, the global neutron scattering research community has relied on Reuter-Stokes for bespoke spectroscopic detectors and data acquisition electronics that deliver the highest levels of precision
+$reuterNewArrival1title=Reuter-Stokes Knowledge Zone
+$reuterNewArrival1content=Welcome to the Reuter-Stokes Knowledge Zone, your source of information to expand your knowledge of mission-critical harsh environment measuring products and services for precise radiation measurement, pressurized and boiling water reactor monitoring, UV flame detection, and downhole sensing for directional drilling
+$reuterNewArrival2title=Reuter-Stokes Product Repair Form
+$reuterNewArrival2content=Fill out this form when requesting return authorization for products to be calibrated, repaired and/or replaced
+
+
+INSERT_UPDATE DSProductsCarouselComponent;$contentCV[unique=true];uid[unique=true]           	;name		                    ;restrictions(uid,$contentCV)                                                                                                        ; componentType(code)	;onlyOneRestrictionMustApply[default=true];products(code,$productCV)
+                                         ; ;generic_druck_DSProductsBestSeller ;Generic Druck Best Seller Component ; ;  BESTSELLER ;false ;$druckBestSellerProducts
+                                         ; ;generic_reuter_DSProductsBestSeller ;Generic Reuter Best Seller Component ; ;  BESTSELLER ;false ;
+                                         ;                       ;guest_druck_DSProductsBestSeller    ;Guest Druck Best SellerComponent      ;																											 ;  BESTSELLER			;										  ;$druckBestSellerProducts
+                                         ; ; guest_reuter_DSProductsBestSeller; Reuter Guest Bestseller Component; ;BESTSELLER ; ;
+                                         ;                       ;6210_DSProductsBestSeller     ;Druck Bestseller Component       ;																											 ;  BESTSELLER			;										  ;$druckBestSellerProducts
+                                         ; ;1600_DSProductsBestSeller;Reuter BestSeller Component ; ; BESTSELLER; ;
+
+INSERT_UPDATE BannerComponent   ;$contentCV[unique=true];&compRef   			;uid[unique=true]     	;name                   ;headline         												;content  																																															 ;urlLink																																								;restrictions(uid,$contentCV)																										;onlyOneRestrictionMustApply[default=true];media(code)[lang=en]
+                                ;                       ;6210_DSHomeBanner1 	;6210_DSHomeBanner1   	;6210_DSHomeBanner1  	;$druckBanner1title                     ;$druckBanner1content 							 ;https://www.bakerhughes.com/druck												;6210_RegionRestriction																												;										  ;druckBannerImg1
+                                ;                       ;6210_DSHomeBanner2 	;6210_DSHomeBanner2   	;6210_DSHomeBanner2  	;$druckBanner2title						;$druckBanner2content 							 ;https://www.bakerhughes.com/druck/test-and-calibration-instrumentation												;6210_RegionRestriction																												;										  ;druckBannerImg2
+                                ;                       ;6210_DSHomeBanner3 	;6210_DSHomeBanner3   	;6210_DSHomeBanner3  	;$druckBanner3title						;$druckBanner3content 							 ;https://www.bakerhughes.com/druck/industrial-pressure-sensors												;6210_RegionRestriction																												;										  ;druckBannerImg3
+
+                                ;                       ;generic_druck_DSHomeBanner1 	;generic_druck_DSHomeBanner1   	;generic_druck_DSHomeBanner1  	;$druckBanner1title						;$druckBanner1content 							 ;https://www.bakerhughes.com/druck												;Inverse_6210_RegionRestriction,																												;false										  ;druckBannerImg1
+                                ;                       ;generic_druck_DSHomeBanner2 	;generic_druck_DSHomeBanner2   	;generic_druck_DSHomeBanner2  	;$druckBanner2title						;$druckBanner2content 							 ;https://www.bakerhughes.com/druck/test-and-calibration-instrumentation												;Inverse_6210_RegionRestriction,																												;false										  ;druckBannerImg2
+                                ;                       ;generic_druck_DSHomeBanner3 	;generic_druck_DSHomeBanner3   	;generic_druck_DSHomeBanner3  	;$druckBanner3title						;$druckBanner3content 							 ;https://www.bakerhughes.com/druck/industrial-pressure-sensors												;Inverse_6210_RegionRestriction,																												;false										  ;druckBannerImg3
+
+                                ;                       ;guest_druck_DSHomeBanner1 	;guest_druck_DSHomeBanner1   	;guest_durck_DSHomeBanner1  	;$druckBanner1title						;$druckBanner1content 							 ;https://www.bakerhughes.com/druck			;																												;										  ;druckBannerImg1
+                                ;                       ;guest_druck_DSHomeBanner2 	;guest_druck_DSHomeBanner2   	;guest_druck_DSHomeBanner2  	;$druckBanner2title						;$druckBanner2content 							 ;https://www.bakerhughes.com/druck/test-and-calibration-instrumentation			;																												;										  ;druckBannerImg2
+                                ;                       ;guest_druck_DSHomeBanner3 	;guest_druck_DSHomeBanner3   	;guest_druck_DSHomeBanner3  	;$druckBanner3title						;$druckBanner3content 							 ;https://www.bakerhughes.com/druck/industrial-pressure-sensors			;																												;										  ;druckBannerImg3
+
+                                ;                       ;1600_DSHomeBanner1 ;1600_DSHomeBanner1 ; 1600_DSHomeBanner1;$reuterbanner1title ;$reuterbanner1content ;https://www.bakerhughes.com/reuter-stokes ;1600_RegionRestriction ; ;reuterBannerImg1
+                                ;                       ;1600_DSHomeBanner2 ;1600_DSHomeBanner2 ; 1600_DSHomeBanner2;$reuterbanner2title ;$reuterbanner2content ;https://www.bakerhughes.com/reuter-stokes/downhole ;1600_RegionRestriction ; ;reuterBannerImg2
+                                ;                       ;1600_DSHomeBanner3 ;1600_DSHomeBanner3 ; 1600_DSHomeBanner3;$reuterbanner3title ;$reuterbanner3content ;https://www.bakerhughes.com/reuter-stokes/flame ;1600_RegionRestriction ; ;reuterBannerImg3
+                                ;                       ;1600_DSHomeBanner4 ;1600_DSHomeBanner4 ; 1600_DSHomeBanner4;$reuterbanner4title ;$reuterbanner4content; https://www.bakerhughes.com/reuter-stokes/nuclear ;1600_RegionRestriction ; ;reuterBannerImg4
+                                ;                       ;1600_DSHomeBanner5 ;1600_DSHomeBanner5 ; 1600_DSHomeBanner5;$reuterbanner5title; $reuterbanner5content; https://www.bakerhughes.com/reuter-stokes/radiation ; 1600_RegionRestriction;;reuterBannerImg5
+
+                                ;                       ;guest_reuter_DSHomeBanner1 	;guest_reuter_DSHomeBanner1   	;guest_reuter_DSHomeBanner1  	;$reuterbanner1title											;$reuterbanner1content 																																						 ;https://www.bakerhughes.com/reuter-stokes			;																												;										  ;reuterBannerImg1
+                                ;                       ;guest_reuter_DSHomeBanner2 	;guest_reuter_DSHomeBanner2   	;guest_reuter_DSHomeBanner2  	;$reuterbanner2title ;$reuterbanner2content ;https://www.bakerhughes.com/reuter-stokes/downhole		;																												;										  ;reuterBannerImg2
+                                ;                       ;guest_reuter_DSHomeBanner3 	;guest_reuter_DSHomeBanner3   	;guest_reuter_DSHomeBanner3  	;$reuterbanner3title											;$reuterbanner3content 																																						 ;https://www.bakerhughes.com/reuter-stokes/flame			;																												;										  ;reuterBannerImg3
+                                ;                       ;guest_reuter_DSHomeBanner4 ;guest_reuter_DSHomeBanner4 ; guest_reuter_DSHomeBanner4;$reuterbanner4title ;$reuterbanner4content; https://www.bakerhughes.com/reuter-stokes/nuclear ; ; ;reuterBannerImg4
+                                ;                       ;guest_reuter_DSHomeBanner5 ;guest_reuter_DSHomeBanner5 ; guest_reuter_DSHomeBanner5;$reuterbanner5title; $reuterbanner5content; https://www.bakerhughes.com/reuter-stokes/radiation ; ;;reuterBannerImg5
+
+                                ;                       ;generic_reuter_DSHomeBanner1 	;generic_reuter_DSHomeBanner1   	;generic_reuter_DSHomeBanner1  	;$reuterbanner1title						;$reuterbanner1content 							 ;https://www.bakerhughes.com/reuter-stokes												;Inverse_1600_RegionRestriction,																												;false										  ;reuterBannerImg1
+                                ;                       ;generic_reuter_DSHomeBanner2 	;generic_reuter_DSHomeBanner2   	;generic_reuter_DSHomeBanner2  	;$reuterbanner2title ;$reuterbanner2content ;https://www.bakerhughes.com/reuter-stokes/downhole												;Inverse_1600_RegionRestriction,																												;false										  ;reuterBannerImg2
+                                ;                       ;generic_reuter_DSHomeBanner3 	;generic_reuter_DSHomeBanner3   	;generic_reuter_DSHomeBanner3  	;$reuterbanner3title						;$reuterbanner3content 							 ;https://www.bakerhughes.com/reuter-stokes/flame												;Inverse_1600_RegionRestriction,																												;false										  ;reuterBannerImg3
+                                ;                       ;generic_reuter_DSHomeBanner4 ;generic_reuter_DSHomeBanner4 ; generic_reuter_DSHomeBanner4;$reuterbanner4title ;$reuterbanner4content; https://www.bakerhughes.com/reuter-stokes/nuclear ;Inverse_1600_RegionRestriction, ;false ;reuterBannerImg4
+                                ;                       ;generic_reuter_DSHomeBanner5 ;generic_reuter_DSHomeBanner5 ; generic_reuter_DSHomeBanner5;$reuterbanner5title; $reuterbanner5content; https://www.bakerhughes.com/reuter-stokes/radiation ; Inverse_1600_RegionRestriction,;false;reuterBannerImg5
+
+INSERT_UPDATE ContentSlot	;$contentCV[unique=true];uid[unique=true]              ;name						;active	;cmsComponents(uid,$contentCV)
+                            ;                       ;DSDruckProductsContentSlot  ;DSDruckProductsContentSlot;true	;generic_druck_DSProductsFeatured,guest_druck_DSProductsFeatured,6210_DSProductsFeatured,generic_druck_DSProductsBestSeller,guest_druck_DSProductsBestSeller,6210_DSProductsBestSeller
+                            ;                       ;DSReuterProductsContentSlot  ;DSReuterProductsContentSlot;false	;generic_reuter_DSProductsFeatured,guest_reuter_DSProductsFeatured,1600_DSProductsFeatured,generic_reuter_DSProductsBestSeller,guest_reuter_DSProductsBestSeller,1600_DSProductsBestSeller
+
+
+INSERT_UPDATE ContentSlotForPage;$contentCV[unique=true];uid[unique=true]                ;position[unique=true]          ;page(uid,$contentCV)[unique=true];contentSlot(uid,$contentCV)[unique=true]
+                                ;                       ;DSDruckProductsContentSlot    ;DSDruckProductsContentSlot1  ;DruckHomepage;DSDruckProductsContentSlot
+                                ;                       ;DSReuterProductsContentSlot    ;DSReuterProductsContentSlot1  ;ReuterHomepage;DSReuterProductsContentSlot
+
+INSERT_UPDATE ContentSlot	;$contentCV[unique=true];uid[unique=true]              ;name						;active	;cmsComponents(&compRef)
+                             ;                       ;DruckHomeBannerSlot         ;DruckHomeBannerSlot       ;true	;6210_DSHomeBanner1,6210_DSHomeBanner2,6210_DSHomeBanner3,guest_druck_DSHomeBanner1,guest_druck_DSHomeBanner2,guest_druck_DSHomeBanner3,generic_druck_DSHomeBanner1,generic_druck_DSHomeBanner2,generic_druck_DSHomeBanner3
+                             ;                       ;ReuterHomeBannerSlot         ;ReuterHomeBannerSlot       ;true	;1600_DSHomeBanner1,1600_DSHomeBanner2,1600_DSHomeBanner3,1600_DSHomeBanner4,1600_DSHomeBanner5,guest_reuter_DSHomeBanner1,guest_reuter_DSHomeBanner2,guest_reuter_DSHomeBanner3,guest_reuter_DSHomeBanner4,guest_reuter_DSHomeBanner5,generic_reuter_DSHomeBanner1,generic_reuter_DSHomeBanner2,generic_reuter_DSHomeBanner3,generic_reuter_DSHomeBanner4,generic_reuter_DSHomeBanner5
+
+INSERT_UPDATE ContentSlotForPage;$contentCV[unique=true];uid[unique=true]                ;position[unique=true]          ;page(uid,$contentCV)[unique=true];contentSlot(uid,$contentCV)[unique=true]
+                                ;                       ;DruckHomeBannerSlot           ;DruckBannerContentSlot       ;DruckHomepage                  ;DruckHomeBannerSlot
+                                ;                       ;ReuterHomeBannerSlot           ;ReuterBannerContentSlot       ;ReuterHomepage                  ;ReuterHomeBannerSlot
+
+INSERT_UPDATE BannerComponent   ;$contentCV[unique=true];&compRef   ;uid[unique=true]     ;name                       									;headline         						;content   																																							;urlLink																																																			;restrictions(uid,$contentCV) 																									;onlyOneRestrictionMustApply[default=true];media(code)[lang=en]
+                                ;						;6210_DSHomeNewArrival1 		  ;6210_DSHomeNewArrival1     ;6210_DSHomeNewArrival1  			;$druckNewArrival1title	 	;$druckNewArrival1content				;https://www.bakerhughes.com/druck/pressure-controllers-and-indicators-pace/pace-tallis													;6210_RegionRestriction																											;										  ;druckNewArrivalImg1
+                                ;                       ;6210_DSHomeNewArrival2 		  ;6210_DSHomeNewArrival2     ;6210_DSHomeNewArrival2 			;$druckNewArrival2title ;$druckNewArrival2content																														;https://www.bakerhughes.com/druck/test-and-calibration-instrumentation/multifunction-calibrators-2/pv624-portable-hybrid-pressure-controller															;6210_RegionRestriction																											;										  ;druckNewArrivalImg2
+                                ;						;guest_druck_DSHomeNewArrival1 		  ;guest_druck_DSHomeNewArrival1    ;guest_druck_DSHomeNewArrival1  		;$druckNewArrival1title	 	;$druckNewArrival1content				;https://www.bakerhughes.com/druck/pressure-controllers-and-indicators-pace/pace-tallis													;	  																									;										  ;druckNewArrivalImg1
+                                ;                       ;guest_druck_DSHomeNewArrival2 		  ;guest_druck_DSHomeNewArrival2    ;guest_druck_DSHomeNewArrival2  		;$druckNewArrival2title ;$druckNewArrival2content																														;https://www.bakerhughes.com/druck/test-and-calibration-instrumentation/multifunction-calibrators-2/pv624-portable-hybrid-pressure-controller															;	  																									;										  ;druckNewArrivalImg2
+                                ;						;generic_druck_DSHomeNewArrival1 		  ;generic_druck_DSHomeNewArrival1  ;generic_druck_DSHomeNewArrival1  		;$druckNewArrival1title	 	;$druckNewArrival1content				;https://www.bakerhughes.com/druck/pressure-controllers-and-indicators-pace/pace-tallis													;   ;false									  ;druckNewArrivalImg1
+                                ;                       ;generic_druck_DSHomeNewArrival2 		  ;generic_druck_DSHomeNewArrival2  ;generic_druck_DSHomeNewArrival2  		;$druckNewArrival2title ;$druckNewArrival2content																														;https://www.bakerhughes.com/druck/test-and-calibration-instrumentation/multifunction-calibrators-2/pv624-portable-hybrid-pressure-controller															;   ;false									  ;druckNewArrivalImg2
+
+                                ;						;1600_DSHomeNewArrival1 		  ;1600_DSHomeNewArrival1     ;1600_DSHomeNewArrival1  			;$reuterNewArrival1title	 	;$reuterNewArrival1content				;https://www.bakerhughes.com/reuter-stokes/knowledge-zone													;1600_RegionRestriction																											;										  ;reuterNewArrivalImg1
+                                ;                       ;1600_DSHomeNewArrival2 		  ;1600_DSHomeNewArrival2     ;1600_DSHomeNewArrival2 			;$reuterNewArrival2title ;$reuterNewArrival2content																														;https://www.bakerhughes.com/form/reuter-stokes/Product-repair															;1600_RegionRestriction																											;										  ;reuterNewArrivalImg2
+                                ;						;guest_reuter_DSHomeNewArrival1 		  ;guest_reuter_DSHomeNewArrival1    ;guest_reuter_DSHomeNewArrival1  		;$reuterNewArrival1title	 	;$reuterNewArrival1content				;https://www.bakerhughes.com/reuter-stokes/knowledge-zone													;	  																									;										  ;reuterNewArrivalImg1
+                                ;                       ;guest_reuter_DSHomeNewArrival2 		  ;guest_reuter_DSHomeNewArrival2    ;guest_reuter_DSHomeNewArrival2  		;$reuterNewArrival2title ;$reuterNewArrival2content																														;https://www.bakerhughes.com/form/reuter-stokes/Product-repair															;	  																									;										  ;reuterNewArrivalImg2
+                                ;						;generic_reuter_DSHomeNewArrival1 		  ;generic_reuter_DSHomeNewArrival1  ;generic_reuter_DSHomeNewArrival1  		;$reuterNewArrival1title	 	;$reuterNewArrival1content				;https://www.bakerhughes.com/reuter-stokes/knowledge-zone													;   ;false									  ;reuterNewArrivalImg1
+                                ;                       ;generic_reuter_DSHomeNewArrival2 		  ;generic_reuter_DSHomeNewArrival2  ;generic_reuter_DSHomeNewArrival2  		;$reuterNewArrival2title ;$reuterNewArrival2content																														;https://www.bakerhughes.com/form/reuter-stokes/Product-repair															;   ;false									  ;reuterNewArrivalImg2
+
+
+INSERT_UPDATE ContentSlot	;$contentCV[unique=true];uid[unique=true]              ;name						;active	;cmsComponents(&compRef)
+                             ;                       ;DruckNewArrivalSlot         ;DruckNewArrivalSlot       ;true	;6210_DSHomeNewArrival1,6210_DSHomeNewArrival2,guest_druck_DSHomeNewArrival1,guest_druck_DSHomeNewArrival2,generic_druck_DSHomeNewArrival1,generic_druck_DSHomeNewArrival2
+                             ;                       ;ReuterNewArrivalSlot         ;ReuterNewArrivalSlot       ;true	;1600_DSHomeNewArrival1,1600_DSHomeNewArrival2,guest_reuter_DSHomeNewArrival1,guest_reuter_DSHomeNewArrival2,generic_reuter_DSHomeNewArrival1,generic_reuter_DSHomeNewArrival2
+
+INSERT_UPDATE ContentSlotForPage;$contentCV[unique=true];uid[unique=true]                ;position[unique=true]          ;page(uid,$contentCV)[unique=true];contentSlot(uid,$contentCV)[unique=true]
+                                ;                       ;DruckNewArrivalSlot           ;DruckNewArrivalSlot       ;DruckHomepage                  ;DruckNewArrivalSlot
+                                ;                       ;ReuterNewArrivalSlot           ;ReuterNewArrivalSlot       ;ReuterHomepage                  ;ReuterNewArrivalSlot

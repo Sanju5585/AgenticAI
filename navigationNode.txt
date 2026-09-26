@@ -1,0 +1,7 @@
+INSERT_UPDATE CMSNavigationNode;uid[unique=true];catalogVersion(catalog(id),version)[unique=true];name;visible
+;"AllProductsNavNode";"GEEdge-ContentCatalog:Online";"AllProductsNode";"true"
+;"OrdersNavNode";"GEEdge-ContentCatalog:Online";"OrdersNode";"true"
+ 
+INSERT_UPDATE NavigationBarComponent;uid[unique=true];name;visible;catalogVersion(catalog(id),version)[unique=true];navigationNode(uid,catalogVersion(catalog(id),version));link(uid,catalogVersion(catalog(id),version));wrapAfter;container;restricted
+;"AllProductsNavBarComponent";"All Products Nav Bar Component";"true";"GEEdge-ContentCatalog:Online";"AllProductsNavNode:GEEdge-ContentCatalog:Online";"AllProductsLink:GEEdge-ContentCatalog:Online";"10";"false";"false"
+;"OrdersNavBarComponent";"Orders Nav Bar Component";"true";"GEEdge-ContentCatalog:Online";"OrdersNavNode:GEEdge-ContentCatalog:Online";"OrdersLink:GEEdge-ContentCatalog:Online";"10";"false";"false"

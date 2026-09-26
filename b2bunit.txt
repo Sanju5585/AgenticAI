@@ -1,0 +1,6 @@
+INSERT_UPDATE B2BUnit;uid[unique=true];name
+;"GEEDGENETPRIMESOLDTO";"GEEDGENETPRIMESOLDTO"
+ 
+INSERT_UPDATE B2BUserGroup;uid[unique=true];name;unit(uid)
+;"bhgefptb2busergroup";"BHGE FPT User Group";"GEEDGENETPRIMESOLDTO"
+;"getescob2busergroup";"GE Tesco User Group";"GEEDGENETPRIMESOLDTO"
